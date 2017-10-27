@@ -1,9 +1,9 @@
-# Sud Web 2017
+# Sud Web 2018
 
-[![Build Status](https://travis-ci.org/sudweb/2017.svg?branch=master)](https://travis-ci.org/sudweb/2017)
+[![Build Status](https://travis-ci.org/sudweb/2018.svg?branch=master)](https://travis-ci.org/sudweb/2018)
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/sud-web/sud-web)
 
-Site internet du cycle de conférences annuel Sud Web, dont la 7e édition aura lieu à Aix-en-Provence les 19 et 20 mai 2017.
+Site internet du cycle de conférences annuel Sud Web, dont la 7e édition aura lieu à Aix-en-Provence les 19 et 20 mai 2018.
 
 [https://sudweb.fr/](https://sudweb.fr/)
 
@@ -33,7 +33,7 @@ $ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 Si vous n'avez pas déjà cloné le dépot :
 ```bash
-$ git clone https://github.com/sudweb/2017.git && cd 2017
+$ git clone https://github.com/sudweb/2018.git && cd 2018
 ```
 Si bundler n'est pas installé
 ```bash
@@ -61,7 +61,7 @@ $ bundle exec jekyll serve
 
 Si vous modifiez le fichier `_config.yml`, il faut couper et relancer Jekyll.
 
-Le site est maintenant accessible en local à l'adresse http://127.0.0.1:4000/2017/
+Le site est maintenant accessible en local à l'adresse http://127.0.0.1:4000/2018/
 
 Pour plus d'information sur l'utilisation de Jekyll, reportez-vous à la [documentation officielle](http://jekyllrb.com/docs/home/).
 
@@ -71,11 +71,11 @@ Pour plus d'information sur l'utilisation de Jekyll, reportez-vous à la [docume
 
 ## Contribution
 
-Pour toute demande, merci de [créer une issue](https://github.com/sudweb/2017/issues/new) sur GitHub.
+Pour toute demande, merci de [créer une issue](https://github.com/sudweb/2018/issues/new) sur GitHub.
 
-Si vous souhaitez nous aider, vous pouvez [copier](https://help.github.com/articles/fork-a-repo/) le dépôt, faire vos modifications dans une nouvelle branche et [faire une demande de fusion](https://github.com/sudweb/2017/pulls).
+Si vous souhaitez nous aider, vous pouvez [copier](https://help.github.com/articles/fork-a-repo/) le dépôt, faire vos modifications dans une nouvelle branche et [faire une demande de fusion](https://github.com/sudweb/2018/pulls).
 
-Toute modification doit faire l'objet d'une [pull request](https://github.com/sudweb/2017/pulls) et doit passer les tests avant de pouvoir être fusionnée.
+Toute modification doit faire l'objet d'une [pull request](https://github.com/sudweb/2018/pulls) et doit passer les tests avant de pouvoir être fusionnée.
 
 ## Tests
 
