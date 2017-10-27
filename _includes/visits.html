@@ -1,0 +1,18 @@
+<div class="grid-2">
+  {% assign visits = site.data.visits %}
+  {% for visit in visits %}
+  <section>
+    {% if visit.website %}
+    <h3 class="tiny-title-size uppercase">
+      <a class="white link" target="_blank" href="{{ visit.website }}" title="Voir le site">
+        {{ visit.name }}
+        <svg class="svg-size" viewBox="0 0 400 400"><use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#link" /></svg>
+      </a>
+    </h3>
+    {% else %}
+    <h3 class="tiny-title-size uppercase">{{ visit.name }}</h3>
+    {% endif %}
+    <p class="tiny-size">{{ visit.description }}</p>
+  </section>
+  {% endfor %}
+</div>

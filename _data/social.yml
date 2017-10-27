@@ -1,0 +1,10 @@
+- name: facebook
+  url: https://www.facebook.com/SudWeb
+- name: twitter
+  url: https://twitter.com/sudweb
+- name: vimeo
+  url: https://vimeo.com/sudweb
+- name: flickr
+  url: https://www.flickr.com/people/sudweb/
+- name: slack
+  url: http://sudweb.herokuapp.com/

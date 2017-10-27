@@ -1,0 +1,61 @@
+<footer class="page-footer">
+  <div class="wrapper">
+    <div class="grid-3">
+      <section>
+        <h2 class="tiny-title-size uppercase">Épisodes précédents</h2>
+        <nav>
+          <ul>
+            {% for edition in site.data.editions reversed %}
+            <li>
+              <a href="https://sudweb.fr/{{ edition.year }}">{{ edition.year }} à {{ edition.town }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <h2 class="tiny-title-size uppercase">Pour en savoir plus</h2>
+        <nav>
+          <ul>
+            <li><a href="https://sudweb.fr/blog/">Blog</a></li>
+            <li><a href="{{ "/contact/" | relative_url }}">Contact</a></li>
+            <li><a href="{{ "/manifeste" | relative_url }}">Manifeste</a></li>
+            <li><a href="{{ "/mentions-legales/" | relative_url }}">Mentions légales</a></li>
+
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <h2 class="tiny-title-size uppercase">Who you gonna call?</h2>
+	<form action="//sudweb.us2.list-manage.com/subscribe/post?u=af19b58cf514c01eca3f7652e&amp;id=b579f5b507" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form validate" target="_blank" rel="noopener" novalidate>
+          <label for="mce-EMAIL">Inscrivez-vous à la newsletter</label>
+          <div class="row">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="adresse mail" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_af19b58cf514c01eca3f7652e_b579f5b507" tabindex="-1" value=""></div>
+            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button uppercase">ok</button>
+          </div>
+        </form>
+        <ul class="social-links">
+          {% for social in site.data.social %}
+          <li>
+            <a href="{{ social.url }}" class="button-type6" title="{{ site.title }} sur {{ social.name | capitalize }}">
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1"><use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#{{ social.name }}" /></svg>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+  </div>
+</footer>
+
+<div class="page-ground">
+  <div class="wrapper text-center">
+    <p class="small-size">
+      Gracieusement hébergé par <a href="https://alwaysdata.com">alwaysdata</a>.
+    </p>
+  </div>
+</div>
+
+{% include scripts.html %}

@@ -1,0 +1,37 @@
+language: ruby
+cache: bundler
+sudo: false
+rvm: 2.3.3
+before_install:
+- openssl aes-256-cbc -K $encrypted_d803f9bb4248_key -iv $encrypted_d803f9bb4248_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
+install:
+- travis_retry script/bootstrap
+before_script:
+- mkdir -p /tmp/bin
+- curl -SsL https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64 > /tmp/bin/jq
+- chmod +x /tmp/bin/jq
+- export PATH=/tmp/bin:$PATH
+- script/gen-attendees
+script: script/cibuild
+addons:
+  ssh_known_hosts: ssh-sudweb.alwaysdata.net
+before_deploy:
+- eval "$(ssh-agent -s)"
+- chmod 600 $TRAVIS_BUILD_DIR/deploy_rsa
+- ssh-add $TRAVIS_BUILD_DIR/deploy_rsa
+after_deploy:
+- ssh-agent -k
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet --exclude 'deploy_rsa*' $TRAVIS_BUILD_DIR/_site/2018/
+    sudweb@ssh-sudweb.alwaysdata.net:www/2018
+  on:
+    branch: master
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - WEEZEVENT_EVENT_ID=218160
+  - secure: mLoKgX/dnVXcLsVsFxgnKzt3JmxeKkcsJ9r45dsoia28UO2u+BPZ0KuqaIEPxeaHB4M5Z6Fj7YMccHWUCBCKdzLvwVM78wDnM+hCu4Yav9NG3SpZDQGNQEq3G0eU/Fmoq8NLhnQeHFOMC60h4BTaSDVfAoPgcuRnLVKSo+r/8bqWIqA6NqpfTVeExFW8OlLynhdircS/S1dkonrR7JNYnk9nfHRve39g8Xtu3haz7yoqYIAwPHtjkMA1KtojcVzB/QTM+utrO2/ADWluBSs85j5qrSLHMTgp/KrHpY/TweFD4dvE817VFKHWhHOtFhbjMAFu+4GhgnEENEOP9+QaEXkitXgv48RQri+3Dp06PkeQu+LyYF98XqlcFZDi3UGELfsyZABbfLE6VRCj8KZaonCf0bH1jIYrzlfIYqsX7NQ/WKORSZqo0NCTNzJJ6Mj3itM6fFGy+qnxiGzxmSxYFt62zg8epkSg3X7ik51UE9CU5SAXZ26xWSvIYVE8MYrbgb7vs/r6pO8047lH/FkAmNEXTkA2rk9Ppj/B76xdDqM1lSqjzcNy3qfhUMO3LFrzKc2VKG1Otb/XYS01iQFrI5Xa7OzX2ZG93ivNbqXnDdxNd5C0PziTMZb0iLEsfmtgmliJzXnJp9TTYsrR9Ypr5eBMSR34fYgz4JE6YzeqK4M=
+  - secure: gyC+CS4XPoISGeZOdAnIoOTFI1c4YniCenDwc3YcOr5ZPq+J4eHwjClonN61YkkcurN57USZM6CHs3JFUKZ6ommKtSP9qTKCXhuupC9S2DXOvCqmnRzZf0eRSrf4gA0GtLFnXO6Oi3SHx7NW3PAxTZIlE1HIl08CM78AIgC9NiLdu1z2kKx5SEhuyOMFnHE5qLGorKyteG18H9UY7MSuQyNpMogFSAChaLB40aaQmflLDzqgAtoMJe2CDhX5ZPEtuiAACgOaICwv8tNK2AjnAi4T/Do9nvEA/m0VHQ3Yb/pJAeWu2lahTyao9XioInn9a9uzZWJMdrFgts9l+crWIWdfWY4a4aORhazOPEEAS7Cr4OJPVgezAoJSCF1BpkPdap9YglxUXFckVOoX0iEW4G1bMCuS6sMleDpE3I105nbiaoBR8FB/CXGbM3iX2eZGjtsXzvvq+u9CymwcQLwcTZ9CyJNUUUVflRN8aetPsegVzKa/uC7DkkWjhB+4lyPLhjRso9kN/8WH+SkpdeDOsF9exZjh+/ZyIHbSSwh9truiWoxmQLMSp+fPpVP8DWSGqPYuO/JM3dY5bMfcXKsN5IjqdIlwwcu9c+OUQX3lT3rE7X0liqndsvaSdTIAzufFK2LRjrGemJs5zU9dDxyYSa1QWS880OaUGu9FH6J011k=
