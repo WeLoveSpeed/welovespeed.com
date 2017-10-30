@@ -2,8 +2,11 @@
    Team styles
    ========================================================================== */
 
+/* ============== */
 /* bertrandkeller */
+/* ============== */
 
+/* Navigation home */
 .main-nav__home {
   .logo {
     width: 100%;
@@ -20,94 +23,34 @@
     color: #fff;
     text-align: center;
   }
-}/* bertrandkeller */
+}
 
-.main-nav__home {
-  .logo {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-  }
-  .sw-logo {
-    width: 35vmin;
-    height: 35vmin;
-  }
-  span {
-    display: block;
-    font-family: $title-font-family;
-    color: #fff;
-    text-align: center;
-  }
-}/* bertrandkeller */
+/* Avatar */
 
-.main-nav__home {
-  .logo {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-  }
-  .sw-logo {
-    width: 35vmin;
-    height: 35vmin;
-  }
-  span {
-    display: block;
-    font-family: $title-font-family;
-    color: #fff;
-    text-align: center;
-  }
-}/* bertrandkeller */
+.attendee-avatar {
+  filter: grayscale(1);
+}
 
-.main-nav__home {
-  .logo {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-  }
-  .sw-logo {
-    width: 35vmin;
-    height: 35vmin;
-  }
-  span {
-    display: block;
-    font-family: $title-font-family;
-    color: #fff;
-    text-align: center;
-  }
-}/* bertrandkeller */
+/* Image background */
 
-.main-nav__home {
-  .logo {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-  }
-  .sw-logo {
-    width: 35vmin;
-    height: 35vmin;
-  }
-  span {
-    display: block;
-    font-family: $title-font-family;
-    color: #fff;
-    text-align: center;
-  }
-}/* bertrandkeller */
+.forum-banner[data-loaded='true'] {
+	background-image: url(../images/forum-large.jpg);
+}
 
-.main-nav__home {
-  .logo {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
+.hug-banner[data-loaded='true'] {
+	background-image: url(../images/hug-large.jpg);
+}
+
+[data-loaded='true'] {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
   }
-  .sw-logo {
-    width: 35vmin;
-    height: 35vmin;
-  }
-  span {
-    display: block;
-    font-family: $title-font-family;
-    color: #fff;
-    text-align: center;
+  to {
+    opacity: 1;
   }
 }

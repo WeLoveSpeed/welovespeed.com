@@ -36,7 +36,7 @@ Voici les valeurs que nous partageons et véhiculons :
   {% assign members = site.data.thym_members | sort: "name" %}
   {% for member in members %}
   <section class="attendee">
-    <figure class="attendee-avatar"><img src="https://twitter.com/{{ member.twitter }}/profile_image?size=bigger" alt="">
+    <figure class="attendee-avatar"><img class="lozad" src="https://twitter.com/{{ member.twitter }}/profile_image?size=bigger" data-src="https://twitter.com/{{ member.twitter }}/profile_image?size=original" alt="{{ member.name }}">
     </figure>
     <h3 class="attendee-name"><a href="https://twitter.com/{{ member.twitter }}">{{ member.name }}</a></h3>
   </section>
