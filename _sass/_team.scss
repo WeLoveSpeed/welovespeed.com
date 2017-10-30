@@ -41,6 +41,10 @@
 	background-image: url(../images/hug-large.jpg);
 }
 
+.thanks-banner[data-loaded='true'] {
+	background-image: url(../images/public-large.jpg);
+}
+
 [data-loaded='true'] {
   animation-name: fade;
   animation-duration: 2s;

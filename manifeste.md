@@ -4,7 +4,7 @@ description: ""
 permalink: /manifeste/
 ---
 
-<div class="thanks-banner"></div>
+<div class="thanks-banner lozad" data-background-image="/assets/images/public-large.jpg"></div>
 
 <div class="wrapper" markdown="1">
 
