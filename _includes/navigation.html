@@ -1,4 +1,4 @@
-<nav class="main-nav">
+<nav class="main-nav{% if page.url =='/' %} main-nav__home{% endif %}">
   <div class="wrapper">
     <a class="logo" href="{{ "/" | relative_url }}" title="Accueil" data-event-category="cta" data-event-action="click" data-event-label="navigation-logo">
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="sw-logo redbg" viewBox="0 0 500 276.37">
@@ -11,6 +11,7 @@
         <use id="sw-wave" xlink:href="{{ "/assets/images/symbol-defs.svg#sw-wave" | relative_url }}" />
       </svg>
     </a>
+    {% if page.url =='/' %}<span class="great-title-size">Sud Web 2018</span>{% endif %}
     {% comment %}
     {% for link in site.data.navigation.primary %}
     {% if page.url == link.url %}
