@@ -3,8 +3,8 @@
    ========================================================================== */
 
 .main-nav {
-	background: $nav-bg-first;
-	animation: nav-alternate $header-anim-duration infinite cubic-bezier(unquote($easeInOutCubic));
+	background: $nav-bg-second;
+	// animation: nav-alternate $header-anim-duration infinite cubic-bezier(unquote($easeInOutCubic));
 	.logo,
 	.nav {
 		display: inline-block;
