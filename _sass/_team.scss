@@ -3,19 +3,20 @@
    ========================================================================== */
 
 /* ============== */
-/* bertrandkeller */
+/* bertrandkeller + lellex */
 /* ============== */
 
 /* Navigation home */
 .main-nav__home {
+  padding-bottom: 1.5em;
   .logo {
     width: 100%;
     text-align: center;
     text-decoration: none;
   }
   .sw-logo {
-    width: 35vmin;
-    height: 35vmin;
+    width: 30vmin;
+    height: 26vmin;
   }
   span {
     display: block;
@@ -23,6 +24,13 @@
     color: #fff;
     text-align: center;
   }
+}
+
+.title-plus {
+  font-weight: normal;
+  font-family: "Roboto",arial,sans-serif;
+  display: block;
+  line-height: 1;
 }
 
 /* Avatar */
@@ -33,12 +41,12 @@
 
 /* Image background */
 
-.forum-banner[data-loaded='true'] {
-	background-image: url(../images/forum-large.jpg);
+.anduze-banner[data-loaded='true'] {
+	background-image: url(../images/anduze/bambouseraie-1.jpg);
 }
 
-.hug-banner[data-loaded='true'] {
-	background-image: url(../images/hug-large.jpg);
+.anduze2-banner[data-loaded='true'] {
+	background-image: url(../images/anduze/bambouseraie-3.jpg);
 }
 
 .thanks-banner[data-loaded='true'] {
