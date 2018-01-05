@@ -38,14 +38,6 @@
 	}
 	.sw-logo {
 		width: 7em; /*height: auto;*/ height: 3.875em;
-		[id='sw-hands-shadows'],
-		[id='sw-heart-top'],
-		[id='sw-wave-shadow'] {
-			animation: sw-logo-alternate-a $header-anim-duration infinite cubic-bezier(unquote($easeInOutCubic));
-		}
-		[id='sw-wave'] {
-			animation: sw-logo-alternate-b $header-anim-duration infinite cubic-bezier(unquote($easeInOutCubic));
-		}
 	}
 }
 
