@@ -35,12 +35,31 @@
 
 /* Image background */
 
-.anduze-banner[data-loaded='true'] {
-	background-image: url(../images/anduze/bambouseraie-1.jpg);
+.lozad .credits {
+  display: none;
 }
 
-.anduze2-banner[data-loaded='true'] {
-	background-image: url(../images/anduze/bambouseraie-3.jpg);
+.lozad[data-loaded='true'] {
+  background-size: cover;
+  position: relative;
+
+  .credits {
+    display: block;
+    background-color: rgba($darkgrey, 0.7);
+    text-shadow: 0 1px 0 black;
+    color: $alternate-color;
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1rem;
+
+    a {
+      color: $white;
+    }
+  }
 }
 
 .thanks-banner[data-loaded='true'] {
