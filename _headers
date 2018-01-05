@@ -1,16 +1,10 @@
-[[headers]]
-  for = "/*.html"
-  [headers.values]
-    Cache-Control = "max-age=900, public"
-  for = "/*.ico"
-  [headers.values]
-    Cache-Control = "max-age=7200, public"
-  for = "/*.jpg"
-  [headers.values]
-    Cache-Control = "max-age=7200, public"
-  for = "/*.png"
-  [headers.values]
-    Cache-Control = "max-age=7200, public"
-  for = "/*.png"
-  [headers.values]
-    Cache-Control = "max-age=7200, public"
+/*.html
+  Cache-Control:max-age=900, public
+/*.ico
+  Cache-Control:max-age=7200, public
+/*.jpg
+  Cache-Control:max-age=7200, public
+/*.jpeg
+  Cache-Control:max-age=7200, public
+/*.png
+  Cache-Control:max-age=7200, public
