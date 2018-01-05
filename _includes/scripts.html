@@ -11,6 +11,7 @@
     lozad('.lozad', {
       load: function (el) {
         el.src = el.dataset.src;
+        el.srcset = el.dataset.srcset;
         el.onload = function () {
           el.classList.add('fade')
         }

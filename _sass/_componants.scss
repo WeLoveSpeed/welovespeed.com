@@ -246,6 +246,11 @@
 			border-radius: 50%;
 		}
 	}
+	@media (max-width: $media-break-point) {
+		.attendee-avatar {
+			display: none;
+		}
+	}
 	.attendee-name {
 		margin: 0;
 		font-size: $small-font-size;
