@@ -66,6 +66,9 @@ defaults:
       layout: default
       image: /assets/images/twittercard.png
 
+include:
+  - _headers
+
 exclude:
   - .editorconfig
   - .gitattributes

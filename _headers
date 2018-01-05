@@ -1,0 +1,10 @@
+/*.html
+  Cache-Control:max-age=900, public
+/*.ico
+  Cache-Control:max-age=7200, public
+/*.jpg
+  Cache-Control:max-age=7200, public
+/*.jpeg
+  Cache-Control:max-age=7200, public
+/*.png
+  Cache-Control:max-age=7200, public
