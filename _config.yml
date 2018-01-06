@@ -3,7 +3,7 @@
 title: Sud Web
 tagline: les 25 et 26 mai 2018 à Anduze
 description: Deux journées pour faire le plein d'inspiration entre super-héros du web.
-logo: images/logo-sud-web.png
+logo: /assets/images/twittercard.png
 locale: fr
 url: https://sudweb.fr
 repository: sudweb/2018
@@ -23,7 +23,11 @@ social:
   links:
     - https://twitter.com/SudWeb
     - https://www.facebook.com/SudWeb
-    - http://lanyrd.com/series/sudweb/
+facebook:
+  publisher: https://www.facebook.com/SudWeb/
+
+github:
+  url: https://sudweb.fr/2018
 
 # Services configuration
 
@@ -64,7 +68,10 @@ defaults:
       type: pages
     values:
       layout: default
-      image: /assets/images/twittercard.png
+      image: 
+        path: /assets/images/twittercard.png?date=20180106
+        width: 560
+        height: 300
 
 include:
   - _headers
