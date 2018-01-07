@@ -5,7 +5,7 @@ layout: compress
 {% include head.html %}
 <body itemscope itemtype="http://schema.org/WebPage">
   {% include navigation.html %}
-  {{ content | microtypo: 'fr_FR' }}
+  {{ content | microtypo: page.locale }}
   {% include footer.html %}
 </body>
 </html>

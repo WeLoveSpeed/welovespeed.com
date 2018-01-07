@@ -8,6 +8,7 @@ locale: fr
 url: https://sudweb.fr
 repository: sudweb/2018
 baseurl: /2018
+locale: fr_FR
 
 ## SEO
 
@@ -67,9 +68,22 @@ defaults:
       path: ""
       type: pages
     values:
+      locale: fr_FR
       layout: default
       image: 
         path: /assets/images/twittercard.png?date=20180106
+        width: 560
+        height: 300
+  -
+    scope:
+      path: "en"
+      type: pages
+    values:
+      baseurl: "/2018/en"
+      locale: en_US
+      layout: default
+      image: 
+        path: /assets/images/twittercard-en.png?date=20180107
         width: 560
         height: 300
 

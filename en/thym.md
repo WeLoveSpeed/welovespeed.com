@@ -1,7 +1,6 @@
 ---
 title: La Thym
 description: "Une bienveillante bande de tisseurs de liens"
-permalink: /thym/
 ---
 
 <div class="wrapper" markdown="1">
