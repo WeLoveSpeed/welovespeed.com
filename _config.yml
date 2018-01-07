@@ -70,6 +70,7 @@ defaults:
     values:
       locale: fr_FR
       layout: default
+      is_home: false
       image: 
         path: /assets/images/twittercard.png?date=20180106
         width: 560

@@ -1,6 +1,6 @@
 # Primary navigation links
 primary:
-  - name: "Conférences"
+  - name: "Proposer un sujet"
     url: "/"
   - name: "Lieux"
     url: "/lieux/"
