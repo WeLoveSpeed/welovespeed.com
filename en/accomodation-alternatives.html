@@ -1,0 +1,40 @@
+--- 
+title: Accomodation alternatives
+description: Stay elsewhere than in Val de l'Hort
+---
+
+<div class="section-margin">
+    <div class="wrapper">
+        <div class="text-left">
+            <section>
+                <h2 class="regular-title-size red">Accomodation alternatives</h2>
+
+                <p>
+                    If you do not wish to sleep in Val de l' Hort or if you wish to extend your stay in Anduze, here is a list of some accommodation in the area:
+                </p>
+
+                <ul class="text-left">
+                    {% assign specifics = site.data.bnbs.specifics | sort: "distance" %} {% assign generics = site.data.bnbs.generics | sort:
+                    "fromprice" %} {% for bnb in specifics %}
+                    <li>
+                      <a href="{{ bnb.url }}" target="_blank" rel="noopener noreferrer">{{ bnb.name }}{% if bnb.distance %} ({{ bnb.distance }} {% t à pied %}){% endif %} {% t à partir de %} {{ bnb.fromprice
+                        }}
+                        <span class="sr-only">(open in a new window)</span>
+                      </a>
+                    </li>
+                    {% endfor %} {% for bnb in generics %}
+                    <li>
+                      <a href="{{ bnb.url }}" target="_blank" rel="noopener noreferrer">{{ bnb.name }}{% if bnb.distance %} ({{ bnb.distance }}){% endif %} à partir de {{ bnb.fromprice }}
+                        <span class="sr-only">(open in a new window)</span>
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+          
+                  <p class="tiny-size">
+                      Please note that these rates are given as an indication and sometimes include the rental of several beds, or even the whole cottage. Remember to book early.
+                  </p>
+            </section>
+        </div>
+    </div>
+</div>
