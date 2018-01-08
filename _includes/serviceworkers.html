@@ -1,0 +1,14 @@
+{% if site.environment != 'development' %}
+<script data-no-instant>
+		if (navigator.serviceWorker) {
+			navigator.serviceWorker.register('{{ site.baseurl }}/sw.js', {
+					scope: '{{ site.baseurl }}/'
+			});
+			window.addEventListener('load', function() {
+					if (navigator.serviceWorker.controller) {
+							navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
+					}
+			});
+		}
+</script>
+{% endif %}
