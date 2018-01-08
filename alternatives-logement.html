@@ -1,0 +1,44 @@
+--- 
+title: Logements alternatifs 
+description: Se loger ailleurs qu'au Val de l'Hort
+---
+
+<div class="section-margin">
+    <div class="wrapper">
+        <div class="text-left">
+            <section>
+                <h2 class="regular-title-size red">Logements alternatifs</h2>
+
+                <p>
+                    Nous voulons que chacun·e se sente à son aise, c’est pourquoi la Thym s’est assurée qu’une offre alternative et diverse de
+                    logement existait. Si vous ne souhaitez pas dormir au Val de l'Hort ou que vous souhaitez prolonger votre
+                    séjour à Anduze, voici une liste de quelques hébergements aux alentours :
+                </p>
+
+                <ul class="text-left">
+                    {% assign specifics = site.data.bnbs.specifics | sort: "distance" %} {% assign generics = site.data.bnbs.generics | sort:
+                    "fromprice" %} {% for bnb in specifics %}
+                    <li>
+                        <a href="{{ bnb.url }}" target="_blank" rel="noopener noreferrer">{{ bnb.name }}{% if bnb.distance %} ({{ bnb.distance }} {% t à pied %}){% endif %} {% t à partir
+                            de %} {{ bnb.fromprice }}
+                            <span class="sr-only">(open in a new window)</span>
+                        </a>
+                    </li>
+                    {% endfor %} {% for bnb in generics %}
+                    <li>
+                        <a href="{{ bnb.url }}" target="_blank" rel="noopener noreferrer">{{ bnb.name }}{% if bnb.distance %} ({{ bnb.distance }}){% endif %} à partir de {{ bnb.fromprice
+                            }}
+                            <span class="sr-only">(open in a new window)</span>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <p class="tiny-size">
+                    Attention ces tarifs sont livrés à titre indicatif et incluent parfois la location de plusieurs lits, voire du gîte entier.
+                    Pensez à réserver au plus tôt.
+                </p>
+            </section>
+        </div>
+    </div>
+</div>
