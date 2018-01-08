@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e # halt script on error
-
-bundle exec jekyll build --destination _site/2017/ JEKYLL_ENV=production --verbose
-bundle exec htmlproofer ./_site --disable-external --empty-alt-ignore --url-ignore "#"
