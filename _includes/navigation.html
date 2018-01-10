@@ -11,7 +11,7 @@
         <use id="sw-wave" xlink:href="{{ "/assets/images/symbol-defs.svg#sw-wave" | relative_url }}" />
       </svg>
     </a>
-    {% if page.is_home %}<span class="great-title-size">Sud Web 2018</span><span class="small-title-size">{% t La conférence Web plutôt Humaine %}</span>{% endif %}
+    {% if page.is_home %}<span class="great-title-size">Sud Web 2018</span><span class="small-title-size">{% t La conférence Web surtout Humaine %}</span>{% endif %}
     {% unless page.is_home %}
     <a  class="nav" href="{{ page.baseurl | default:site.baseurl }}/" title="{{ link.title }}" data-event-category="cta" data-event-action="click" data-event-label="navigation-home" >{% t Accueil %}</a>
     {% capture cfp_url %}{% if page.locale == 'en_US' %}/en{% endif %}/{% t appel-a-sujets %}/{% endcapture %}
