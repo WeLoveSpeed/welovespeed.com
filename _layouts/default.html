@@ -2,7 +2,7 @@
 layout: compress
 ---
 
-{% include head.html %}
+{% assign locale = page.locale | default: site.locale %}{% assign lang = locale | slice: 0,2 %}{% include head.html %}
 <body itemscope itemtype="http://schema.org/WebPage">
   {% include navigation.html %}
   {{ content | microtypo: page.locale }}
