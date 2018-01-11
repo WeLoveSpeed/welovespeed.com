@@ -38,6 +38,10 @@ p, li {
 	font-size: $default-font-size;
 }
 
+li li {
+	font-size: 1em;
+}
+
 a, button, input, textarea, select {
 	transition: $default-delay $default-timing-function;
 }
