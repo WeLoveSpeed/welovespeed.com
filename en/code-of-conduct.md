@@ -5,7 +5,7 @@ description: "Consignes pour créer un cadre d’interaction bientraitant et pro
 
 <div class="wrapper text-left" markdown="1">
 
-# <span lang="en">Code of Conduct</span>: <small>instructions for creating a caring and safe interaction framework</small>
+# Code of Conduct: <small>instructions for creating a caring and safe interaction framework</small>
 
 Our goal is to establish guidelines that apply to everyone and make people who are under-represented in the community feel comfortable. The instructions define:
 
