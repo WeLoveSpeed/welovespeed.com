@@ -20,6 +20,7 @@ description: "Une bienveillante bande de tisseurs de liens"
           </section>
           {% endfor %}
         </div>
+        <p class="small-size">During the event, we will wear accessories that will allow you to easily recognize us.</p>
       </section>
     </div>
   </div>

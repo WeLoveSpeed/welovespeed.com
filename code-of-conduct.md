@@ -63,7 +63,7 @@ En ce qui concerne la personne à l'origine de la situation, l'exclusion est pos
 
 Dans chaque groupement, collectif ou rassemblement, il y a une culture dominante principale et des personnes qui n’appartiennent pas à cette culture. Ces personnes sont donc sous-représentées dans le contexte, et naturellement, elles sont plus susceptibles d’être "oppressées" par la communauté principale. Souvent, cette oppression se manifeste par des comportements ou attitudes blessantes adoptées sans s’en rendre compte.
 
-Ici, les consignes de sécurisation des interactions permettent de créer un contexte Safe&#8239;<sup><a href="#note1" id="note1-source">1</a></sup> pour celles et ceux qui sont sous-représenté·e·s en mettant en lumière une problématique.
+Ici, les consignes de sécurisation des interactions permettent de créer un contexte "Safe"&#8239;<sup><a href="#note1" id="note1-source">1</a></sup> pour celles et ceux qui sont sous-représenté·e·s en mettant en lumière une problématique.
 
 Imaginons-les comme un principe de précaution qui permet d’anticiper des situations inconfortables pour certain·e·s, inhérentes à un contexte.
 
