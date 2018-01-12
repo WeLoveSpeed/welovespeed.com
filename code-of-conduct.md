@@ -40,12 +40,12 @@ Bien que les options soient multiples et dépendent souvent du contexte et des p
 
 1. Auprès de la personne qui a vécu un truc inconfortable : 
     * vérifie que c’était bien une situation mal vécue par la personne ;
-    * si c’est le cas, assures-toi qu’elle se sente bien ;
+    * si c’est le cas, assure-toi qu’elle se sente bien ;
     * si tu le sens, demande-lui si tu peux faire quelque chose pour elle. Si oui, demande-lui comment elle souhaite gérer la situation, ou comment elle souhaite que tu la gères ;
     * dans tous les cas, ce qui nous paraît important est de s’adapter aux besoins/aspirations de la personnes que tu es venu soutenir.
 2. Auprès de la personne à l’origine du truc inconfortable (après que la "victime" ait donné son accord) : 
     * l’interpeller ;
-    * vérifier qu’elle est disposée à échanger au sujet "d’une situation que tu as observée et qui t’as interpellé, dérangé, etc." ;
+    * vérifier qu’elle est disposée à échanger au sujet "d’une situation que tu as observée et qui t’a interpellé, dérangé, etc." ;
         * si oui, lui demander "comment elle se sent suite à la situation [décrire la situation]" ;
         * sinon, lui proposer d’en reparler plus tard et&#8239;/&#8239;ou d’en faire part à la Thym.
 
