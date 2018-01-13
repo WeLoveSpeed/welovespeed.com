@@ -66,7 +66,7 @@ Bien que les options soient multiples et dépendent souvent du contexte et des p
         * si oui, lui demander "comment elle se sent suite à la situation [décrire la situation]" ;
         * sinon, lui proposer d’en reparler plus tard et&#8239;/&#8239;ou d’en faire part à la Thym.
 
-Il s’agit évidemment d’une proposition non exhaustive qui ne tient pas compte des multiples contextes et personnes. L’idée ici est plus de proposer une posture qu’une méthode stricte.
+Il s’agit évidemment d’une proposition non exhaustive qui ne tient pas compte des multiples contextes et personnes. L’idée ici est plus de proposer une posture qu’une méthode stricte&#8239;<sup><a href="#note2" id="note2-source">2</a></sup>.
 
 **Que se passe-t-il si les consignes ne sont pas respectées ?**
 
@@ -79,5 +79,7 @@ En ce qui concerne la personne à l'origine de la situation, l'exclusion est pos
 ***
 
 <sup id="note1">1</sup>&#8239;: Ici, un contexte "Safe" incarne un climat de confiance, de tranquillité et d’harmonie dans lequel je me sens "soignée" et en sécurité affective et émotionnelle. C'est un contexte dans lequel je n'ai pas besoin d'être sur "mes gardes". C'est à dire que je suis exemptée de peurs telle que "*Et si l'autre me juge ? Et s'il ou elle se moque de moi ? Et si je me trompe ? Et si l'autre me demande de me justifier ?*". <a href="#note1-source">↵</a>
+
+<sup id="note2">2</sup>&#8239;: Comme le fait remarquer [David](https://larlet.fr/david/stream/2018/01/12/), rappelons à toutes fins utiles qu'il existe en France un cadre légal de [lutte contre les discriminations](https://www.legifrance.gouv.fr/affichSarde.do?reprise=true&page=1&idSarde=SARDOBJT000007118441). <a href="#note1-source">↵</a>
 
 </div>
