@@ -22,7 +22,6 @@ Imaginons-les comme un principe de précaution qui permet d’anticiper des situ
 
 On suppose alors qu’en adoptant ces consignes, on permet de créer un lien de confiance et de soin et d’inviter celles et ceux qui sont sous-représenté·e·s à intégrer la communauté tranquillement. On imagine alors qu’on participe ainsi à encourager et promouvoir la diversité.
 
-
 **Concrètement, comment ça marche ?**
 
 Pour sauvegarder et encourager le cadre auquel on aspire, on a défint ce avec quoi on était OK et ce avec quoi on l'était moins :
@@ -47,10 +46,10 @@ Avant toute chose, sache que tu es légitime de dire que tu n’es pas à l’ai
 Après il y a plusieurs possibilités qui dépendent de toi : 
 
 1. Tu es à l’aise et tu as l’énergie : on t’invite à le signaler à la personne qui a un comportement oppressif et&#8239;/&#8239;ou à la Thym.
-2. Tu n’es pas à l’aise et/ou tu n’as pas l’énergie :
+2. Tu n’es pas à l’aise et&#8239;/&#8239;ou tu n’as pas l’énergie :
     * parles-en à une personne présente en qui tu as confiance pour que celle-ci le fasse remonter à la Thym ;
     * appelle un·e ami·e de confiance ;
-    * rends-toi dans un endroit et/ou auprès de personnes auprès desquelles tu te sens bien.
+    * rends-toi dans un endroit et&#8239;/&#8239;ou auprès de personnes auprès desquelles tu te sens bien.
 
 **Que puis-je faire si j’observe une situation oppressive ?**
 
@@ -60,7 +59,7 @@ Bien que les options soient multiples et dépendent souvent du contexte et des p
     * vérifie que c’était bien une situation mal vécue par la personne ;
     * si c’est le cas, assure-toi qu’elle se sente bien ;
     * si tu le sens, demande-lui si tu peux faire quelque chose pour elle. Si oui, demande-lui comment elle souhaite gérer la situation, ou comment elle souhaite que tu la gères ;
-    * dans tous les cas, ce qui nous paraît important est de s’adapter aux besoins/aspirations de la personnes que tu es venu soutenir.
+    * dans tous les cas, ce qui nous paraît important est de s’adapter aux besoins&#8239;/&#8239;aspirations de la personnes que tu es venu soutenir.
 2. Auprès de la personne à l’origine du truc inconfortable (après que celle-ci ait donné son accord) : 
     * l’interpeller ;
     * vérifier qu’elle est disposée à échanger au sujet "d’une situation que tu as observée et qui t’a interpellé, dérangé, etc." ;
