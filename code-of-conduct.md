@@ -12,6 +12,17 @@ description: "Consignes pour créer un cadre d’interaction bientraitant et pro
 
 L’idée est donc de proposer des consignes qui permettent de faire en sorte que chacun·e·s se sentent à l’aise. 
 
+**Un Code of Conduct pour quoi faire ?**
+
+Dans chaque groupement, collectif ou rassemblement, il y a une culture dominante principale et des personnes qui n’appartiennent pas à cette culture. Ces personnes sont donc sous-représentées dans le contexte, et naturellement, elles sont plus susceptibles d’être "oppressées" par la communauté principale. Souvent, cette oppression se manifeste par des comportements ou attitudes blessantes adoptées sans s’en rendre compte.
+
+Ici, les consignes de sécurisation des interactions permettent de créer un contexte "Safe"&#8239;<sup><a href="#note1" id="note1-source">1</a></sup> pour celles et ceux qui sont sous-représenté·e·s en mettant en lumière une problématique.
+
+Imaginons-les comme un principe de précaution qui permet d’anticiper des situations inconfortables pour certain·e·s, inhérentes à un contexte.
+
+On suppose alors qu’en adoptant ces consignes, on permet de créer un lien de confiance et de soin et d’inviter celles et ceux qui sont sous-représenté·e·s à intégrer la communauté tranquillement. On imagine alors qu’on participe ainsi à encourager et promouvoir la diversité.
+
+
 **Les comportements qui ne permettent pas cette intention (et qui sont donc proscrits) :**
 
 * attaques personnelles : menaces, insultes, langage violent dirigés contre une autre personne ;
@@ -27,7 +38,7 @@ L’idée est donc de proposer des consignes qui permettent de faire en sorte qu
 
 **Que se passe-t-il si je vis une situation inconfortable qui fait référence à ces consignes ?**
 
-Avant toute chose, sache que tu es totalement légitime de dire que tu n’es pas à l’aise avec ce qui est en train de se passer.
+Avant toute chose, sache que tu es légitime de dire que tu n’es pas à l’aise avec ce qui est en train de se passer et que tu seras pris·e au sérieux.
 
 Après il y a plusieurs possibilités qui dépendent de toi : 
 
@@ -46,7 +57,7 @@ Bien que les options soient multiples et dépendent souvent du contexte et des p
     * si c’est le cas, assure-toi qu’elle se sente bien ;
     * si tu le sens, demande-lui si tu peux faire quelque chose pour elle. Si oui, demande-lui comment elle souhaite gérer la situation, ou comment elle souhaite que tu la gères ;
     * dans tous les cas, ce qui nous paraît important est de s’adapter aux besoins/aspirations de la personnes que tu es venu soutenir.
-2. Auprès de la personne à l’origine du truc inconfortable (après que la "victime" ait donné son accord) : 
+2. Auprès de la personne à l’origine du truc inconfortable (après que celle-ci ait donné son accord) : 
     * l’interpeller ;
     * vérifier qu’elle est disposée à échanger au sujet "d’une situation que tu as observée et qui t’a interpellé, dérangé, etc." ;
         * si oui, lui demander "comment elle se sent suite à la situation [décrire la situation]" ;
@@ -61,16 +72,6 @@ Dans la mesure où on a l’information, l’intention de la Thym est de **faire
 En ce sens, on va d’abord agir pour la personne qui a vécu un truc pas cool parce qu’on pense que l’enjeu premier est de faire en sorte que la personne se sente mieux. Idéalement, on construit la réparation avec la personne pour qu’elle sente la réparation, mais tout dépendra d’elle.
 
 En ce qui concerne la personne à l'origine de la situation, l'exclusion est possible mais en aucun cas n’est obligatoire. Il y a une granularité possible. D’ailleurs on est plutôt partisan d’une granularité.
-
-**Un Code of Conduct pour( )quoi faire ?**
-
-Dans chaque groupement, collectif ou rassemblement, il y a une culture dominante principale et des personnes qui n’appartiennent pas à cette culture. Ces personnes sont donc sous-représentées dans le contexte, et naturellement, elles sont plus susceptibles d’être "oppressées" par la communauté principale. Souvent, cette oppression se manifeste par des comportements ou attitudes blessantes adoptées sans s’en rendre compte.
-
-Ici, les consignes de sécurisation des interactions permettent de créer un contexte safe pour celles et ceux qui sont sous-représenté·e·s en mettant en lumière une problématique.
-
-Imaginons-les comme un principe de précaution qui permet d’anticiper des situations inconfortables pour certain·e·s, inhérentes à un contexte.
-
-On suppose alors qu’en adoptant ces consignes, on permet de créer un lien de confiance et de soin et d’inviter celles et ceux qui sont sous-représenté·e·s à intégrer la communauté tranquillement. On imagine alors qu’on participe ainsi à encourager et promouvoir la diversité.
 
 ***
 
