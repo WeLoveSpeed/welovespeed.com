@@ -24,7 +24,7 @@ On suppose alors qu’en adoptant ces consignes, on permet de créer un lien de 
 
 **Concrètement, comment ça marche ?**
 
-Pour sauvegarder et encourager le cadre auquel on aspire, on a défint ce avec quoi on était OK et ce avec quoi on l'était moins :
+Pour sauvegarder et encourager le cadre auquel on aspire, on a défini ce avec quoi on était OK et ce avec quoi on l'était moins :
 
 ### Les postures avec lesquelles on est OK :
 
