@@ -62,7 +62,7 @@ Bien que les options soient multiples et dépendent souvent du contexte et des p
     * dans tous les cas, ce qui nous paraît important est de s’adapter aux besoins&#8239;/&#8239;aspirations de la personnes que tu es venu soutenir.
 2. Auprès de la personne à l’origine du truc inconfortable (après que celle-ci ait donné son accord) : 
     * l’interpeller ;
-    * vérifier qu’elle est disposée à échanger au sujet "d’une situation que tu as observée et qui t’a interpellé, dérangé, etc." ;
+    * vérifier qu’elle est disposée à échanger au sujet "d’une situation que tu as observée et qui t’a interpellé·e, dérangé·e, etc." ;
         * si oui, lui demander "comment elle se sent suite à la situation [décrire la situation]" ;
         * sinon, lui proposer d’en reparler plus tard et&#8239;/&#8239;ou d’en faire part à la Thym.
 
