@@ -23,18 +23,22 @@ Imaginons-les comme un principe de précaution qui permet d’anticiper des situ
 On suppose alors qu’en adoptant ces consignes, on permet de créer un lien de confiance et de soin et d’inviter celles et ceux qui sont sous-représenté·e·s à intégrer la communauté tranquillement. On imagine alors qu’on participe ainsi à encourager et promouvoir la diversité.
 
 
-**Les comportements qui ne permettent pas cette intention (et qui sont donc proscrits) :**
+**Concrètement, comment ça marche ?**
 
-* attaques personnelles : menaces, insultes, langage violent dirigés contre une autre personne ;
-* blagues oppressives et langage discriminatoire ;
-* la drague, la séduction, les avances, etc. ;
-* plaider pour ou encourager les comportements ci-dessus ;
-* insister alors que quelqu’un vous demande d’arrêter.
+Pour sauvegarder et encourager le cadre auquel on aspire, on a défint ce avec quoi on était OK et ce avec quoi on l'était moins :
 
-**Les postures qui facilitent cette intention (et qui du coup sont encouragées) :**
+### Les postures avec lesquelles on est OK :
 
 * **L’accueil !** Faisons en sorte que les personnes (de tous horizons et identités confondues) soient les bienvenues, qu’elles se sentent accueillies dans un espace ouvert et chaleureux. Cela inclut, mais sans s’y limiter, les membres de toute ethnie, culture, nationalité, couleur, statut d’immigration, classe économique et sociale, niveau d’éducation, sexe, orientation sexuelle, identité sexuelle, âge, taille, situation familiale, croyance politique, religion et capacité mentale et physique.
 * **La bienveillance et la bientraitance !** Rencontrons-nous avec bienveillance, c’est-à-dire la volonté de viser le bien et le bonheur d’autrui, et assurons-nous d’être bien-traitant en s’assurant que notre manière d’agir concrètement va bien dans le sens de la bienveillance.
+
+### Les comportement avec lesquels on n'est pas OK, qu'on voudrait éviter :
+
+* attaques personnelles : menaces, insultes, langage violent dirigés contre une autre personne ;
+* blagues oppressives et langage discriminatoire ;
+* les avances, la drague non consentie ;
+* insister alors que quelqu’un vous demande d’arrêter.
+* plaider pour ou encourager les comportements ci-dessus ;
 
 **Que se passe-t-il si je vis une situation inconfortable qui fait référence à ces consignes ?**
 
