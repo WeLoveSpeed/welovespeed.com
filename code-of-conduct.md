@@ -8,7 +8,7 @@ description: "Consignes pour créer un cadre d’interaction bientraitant et pro
 # <span lang="en">Code of Conduct</span> : <small>consignes pour créer un cadre d’interaction bientraitant et protecteur</small>
 ## parceque ce qui n'est pas grave pour moi l'est peut-être pour l'autre
 
-A SudWeb on suppose que la plupart des gens sont intelligents et bien intentionnés, et nous ne sommes pas enclins à leur dire quoi faire, d'autant que dans les paysage des conférences, SudWeb apparaît parmis les plus attentionnées. Cependant, il nous  parut important que cette rencontre s'organise dans un environnement safe pour tous.
+À Sud Web on suppose que la plupart des gens sont intelligents et bien intentionnés, et nous ne cherchons pas à leur dire quoi faire, d'autant que dans les paysage des conférences, Sud Web apparaît parmi les plus accueillantes. Cependant, il nous  parait important que cette rencontre s'organise dans un environnement safe&#8239;<sup><a href="#note1" id="note1-source">1</a></sup> pour tou·te·s.
 
 L’idée est donc de proposer des consignes qui permettent de faire en sorte que chacun·e·s se sentent à l’aise. 
 
@@ -66,7 +66,7 @@ En ce qui concerne la personne à l'origine de la situation, l'exclusion est pos
 
 Dans chaque groupement, collectif ou rassemblement, il y a une culture dominante principale et des personnes qui n’appartiennent pas à cette culture. Ces personnes sont donc sous-représentées dans le contexte, et naturellement, elles sont plus susceptibles d’être "oppressées" par la communauté principale. Souvent, cette oppression se manifeste par des comportements ou attitudes blessantes adoptées sans s’en rendre compte.
 
-Ici, les consignes de sécurisation des interactions permettent de créer un contexte "Safe"&#8239;<sup><a href="#note1" id="note1-source">1</a></sup> pour celles et ceux qui sont sous-représenté·e·s en mettant en lumière une problématique.
+Ici, les consignes de sécurisation des interactions permettent de créer un contexte safe pour celles et ceux qui sont sous-représenté·e·s en mettant en lumière une problématique.
 
 Imaginons-les comme un principe de précaution qui permet d’anticiper des situations inconfortables pour certain·e·s, inhérentes à un contexte.
 
