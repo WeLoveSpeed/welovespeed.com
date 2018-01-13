@@ -6,10 +6,13 @@ description: "Consignes pour créer un cadre d’interaction bientraitant et pro
 <div class="wrapper text-left" markdown="1">
 
 # <span lang="en">Code of Conduct</span> : <small>consignes pour créer un cadre d’interaction bientraitant et protecteur</small>
+## parceque ce qui n'est pas grave pour moi l'est peut-être pour l'autre
 
-L’idée est d’établir des consignes qui concernent tout le monde et qui font en sorte que les personnes sous-représentées dans la communauté se sentent à l’aise. Les consignes définissent :
+À Sud Web on suppose que la plupart des gens sont intelligents et bien intentionnés, et nous ne cherchons pas à leur dire quoi faire, d'autant que dans les paysage des conférences, Sud Web apparaît parmi les plus accueillantes. Cependant, il nous  parait important que cette rencontre s'organise dans un environnement safe&#8239;<sup><a href="#note1" id="note1-source">1</a></sup> pour tou·te·s.
 
-**Un Code of Conduct pour( )quoi faire ?**
+L’idée est donc de proposer des consignes qui permettent de faire en sorte que chacun·e·s se sentent à l’aise. 
+
+**Un Code of Conduct pour quoi faire ?**
 
 Dans chaque groupement, collectif ou rassemblement, il y a une culture dominante principale et des personnes qui n’appartiennent pas à cette culture. Ces personnes sont donc sous-représentées dans le contexte, et naturellement, elles sont plus susceptibles d’être "oppressées" par la communauté principale. Souvent, cette oppression se manifeste par des comportements ou attitudes blessantes adoptées sans s’en rendre compte.
 
