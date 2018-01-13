@@ -9,15 +9,16 @@ description: "Consignes pour créer un cadre d’interaction bientraitant et pro
 
 L’idée est d’établir des consignes qui concernent tout le monde et qui font en sorte que les personnes sous-représentées dans la communauté se sentent à l’aise. Les consignes définissent :
 
-**Concrètement comment ça marche ?**
-Pour sauvegarder et encourager le cadre auquel on aspire, on a définit ce avec quoi on était OK et ce avec quoi on l'était moins :
+**Concrètement, comment ça marche ?**
+
+Pour sauvegarder et encourager le cadre auquel on aspire, on a défint ce avec quoi on était OK et ce avec quoi on l'était moins :
 
 ### Les postures avec lesquelles on est OK :
 
 * **L’accueil !** Faisons en sorte que les personnes (de tous horizons et identités confondues) soient les bienvenues, qu’elles se sentent accueillies dans un espace ouvert et chaleureux. Cela inclut, mais sans s’y limiter, les membres de toute ethnie, culture, nationalité, couleur, statut d’immigration, classe économique et sociale, niveau d’éducation, sexe, orientation sexuelle, identité sexuelle, âge, taille, situation familiale, croyance politique, religion et capacité mentale et physique.
 * **La bienveillance et la bientraitance !** Rencontrons-nous avec bienveillance, c’est-à-dire la volonté de viser le bien et le bonheur d’autrui, et assurons-nous d’être bien-traitant en s’assurant que notre manière d’agir concrètement va bien dans le sens de la bienveillance.
 
-### Les comportement avec lesquels on est pas OK, qu'on a pas envie qui se passent :
+### Les comportement avec lesquels on n'est pas OK, qu'on voudrait éviter :
 
 * attaques personnelles : menaces, insultes, langage violent dirigés contre une autre personne ;
 * blagues oppressives et langage discriminatoire ;
