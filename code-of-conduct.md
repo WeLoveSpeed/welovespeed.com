@@ -6,8 +6,11 @@ description: "Consignes pour créer un cadre d’interaction bientraitant et pro
 <div class="wrapper text-left" markdown="1">
 
 # <span lang="en">Code of Conduct</span> : <small>consignes pour créer un cadre d’interaction bientraitant et protecteur</small>
+## parceque ce qui n'est pas grave pour moi l'est peut-être pour l'autre
 
-L’idée est d’établir des consignes qui concernent tout le monde et qui font en sorte que les personnes sous-représentées dans la communauté se sentent à l’aise. Les consignes définissent :
+A SudWeb on suppose que la plupart des gens sont intelligents et bien intentionnés, et nous ne sommes pas enclins à leur dire quoi faire, d'autant que dans les paysage des conférences, SudWeb apparaît parmis les plus attentionnées. Cependant, il nous  parut important que cette rencontre s'organise dans un environnement safe pour tous.
+
+L’idée est donc de proposer des consignes qui permettent de faire en sorte que chacun·e·s se sentent à l’aise. 
 
 **Les comportements qui ne permettent pas cette intention (et qui sont donc proscrits) :**
 
