@@ -19,7 +19,7 @@
           <ul>
             <li><a href="https://sudweb.fr/blog/">Blog</a></li>
             <li><a href="{{ page.baseurl | default:site.baseurl }}/contact/">Contact</a></li>
-            <li><a href="{{ page.baseurl | default:site.baseurl }}/code-of-conduct/">{% if lang == "fr" %}<span class="en">Code Of Conduct</span>{% else %}Code of Conduct{% endif %}</a></li>
+            <li><a href="{{ page.baseurl | default:site.baseurl }}/code-of-conduct/">{% if lang == "fr" %}<span lang="en">Code Of Conduct</span>{% else %}Code of Conduct{% endif %}</a></li>
             <li><a href="{{ page.baseurl | default:site.baseurl }}/{% t manifeste %}/">{%t Manifeste %}</a></li>
             <li><a href="{{ page.baseurl | default:site.baseurl }}/thym/">{%t La Thym %}</a></li>
             <li><a href="{{ "/mentions-legales/" | relative_url }}">{%t Mentions légales %}{% if lang != "fr" %}(in french){% endif %}</a></li>
