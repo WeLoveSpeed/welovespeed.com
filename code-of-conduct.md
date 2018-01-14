@@ -9,7 +9,7 @@ description: "Consignes pour créer un cadre d’interaction bientraitant et pro
 
 <blockquote style="font-size: 1.5rem;color: #6f6f6f;font-style: italic;">Ce qui n’est pas grave pour vous l’est peut-être pour les autres.</blockquote>
 
-À Sud Web, la plupart des gens sont intelligents et bien intentionnés, et nous ne cherchons pas à leur dire quoi faire, d'autant que dans les paysage des conférences, Sud Web apparaît parmi les plus accueillantes. Cependant, il nous  parait important que cette rencontre s'organise dans un environnement <span lang="en">safe</span>&#8239;<sup><a href="#note1" id="note1-source">1</a></sup> pour tou·te·s.
+À Sud Web, on suppose que les gens sont intelligents et bien intentionnés, et nous ne cherchons pas à leur dire quoi faire, d'autant que dans les paysage des conférences, Sud Web apparaît parmi les plus accueillantes. Cependant, il nous  parait important que cette rencontre s'organise dans un environnement <span lang="en">safe</span>&#8239;<sup><a href="#note1" id="note1-source">1</a></sup> pour tou·te·s.
 
 Nous avons donc décidé de proposer des consignes qui permettent de faire en sorte que chacun·e·s se sentent à l’aise. 
 
