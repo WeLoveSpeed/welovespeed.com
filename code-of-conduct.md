@@ -1,5 +1,5 @@
 --- 
-title: Code of Conduct
+title: Code de conduite
 description: "Consignes pour créer un cadre d’interaction bientraitant et protecteur"
 ---
 
@@ -14,7 +14,7 @@ description: "Consignes pour créer un cadre d’interaction bientraitant et pro
 <section>
 <div class="wrapper coc text-left" markdown="1">
 
-# <span lang="en">Code of Conduct</span> : <small>consignes pour créer un cadre d’interaction bientraitant et protecteur</small>
+## Code de Conduite <small>ou plutôt consignes pour créer un cadre d’interaction bientraitant et protecteur</small>
 
 > Ce qui n’est pas grave pour vous l’est peut-être pour les autres.
 
