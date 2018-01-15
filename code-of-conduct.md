@@ -56,7 +56,7 @@ La suite dépend de vous :
     * ou appellez un·e ami·e de confiance ;
     * ou encore vous rendre dans un endroit et&#8239;/&#8239;ou auprès de personnes auprès desquelles vous vous sentez bien.
 
-## Que puis-je faire si vous êtes témoin d'une situation oppressive ?
+## Que pouvez-vous faire si vous êtes témoin d'une situation oppressive ?
 
 Les options sont multiples et dépendent souvent du contexte et des personnes en présence. En règle général, nous préconisons : 
 
