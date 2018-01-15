@@ -52,9 +52,9 @@ La suite dépend de vous :
 
 * Vous êtes à l’aise, vous avez de l’énergie : nous vous invitons à signaler son comportement oppressif à la personne concernée et&#8239;/&#8239;ou à la Thym.
 * Vous n'êtes pas à l’aise et&#8239;/&#8239;ou vous n’avez pas l’énergie :
-    * parlez-en à une personne présente, en qui vous avez confiance, pour que celle-ci contacte la Thym ;
-    * appellez un·e ami·e de confiance ;
-    * rendez-vous dans un endroit et&#8239;/&#8239;ou auprès de personnes auprès desquelles vous vous sentez bien.
+    * vous pouvez en parler à une personne présente, en qui vous avez confiance, pour que celle-ci contacte la Thym ;
+    * ou appellez un·e ami·e de confiance ;
+    * ou encore vous rendre dans un endroit et&#8239;/&#8239;ou auprès de personnes auprès desquelles vous vous sentez bien.
 
 ## Que puis-je faire si vous êtes témoin d'une situation oppressive ?
 
