@@ -5,28 +5,28 @@ description: "Consignes pour créer un cadre d’interaction bientraitant et pro
 
 <div class="wrapper text-left" markdown="1">
 
-# Code of Conduct: <small>instructions for creating a caring and safe interaction framework</small>
+# Code of Conduct: <small>instructions for creating a framework for caring and safe interactions</small>
 
-Our goal is to establish guidelines that apply to everyone and make people who are under-represented in the community feel comfortable. The instructions define:
+Our goal is to create guidelines that apply to everyone and ensure everyone, especially people who are under-represented in the community, feel comfortable. The instructions include:
 
 **Behaviours that do not support this intention (and are therefore prohibited):**
 
 * Personal attacks: threats, insults, use of violent language towards another person
 * Oppressive jokes and discriminatory language
 * Flirting, seduction, advances, etc.
-* Advocate or encourage the above behaviours
-* Insisting while someone is asking you to stop
+* Advocating or encouraging the above behaviours
+* Insisting or continuing when someone is asking you to stop
 
 **Behaviours that facilitate this intention (and therefore are encouraged):**
 
 * **Hospitality !** Let's make sure that people (of all backgrounds and identities) are welcomed, that they feel accepted in an open and warm environment. This includes, but is not limited to, members of any ethnic group, culture, nationality, colour, immigration status, economic and social class, level of education, gender, sexual orientation, gender identity, age, size, family status, political belief, religion, and mental and physical ability.
-* **Benevolence and care!** Let us approach each other with kindness, that is to say, the willingness to aim for the good and happiness of others, and let us make sure that we are caring by making sure that our way of acting concretely is in the direction of kindness.
+* **Benevolence and care!** Let us approach each other with kindness, that is to say, the willingness to aim for the good and happiness of others, and let us make sure that we are caring by making sure that our way of acting is based in kindness.
 
 **What happens if I experience an uncomfortable situation that refers to these instructions?**
 
 First of all, know that you are totally legitimate in saying that you are not comfortable with what is happening.
 
-Then there are several options that are up to you:
+Depending on your comfort level, there are a few options to choose from:
 
 1. You feel secure and empowered: you are encouraged to report what happened to the organizing team.
 2. You don't feel secure and/or empowered:
@@ -34,18 +34,18 @@ Then there are several options that are up to you:
     * call a trusted friend ;
     * go to a place and/or to people you feel comfortable with
 
-**What can I do if I observe an oppressive situation?**
+**What can I do if I observe an oppressive situation or other CoC violations?**
 
 Although the options are multiple and often depend on the context and people involved, we recommend the following behaviour:
 
 1. With the person who experienced something uncomfortable : 
     * make sure that it was indeed a bad situation experienced by the person
     * If so, make sure they feel good
-    * If you feel like it. Ask them if there's anything you can do for them. If so, ask them how they want to deal with the situation, or how they want you to deal with it
-    * in any case, what's important is to adapt your behaviour to the needs and aspirations of the person you are supporting.
+    * If you feel comfortable doing so, ask them if there's anything you can do for them. If so, ask them how they want to deal with the situation, or how they want you to deal with it
+    * in any case, what's important is to adapt your behaviour to the needs and requests of the person you are supporting.
 2. With the person causing the uncomfortable feeling (after the "victim" has given their consent): 
     * Call them out ;
-    * Check that they're willing to talk about the "situation" that you've observed and has disturbed you
+    * Check if they're willing to talk about the situation that you observed 
         * if so, ask them "how they feel about the situation[describe the situation]";
         * If not, propose to talk about it later on and/or report what happened to the organizing team.
 
