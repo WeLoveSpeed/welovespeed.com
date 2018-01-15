@@ -3,6 +3,14 @@ title: Code of Conduct
 description: "Consignes pour créer un cadre d’interaction bientraitant et protecteur"
 ---
 
+<div class="forum-banner lozad" data-background-image="/assets/images/forum-large.jpg">
+  <p class="credits">
+    Rétrospective 2017 à Aix-En-Provence,
+    <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> -
+    <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>
+
 <section>
 <div class="wrapper coc text-left" markdown="1">
 
@@ -89,3 +97,11 @@ En ce qui concerne la personne à l'origine de la situation, l'exclusion est pos
 <sup id="note2">2</sup>&#8239;: Comme le fait remarquer [David](https://larlet.fr/david/stream/2018/01/12/), nous rappelons à toutes fins utiles qu'il existe en France un cadre légal de [lutte contre les discriminations](https://www.legifrance.gouv.fr/affichSarde.do?reprise=true&page=1&idSarde=SARDOBJT000007118441). <a href="#note2-source">↵</a>
 </div>
 </section>
+
+<div class="forum-banner lozad" data-background-image="/assets/images/forum-large.jpg">
+  <p class="credits">
+    Rétrospective 2017 à Aix-En-Provence,
+    <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> -
+    <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>
