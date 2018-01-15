@@ -3,17 +3,18 @@ title: Code of Conduct
 description: "Consignes pour créer un cadre d’interaction bientraitant et protecteur"
 ---
 
-<div class="wrapper text-left" markdown="1">
+<section>
+<div class="wrapper coc text-left" markdown="1">
 
 # <span lang="en">Code of Conduct</span> : <small>consignes pour créer un cadre d’interaction bientraitant et protecteur</small>
 
-<blockquote style="font-size: 1.5rem;color: #6f6f6f;font-style: italic;">Ce qui n’est pas grave pour vous l’est peut-être pour les autres.</blockquote>
+> Ce qui n’est pas grave pour vous l’est peut-être pour les autres.
 
 À Sud Web, nous supposons que les gens sont intelligents et bien intentionnés, et nous ne cherchons pas à leur dire quoi faire, d'autant que dans les paysage des conférences, Sud Web apparaît parmi les plus accueillantes. Cependant, il nous  parait important que cette rencontre s'organise dans un environnement &laquo;&nbsp;<span lang="en">safe</span>&#8239;<sup><a href="#note1" id="note1-source">1</a></sup>&nbsp;&raquo; pour tou·te·s.
 
 Nous avons donc décidé de proposer des consignes qui permettent de faire en sorte que chacun·e·s se sentent à l’aise. 
 
-**Un Code of Conduct, pour quoi faire ?**
+## Un Code of Conduct, pour quoi faire ?
 
 Dans chaque groupement, collectif ou rassemblement, il y a une culture dominante principale et des personnes qui n’appartiennent pas à cette culture. Ces personnes sont donc sous-représentées dans le contexte, et naturellement, elles sont plus susceptibles d’être "oppressées" par la communauté principale. Souvent, cette oppression se manifeste par des comportements ou attitudes blessantes adoptées sans s’en rendre compte.
 
@@ -23,16 +24,16 @@ Imaginons-les comme un principe de précaution qui permet d’anticiper des situ
 
 En adoptant ces consignes, nous cherchons à établir un lien de confiance et de soin pour inviter celles et ceux qui sont sous-représenté·e·s à intégrer la communauté en toute tranquillité, dans l'objectif d'encourager et promouvoir la diversité.
 
-**Concrètement, comment ça marche ?**
+## Concrètement, comment ça marche ?
 
 Pour sauvegarder et encourager le cadre auquel nous aspirons, nous avons défini ce qui nous convenait, et ce qui ne nous convenait pas :
 
 ### Les postures encouragées :
 
-**L’accueil** : 
+**L’accueil** :  
 Faisons en sorte que les personnes – de tous horizons et identités confondues – soient les bienvenues, qu’elles se sentent accueillies dans un espace ouvert et chaleureux. Cela inclut, mais sans s’y limiter, les membres de toute ethnie, culture, nationalité, couleur, statut d’immigration, classe économique et sociale, niveau d’éducation, sexe, orientation sexuelle, identité sexuelle, âge, taille, situation familiale, croyance politique, religion et capacité mentale et physique.
 
-**La bienveillance et la bientraitance** :
+**La bienveillance et la bientraitance** :  
 Rencontrons-nous avec bienveillance, c’est-à-dire la volonté de viser le bien et le bonheur d’autrui, et assurons-nous d’être bien-traitant en s’assurant que notre manière d’agir concrètement va bien dans le sens de la bienveillance.
 
 ### Les comportement que nous voudrions décourager :
@@ -43,7 +44,7 @@ Rencontrons-nous avec bienveillance, c’est-à-dire la volonté de viser le bie
 * insistance alors que quelqu’un vous demande d’arrêter ;
 * encouragement des comportements ci-dessus.
 
-**Que faire si vous vivez une situation inconfortable qui fait référence à ces consignes ?**
+## Que faire si vous vivez une situation inconfortable qui fait référence à ces consignes ?
 
 Avant toute chose, sachez que vous êtes légitime de dire que vous n'êtes pas à l’aise avec ce qui est en train de se passer. Vous serez pris·e au sérieux.
 
@@ -55,7 +56,7 @@ La suite dépend de vous :
     * appellez un·e ami·e de confiance ;
     * rendez-vous dans un endroit et&#8239;/&#8239;ou auprès de personnes auprès desquelles vous vous sentez bien.
 
-**Que puis-je faire si vous êtes témoin d'une situation oppressive ?**
+## Que puis-je faire si vous êtes témoin d'une situation oppressive ?
 
 Les options sont multiples et dépendent souvent du contexte et des personnes en présence. En règle général, nous préconisons : 
 
@@ -73,7 +74,7 @@ Les options sont multiples et dépendent souvent du contexte et des personnes en
 
 Il s’agit évidemment d’une proposition non exhaustive qui ne tient pas compte des multiples contextes et personnes. Notre objectif est davantage de conseiller que d'imposer une méthode stricte&#8239;<sup><a href="#note2" id="note2-source">2</a></sup>.
 
-**Que se passe-t-il si les consignes ne sont pas respectées ?**
+## Que se passe-t-il si les consignes ne sont pas respectées ?
 
 Une fois informé·e·s, nous avons l'intention **faire quelque chose**, tout en étant bien conscient·e·s que chaque situation est différente. Nous aspirons en priorité à soutenir les personnes qui ont vécu une situation inconfortable.
 
@@ -86,5 +87,5 @@ En ce qui concerne la personne à l'origine de la situation, l'exclusion est pos
 <sup id="note1">1</sup>&#8239;: par <span lang="en">safe</span>, nous désignons un climat de confiance, de tranquillité et d’harmonie dans lequel chacun se sent pris en compte, en sécurité affective et émotionnelle. C'est un contexte dans lequel personne n'a besoin d'être sur ses gardes et qui libère des angoisses liées au regard de l'autre, à son jugement, à sa capacité à se moquer de soi ou de ses erreurs et à exiger des justifications. <a href="#note1-source">↵</a>
 
 <sup id="note2">2</sup>&#8239;: Comme le fait remarquer [David](https://larlet.fr/david/stream/2018/01/12/), nous rappelons à toutes fins utiles qu'il existe en France un cadre légal de [lutte contre les discriminations](https://www.legifrance.gouv.fr/affichSarde.do?reprise=true&page=1&idSarde=SARDOBJT000007118441). <a href="#note2-source">↵</a>
-
 </div>
+</section>
