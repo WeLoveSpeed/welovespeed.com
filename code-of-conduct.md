@@ -36,7 +36,7 @@ Faisons en sorte que les personnes – de tous horizons et identités confondues
 **La bienveillance et la bientraitance** :  
 Rencontrons-nous avec bienveillance, c’est-à-dire la volonté de viser le bien et le bonheur d’autrui, et assurons-nous d’être bien-traitant en s’assurant que notre manière d’agir concrètement va bien dans le sens de la bienveillance.
 
-### Les comportement que nous voudrions décourager :
+### Les comportements que nous voudrions décourager :
 
 * attaques personnelles : menaces, insultes, langage violent dirigés contre une autre personne ;
 * humour oppressif et langage discriminatoire ;
