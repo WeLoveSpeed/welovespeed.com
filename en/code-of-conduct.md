@@ -83,7 +83,7 @@ Regarding the person who caused the situation, exclusion is possible but not aut
 
 ***
 
-<sup id="note1">1</sup>&#8239;: Here, a "Safe" environment embodies an atmosphere of trust, tranquillity and harmony in which I feel "cared for" and in affective and emotional security. This is an environment in which I don't need to be on guard. That is to say, I am exempted from fears such as "What if the other person judges me? What if they laugh at me? What if I'm wrong? What if the other one asks me to justify myself?*". <a href="#note1-source">↵</a>
+<sup id="note1">1</sup>&#8239;: Here, a "safe" environment embodies an atmosphere of trust, tranquillity and harmony in which I feel "cared for" and in affective and emotional security. This is an environment in which I don't need to be on guard. That is to say, I am exempted from fears such as *"What if the other person judges me? What if they laugh at me? What if I'm wrong? What if the other one asks me to justify myself?"*. <a href="#note1-source">↵</a>
 
 <sup id="note2">2</sup>&#8239;: As [David (fr)](https://larlet.fr/david/stream/2018/01/12/) points out, we recall – for all intents and purposes – that there is already [a legal framework](https://www.legifrance.gouv.fr/affichSarde.do?reprise=true&page=1&idSarde=SARDOBJT000007118441) in France to tackle discrimination. **US readers**, to learn more about how French people culturally perceive freedom of expression, [here is an explanation](https://blogs.loc.gov/law/2015/03/falqs-freedom-of-speech-in-france/) <a href="#note2-source">↵</a>
 
