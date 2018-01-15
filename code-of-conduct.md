@@ -80,7 +80,7 @@ Une fois informé·e·s, nous avons l'intention **faire quelque chose**, tout en
 
 Nous agirons en priorité pour le bien-être de la personne qui a vécu une expérience inconfortable, afin qu'elle se sente mieux. Idéalement, nous construirons la réparation avec elle, mais pas obligatoirement – cela dépendra d'elle.
 
-En ce qui concerne la personne à l'origine de la situation, l'exclusion est possible mais en aucun cas n’est obligatoire. Il y a une granularité possible. D’ailleurs nous sommes plutôt partisan d’une granularité.
+En ce qui concerne la personne à l'origine de la situation, l'exclusion est possible mais en aucun cas n’est obligatoire. Il y a une granularité possible. D’ailleurs nous sommes plutôt partisan·e·s d’une granularité.
 
 ***
 
