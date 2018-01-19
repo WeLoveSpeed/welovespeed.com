@@ -1,6 +1,7 @@
 url: ""
 baseurl: ""
 robots: noindex,nofollow
+environment: 'development'
 
 sass:
   style: uncompressed
