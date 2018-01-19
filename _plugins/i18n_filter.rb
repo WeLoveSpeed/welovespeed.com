@@ -22,7 +22,7 @@ module Jekyll
         given_locale = get_locale
       end
       if given_locale == get_locale
-        @text
+        input
       else
         translations = get_translations[given_locale]
         raise 'Translations not provided' unless translations
