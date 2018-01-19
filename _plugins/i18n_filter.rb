@@ -1,12 +1,20 @@
 module Jekyll
-  class I18NFilter
-    @@locale
+  module I18NFilter
+    @@locale = nil
+    @@translations = []
 
     def get_locale
       if @@locale.nil?
         @@locale = Jekyll.configuration({})['locale'] || "fr_FR"
       end
       @@locale
+    end
+
+    def get_translations
+      if @@translations.empty?
+        @@translations = Jekyll.sites[0].data['translations']
+      end
+      @@translations
     end
 
     def t(input, given_locale = nil)
@@ -16,12 +24,14 @@ module Jekyll
       if given_locale == get_locale
         @text
       else
-        translations = site['data']['translations'][given_locale]
+        translations = get_translations[given_locale]
         raise 'Translations not provided' unless translations
-        translation = translations[@text]
-        raise "Translation not provided: #{@text}" unless translation
+        translation = translations[input]
+        raise "Translation not provided: #{input}" unless translation
         translation
       end
     end
   end
 end
+
+Liquid::Template.register_filter(Jekyll::I18NFilter)

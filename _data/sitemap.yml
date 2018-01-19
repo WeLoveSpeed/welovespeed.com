@@ -14,5 +14,5 @@
   type: root_anchor
   anchor: "#thym"
 - name: Mentions légales
-  type: page
-  value: mentions-legales
+  type: url
+  value: /2018/mentions-legales/
