@@ -82,6 +82,9 @@ Les options sont multiples et dépendent souvent du contexte et des personnes en
 
 Il s’agit évidemment d’une proposition non exhaustive qui ne tient pas compte des multiples contextes et personnes. Notre objectif est davantage de conseiller que d'imposer une méthode stricte&#8239;<sup><a href="#note2" id="note2-source">2</a></sup>.
 
+## A qui est-ce que je peux m'adresser ?
+Vous pouvez contacter Julia : 06-66-09-06-57 ou julia.barbelane@gmail.com
+
 ## Que se passe-t-il si les consignes ne sont pas respectées ?
 
 Une fois informé·e·s, nous avons l'intention **faire quelque chose**, tout en étant bien conscient·e·s que chaque situation est différente. Nous aspirons en priorité à soutenir les personnes qui ont vécu une situation négative.
