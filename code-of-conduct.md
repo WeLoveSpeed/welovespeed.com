@@ -18,7 +18,7 @@ description: "Consignes pour créer un cadre d’interaction bientraitant et pro
 
 > Ce qui n’est pas grave pour vous l’est peut-être pour les autres.
 
-À Sud Web, nous supposons que les gens sont intelligents et bien intentionnés, et nous ne cherchons pas à leur dire quoi faire, d'autant que dans les paysage des conférences, Sud Web apparaît parmi les plus accueillantes. Cependant, il nous  parait important que cette rencontre s'organise dans un environnement &laquo;&nbsp;<span lang="en">safe</span>&#8239;<sup><a href="#note1" id="note1-source">1</a></sup>&nbsp;&raquo; pour tou·te·s.
+À Sud Web, nous supposons que les gens sont intelligents et bien intentionnés, et nous ne cherchons pas à leur dire quoi faire. Cependant, il nous  paraît important que cette rencontre s'organise dans un environnement &laquo;&nbsp;<span lang="en">safe</span>&#8239;<sup><a href="#note1" id="note1-source">1</a></sup>&nbsp;&raquo; pour tou·te·s.
 
 Nous avons donc décidé de proposer des consignes qui permettent de faire en sorte que chacun·e·s se sentent à l’aise. 
 
@@ -52,7 +52,7 @@ Rencontrons-nous avec bienveillance, c’est-à-dire la volonté de viser le bie
 * insistance alors que quelqu’un vous demande d’arrêter ;
 * encouragement des comportements ci-dessus.
 
-## Que faire si vous vivez une situation inconfortable qui fait référence à ces consignes ?
+## Que faire si vous vivez une situation qui fait référence à ces consignes ?
 
 Avant toute chose, sachez que vous êtes légitime de dire que vous n'êtes pas à l’aise avec ce qui est en train de se passer. Vous serez pris·e au sérieux.
 
