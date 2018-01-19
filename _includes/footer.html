@@ -30,7 +30,14 @@
         <nav>
           <ul>
             {% for link in site.data.sitemap %}
-              <li><a href="{{link.url}}">{{link.name}}</a></li>
+              {% case link.type %}
+                {% when 'url' %}
+                  <li><a href="{{ link.value }}">{{ link.name | t: page.locale }}</a></li>
+                {% when 'root_anchor' %}
+                  <li><a href="{{ page.baseurl | default:site.baseurl }}/{{ link.anchor }}">{{ link.name | t: page.locale }}</a></li>
+                {% else %}
+                  <li><a href="{{ page.baseurl | default:site.baseurl }}/{{ link.value | t: page.locale }}/">{{ link.name | t: page.locale }}</a></li>
+              {% endcase %}
             {% endfor%}
           </ul>
         </nav>
