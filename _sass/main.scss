@@ -1,0 +1,66 @@
+/* ==========================================================================
+	Sass config file
+	Coding scheme:
+	css-selector {
+		properties line 1: position styles;
+		properties line 2: box styles;
+		properties line 3: flex and grid styles;
+		properties line 4: transform styles;
+		properties line 5: border styles;
+		properties line 6: background styles;
+		properties line 7: text styles;
+		properties line 8: other styles;
+		properties line 9: animation and transition styles;
+	 }
+	 ========================================================================== */
+
+// Charset
+@charset "UTF-8";
+
+// Config, variables and mixins
+@import
+	"vendors/ceaser/ceaser",
+	"scss/colors",
+	"scss/config",
+	"scss/mixins";
+
+// Reset
+@import
+	"vendors/normalize/normalize",
+	"base/fonts",
+	"base/init",
+	"scss/abstracts";
+
+// Vendors
+@import
+	"vendors/include-media/include-media";
+
+// Base
+@import
+	"base/animations",
+	"base/grid",
+	"base/typo",
+	"base/buttons",
+	"base/forms";
+
+// Main layout
+@import
+	"layout/layout",
+	"layout/header",
+	"layout/navigation",
+	"layout/footer";
+
+// UI componants – Alpha order
+@import
+	"ui-componants/banners",
+	"ui-componants/person",
+	"ui-componants/section";
+
+// Helpers
+@import
+	"helpers/helpers",
+	"helpers/responsive";
+
+// For debug
+@import
+	"debug/debug";

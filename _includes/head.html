@@ -7,9 +7,38 @@
         {% seo %}
         <meta name="google-site-verification" content="8m24dDPfxZJrdAG2SSC_LX9-CQco5_IBiqTGxxUnREU" />
         <meta name="google-site-verification" content="d4ACEsgZ4SRtmiaMYlTAmL9bRKoVn7EMphY8QUaI9iU" />
-        <link href="{{ "/assets/favicons/favicon.ico" | relative_url }}" rel="shortcut icon" type="image/x-icon">
-        <link rel="stylesheet" href="{{ "/assets/css/screen.css?date=20180115" | relative_url }}">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="{{ site.baseurl }}/assets/favicons/manifest.json">
+        <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicons/safari-pinned-tab.svg" color="#93ac3d">
+        <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicons/favicon.ico?date=20180119">
+        <meta name="msapplication-config" content="{{ site.baseurl }}/assets/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#c8d891">
+
+        <link rel="author" href="TODO">
+
+        <!--<meta property="og:image" content="https://sudweb.fr/assets/images/social/og-image.jpg">-->
+        <meta property="og:image" content="https://code.twikito.com/sudweb/assets/images/social/og-image.jpg">
+        <meta property="og:image:height" content="488">
+        <meta property="og:image:width" content="932">
+        <meta property="og:description" content="Deux journ&eacute;es pour faire le plein d&rsquo;inspiration, les 25 et 26 mai &agrave; Anduze">
+        <meta property="og:title" content="Sud Web : La conf&eacute;rence Web surtout Humaine">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://sudweb.fr/">
+        <meta property="og:locale" content="fr_fr">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@SudWeb">
+        <meta name="twitter:creator" content="@SudWeb">
+
+        <link rel="preload" as="image" type="image/jpeg" crossorigin href="{{ site.baseurl }}/assets/images/logo-bg.jpg">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/oraqle_script-webfont.woff2?date=20180119">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/roboto-thin-webfont.woff2">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/roboto-light-webfont.woff2">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/roboto-lightitalic-webfont.woff2">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/roboto-regular-webfont.woff2">
+        <link rel="stylesheet" href="{{'/assets/css/main.css' | relative_url }}">
+
         <meta name="robots" content="{{ site.robots }}">
-        {% include favicons.html %}
-        {% include analytics.html %}
     </head>

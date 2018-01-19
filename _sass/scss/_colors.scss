@@ -1,0 +1,73 @@
+/* ==========================================================================
+   COLORS
+   ========================================================================== */
+
+// Colors definitions
+
+$black                            : #000000;
+$softgrey                         : #ABB4BE;
+$softwhite                        : #FCFEFD;
+$white                            : #FFFFFF;
+$green                            : #93AC3D;
+$darkgreen                        : #465b33;
+
+$blue                             : #12A6C6;
+$orange                           : #F39C12;
+$red                              : #E74C3C;
+
+
+// Sementics
+
+$regular                          : $darkgreen;
+$inactive                         : $softgrey;
+$info                             : $blue;
+$valid                            : $green;
+$warning                          : $orange;
+$alert                            : $red;
+
+// Colors applications
+
+$default-color                    : $darkgreen;
+$default-bg                       : $softwhite;
+$focus-color                      : $green;
+
+$link-color                       : $focus-color;
+
+$title-color                      : $default-color;
+
+$selection-color                  : $white;
+$selection-bg                     : $green;
+
+$hr-color                         : lighten($softgrey, 20%);
+
+
+// Forms
+
+$input-color                      : $default-color;
+$input-bg                         : transparent;
+$input-border-color               : lighten($softgrey, 10%);
+$input-focus-color                : $black;
+$input-focus-bg                   : transparent;
+$input-focus-border-color         : $black;
+
+
+// Buttons:
+
+$btn-bg                           : lighten($green, 25%);
+$btn-color                        : $darkgreen;
+$btn-hover-bg                     : $green;
+$btn-hover-color                  : $white;
+
+
+// Navigation
+
+$nav-bg                           : $white;
+$nav-color                        : $link-color;
+
+$nav-trigger-btn-bg               : $softwhite;
+$nav-trigger-btn-color            : $default-color;
+$nav-trigger-btn-hover-bg         : $nav-trigger-btn-bg;
+$nav-trigger-btn-hover-color      : $focus-color;
+$nav-trigger-btn-active-bg        : transparent;
+$nav-trigger-btn-active-color     : $nav-trigger-btn-color;
+$nav-trigger-area-bg              : rgba($white, .9);

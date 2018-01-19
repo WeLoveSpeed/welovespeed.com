@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+body {
+	background: $default-bg;
+}
+
+::-moz-selection {
+	background: $selection-bg;
+	color: $selection-color; text-shadow: none;
+	fill: $selection-color;
+}
+
+::selection {
+	background: $selection-bg;
+	color: $selection-color; text-shadow: none;
+	fill: $selection-color;
+}
+
+hr {
+	height: 0; margin: $default-line-height * 1em 0; padding: 0;
+	border: 0; border-bottom: 1px solid $hr-color;
+}
+
+h1 {
+	margin: 0; padding: 1em 0;
+}
+
+audio, canvas, iframe, img, video {
+	vertical-align: middle;
+}
+
+fieldset {
+	margin: 0; padding: 0;
+	border: 0;
+}
+
+textarea {
+	resize: vertical;
+}
+
+a, button, input, textarea, select {
+	transition: $default-duration $default-timing-function;
+}
+
+button {
+	color: inherit;
+	cursor: pointer;
+}
+
+abbr[title] {
+	text-decoration: none;
+}
+
+figure {
+	margin: 0;
+}
+
+img {
+	width: 100%; height: auto;
+}
+
+svg {
+	display: inline-block; width: 1em; height: 1em;
+	fill: currentColor;
+	vertical-align: baseline;
+}
+
+a svg,
+button svg {
+	text-decoration: none;
+	pointer-events: none;
+}

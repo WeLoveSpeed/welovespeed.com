@@ -1,10 +1,15 @@
 - name: facebook
+  title: Sud Web sur Facebook
   url: https://www.facebook.com/SudWeb
 - name: twitter
+  title: Sud Web sur Twitter
   url: https://twitter.com/sudweb
 - name: vimeo
+  title: Sud Web sur Vimeo
   url: https://vimeo.com/sudweb
 - name: flickr
+  title: Sud Web sur Flickr
   url: https://www.flickr.com/people/sudweb/
 - name: slack
+  title: Sud Web sur Slack
   url: http://sudweb.herokuapp.com/

@@ -1,63 +1,69 @@
 <footer class="page-footer">
   <div class="wrapper">
+    <section id="thym">
+      <h2 class="text-center">{% t La Thym %}</h2>
+      <div class="grid-7 text-center">
+        {% for member in site.data.thym_members %}
+          <figure class="person">
+            <img class="person-avatar" src="https://twitter.com/{{member.twitter}}/profile_image?size=bigger" alt="Alexandra Janin">
+            <figcaption class="person-name text-xs">
+              <a href="https://twitter.com/{{member.twitter}}">{{member.name}}</a>
+            </figcaption>
+          </figure>
+        {% endfor%}
+      </div>
+    </section>
+    <hr>
     <div class="grid-3">
       <section>
-        <h2 class="tiny-title-size uppercase">Épisodes précédents</h2>
+        <h3 class="text-lg">{% t Épisodes précédents %}</h3>
         <nav>
           <ul>
-            {% for edition in site.data.editions reversed %}
-            <li>
-              <a href="https://sudweb.fr/{{ edition.year }}">{{ edition.year }} {% t à %} {{ edition.town }}</a>
-            </li>
-            {% endfor %}
+            {% for edition in site.data.editions %}
+            <li><a href="https://sudweb.fr/{{edition.year}}">{{edition.year}} à {{edition.town}}</a></li>
+            {% endfor%}
           </ul>
         </nav>
       </section>
       <section>
-        <h2 class="tiny-title-size uppercase">Pour en savoir plus</h2>
+        <h3 class="text-lg">{% t Pour en savoir plus %}</h3>
         <nav>
           <ul>
-            <li><a href="https://sudweb.fr/blog/">Blog</a></li>
-            <li><a href="{{ page.baseurl | default:site.baseurl }}/contact/">Contact</a></li>
-            <li><a href="{{ page.baseurl | default:site.baseurl }}/code-of-conduct/">{% if lang == "fr" %}<span lang="en">{% t Code de Conduite %}</span>{% else %}{% t Code de Conduite %}{% endif %}</a></li>
-            <li><a href="{{ page.baseurl | default:site.baseurl }}/{% t manifeste %}/">{%t Manifeste %}</a></li>
-            <li><a href="{{ page.baseurl | default:site.baseurl }}/thym/">{%t La Thym %}</a></li>
-            <li><a href="{{ "/mentions-legales/" | relative_url }}">{%t Mentions légales %}{% if lang != "fr" %}(in french){% endif %}</a></li>
-
+            {% for link in site.data.sitemap %}
+              <li><a href="{{link.url}}">{{link.name}}</a></li>
+            {% endfor%}
           </ul>
         </nav>
       </section>
       <section>
-        <h2 class="tiny-title-size uppercase">Who you gonna call?</h2>
-	<form action="//sudweb.us2.list-manage.com/subscribe/post?u=af19b58cf514c01eca3f7652e&amp;id=b579f5b507" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form validate" target="_blank" rel="noopener noreferrer" novalidate>
-          <label for="mce-EMAIL">{%t Inscrivez-vous à la newsletter %}</label>
-          <div class="row">
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+        <h3 class="text-lg">{% t Who you gonna call? %}</h3>
+        <form action="//sudweb.us2.list-manage.com/subscribe/post?u=af19b58cf514c01eca3f7652e&amp;id=b579f5b507"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+          class="newsletter-form validate" target="_blank" rel="noopener noreferrer" novalidate="">
+          <label for="mce-EMAIL">{% t Recevez la Sud Web letter %}</label>
+          <div class="form-row">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{% t Votre email %}" required="">
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_af19b58cf514c01eca3f7652e_b579f5b507" tabindex="-1" value=""></div>
-            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button uppercase">ok</button>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_af19b58cf514c01eca3f7652e_b579f5b507" tabindex="-1" value="">
+            </div>
+            <button class="button-reset" type="submit" name="subscribe" id="mc-embedded-subscribe">ok</button>
           </div>
         </form>
         <ul class="social-links">
           {% for social in site.data.social %}
-          <li>
-            <a href="{{ social.url }}" class="button-type6" title="{{ site.title }} sur {{ social.name | capitalize }}">
-              <svg xmlns="http://www.w3.org/2000/svg" version="1.1"><use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#{{ social.name }}" /></svg>
-            </a>
-          </li>
-          {% endfor %}
+            <li>
+              <a href="{{social.url}}" title="{{social.title}}">
+                <svg viewBox="0 0 448 512">
+                  <use xlink:href="/assets/svg/symbol-defs.svg#{{social.name}}"/>
+                </svg>
+              </a>
+            </li>
+          {% endfor%}
         </ul>
       </section>
     </div>
+    <hr>
+    <p class="text-center">{% t Gracieusement hébergé par %} <a href="https://alwaysdata.com">alwaysdata</a>.</p>
   </div>
 </footer>
-
-<div class="page-ground">
-  <div class="wrapper text-center">
-    <p class="small-size">
-      Gracieusement hébergé par <a href="https://alwaysdata.com">alwaysdata</a>.
-    </p>
-  </div>
-</div>
-
-{% include scripts.html %}

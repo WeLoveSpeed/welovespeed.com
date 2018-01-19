@@ -1,0 +1,27 @@
+[class*=' grid-'],
+[class^='grid-'] {
+	--grid-item-min-width: 1fr;
+
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax( var(--grid-item-min-width), 1fr ) );
+	grid-gap: $global-gutters $global-gutters; justify-items: stretch; align-items: stretch;
+
+	& > * {
+		min-width: 0;
+	}
+}
+
+@for $i from 1 through 7 {
+
+	$x: ($wrapper-max-width / $i) - $global-gutters;
+
+	@include media('>#{$x}') {
+		.grid-#{$i} {
+			--grid-item-min-width: #{$x};
+		}
+	}
+}
+
+.grid-item-full {
+	grid-column: 1 / -1;
+}

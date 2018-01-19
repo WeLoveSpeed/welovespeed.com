@@ -50,16 +50,16 @@ sass:
     sass_dir: _sass
     style: compressed
 
-collections:
-  talks:
-    output: false
-    order: date asc
-    permalink: /talks/:path/
-    sitemap: false
-  components:
-    output: false
-  colors:
-    output: false
+# collections:
+#   talks:
+#     output: false
+#     order: date asc
+#     permalink: /talks/:path/
+#     sitemap: false
+#   components:
+#     output: false
+#   colors:
+#     output: false
 
 defaults:
   -
@@ -70,7 +70,7 @@ defaults:
       locale: fr_FR
       layout: default
       is_home: false
-      image: 
+      image:
         path: /assets/images/twittercard.png?date=20180106
         width: 560
         height: 300
@@ -82,7 +82,7 @@ defaults:
       baseurl: "/2018/en"
       locale: en_US
       layout: default
-      image: 
+      image:
         path: /assets/images/twittercard-en.png?date=20180107
         width: 560
         height: 300

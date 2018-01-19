@@ -1,0 +1,12 @@
+- name: Blog
+  url: https://sudweb.fr/blog/
+- name: Contact
+  url: /contact/
+- name: Code Of Conduct
+  url: code-of-conduct
+- name: Manifeste
+  url: /manifeste/
+- name: La Thym
+  url: /#thym
+- name: Mentions légales
+  url: /mentions-legales/

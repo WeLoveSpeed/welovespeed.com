@@ -1,34 +1,17 @@
-<nav class="main-nav{% if page.is_home %} main-nav__home{% endif %}">
-  <div class="wrapper">
-    <a class="logo" href="{{ "/" | relative_url }}" title="Accueil" data-event-category="cta" data-event-action="click" data-event-label="navigation-logo">
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="sw-logo yellowbg" viewBox="0 0 500 276.37">
-        <title>Sud Web</title>
-        <use id="sw-hands" xlink:href="{{ "/assets/images/symbol-defs.svg#sw-hands" | relative_url }}" />
-        <use id="sw-hands-shadows" xlink:href="{{ "/assets/images/symbol-defs.svg#sw-hands-shadows" | relative_url }}" />
-        <use id="sw-heart" xlink:href="{{ "/assets/images/symbol-defs.svg#sw-heart" | relative_url }}" />
-        <use id="sw-heart-top" xlink:href="{{ "/assets/images/symbol-defs.svg#sw-heart-top" | relative_url }}" />
-        <use id="sw-wave-shadow" xlink:href="{{ "/assets/images/symbol-defs.svg#sw-wave-shadow" | relative_url }}" />
-        <use id="sw-wave" xlink:href="{{ "/assets/images/symbol-defs.svg#sw-wave" | relative_url }}" />
-      </svg>
-    </a>
-    {% if page.is_home %}<span class="great-title-size">Sud Web 2018</span><span class="small-title-size">{% t La conférence Web surtout Humaine %}</span>{% endif %}
-    {% unless page.is_home %}
-    <a  class="nav" href="{{ page.baseurl | default:site.baseurl }}/" title="{{ link.title }}" data-event-category="cta" data-event-action="click" data-event-label="navigation-home" >{% t Accueil %}</a>
-    {% capture cfp_url %}{% if page.locale == 'en_US' %}/en{% endif %}/{% t appel-a-sujets %}/{% endcapture %}
-    {% if page.url == cfp_url %}
-    <span class="nav is--active">{% t Proposer un sujet %}</span>
-    {% else %}
-    <a  class="nav" href="{{ page.baseurl | default:site.baseurl }}/{% t appel-a-sujets %}/" title="{{ link.title }}" data-event-category="cta" data-event-action="click" data-event-label="navigation-home" >{% t Proposer un sujet %}</a>
-    {% endif %}
-    {% comment %}
-    {% for link in site.data.navigation.primary %}
-    {% if page.url == link.url %}
-    <span class="nav is--active">{{ link.name }}</span>
-    {% else %}
-    <a  class="nav" href="{{ link.url | relative_url }}" title="{{ link.title }}" data-event-category="cta" data-event-action="click" data-event-label="navigation-{{ link.name }}" >{{ link.name }}</a>
-    {% endif %}
-    {% endfor %}
-    {% endcomment %}
-    {% endunless %}
+<button type="button" class="button-reset nav-trigger" title="Navigation" data-target="#navigation">
+  <div class="nav-trigger-button">
+    <span>navi</span><span>gation</span>
   </div>
+</button>
+
+<nav class="page-nav" id="navigation">
+  <ul class="page-nav-inner">
+    <li><a href="/">{% t Accueil %}</a></li>
+    <li><a href="/appel-a-sujets/">{% t Appel à sujets %}</a></li>
+    <li><a href="/billeterie/">{% t Participer %}</a></li>
+    <li><a href="https://sudweb.fr/blog/">{% t Blog %}</a></li>
+    <li><a href="/code-of-conduct/"><span lang="en">{% t Code Of Conduct %}</span></a></li>
+    <li><a href="/manifeste/">{% t Manifeste %}</a></li>
+    <li><a href="/contact/">{% t Contact %}</a></li>
+  </ul>
 </nav>

@@ -1,0 +1,38 @@
+[class*=' banner-'],
+[class^='banner-'] {
+	position: relative;
+	padding: 30% 0;
+	background: center / cover no-repeat fixed;
+
+	@include media('>large') {
+		padding: 20% 0;
+	}
+	@include media('>xlarge') {
+		padding: 15% 0;
+	}
+}
+
+.banner-first {
+	background-image: url(/assets/images/banners/bambouseraie-1-1260h.jpg);
+}
+.banner-second {
+	background-image: url(/assets/images/banners/forum-1080h.jpg);
+}
+.banner-third {
+	background-image: url(/assets/images/banners/chemin-1080h.jpg);
+}
+.banner-force {
+	background-image: url(/assets/images/banners/station-train.jpg);
+}
+
+.photo-credits {
+	position: absolute; right: 0; bottom: 0;
+	margin: 0; padding: 0 .5em;
+	background-color: rgba($black, .5);
+	font-size: .625em;
+
+	&,
+	a {
+		color: $white;
+	}
+}

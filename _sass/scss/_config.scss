@@ -1,0 +1,112 @@
+/* ==========================================================================
+   CONFIG
+   ========================================================================== */
+
+// Typo
+
+$default-font-size          : 1em;
+$default-line-height        : 1.6;
+
+$font-weight-light          : 100;
+$font-weight-normal         : 300;
+$font-weight-bold           : 400;
+
+$default-font-family        : "Roboto", arial, sans-serif;
+$default-font-weight        : $font-weight-normal;
+$default-font-style         : normal;
+
+$logo-font-family           : "Oraqle", cursive;
+$logo-font-weight           : normal;
+$logo-font-style            : normal;
+
+$main-title-font-family     : "Roboto", arial, sans-serif;
+$main-title-font-weight     : $font-weight-light;
+$main-title-font-style      : normal;
+
+$title-font-family          : "Roboto", arial, sans-serif;
+$title-font-weight          : $font-weight-light;
+$title-font-style           : normal;
+
+$nav-font-family            : "Roboto", arial, sans-serif;
+$nav-font-weight            : $font-weight-light;
+$nav-font-style             : normal;
+
+$input-font-family          : "Roboto", arial, sans-serif;
+$input-font-weight          : $font-weight-normal;
+$input-font-style           : italic;
+
+$button-font-family         : "Roboto", arial, sans-serif;
+$button-font-weight         : $font-weight-bold;
+$button-font-style          : normal;
+
+
+$font-sizes                 : ((
+		'class'             : 'xxl',
+		'size'              : 1.75em
+	),(
+		'class'             : 'xl',
+		'size'              : 1.5em
+	),(
+		'class'             : 'lg',
+		'size'              : 1.25em
+	),(
+		'class'             : 'sm',
+		'size'              : .875em
+	),(
+		'class'             : 'xs',
+		'size'              : .75em
+));
+
+
+// Forms and buttons
+
+$input-vmargin              : .25em;
+$input-hmargin              : 0;
+$input-vpadding             : .25em;
+$input-hpadding             : 0;
+
+$btn-hmargin                : .5em;
+$btn-hpadding               : 1.5em;
+
+
+// Layout
+
+$wrapper-width              : 90%;
+$wrapper-max-width          : 96rem;
+$global-gutters             : 2rem;
+
+
+// Z-indexes
+
+$zindex-nav-trigger-area    : 15;
+$zindex-nav-trigger         : 16;
+$zindex-page-nav            : 20;
+
+
+// Responsive
+
+$media-ratio                : (
+	'xsmall'                : 1.7,
+	'small'                 : 1.8,
+	'medium'                : 1.9,
+	'large'                 : 2,
+	'xlarge'                : 2.1,
+	'xxlarge'               : 2.2
+);
+
+$breakpoints                : (
+	'small'                 : 480px,
+	'medium'                : 720px,
+	'large'                 : 960px,
+	'xlarge'                : 1200px,
+	'xxlarge'               : 1440px
+);
+
+
+// Transitions
+
+$default-duration           : .25s;
+$default-timing-function    : ceaser(easeInOutQuart);
+
+$nav-toggle-duration        : .5s;
+$nav-toggle-timing-function : ceaser(easeOutCubic);

@@ -1,0 +1,19 @@
+input,
+select,
+textarea {
+	display: block; width: 100%; margin: $input-vmargin $input-hmargin; padding: $input-vpadding $input-hpadding;
+	border: 0; border-bottom: 1px solid $input-border-color; outline: none;
+	background-color: $input-bg;
+	color: $input-color; font: $input-font-style $input-font-weight 1em/#{$default-line-height} $input-font-family; text-align: left;
+	vertical-align: baseline;
+	&:focus {
+		border-bottom-color: $input-focus-border-color;
+		background-color: $input-focus-bg;
+		color: $input-focus-color;
+	}
+}
+
+.form-row {
+	display: flex;
+	flex-flow: row nowrap; justify-content: flex-start; align-items: center;
+}

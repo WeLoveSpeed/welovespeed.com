@@ -1,0 +1,120 @@
+html, input, textarea, select {
+	font-family: $default-font-family;
+	font-style: $default-font-style;
+	font-weight: $default-font-weight;
+	line-height: $default-line-height;
+	color: $default-color;
+}
+
+html {
+	font-size: .625em; /* fallback IE8+ */
+	font-size: calc(1em * .625); /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
+}
+
+body {
+	font-size: map-get($media-ratio, 'xsmall') * $default-font-size;
+
+	@each $breakpoint, $value in $breakpoints {
+		@include media(">#{$breakpoint}") {
+			font-size: map-get($media-ratio, $breakpoint) * $default-font-size;
+		}
+	}
+}
+
+h1, h2, h3, h4, h5, h6, .h-like {
+	font-family: $title-font-family; font-style: $title-font-style; font-weight: $title-font-weight; color: $title-color;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+p, ul, ol, dl, blockquote, pre, caption {
+	margin: $default-line-height * 1em 0;
+}
+
+strong, b {
+	font-weight: $font-weight-bold;
+}
+
+a, button.btn--link-like {
+	font-style: italic; color: $link-color; text-decoration: none;
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+	}
+}
+
+
+// Typo helpers ---------------------------------------------------------------
+
+.h-reset,
+.text-reset {
+	font: inherit; color: $default-color;
+}
+.h-reset {
+	margin: initial; padding: 0;
+}
+@each $size in $font-sizes {
+	$class: map-get($size, 'class');
+	$size: map-get($size, 'size');
+
+	.text-#{$class} {
+		font-size: $size;
+	}
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-uppercase {
+	text-transform: uppercase;
+}
+.text-bold {
+	font-weight: $font-weight-bold;
+}
+.text-italic {
+	font-style: italic;
+}
+.text-nowrap {
+	white-space: nowrap;
+}
+.text-ellipsis {
+	overflow: hidden;
+	white-space: nowrap; text-overflow: ellipsis;
+}
+.text-wrap {
+	word-break: break-all; hyphens: auto;
+}
+.text-focus {
+	color: $focus-color;
+}
+
+.text-valid {
+	color: $valid;
+}
+.text-warning {
+	color: $warning;
+}
+.text-alert {
+	color: $alert;
+}
+.text-inactive {
+	color: $inactive;
+}
+
+.svg-text {
+	font-size: .875em;
+}
+.external-link-icon {
+	font-size: .625em;
+}
