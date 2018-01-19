@@ -1,18 +1,20 @@
 <footer class="page-footer">
   <div class="wrapper">
-    <section id="thym">
-      <h2 class="text-center">{% t La Thym %}</h2>
-      <div class="grid-7 text-center">
-        {% for member in site.data.thym_members %}
-          <figure class="person">
-            <img class="person-avatar" src="https://twitter.com/{{member.twitter}}/profile_image?size=bigger" alt="Alexandra Janin">
-            <figcaption class="person-name text-xs">
-              <a href="https://twitter.com/{{member.twitter}}">{{member.name}}</a>
-            </figcaption>
-          </figure>
-        {% endfor%}
-      </div>
-    </section>
+    {% if page.is_home %}
+      <section id="thym">
+        <h2 class="text-center">{% t La Thym %}</h2>
+        <div class="grid-7 text-center">
+          {% for member in site.data.thym_members %}
+            <figure class="person">
+              <img class="person-avatar" src="https://twitter.com/{{member.twitter}}/profile_image?size=bigger" alt="Alexandra Janin">
+              <figcaption class="person-name text-xs">
+                <a href="https://twitter.com/{{member.twitter}}">{{member.name}}</a>
+              </figcaption>
+            </figure>
+          {% endfor%}
+        </div>
+      </section>
+    {% endif %}
     <hr>
     <div class="grid-3">
       <section>
