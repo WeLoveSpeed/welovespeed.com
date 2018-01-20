@@ -10,6 +10,6 @@
     {% for link in nav_links %}
       <li>{% include link.html link=link %}</li>
     {% endfor%}
-
+      <li><a href="{{ site.url }}{{ site.baseurl }}/{{ "en/" | t: page.locale }}"><small>{% t (see in english) %}</small></a></li>
   </ul>
 </nav>
