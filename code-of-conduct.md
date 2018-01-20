@@ -1,6 +1,7 @@
 --- 
 title: Code de conduite
 description: "Consignes pour créer un cadre d’interaction bientraitant et protecteur"
+i18n-key: coc
 ---
 
 <div class="forum-banner lozad" data-background-image="/assets/images/forum-large.jpg">

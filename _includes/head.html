@@ -33,6 +33,11 @@
         <meta name="twitter:site" content="@SudWeb">
         <meta name="twitter:creator" content="@SudWeb">
 
+        {% if page.translation %}
+            {% assign lang = page.translation.locale | slice: 0,2 %}
+            <link rel="alternate" hreflang="{{ lang }}" href="{{ page.translation.url }}"/>
+        {% endif %}
+
         <link rel="preload" as="image" type="image/jpeg" crossorigin href="{{ "/assets/images/logo-bg.jpg" | relative_url }}">
         <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/oraqle_script-webfont.woff2?date=20180119" | relative_url }}">
         <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/roboto-thin-webfont.woff2" | relative_url }}">
