@@ -20,7 +20,7 @@ layout: null
 
 /* CONTRIBUTORS */
 
-  {% for contributor in site.github.contributors | sort: "contributions" %}
+  {% for contributor in site.github.contributors %}
   Name:         {{ contributor.login }}
   Site:         <{{ contributor.html_url }}>
   {% endfor %}
