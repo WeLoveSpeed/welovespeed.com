@@ -15,7 +15,7 @@
   in_footer: true
 - name: Code de Conduite
   type: page
-  value: code-of-conduct
+  value: code-de-conduite
   in_nav: true
   in_footer: true
 - name: La Thym

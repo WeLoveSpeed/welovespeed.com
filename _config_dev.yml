@@ -9,24 +9,15 @@ sass:
 defaults:
   -
     scope:
-      path: ""
+      path: "pages"
       type: pages
     values:
       locale: fr_FR
       layout: default
-      image:
-        path: /assets/images/twittercard.png?date=20180106
-        width: 560
-        height: 300
   -
     scope:
-      path: "en"
+      path: "pages/en"
       type: pages
     values:
       baseurl: "/en"
       locale: en_US
-      layout: default
-      image:
-        path: /assets/images/twittercard-en.png?date=20180107
-        width: 560
-        height: 300

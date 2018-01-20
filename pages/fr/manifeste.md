@@ -4,9 +4,7 @@ description: ""
 permalink: /manifeste/
 ---
 
-<div class="thanks-banner lozad" data-background-image="/assets/images/public-large.jpg"></div>
-
-<section class="white-section">
+<section class="section">
 <div class="wrapper" markdown="1">
 
 # {{ page.title }}
@@ -32,5 +30,3 @@ Voici les valeurs que nous partageons et véhiculons :
 
 </div>
 </section>
-
-<div class="thanks-banner lozad" data-background-image="/assets/images/public-large.jpg"></div>

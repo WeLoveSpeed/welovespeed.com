@@ -2,18 +2,11 @@
 title: Code of Conduct
 description: "Consignes pour créer un cadre d’interaction bientraitant et protecteur"
 i18n-key: coc
+permalink: /en/code-of-conduct/
 ---
 
-<div class="forum-banner lozad" data-background-image="/assets/images/forum-large.jpg">
-  <p class="credits">
-    2017 retrospective in Aix-En-Provence,
-    <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> -
-    <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
-  </p>
-</div>
-
-<section>
-<div class="wrapper coc text-left" markdown="1">
+<section class="section">
+  <div class="wrapper" markdown="1">
 
 # Code of Conduct: <small>instructions for creating a framework for caring and safe interactions</small>
 
@@ -98,11 +91,3 @@ Regarding the person who caused the situation, exclusion is possible but not aut
 
 </div>
 </section>
-
-<div class="forum-banner lozad" data-background-image="/assets/images/forum-large.jpg">
-  <p class="credits">
-    2017 retrospective in Aix-En-Provence,
-    <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> -
-    <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
-  </p>
-</div>

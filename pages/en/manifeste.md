@@ -1,11 +1,10 @@
 ---
 title: Sud Web Manifesto
 description: ""
+permalink: /en/manifesto/
 ---
 
-<div class="thanks-banner lozad" data-background-image="/assets/images/public-large.jpg"></div>
-
-<section class="white-section">
+<section class="section">
 <div class="wrapper" markdown="1">
 
 # {{ page.title }}
@@ -31,5 +30,3 @@ These are the values we share and convey:
 
 </div>
 </section>
-
-<div class="thanks-banner lozad" data-background-image="/assets/images/public-large.jpg"></div>

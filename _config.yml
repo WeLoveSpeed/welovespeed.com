@@ -40,8 +40,6 @@ newsletter:
 
 # Jekyll configuration
 
-permalink: /:title/
-paginate: 5
 timezone: Europe/Paris
 sass:
     sass_dir: _sass
@@ -50,27 +48,18 @@ sass:
 defaults:
   -
     scope:
-      path: ""
+      path: "pages"
       type: pages
     values:
       locale: fr_FR
       layout: default
-      image:
-        path: /assets/images/twittercard.png?date=20180106
-        width: 560
-        height: 300
   -
     scope:
-      path: "en"
+      path: "pages/en"
       type: pages
     values:
       baseurl: "/2018/en"
       locale: en_US
-      layout: default
-      image:
-        path: /assets/images/twittercard-en.png?date=20180107
-        width: 560
-        height: 300
 
 include:
   - _headers
@@ -97,7 +86,5 @@ exclude:
 plugins:
   - jekyll-github-metadata
   - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
   - jekyll-redirect-from
   - octopress-autoprefixer
