@@ -31,15 +31,9 @@
         <h3 class="text-lg">{% t Pour en savoir plus %}</h3>
         <nav>
           <ul>
-            {% for link in site.data.sitemap %}
-              {% case link.type %}
-                {% when 'url' %}
-                  <li><a href="{{ link.value }}">{{ link.name | t: page.locale }}</a></li>
-                {% when 'root_anchor' %}
-                  <li><a href="{{ page.baseurl | default:site.baseurl }}/{{ link.anchor }}">{{ link.name | t: page.locale }}</a></li>
-                {% else %}
-                  <li><a href="{{ page.baseurl | default:site.baseurl }}/{{ link.value | t: page.locale }}/">{{ link.name | t: page.locale }}</a></li>
-              {% endcase %}
+            {% assign footer_links = site.data.sitemap | where: 'in_footer', true %}
+            {% for link in footer_links %}
+              <li>{% include link.html link=link %}</li>
             {% endfor%}
           </ul>
         </nav>

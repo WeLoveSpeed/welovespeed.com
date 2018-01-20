@@ -6,12 +6,10 @@
 
 <nav class="page-nav" id="navigation">
   <ul class="page-nav-inner">
-    <li><a href="/">{% t Accueil %}</a></li>
-    <li><a href="/appel-a-sujets/">{% t Appel à sujets %}</a></li>
-    <li><a href="/billeterie/">{% t Participer %}</a></li>
-    <li><a href="https://sudweb.fr/blog/">{% t Blog %}</a></li>
-    <li><a href="/code-of-conduct/"><span lang="en">{% t Code Of Conduct %}</span></a></li>
-    <li><a href="/manifeste/">{% t Manifeste %}</a></li>
-    <li><a href="/contact/">{% t Contact %}</a></li>
+    {% assign nav_links = site.data.sitemap | where: 'in_nav', true %}
+    {% for link in nav_links %}
+      <li>{% include link.html link=link %}</li>
+    {% endfor%}
+
   </ul>
 </nav>

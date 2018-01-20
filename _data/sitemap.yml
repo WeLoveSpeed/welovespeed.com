@@ -1,18 +1,40 @@
-- name: Blog
-  type: url
-  value: https://sudweb.fr/blog/
-- name: Contact
+- name: Accueil
+  type: root_anchor
+  value: ""
+  in_nav: true
+  in_footer: false
+- name: Appel à sujets
   type: page
-  value: contact
-- name: Code de Conduite
-  type: page
-  value: code-of-conduct
+  value: appel-a-sujets
+  in_nav: true
+  in_footer: false
 - name: Manifeste
   type: page
   value: manifeste
+  in_nav: false
+  in_footer: true
+- name: Code de Conduite
+  type: page
+  value: code-of-conduct
+  in_nav: true
+  in_footer: true
 - name: La Thym
   type: root_anchor
   anchor: "#thym"
+  in_nav: false
+  in_footer: true
+- name: Contact
+  type: page
+  value: contact
+  in_nav: true
+  in_footer: true
 - name: Mentions légales
   type: page
   value: mentions-legales
+  in_nav: false
+  in_footer: true
+- name: Blog
+  type: url
+  value: https://sudweb.fr/blog/
+  in_nav: false
+  in_footer: true
