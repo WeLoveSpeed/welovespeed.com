@@ -1,6 +1,33 @@
 url: ""
 baseurl: ""
 robots: noindex,nofollow
+environment: 'development'
 
 sass:
   style: uncompressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      locale: fr_FR
+      layout: default
+      is_home: false
+      image:
+        path: /assets/images/twittercard.png?date=20180106
+        width: 560
+        height: 300
+  -
+    scope:
+      path: "en"
+      type: pages
+    values:
+      baseurl: "/en"
+      locale: en_US
+      layout: default
+      image:
+        path: /assets/images/twittercard-en.png?date=20180107
+        width: 560
+        height: 300

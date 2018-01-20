@@ -1,12 +1,18 @@
 - name: Blog
-  url: https://sudweb.fr/blog/
+  type: url
+  value: https://sudweb.fr/blog/
 - name: Contact
-  url: /contact/
-- name: Code Of Conduct
-  url: code-of-conduct
+  type: page
+  value: contact
+- name: Code de Conduite
+  type: page
+  value: code-of-conduct
 - name: Manifeste
-  url: /manifeste/
+  type: page
+  value: manifeste
 - name: La Thym
-  url: /#thym
+  type: root_anchor
+  anchor: "#thym"
 - name: Mentions légales
-  url: /mentions-legales/
+  type: page
+  value: mentions-legales
