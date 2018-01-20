@@ -5,7 +5,6 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <base href="{{ site.baseurl }}">
         <meta name="robots" content="{{ site.robots }}">
 
         <title>{{ page.title }} - {{ site.title }}</title>
@@ -28,19 +27,19 @@
         <meta property="og:description" content="{{ page.description }}">
         <meta property="og:title" content="{{ page.title }} - {{ site.title }}">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="{{ site.url }}">
+        <meta property="og:url" content="{{ page.url }}">
         <meta property="og:locale" content="fr_fr">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@SudWeb">
         <meta name="twitter:creator" content="@SudWeb">
 
-        <link rel="preload" as="image" type="image/jpeg" crossorigin href="/assets/images/logo-bg.jpg">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/fonts/oraqle_script-webfont.woff2?date=20180119">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/fonts/roboto-thin-webfont.woff2">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/fonts/roboto-light-webfont.woff2">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/fonts/roboto-lightitalic-webfont.woff2">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/fonts/roboto-regular-webfont.woff2">
+        <link rel="preload" as="image" type="image/jpeg" crossorigin href="{{ "/assets/images/logo-bg.jpg" | relative_url }}">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/oraqle_script-webfont.woff2?date=20180119" | relative_url }}">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/roboto-thin-webfont.woff2" | relative_url }}">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/roboto-light-webfont.woff2" | relative_url }}">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/roboto-lightitalic-webfont.woff2" | relative_url }}">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/roboto-regular-webfont.woff2" | relative_url }}">
 
-        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
     </head>

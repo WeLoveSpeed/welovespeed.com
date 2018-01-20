@@ -6,7 +6,7 @@
         <div class="grid-7 text-center">
           {% for member in site.data.thym_members %}
             <figure class="person">
-              <img class="person-avatar" src="/assets/images/thym/{{member.twitter}}.jpg" alt="{{member.name}}">
+              <img class="person-avatar" src="{{ "/assets/images/thym/" | append: member.twitter | append: ".jpg" | relative_url }}" alt="{{member.name}}">
               <figcaption class="person-name text-xs">
                 <a href="https://twitter.com/{{member.twitter}}">{{member.name}}</a>
               </figcaption>
@@ -58,7 +58,7 @@
             <li>
               <a href="{{social.url}}" title="{{social.title}}">
                 <svg viewBox="0 0 448 512">
-                  <use xlink:href="/assets/svg/symbol-defs.svg#{{social.name}}"/>
+                  <use xlink:href="{{ "/assets/svg/symbol-defs.svg#" | append: social.name | relative_url }}"/>
                 </svg>
               </a>
             </li>

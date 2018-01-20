@@ -69,7 +69,7 @@ is_home: true
     <div class="grid-3 text-center">
       <div>
         <svg class="illustration" viewBox="0 0 20 20">
-          <use xlink:href="/assets/svg/symbol-defs.svg#postit"/>
+          <use xlink:href="{{ "/assets/svg/symbol-defs.svg#postit" | append: social.name | relative_url }}"/>
         </svg>
         <p>
           <strong>Step out</strong> of you comfort zone and
@@ -78,7 +78,7 @@ is_home: true
       </div>
       <div>
         <svg class="illustration" viewBox="0 0 20 20">
-          <use xlink:href="/assets/svg/symbol-defs.svg#flip-flops"/>
+          <use xlink:href="{{ "/assets/svg/symbol-defs.svg#flip-flops" | append: social.name | relative_url }}"/>
         </svg>
         <p class="pres-desc">
           <strong>Experience and learn</strong> during two days of conferences and workshops
@@ -86,7 +86,7 @@ is_home: true
       </div>
       <div>
         <svg class="illustration" viewBox="0 0 20 20">
-          <use xlink:href="/assets/svg/symbol-defs.svg#bubble"/>
+          <use xlink:href="{{ "/assets/svg/symbol-defs.svg#bubble" | append: social.name | relative_url }}"/>
         </svg>
         <p class="pres-desc">
           <strong>Get motivated!</strong> You will not have the same view on the following Monday.
@@ -124,15 +124,15 @@ is_home: true
     </p>
     <div class="grid-3">
       <div role="group" aria-labelledby="fig1">
-        <img src="/assets/images/anduze/val-de-lhort-1-288.jpg">
+        <img src="{{ "/assets/images/anduze/val-de-lhort-1-288.jpg" | append: social.name | relative_url }}">
         <figcaption id="fig1" class="text-xs text-center">Super photo d’Anduze</figcaption>
       </div>
       <div role="group" aria-labelledby="fig2">
-        <img src="/assets/images/anduze/val-de-lhort-2-288.jpg">
+        <img src="{{ "/assets/images/anduze/val-de-lhort-2-288.jpg" | append: social.name | relative_url }}">
         <figcaption id="fig2" class="text-xs text-center">Deuxième super photo d’Anduze</figcaption>
       </div>
       <div role="group" aria-labelledby="fig3">
-        <img src="/assets/images/anduze/val-de-lhort-3-288.jpg">
+        <img src="{{ "/assets/images/anduze/val-de-lhort-3-288.jpg" | append: social.name | relative_url }}">
         <figcaption id="fig3" class="text-xs text-center">Dernière super photo d’Anduze</figcaption>
       </div>
     </div>
