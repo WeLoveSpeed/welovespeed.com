@@ -6,16 +6,16 @@ layout: null
 
   Twitter:      @sudweb
   Location:     South of France (Bordeaux, Toulouse, Montpellier, Avignon, Nîmes)
-  Design:       Enza (@zizae)
+  Design:       Matthieu Bué (@twikito)
 
 /* SITE */
 
   Last Updated: {{ site.time | date:"%Y/%m/%d" }}
-  Language:     French
+  Languages:     French, English
   Standards:    HTML5, CSS3
   Built with:   Jekyll <http://jekyllrb.com>
                 Atom <https://atom.io/>
-  Components:   {% for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
+                Visual Studio Code <https://code.visualstudio.com/>
 
 /* CONTRIBUTORS */
 
