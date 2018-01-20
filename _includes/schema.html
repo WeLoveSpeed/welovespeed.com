@@ -29,7 +29,7 @@
       "@type": "ContactPoint",
       "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t contact %}/"
     },
-    "member": [{% assign members = site.data.thym_members | sort: "name" %}{% for member in members %}{% unless forloop.first == true %},{% endunless %}{
+    "member": [{% for member in thym %}{% unless forloop.first == true %},{% endunless %}{
       "@type": "Person",
       "name": "{{ member.name }}",
       "sameAs": "https://twitter.com/{{ member.twitter }}"

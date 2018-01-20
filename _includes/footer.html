@@ -4,7 +4,7 @@
       <section id="thym">
         <h2 class="text-center">{% t La Thym %}</h2>
         <div class="grid-7 text-center">
-          {% for member in site.data.thym_members | sort: "name" %}
+          {% for member in thym %}
             <figure class="person" role="group" aria-labelledby="capt-{{member.twitter}}">
               <img class="person-avatar lozad" data-src="{{ "/assets/images/thym/" | append: member.twitter | append: ".jpg" | relative_url }}" alt="{{member.name}}">
               <figcaption id="capt-{{member.twitter}}" class="person-name text-xs">
