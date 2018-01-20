@@ -1,4 +1,5 @@
 ---
+layout: null
 ---
 
 /* ABOUT */
@@ -18,9 +19,7 @@
 
 /* CONTRIBUTORS */
 
-  {% for contributor in site.github.contributors %}
+  {% for contributor in site.github.contributors | sort: "contributions" %}
   Name:         {{ contributor.login }}
   Site:         <{{ contributor.html_url }}>
   {% endfor %}
-  Name:         Matthieu Bué
-  Site:         <https://github.com/Twikito>
