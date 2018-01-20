@@ -6,8 +6,9 @@ description: Deux journées pour faire le plein d'inspiration entre super-héros
 logo: /assets/images/twittercard.png
 url: https://sudweb.fr
 repository: sudweb/2018
-baseurl: /2018/
+baseurl: /2018
 locale: fr_FR
+logo: https://sudweb.fr/2018/assets/images/social/sudweb-logo.jpg
 
 ## SEO
 

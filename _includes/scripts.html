@@ -22,47 +22,23 @@
     },
     "organizer": {
       "@type": "Organization",
-      "name": "Sud Web",
-      "logo": "https://sudweb.fr/2018/assets/images/social/sudweb-logo.jpg",
+      "name": "{{ site.title }}",
+      "logo": "{{ site.logo }}",
       "sameAs": "https://www.facebook.com/SudWeb",
       "sameAs": "https://twitter.com/sudweb",
       "sameAs": "https://vimeo.com/sudweb",
       "sameAs": "https://www.flickr.com/people/sudweb/",
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "contact@sudweb.fr"
+        "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t contact %}/"
       },
-      "member": {
+      "member": [{% assign members = site.data.thym_members | sort: "name" %}{% for member in members %}{% unless forloop.first == true %},{% endunless %}{
         "@type": "Person",
-        "name": "Alexandra Janin",
-        "sameAs": "https://twitter.com/lellexindo"
-      },{
-        "@type": "Person",
-        "name": "Bertrand Keller",
-        "sameAs": "https://twitter.com/bertrandkeller"
-      },{
-        "@type": "Person",
-        "name": "Boris Schapira",
-        "sameAs": "https://twitter.com/borisschapira"
-      },{
-        "@type": "Person",
-        "name": "Érick Gardin",
-        "sameAs": "https://twitter.com/newick"
-      },{
-        "@type": "Person",
-        "name": "Julia Barbelane",
-        "sameAs": "https://twitter.com/juliabarbelane"
-      },{
-        "@type": "Person",
-        "name": "Matthieu Bué",
-        "sameAs": "https://twitter.com/Twikito"
-      },{
-        "@type": "Person",
-        "name": "Thomas Gasc",
-        "sameAs": "https://twitter.com/methylbro"
-      }
+        "name": "{{ member.name }}",
+        "sameAs": "https://twitter.com/{{ member.twitter }}"
+      }{% endfor %}]
     }
-    /*, TODO
+    {% comment %}
     "performer": {
       "@type": "Person"
       "name": "",
@@ -70,9 +46,9 @@
     },
     "offers": {
       "@type": "Offer",
-      "price": "200.00",
+      "price": "250.00",
       "priceCurrency": "EURO",
       "url": ""
-    }*/
-  }
+    }
+  {% endcomment %}}
   </script>
