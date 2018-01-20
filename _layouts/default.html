@@ -2,7 +2,7 @@
 layout: compress
 ---
 
-{% assign locale = page.locale | default: site.locale %}{% assign lang = locale | slice: 0,2 %}{% include head.html %}
+{% assign locale = page.locale | default: site.locale %}{% assign lang = locale | slice: 0,2 %}{% assign thym = site.data.thym_members | sort: "name" %}{% include head.html %}
 <body>
   {% if page.is_home %}
     {% include header.html %}

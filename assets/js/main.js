@@ -1,5 +1,17 @@
 (function () {
 
+	lozad('.lozad', {
+		load: function (el) {
+			if(el.dataset.src)
+				el.src = el.dataset.src;
+			if(el.dataset.srcset)
+				el.srcset = el.dataset.srcset;
+		  el.onload = function () {
+				el.classList.add('fade')
+		  }
+		}
+	}).observe();
+
 	[...document.querySelectorAll('[data-target]')].forEach(function(trigger){
 		trigger.addEventListener('click',function(e){
 			[trigger, ...document.querySelectorAll(trigger.getAttribute('data-target'))].forEach(function(target){

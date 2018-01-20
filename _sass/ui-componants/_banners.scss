@@ -12,18 +12,53 @@
 	}
 }
 
-.banner-first {
-	background-image: url(../images/banners/bambouseraie-1-1260h.jpg);
+@mixin rwd-banner($class, $slug) {
+    .banner-#{$class} {
+        background-image: url(../images/banners/#{$slug}-768h.jpg);
+    }
+    
+    @media only screen and (min-height: 769px) {
+        .banner-#{$class} {
+            background-image: url(../images/banners/#{$slug}-1080h.jpg);
+        }
+    }
+    
+    @media only screen and (min-height: 1081px) {
+        .banner-#{$class} {
+        background-image: url(../images/banners/#{$slug}-1260h.jpg);
+      }
+    }
+    
+    @media only screen and (min-resolution: 2dppx) and (min-height: 385px) {
+        .banner-#{$class} {
+        background-image: url(../images/banners/#{$slug}-1080h.jpg);
+      }
+    }
+    
+    @media only screen and (min-resolution: 2dppx) and (min-height: 631px) {
+        .banner-#{$class} {
+        background-image: url(../images/banners/#{$slug}-1260h.jpg);
+      }
+    }
 }
-.banner-second {
-	background-image: url(../images/banners/forum-1080h.jpg);
-}
-.banner-third {
-	background-image: url(../images/banners/chemin-1080h.jpg);
-}
-.banner-force {
-	background-image: url(../images/banners/station-train.jpg);
-}
+
+@include rwd-banner("first", "bambouseraie-1");
+@include rwd-banner("second", "forum");
+@include rwd-banner("third", "chemin");
+@include rwd-banner("force", "station");
+
+// .banner-first {
+// 	background-image: url(../images/banners/bambouseraie-1-1260h.jpg);
+// }
+// .banner-second {
+// 	background-image: url(../images/banners/forum-1080h.jpg);
+// }
+// .banner-third {
+// 	background-image: url(../images/banners/chemin-1080h.jpg);
+// }
+// .banner-force {
+// 	background-image: url(../images/banners/station-train.jpg);
+// }
 
 .photo-credits {
 	position: absolute; right: 0; bottom: 0;
