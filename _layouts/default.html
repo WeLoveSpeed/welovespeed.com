@@ -3,7 +3,7 @@ layout: compress
 ---
 
 {% assign locale = page.locale | default: site.locale %}{% assign lang = locale | slice: 0,2 %}{% include head.html %}
-<body itemscope itemtype="http://schema.org/WebPage">
+<body>
   {% if page.is_home %}
     {% include header.html %}
   {% endif %}

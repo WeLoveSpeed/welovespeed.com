@@ -1,44 +1,94 @@
 <!doctype html>
-<html lang="{{ lang }}">
-    <head itemscope itemtype="http://schema.org/WebSite">
+
+<!--
+                   .7IO$=8O$7.
+               .8O ?$77Z~7=O$DZ.                     .?$,
+            .8ZODI7$ZZ78?I~OO8O.                     .?~O
+          .I+888O$O$8.   .IZZI+                     .O78Z
+         7OI$ODDDZ.     .7O77..                     8O7Z$
+        Z+8O$O$D     .$OZOOD                       8OO7O
+       ?+~=7Z7.     .$?$DD                         D88O.
+       $Z?=ZO       8O788   =..     ..      . 8=8.8ZND8
+       O8DO8$+     .Z87    .ZZO.   .78$=   ,OID8+OOO78
+        O8D88$OD.          $O88.   DOZ8   8.D8O.~DD$+.
+         .88D$N$$Z~      .D$.8O   D888I  =OZOO  OD$?D
+           .Z8?ZZ88D8    .ZZZD   .ZDZO.  Z$DO=  OO8..     8.
+             ..?ZOOO$7D  8$ZZ..  OO+8.  ODZ8O  .8D$7    I+.
+                 .87DD78.D7OO   $888O. ,ONDZ.  .DZZ.  .Z7.
+                   Z8DO8 D8O.. 877O8. ~7DD8+  O8ZO=   8OZ
+        .+$D78DD$.O88OD.7DDO,DO8O$7O.DION$D .ZZ8ZZ8  8Z~
+     .N8$OOI   .$OO7O?. .888ZZZ  NONOD+ 8$D$88. O8O$O8.
+     87O7=?N$78NO8?7D     .8Z    .7O7   .8D~?.  .8IZ7
+     O8DN~7INO8DO I
+       Z8+?Z$ Z8
+            . ..               ..  .
+           DOO$II+?           +7I$OI7.
+       .=++?.  .=++=            II7II.              ??
+      ?++I?.   .$$+I            +?+?+?             ???I
+    .??~?.     .$?$7    $+Z     I+7?+,            .???I
+   ?++?+.      .$OZZ  .I$7ZZ    ZO7O~            .?=I+
+ .I????.       :OZOO  ,?I$ZO    $Z$$+           .77I++
+.++=+? .       $OOOZ .$7$$$Z   $$77 .           . =+=.
+?+=+++         $ZZZ$.$$7$$$7   IIIII   IIII77  .?=+=..++~+
++?+++.        :I7ZZ.$ZZZ777I   $$Z$  .,7Z7$$$7 ..+++=++,++=
+ ??++.        =+=++~II.ZZ$$Z  ZZZ.. 7.Z$Z..ZZ7 $7??=7  +==?
+   ..        :=~+~.==. ?++7   ZZZ: ,$Z$Z. Z$Z. $ZI,I. .++++
+             ==+?+.++ ==+=+ .+~Z7  IOOZ  $Z$  ~$Z$7   ?IZZ
+            :+===.?+ .?+==~ ==+=  ?ZOO.ZZ$. .~$ZZ$   +$$$I
+           .+??=,?=   ???=~:+++.  +=~$. .   ?ZZZZ.   Z$$Z
+           =+???++   .+=~=?=?~.   +?==.    ZZZZZ$  .$$$$,
+          .~+7I?++   .+7I+7??.    +I?+.  :OOI ZZZZ,$ZZZ.
+          =I+I?I?     +??$?~       +I=+?:+=   ZZZZZZZZ
+          ?~?7I?.      .+?+         .  ...     .Z   .
+          .~+?~~
+           .=+I,
+-->
+
+<html lang="{{ lang }}" dir="ltr">
+    <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        {% seo %}
-        <meta name="google-site-verification" content="8m24dDPfxZJrdAG2SSC_LX9-CQco5_IBiqTGxxUnREU" />
-        <meta name="google-site-verification" content="d4ACEsgZ4SRtmiaMYlTAmL9bRKoVn7EMphY8QUaI9iU" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
-        <link rel="manifest" href="{{ site.baseurl }}/assets/favicons/manifest.json">
-        <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicons/safari-pinned-tab.svg" color="#93ac3d">
-        <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicons/favicon.ico?date=20180119">
-        <meta name="msapplication-config" content="{{ site.baseurl }}/assets/favicons/browserconfig.xml">
+        <base href="{{ site.baseurl }}">
+
+        <!--{% seo %}-->
+
+        <meta name="google-site-verification" content="8m24dDPfxZJrdAG2SSC_LX9-CQco5_IBiqTGxxUnREU">
+        <meta name="google-site-verification" content="d4ACEsgZ4SRtmiaMYlTAmL9bRKoVn7EMphY8QUaI9iU">
+
+        <meta name="robots" content="{{ site.robots }}">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicons/manifest.json">
+        <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#93ac3d">
+        <link rel="shortcut icon" href="assets/favicons/favicon.ico?date=20180119">
+        <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
         <meta name="theme-color" content="#c8d891">
 
-        <link rel="author" href="TODO">
+        <link rel="author" href="human.txt">
 
-        <!--<meta property="og:image" content="https://sudweb.fr/assets/images/social/og-image.jpg">-->
-        <meta property="og:image" content="https://code.twikito.com/sudweb/assets/images/social/og-image.jpg">
+        <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}assets/images/social/og-image.jpg">
         <meta property="og:image:height" content="488">
         <meta property="og:image:width" content="932">
         <meta property="og:description" content="Deux journ&eacute;es pour faire le plein d&rsquo;inspiration, les 25 et 26 mai &agrave; Anduze">
         <meta property="og:title" content="Sud Web : La conf&eacute;rence Web surtout Humaine">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://sudweb.fr/">
+        <meta property="og:url" content="{{ site.url }}">
         <meta property="og:locale" content="fr_fr">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@SudWeb">
         <meta name="twitter:creator" content="@SudWeb">
 
-        <link rel="preload" as="image" type="image/jpeg" crossorigin href="{{ site.baseurl }}/assets/images/logo-bg.jpg">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/oraqle_script-webfont.woff2?date=20180119">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/roboto-thin-webfont.woff2">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/roboto-light-webfont.woff2">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/roboto-lightitalic-webfont.woff2">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ site.baseurl }}/assets/fonts/roboto-regular-webfont.woff2">
-        <link rel="stylesheet" href="{{'/assets/css/main.css' | relative_url }}">
+        <link rel="preload" as="image" type="image/jpeg" crossorigin href="assets/images/logo-bg.jpg">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="assets/fonts/oraqle_script-webfont.woff2?date=20180119">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="assets/fonts/roboto-thin-webfont.woff2">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="assets/fonts/roboto-light-webfont.woff2">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="assets/fonts/roboto-lightitalic-webfont.woff2">
+        <link rel="preload" as="font" type="font/woff2" crossorigin href="assets/fonts/roboto-regular-webfont.woff2">
 
-        <meta name="robots" content="{{ site.robots }}">
+        <link rel="stylesheet" href="assets/css/main.css">
+
     </head>

@@ -6,7 +6,7 @@ description: Deux journées pour faire le plein d'inspiration entre super-héros
 logo: /assets/images/twittercard.png
 url: https://sudweb.fr
 repository: sudweb/2018
-baseurl: /2018
+baseurl: /2018/
 locale: fr_FR
 
 ## SEO
@@ -30,10 +30,6 @@ github:
   url: https://sudweb.fr/2018
 
 # Services configuration
-
-analytics:
-  google :
-    tracking_id : "UA-22076213-1"
 
 weezevent:
     mini-site-url: https://www.weezevent.com/sudweb-2018
