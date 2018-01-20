@@ -18,8 +18,8 @@
     <hr>
     <div class="grid-3">
       <section>
-        <h3 class="text-lg">{% t Épisodes précédents %}</h3>
-        <nav>
+        <h3 id="footerTitle1" class="text-lg">{% t Épisodes précédents %}</h3>
+        <nav aria-labelledby="footerTitle1">
           <ul>
             {% for edition in site.data.editions %}
             <li><a href="https://sudweb.fr/{{edition.year}}">{{edition.year}} à {{edition.town}}</a></li>
@@ -28,8 +28,8 @@
         </nav>
       </section>
       <section>
-        <h3 class="text-lg">{% t Pour en savoir plus %}</h3>
-        <nav>
+        <h3 id="footerTitle2" class="text-lg">{% t Pour en savoir plus %}</h3>
+        <nav aria-labelledby="footerTitle2">
           <ul>
             {% assign footer_links = site.data.sitemap | where: 'in_footer', true %}
             {% for link in footer_links %}
@@ -39,7 +39,7 @@
         </nav>
       </section>
       <section>
-        <h3 class="text-lg">{% t Who you gonna call? %}</h3>
+        <h3 class="text-lg" lang="en" title="Ghostbusters!">{% t Who you gonna call? %}</h3>
         <form action="//sudweb.us2.list-manage.com/subscribe/post?u=af19b58cf514c01eca3f7652e&amp;id=b579f5b507"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
           class="newsletter-form validate" target="_blank" rel="noopener noreferrer" novalidate="">
