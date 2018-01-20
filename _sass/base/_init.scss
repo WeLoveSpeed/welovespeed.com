@@ -40,8 +40,13 @@ textarea {
 	resize: vertical;
 }
 
-a, button, input, textarea, select {
+a, button, input, select {
 	transition: $default-duration $default-timing-function;
+}
+
+textarea {
+  transition: height 0s, // For manual resize
+              $default-duration $default-timing-function;
 }
 
 button {
