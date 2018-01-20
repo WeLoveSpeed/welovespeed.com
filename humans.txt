@@ -11,10 +11,11 @@ layout: null
 /* SITE */
 
   Last Updated: {{ site.time | date:"%Y/%m/%d" }}
-  Languages:     French, English
+  Languages:    French, English
   Standards:    HTML5, CSS3
   Built with:   Jekyll <http://jekyllrb.com>
                 Atom <https://atom.io/>
+                Sublime Text <https://www.sublimetext.com/>
                 Visual Studio Code <https://code.visualstudio.com/>
 
 /* CONTRIBUTORS */
