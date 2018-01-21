@@ -5,11 +5,6 @@ i18n-key: coc
 permalink: /en/code-of-conduct/
 ---
 
-<div class="banner-forum lozad">
-  <p class="photo-credits">
-    2017 retrospective in Aix-En-Provence, by <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
-  </p>
-</div>
 
 <section class="section">
   <div class="wrapper" markdown="1">
@@ -21,6 +16,12 @@ permalink: /en/code-of-conduct/
 At Sud Web, we assume that people are sensible and thoughtful, and we don't try to tell them what to do, especially since in the french conference landscape, Sud Web appears to be among the most welcoming. However, organizing this event in a safe&#8239;<sup><a href="#note1" id="note1-source">1</a></sup> environment seems important to us.
 
 We have therefore decided to propose guidelines that will make everyone feel comfortable.
+
+<div class="banner-sudweb2017 lozad">
+  <p class="photo-credits">
+    2015 casual talk in Montpellier, by <a href="https://flic.kr/p/w8CDai" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>
 
 ## Why a Code of Conduct?
 
