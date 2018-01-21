@@ -15,7 +15,7 @@ permalink: /alternatives-logement/
         séjour à Anduze, voici une liste de quelques hébergements aux alentours :
     </p>
 
-    <ul class="text-left">
+    <ul>
         {% assign specifics = site.data.bnbs.specifics | sort: "distance" %} {% assign generics = site.data.bnbs.generics | sort:
         "fromprice" %} {% for bnb in specifics %}
         <li>
