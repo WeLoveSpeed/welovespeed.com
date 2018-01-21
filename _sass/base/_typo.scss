@@ -21,8 +21,16 @@ body {
 	}
 }
 
+h1, h2, .h-like {
+	font-family: $title-font-family; font-style: $title-font-style; font-weight: $title-font-weight;
+}
+
 h1, h2, h3, h4, h5, h6, .h-like {
-	font-family: $title-font-family; font-style: $title-font-style; font-weight: $title-font-weight; color: $title-color;
+  color: $title-color;
+}
+
+h1 {
+  font-size: 2.25em;
 }
 
 h2 {
@@ -30,7 +38,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.75em;
+	font-size: 1.25em;
 }
 
 p, .p-like, ul, ol, dl, blockquote, pre, caption {

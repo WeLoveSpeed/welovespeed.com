@@ -7,12 +7,6 @@ redirect_from:
   - /code-of-conduct/
 ---
 
-<div class="banner-forum lozad">
-  <p class="photo-credits">
-    Rétrospective 2017 à Aix-En-Provence, par <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
-  </p>
-</div>
-
 <section class="section">
 <div class="wrapper" markdown="1">
 
@@ -33,6 +27,12 @@ Ici, les consignes de sécurisation des interactions permettent de créer un con
 Imaginons-les comme un principe de précaution qui permet d’anticiper des situations pouvant aller de l'inconfortable à l'oppressif pour certain·e·s, inhérentes à un contexte.
 
 En adoptant ces consignes, nous cherchons à établir un lien de confiance et de soin pour inviter celles et ceux qui sont sous-représenté·e·s à intégrer la communauté en toute tranquillité, dans l'objectif d'encourager et promouvoir la diversité.
+
+<div class="banner-forum lozad">
+  <p class="photo-credits">
+    Rétrospective 2017 à Aix-En-Provence, par <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>
 
 ## Concrètement, comment ça marche ?
 
@@ -102,8 +102,9 @@ En ce qui concerne la personne à l'origine de la situation, l'exclusion est pos
 </div>
 </section>
 
-<div class="banner-forum lozad">
+<div class="banner-station lozad">
   <p class="photo-credits">
-    Rétrospective 2017 à Aix-En-Provence, par <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+    Anduze Station by <a href="https://flic.kr/p/vMJMvT">Stephen Colebourne</a> - (<a href="https://creativecommons.org/licenses/by-sa/2.0/" title="Licence Creative Commons">CC-BY-SA 2.0</a>)
   </p>
 </div>
+

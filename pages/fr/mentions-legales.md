@@ -46,3 +46,5 @@ Conformément à l’article 34 de la loi 1978 dite loi “Informatique et Liber
 
 </div>
 </section>
+
+<hr class="wrapper">
