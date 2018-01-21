@@ -25,6 +25,10 @@ h1, h2, .h-like {
 	font-family: $title-font-family; font-style: $title-font-style; font-weight: $title-font-weight;
 }
 
+h3, h4, h5, h6 {
+  font-family: $default-font-family; font-style: $default-font-style; font-weight: $default-font-weight;
+}
+
 h1, h2, h3, h4, h5, h6, .h-like {
   color: $title-color;
 }
