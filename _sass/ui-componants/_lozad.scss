@@ -4,5 +4,5 @@
 }
 
 .lozad[data-loaded='true'] {
-  animation: 2s $default-timing-function lozad-fade;
+  animation: 2s ceaser(easeOutSine) lozad-fade;
 }

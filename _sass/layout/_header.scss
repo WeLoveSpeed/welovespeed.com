@@ -1,45 +1,48 @@
-.page-header {
-	margin: 20% 0;
+.home {
 
-	@include media('>medium') {
-		margin: 15% 0;
-	}
-	@include media('>large') {
-		margin: 10% 0;
-	}
-	@include media('>xlarge') {
-		margin: 8% 0;
-	}
-}
+  &-header {
+    margin: 20% 0;
 
-.main-title {
-	font: $main-title-font-style $main-title-font-weight 1em/$default-line-height $main-title-font-family; text-align: center; color: inherit;
+    @include media('>medium') {
+      margin: 15% 0;
+    }
+    @include media('>large') {
+      margin: 10% 0;
+    }
+    @include media('>xlarge') {
+      margin: 8% 0;
+    }
+  }
 
-	&-logo {
-		width: 100%; height: auto;
-		font: $logo-font-style $logo-font-weight 1.6rem/1 $logo-font-family;
+  &-main-title {
+    font: $main-title-font-style $main-title-font-weight 1em/$default-line-height $main-title-font-family; text-align: center; color: inherit;
 
-		image {
-			position: fixed;
-		}
+    &-logo {
+      width: 100%; height: auto;
+      font: $logo-font-style $logo-font-weight 1.6rem/1 $logo-font-family;
 
-		text {
-			fill: url(#pic);
-		}
-	}
+      image {
+        position: fixed;
+      }
 
-	&-baseline {
-		margin-top: 1em;
-		font-size: 4.5vw;
+      text {
+        fill: url(#pic);
+      }
+    }
 
-		@include media('>=large') {
-			font-size: 3em;
-		}
-	}
-}
+    &-baseline {
+      margin-top: 1em;
+      font-size: 4.5vw;
 
-.sub-title {
-	@include media('>medium') {
-		margin-left: 15%; margin-right: 15%;
-	}
+      @include media('>=large') {
+        font-size: 3em;
+      }
+    }
+  }
+
+  &-sub-title {
+    @include media('>medium') {
+      margin-left: 15%; margin-right: 15%;
+    }
+  }
 }

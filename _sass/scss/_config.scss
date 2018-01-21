@@ -60,10 +60,12 @@ $font-sizes                 : ((
 
 // Forms and buttons
 
+$label-font-size            : .875em;
+
 $input-vmargin              : 0;
 $input-hmargin              : 0;
 $input-vpadding             : .25em;
-$input-hpadding             : 0;
+$input-hpadding             : .5em;
 
 $btn-hmargin                : .5em;
 $btn-hpadding               : 1.5em;

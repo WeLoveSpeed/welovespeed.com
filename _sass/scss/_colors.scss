@@ -43,9 +43,11 @@ $hr-color                         : lighten($softgrey, 20%);
 
 // Forms
 
+$label-color                      : $focus-color;
+
 $input-color                      : $default-color;
 $input-bg                         : transparent;
-$input-border-color               : lighten($softgrey, 10%);
+$input-border-color               : lighten($green, 25%);
 $input-focus-color                : $black;
 $input-focus-bg                   : transparent;
 $input-focus-border-color         : $black;
