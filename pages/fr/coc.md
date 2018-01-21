@@ -1,4 +1,4 @@
---- 
+---
 title: Code de conduite
 description: "Consignes pour créer un cadre d’interaction bientraitant et protecteur"
 i18n-key: coc
@@ -7,7 +7,7 @@ redirect_from:
   - /code-of-conduct/
 ---
 
-<div class="banner-second lozad">
+<div class="banner-forum lozad">
   <p class="photo-credits">
     Rétrospective 2017 à Aix-En-Provence, par <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
   </p>
@@ -22,7 +22,7 @@ redirect_from:
 
 À Sud Web, nous supposons que les gens sont intelligents et bien intentionnés, et nous ne cherchons pas à leur dire quoi faire. Cependant, il nous  paraît important que cette rencontre s'organise dans un environnement &laquo;&nbsp;<span lang="en">safe</span>&#8239;<sup><a href="#note1" id="note1-source">1</a></sup>&nbsp;&raquo; pour tou·te·s.
 
-Nous avons donc décidé de proposer des consignes qui permettent de faire en sorte que chacun·e·s se sentent à l’aise. 
+Nous avons donc décidé de proposer des consignes qui permettent de faire en sorte que chacun·e·s se sentent à l’aise.
 
 ## Un Code of Conduct, pour quoi faire ?
 
@@ -40,10 +40,10 @@ Pour sauvegarder et encourager le cadre auquel nous aspirons, nous avons défini
 
 ### Les postures encouragées :
 
-**L’accueil** :  
+**L’accueil** :
 Faisons en sorte que les personnes – de tous horizons et identités confondues – soient les bienvenues, qu’elles se sentent accueillies dans un espace ouvert et chaleureux. Cela inclut, mais sans s’y limiter, les membres de toute ethnie, culture, nationalité, couleur, statut d’immigration, classe économique et sociale, niveau d’éducation, sexe, orientation sexuelle, identité sexuelle, âge, taille, situation familiale, croyance politique, religion et capacité mentale et physique.
 
-**La bienveillance et la bientraitance** :  
+**La bienveillance et la bientraitance** :
 Rencontrons-nous avec bienveillance, c’est-à-dire la volonté de viser le bien et le bonheur d’autrui, et assurons-nous d’être bien-traitant en s’assurant que notre manière d’agir concrètement va bien dans le sens de la bienveillance.
 
 ### Les comportements que nous voudrions décourager :
@@ -66,15 +66,15 @@ Avant toute chose, sachez que vous êtes légitime de dire que vous n'êtes pas 
 
 ## Que pouvez-vous faire si vous êtes témoin d'une situation oppressive ?
 
-Les options sont multiples et dépendent souvent du contexte et des personnes en présence. En règle général, nous préconisons : 
+Les options sont multiples et dépendent souvent du contexte et des personnes en présence. En règle général, nous préconisons :
 
-* Auprès de la personne qui a vécu une expérience négative : 
+* Auprès de la personne qui a vécu une expérience négative :
     * vérifiez que c’était bien une situation mal vécue par la personne ;
     * si c’est le cas, assurez-vous qu’elle se sente bien ;
     * si vous vous en sentez capable, demandez-lui si vous pouvez faire quelque chose pour elle. Si oui, demandez-lui comment elle souhaite gérer la situation, ou comment elle souhaite que vous la gériez ;
     * dans tous les cas, ce qui nous paraît important est de s’adapter aux besoins&#8239;/&#8239;aspirations de la personne que vous êtes venu soutenir.
 
-* Auprès de la personne à l'origine de la situation : 
+* Auprès de la personne à l'origine de la situation :
     * l’interpeller ;
     * vérifier qu’elle est disposée à échanger au sujet de la situation ;
         * si oui, lui demander de s'expliquer sur la situation ;
@@ -102,7 +102,7 @@ En ce qui concerne la personne à l'origine de la situation, l'exclusion est pos
 </div>
 </section>
 
-<div class="banner-second lozad">
+<div class="banner-forum lozad">
   <p class="photo-credits">
     Rétrospective 2017 à Aix-En-Provence, par <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
   </p>

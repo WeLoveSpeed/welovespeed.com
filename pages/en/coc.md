@@ -1,11 +1,11 @@
---- 
+---
 title: Code of Conduct
 description: "Consignes pour créer un cadre d’interaction bientraitant et protecteur"
 i18n-key: coc
 permalink: /en/code-of-conduct/
 ---
 
-<div class="banner-second lozad">
+<div class="banner-forum lozad">
   <p class="photo-credits">
     2017 retrospective in Aix-En-Provence, by <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
   </p>
@@ -38,10 +38,10 @@ To safeguard and encourage the framework we aspire to, we have defined what work
 
 ### Encouraged behaviours:
 
-**Hospitality !**  
+**Hospitality !**
 Let's make sure that people (of all backgrounds and identities) are welcomed, that they feel accepted in an open and warm environment. This includes, but is not limited to, members of any ethnic group, culture, nationality, colour, immigration status, economic and social class, level of education, gender, sexual orientation, gender identity, age, size, family status, political belief, religion, and mental and physical ability.
 
-**Benevolence and care!**  
+**Benevolence and care!**
 Let us approach each other with kindness, that is to say, the willingness to aim for the good and happiness of others, and let us make sure that we are caring by making sure that our way of acting is based in kindness.
 
 ### Behaviour we would like to discourage
@@ -68,14 +68,14 @@ Depending on your comfort level, there are a few options to choose from:
 
 Although the options are multiple and often depend on the context and people involved, we recommend the following behaviour:
 
-1. With the person who experienced something uncomfortable : 
+1. With the person who experienced something uncomfortable :
     * make sure that it was indeed a bad situation experienced by the person
     * If so, make sure they feel good
     * If you feel comfortable doing so, ask them if there's anything you can do for them. If so, ask them how they want to deal with the situation, or how they want you to deal with it
     * in any case, what's important is to adapt your behaviour to the needs and requests of the person you are supporting.
-2. With the person causing the uncomfortable feeling (after the "victim" has given their consent): 
+2. With the person causing the uncomfortable feeling (after the "victim" has given their consent):
     * Call them out ;
-    * Check if they're willing to talk about the situation that you observed 
+    * Check if they're willing to talk about the situation that you observed
         * if so, ask them "how they feel about the situation[describe the situation]";
         * If not, propose to talk about it later on and/or report what happened to the organizing team.
 
@@ -98,7 +98,7 @@ Regarding the person who caused the situation, exclusion is possible but not aut
 </div>
 </section>
 
-<div class="banner-second lozad">
+<div class="banner-forum lozad">
   <p class="photo-credits">
     2017 retrospective in Aix-En-Provence, by <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
   </p>

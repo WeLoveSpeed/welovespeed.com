@@ -118,18 +118,6 @@ $nav-toggle-duration        : .5s;
 $nav-toggle-timing-function : ceaser(easeOutCubic);
 
 
-// Banners sources
+// Banners slugs
 
-$banners                  : ((
-    'class'               : 'first',
-    'slug'                : 'bambouseraie'
-  ),(
-    'class'               : 'second',
-    'slug'                : 'forum'
-  ),(
-    'class'               : 'third',
-    'slug'                : 'chemin'
-  ),(
-    'class'               : 'force',
-    'slug'                : 'station'
-));
+$banners                  : ('bambouseraie', 'forum', 'chemin', 'station');
