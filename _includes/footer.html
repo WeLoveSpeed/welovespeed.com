@@ -14,15 +14,15 @@
           {% endfor%}
         </div>
       </section>
+      <hr>
     {% endif %}
-    <hr>
     <div class="grid-3">
       <section>
         <h3 id="footerTitle1" class="text-lg">{% t Épisodes précédents %}</h3>
         <nav aria-labelledby="footerTitle1">
           <ul>
             {% for edition in site.data.editions %}
-            <li><a href="https://sudweb.fr/{{edition.year}}">{{edition.year}} à {{edition.town}}</a></li>
+            <li><a href="https://sudweb.fr/{{edition.year}}">{{edition.year}} {% t à %} {{edition.town}}</a></li>
             {% endfor%}
           </ul>
         </nav>
