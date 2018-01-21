@@ -5,7 +5,9 @@ layout: compress
 {% assign locale = page.locale | default: site.locale %}{% assign lang = locale | slice: 0,2 %}{% assign thym = site.data.thym_members | sort: "slug" %}{% include head.html %}
 <body>
   {% if page.i18n-key == 'home' %}
-    {% include header.html %}
+    {% include header-home.html %}
+  {% else %}
+    {% include header-page.html %}
   {% endif %}
   {% include navigation.html %}
   {{ content | microtypo: page.locale }}
