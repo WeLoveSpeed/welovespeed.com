@@ -16,7 +16,7 @@
   $class: map-get($banner, 'class');
   $slug: map-get($banner, 'slug');
 
-  .banner-#{$class} {
+  .banner-#{$class}[data-loaded='true'] {
     background-image: url(../images/banners/#{$slug}-768h.jpg);
 
     @include media('height>768px') {
