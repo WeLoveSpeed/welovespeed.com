@@ -7,6 +7,12 @@ redirect_from:
   - /code-of-conduct/
 ---
 
+<div class="banner-second lozad">
+  <p class="photo-credits">
+    Rétrospective 2017 à Aix-En-Provence, par <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>
+
 <section class="section">
 <div class="wrapper" markdown="1">
 
@@ -95,3 +101,9 @@ En ce qui concerne la personne à l'origine de la situation, l'exclusion est pos
 
 </div>
 </section>
+
+<div class="banner-second lozad">
+  <p class="photo-credits">
+    Rétrospective 2017 à Aix-En-Provence, par <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>

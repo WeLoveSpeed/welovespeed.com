@@ -4,6 +4,12 @@ description: ""
 permalink: /en/manifesto/
 ---
 
+<div class="banner-second lozad">
+  <p class="photo-credits">
+    2017 retrospective in Aix-En-Provence, by <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>
+
 <section class="section">
 <div class="wrapper" markdown="1">
 
@@ -30,3 +36,9 @@ These are the values we share and convey:
 
 </div>
 </section>
+
+<div class="banner-second lozad">
+  <p class="photo-credits">
+    2017 retrospective in Aix-En-Provence, by <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>
