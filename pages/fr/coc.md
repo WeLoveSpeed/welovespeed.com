@@ -18,6 +18,18 @@ redirect_from:
 
 Nous avons donc décidé de proposer des consignes qui permettent de faire en sorte que chacun·e·s se sentent à l’aise.
 
+</div>
+</section>
+
+<div class="banner-informelle lozad">
+  <p class="photo-credits">
+    Discussion ouverte 2015 à Montpellier, par <a href="https://flic.kr/p/w8CDai" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>
+
+<section class="section">
+<div class="wrapper" markdown="1">
+
 ## Un Code of Conduct, pour quoi faire ?
 
 Dans chaque groupement, collectif ou rassemblement, il y a une culture dominante principale et des personnes qui n’appartiennent pas à cette culture. Ces personnes sont donc sous-représentées dans le contexte, et naturellement, elles sont plus susceptibles d’être "oppressées" par la communauté principale. Souvent, cette oppression se manifeste par des comportements ou attitudes blessantes adoptées sans s’en rendre compte.

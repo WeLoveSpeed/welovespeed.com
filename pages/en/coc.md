@@ -16,6 +16,12 @@ At Sud Web, we assume that people are sensible and thoughtful, and we don't try 
 
 We have therefore decided to propose guidelines that will make everyone feel comfortable.
 
+<div class="banner-sudweb2017 lozad">
+  <p class="photo-credits">
+    2015 casual talk in Montpellier, by <a href="https://flic.kr/p/w8CDai" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>
+
 ## Why a Code of Conduct?
 
 In each community, group or assembly, there is a dominant primary culture and people who do not belong to that culture. These people are therefore under-represented in the context, and of course they are more likely to be "oppressed" by the mainstream community. Often, this oppression manifests itself in hurtful behaviours or attitudes that are adopted without realizing it.
