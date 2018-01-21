@@ -34,18 +34,18 @@
       "name": "{{ member.name }}",
       "sameAs": "https://twitter.com/{{ member.twitter }}"
     }{% endfor %}]
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "250.00",
+    "priceCurrency": "EURO",
+    "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t billetterie %}/"
   }
   {% comment %}
   "performer": {
     "@type": "Person"
     "name": "",
     "sameAs": ""
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "250.00",
-    "priceCurrency": "EURO",
-    "url": ""
   }
   {% endcomment %}
 }
