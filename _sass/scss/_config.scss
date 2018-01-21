@@ -85,7 +85,7 @@ $zindex-page-nav            : 20;
 
 // Responsive
 
-$media-ratio                : (
+$media-ratio              : (
 	'xsmall'                : 1.7,
 	'small'                 : 1.8,
 	'medium'                : 1.9,
@@ -94,12 +94,16 @@ $media-ratio                : (
 	'xxlarge'               : 2.2
 );
 
-$breakpoints                : (
+$breakpoints              : (
 	'small'                 : 480px,
 	'medium'                : 720px,
 	'large'                 : 960px,
 	'xlarge'                : 1200px,
 	'xxlarge'               : 1440px
+);
+
+$media-expressions        : (
+  'HDPIscreen'            : '(min-resolution: 2dppx)'
 );
 
 
@@ -110,3 +114,20 @@ $default-timing-function    : ceaser(easeInOutQuart);
 
 $nav-toggle-duration        : .5s;
 $nav-toggle-timing-function : ceaser(easeOutCubic);
+
+
+// Banners sources
+
+$banners                  : ((
+    'class'               : 'first',
+    'slug'                : 'bambouseraie'
+  ),(
+    'class'               : 'second',
+    'slug'                : 'forum'
+  ),(
+    'class'               : 'third',
+    'slug'                : 'chemin'
+  ),(
+    'class'               : 'force',
+    'slug'                : 'station'
+));
