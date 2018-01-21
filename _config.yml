@@ -13,22 +13,6 @@ logo: https://sudweb.fr/2018/assets/images/social/sudweb-logo.jpg
 ## SEO
 
 robots: index,follow
-twitter:
-  username: SudWeb
-image:
-  path: /assets/images/twittercard.png
-  height: 200
-  width: 200
-social:
-  type: organization
-  links:
-    - https://twitter.com/SudWeb
-    - https://www.facebook.com/SudWeb
-facebook:
-  publisher: https://www.facebook.com/SudWeb/
-
-github:
-  url: https://sudweb.fr/2018
 
 # Services configuration
 
