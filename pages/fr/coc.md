@@ -28,12 +28,6 @@ Imaginons-les comme un principe de précaution qui permet d’anticiper des situ
 
 En adoptant ces consignes, nous cherchons à établir un lien de confiance et de soin pour inviter celles et ceux qui sont sous-représenté·e·s à intégrer la communauté en toute tranquillité, dans l'objectif d'encourager et promouvoir la diversité.
 
-<div class="banner-forum lozad">
-  <p class="photo-credits">
-    Rétrospective 2017 à Aix-En-Provence, par <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
-  </p>
-</div>
-
 ## Concrètement, comment ça marche ?
 
 Pour sauvegarder et encourager le cadre auquel nous aspirons, nous avons défini ce qui nous convenait, et ce qui ne nous convenait pas :

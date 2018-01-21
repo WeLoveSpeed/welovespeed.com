@@ -26,12 +26,6 @@ These instructions are a precautionary approach that allows us to anticipate unc
 
 Adopting these guidelines creates a trusting and caring relationship and invites those who are under-represented to join the community safely. This contributes to fostering and promoting diversity.
 
-<div class="banner-forum lozad">
-  <p class="photo-credits">
-    2017 retrospective in Aix-En-Provence, by <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
-  </p>
-</div>
-
 ## How does it work?
 
 To safeguard and encourage the framework we aspire to, we have defined what works for us, and what does not:
