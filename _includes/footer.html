@@ -57,7 +57,7 @@
           {% for social in site.data.social %}
             <li>
               <a href="{{social.url}}" title="{{social.title}}">
-                <svg viewBox="0 0 448 512">
+                <svg role="img" aria-label="{{social.name}}" viewBox="0 0 448 512">
                   <use xlink:href="{{ "/assets/svg/symbol-defs.svg#" | append: social.name | relative_url }}"/>
                 </svg>
               </a>
