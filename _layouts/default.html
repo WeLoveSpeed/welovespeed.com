@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: microtypo
 ---
 
 {% assign locale = page.locale | default: site.locale %}{% assign lang = locale | slice: 0,2 %}{% assign thym = site.data.thym_members | sort: "slug" %}{% include head.html %}
@@ -10,7 +10,7 @@ layout: compress
     {% include header-page.html %}
   {% endif %}
   {% include navigation.html %}
-  {{ content | microtypo: page.locale }}
+  {{ content }}
   {% include footer.html %}
   {% include scripts.html %}
   {% include schema.html %}

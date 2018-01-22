@@ -16,11 +16,17 @@ At Sud Web, we assume that people are sensible and thoughtful, and we don't try 
 
 We have therefore decided to propose guidelines that will make everyone feel comfortable.
 
-<div class="banner-sudweb2017 lozad">
+</div>
+</section>
+
+<div class="banner-informelle lozad">
   <p class="photo-credits">
     2015 casual talk in Montpellier, by <a href="https://flic.kr/p/w8CDai" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
   </p>
 </div>
+
+<section class="section">
+<div class="wrapper" markdown="1">
 
 ## Why a Code of Conduct?
 
