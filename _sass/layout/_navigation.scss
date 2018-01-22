@@ -1,0 +1,84 @@
+.nav-trigger {
+	position: absolute; top: 0; left: 0;
+
+	&::after {
+		position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: $zindex-nav-trigger-area;
+		background-color: $nav-trigger-area-bg;
+		opacity: 0; visibility: hidden; content: ''; pointer-events: none;
+		cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAq0lEQVQ4T63U0Q2AIAwE0HMUJ9FRdDNHcRQ30dRYg9hrQeyfCbwILdfh5+oATAAGAHOjvQBYBZSSj70Blf1Sk4It6I0JkoJf0AdmgTXoC2NgCWpiHuihFItAC3WxEjBFdb3MLa28y2zhds1pHw1/CajHFCsc/gjM7yx8UR7IGuCiDIy6SVELjDDti4lab/lMjaibLKXytKnBzD9N8/AL9kI1sceKY7LbOBP7ADU8NNXvWjS7AAAAAElFTkSuQmCC), zoom-out;
+		transition: $default-duration $default-timing-function;
+	}
+
+	&-button {
+		position: fixed; top: .5em; left: .5em; z-index: $zindex-nav-trigger;
+		padding: .25em;
+		border: 1px solid transparent;
+		background-color: $nav-trigger-btn-bg;
+		font-size: .875em; color: $nav-trigger-btn-color;
+		transition-duration: $nav-toggle-duration;
+
+		& > * {
+			display: block;
+		}
+
+		& > :first-child {
+			font-size: 1.5em; line-height: .8;
+		}
+
+		& > :last-child {
+			font-size: 1em; line-height: 1.4;
+		}
+	}
+
+	&-button:hover,
+	&:focus &-button {
+		border-color: currentColor;
+		color: $nav-trigger-btn-hover-color;
+	}
+
+	&.is-active {
+		&::after {
+			opacity: 1; visibility: visible; pointer-events: auto;
+		}
+
+		.nav-trigger-button {
+			background-color: $nav-trigger-btn-active-bg;
+			color: $nav-trigger-btn-active-color;
+		}
+	}
+}
+
+.page-nav {
+	position: fixed; top: 50%; left: 50%; z-index: $zindex-page-nav;
+	transform: translate(-50%, -60%);
+	box-shadow: 0 0 5em 5em $nav-bg;
+	background-color: $nav-bg;
+	font: $default-font-style $default-font-weight 1.5em/#{$default-line-height} $default-font-family; text-align: center;
+	opacity: 0; visibility: hidden; content: ''; pointer-events: none;
+	transition: $nav-toggle-duration $nav-toggle-timing-function;
+
+	@include media('>medium') {
+		font: $nav-font-style $nav-font-weight 2em/#{$default-line-height} $nav-font-family;
+	}
+
+	&.is-active {
+		transform: translate(-50%, -50%);
+		opacity: 1; visibility: visible; pointer-events: auto;
+	}
+
+	ul {
+		@extend %ul-reset;
+	}
+
+	a {
+		padding: .25em .5em;
+		border: 1px solid transparent; outline: none;
+		font-style: normal; white-space: nowrap; color: $nav-color;
+
+		&:hover,
+		&:focus {
+			border-color: currentColor;
+			text-decoration: none;
+		}
+	}
+}

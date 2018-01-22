@@ -1,13 +1,11 @@
 source 'https://rubygems.org'
+ruby '2.4.0'
 
-gem 'jekyll'
+gem 'jekyll', '~>3.6.2'
 
 group :jekyll_plugins do
-  gem 'jekyll-github-metadata'
   gem 'jekyll-microtypo'
-  gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
-  gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'liquid-md5'
   gem 'octopress-autoprefixer'

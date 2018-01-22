@@ -1,0 +1,87 @@
+.home {
+
+  &-header {
+    margin: 20% 0;
+
+    @include media('>medium') {
+      margin: 15% 0;
+    }
+    @include media('>large') {
+      margin: 10% 0;
+    }
+    @include media('>xlarge') {
+      margin: 8% 0;
+    }
+  }
+
+  &-main-title {
+    font: $main-title-font-style $main-title-font-weight 1em/$default-line-height $main-title-font-family; text-align: center; color: inherit;
+
+    &-logo {
+      width: 100%; height: auto;
+      font: $logo-font-style $logo-font-weight 1.6rem/1 $logo-font-family;
+
+      image {
+        position: fixed;
+      }
+
+      text {
+        fill: url(#pic);
+      }
+    }
+
+    &-baseline {
+      margin-top: 1em;
+      font-size: 4.5vw;
+
+      @include media('>=large') {
+        font-size: 3em;
+      }
+    }
+  }
+
+  &-sub-title {
+    @include media('>medium') {
+      margin-left: 15%; margin-right: 15%;
+    }
+  }
+}
+
+.page {
+
+  &-header {
+    margin: 20% 0 2em;
+
+    @include media('>small') {
+      margin: 15% 0 2em;
+    }
+    @include media('>medium') {
+      margin: 10% 0 2em;
+    }
+    @include media('>large') {
+      margin: 5% 0 2em;
+    }
+    @include media('>xlarge') {
+      margin: 2.5% 0 2em;
+    }
+  }
+
+  &-main-title {
+    display: flex;
+    flex-flow: row wrap; justify-content: space-between; align-items: center;
+
+    &-logo {
+      width: 15em; height: auto;
+      font: $logo-font-style $logo-font-weight 1.6rem/1 $logo-font-family;
+
+      text {
+        fill: url(#pic);
+      }
+    }
+
+    &-baseline {
+      margin: 0;
+      font-size: 2em; color: $focus-color;
+    }
+  }
+}

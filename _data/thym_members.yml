@@ -1,21 +1,28 @@
 - name: Alexandra Janin
+  slug: alexandra-janin
   twitter: lellexindo
 
 - name: Bertrand Keller
+  slug: bertrand-keller
   twitter: bertrandkeller
 
 - name: Boris Schapira
+  slug: boris-schapira
   twitter: borisschapira
 
 - name: Matthieu Bué
-  twitter: Twikito
+  slug: matthieu-bue
+  twitter: twikito
 
 - name: Julia Barbelane
+  slug: julia-barbelane
   twitter: juliabarbelane
 
 - name: Érick Gardin
-  twitter: newick 
+  slug: erick-gardin
+  twitter: newick
 
 - name: Thomas Gasc
+  slug: thomas-gasc
   twitter: methylbro
 

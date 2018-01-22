@@ -1,0 +1,44 @@
+---
+title: Logements alternatifs
+description: Se loger ailleurs qu'au Val de l'Hort
+i18n-key: logement
+permalink: /alternatives-logement/
+---
+
+<section class="section">
+  <div class="wrapper">
+    <h1>Logements alternatifs</h1>
+
+    <p>
+        Nous voulons que chacun·e se sente à son aise, c’est pourquoi la Thym s’est assurée qu’une offre alternative et diverse de
+        logement existait. Si vous ne souhaitez pas dormir au Val de l'Hort ou que vous souhaitez prolonger votre
+        séjour à Anduze, voici une liste de quelques hébergements aux alentours :
+    </p>
+
+    <ul>
+        {% assign specifics = site.data.bnbs.specifics | sort: "distance" %} {% assign generics = site.data.bnbs.generics | sort:
+        "fromprice" %} {% for bnb in specifics %}
+        <li>
+            <a href="{{ bnb.url }}" target="_blank" rel="noopener noreferrer">{{ bnb.name }}{% if bnb.distance %} ({{ bnb.distance }} {% t à pied %}){% endif %} {% t à partir
+                de %} {{ bnb.fromprice }}
+                <span class="sr-only">(open in a new window)</span>
+            </a>
+        </li>
+        {% endfor %} {% for bnb in generics %}
+        <li>
+            <a href="{{ bnb.url }}" target="_blank" rel="noopener noreferrer">{{ bnb.name }}{% if bnb.distance %} ({{ bnb.distance }}){% endif %} à partir de {{ bnb.fromprice
+                }}
+                <span class="sr-only">(open in a new window)</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p>
+        Attention ces tarifs sont livrés à titre indicatif et incluent parfois la location de plusieurs lits, voire du gîte entier.
+        Pensez à réserver au plus tôt.
+    </p>
+  </div>
+</section>
+
+<hr class="wrapper">

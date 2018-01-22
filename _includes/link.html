@@ -1,0 +1,8 @@
+{% case include.link.type %}
+{% when 'url' %}
+    <a href="{{ include.link.value }}">{{ include.link.name | t: page.locale }}</a>
+{% when 'root_anchor' %}
+    <a href="{{ page.baseurl | default:site.baseurl }}/{{ include.link.anchor }}">{{ include.link.name | t: page.locale }}</a>
+{% else %}
+    <a href="{{ page.baseurl | default:site.baseurl }}/{{ include.link.value | t: page.locale }}/">{{ include.link.name | t: page.locale }}</a>
+{% endcase %}
