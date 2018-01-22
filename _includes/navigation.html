@@ -12,8 +12,8 @@
     {% endfor%}
     {% if page.translation %}
       {% assign hreflang = page.translation.locale | slice: 0,2 %}
-      <li><a hreflang="{{ hreflang }}" href="{{ page.translation.url }}"><small>{% t (see in english) %}</small></a></li>
+      <li><a hreflang="{{ hreflang }}" href="{{ page.translation.url | relative_url }}"><small>{% t (see in english) %}</small></a></li>
     {% endif %}
-      
+
   </ul>
 </nav>
