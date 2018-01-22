@@ -4,6 +4,7 @@
   "@type": "Event",
   "name": "Sud Web 2018",
   "description": "La conférence Web surtout Humaine",
+  "image": "{{ site.url }}{{ site.baseurl }}/assets/images/social/og-image-{{ lang }}.jpg",
   "startDate": "2018-05-25T09:00",
   "endDate": "2018-05-26T18:00",
   "location": {
@@ -21,13 +22,17 @@
     "@type": "Organization",
     "name": "{{ site.title }}",
     "logo": "{{ site.logo }}",
-    "sameAs": "https://www.facebook.com/SudWeb",
-    "sameAs": "https://twitter.com/sudweb",
-    "sameAs": "https://vimeo.com/sudweb",
-    "sameAs": "https://www.flickr.com/people/sudweb/",
+    "sameAs": [
+      "https://www.facebook.com/SudWeb",
+      "https://twitter.com/sudweb",
+      "https://vimeo.com/sudweb",
+      "https://www.flickr.com/people/sudweb/"
+    ],
     "contactPoint": {
       "@type": "ContactPoint",
-      "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t contact %}/"
+      "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t contact %}/",
+      "contactType" : "customer service",
+      "contactOption": "TollFree"
     },
     "member": [{% for member in thym %}{% unless forloop.first == true %},{% endunless %}{
       "@type": "Person",
@@ -39,6 +44,7 @@
     "@type": "Offer",
     "price": "250.00",
     "priceCurrency": "EUR",
+    "availability": "http://schema.org/InStock",
     "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t billetterie %}/"
   }
   {% comment %}
