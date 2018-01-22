@@ -45,6 +45,9 @@ defaults:
       baseurl: "/2018/en"
       locale: en_US
 
+microtypo:
+  median: true
+
 include:
   - _headers
 
@@ -66,9 +69,3 @@ exclude:
   - README.md
   - notes-integration.md
   - script
-
-plugins:
-  - jekyll-github-metadata
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - octopress-autoprefixer
