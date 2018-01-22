@@ -1,71 +1,71 @@
 (function () {
 
-	// Detect user language and redirect, if first time, to the right page
-	try {
-		var lang_user;
+  // Detect user language and redirect, if first time, to the right page
+  try {
+    var lang_user;
 
-		lang_user = localStorage.getItem("lang_user");
-		if(!lang_user) {
-			var lang_user = (window.navigator.userLanguage || window.navigator.language).slice(0,2);
-			localStorage.setItem("lang_user", lang_user);
-			var lang_site = document.getElementsByTagName('html')[0].lang;
-			if (lang_user != lang_site){
-				window.location = document.querySelector('[rel="alternate"]').href;
-			}
-		}
-	} catch (e) {
-		console.log("No localstorage, no lang redirection.")
-	}
+    lang_user = localStorage.getItem("lang_user");
+    if(!lang_user) {
+      var lang_user = (window.navigator.userLanguage || window.navigator.language).slice(0,2);
+      localStorage.setItem("lang_user", lang_user);
+      var lang_site = document.getElementsByTagName('html')[0].lang;
+      if (lang_user != lang_site){
+        window.location = document.querySelector('[rel="alternate"]').href;
+      }
+    }
+  } catch (e) {
+    console.log("No localstorage, no lang redirection.")
+  }
 
-	lozad('.lozad', {
-		load: function (el) {
-			if(el.dataset.src)
-				el.src = el.dataset.src;
-			if(el.dataset.srcset)
-				el.srcset = el.dataset.srcset;
-		  el.onload = function () {
-				el.classList.add('fade')
-		  }
-		}
-	}).observe();
+  lozad('.lozad', {
+    load: function (el) {
+      if(el.dataset.src)
+        el.src = el.dataset.src;
+      if(el.dataset.srcset)
+        el.srcset = el.dataset.srcset;
+      el.onload = function () {
+        el.classList.add('fade')
+      }
+    }
+  }).observe();
 
-	[...document.querySelectorAll('[data-target]')].forEach(function(trigger){
-		trigger.addEventListener('click',function(e){
+  [...document.querySelectorAll('[data-target]')].forEach(function(trigger){
+    trigger.addEventListener('click',function(e){
       e.preventDefault();
-			[trigger, ...document.querySelectorAll(trigger.getAttribute('data-target'))].forEach(function(target){
-				target.classList.toggle('is-active');
-			});
-		});
-	});
+      [trigger, ...document.querySelectorAll(trigger.getAttribute('data-target'))].forEach(function(target){
+        target.classList.toggle('is-active');
+      });
+    });
+  });
 
-	function loadScript(url, callback) {
-		var script = document.createElement('script'),
-			loaded = false;
+  function loadScript(url, callback) {
+    var script = document.createElement('script'),
+      loaded = false;
 
-		script.setAttribute('src', url);
-		script.onreadystatechange = script.onload = function () {
-			if (!loaded && callback) {
-				callback();
-				loaded = true;
-			}
-		};
+    script.setAttribute('src', url);
+    script.onreadystatechange = script.onload = function () {
+      if (!loaded && callback) {
+        callback();
+        loaded = true;
+      }
+    };
 
-		document.head.appendChild(script);
-	}
+    document.head.appendChild(script);
+  }
 
-	function initSmoothScroll() {
-		loadScript(
-			'https://cdn.rawgit.com/cferdinandi/smooth-scroll/master/dist/js/smooth-scroll.min.js',
-			function () {
-				var scroll = new SmoothScroll("a[href^='#']:not([role='button'])", {
-					speed: 1000,
-					easing: 'easeInOutQuint'
-				});
-			}
-		);
-	}
+  function initSmoothScroll() {
+    loadScript(
+      'https://cdn.rawgit.com/cferdinandi/smooth-scroll/master/dist/js/smooth-scroll.min.js',
+      function () {
+        var scroll = new SmoothScroll("a[href^='#']:not([role='button'])", {
+          speed: 1000,
+          easing: 'easeInOutQuint'
+        });
+      }
+    );
+  }
 
-	document.addEventListener('DOMContentLoaded', initSmoothScroll);
+  document.addEventListener('DOMContentLoaded', initSmoothScroll);
 
 
   // Oh!
