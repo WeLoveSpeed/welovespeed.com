@@ -32,6 +32,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 Gemfile.lock
+/vendor/
 
 # Mac OS
 .DS_Store
