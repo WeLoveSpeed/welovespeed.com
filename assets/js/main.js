@@ -31,6 +31,7 @@
 
 	[...document.querySelectorAll('[data-target]')].forEach(function(trigger){
 		trigger.addEventListener('click',function(e){
+      e.preventDefault();
 			[trigger, ...document.querySelectorAll(trigger.getAttribute('data-target'))].forEach(function(target){
 				target.classList.toggle('is-active');
 			});

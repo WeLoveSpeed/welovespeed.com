@@ -11,7 +11,7 @@
 
 	&-button {
 		position: fixed; top: .5em; left: .5em; z-index: $zindex-nav-trigger;
-		padding: .25em;
+		display: block; padding: .25em;
 		border: 1px solid transparent;
 		background-color: $nav-trigger-btn-bg;
 		font-size: .875em; color: $nav-trigger-btn-color;
