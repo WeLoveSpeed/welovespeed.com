@@ -32,6 +32,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 /vendor/
+/.bundle/
 
 # Mac OS
 .DS_Store
