@@ -114,6 +114,7 @@ a, button.btn--link-like {
 .text-valid {
 	color: $valid;
 }
+.required,
 .text-warning {
 	color: $warning;
 }
@@ -122,11 +123,4 @@ a, button.btn--link-like {
 }
 .text-inactive {
 	color: $inactive;
-}
-
-.svg-text {
-	font-size: .875em;
-}
-.external-link-icon {
-	font-size: .625em;
 }
