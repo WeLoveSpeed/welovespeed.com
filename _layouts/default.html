@@ -1,12 +1,19 @@
 ---
-layout: compress
+layout: microtypo
 ---
 
-{% assign locale = page.locale | default: site.locale %}{% assign lang = locale | slice: 0,2 %}{% include head.html %}
-<body itemscope itemtype="http://schema.org/WebPage">
+{% assign locale = page.locale | default: site.locale %}{% assign lang = locale | slice: 0,2 %}{% assign thym = site.data.thym_members | sort: "slug" %}{% include head.html %}
+<body>
+  {% if page.i18n-key == 'home' %}
+    {% include header-home.html %}
+  {% else %}
+    {% include header-page.html %}
+  {% endif %}
   {% include navigation.html %}
-  {{ content | microtypo: page.locale }}
+  {{ content }}
   {% include footer.html %}
+  {% include scripts.html %}
+  {% include schema.html %}
   {% include serviceworkers.html %}
 </body>
 </html>

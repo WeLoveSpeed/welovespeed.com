@@ -56,7 +56,7 @@ $ bundle exec foreman start
 ```
 ou
 ```bash
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve --config _config.yml,_config_dev.yml
 ```
 
 Si vous modifiez le fichier `_config.yml`, il faut couper et relancer Jekyll.

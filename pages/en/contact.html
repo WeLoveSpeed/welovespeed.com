@@ -1,0 +1,37 @@
+---
+title: Contact
+description: Contacter les organisateurs de Sud Web
+i18n-key: contact
+permalink: /en/contact/
+---
+
+<section class="section">
+  <div class="wrapper">
+    <h1>Contact us</h1>
+    <p>You have a question, a suggestion? We are at your service.</p>
+    <form action="//formspree.io/contact@sudweb.fr" method="POST">
+      <div class="p-like">
+        <label class="desc" for="_replyto">Your email:</label>
+        <input type="email" name="_replyto" placeholder="ex : amelie@from-paris.com" required>
+      </div>
+      <div class="p-like">
+        <label class="desc" for="message">Your message:</label>
+        <textarea name="message" rows="" placeholder="ex : I'm nobody's little weasel" required></textarea>
+      </div>
+      <div class="p-like text-center">
+        <input type="hidden" name="_subject" value="Message sent from the contact page" />
+        <input type="text" name="_gotcha" style="display:none">
+        <input type="hidden" name="_next" value="{{ site.url }}" />
+        <button type="submit" class="button" data-text="Send">
+          <span class="button-inner">Send</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<div class="banner-forum lozad">
+  <p class="photo-credits">
+    2017 retrospective in Aix-En-Provence, by <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
+  </p>
+</div>

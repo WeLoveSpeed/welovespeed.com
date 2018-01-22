@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Oraqle';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/oraqle_script-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'),
+       url('../fonts/roboto-thin-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Roboto Light'), local('Roboto-Light'),
+	     url('../fonts/roboto-light-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 300;
+	src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+	     url('../fonts/roboto-lightitalic-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto'), local('Roboto-Regular'),
+	     url('../fonts/roboto-regular-webfont.woff2') format('woff2');
+}

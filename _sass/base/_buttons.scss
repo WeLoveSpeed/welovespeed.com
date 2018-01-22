@@ -1,0 +1,55 @@
+.button {
+	position: relative;
+	display: inline-block; margin: $input-vmargin $btn-hmargin; overflow: hidden;
+	border: none; border-radius: .125em; box-shadow: 0 0 .5em 0 rgba($btn-bg, .5);
+	background-color: $btn-bg;
+	font: $button-font-style $button-font-weight 1em/#{$default-line-height} $button-font-family; text-align: center; text-decoration: none;
+	vertical-align: baseline;
+
+	&,
+	&-inner,
+	&::after {
+		transition: $default-duration $default-timing-function;
+	}
+
+	&-inner,
+	&::after {
+		display: block; padding: $input-vpadding $btn-hpadding;
+	}
+
+	&-inner {
+		position: relative;
+		color: $btn-color;
+	}
+
+	&::after {
+		position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+		transform: translateY(1em);
+		color: $btn-hover-color;
+		content: attr(data-text); opacity: 0; visibility: hidden; speak: none;
+	}
+
+	&:hover,
+	&:focus {
+		background-color: $btn-hover-bg;
+		text-decoration: none;
+
+		.button-inner {
+			transform: translateY(-1em);
+			opacity: 0; visibility: hidden;
+		}
+
+		&::after {
+			transform: translateY(0);
+			opacity: 1; visibility: visible;
+		}
+	}
+}
+
+.button-reset {
+	display: inline; margin: 0; padding: 0;
+	border: none; border-radius: 0;
+	background: none;
+	font: inherit; text-align: inherit;
+	vertical-align: baseline; appearance: none;
+}

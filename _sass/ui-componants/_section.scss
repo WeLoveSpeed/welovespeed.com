@@ -1,0 +1,15 @@
+.section {
+	margin: 10% 0;
+
+	@include media('>medium') {
+		margin: 5% 0;
+	}
+}
+
+.illustration {
+	font-size: 4em; color: $green;
+
+	@include media('>large') {
+		font-size: 3em;
+	}
+}

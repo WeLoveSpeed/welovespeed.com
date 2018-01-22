@@ -1,0 +1,8 @@
+@keyframes lozad-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.lozad[data-loaded='true'] {
+  animation: 2s ceaser(easeOutSine) lozad-fade;
+}

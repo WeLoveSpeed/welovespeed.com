@@ -1,0 +1,47 @@
+[class*=' banner-'],
+[class^='banner-'] {
+	position: relative;
+	padding: 30% 0;
+	background: center / cover no-repeat fixed;
+
+	@include media('>large') {
+		padding: 20% 0;
+	}
+	@include media('>xlarge') {
+		padding: 15% 0;
+	}
+}
+
+@each $slug in $banners {
+  .banner-#{$slug}[data-loaded='true'] {
+    background-image: url(../images/banners/#{$slug}-768h.jpg);
+
+    @include media('height>768px') {
+      background-image: url(../images/banners/#{$slug}-1080h.jpg);
+    }
+
+    @include media('height>1080px') {
+      background-image: url(../images/banners/#{$slug}-1260h.jpg);
+    }
+
+    @include media('HDPIscreen', 'height>384px') {
+      background-image: url(../images/banners/#{$slug}-1080h.jpg);
+    }
+
+    @include media('HDPIscreen', 'height>630px') {
+      background-image: url(../images/banners/#{$slug}-1260h.jpg);
+    }
+  }
+}
+
+.photo-credits {
+	position: absolute; right: 0; bottom: 0;
+	margin: 0; padding: 0 .5em;
+	background-color: rgba($black, .5);
+	font-size: .625em;
+
+	&,
+	a {
+		color: $white;
+	}
+}

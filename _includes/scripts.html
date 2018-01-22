@@ -1,21 +1,2 @@
-<script src="{{ site.baseurl }}/assets/js/fetch-inject.js"></script>
-<script>
-  fetchInject([
-    '{{ site.baseurl }}/assets/js/main.min.js',
-  ], fetchInject([
-    '{{ site.baseurl }}/assets/js/vendor/svgxuse.min.js',
-    '{{ site.baseurl }}/assets/js/lozad.js',
-  ], fetchInject([
-    '{{ site.baseurl }}/assets/js/vendor/jquery-2.2.0.min.js'
-  ], ))).then(() => {
-    lozad('.lozad', {
-      load: function (el) {
-        el.src = el.dataset.src;
-        el.srcset = el.dataset.srcset;
-        el.onload = function () {
-          el.classList.add('fade')
-        }
-      }
-    }).observe()
-  });
-</script>
+<script src="{{ "/assets/js/lozad.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/main.js" | relative_url }}"></script>
