@@ -55,6 +55,12 @@ $ rbenv install
 Pour travailler sur le site et surveiller les modifications :
 
 ```bash
+$ bundle exec rake build:serve
+```
+
+Pour builder pour le Dév
+
+```bash
 $ bundle exec rake build:dev
 ```
 

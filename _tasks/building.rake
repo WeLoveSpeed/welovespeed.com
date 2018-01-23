@@ -16,9 +16,21 @@ namespace :build do
       ans = STDIN.gets.chomp
       exit if ans != 'Y'
     end
+    jekyll("build --config _config.yml,_config_dev.yml")
+  end
+
+  desc 'Preview on local machine (server with --auto)'
+  task :serve => :clean do |_t, args|
+    if rake_running
+      puts "\n\nWarning! An instance of rake seems to be running (it might not be *this* Rakefile, however).\n"
+      puts "Building while running other tasks (e.g., preview), might create a website with broken links.\n\n"
+      puts 'Are you sure you want to continue? [Y|n]'
+
+      ans = STDIN.gets.chomp
+      exit if ans != 'Y'
+    end
     jekyll("serve --config _config.yml,_config_dev.yml")
   end
-  task serve: :preview
 
   desc 'Generate for deployment (but do not deploy)'
   task :prod => [:clean, 'prebuild:test'] do |_t, args|
