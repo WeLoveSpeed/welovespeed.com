@@ -10,6 +10,17 @@
 	@include media('>xlarge') {
 		padding: 15% 0;
 	}
+
+  &.page-top {
+    padding: 20% 0;
+
+    @include media('>medium') {
+      padding: 10% 0;
+    }
+    @include media('>large') {
+      padding: 5% 0;
+    }
+  }
 }
 
 @each $slug in $banners {
