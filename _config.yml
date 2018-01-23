@@ -7,10 +7,15 @@ logo: /assets/images/twittercard.png
 url: https://sudweb.fr
 repository: sudweb/2018
 baseurl: /2018
+destination: _site/2018
 locale: fr_FR
 logo: https://sudweb.fr/2018/assets/images/social/sudweb-logo.jpg
 lazyload:
-  placeholder: "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==
+  placeholder: "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+compress_html:
+  ignore:
+    envs:
+      - 'development'
 
 ## SEO
 
@@ -71,3 +76,8 @@ exclude:
   - README.md
   - notes-integration.md
   - script
+  - "Rakefile"
+  - "gulpfile.js"
+  - "node_modules"
+  - "package.json"
+  - "package-lock.json"
