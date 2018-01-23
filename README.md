@@ -8,7 +8,8 @@ Site internet du cycle de conférences annuel Sud Web, dont la 7e édition aura 
 [https://sudweb.fr/](https://sudweb.fr/)
 
 ## Pré-requis
-Le site est généré à l'aide de [Jekyll](http://jekyllrb.com/) et nécessite Ruby 2.3 (voir `.ruby-version`)
+
+Le site est généré à l'aide de [Jekyll](http://jekyllrb.com/) et nécessite Ruby 2.4.0 (voir `.ruby-version`)
 
 Nous vous recommandons de gérer l'installation de Ruby via [rbenv](http://rbenv.org/).
 
@@ -41,9 +42,10 @@ $ gem install bundler
 ```
 Pour installer toutes les dépendances du projet :
 ```bash
-$ bundle install
+$ bundle install;
+$ bundle exec rake prebuild:install;
 ```
-Pour installer la bonne version de Ruby
+Pour installer la bonne version de Ruby avec rbenv :
 ```bash
 $ rbenv install
 ```
@@ -51,23 +53,23 @@ $ rbenv install
 ## Travailler en local
 
 Pour travailler sur le site et surveiller les modifications :
+
 ```bash
-$ bundle exec foreman start
-```
-ou
-```bash
-$ bundle exec jekyll serve --config _config.yml,_config_dev.yml
+$ bundle exec rake build:dev
 ```
 
-Si vous modifiez le fichier `_config.yml`, il faut couper et relancer Jekyll.
+Pour builder pour la Production
 
-Le site est maintenant accessible en local à l'adresse http://127.0.0.1:4000/2018/
+```bash
+$ bundle exec rake build:prod
+```
+
+Si vous modifiez le fichier `_config.yml`, il faut couper et relancer.
+
+Le site est maintenant accessible en local à l'adresse http://127.0.0.1:4000/ (dev).
 
 Pour plus d'information sur l'utilisation de Jekyll, reportez-vous à la [documentation officielle](http://jekyllrb.com/docs/home/).
 
-## Styleguide et notes d'intégration
-
-* [Notes d'intégration](notes-integration.md) de @Twikito
 
 ## Contribution
 
@@ -82,10 +84,7 @@ Toute modification doit faire l'objet d'une [pull request](https://github.com/su
 Avant de soumettre votre pull-request, vérifiez que les tests passent :
 
 ```bash
-$ script/cibuild
-Running ["ScriptCheck", "LinkCheck", "ImageCheck"] on ./_site on *.html...
-
-HTML-Proofer finished successfully.
+$ bundle exec rake postbuild:test:kiss
 ```
 
 ## Licence
