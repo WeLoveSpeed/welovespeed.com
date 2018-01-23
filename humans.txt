@@ -17,3 +17,10 @@ layout: null
                 Atom <https://atom.io/>
                 Sublime Text <https://www.sublimetext.com/>
                 Visual Studio Code <https://code.visualstudio.com/>
+
+/* CONTRIBUTORS */
+
+  {% for contributor in site.github.contributors %}
+  Name:         {{ contributor.login }}
+  Site:         <{{ contributor.html_url }}>
+  {% endfor %}
