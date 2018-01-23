@@ -9,6 +9,8 @@ repository: sudweb/2018
 baseurl: /2018
 locale: fr_FR
 logo: https://sudweb.fr/2018/assets/images/social/sudweb-logo.jpg
+lazyload:
+  placeholder: "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==
 
 ## SEO
 
