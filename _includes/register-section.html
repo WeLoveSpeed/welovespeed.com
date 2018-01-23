@@ -1,7 +1,12 @@
+{% if include.label == nil %}
+  {% assign label = "Acheter votre place" | t: page.locale %}
+{% else %}
+  {% assign label = include.label %}
+{% endif %}
 <section class="section">
   <div class="wrapper text-center">
-    <a class="button" href="{% if include.inside %}#register{% else %}{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/{% endif %}" data-text="{% t Acheter votre place %}">
-      <span class="button-inner">{% t Acheter votre place %}</span>
+    <a class="button" href="{% if include.inside %}#register{% else %}{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/{% endif %}" data-text="{{ label }}">
+      <span class="button-inner">{{ label }}</span>
     </a>
   </div>
 </section>
