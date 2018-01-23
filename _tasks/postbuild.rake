@@ -19,7 +19,7 @@ namespace :postbuild do
   namespace :test do
     desc 'Test if generated website is valid (do not test external links)'
     task :kiss do
-      sh 'htmlproofer ./_site  --disable-external --url-ignore "#" --empty-alt-ignore true'
+      sh 'htmlproofer ./_site --url-ignore "#,https://www.weezevent.com/?c=sys_widget" --empty-alt-ignore true'
     end
   end
 end
