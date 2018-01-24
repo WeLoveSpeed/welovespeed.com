@@ -26,6 +26,6 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - WEEZEVENT_EVENT_ID=218160
-before_deploy:
+before_install:
 - openssl aes-256-cbc -K $encrypted_2733e3f99a07_key -iv $encrypted_2733e3f99a07_iv
   -in deploy_rsa.enc -out deploy_rsa -d
