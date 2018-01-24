@@ -6,7 +6,7 @@
         <div class="grid-7 text-center">
           {% for member in thym %}
             <figure class="person" role="group" aria-labelledby="capt-{{member.twitter}}">
-              <img class="person-avatar lozad" data-src="{{ "/assets/images/thym/" | append: member.twitter | append: ".jpg" | relative_url }}" alt="{{member.name}}">
+              <img src="{{ site.lazyload.placeholder }}" class="person-avatar lozad" data-src="{{ "/assets/images/thym/" | append: member.twitter | append: ".jpg" | relative_url }}" alt="{{member.name}}">
               <figcaption id="capt-{{member.twitter}}" class="person-name text-xs">
                 <a href="https://twitter.com/{{member.twitter}}">{{member.name}}</a>
               </figcaption>

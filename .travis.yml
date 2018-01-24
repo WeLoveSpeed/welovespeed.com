@@ -19,7 +19,7 @@ after_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: bundle exec rake postbuild:deploy
+  script: rsync -r --delete-after --quiet --exclude '.ssh' $TRAVIS_BUILD_DIR/_site/2018/ sudweb_2018@ssh-sudweb.alwaysdata.net:/home/sudweb/www/2018/
   on:
     branch: master
 env:
