@@ -2,13 +2,13 @@
 <section class="pres-item">
   {% if conference.type != 'pause' %}
   <figure class="pres-type">
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <svg width="1em" xmlns="http://www.w3.org/2000/svg" version="1.1">
       <use id="sw-hands" xlink:href="{{ "/assets/images/symbol-defs.svg#link" | append: conference.symbol | relative_url }}" />
     </svg>
   </figure>
   {% endif %}
 
-  <h4 class="pres-title tiny-title-size" id="{{ conference.title | slugify }}">{% comment %}{{ conference.date | date: "%Hh%M" }} : {% endcomment %}{{ conference.title }} <a class="orange link" href="#{{ conference.title | slugify }}"><svg class="svg-size" viewBox="0 0 400 400"><use xlink:href="{{ "/assets/images/symbol-defs.svg#link" | relative_url }}" /></svg></a></h4>
+  <h4 class="pres-title tiny-title-size" id="{{ conference.title | slugify }}">{% comment %}{{ conference.date | date: "%Hh%M" }} : {% endcomment %}{{ conference.title }} <a class="orange link" href="#{{ conference.title | slugify }}"><svg width="1em" class="svg-size" viewBox="0 0 400 400"><use xlink:href="{{ "/assets/images/symbol-defs.svg#link" | relative_url }}" /></svg></a></h4>
 
   <div class="pres-desc">
     {{ conference.description | markdownify }}
@@ -17,7 +17,7 @@
   <div class="pres-medias">
     {% if conference.video %}
     <div class="pres-medias-link">
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <svg width="1em" xmlns="http://www.w3.org/2000/svg" version="1.1">
         <use xlink:href="{{ "/assets/images/symbol-defs.svg#video" | relative_url }}" />
       </svg>
       <a href="{{ conference.video }}" title="Voir la vidéo '{{ conference.title }}'" data-event-category="cta" data-event-action="click" data-event-label="video-{{ conference.title | slugify }}">Vidéo</a>
@@ -25,7 +25,7 @@
     {% endif %}
     {% if conference.slides %}
     <div class="pres-medias-link">
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <svg width="1em" xmlns="http://www.w3.org/2000/svg" version="1.1">
         <use xlink:href="{{ "/assets/images/symbol-defs.svg#slides" | relative_url }}" />
       </svg>
       <a href="{{ conference.slides }}" title="Voir les slides '{{ conference.title }}'" data-event-category="cta" data-event-action="click" data-event-label="slides-{{ conference.title | slugify }}">Slides</a>
