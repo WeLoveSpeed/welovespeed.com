@@ -27,7 +27,7 @@ html {
 }
 
 @each $quotes in $i18n-quotes {
-  $lang = map-get($quotes, 'lang');
+  $lang: map-get($quotes, 'lang');
 
   html:lang(#{$lang}),
   [lang='#{$lang}'] {
