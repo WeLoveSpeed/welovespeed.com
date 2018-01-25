@@ -27,13 +27,15 @@ html {
 }
 
 @each $quotes in $i18n-quotes {
-  :lang(#{map-get($quotes, 'lang')}) {
+  $lang = map-get($quotes, 'lang');
+
+  html:lang(#{$lang}),
+  [lang='#{$lang}'] {
     quotes: #{map-get($quotes, 'quotes')};
   }
 }
 
-blockquote p,
-q {
+blockquote p, q, .quote {
   &::before { content: open-quote; }
   &::after { content: close-quote; }
 }
