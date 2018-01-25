@@ -54,24 +54,7 @@ strong, b {
 }
 
 a, button.btn--link-like {
-	font-style: italic; color: $link-color; text-decoration: underline solid rgba($link-color, .25); text-decoration-skip: ink;
-
-  @supports not ((text-decoration-color) and (text-decoration-skip)) {
-    text-decoration: none;
-
-    padding: calc( 1em * 60 / 100) 0;
-    background-image: linear-gradient(rgba($link-color, .25), rgba($link-color, .25));
-    background-repeat: no-repeat;
-    background-size: 100% calc( 1em / 10);
-    background-position: center bottom 29%;
-    background-origin: padding-box;
-    text-shadow: 3px 0 $default-bg,
-                 2px 0 $default-bg,
-                 1px 0 $default-bg,
-                 -1px 0 $default-bg,
-                 -2px 0 $default-bg,
-                 -3px 0 $default-bg;
-  }
+	font-style: italic; color: $link-color; text-decoration: none; text-decoration: underline solid rgba($link-color, .25); text-decoration-skip: ink;
 
   &:hover,
   &:focus {
