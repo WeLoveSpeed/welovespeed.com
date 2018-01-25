@@ -73,7 +73,7 @@
 	a {
 		padding: .25em .5em;
 		border: 1px solid transparent; outline: none;
-		font-style: normal; white-space: nowrap; color: $nav-color;
+		font-style: normal; white-space: nowrap; color: $nav-color; text-decoration: none;
 
 		&:hover,
 		&:focus {

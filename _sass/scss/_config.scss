@@ -2,6 +2,44 @@
    CONFIG
    ========================================================================== */
 
+// Layout
+
+$wrapper-width              : 90%;
+$wrapper-max-width          : 96rem;
+$global-gutters             : 2rem;
+
+
+// Z-indexes
+
+$zindex-nav-trigger-area    : 15;
+$zindex-nav-trigger         : 16;
+$zindex-page-nav            : 20;
+
+
+// Responsive
+
+$media-ratio              : (
+  'xsmall'                : 1.7,
+  'small'                 : 1.8,
+  'medium'                : 1.9,
+  'large'                 : 2,
+  'xlarge'                : 2.1,
+  'xxlarge'               : 2.2
+);
+
+$breakpoints              : (
+  'small'                 : 480px,
+  'medium'                : 720px,
+  'large'                 : 960px,
+  'xlarge'                : 1200px,
+  'xxlarge'               : 1440px
+);
+
+$media-expressions        : (
+  'HDPIscreen'            : '(min-resolution: 2dppx)'
+);
+
+
 // Typo
 
 $default-font-size          : 1em;
@@ -69,44 +107,6 @@ $input-hpadding             : .5em;
 
 $btn-hmargin                : .5em;
 $btn-hpadding               : 1.5em;
-
-
-// Layout
-
-$wrapper-width              : 90%;
-$wrapper-max-width          : 96rem;
-$global-gutters             : 2rem;
-
-
-// Z-indexes
-
-$zindex-nav-trigger-area    : 15;
-$zindex-nav-trigger         : 16;
-$zindex-page-nav            : 20;
-
-
-// Responsive
-
-$media-ratio              : (
-	'xsmall'                : 1.7,
-	'small'                 : 1.8,
-	'medium'                : 1.9,
-	'large'                 : 2,
-	'xlarge'                : 2.1,
-	'xxlarge'               : 2.2
-);
-
-$breakpoints              : (
-	'small'                 : 480px,
-	'medium'                : 720px,
-	'large'                 : 960px,
-	'xlarge'                : 1200px,
-	'xxlarge'               : 1440px
-);
-
-$media-expressions        : (
-  'HDPIscreen'            : '(min-resolution: 2dppx)'
-);
 
 
 // Transitions

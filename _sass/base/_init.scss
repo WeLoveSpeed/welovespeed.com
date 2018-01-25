@@ -54,6 +54,15 @@ abbr[title] {
 	text-decoration: none;
 }
 
+blockquote {
+  padding: $global-gutters/2 0 $global-gutters/2 $global-gutters;
+  border-left: .25em solid $blockquote-border-color;
+  font-style: italic;
+  p {
+    margin: 0;
+  }
+}
+
 figure {
 	margin: 0;
 }
