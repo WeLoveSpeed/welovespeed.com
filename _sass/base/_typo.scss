@@ -54,7 +54,7 @@ strong, b {
 }
 
 a, button.btn--link-like {
-	font-style: italic; color: $link-color; text-decoration: underline solid rgba($link-color, .25);
+	font-style: italic; color: $link-color; text-decoration: underline solid rgba($link-color, .25); text-decoration-skip: ink;
 	&:hover,
 	&:focus {
 		text-decoration: underline;
