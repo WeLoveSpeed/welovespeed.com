@@ -17,7 +17,7 @@
     console.log("No localstorage, no lang redirection.")
   }
 
-  lozad('.lozad', {
+  var lozadObserver = lozad('.lozad', {
     load: function (el) {
       if(el.dataset.src)
         el.src = el.dataset.src;
@@ -27,7 +27,14 @@
         el.classList.add('fade')
       }
     }
-  }).observe();
+  });
+  lozadObserver.observe();
+  window.addEventListener('load', function() {
+    document.querySelectorAll('.lozad').forEach(function(element) {
+      lozadObserver.triggerLoad(element);
+    });
+
+  }),
 
   [...document.querySelectorAll('[data-target]')].forEach(function(trigger){
     trigger.addEventListener('click',function(e){
