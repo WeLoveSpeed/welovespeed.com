@@ -21,11 +21,7 @@ Nous avons donc décidé de proposer des consignes qui permettent de faire en so
 </div>
 </section>
 
-<div class="banner-informelle lozad">
-  <p class="photo-credits">
-    Discussion ouverte 2015 à Montpellier, par <a href="https://flic.kr/p/w8CDai" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
-  </p>
-</div>
+{% include banners/informelle.html locale=page.locale %}
 
 <section class="section">
 <div class="wrapper" markdown="1">
@@ -108,9 +104,5 @@ En ce qui concerne la personne à l’origine de la situation, l’exclusion est
 </div>
 </section>
 
-<div class="banner-station lozad">
-  <p class="photo-credits">
-    Anduze Station by <a href="https://flic.kr/p/vMJMvT">Stephen Colebourne</a> - (<a href="https://creativecommons.org/licenses/by-sa/2.0/" title="Licence Creative Commons">CC-BY-SA 2.0</a>)
-  </p>
-</div>
+{% include banners/station.html locale=page.locale %}
 

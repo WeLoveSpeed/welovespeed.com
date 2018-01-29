@@ -1,0 +1,5 @@
+<div class="banner-{{ include.slug }} lozad">
+  <p class="photo-credits">
+    {% if include.source_target_url %}<a href="{{ include.source_target_url }}" target="_blank" rel="noopener noreferrer">{% endif %}{{ include.source_title | t: include.locale }}{% if include.source_target_url %}</a>{% endif %} {% t par %} <a href="{{ include.source_url }}" target="_blank" rel="noopener noreferrer" title="{% t voir la photo en plus grand %}">{{ include.source_author }}</a> - <a href="{{ include.source_rights_url }}" title="{{ include.source_rights_title | t: include.locale }}" target="_blank" rel="noopener noreferrer">{{ include.source_rights_shortname }}</a>
+  </p>
+</div>
