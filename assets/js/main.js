@@ -30,7 +30,7 @@
   });
   lozadObserver.observe();
   window.addEventListener('load', function() {
-    document.querySelectorAll('.lozad').forEach(function(element) {
+    document.querySelectorAll('.lozad[class^="banner-"').forEach(function(element) {
       lozadObserver.triggerLoad(element);
     });
 
