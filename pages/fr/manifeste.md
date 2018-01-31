@@ -31,8 +31,4 @@ Voici les valeurs que nous partageons et véhiculons :
 </div>
 </section>
 
-<div class="banner-forum lozad">
-  <p class="photo-credits">
-    Rétrospective 2017 à Aix-En-Provence, par <a href="https://flic.kr/p/V37cLo" target="_blank" rel="noopener noreferrer">Sud Web</a> - <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-NC-SA 2.0</a>
-  </p>
-</div>
+{% include banners/forum.html locale=page.locale %}

@@ -1,0 +1,16 @@
+{% if include.page_top %}
+  {% assign slug = "bambouseraie page-top" %}
+{% else %}
+  {% assign slug = "bambouseraie" %}
+{% endif %}
+{% include banners/_generic.html
+  slug=slug
+  locale=include.locale
+  source_title="La Bambouseraie d’Anduze"
+  source_target_url="http://www.bambouseraie.fr/"
+  source_url="https://flic.kr/p/5dSjFA"
+  source_author="Alexandre Duret-Lutz"
+  source_rights_url="https://creativecommons.org/licenses/by-sa/2.0/"
+  source_rights_title="Licence Creative Commons"
+  source_rights_shortname="CC BY-SA 2.0"
+%}
