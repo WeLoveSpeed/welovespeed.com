@@ -32,17 +32,13 @@ fieldset {
 	border: 0;
 }
 
-textarea {
-	resize: vertical;
-}
-
 a, button, input, select {
 	transition: $default-duration $default-timing-function;
 }
 
 textarea {
-  transition: height 0s, // For manual resize
-              $default-duration $default-timing-function;
+  resize: vertical;
+  transition: $default-duration $default-timing-function, height 0s;
 }
 
 button {
