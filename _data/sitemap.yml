@@ -28,6 +28,11 @@
   anchor: "#thym"
   in_nav: false
   in_footer: true
+- name: Aider Sud Web
+  type: page
+  value: financer
+  in_nav: true
+  in_footer: true
 - name: Contact
   type: page
   value: contact
