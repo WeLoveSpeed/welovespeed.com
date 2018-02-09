@@ -19,6 +19,9 @@
 
   var lozadObserver = lozad('.lozad', {
     load: function (el) {
+      if (el.tagName == "IMG") {
+        el.setAttribute("decoding","async");
+      }
       if(el.dataset.src)
         el.src = el.dataset.src;
       if(el.dataset.srcset)
