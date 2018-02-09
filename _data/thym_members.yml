@@ -1,28 +1,48 @@
-- name: Alexandra Janin
+- firstname: Alexandra
+  lastname: Janin
   slug: alexandra-janin
   twitter: lellexindo
+  url: http://lellex.fr
 
-- name: Bertrand Keller
+- firstname: Bertrand
+  lastname: Keller
   slug: bertrand-keller
   twitter: bertrandkeller
+  url: https://bertrandkeller.info/
 
-- name: Boris Schapira
+- firstname: Boris
+  lastname: Schapira
   slug: boris-schapira
   twitter: borisschapira
+  url: https://borisschapira.com/
 
-- name: Matthieu Bué
+- firstname: Matthieu
+  lastname: Bué
   slug: matthieu-bue
   twitter: twikito
+  url: https://twikito.com/
 
-- name: Julia Barbelane
+- firstname: Julia
+  lastname: Barbelane
   slug: julia-barbelane
   twitter: juliabarbelane
+  url: http://www.juliabarbelane.com/
 
-- name: Érick Gardin
+- firstname: Érick
+  lastname: Gardin
   slug: erick-gardin
   twitter: newick
+  url: http://entre-quote.com/
 
-- name: Thomas Gasc
+- firstname: Thomas
+  lastname: Gasc
   slug: thomas-gasc
   twitter: methylbro
+  url: https://methylbro.fr/
+
+
+
+
+
+
 
