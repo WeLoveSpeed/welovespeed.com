@@ -33,10 +33,10 @@
   });
   lozadObserver.observe();
   window.addEventListener('load', function() {
-    document.querySelectorAll('.lozad[class^="banner-"').forEach(function(element) {
-      lozadObserver.triggerLoad(element);
-    });
-
+    setTimeout(function() {
+      document.querySelectorAll('.lozad[class^="banner-"]:not([data-loaded])').forEach(function(element) {
+        lozadObserver.triggerLoad(element);
+    });}, 4000);
   }),
 
   [...document.querySelectorAll('[data-target]')].forEach(function(trigger){
