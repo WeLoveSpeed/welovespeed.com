@@ -1,0 +1,13 @@
+<section id="thym">
+    <h2 class="text-center">{% t La Thym %}</h2>
+    <div class="grid-7 text-center">
+      {% for member in thym %}
+        <figure class="person" role="group" aria-labelledby="capt-{{member.twitter}}">
+          <img src="{{ site.lazyload.placeholder }}" class="person-avatar lozad" data-src="{{ "/assets/images/thym/" | append: member.twitter | append: ".jpg" | relative_url }}" alt="{{member.name}}" width="100" height="100">
+          <figcaption id="capt-{{member.twitter}}" class="person-name text-xs">
+            <a title="{{member.firstname}} {{member.lastname}}" href="https://twitter.com/{{member.twitter}}">{{member.firstname}} <span class="sr-only">{{member.lastname}}</span></a> (<a href="{{member.url}}">site</a>)
+          </figcaption>
+        </figure>
+      {% endfor%}
+    </div>
+  </section>
