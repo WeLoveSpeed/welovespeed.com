@@ -13,6 +13,11 @@
   value: billetterie
   in_nav: true
   in_footer: false
+- name: Venir à Anduze
+  type: page
+  value: venir-anduze
+  in_nav: true
+  in_footer: true
 - name: Manifeste
   type: page
   value: manifeste
