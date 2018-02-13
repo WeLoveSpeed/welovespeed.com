@@ -18,15 +18,15 @@
   value: venir-anduze
   in_nav: true
   in_footer: true
-- name: Manifeste
-  type: page
-  value: manifeste
-  in_nav: false
-  in_footer: true
 - name: Code de Conduite
   type: page
   value: code-de-conduite
   in_nav: true
+  in_footer: true
+- name: Manifeste
+  type: page
+  value: manifeste
+  in_nav: false
   in_footer: true
 - name: Aider Sud Web
   type: page
@@ -41,6 +41,11 @@
 - name: Mentions légales
   type: page
   value: mentions-legales
+  in_nav: false
+  in_footer: true
+- name: Témoignages
+  type: page
+  value: temoignages
   in_nav: false
   in_footer: true
 - name: Blog

@@ -1,89 +1,378 @@
 - year: 2011
   writeups:
   - url: https://oncletom.io/2011/sud-web-2011/
+    title: "Sud Web 2011 : développement, métier, valeurs et méthodologie"
+    authors: [Thomas Parisot]
+    locale: fr_FR
   - url: http://dev.af83.io/2011/06/01/nous-tions-web-ux-et-sud-web-2011.html
+    title: "Nous étions à Web UX et Sud Web 2011"
+    authors: [Patrice Pena]
+    locale: fr_FR
+    from:
+      name: af83
+      url: http://www.af83.com/
   - url: http://jeremie.patonnier.net/post/2011/06/21/SudWeb-2011-Coup-d-essai-coup-de-maitre
-  - url: http://zebdev.free.fr/?post=644
+    title: "SudWeb 2011 : Coup d'essai, coup de maitre"
+    authors: [Jérémie Patonnier]
+    locale: fr_FR
 - year: 2012
   writeups:
   - url: http://romy.tetue.net/sudweb-2012
+    title: "SudWeb 2012 · Faire savoir et savoir faire"
+    locale: fr_FR
+    authors: [Romy Duhem-Verdière]
   - url: https://blog.theochevalier.fr/compte-rendu-sud-web-2012/
+    title: "Compte-rendu Sud Web 2012"
+    locale: fr_FR
+    authors: [Théo Chevalier]
   - url: https://userland.fr/2012/03/24/sud-web-2012/
+    title: "Sud Web 2012"
+    locale: fr_FR
+    authors: [Goulven Champenois]
   - url: https://hacks.mozilla.org/2012/06/mozilla-at-sudweb-2012-france/
+    title: "Mozilla at SudWeb 2012, France"
+    locale: en_US
+    authors: [Jérémie Patonnier]
+    from:
+      name: Mozilla
+      url: https://www.mozilla.org/
+  - url: https://twitter.com/hashtag/SudWeb2012?src=hash
+    title: "#SudWeb2012"
 - year: 2013
   writeups:
   - url: https://larlet.fr/david/blog/2013/quete-sens/
+    title: "Un quête de sens"
+    locale: fr_FR
+    authors: [David Larlet]
   - url: https://blog.clever-age.com/fr/2013/05/23/sud-web-2013-une-edition-flamboyante/
+    title: "Sud Web 2013 : Une édition flamboyante !"
+    locale: fr_FR
+    authors:
+      - Matthias Dugué
+      - Stéphane Deschamps
+      - Vincent Valentin
+      - Mehdi Kabab
+    from:
+      name: Clever-Age
+      url: https://www.clever-age.com/
   - url: https://jolicode.com/blog/de-retour-de-sud-web-2013
+    title: "De retour de Sub Web 2013"
+    locale: fr_FR
+    authors: [Bastien Jaillot, Damien Alexandre]
+    from:
+      name: Jolicode
+      url: https://jolicode.com
   - url: https://pioupioum.fr/developpement/conference-sass-compass-sudweb-2013.html
+    title: Sud Web, édition 2013
+    locale: fr_FR
+    authors: [Mehdi Kabab]
   - url: https://www.occitech.fr/blog/2013/05/sudweb-2013-cetait-bien/
+    title: "Sudweb 2013 – C’était bien"
+    locale: fr_FR
+    authors:
+      - Damien Biasotto
+      - Pierre Martin
+    from:
+      name: Occitech
+      url: https://www.occitech.fr
   - url: https://dascritch.net/post/2013/05/13/Sud-Web-2013
+    title: "Sud Web 2013, habemus principes"
+    locale: fr_FR
+    authors: [Xavier Mouton-Dubosc]
   - url: https://bertrandkeller.info/2013/05/20/sudweb-2013-reflexions/
+    title: Sudweb 2013, réflexions
+    locale: fr_FR
+    authors: [Bertrand Keller]
   - url: https://www.ekino.com/sud-web-2013/
+    title: "Sud Web 2013"
+    locale: fr_FR
+    authors: [Delphine Malassingne]
+    from:
+      name: Ekino
+      url: https://www.ekino.com
   - url: http://romy.tetue.net/sudweb-2013
+    title: "SudWeb 2013"
+    locale: fr_FR
+    authors: [Romy Duhem-Verdière]
   - url: http://www.blogoergosum.com/36240-sud-web-2013-des-conferences-chevaleresques
+    title: "Sud Web 2013, des conférences chevaleresques !"
+    locale: fr_FR
+    authors: [Sébastien Boullet]
+    from:
+      name: X-Prime
+      url: https://www.xprimegroupe.com/
   - url: http://tech.novapost.fr/retour-sudweb-2013.html
+    title: "Retour sur Sud Web 2013"
+    locale: fr_FR
+    authors: [Mathieu Agopian]
+    from:
+      name: Novapost
+      url: https://www.people-doc.fr/
   - url: https://www.simounet.net/sud-web-une-conference-pour-tous-les-faiseurs-de-web/
+    title: "Sud Web, une conférence pour tous les faiseurs de web"
+    locale: fr_FR
+    authors: [Simon Alberny]
   - url: http://www.lafermeduweb.net/billet/retour-sur-le-sudweb-2013-1ere-partie-1588.html
+    title: "Retour sur le SudWeb 2013 - 1ère partie"
+    locale: fr_FR
+    authors: [Clément Blanco]
+    from:
+      name: La Ferme du Web
+      url: http://www.lafermeduweb.net/
+  - url: https://twitter.com/hashtag/SudWeb2013?src=hash
+    title: "#SudWeb2013"
 - year: 2014
   writeups:
   - url: http://romy.tetue.net/comment-enseigner-int%C3%A9gration-HTML
+    title: "Comment enseigner l’intégration web ?"
+    locale: fr_FR
+    authors: [Romy Duhem-Verdière]
   - url: http://romy.tetue.net/coder-pour-se-faire-plez
+    title: "Coder pour se faire plez’ ? Seulement ?"
+    locale: fr_FR
+    authors: [Romy Duhem-Verdière]
   - url: http://www.stpo.fr/blog/sud-web-2014/
+    title: "Sud Web 2014"
+    locale: fr_FR
+    authors: [Christophe Andrieu]
   - url: http://www.areyouagile.com/2014/05/4-malaises-et-un-tres-bon-moment/
+    title: "4 malaises et un très bon moment"
+    locale: fr_FR
+    authors: [Pablo Pernot]
   - url: http://blog.ippon.fr/2014/05/23/sudweb-2014/
+    title: "SudWeb 2014"
+    locale: fr_FR
+    authors: [Alvin Berthelot]
+    from:
+      name: Ippon
+      url: https://www.ippon.fr
   - url: http://romy.tetue.net/elise-une-histoire-responsive
+    title: "Élise, une histoire responsive : du print au web, en codant"
+    locale: fr_FR
+    authors: [Romy Duhem-Verdière]
   - url: https://dascritch.net/post/2014/05/20/Un-Sud-Web-en-hauteur
+    title: Un Sud Web en hauteur
+    locale: fr_FR
+    authors: [Xavier Mouton-Dubosc]
   - url: http://www.blogoergosum.com/38823-de-retour-de-sudweb-de-nouveau-au-travail-quallons-nous-faire
+    title: "De retour de Sud Web, de nouveau au travail, qu’allons-nous faire ?"
+    locale: fr_FR
+    authors: [Sébastien Boullet]
+    from:
+      name: X-Prime
+      url: https://www.xprimegroupe.com/
   - url: https://jolicode.com/blog/de-retour-de-sud-web-2014
+    title: "De retour de Sud Web 2014"
+    locale: fr_FR
+    authors: [Vincent Desdoigts]
+    from:
+      name: Jolicode
+      url: https://jolicode.com
   - url: https://moox.io/blog/sudweb-2014/
+    title: "J'ai aimé SudWeb 2014"
+    locale: fr_FR
+    authors: [Maxime Thirouin]
   - url: http://blog.fabricebournisien.eu/2014/05/20/sudweb-2014-grand-bol-d-air-frais/
+    title: "Je teste donc je suis"
+    locale: fr_FR
+    authors: [Fabrice Bournisien]
   - url: https://sortirduvide.wordpress.com/2014/05/19/la-modification-na-pas-encore-eu-lieu/
+    title: "La modification n’a pas encore eu lieu"
+    locale: fr_FR
+    authors: [Sophie Poirier]
   - url: https://blog.hadrien.eu/2014/05/17/brouillionnage-dinterfaces-sketch/
+    title: Brouillionnage d'interfaces
+    locale: fr_FR
+    authors: [Hadrien Eu]
   - url: https://borisschapira.com/2014/05/de-retour-de-sud-web-2014/
+    title: "De retour de Sud Web 2014 : de beaux projets, de belles personnes"
+    locale: fr_FR
+    author: [Boris Schapira]
   - url: https://borisschapira.com/2014/05/un-outil-pour-enseigner-le-web-front-end/
+    title: "Un outil pour enseigner le Web Front-End, suite d’un atelier Sud Web 2014"
+    locale: fr_FR
+    author: [Boris Schapira]
   - url: https://www.hteumeuleu.fr/comment-enseigner-integration-web/
+    title: "Comment enseigner l’intégration web ?"
+    locale: fr_FR
+    authors: [Rémi Parmentier]
   - url: https://bertrandkeller.info/2014/05/20/sudweb-2014-ce-que-jai-retenu/
+    title: "Sudweb 2014 : ce que j'ai retenu"
+    locale: fr_FR
+    authors: [Bertrand Keller]
+  - url: https://twitter.com/hashtag/SudWeb2014?src=hash
+    title: "#SudWeb2014"
 - year: 2015
   writeups:
   - url: http://seenthis.net/messages/375860
+    title: "Un week-end à Sud Web"
+    locale: fr_FR
+    authors: [Agnès Stienne]
   - url: http://simon-previdente.github.io/blog/sudweb2015-impressions.html
+    title: "Impressions post-Sud Web 2015"
+    locale: fr_FR
+    authors: [Simon Prévidente]
   - url: http://romy.tetue.net/cartographie-des-travailleurs-du-web
+    title: "Cartographie des travailleurs du Web"
+    locale: fr_FR
+    authors: [Romy Duhem-Verdière]
   - url: https://blog.kaliop.com/blog/2015/06/16/sud-web-2015/
+    title: "Comment j’ai boosté mon inspiration à Sud Web 2015"
+    locale: fr_FR
+    authors: [Émilie Esposito]
+    from:
+      name: Kaliop
+      url: https://www.kaliop.com/
   - url: https://maxlab.fr/divers/retour-sur-sud-web-2015/
-  - url: http://www.simon-previdente.fr/blog/sudweb2015-impressions.html
+    title: Retour sur Sud Web 2015
+    locale: fr_FR
+    authors: [Maxime Warnier]
   - url: https://www.globalis-ms.com/actualites/sud-web-2015-compte-rendu/
+    title: "Sud Web 2015 : compte-rendu d'un participant"
+    locale: fr_FR
+    authors: [Julien Liard]
+    from:
+      name: Globalis
+      url: https://www.globalis-ms.com
   - url: http://www.myriamchave.fr/sudweb-2015-29-et-30-mai-montpellier/
+    title: "SudWeB 2015, 29 et 30 Mai, Montpellier"
+    locale: fr_FR
+    authors: [Myriam Chave]
+  - url: https://twitter.com/hashtag/SudWeb2015?src=hash
+    title: "#SudWeb2015"
 - year: 2016
   writeups:
   - url: https://blog.basilesimon.fr/2016/05/30/sudweb/
-  - url: https://davidbruant.github.io/writings/2016/06/20/trombone.html
-  - url: https://sudweb.fr/blog/2016/curation/
+    title: "Sud Web 2016"
+    locale: fr_FR
+    authors: [Basile Simon]
+  - url: https://davidbruant.github.io/writings/trombone
+    title: "Le Trombone"
+    locale: fr_FR
+    authors: [David Bruant]
   - url: https://www.yaal.fr/blog/sud-web-2016-retour-sur-ledition-bordelaise
+    title: "Sud Web 2016 : Retour sur l’édition Bordelaise"
+    locale: fr_FR
+    authors: [L'Équipe Yaal]
   - url: https://blog.ticabri.com/2016/06/02/sudweb-2016/
+    title: "SudWeb 2016"
+    locale: fr_FR
+    authors: [Enguerran Colson]
   - url: http://articles.nissone.com/2016/06/creativite-ouverture-esprit-sud-web-2016/
+    title: "Créativité et ouverture d’esprit – Sud Web 2016"
+    locale: fr_FR
+    authors: [Delphine Malassingne]
   - url: http://blog.pelmel.org/2016/06/01/sudweb-la-conference-qui-fait-du-bien/
+    title: "SudWeb : La conférence qui fait du bien"
+    locale: fr_FR
+    authors: [Brice Favre]
   - url: http://nota-bene.org/Sud-Web-2016-toujours-inattendu-toujours-satisfaisant
+    title: "Sud Web 2016 : toujours inattendu, toujours satisfaisant"
+    locale: fr_FR
+    authors: [Stéphane Deschamps]
   - url: http://www.nomaditude.fr/bienveillance-partage-bienvenue-a-sud-web/
+    title: "Bienveillance & partage : bienvenue à Sud Web"
+    locale: fr_FR
+    authors: [Laurie Amiot]
   - url: http://www.ekino.com/sud-web-jai-decouvert-super-pouvoirs/
+    title: "Sud Web ou comment j’ai découvert mes super pouvoirs"
+    locale: fr_FR
+    authors: Isabelle Olivier
+    from:
+      name: Ekino
+      url: https://www.ekino.com
   - url: http://www.ekino.com/zero-gachis-plein-de-questions/
-  - url: https://bzg.fr/jai-dix-ans.html
+    title: "Zéro gâchis mais plein de questions"
+    locale: fr_FR
+    authors: Delphine Malassingne
+    from:
+      name: Ekino
+      url: https://www.ekino.com
   - url: http://www.ekino.com/sud-web-2016-bordeaux/
+    title: "Sud Web 2016 @ Bordeaux"
+    locale: fr_FR
+    authors: [Pierre-Yves Desnoues]
+    from:
+      name: Ekino
+      url: https://www.ekino.com
   - url: http://marieguillaumet.com/sud-web-2016-en-un-mot-genial/
+    title: "Sud Web 2016 : en un mot, génial !"
+    locale: fr_FR
+    authors: [Marie Guillaumet]
   - url: http://lunatopia.fr/blog/premier-sud-web-retour-experience
+    title: Mon premier Sud Web, retour d’expérience
+    locale: fr_FR
+    authors: [Nathalie Pauchet]
   - url: http://jolicode.com/blog/sud-web-2016-bordeaux-un-excellent-millesime
-  - url: https://correspondances-unilaterales.tumblr.com/post/145100336766/%C3%A9crire-sous-%C3%A9motion-1443-29052016#_=_
+    title: "Sud Web 2016 Bordeaux : un excellent millésime"
+    locale: fr_FR
+    authors: [Baptiste Adrien]
+    from:
+      name: Jolicode
+      url: https://jolicode.com
   - url: http://maxlab.fr/2016/05/sudweb-2016-valeur-travail-chocolatines/
+    title: "SudWeb 2016 : la valeur du travail et des chocolatines"
+    locale: fr_FR
+    authors: [Maxime Warnier]
   - url: http://blog.clever-age.com/fr/2016/05/30/sud-web-2016-bordeaux/
+    title: "Sud Web 2016 – Bordeaux"
+    locale: fr_FR
+    authors: Olivier Keul
+    from:
+      name: Clever Age
+      url: https://www.clever-age.com
   - url: https://larlet.fr/david/blog/2016/sudweb-2016/
+    title: SudWeb 2016
+    locale: fr_FR
+    authors: [David Larlet]
   - url: https://blog.notmyidea.org/cloisonnement-des-activites.html
+    title: "Cloisonnement des activités ?"
+    locale: fr_FR
+    authors: [Alexis Métaireau]
+  - url: https://twitter.com/hashtag/SudWeb2016?src=hash
+    title: "#SudWeb2016"
 - year: 2017
   writeups:
-  - url: https://makina-corpus.com/blog/societe/2017/retours-sur-sud-web-2017
-  - url: https://www.globalis-ms.com/actualites/sud-web-2017/
-  - url: https://blog.loicg.net/developpement-personnel/2017/05/23/sud-web-2017.html
-  - url: https://oncletom.io/2017/dear-sudweb/
-  - url: https://blog.evolix.com/evolix-love-sudweb/
   - url: https://maxlab.fr/divers/sudweb-2017-aix-cellent-cru/
+    title: "SudWeb 2017 : Aix-cellent cru"
+    locale: fr_FR
+    authors: [Maxime Warnier]
+  - url: https://makina-corpus.com/blog/societe/2017/retours-sur-sud-web-2017
+    title: "Retours de Sud Web 2017"
+    locale: fr_FR
+    authors: [Alexandra Janin]
+    from:
+      name: Makina Corpus
+      url: https://makina-corpus.com/
+  - url: https://blog.loicg.net/developpement-personnel/2017/05/23/sud-web-2017.html
+    title: Sud Web 2017
+    locale: fr_FR
+    authors: [Loïc Gerbaud]
+  - url: https://oncletom.io/2017/dear-sudweb/
+    title: Dear Sud Web
+    locale: en_US
+    authors: [Thomas Parisot]
+  - url: https://blog.evolix.com/evolix-love-sudweb/
+    title: Evolix <3 Sud Web
+    authors: [L'équipe Evolix]
+    locale: fr_FR
+    from:
+      name: Evolix
+      url: http://evolix.com/
   - url: https://blog.clever-age.com/fr/2017/06/02/sud-web-2017/
+    title: "Sud Web 2017 Aix-en-Provence"
+    locale: fr_FR
+    authors:
+      - Olivier Keul
+      - Naïs Alcaraz
+      - Mohamed-Amine Mih
+      - Alexander Domikov
   - url: http://noemiegirard.co/articles/Sudweb2017.html
+    title: Sudweb 2017
+    locale: en_US
+    authors: Noémie Girard
+  - url: https://twitter.com/hashtag/MonSudWebEnUnMot?src=hash
+    title: "#MonSudWebEnUnMot"
+  - url: https://twitter.com/hashtag/SudWeb2017?src=hash
+    title: "#SudWeb2017"
+
