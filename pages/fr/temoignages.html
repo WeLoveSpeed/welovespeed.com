@@ -1,0 +1,22 @@
+---
+title: "Elles et ils en parlent"
+description: "Parce que Sud Web, c'est sa communauté"
+i18n-key: testimony
+permalink: /temoignages/
+---
+
+<section class="section">
+  <div class="wrapper">
+    <h1>Sud Web, on en parle !</h1>
+
+    {% assign editions = site.data.writeups | sort: 'year' | reverse %}
+    {% for edition in editions %}
+    <h2>{{ edition.year }}</h2>
+    <ul>
+      {% for writeup in edition.writeups %}
+      <li><a href="{{ writeup.url }}">{% if writeup.title %}{{ writeup.title }}{% else %}{{ writeup.url }}{% endif %}</a></li>
+      {% endfor%}
+    </ul>
+    {% endfor%}
+  </div>
+</section>
