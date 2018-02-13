@@ -1,0 +1,154 @@
+---
+title: Venir à Anduze
+description: "Tout pour venir le plus simplement"
+i18n-key: come
+permalink: /venir-anduze/
+redirect_from:
+  - /venir/
+---
+
+<section class="section">
+    <div class="wrapper">
+        <h1>Venir à Sud Web</h1>
+
+        <p>Nous sommes conscient·e·s qu'en sortant d'une ville, il va être nécessaire de s'organiser un peu plus pour venir. Avion, train, voiture… la question est rarement de savoir comment rejoindre Nîmes, mais plutôt de trouver comment rejoindre Anduze</p>
+        <p>On a pensé à vous, on a creusé ce qui existait que vous parcouriez tout le trajet, ou seulement ces derniers kilomètres :</p>
+
+        <ul>
+            <li><a href="#public-transport"> en transports en commun</a> ;</li>
+            <li><a href="#car"> avec sa voiture ou en covoiturage</a>.</li>
+        </ul>
+
+        <h2 id="public-transport">En transports en commun</h2>
+
+        Cette année, pour venir en transport en commun à Sud Web vous allez devoir prendre une correspondance et passer par Nîmes :
+
+        <ul>
+            <li>
+                <a href="https://www.trainline.fr/search/votre%20maison/nimes/2018-05-24-12:00/2018-05-26-18:00">En TGV</a> vous arriverez jusqu’à Nîmes directement.
+            </li>
+
+            <li>
+                En avion : l'aéroport important le plus proche est celui de Montpellier, puis vous pourrez prendre le train jusqu'à Nîmes.<br>
+                Air France propose des réductions grâce au code <a href="http://globalmeetings.airfranceklm.com/Search/promoDefault.aspx?vendor=AFR&promocode=32930AF&currentculture=fr-FR">32930AF</a>.<br>
+                Depuis Londres, Bordeaux, Nantes, Strasbourg … liste des liaisons de l'aéroport <a href="http://www.montpellier.aeroport.fr/fr/destinations/vols-directs-montpellier">ici</a>.<br>
+                Ryanair propose des vols jusqu'à <a href="http://www.aeroport-nimes.fr/gp/Vols-reguliers/359">l'aéroport de Nîmes</a> depuis Bruxelles-Charleroi et Londres-Lutton.
+            </li>
+        </ul>
+
+        <h3>Depuis Nîmes</h3>
+
+        <p>En bus : il y a une liaison directe entre Nîmes et Anduze. Voilà les <a href="https://www.edgard-transport.fr/ftp/FR_lignes/A12_Horaires%20du%2008%20janvier%20au%2006%20juillet%202018_Doublages%20scolaires%20inclus.pdf">horaires de la ligne A12 de Edgard Transport</a>
+        </p>
+
+        <p>
+            Vous pourrez également continuer en <a href="https://www.trainline.fr/search/nimes/ales/2018-05-24-12:00/2018-05-26-18:00">Train (TER)</a> depuis Nîmes en vous arrêtant à Alès (30&nbsp;min environ - 9,90 € – de 6:15 à 21:15).<br>
+            Un bus vous permettra de rejoindre Anduze depuis Alès :
+            <ul>
+                <li><a href="https://www.ntecc.fr/fileadmin/Sites/Ntecc/documents/HORAIRES_2016_2017/L72_Janv_2017.pdf">Ligne 72 de NTECC</a></li>
+                <li><a href="https://www.ntecc.fr/fileadmin/Sites/Ntecc/documents/HORAIRES_2017_2018/L81_Dec2017v2.pdf">Ligne 81 de NTECC</a></li>
+            </ul>
+        </p>
+    </div>
+</section>
+
+{% include banners/train.html locale=page.locale %}
+
+<section class="section">
+    <div class="wrapper">
+        <h2 id="car">En voiture</h2>
+
+        <p>
+            Si vous décidez de prendre un véhicule personnel ou de location, pensez au covoiturage. <br>
+            Qu'il s'agisse d'un trajet de longue durée ou uniquement d'une portion Nîmes-Anduze, maximisez l'usage de votre voiture en embarquant d'autres participant·e·s ! Un parking sera disponible au Val de l'Hort pour les véhicules.
+        </p>
+
+        <h3>Covoiturage</h3>
+
+        <p>Pour faciliter les échanges entre particiant·e·s, nous vous proposons de lister vos propositions de covoiturage sur notre site. Si vous venez en voiture, <a href="#submit">partagez votre itinéraire</a> via le formulaire ci-dessous.</p>
+
+        <h4>Voilà la liste de ce qui a déjà été partagé : </h4>
+
+        <ul>
+            {% for journey in site.data.carsharing %}
+            <li>
+                Qui : {{journey.name}}<br>
+                Départ : de <strong>{{journey.leaving-place}}, le {{journey.leaving-day}} vers {{journey.leaving-time}}</strong><br>
+                {% if journey.return-day != ""%}
+                Retour : le {{journey.return-day}} vers {{journey.return-time}}<br>
+                {% endif %}
+                Étapes proposées : {{journey.steps}}<br>
+                Prendre contact : {{journey.contact}}
+            </li>
+            {% endfor%}
+        </ul>
+
+        <hr>
+
+        <h4 id="submit">Vous proposez un trajet :</h4>
+        <form action="//formspree.io/covoit-2018@sudweb.fr" method="POST">
+            <div class="p-like">
+                <label class="desc" for="id_name">Votre nom :</label>
+                <input type="text" name="_name" placeholder="ex : Amélie Poulain" id="id_name" required>
+            </div>
+            <div class="p-like">
+                <label class="desc" for="id_message">Votre proposition la plus précise possible (ville de départ, horaires, si vous faites une/des étape(s)) :</label>
+                <textarea name="message" rows="" placeholder="ex : Je pars jeudi de Montpellier vers 18h, je peux m'arrêter à Nîmes. Pour le retour, je partirai vers 18h le samedi. J'ai 3 places. Pour me contacter, un petit message à @amelie-poulain" id="id_message" required></textarea>
+            </div>
+            <div class="p-like text-center">
+                <input type="hidden" name="_subject" value="Message envoyé depuis la page contact" />
+                <input type="text" name="_gotcha" style="display:none">
+                <input type="hidden" name="_next" value="{{ site.url }}" />
+                <button type="submit" class="button" data-text="Envoyer">
+                    <span class="button-inner">Envoyer</span>
+                </button>
+            </div>
+        </form>
+
+        <h3>Location de voiture</h3>
+        <p>À la gare de Nîmes vous pourrez trouver les agences de location suivantes :</p>
+        <ul>
+            <li>
+                <a href="https://www.ada.fr/location-voiture-nimes-gare-livraison.html">Ada</a> du lundi au vendredi de 8:00 à 12:00 et de 14:00 à 18:30, le samedi de 9:00 à 12:00 et de 16:00 à 18:00.
+            </li>
+            <li>
+                <a href="https://www.avis.fr/services-avis/location-voiture/europe/france/n%C3%AEmes/gare-de-nimes">Avis</a> du lundi au vendredi de 8:00 à 18:30, le samedi de 8:00 à 18:00. Retours 24h/24.
+            </li>
+            <li>
+                <a href="https://secure.budget.fr/rental-locations/rental-locations-station-details?location=CITY_N1J_FR&country=FR">Budget</a>, du lundi au vendredi de 08:30 à 13:45 et de 14:15 à 18:45, le samedi de 8:30 à 18:00, le dimanche de 13:30 à 19:00.
+            </li>
+            <li>
+                <a href="https://www.rentacar.fr/agences/nimes/493-nimes-gare">Rent a car</a>, du lundi au vendredi de 08:00 à 12:00 et de 14:00 à 18:30, le samedi de 09:00 à 12:00 et de 16:00 à 18:00, le dimanche de 15:00 à 18:00.
+            </li>
+            <li>
+                <a href="https://www.sixt.fr/location-voiture-gare/nimes-sncf/">Sixt</a> du lundi au jeudi de 8:30 à 19:00, le vendredi 8:30 - 19:30, le samedi de 9:00 à 17:30. Retours 24h/24.
+            </li>
+        </ul>
+
+        <h3>En taxi</h3>
+        <ul>
+            <li>de Nîmes : autour de 110 €</li>
+            <li>d'Alès : autour de 35 €</li>
+            <li>de Montpellier : autour de 150 €</li>
+        </ul>
+
+    </div>
+</section>
+
+{% include banners/hands.html locale=page.locale %}
+
+<section class="section">
+    <div class="wrapper">
+        <h2>Ce qui est sûr, c'est que vous ne serez pas seul·e·s !</h2>
+        <p>
+            N'hésitez pas à vous organiser sur <a href="http://sudweb.herokuapp.com/">le Slack de Sud Web</a> (<a href="https://sudweb.slack.com/messages/C8WQ8NZPA/">accès direct si vous avez déjà un compte</a>).
+        </p>
+        <p>
+            Profitez de ces moment pour vous retrouver, dans le train, durant les correspondances. <br>
+            Échangez, échangeons, pleins de solutions sont à votre disposition !
+        </p>
+        <p>Bon voyage :)</p>
+    </div>
+</section>
+
+{% include banners/station.html locale=page.locale %}
