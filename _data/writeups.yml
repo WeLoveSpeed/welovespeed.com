@@ -36,6 +36,10 @@
     from:
       name: Mozilla
       url: https://www.mozilla.org/
+  - url: http://www.la-grange.net/2012/05/26/sudweb
+    title: "Ateliers SudWeb 2012"
+    locale: fr_FR
+    authors: [Karl Dubost]
   - url: https://twitter.com/hashtag/SudWeb2012?src=hash
     title: "#SudWeb2012"
 - year: 2013
