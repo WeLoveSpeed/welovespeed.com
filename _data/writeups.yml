@@ -40,6 +40,14 @@
     title: "Ateliers SudWeb 2012"
     locale: fr_FR
     authors: [Karl Dubost]
+  - url: https://www.nicolas-hoffmann.net/source/1482-Sud-Web-2012-j-y-etais.html
+    title: "Sud Web 2012, j'y étais !"
+    locale: fr_FR
+    authors: [Nicolas Hoffmann]
+  - url: https://www.nicolas-hoffmann.net/source/1484-Sud-Web-merci-pour-l-atelier-Openweb.html
+    title: "Sud Web, merci pour l'atelier Openweb"
+    locale: fr_FR
+    authors: [Nicolas Hoffmann]
   - url: https://twitter.com/hashtag/SudWeb2012?src=hash
     title: "#SudWeb2012"
 - year: 2013
