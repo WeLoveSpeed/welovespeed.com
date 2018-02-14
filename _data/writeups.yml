@@ -15,6 +15,13 @@
     title: "SudWeb 2011 : Coup d'essai, coup de maitre"
     authors: [Jérémie Patonnier]
     locale: fr_FR
+    extract: >-
+      Bravo à tous, ce fût beau ! Car on peut le dire, pour un coup d’essai, ce fût un coup de maitre. Au delà de la logistique impeccable, l’ensemble du programme des conférences était tout simplement parfait. Mixant à la fois les aspects fonctionnels, techniques et prospectifs, l’équilibre du déroulé m’a complètement estomaqué (ainsi que le respect des horaires, tenus d’une main de fer, couplé à des moments de pause ô combien conviviaux).
+  - url: https://j-mad.com/blog/2011/01/16/sudweb-enfin/
+    title: Sud Web, enfin !
+    locale: fr_FR
+    extract: >-
+      Sud Web a eu le courage et le mérite de ne pas parler que de technique et notamment à partir de 17h où Marc Lipskier a développé comme thème de conférence : &laquo;&nbsp;Où va le Web ?&nbsp;&raquo;
 - year: 2012
   writeups:
   - url: http://romy.tetue.net/sudweb-2012
@@ -220,10 +227,16 @@
     title: "Un week-end à Sud Web"
     locale: fr_FR
     authors: [Agnès Stienne]
+    extract: >-
+      J’avais accepté de participer parce j’aime beaucoup l’idée d’établir des transversalités entre différents domaines jugés incompatibles, a priori. Je pense que c’est même essentiel, tant on a à apprendre de l’autre.
+
+      Eh ben, ça c’est très bien passé, youpi.
   - url: http://simon-previdente.github.io/blog/sudweb2015-impressions.html
     title: "Impressions post-Sud Web 2015"
     locale: fr_FR
     authors: [Simon Prévidente]
+    extract: >-
+      Une chance pour moi, celle de rencontrer des passionnés, d’échanger, tant lors des ateliers que des conférences, aussi bien avec des étudiants qu’avec des professionnels plus « aguerris » analysant avec davantage de recul l’époque que nous traversons.
   - url: http://romy.tetue.net/cartographie-des-travailleurs-du-web
     title: "Cartographie des travailleurs du Web"
     locale: fr_FR
@@ -235,10 +248,14 @@
     from:
       name: Kaliop
       url: https://www.kaliop.com/
+    extract: >-
+      Sud Web, c’est une conférence qui prend soin de ses participants (…) et c’est surtout des sessions éclairantes. Trois formats différents, pour qu’on ne s’ennuie jamais.
   - url: https://maxlab.fr/divers/retour-sur-sud-web-2015/
     title: Retour sur Sud Web 2015
     locale: fr_FR
     authors: [Maxime Warnier]
+    extract: >-
+      Sud Web est un événement à part, une sorte d’émulsion entre passion, création et savoir qui provoque des émotions…
   - url: https://www.globalis-ms.com/actualites/sud-web-2015-compte-rendu/
     title: "Sud Web 2015 : compte-rendu d'un participant"
     locale: fr_FR
@@ -250,6 +267,27 @@
     title: "SudWeB 2015, 29 et 30 Mai, Montpellier"
     locale: fr_FR
     authors: [Myriam Chave]
+    extract: >-
+      Je suis contente d’avoir écouté des personnes sincères, émouvantes et pleines de good vibes !
+  - url: https://larlet.fr/david/stream/2015/05/30/
+    title: Je suis SudWeb
+    locale: fr_FR
+    authors: [David Larlet]
+    extract: >-
+      Je suis content d’avoir pu voir autant d’orateurs qui n’ont pas l’habitude de s’exprimer en public. Ça change des rockstars qui en sont à la quinzième représentation de leur tournée de conférences.
+  - url: http://www.myriamchave.fr/je-suis-sudweb/
+    title: "« Je suis SudWeb »"
+    locale: fr_FR
+    authors: [Myriam Chave]
+  - url: https://jolicampus.com/discussion/sudweb-sexy-demain
+    title: SudWeb, sexy demain ?
+    locale: fr_FR
+    authors: [Anthony Maison]
+    from:
+      name: JoliCampus
+      url: https://jolicampus.com
+    extract: >-
+      C’est ce genre d’évé­ne­ment singu­lier qui change tout, qui nous donne à la fois l’oc­ca­sion de s’ap­pro­prier les connais­sances du Web et l’op­por­tu­nité de bous­cu­ler nos certi­tudes sur un univers connecté qu’on croit de nos jours si bien maîtri­ser.
   - url: https://twitter.com/hashtag/SudWeb2015?src=hash
     title: "#SudWeb2015"
 - year: 2016
@@ -353,21 +391,20 @@
     title: "SudWeb 2017 : Aix-cellent cru"
     locale: fr_FR
     authors: [Maxime Warnier]
-  - url: https://makina-corpus.com/blog/societe/2017/retours-sur-sud-web-2017
-    title: "Retours de Sud Web 2017"
-    locale: fr_FR
-    authors: [Alexandra Janin]
-    from:
-      name: Makina Corpus
-      url: https://makina-corpus.com/
+    extract: >-
+      La question a été posé de savoir si sudweb avait changé quelque chose dans la vie des participants. Pour ma part la réponse est : directement non, mais en réalité, cet événement contribue à me faire tendre et réaliser ce que j’ai au fond de moi. La petite voix que tu entends parfois, le petit tambour qui pour beaucoup est masqué par la routine quotidienne. Sudweb révèle tout ça, et ça fait du bien.
   - url: https://blog.loicg.net/developpement-personnel/2017/05/23/sud-web-2017.html
     title: Sud Web 2017
     locale: fr_FR
     authors: [Loïc Gerbaud]
+    extract: >-
+      Comme à chaque édition, Sud Web est l’occasion de rencontrer des gens, comme à toute conférence, à la différence près, que, n’étant pas un évènement orienté technique, les profils des participants sont bien plus variés.
   - url: https://oncletom.io/2017/dear-sudweb/
     title: Dear Sud Web
     locale: en_US
     authors: [Thomas Parisot]
+    extract: >-
+      Sud Web has become a place where questions emerge and are addressed with the help of external speakers, with the participants and thanks to the dedication of the organisers.
   - url: https://blog.evolix.com/evolix-love-sudweb/
     title: Evolix <3 Sud Web
     authors: [L'équipe Evolix]
@@ -375,6 +412,8 @@
     from:
       name: Evolix
       url: http://evolix.com/
+    extract: >-
+      Sud Web est une conférence atypique dans le paysage des événements professionnels « tech ». Elle réussit le temps d’un weekend à réunir une grande diversité de personnes qui partagent toutes la richesse de leur expérience, de leur point de vue et de leurs compétences.
   - url: https://blog.clever-age.com/fr/2017/06/02/sud-web-2017/
     title: "Sud Web 2017 Aix-en-Provence"
     locale: fr_FR
@@ -383,10 +422,23 @@
       - Naïs Alcaraz
       - Mohamed-Amine Mih
       - Alexander Domikov
+    extract: >-
+      … une découverte de cette conférence que je ne connaissais pas, qui est plus humaine que technique et c’est quelque chose que j’apprécie énormément.
   - url: http://noemiegirard.co/articles/Sudweb2017.html
     title: Sudweb 2017
     locale: en_US
     authors: Noémie Girard
+    extract: >-
+      It's quite rare for conferences to let their audience show their talent and not only be "passively" taking in the talks. In the two years I've been to Sudweb, those days have always proved to be the most fun and eye-opening moments.
+  - url: https://makina-corpus.com/blog/societe/2017/retours-sur-sud-web-2017
+    title: "Retours de Sud Web 2017"
+    locale: fr_FR
+    authors: [Alexandra Janin]
+    from:
+      name: Makina Corpus
+      url: https://makina-corpus.com/
+    extract: >-
+      … des sujets très variés, qui ont fait emmerger des tas de discussions, des rencontres et des découvertes auxquelles on ne s'attendait pas, je reviens avec l'esprit ouvert et plein d'idées !
   - url: https://twitter.com/hashtag/MonSudWebEnUnMot?src=hash
     title: "#MonSudWebEnUnMot"
   - url: https://twitter.com/hashtag/SudWeb2017?src=hash
