@@ -1,9 +1,61 @@
-{% assign editions = site.data.writeups | sort: 'year' | reverse %}
-{% for edition in editions %}
+{% assign editions = site.data.writeups | sort: 'year' | reverse %} {% for edition in editions %}
 <h2>{{ edition.year }}</h2>
 <ul>
   {% for writeup in edition.writeups %}
-  <li>{% if writeup.extract %}<blockquote>{{ writeup.extract }}<br/><cite>{% endif %}{% if writeup.locale and include.locale != writeup.locale %}[{% t EN %}<span class="sr-only">{% t contenu en anglais %}</span>] {% endif %}&laquo;&nbsp;<a href="{{ writeup.url }}">{% if writeup.title %}{{ writeup.title }}{% else %}{{ writeup.url }}{% endif %}</a>&nbsp;&raquo;{% if writeup.authors or writeup.from %}, {% endif %}{{ writeup.authors | join: ', ' }}{% if writeup.from %} – {% if writeup.from.url %}<a href="{{ writeup.from.url }}">{% endif %}{{ writeup.from.name }}{% if writeup.from.url %}</a>{% endif %}{% endif %}{% if writeup.extract %}{% if writeup.authors %}</cite>{% endif %}</blockquote>{% endif %}</li>
+
+    {% comment %} La base : l'url.
+      Tout le reste autour, c'est de la déco si c'est dispo.
+
+      Exemples de rendu possibles, suivant les infos dispo :
+
+      <li>
+        <a href="https://domain.com/article">https://domain.com/article</a>
+      </li>
+
+      <li>
+        «&nbsp;<a href="https://domain.com/article">Titre article</a>&nbsp;», Auteur(s)
+      </li>
+
+      <li>
+        <blockquote>
+          Lorem ipsum sit dolor amet.<br>
+          <cite>«&nbsp;<a href="https://domain.com/article">Titre article</a>&nbsp;», Auteur(s) – <a href="http://domain.com/">Organisation</a></cite>
+        </blockquote>
+      </li>
+
+    {% endcomment %}
+    {% capture markup %}{{ writeup.url }}{% endcapture %}
+
+    {% comment %} Si on a le title, on l'utilise. {% endcomment %}
+    {% if writeup.title %}
+      {% capture markup %}&laquo;&nbsp;<a href="{{ markup }}"{% if writeup.locale and include.locale != writeup.locale %}lang="{{ writeup.locale | slice: 0,2 }}"{% endif %}>{{ writeup.title }}</a>&nbsp;&raquo;{% endcapture %}
+    {% else %}
+      {% capture markup %}<a href="{{ markup }}">{{ markup }}</a>{% endcapture %}
+    {% endif %}
+
+    {% comment %} Si on a des auteurs, on les précise {% endcomment %}
+    {% if writeup.authors %}
+      {% capture markup %}{{ markup }}, {{ writeup.authors | join: ', ' }}{% endcapture %}
+    {% endif %}
+
+    {% comment %} Si ça vient d'une organisation, on le précise {% endcomment %}
+    {% if writeup.from and writeup.from.name %}
+      {% capture organization %}{{ writeup.from.name }}{% endcapture %}
+      {% if writeup.from.url %}
+        {% capture organization %}<a
+      href="{{ writeup.from.url }}">{{ organization }}</a>{% endcapture %}
+      {% endif %}
+      {% capture markup %}{{ markup }} – {{ organization }}{% endcapture %}
+    {% endif %}
+
+    {% comment %} Si on a un extrait, on décore avec un `blockquote` et un `cite` {% endcomment %}
+    {% if writeup.extract %}
+      {% capture markup %}<blockquote{% if writeup.locale and include.locale != writeup.locale %} lang="{{ writeup.locale | slice: 0,2 }}"{% endif %}>
+        {{ writeup.extract }}<br/>
+        <cite>{{ markup }}</cite>{% endcapture %}
+    {% endif %}
+
+    <li>{{ markup }}</li>
   {% endfor%}
 </ul>
 {% endfor%}
