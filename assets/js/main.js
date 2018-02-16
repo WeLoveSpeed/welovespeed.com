@@ -38,7 +38,7 @@
       document.querySelectorAll('.lozad[class^="banner-"]:not([data-loaded])').forEach(function(element) {
         lozadObserver.triggerLoad(element);
     });}, 4000);
-  }),
+  });
 
   // Toggle class -----------------------------------------------------------------------
   let toggleClassPrefix = ""; // Prefix should end by hyphen
