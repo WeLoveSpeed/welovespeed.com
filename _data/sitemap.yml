@@ -6,12 +6,12 @@
 - name: Appel à sujets
   type: page
   value: appel-a-sujets
-  in_nav: true
+  in_nav: false
   in_footer: false
 - name: Billetterie
   type: page
   value: billetterie
-  in_nav: false
+  in_nav: true
   in_footer: false
 - name: Venir à Anduze
   type: page
