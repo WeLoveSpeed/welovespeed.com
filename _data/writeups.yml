@@ -387,6 +387,12 @@
     title: "#SudWeb2016"
 - year: 2017
   writeups:
+  - url: http://marges.clairezuliani.com/good_job/2017/05/23/retour-sudweb-2017.html
+    title: "La première des confs Web"
+    locale: fr_FR
+    authors: [Claire Zuliani]
+    extract: >-
+      Je repars de SudWeb gonflée à bloc, pleine d’espoir, et avec une petite dose de pression (« les cool kids ne m’ont pas attendus pour être à bloc, il faut que je trouve un moyen de les rejoindre » :)).
   - url: https://maxlab.fr/divers/sudweb-2017-aix-cellent-cru/
     title: "SudWeb 2017 : Aix-cellent cru"
     locale: fr_FR
