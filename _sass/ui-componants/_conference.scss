@@ -5,8 +5,10 @@
       border-radius: 50%;
     }
     &-name {
-      margin: 0;
-      line-height: 1.25;
+      font-weight: $font-weight-bold; line-height: 1.25;
+    }
+    &-description {
+      margin: .5em 0;
     }
   }
 }

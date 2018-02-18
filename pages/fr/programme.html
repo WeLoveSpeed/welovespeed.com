@@ -11,6 +11,7 @@ permalink: /programme/
 <section class="section">
   <div class="wrapper">
     <h1>Le programme 2018 : {{ number_of_conferences }} conférences</h1>
+    <p>Cette année, nous avons constitué un programme en lien avec nos valeurs d’inspiration, de lien, de bienveillance et d’authenticité. Vous y trouverez des engagements humains, professionnels, éthiques, des personnes qui tentent de renverser la table comme des gens qui veulent juste se comprendre et proposer de nouvelles choses.</p>
 
     {% for conference in conferences %}
     <article class="conference">
@@ -23,17 +24,17 @@ permalink: /programme/
             <img src="{{ speaker.image }}" alt="{{ speaker.name }}">
             <figcaption class="sr-only">{{ speaker.name }}</figcaption>
           </figure>
-          <h3 class="conference-speaker-name">
+          <h3>
             <em class="text-sm">Présenté par</em><br>
-            {{ speaker.name }}
+            <a href="{{ speaker.url }}" class="conference-speaker-name">{{ speaker.name }}</a>
           </h3>
-          {{ speaker.bio | markdownify }}
+          <p class="conference-speaker-description">
+            {{ speaker.bio }}
+          </p>
         </section>
         {%- endfor -%}
-
     </article>
-
-    <hr>
+    {% unless forloop.last %}<hr>{% endunless %}
     {%- endfor -%}
 
   </div>
