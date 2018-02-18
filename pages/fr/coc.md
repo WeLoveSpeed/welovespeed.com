@@ -85,7 +85,8 @@ Les options sont multiples et dépendent souvent du contexte et des personnes en
 Il s’agit évidemment d’une proposition non exhaustive qui ne tient pas compte des multiples contextes et personnes. Notre objectif est davantage de conseiller que d’imposer une méthode stricte&#8239;<sup><a href="#note2" id="note2-source">2</a></sup>.
 
 ## À qui puis-je m’adresser ?
-Vous pouvez contacter Julia : <a href="tel:+33666090657">par téléphone</a> ou <a href="mailto:julia.barbelane@gmail.com">par mail</a>.
+
+Tou·te·s les participant·e·s recevront, quelques jours avant l'événement, un mail récapitulatif contenant les numéros de téléphone et emails des personnes à contacter et nous les afficherons aussi pendant l'événement pour qu'ils soient accessibles facilement.
 
 ## Que se passe-t-il si les consignes ne sont pas respectées ?
 
