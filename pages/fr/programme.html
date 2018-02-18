@@ -15,25 +15,19 @@ permalink: /programme/
     {% for conference in conferences %}
     <article class="conference">
       <h2>{{ conference.title }}</h2>
-      <p>
-        {{ conference.description | markdownify }}
-      </p>
+      {{ conference.description | markdownify }}
       <section class="conference-speaker">
         <figure class="conference-speaker-pic">
-          {% capture spckimg %}/assets/images/orateurs/{% if speaker.slug %}{{ speaker.slug }}{% else %}{{ speaker.name | slugify }}{% endif %}.jpg{% endcapture %}
-          <img src="https://pbs.twimg.com/profile_images/724941999195983872/hWg5kAoc_400x400.jpg" alt="{{ speaker.name }}">
-          <!-- <img src="{{ spckimg | relative_url }}" alt="{{ speaker.name }}"> -->
+          <img src="{{ speaker.image }}" alt="{{ speaker.name }}">
           <figcaption class="sr-only">{{ speaker.name }}</figcaption>
         </figure>
         {% for names in conference.speaker %}
         {% assign speaker = site.data.speakers[names] %}
         <h3 class="conference-speaker-name">
           <em class="text-sm">Présenté par</em><br>
-          Nicolas Hoffman
+          {{ speaker.name }}
         </h3>
-        <p class="conference-speaker-description">
-          {{ speaker.bio | markdownify }}
-        </p>
+        {{ speaker.bio | markdownify }}
         {%- endfor -%}
       </section>
     </article>
