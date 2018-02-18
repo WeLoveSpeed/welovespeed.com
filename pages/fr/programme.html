@@ -14,6 +14,7 @@ permalink: /programme/
     <p>Cette année, nous avons constitué un programme en lien avec nos valeurs d’inspiration, de lien, de bienveillance et d’authenticité. Vous y trouverez des engagements humains, professionnels, éthiques, des personnes qui tentent de renverser la table comme des gens qui veulent juste se comprendre et proposer de nouvelles choses.</p>
 
     {% for conference in conferences %}
+    <hr>
     <article class="conference">
       <h2>{{ conference.title }}</h2>
       {{ conference.description | markdownify }}
@@ -34,7 +35,6 @@ permalink: /programme/
         </section>
         {%- endfor -%}
     </article>
-    {% unless forloop.last %}<hr>{% endunless %}
     {%- endfor -%}
 
   </div>
