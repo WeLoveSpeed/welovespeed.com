@@ -36,6 +36,13 @@ sass:
     sass_dir: _sass
     style: compressed
 
+collections:
+  talks:
+    output: false
+    order: date asc
+    permalink: /talks/:path/
+    sitemap: false
+
 defaults:
   -
     scope:
