@@ -20,7 +20,7 @@ permalink: /programme/
       {{ conference.description | markdownify }}
         {% for names in conference.speaker %}
         {% assign speaker = site.data.speakers[names] %}
-        <section class="conference-speaker">
+        <section class="conference-speaker text-sm">
           <figure class="conference-speaker-pic">
             <img src="{{ speaker.image }}" alt="{{ speaker.name }}">
             <figcaption class="sr-only">{{ speaker.name }}</figcaption>
