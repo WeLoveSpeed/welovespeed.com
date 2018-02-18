@@ -16,20 +16,21 @@ permalink: /programme/
     <article class="conference">
       <h2>{{ conference.title }}</h2>
       {{ conference.description | markdownify }}
-      <section class="conference-speaker">
-        <figure class="conference-speaker-pic">
-          <img src="{{ speaker.image }}" alt="{{ speaker.name }}">
-          <figcaption class="sr-only">{{ speaker.name }}</figcaption>
-        </figure>
         {% for names in conference.speaker %}
         {% assign speaker = site.data.speakers[names] %}
-        <h3 class="conference-speaker-name">
-          <em class="text-sm">Présenté par</em><br>
-          {{ speaker.name }}
-        </h3>
-        {{ speaker.bio | markdownify }}
+        <section class="conference-speaker">
+          <figure class="conference-speaker-pic">
+            <img src="{{ speaker.image }}" alt="{{ speaker.name }}">
+            <figcaption class="sr-only">{{ speaker.name }}</figcaption>
+          </figure>
+          <h3 class="conference-speaker-name">
+            <em class="text-sm">Présenté par</em><br>
+            {{ speaker.name }}
+          </h3>
+          {{ speaker.bio | markdownify }}
+        </section>
         {%- endfor -%}
-      </section>
+
     </article>
 
     <hr>
