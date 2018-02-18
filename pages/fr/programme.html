@@ -10,29 +10,34 @@ permalink: /programme/
 
 <section class="section">
   <div class="wrapper">
-    <h1>Le programme 2018</h1>
-    <h2>{{ number_of_conferences }} conférences</h2>
+    <h1>Le programme 2018 : {{ number_of_conferences }} conférences</h1>
+
     {% for conference in conferences %}
-    <article class="grid-3">
-      <div>
-        <h2>{{ conference.title }}</h2>
+    <article class="conference">
+      <h2>{{ conference.title }}</h2>
+      <p>
         {{ conference.description | markdownify }}
-      </div>
-      <section>
-        {% for names in conference.speaker %}
-        {% assign speaker = site.data.speakers[names] %}
-        <p>présenté par&hellip;</p>
-        <h3></h3>
-        <figure>
+      </p>
+      <section class="conference-speaker">
+        <figure class="conference-speaker-pic">
           {% capture spckimg %}/assets/images/orateurs/{% if speaker.slug %}{{ speaker.slug }}{% else %}{{ speaker.name | slugify }}{% endif %}.jpg{% endcapture %}
           <img src="https://pbs.twimg.com/profile_images/724941999195983872/hWg5kAoc_400x400.jpg" alt="{{ speaker.name }}">
           <!-- <img src="{{ spckimg | relative_url }}" alt="{{ speaker.name }}"> -->
           <figcaption class="sr-only">{{ speaker.name }}</figcaption>
         </figure>
-        {{ speaker.bio | markdownify }}
+        {% for names in conference.speaker %}
+        {% assign speaker = site.data.speakers[names] %}
+        <h3 class="conference-speaker-name">
+          <em class="text-sm">Présenté par</em><br>
+          Nicolas Hoffman
+        </h3>
+        <p class="conference-speaker-description">
+          {{ speaker.bio | markdownify }}
+        </p>
         {%- endfor -%}
       </section>
     </article>
+
     <hr>
     {%- endfor -%}
 
