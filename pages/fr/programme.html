@@ -25,9 +25,9 @@ permalink: /programme/
             <img src="{{ speaker.image }}" alt="{{ speaker.name }}">
             <figcaption class="sr-only">{{ speaker.name }}</figcaption>
           </figure>
-          <h3>
+          <h3 class="conference-speaker-name">
             <em class="text-sm">Présenté par</em><br>
-            <a href="{{ speaker.url }}" class="conference-speaker-name">{{ speaker.name }}</a>
+            <a href="{{ speaker.url }}"><strong>{{ speaker.name }}</strong></a>
           </h3>
           <p class="conference-speaker-description">
             {{ speaker.bio }}
