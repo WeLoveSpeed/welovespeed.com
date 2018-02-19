@@ -42,8 +42,10 @@
       {
         "@type": "Person",
         "name": "{{ member.firstname }} {{ member.lastname }}",
-        "sameAs": "https://twitter.com/{{ member.twitter }}",
-        "sameAs": "{{ member.url }}"
+        "sameAs": [
+          "https://twitter.com/{{ member.twitter }}",
+          "{{ member.url }}"
+        ]
       }
     {% endfor %}]
   },
