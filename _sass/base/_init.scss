@@ -54,7 +54,8 @@ abbr[title] {
 	text-decoration: none;
 }
 
-blockquote {
+blockquote,
+address {
   padding: $global-gutters/2 0 $global-gutters/2 $global-gutters;
   border-left: .25em solid $blockquote-border-color;
   font-style: italic;
