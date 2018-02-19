@@ -51,7 +51,7 @@
     "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t billetterie %}/"
   },
   "performer": [{% for speaker in site.data.speakers %}{% unless forloop.first == true %},{% endunless %}{
-    "@type": "Person"
+    "@type": "Person",
     "name": "{{ speaker.name }}",
     "sameAs": "{{ speaker.url }}"
   }{% endfor %}]
