@@ -35,11 +35,15 @@
       "contactType" : "customer service",
       "contactOption": "TollFree"
     },
-    "member": [{% for member in thym %}{% unless forloop.first == true %},{% endunless %}{
-      "@type": "Person",
-      "name": "{{ member.firstname }} {{ member.lastname }}",
-      "sameAs": "https://twitter.com/{{ member.twitter }}"
-    }{% endfor %}]
+    "member": [
+    {% for member in thym %}
+      {% unless forloop.first %},{% endunless %}
+      {
+        "@type": "Person",
+        "name": "{{ member.firstname }} {{ member.lastname }}",
+        "sameAs": "https://twitter.com/{{ member.twitter }}"
+      }
+    {% endfor %}]
   },
   "offers": {
     "@type": "Offer",
@@ -50,10 +54,19 @@
     "availability": "http://schema.org/InStock",
     "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t billetterie %}/"
   },
-  "performer": [{% for speaker in site.data.speakers %}{% unless forloop.first == true %},{% endunless %}{
-    "@type": "Person",
-    "name": "{{ speaker.name }}",
-    "sameAs": "{{ speaker.url }}"
-  }{% endfor %}]
+  "performer": [
+  {% for conference in site.talks %}
+    {% unless forloop.first %},{% endunless %}
+    {% for names in conference.speaker %}
+      {% assign speaker = site.data.speakers[names] %}
+      {% unless forloop.first or forloop.last %},{% endunless %}
+      {
+        "@type": "Person",
+        "name": "{{ speaker.name }}",
+        "sameAs": "{{ speaker.url }}"
+      }
+    {% endfor %}
+  {% endfor %}
+  ]
 }
 </script>
