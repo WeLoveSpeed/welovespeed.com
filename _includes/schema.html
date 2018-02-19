@@ -7,6 +7,7 @@
   "image": "{{ site.url }}{{ site.baseurl }}/assets/images/social/og-image-{{ lang }}.jpg",
   "startDate": "2018-05-25T09:00",
   "endDate": "2018-05-26T18:00",
+  "duration": "P2D",
   "location": {
     "@type": "Place",
     "address": {
@@ -44,15 +45,15 @@
     "@type": "Offer",
     "price": "250.00",
     "priceCurrency": "EUR",
+    "validFrom": "2018-01-22T00:00",
+    "validThrough": "2018-05-25T09:00",
     "availability": "http://schema.org/InStock",
     "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t billetterie %}/"
   }
-  {% comment %}
-  "performer": {
+  "performer": [{% for speaker in site.data.speakers %}{% unless forloop.first == true %},{% endunless %}{
     "@type": "Person"
-    "name": "",
-    "sameAs": ""
-  }
-  {% endcomment %}
+    "name": "{{ speaker.name }}",
+    "sameAs": "{{ speaker.url }}"
+  }{% endfor %}]
 }
 </script>
