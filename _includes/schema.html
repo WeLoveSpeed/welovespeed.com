@@ -4,6 +4,7 @@
   "@type": "Event",
   "name": "Sud Web 2018",
   "description": "La conférence Web surtout Humaine",
+  "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}",
   "image": "{{ site.url }}{{ site.baseurl }}/assets/images/social/og-image-{{ lang }}.jpg",
   "startDate": "2018-05-25T09:00",
   "endDate": "2018-05-26T18:00",
@@ -41,7 +42,8 @@
       {
         "@type": "Person",
         "name": "{{ member.firstname }} {{ member.lastname }}",
-        "sameAs": "https://twitter.com/{{ member.twitter }}"
+        "sameAs": "https://twitter.com/{{ member.twitter }}",
+        "sameAs": "{{ member.url }}"
       }
     {% endfor %}]
   },
