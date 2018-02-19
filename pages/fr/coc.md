@@ -90,7 +90,7 @@ Tou·te·s les participant·e·s recevront, quelques jours avant l'événement, 
 
 ## Que se passe-t-il si les consignes ne sont pas respectées ?
 
-Une fois informé·e·s, nous avons l’intention **faire quelque chose**, tout en étant bien conscient·e·s que chaque situation est différente. Nous aspirons en priorité à soutenir les personnes qui ont vécu une situation négative.
+Une fois informé·e·s, nous avons l’intention de **faire quelque chose**, tout en étant bien conscient·e·s que chaque situation est différente. Nous aspirons en priorité à soutenir les personnes qui ont vécu une situation négative.
 
 Nous agirons en priorité pour le bien-être de la personne qui a vécu une expérience négative, afin qu’elle se sente mieux. Idéalement, nous construirons la réparation avec elle, mais pas obligatoirement – cela dépendra d’elle.
 
