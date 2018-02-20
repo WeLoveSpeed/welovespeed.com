@@ -8,6 +8,11 @@
   value: appel-a-sujets
   in_nav: false
   in_footer: false
+- name: Programme
+  type: page
+  value: programme
+  in_nav: true
+  in_footer: true
 - name: Billetterie
   type: page
   value: billetterie
