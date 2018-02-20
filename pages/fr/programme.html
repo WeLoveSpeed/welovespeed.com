@@ -15,7 +15,7 @@ permalink: /programme/
 
     {% for conference in conferences %}
     <hr>
-    <article class="conference" id="">
+    <article class="conference" id="{{ conference.slug }}">
       <h2 id="{{ conference.slug }}">
         {{ conference.title }}
         <a href="#{{ conference.slug }}">#</a>
