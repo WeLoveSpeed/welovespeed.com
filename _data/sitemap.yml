@@ -12,7 +12,7 @@
   type: page
   value: programme
   in_nav: true
-  in_footer: true
+  in_footer: false
 - name: Billetterie
   type: page
   value: billetterie
