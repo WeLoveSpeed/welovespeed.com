@@ -1,12 +1,116 @@
-lorem:
-  name: Lorem Ipsum
-  image: /assets/images/speakers/nico.jpg
-  alt: Alternative text
-  url: https://sudweb.fr/2018/
-  bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, voluptas, officia voluptatum fugiat unde voluptate doloribus earum laborum recusandae eum architecto quae possimus quia. Ex, velit, accusamus! Neque, cumque, dolor!
+alexis:
+  name: Alexis Metaireau
+  image: /assets/images/speakers/alexis.jpg
+  alt: >-
+    Alexis Metaireau est au bord de l'océan. Il est couvert d'un manteau sombre, d'une écharpe rubicond et d'un bonnet noire. Sa main est en visière, il regarde au loin.
+  url: https://twitter.com/ametaireau
+  bio: >-
+    C'est toujours étrange de faire des présentations par écran interposé, mais je vais tenter l'exercice. Je suis Alexis, un brasseur en cours d'installation. Je suis un ex-développeur de logiciels (libres) intéressé par l'écologie, l'éducation (populaire), la thématique agricole, le Do It Yourself (DIY) et le partage sous toutes ses formes.Je crois que la collaboration est meilleure que la compétition, et je pense que la meilleure manière de collaborer est de partager ses connaissances. Après avoir travaillé quatre années pour Mozilla, j'ai choisi de changer de cap pour lancer une entreprise qui essaye de refléter des valeurs qui me sont chères: la Brasserie du Vieux Singe.
 
-ipsum:
-  name: Dolor Sit Amet
-  image: /assets/images/speakers/nico.jpg
-  alt: Alternative text
-  bio: Praesentium, quia dolorem quo amet iure quasi quae blanditiis delectus obcaecati voluptate molestiae veritatis enim dolorum maxime ipsa provident commodi impedit ut porro similique. Est facilis mollitia consequuntur maxime, quidem!
+armony:
+  name: Armony Altinier
+  image: /assets/images/speakers/armony.jpg
+  alt: >-
+    Armony Altinier sourit. Elle se tient légèrement de profil et est vêtue d'un chemisier bleu jean.
+  url: https://twitter.com/armonyaltinier
+  bio: >-
+    Armony ALTINIER est la fondatrice de Koena : elle accompagne des clients publics et privés dans l'intégration et le renforcement d'une culture de l'accessibilité numérique. Professionnelle et militante, elle est engagée dans différents mouvements et associations promouvant le logiciel libre, l'accessibilité ou les libertés numériques et anime donc régulièrement des conférences pour sensibiliser à l'importance de l’inclusion numérique.
+
+claire:
+  name: Claire Zuliani
+  url: https://www.clairezuliani.com/
+  alt: >-
+    Selfie de Claire Zuliani qui regarde en l'air, amusée
+  image: /assets/images/speakers/claire.jpg
+  bio: Développeuse qui aime le design et les sciences humaines (ou l'inverse), outilleuse pour le bien commun.
+
+clementine:
+  name: Clementine Hahn
+  image: /assets/images/speakers/clementine.jpg
+  alt: >-
+    Clémentine Hahn se tient légèrement de profil. Elle regarde la caméra tandis que ses cheveux ondules. On voit surtout son visage. La photo est en noire et blanc.
+  url: https://twitter.com/clementinehahn
+  bio: <span lang="en">Product owner</span>. Après avoir débuté en e-santé au <abbr title="Centre Hospitalier Universitaire">CHU</abbr> de Bordeaux, Clémentine co-fonde dtc et travaille sur des enjeux de transparence public. Aujourd'hui installée à Montréal elle continue l'aventure dtc.
+
+edwy:
+  name: Edwy Plenel
+  image: /assets/images/speakers/edwy.jpg
+  alt: >-
+    Edwy Plenel sourit. Ses yeux plissés lui donne un air amusé.
+  url: https://www.mediapart.fr/
+  bio: Journaliste (depuis 1976), président et co-fondateur de Mediapart, journal d'information numérique, indépendant et participatif.
+
+emil:
+  name: Emil (ChezPapaPapou)
+  image: /assets/images/speakers/emil.jpg
+  alt: >-
+    Emil se tient devant un décor coloré qui évoque l'enfance. Il porte un polo noir.
+  url: https://twitter.com/ChezPapaPapou
+  bio: >-
+    Papa et gay, Emil est aussi un jeune vidéaste. D'abord concepteur rédacteur en agence de communication audiovisuelle, il exerce aujourd’hui en tant que réalisateur indépendant. Avec la complicité de son mari, il anime depuis 2016 la chaîne Youtube «&nbsp;Chez Papa Papou&nbsp;», dédiée à l’homoparentalité. L’objectif de leurs vidéos&nbsp;: montrer la réalité des familles homoparentales en proposant des contenus informatifs, drôles et optimistes.
+
+franck:
+  name: Franck Alary
+  image: /assets/images/speakers/franck.jpg
+  alt: >-
+    Franck Alary en complet décalage. D'une part, sa chemise et son veston blanc confirment son air sérieux mais en même temps, des accessoires colorés et baroques, ainsi que son sourcil relevé, créent une atmosphère burlesque.
+  url: http://www.dev-in-rodez.org/fr/
+  bio: Développeur à plein-temps, président de Dev’In Rodez à mi-temps, et drummer mais j’ai plus de temps.
+
+gael:
+  name: Gaël Duval
+  image: /assets/images/speakers/gael.jpg
+  alt: >-
+    Gaël Duval se tient droit, face à la caméro. Il porte un tee-shirt blanc.
+  url: https://twitter.com/gael_duval
+  bio: Gaël Duval, né à Caen en 1973 est une personnalité des logiciels libres, pionnier de Linux en France, cofondateur de Mandrakesoft puis fondateur d'Ulteo.
+
+heu7reka:
+  name: Heu?reka
+  image: /assets/images/speakers/heu7reka.jpg
+  alt: >-
+    Heu?reka se tient debout devant des arbres. Il porte une veste en cuir noire et une écharpe bleu marine.
+  url: https://twitter.com/heu7reka
+  bio: Youtuber à plein temps féru de vulgarisation. Ancien financier habitué des salles des marchés parisiennes, londoniennes et new-yorkaises.
+
+laurence:
+  name: Laurence Wagner
+  image: /assets/images/speakers/laurence.jpg
+  alt: >-
+    Laurence Wagner regarde la caméra amusée. Elle a des cheveux aussi roses que la monture de ses lunettes, un bonnet jaune et un tee-shirt bleu marine.
+  url: https://twitter.com/hellgy
+  bio: >-
+    UX designer, créative, geek, tricoteuse et bien plus encore.
+    J'aime bien créer des trucs, vous devriez essayer, c'est super.
+
+laurene:
+  name: Laurène Grangette
+  image: /assets/images/speakers/laurene.jpg
+  alt: >-
+    Laurène Grangette marchant au milieu d'une forêt d'Automne. Son pull-over à col bénitier rose pâle fait écho à la lumière environnante.
+  url: http://etincelle-theatre-forum.com
+  bio: À quel point la qualité de vos relations impacte t'elle votre bien-être ? C'est la question qui anime dans mon activité de formatrice-facilitatrice en développement relationnel et organisationnel.
+
+nicolas:
+  name: Nicolas Hoffmann
+  image: /assets/images/speakers/nicolas.jpg
+  alt: >-
+    Nicolas Hoffmann, visage en gros plan, sourit.
+  url: https://twitter.com/nico3333fr
+  bio: Expert en qualité Web et éleveur de composants accessibles en plein air depuis plusieurs années, je me passionne aussi pour les Content Security Policies. On me perçoit souvent comme &laquo;&nbsp;le vieux sage qui sait&nbsp;&raquo; –&nbsp;vieux à 15 ans, excusez du peu !&nbsp;– mais il y a tant de choses que je voudrais encore apprendre…
+
+pascal:
+  name: Pascal Moriceau
+  image: /assets/images/speakers/pascal.jpg
+  alt: >-
+    Selfie de Pascal Moriceau. Il porte des lunettes, et une écharpe chamarrée.
+  url: https://twitter.com/momoroski
+  bio: Ancien restaurateur maintenant dans le web. Créateur de blind-test vidéo et DJ à-peu- près. Sportif à mi-temps dans la chasse aux papillons.
+
+xavier:
+  name: Xavier Coadic
+  image: /assets/images/speakers/xavier.jpg
+  alt: >-
+    Xavier Coadic, lunettes de soleil et chapeau de paille, se tient légèrement de profil devant une façade d'ardoise où sont inscrites des activités maritimes. Un effet sur la photo lui donne des teintes pastel.
+  url: https://twitter.com/xaviercoadic
+  bio: 'Large Human Collider, Hackitivist, transitioner, <span lang="en">commoner</span> et un peu plus cœur.<br><small>Photo: Aurélien Marty – <a href="https://en.wikipedia.org/wiki/Wikipedia:CC_BY-SA_Compliance">CC-BY-SAc</a></small>'
