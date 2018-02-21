@@ -1,11 +1,11 @@
 lorem:
   name: Lorem Ipsum
-  image: https://pbs.twimg.com/profile_images/724941999195983872/hWg5kAoc_400x400.jpg
+  image: /assets/images/speakers/nico.jpg
   url: https://sudweb.fr/2018/
   bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, voluptas, officia voluptatum fugiat unde voluptate doloribus earum laborum recusandae eum architecto quae possimus quia. Ex, velit, accusamus! Neque, cumque, dolor!
 
 ipsum:
   name: Dolor Sit Amet
-  image: https://pbs.twimg.com/profile_images/724941999195983872/hWg5kAoc_400x400.jpg
+  image: /assets/images/speakers/nico.jpg
   url: https://sudweb.fr/2018/
   bio: Praesentium, quia dolorem quo amet iure quasi quae blanditiis delectus obcaecati voluptate molestiae veritatis enim dolorum maxime ipsa provident commodi impedit ut porro similique. Est facilis mollitia consequuntur maxime, quidem!
