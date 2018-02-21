@@ -2,8 +2,7 @@
 <hr>
 <article class="conference" id="{{ conference.slug }}">
   <h2>
-    {{ conference.title }}
-    <a href="#{{ conference.slug }}" class="text-xs">#</a>
+    {{ conference.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
   </h2>
   {{ conference.description | markdownify }}
     {% for names in conference.speaker %}
