@@ -14,7 +14,11 @@
       </figure>
       <h3 class="conference-speaker-name">
         <span class="text-xs">{% t Présenté par %}</span><br>
-        <a href="{{ speaker.url }}"><strong>{{ speaker.name }}</strong></a>
+        {% capture person %}<strong>{{ speaker.name }}</strong>{% endcapture %}
+        {% if speaker.url %}
+          {% capture person %}<a href="{{ speaker.url }}">{{ person }}</a>{% endcapture %}
+        {% endif %}
+        {{ person }}
       </h3>
       <p class="conference-speaker-description">
         {{ speaker.bio }}
