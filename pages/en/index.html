@@ -36,8 +36,8 @@ redirect_from:
       </a>
     </p>
     <p class="text-center">
-      <a class="button" data-text="see the line-up 2018" href="{{ "/programme/" | relative_url }}" title="See the line-up of Sud Web 2018">
-        <span class="button-inner">see the line-up 2018</span>
+      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: page.locale }}/" title="{% t Voir le programme de Sud Web 2018 %}">
+        <span class="button-inner">{% t voir le programme %}</span>
       </a>
     </p>
   </div>
