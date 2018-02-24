@@ -9,7 +9,7 @@
     {% assign speaker = site.data.speakers[names] %}
     <section class="conference-speaker text-sm">
       <figure class="conference-speaker-pic" role="group">
-        <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}">
+        <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.alt }}">
         <figcaption class="sr-only">{{ speaker.name }}</figcaption>
       </figure>
       <h3 class="conference-speaker-name">
