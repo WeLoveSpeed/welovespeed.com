@@ -1,10 +1,12 @@
 lorem:
   name: Lorem Ipsum
   image: /assets/images/speakers/nico.jpg
+  alt: Alternative text
   url: https://sudweb.fr/2018/
   bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, voluptas, officia voluptatum fugiat unde voluptate doloribus earum laborum recusandae eum architecto quae possimus quia. Ex, velit, accusamus! Neque, cumque, dolor!
 
 ipsum:
   name: Dolor Sit Amet
   image: /assets/images/speakers/nico.jpg
+  alt: Alternative text
   bio: Praesentium, quia dolorem quo amet iure quasi quae blanditiis delectus obcaecati voluptate molestiae veritatis enim dolorum maxime ipsa provident commodi impedit ut porro similique. Est facilis mollitia consequuntur maxime, quidem!
