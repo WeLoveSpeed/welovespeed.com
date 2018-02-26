@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2, .h-like {
-	font-family: $title-font-family; font-style: $title-font-style; font-weight: $title-font-weight;
+	font-family: $title-font-family; font-style: $title-font-style; font-weight: $title-font-weight; line-height: $title-line-height;
 }
 
 h3, h4, h5, h6 {
