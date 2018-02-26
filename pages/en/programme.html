@@ -12,9 +12,15 @@ permalink: /en/line-up/
   <div class="wrapper">
     <h1>Sud Web 2018: {{ number_of_conferences }} talks</h1>
     <p>This year, we set up a program aligned with our values of inspiration, benevolence, caring and authenticity. You will find human, professional and ethical commitments, people who are trying to reverse the status quo as well as people who want to understand each other and propose new interactions.</p>
-
+    <p>For the moment, all the descriptions are in French but we will try to translate them soon.</p>
+    <p class="text-center"><a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t Venir à Sud Web 2018 %}">
+      <span class="button-inner">{% t réserver votre place %}</span>
+    </a></p>
     {% include conferences.html conferences=conferences %}
-
+    <hr>
+    <p class="text-center"><a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t Venir à Sud Web 2018 %}">
+      <span class="button-inner">{% t réserver votre place %}</span>
+    </a></p>
   </div>
 </section>
 
