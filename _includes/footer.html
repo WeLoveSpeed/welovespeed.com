@@ -6,7 +6,7 @@
     {% endif %}
     <div class="grid-3">
       <section>
-        <h3 id="footerTitle1" class="text-lg">{% t Épisodes précédents %}</h3>
+        <h2 id="footerTitle1" class="text-lg">{% t Épisodes précédents %}</h2>
         <nav aria-labelledby="footerTitle1">
           <ul>
             {% for edition in site.data.editions %}
@@ -16,7 +16,7 @@
         </nav>
       </section>
       <section>
-        <h3 id="footerTitle2" class="text-lg">{% t Pour en savoir plus %}</h3>
+        <h2 id="footerTitle2" class="text-lg">{% t Pour en savoir plus %}</h2>
         <nav aria-labelledby="footerTitle2">
           <ul>
             {% assign footer_links = site.data.sitemap | where: 'in_footer', true %}
@@ -27,7 +27,7 @@
         </nav>
       </section>
       <section>
-        <h3 class="text-lg">{% t On reste en contact ? %}</h3>
+        <h2 class="text-lg">{% t On reste en contact ? %}</h2>
         <form action="//sudweb.us2.list-manage.com/subscribe/post?u=af19b58cf514c01eca3f7652e&amp;id=b579f5b507"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
           class="newsletter-form validate" target="_blank" rel="noopener noreferrer" novalidate="">

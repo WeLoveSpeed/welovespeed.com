@@ -1,0 +1,21 @@
+---
+title: Line-up
+description: The talks of the 2018 edition of Sud Web
+i18n-key: programme
+permalink: /en/line-up/
+---
+
+{%- assign conferences = site.talks | sort: "display-order" -%}
+{%- assign number_of_conferences = conferences | where_exp:"item","item.type != 'pause'"| size -%}
+
+<section class="section">
+  <div class="wrapper">
+    <h1>Sud Web 2018: {{ number_of_conferences }} talks</h1>
+    <p>This year, we set up a program aligned with our values of inspiration, benevolence, caring and authenticity. You will find human, professional and ethical commitments, people who are trying to reverse the status quo as well as people who want to understand each other and propose new interactions.</p>
+
+    {% include conferences.html conferences=conferences %}
+
+  </div>
+</section>
+
+{% include banners/forum.html locale=page.locale %}

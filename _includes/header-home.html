@@ -21,7 +21,10 @@
       <a href="{{ page.baseurl | default:site.baseurl }}/{{ "venir-anduze" | t: page.locale }}/">Anduze, Gard (30)</a>.
     </p>
     <p class="text-center">
-      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="Venir à Sud Web 2018">
+      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: page.locale }}/" title="{% t Voir le programme de Sud Web 2018 %}">
+        <span class="button-inner">{% t voir le programme %}</span>
+      </a>
+      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t Venir à Sud Web 2018 %}">
         <span class="button-inner">{% t réserver votre place %}</span>
       </a>
     </p>

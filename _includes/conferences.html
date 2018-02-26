@@ -1,0 +1,29 @@
+{% for conference in include.conferences %}
+<hr>
+<article class="conference" id="{{ conference.slug }}">
+  <h2>
+    {{ conference.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
+  </h2>
+  {{ conference.description | markdownify }}
+    {% for names in conference.speaker %}
+    {% assign speaker = site.data.speakers[names] %}
+    <section class="conference-speaker text-sm">
+      <figure class="conference-speaker-pic" role="group">
+        <img src="{{ speaker.image | relative_url }}" alt="">
+        <figcaption class="sr-only">{{ speaker.name }}</figcaption>
+      </figure>
+      <h3 class="conference-speaker-name">
+        <span class="text-xs">{% t Présenté par %}</span><br>
+        {% capture person %}<em>{{ speaker.name }}</em>{% endcapture %}
+        {% if speaker.url %}
+          {% capture person %}<a href="{{ speaker.url }}">{{ person }}</a>{% endcapture %}
+        {% endif %}
+        {{ person }}
+      </h3>
+      <p class="conference-speaker-description">
+        {{ speaker.bio }}
+      </p>
+    </section>
+    {%- endfor -%}
+</article>
+{%- endfor -%}

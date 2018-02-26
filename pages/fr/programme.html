@@ -1,0 +1,21 @@
+---
+title: Programme
+description: Le programme de l'édition 2018 de Sud Web
+i18n-key: programme
+permalink: /programme/
+---
+
+{%- assign conferences = site.talks | sort: "display-order" -%}
+{%- assign number_of_conferences = conferences | where_exp:"item","item.type != 'pause'"| size -%}
+
+<section class="section">
+  <div class="wrapper">
+    <h1>Le programme 2018 : {{ number_of_conferences }} conférences</h1>
+    <p>Cette année, nous avons constitué un programme en lien avec nos valeurs d’inspiration, de lien, de bienveillance et d’authenticité. Vous y trouverez des engagements humains, professionnels, éthiques, des personnes qui tentent de renverser la table comme des gens qui veulent se comprendre et proposer de nouvelles choses.</p>
+
+    {% include conferences.html conferences=conferences %}
+
+  </div>
+</section>
+
+{% include banners/forum.html locale=page.locale %}
