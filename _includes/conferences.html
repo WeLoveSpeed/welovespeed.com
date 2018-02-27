@@ -1,12 +1,23 @@
 {% for conference in include.conferences %}
+{% if include.locale == "en_US" and conference.en_US %}
+  {% assign verbatim = conference.en_US %}
+{% else %}
+  {% assign verbatim = conference.fr_FR %}
+{% endif %}
+
 <hr>
 <article class="conference" id="{{ conference.slug }}">
   <h2>
-    {{ conference.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
+    {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
   </h2>
-  {{ conference.description | markdownify }}
+  {{ verbatim.description | markdownify }}
     {% for names in conference.speaker %}
     {% assign speaker = site.data.speakers[names] %}
+    {% if include.locale == "en_US" and speaker.en_US %}
+      {% assign speakatim = speaker.en_US %}
+    {% else %}
+      {% assign speakatim = speaker.fr_FR %}
+    {% endif %}
     <section class="conference-speaker text-sm">
       <figure class="conference-speaker-pic" role="group">
         <img src="{{ speaker.image | relative_url }}" alt="">
@@ -21,7 +32,7 @@
         {{ person }}
       </h3>
       <p class="conference-speaker-description">
-        {{ speaker.bio }}
+        {{ speakatim.bio }}
       </p>
     </section>
     {%- endfor -%}
