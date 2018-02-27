@@ -2,13 +2,14 @@
 [class^='banner-'] {
 	position: relative;
 	padding: 30% 0;
-	background: center / cover no-repeat fixed;
+	background: center / cover no-repeat;
 
 	@include media('>large') {
 		padding: 20% 0;
 	}
 	@include media('>xlarge') {
 		padding: 15% 0;
+    background-attachment: fixed;
 	}
 
   &.page-top {
