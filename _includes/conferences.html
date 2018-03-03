@@ -1,39 +1,43 @@
-{% for conference in include.conferences %}
-{% if include.locale == "en_US" and conference.en_US %}
-  {% assign verbatim = conference.en_US %}
-{% else %}
-  {% assign verbatim = conference.fr_FR %}
-{% endif %}
-
-<article class="conference" id="{{ conference.slug }}">
-  <h2>
-    {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
-  </h2>
-  {{ verbatim.description | markdownify }}
-    {% for names in conference.speaker %}
-    {% assign speaker = site.data.speakers[names] %}
-    {% if include.locale == "en_US" and speaker.en_US %}
-      {% assign speakatim = speaker.en_US %}
+<section class="section">
+  <div class="wrapper">
+    {% for conference in include.conferences %}
+    {% if include.locale == "en_US" and conference.en_US %}
+      {% assign verbatim = conference.en_US %}
     {% else %}
-      {% assign speakatim = speaker.fr_FR %}
+      {% assign verbatim = conference.fr_FR %}
     {% endif %}
-    <section class="conference-speaker text-sm">
-      <figure class="conference-speaker-pic" role="group">
-        <img src="{{ speaker.image | relative_url }}" alt="">
-        <figcaption class="sr-only">{{ speaker.name }}</figcaption>
-      </figure>
-      <h3 class="conference-speaker-name">
-        <span class="text-xs">{% t Présenté par %}</span><br>
-        {% capture person %}<em>{{ speaker.name }}</em>{% endcapture %}
-        {% if speaker.url %}
-          {% capture person %}<a href="{{ speaker.url }}">{{ person }}</a>{% endcapture %}
+    <article class="conference" id="{{ conference.slug }}">
+      <h2>
+        {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
+      </h2>
+      {{ verbatim.description | markdownify }}
+        {% for names in conference.speaker %}
+        {% assign speaker = site.data.speakers[names] %}
+        {% if include.locale == "en_US" and speaker.en_US %}
+          {% assign speakatim = speaker.en_US %}
+        {% else %}
+          {% assign speakatim = speaker.fr_FR %}
         {% endif %}
-        {{ person }}
-      </h3>
-      <p class="conference-speaker-description">
-        {{ speakatim.bio }}
-      </p>
-    </section>
+        <section class="conference-speaker text-sm">
+          <figure class="conference-speaker-pic" role="group">
+            <img src="{{ speaker.image | relative_url }}" alt="">
+            <figcaption class="sr-only">{{ speaker.name }}</figcaption>
+          </figure>
+          <h3 class="conference-speaker-name">
+            <span class="text-xs">{% t Présenté par %}</span><br>
+            {% capture person %}<em>{{ speaker.name }}</em>{% endcapture %}
+            {% if speaker.url %}
+              {% capture person %}<a href="{{ speaker.url }}">{{ person }}</a>{% endcapture %}
+            {% endif %}
+            {{ person }}
+          </h3>
+          <p class="conference-speaker-description">
+            {{ speakatim.bio }}
+          </p>
+        </section>
+        {%- endfor -%}
+    </article>
     {%- endfor -%}
-</article>
-{%- endfor -%}
+  </div>
+</section>
+

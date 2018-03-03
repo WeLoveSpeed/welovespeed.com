@@ -1,60 +1,24 @@
-{% for conference in conferences %}
-<section class="pres-item">
-  {% if conference.type != 'pause' %}
-  <figure class="pres-type">
-    <svg width="1em" xmlns="http://www.w3.org/2000/svg" version="1.1">
-      <use id="sw-hands" xlink:href="{{ "/assets/images/symbol-defs.svg#link" | append: conference.symbol | relative_url }}" />
-    </svg>
-  </figure>
-  {% endif %}
-
-  <h4 class="pres-title tiny-title-size" id="{{ conference.title | slugify }}">{% comment %}{{ conference.date | date: "%Hh%M" }} : {% endcomment %}{{ conference.title }} <a class="orange link" href="#{{ conference.title | slugify }}"><svg width="1em" class="svg-size" viewBox="0 0 400 400"><use xlink:href="{{ "/assets/images/symbol-defs.svg#link" | relative_url }}" /></svg></a></h4>
-
-  <div class="pres-desc">
-    {{ conference.description | markdownify }}
-  </div>
-
-  <div class="pres-medias">
-    {% if conference.video %}
-    <div class="pres-medias-link">
-      <svg width="1em" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <use xlink:href="{{ "/assets/images/symbol-defs.svg#video" | relative_url }}" />
-      </svg>
-      <a href="{{ conference.video }}" title="Voir la vidéo '{{ conference.title }}'" data-event-category="cta" data-event-action="click" data-event-label="video-{{ conference.title | slugify }}">Vidéo</a>
+{% comment %} Collecting speakers count {% endcomment %}
+{% assign speakers = '' | split: '' %}
+{% assign count = 0 %}
+{% for conference in include.conferences %}
+  {% for names in conference.speaker %}
+    {% assign count = count | plus: 1 %}
+  {%- endfor -%}
+{%- endfor -%}
+<section id="speakers" class="section">
+  <div class="wrapper">
+    <a class="sr-only" src="{% unless include.shorturl %}{{ "programme" | t: include.locale | relative_url }}{% endunless %}#conferences" >{% t Aller directement au programme détaillé %}</a>
+    <div class="grid-{{ count | divided_by: 2 }} text-center">
+      {% for conference in include.conferences %}
+        {% for names in conference.speaker %}
+          {% capture conf-url %}{% unless include.shorturl %}{{ "programme" | t: include.locale | relative_url }}{% endunless %}#{{conference.slug}}{% endcapture %}
+          {% assign speaker = site.data.speakers[names] %}
+          <figure class="person">
+            <a title="{{ "Aller directement à l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ conf-url }}"><img src="{{ site.lazyload.placeholder }}" class="person-avatar lozad" data-src="{{ speaker.image | relative_url }}" alt="{{speaker.name}}" width="100" height="100"></a>
+          </figure>
+        {%- endfor -%}
+      {%- endfor -%}
     </div>
-    {% endif %}
-    {% if conference.slides %}
-    <div class="pres-medias-link">
-      <svg width="1em" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <use xlink:href="{{ "/assets/images/symbol-defs.svg#slides" | relative_url }}" />
-      </svg>
-      <a href="{{ conference.slides }}" title="Voir les slides '{{ conference.title }}'" data-event-category="cta" data-event-action="click" data-event-label="slides-{{ conference.title | slugify }}">Slides</a>
-    </div>
-    {% endif %}
   </div>
-
-  <footer>
-    {% for names in conference.speaker %}
-    {% assign speaker = site.data.speakers[names] %}
-    <section class="pres-author clearfix">
-      {% if speaker.name != 'sudweb' %}
-      <figure class="author-img">
-        {% capture spckimg %}/assets/images/orateurs/{% if speaker.slug %}{{ speaker.slug }}{% else %}{{ speaker.name | slugify }}{% endif %}.jpg{% endcapture %}
-        <img src="{{ spckimg | relative_url }}" alt="{{ speaker.name }}">
-      </figure>
-      {% endif %}
-      <h5 class="author-name default-size">
-        {% if speaker.website %}
-           <a href="{{speaker.website}}">{{ speaker.name }}</a>
-        {% elsif speaker.twitter %}
-            <a href="//twitter.com/{{speaker.twitter}}">{{ speaker.name }}</a>
-        {% else %}
-            {{ speaker.name }}
-        {% endif %}
-      </h5>
-      <div class="author-desc">{{ speaker.bio | markdownify }}</div>
-    </section>
-    {% endfor %}
-  </footer>
 </section>
-{% endfor %}
