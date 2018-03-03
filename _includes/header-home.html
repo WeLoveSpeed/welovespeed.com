@@ -30,3 +30,12 @@
     </p>
   </div>
 </header>
+
+<section class="section">
+  <div class="wrapper">
+    <hr>
+  </div>
+</section>
+
+{%- assign conferences = site.talks | sort: "display-order" -%}
+{% include speakers.html conferences=conferences locale=page.locale %}

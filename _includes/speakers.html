@@ -8,11 +8,11 @@
 {%- endfor -%}
 <section id="speakers" class="section">
   <div class="wrapper">
-    <a class="sr-only" src="{% unless include.shorturl %}{{ "programme" | t: include.locale | relative_url }}{% endunless %}#conferences" >{% t Aller directement au programme détaillé %}</a>
+    <a class="sr-only" src="{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#conferences" >{% t Aller directement au programme détaillé %}</a>
     <div class="grid-{{ count | divided_by: 2 }} text-center">
       {% for conference in include.conferences %}
         {% for names in conference.speaker %}
-          {% capture conf-url %}{% unless include.shorturl %}{{ "programme" | t: include.locale | relative_url }}{% endunless %}#{{conference.slug}}{% endcapture %}
+          {% capture conf-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#{{conference.slug}}{% endcapture %}
           {% assign speaker = site.data.speakers[names] %}
           <figure class="person">
             <a title="{{ "Aller directement à l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ conf-url }}"><img src="{{ site.lazyload.placeholder }}" class="person-avatar lozad" data-src="{{ speaker.image | relative_url }}" alt="{{speaker.name}}" width="100" height="100"></a>
