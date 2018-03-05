@@ -62,6 +62,10 @@ address {
   p {
     margin: 0;
   }
+
+  &.other-lang {
+    border-left-color: lighten($blockquote-border-color, 20);
+  }
 }
 
 figure {

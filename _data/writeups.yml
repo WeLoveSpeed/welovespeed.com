@@ -294,50 +294,73 @@
   writeups:
   - url: https://blog.basilesimon.fr/2016/05/30/sudweb/
     title: "Sud Web 2016"
-    locale: fr_FR
+    locale: en_US
     authors: [Basile Simon]
+    extract: >-
+      Thomas told me about the conference months ago. […] Even with a proper intro from the curator himself to what the conference was about, I couldn't have believed this possible before I saw it. […] The discussions were quite the opposite to the ones you have in big conferences. […] SudWeb is a welcoming community of friends - with most of whom I discovered we were only one or two degrees of separation apart.
   - url: https://davidbruant.github.io/writings/trombone
     title: "Le Trombone"
     locale: fr_FR
     authors: [David Bruant]
+    extract: >-
+      Mais connaître autant de gens cools a été l’occasion de créer des rencontres. Alors faire se rencontrer des gens, c’est pas si facile. Souvent, il faut une excuse, une première accroche, un trombone avant qu’ils ne se trouvent d’autres attaches.<br>
+      Alors j’ai essayé d’être ce trombone. Et c’était un jeu amusant :-)
   - url: https://www.yaal.fr/blog/sud-web-2016-retour-sur-ledition-bordelaise
     title: "Sud Web 2016 : Retour sur l’édition Bordelaise"
     locale: fr_FR
     authors: [L'Équipe Yaal]
+    extract: >-
+      Parmi les valeurs et les idées qui dominaient cette édition, le fait de se sentir bien dans sa vie et dans son travail, le partage, la participation, l’investissement des individus dans des initiatives collectives ou personnelles et l’envie d’apporter à la société et à notre domaine via des alternatives au système classique témoignent de l’évolution des métiers du web en France.
   - url: https://blog.ticabri.com/2016/06/02/sudweb-2016/
     title: "SudWeb 2016"
     locale: fr_FR
     authors: [Enguerran Colson]
+    extract: >-
+      Ils sont rares les week-ends pendant lesquels le temps passe si vite qu'on a l'impression d'avoir grandi en retrouvant le lundi.
   - url: http://articles.nissone.com/2016/06/creativite-ouverture-esprit-sud-web-2016/
     title: "Créativité et ouverture d’esprit – Sud Web 2016"
     locale: fr_FR
     authors: [Delphine Malassingne]
+    extract: >-
+      Cette édition de Sud Web, une fois de plus, ne m’a pas déçue mais à éveiller des réflexions, des pistes ; elle a encré des points de vue, des valeurs à ne pas oublier ; elle m’a donné du recul et …m’a donné plus de questions que de réponses et c’est tant mieux !
   - url: http://blog.pelmel.org/2016/06/01/sudweb-la-conference-qui-fait-du-bien/
     title: "SudWeb : La conférence qui fait du bien"
     locale: fr_FR
     authors: [Brice Favre]
+    extract: >-
+      En bref, ce fut un super moment hélas trop court. J’ai beaucoup appris, fait ce que j’aime, dans un environnement qui déborde de bienveillance où on vient vraiment comme on est. Vivement l’année prochaine, en famille peut-être.
   - url: http://nota-bene.org/Sud-Web-2016-toujours-inattendu-toujours-satisfaisant
     title: "Sud Web 2016 : toujours inattendu, toujours satisfaisant"
     locale: fr_FR
     authors: [Stéphane Deschamps]
+    extract: >-
+      Avec Sud Web on ne sait jamais ce qu’on tirera des conférences, et c’est tant mieux. On repart avec des réflexions qui ont rebondi d’un métier à l’autre, on apprend en décloisonnant – c’est ce qui fait toute la pertinence d’un sujet inattendu (la couture dans une conférence de gens qui travaillent dans le Web ?), qui ouvre à de nouvelles idées et permet d’envisager de nouvelles perspectives sur nos métiers.
   - url: http://www.nomaditude.fr/bienveillance-partage-bienvenue-a-sud-web/
     title: "Bienveillance & partage : bienvenue à Sud Web"
     locale: fr_FR
     authors: [Laurie Amiot]
+    extract: >-
+      Je me rends de plus en plus compte que nos métiers nous poussent à nous diriger vers des activités plus humaines et à nous rapprocher de la nature. À la recherche de la simplicité et l’humanité. On croit souvent que les travailleurs du web sont très fermés et ne sortent pas de derrière leurs écrans, la vérité est tout autre, et ça fait plaisir à voir!
   - url: http://www.ekino.com/sud-web-jai-decouvert-super-pouvoirs/
     title: "Sud Web ou comment j’ai découvert mes super pouvoirs"
     locale: fr_FR
-    authors: Isabelle Olivier
+    authors: [Isabelle Olivier]
     from:
       name: Ekino
       url: https://www.ekino.com
+    extract: >-
+      Un pur moment de réflexion, d’échange, de partage, avec un seul et unique mot d’ordre : bienveillance.<br>
+      Merci pour ce concentré d’énergie positive, je suis repartie pleine de questions, d’idées, d’énergie, mais également totalement lessivée.<br>
+      Vivement l’année prochaine !!!
   - url: http://www.ekino.com/zero-gachis-plein-de-questions/
     title: "Zéro gâchis mais plein de questions"
     locale: fr_FR
-    authors: Delphine Malassingne
+    authors: [Delphine Malassingne]
     from:
       name: Ekino
       url: https://www.ekino.com
+    extract: >-
+      Sud Web nous parle là de garder l’esprit ouvert par rapport à nos habitudes (de conception, de développement) et à penser en fonction de notre contexte actuel (qui, dans le web, est toujours différent de ce qu’il était un an plus tôt).
   - url: http://www.ekino.com/sud-web-2016-bordeaux/
     title: "Sud Web 2016 @ Bordeaux"
     locale: fr_FR
@@ -345,14 +368,21 @@
     from:
       name: Ekino
       url: https://www.ekino.com
+    extract: >-
+      C’est le genre de conférence qui m’inspire, qui me motive, aussi bien pour améliorer les choses dans le travail mais aussi dans la vie personnelle. Elle donne envie de s’investir dans quelque chose, de s’impliquer et de s’y donner à fond
   - url: http://marieguillaumet.com/sud-web-2016-en-un-mot-genial/
     title: "Sud Web 2016 : en un mot, génial !"
     locale: fr_FR
     authors: [Marie Guillaumet]
+    extract: >-
+      [La transmission] est même l'un des piliers de notre communauté, initialement autodidacte. Et les évènements comme Sud Web permettent justement d'apprendre et de transmettre, en dehors de nos lieux de travail, et en dehors de toute contrainte de production.
   - url: http://lunatopia.fr/blog/premier-sud-web-retour-experience
     title: Mon premier Sud Web, retour d’expérience
     locale: fr_FR
     authors: [Nathalie Pauchet]
+    extract: >-
+      Je sais que le programme des confs, hétéroclite, en a étonné plus d’un et que certains ne voyaient pas forcément le rapport avec nos métiers. Je trouve au contraire que tout avait sa place, pour peu qu’on voit plus loin que le résumé du programme.<br/>
+      J’ai aimé tout ce que j’ai vu ce week-end. Chaque intervention m’a apporté quelque chose, que ça soit un conseil directement applicable dans ce que je fais tous les jours au boulot ou une piste de réflexion plus générale.
   - url: http://jolicode.com/blog/sud-web-2016-bordeaux-un-excellent-millesime
     title: "Sud Web 2016 Bordeaux : un excellent millésime"
     locale: fr_FR
@@ -360,29 +390,41 @@
     from:
       name: Jolicode
       url: https://jolicode.com
+    extract: >-
+      À Sud Web, <span lang="en">exit</span> la technique, on y parle humain. C’est ce qui fait sa marque de fabrique. C’est une introspection sur son métier, on se pose les bonnes questions et on tente d’y répondre.
   - url: http://maxlab.fr/2016/05/sudweb-2016-valeur-travail-chocolatines/
     title: "SudWeb 2016 : la valeur du travail et des chocolatines"
     locale: fr_FR
     authors: [Maxime Warnier]
+    extract: >-
+      Ce qu’il y a de bien avec Sud Web c’est que si vous commencez à vous poser des questions sur la vie et surtout votre métier en tant que travailleur du web, alors vous vous rendrez vite compte que vous n’êtes pas seul.
   - url: http://blog.clever-age.com/fr/2016/05/30/sud-web-2016-bordeaux/
     title: "Sud Web 2016 – Bordeaux"
     locale: fr_FR
-    authors: Olivier Keul
+    authors: [Olivier Keul]
     from:
       name: Clever Age
       url: https://www.clever-age.com
+    extract: >-
+      Sud Web est une conférence atypique dans le milieu du Web et j’invite tout le monde à participer au moins une fois à une édition.
   - url: https://larlet.fr/david/blog/2016/sudweb-2016/
     title: SudWeb 2016
     locale: fr_FR
     authors: [David Larlet]
+    extract: >-
+      Chaque intervention donne envie d’aller interagir avec l’orateur pour échanger plus que d’ouvrir son <em lang="en">laptop</em>. Derrière ces sujets non-techniques se cachent des réflexions plus profondes qui n’interrogent plus le <em>comment</em> mais le <em>pourquoi</em> et de plus en plus le <em>pourquoi pas</em> ?
   - url: https://blog.notmyidea.org/cloisonnement-des-activites.html
     title: "Cloisonnement des activités ?"
     locale: fr_FR
     authors: [Alexis Métaireau]
+    extract: >-
+      Si vous ne connaissez pas cette conférence, il s'agit d'un moment avec des gens chouettes qui se posent des questions sur leur metier, comment le vivre et comment continuer à en faire un plaisir. Oh, et des fois on parle un peu de technique aussi.
   - url: https://www.nicolas-hoffmann.net/source/1694-Retour-sur-Sud-Web-2016-a-Bordeaux.html
     title: "Retour sur Sud Web 2016 à Bordeaux"
     locale: fr_FR
     authors: [Nicolas Hoffmann]
+    extract: >-
+      Le maitre mot que je retiens de cette édition est la congruence (être en accord entre ses actions, ses sentiments, son être, etc.). Ce n’est pas toujours facile, mais c’est la seule voie pour durer.
   - url: https://twitter.com/hashtag/SudWeb2016?src=hash
     title: "#SudWeb2016"
 - year: 2017
@@ -433,7 +475,7 @@
   - url: http://noemiegirard.co/articles/Sudweb2017.html
     title: Sudweb 2017
     locale: en_US
-    authors: Noémie Girard
+    authors: [Noémie Girard]
     extract: >-
       It's quite rare for conferences to let their audience show their talent and not only be "passively" taking in the talks. In the two years I've been to Sudweb, those days have always proved to be the most fun and eye-opening moments.
   - url: https://makina-corpus.com/blog/societe/2017/retours-sur-sud-web-2017

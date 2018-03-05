@@ -53,7 +53,7 @@
       {% comment %} Si on a un extrait, on décore avec un `blockquote` et un `cite` {% endcomment %}
       {% if writeup.extract %}
         {% capture markup %}
-          <blockquote{% if writeup.locale and include.locale != writeup.locale %} lang="{{ writeup.locale | slice: 0,2 }}"{% endif %}>
+          <blockquote{% if writeup.locale and include.locale != writeup.locale %} lang="{{ writeup.locale | slice: 0,2 }}" class="other-lang"{% endif %}>
             <p>{{ writeup.extract }}</p>
             <cite>{{ markup }}</cite>
           </blockquote>
