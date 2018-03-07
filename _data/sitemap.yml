@@ -39,8 +39,8 @@
   in_nav: false
   in_footer: true
 - name: Contact
-  type: page
-  value: contact
+  type: translate
+  value: https://sudweb.fr/blog/contact/
   in_nav: true
   in_footer: true
 - name: Mentions légales
@@ -49,8 +49,8 @@
   in_nav: false
   in_footer: true
 - name: Témoignages
-  type: page
-  value: temoignages
+  type: translate
+  value: https://sudweb.fr/blog/temoignages/
   in_nav: false
   in_footer: true
 - name: Blog
