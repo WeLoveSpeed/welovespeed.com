@@ -68,6 +68,25 @@ address {
   }
 }
 
+dd {
+  margin: $global-gutters/2 0 $global-gutters;
+  padding-left: $global-gutters;
+  border-left: 1px solid $blockquote-border-color;
+  font-style: italic;
+  p {
+    margin: 0;
+  }
+
+  &.other-lang {
+    border-left-color: lighten($blockquote-border-color, 20);
+  }
+
+  address, blockquote {
+    border-color: transparent;
+    padding: 0;
+  }
+}
+
 figure {
 	margin: 0;
 }
