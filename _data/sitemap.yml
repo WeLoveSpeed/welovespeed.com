@@ -23,6 +23,11 @@
   value: venir-anduze
   in_nav: true
   in_footer: true
+- name: Infos pratiques
+  type: page
+  value: infos-pratiques
+  in_nav: true
+  in_footer: true
 - name: Code de Conduite
   type: page
   value: code-de-conduite
