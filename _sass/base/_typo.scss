@@ -49,7 +49,11 @@ p, .p-like, ul, ol, dl, blockquote, pre, caption {
 	margin: $default-line-height * 1em 0;
 }
 
-strong, b {
+dt {
+  margin-top: $default-line-height * 1em;
+}
+
+strong, b, dt {
 	font-weight: $font-weight-bold;
 }
 
