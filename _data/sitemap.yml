@@ -26,6 +26,7 @@
 - name: Infos pratiques
   type: page
   value: infos-pratiques
+  fr_only: true
   in_nav: true
   in_footer: true
 - name: Code de Conduite
@@ -42,6 +43,12 @@
   type: page
   value: financer
   in_nav: false
+  in_footer: true
+- name: Elles et ils nous soutiennent
+  type: page
+  value: merci
+  fr_only: true
+  in_nav: true
   in_footer: true
 - name: Contact
   type: translate

@@ -6,5 +6,11 @@
 {% when 'translate' %}
     <a href="{{ include.link.value | t: page.locale }}">{{ include.link.name | t: page.locale }}</a>
 {% else %}
+    {% unless include.link.fr_only %}
     <a href="{{ page.baseurl | default:site.baseurl }}/{{ include.link.value | t: page.locale }}/">{{ include.link.name | t: page.locale }}</a>
+    {% else %}
+    {% if page.locale == "fr_FR" %}
+      <a href="{{ page.baseurl | default:site.baseurl }}/{{ include.link.value }}/">{{ include.link.name }}</a>
+    {% endif %}
+    {% endunless %}
 {% endcase %}

@@ -1,0 +1,213 @@
+.thanks-grid {
+  &,
+  & > * {
+    border: dotted silver;
+  }
+}
+
+.thanks-grid {
+  display: grid; box-sizing: border-box;
+  grid-template-columns: repeat(10, 1fr); grid-auto-flow: row;
+  border-width: 1px 0 0 1px;
+  & > * {
+    position: relative;
+    overflow: hidden; box-sizing: border-box;
+    border-width: 0 1px 1px 0;
+    &::before {
+      display: block;
+      content: '';
+    }
+  }
+  & > i::before {
+    padding: 100% 0 0;
+  }
+
+  // Animals svg : https://thenounproject.com/creativestall/collection/animals-and-birds-line-icons/
+  // Thanks to @borisschapira's The Noun Project pro account
+
+  .logo {
+    position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+    display: block; margin: $global-gutters/2;
+    background: center / contain no-repeat;
+  }
+  .M28440420O7771 {
+    &::before {
+      padding: 400% 0 0;
+    }
+    grid-area: 1 / span 5 / span 20 / -1;
+    background-color: rgba(204, 210, 56, .3);
+    .logo {
+      background-image: url(../images/merci/mediapart.svg);
+    }
+  }
+  .M29171786O7771 {
+    &::before {
+      padding: 200% 0 0;
+    }
+    grid-area: 1 / 1 / span 10 / span 5;
+    background-color: $pastel-yellow;
+    .logo {
+      background-image: url(../images/merci/jolicode.svg);
+    }
+  }
+  .M28611102O7771 {
+    &::before {
+      padding: 100% 0 0;
+    }
+    grid-area: 11 / 1 / span 5 / span 5;
+    background-color: $pastel-blue;
+    .logo {
+      background-image: url(../images/merci/anonymous/1.svg);
+    }
+  }
+  .M28223555O7771 {
+    &::before {
+      padding: 100% 0 0;
+    }
+    grid-area: 16 / 1 / span 5 / span 5;
+    background-color: $pastel-green;
+    .logo {
+      background-image: url(../images/merci/anonymous/2.svg);
+    }
+  }
+  .M29204308O7771 {
+    &::before {
+      padding: 40% 0 0;
+    }
+    grid-area: 21 / 1 / span 2 / span 5;
+    background-color: white;
+    .logo {
+      background-image: url(../images/merci/occitech.svg);
+    }
+  }
+  .M30068721O7771 {
+    &::before {
+      padding: 60% 0 0;
+    }
+    grid-area: 21 / 6 / span 2 / span 3;
+    background-color: $pastel-red;
+    .logo {
+      background-image: url(../images/merci/nh.svg);
+    }
+  }
+  .M29066683O7771 {
+    &::before {
+      padding: 20% 0 0;
+    }
+    grid-area: 23 / 6 / span 1 / span 5;
+    background-color: $pastel-orange;
+    .logo {
+      background-image: url(../images/merci/anonymous/4.svg);
+    }
+  }
+  .M28697754O7771 {
+    &::before {
+      padding: 20% 0 0;
+    }
+    grid-area: 25 / 2 / span 1 / span 5;
+    background-color: $pastel-yellow;
+    .logo {
+      background-image: url(../images/merci/anonymous/5.svg);
+    }
+  }
+  .M27963787O7771 {
+    &::before {
+      padding: 20% 0 0;
+    }
+    grid-area: 23 / 1 / span 1 / span 5;
+    background-color: $pastel-blue;
+    .logo {
+      background-image: url(../images/merci/anonymous/6.svg);
+    }
+  }
+  .M29223112O7771 {
+    &::before {
+      padding: 33.33% 0 0;
+    }
+    grid-area: 24 / 4 / span 1 / span 3;
+    background-color: $pastel-red;
+    .logo {
+      background-image: url(../images/merci/anonymous/7.svg);
+    }
+  }
+  .M29136772O7771 {
+    &::before {
+      padding: 33.33% 0 0;
+    }
+    grid-area: 24 / 7 / span 1 / span 3;
+    background-color: $pastel-yellow;
+    .logo {
+      background-image: url(../images/merci/anonymous/8.svg);
+    }
+  }
+  .M28597910O7771 {
+    &::before {
+      padding: 33.33% 0 0;
+    }
+    grid-area: 24 / 1 / span 1 / span 3;
+    background-color: $pastel-green;
+    .logo {
+      background-image: url(../images/merci/anonymous/9.svg);
+    }
+  }
+  .M28901695O7771 {
+    &::before {
+      padding: 100% 0 0;
+    }
+    grid-area: 22 / 9 / span 1 / span 1;
+    background-color: $pastel-green;
+    .logo {
+      background-image: url(../images/merci/anonymous/10.svg);
+    }
+  }
+  .M28900445O7771 {
+    &::before {
+      padding: 100% 0 0;
+    }
+    grid-area: 21 / 9 / span 1 / span 1;
+    background-color: #417aa1;
+    .logo {
+      background-image: url(../images/merci/direct-assemblee.svg);
+    }
+  }
+  .M28698012O7771 {
+    &::before {
+      padding: 100% 0 0;
+    }
+    grid-area: 24 / 10 / span 1 / span 1;
+    background-color: $pastel-blue;
+    .logo {
+      background-image: url(../images/merci/anonymous/11.svg);
+    }
+  }
+  .M28518938O7771 {
+    &::before {
+      padding: 100% 0 0;
+    }
+    grid-area: 25 / 1 / span 1 / span 1;
+    background-color: $pastel-red;
+    .logo {
+      background-image: url(../images/merci/anonymous/12.svg);
+    }
+  }
+  .M27965776O7771 {
+    &::before {
+      padding: 100% 0 0;
+    }
+    grid-area: 22 / 10 / span 1 / span 1;
+    background-color: $pastel-yellow;
+    .logo {
+      background-image: url(../images/merci/anonymous/13.svg);
+    }
+  }
+  .M27953269O7771 {
+    &::before {
+      padding: 100% 0 0;
+    }
+    grid-area: 21 / 10 / span 1 / span 1;
+    background-color: $pastel-red;
+    .logo {
+      background-image: url(../images/merci/boris.svg);
+    }
+  }
+}
