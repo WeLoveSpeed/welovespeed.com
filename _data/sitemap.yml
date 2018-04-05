@@ -32,7 +32,7 @@
 - name: Code de Conduite
   type: page
   value: code-de-conduite
-  in_nav: true
+  in_nav: false
   in_footer: true
 - name: Manifeste
   type: page
@@ -48,7 +48,7 @@
   type: page
   value: merci
   fr_only: true
-  in_nav: true
+  in_nav: false
   in_footer: true
 - name: Contact
   type: translate
