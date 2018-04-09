@@ -1,9 +1,9 @@
 ---
 display-order: 6
 speaker:
-  - edwy
+  - stephane
 fr_FR:
-  title: Militer pour une Presse libre
+  title: L’information reconfigurée par le numérique
   description: >-
     <p>Il y a 10 ans, nous avons lancé Mediapart. Il semblait impossible, alors, de construire une offre journalistique qui vivrait de l’unique soutien de ses lecteurs. Et pourtant, 10 an après, Mediapart a su trouver sa place.</p>
     <p>Pourquoi avoir misé sur ce modèle ? Quelles ont été les difficultés et comment les avons-nous surmontées ? Quel potentiel pour des initiatives qui voudraient se lancer aujourd’hui ?</p>
