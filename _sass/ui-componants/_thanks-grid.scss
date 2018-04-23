@@ -30,14 +30,34 @@
     display: block; margin: $global-gutters/2;
     background: center / contain no-repeat;
   }
+  .M30701219O7771 {
+    &::before {
+      padding: 800% 0 0;
+    }
+    grid-area: 33 / 1 / span 20 / -1;
+    background-color: #000;
+    .logo {
+      background-image: url(../images/merci/mozilla.svg);
+    }
+  }
   .M28440420O7771 {
     &::before {
       padding: 400% 0 0;
     }
-    grid-area: 1 / span 5 / span 20 / -1;
+    grid-area: 1 / 6 / span 20 / -1;
     background-color: rgba(204, 210, 56, .3);
     .logo {
       background-image: url(../images/merci/mediapart.svg);
+    }
+  }
+  .M30695354O7771 {
+    &::before {
+      padding: 160% 0 0;
+    }
+    grid-area: 25 / 6 / span 8 / span 5;
+    background-color: #eee;
+    .logo {
+      background-image: url(../images/merci/evolix.svg);
     }
   }
   .M29171786O7771 {
@@ -64,7 +84,7 @@
     &::before {
       padding: 100% 0 0;
     }
-    grid-area: 26 / 1 / span 5 / span 5;
+    grid-area: 25 / 1 / span 5 / span 5;
     background-color: $pastel-blue;
     .logo {
       background-image: url(../images/merci/anonymous/14.svg);
@@ -114,7 +134,7 @@
     &::before {
       padding: 20% 0 0;
     }
-    grid-area: 25 / 2 / span 1 / span 5;
+    grid-area: 30 / 1 / span 1 / span 5;
     background-color: $pastel-yellow;
     .logo {
       background-image: url(../images/merci/anonymous/5.svg);
@@ -194,7 +214,7 @@
     &::before {
       padding: 100% 0 0;
     }
-    grid-area: 25 / 1 / span 1 / span 1;
+    grid-area: 31 / 1 / span 1 / span 1;
     background-color: $pastel-red;
     .logo {
       background-image: url(../images/merci/anonymous/12.svg);
