@@ -12,6 +12,13 @@ locale: fr_FR
 logo: https://sudweb.fr/2018/assets/images/social/sudweb-logo.jpg
 lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+
+# Est-ce qu'on vend des places à tarif plein, est-ce qu'on propose une liste d'attente ou les deux ?
+tickets:
+  selling: false
+  waiting-list: true
+
+# Compression du code HTML en production
 compress_html:
   ignore:
     envs:
