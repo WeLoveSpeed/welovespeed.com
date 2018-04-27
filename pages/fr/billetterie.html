@@ -67,6 +67,7 @@ permalink: /billetterie/
 
 <hr class="wrapper">
 
+{% if site.tickets.selling %}
 <section class="section" id="register">
   <div class="wrapper">
     <h2>Acheter votre place et&#8239;/&#8239;ou contribuer à la cagnotte</h2>
@@ -76,12 +77,33 @@ permalink: /billetterie/
     <script type="text/javascript" src="https://www.weezevent.com/js/widget/min/widget.min.js"></script>
   </div>
 </section>
+{% endif %}
+{% if site.tickets.waiting-list %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Liste d'attente plein tarif</h2>
+    <p>Toutes les places à tarif plein disponibles pour cette édition ont été vendues. Il est possible que de nouvelles places se libèrent en cas de désistement, ou que nous en ouvrions des nouvelles si des personnes renoncent à loger au Val de l'Hort.</p>
+    <p>Inscrivez-vous sur la liste d'attente pour être prévenu·e·s au fil des disponibilités.</p>
+    <form method="post" id="waiting-list-form" action="https://docs.google.com/forms/d/e/1FAIpQLSc_0GYtxUa3ByVQ2MZHGQEPAAL5-VUGkROkda3cJzZkmgc4JQ/formResponse" enctype="multipart/form-data">
+      <div class="p-like">
+        <label for="speaker-email">Email <span class="required">*</span></label>
+        <input type="email" name="entry.1045781291" id="speaker-email" required placeholder="ex : amelie@from-paris.com">
+      </div>
+      <div class="p-like text-center">
+        <button type="submit" class="button" data-text="s'inscrire sur la liste d'attente du plein tarif">
+          <span class="button-inner">s'inscrire sur la liste d'attente du plein tarif</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+{% endif %}
 
 <hr class="wrapper">
 
 <section class="section" id="register">
   <div class="wrapper">
-    <h2 id="tarif-reduit">Bénéficier d'une place tarif réduit</h2>
+    <h2 id="tarif-reduit">Tirage au sort des places à tarif réduit</h2>
     <p>Parce que la vie ne fait pas toujours de cadeaux, il était important pour nous de proposer un tarif plus abordable, particulièrement destiné aux personnes sans emploi, aux étudiant·e·s, aux personnes en reconversion, à celles qui vivent un moment difficile… (cette liste est malheureusement non-exhaustive).</p>
     <p>C'est pourquoi nous avons mis en place une cagnotte qui permet de financer des places au <strong>tarif réduit de 50&nbsp;€</strong>. Une nouvelle place sera financée <a href="{{ "/financer/#crowdfounding" | relative_url }}">tous les 200&nbsp;€ de dons</a>.<p>
 
@@ -97,8 +119,8 @@ permalink: /billetterie/
         <input type="email" name="entry.1045781291" id="speaker-email" required placeholder="ex : amelie@from-paris.com">
       </div>
       <div class="p-like text-center">
-        <button type="submit" class="button" data-text="S'inscrire">
-          <span class="button-inner">S'inscrire</span>
+        <button type="submit" class="button" data-text="s'inscrire sur la liste d'attente du tarif réduit">
+          <span class="button-inner">s'inscrire sur la liste d'attente du tarif réduit</span>
         </button>
       </div>
     </form>
