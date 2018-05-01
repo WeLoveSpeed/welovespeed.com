@@ -4,7 +4,6 @@ sudo: false
 rvm: 2.4.0
 install:
 - bundle install
-- bundle exec rake prebuild:install
 script:
 - bundle exec rake build:prod
 - bundle exec rake postbuild:test
