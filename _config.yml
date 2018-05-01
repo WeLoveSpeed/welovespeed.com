@@ -15,8 +15,8 @@ lazyload:
 
 # Est-ce qu'on vend des places à tarif plein, est-ce qu'on propose une liste d'attente ou les deux ?
 tickets:
-  selling: false
-  waiting-list: true
+  selling: true
+  waiting-list: false
 
 # Compression du code HTML en production
 compress_html:
