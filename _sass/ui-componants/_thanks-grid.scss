@@ -251,4 +251,14 @@
       background-image: url(../images/merci/anonymous/15.svg);
     }
   }
+  .M30983849O7771 {
+    &::before {
+      padding: 33.33% 0 0;
+    }
+    grid-area: 31 / 3 / span 1 / span 3;
+    background-color: $pastel-green;
+    .logo {
+      background-image: url(../images/merci/anonymous/16.svg);
+    }
+  }
 }
