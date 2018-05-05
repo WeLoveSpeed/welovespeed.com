@@ -8,64 +8,43 @@ permalink: /billetterie/
 <section class="section">
   <div class="wrapper">
     <h1>Réserver votre place</h1>
-    <div class="grid-3">
+    <p>
+      Il existe trois tarifs pour Sud Web mais destinés à des publics différents. Ces trois types de billes ouvrent droit à la même expérience, sans aucune différence faite, sur place, entre les personnes. Les tarifs réduits et pro-diversité sont financés par <a href="{{ "/financer/" | relative_url }}">la solidarité</a> de la communauté Sud Web, <a href="{{ "/merci/" | relative_url }}">particuliers comme entreprises</a>.
+    </p>
+    <p class="text-center">
+      <a class="button" data-text="tarif plein" href="#register" title="Réserver une place à plein tarif">
+        <span class="button-inner">tarif plein</span>
+      </a>
+      <a class="button" data-text="tarif réduit" href="#tarif-reduit" title="Réserver une place à plein tarif">
+        <span class="button-inner">tarif réduit</span>
+      </a>
+      <a class="button" data-text="billets gratuits pro-diversité" href="#diversity" title="Réserver une place à plein tarif">
+        <span class="button-inner">billets gratuits pro-diversité</span>
+      </a>
+    </p>
+  </div>
+</section>
+
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <h2>Que comprend une place pour Sud Web ?</h2>
+    <div class="grid-2">
       <section>
         <h3>Une journée de conférence</h3>
-        <p>Le vendredi, une journée placée sous l'angle de la transmission, du retour d'expérience et de l'émotion.</p>
+        <p>Le vendredi, une journée placée sous l'angle de la transmission, du retour d'expérience et de l'émotion. Tous les participants se réunissent pour écouter ou participer à des interventions qui se succèdent, entrecoupées de pauses pour réfléchir et échanger.</p>
       </section>
       <section>
         <h3>Le Forum Ouvert</h3>
-        <p>Le samedi, une journée d'échange et de co-construction, où tout devient possible.</p>
-      </section>
-      <section>
-        <h3>Tous les moments informels</h3>
-        <p>En particulier les soirées communautaires (jeudi et vendredi) pour apprendre à se connaitre, se détendre et discuter dans un cadre reposant.</p>
+        <p>Le samedi, une journée d'échange et de co-construction, où tout devient possible. Chacun·e amène ses idées le matin, et nous construisons ensemble des prises de paroles, des ateliers, des réflexions…</p>
       </section>
     </div>
+    <p>Vous pouvez choisir de vivre l’évènement de différentes manières : en restant <a href="{{ "/#dodo" | relative_url }}" title="Dormir sur place au Val de l'Hort">au Val de l'Hort</a> avec nous pendant toute la durée de l'événement ou en profitant de ce que propose Anduze en terme d'hébergement, de repas et autres divertissements.</p>
+    <p>Mais quoi qu’il en soit, sachez que vous serez chouchouté·e·s et bien nourri·e·s. Chaque place comprend de copieux petits-déjeuners, de délicieux buffets déjeunatoires – végétariens par défaut – et de petites collations pendant les pauses pour vous éviter l’hypoglycémie. Sans oublier les soirées communautaires, pour prolonger les échanges de la journée.</p>
+    <p>Si vous avez des questions, n'hésitez pas à nous contacter par <a href="mailto:contact@sudweb.fr" title="Envoyer-nous un email">mail</a>, sur <a href="https://twitter.com/sudweb">Twitter</a>, ou <a href="http://sudweb.herokuapp.com/">Slack</a>.</p>
   </div>
 </section>
-
-<hr class="wrapper">
-
-<section class="section">
-  <div class="wrapper">
-    <h2>Effrayé·e par le trajet ?</h2>
-    <section>
-      <p>Nous avons des solutions ! Nous n'avons pas choisi ce lieu par hasard et pensons vraiment qu'il nous permettra de vous offrir le meilleur Sud Web possible… qui commencera d'ailleurs peut-être pendant le trajet !</p>
-    </section>
-    <div class="text-center">
-      <a class="button" href="{{ "/venir-anduze/" | relative_url }}" data-text="Venir à Anduze">
-        <span class="button-inner">Venir à Anduze</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<hr class="wrapper">
-
-<section class="section">
-  <div class="wrapper">
-    <h2>Un tarif en deux parties</h2>
-    <div class="grid-2">
-      <section>
-        <h3>Un tarif de base</h3>
-        <p>Pour être sûr·e de pouvoir participer à Sud Web, du jeudi soir au samedi, avec repas inclus et hébergement offert,
-          choisissez le tarif plein.</p>
-      </section>
-      <section>
-        <h3>Un don</h3>
-        <p>Ce don permettra de financer des places à <a href="#tarif-reduit">tarif&nbsp;réduit</a> pour celles et ceux qui en ont besoin.</p>
-      </section>
-    </div>
-    <div class="text-center">
-      <a class="button" href="{{ "/financer/" | relative_url }}" data-text="En savoir plus">
-        <span class="button-inner">En savoir plus</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<hr class="wrapper">
 
 {% if site.tickets.selling %}
 <section class="section" id="register">
@@ -134,8 +113,8 @@ permalink: /billetterie/
     <p>Les personnes ayant l'impression d'appartenir à un groupe sous-représenté dans le domaine de la technologie (cela comprend, sans s'y limiter : les personnes de couleur, les personnes LGBTQIA+, les femmes et les personnes handicapées) sont éligibles à cette initiative.</p>
     <p><a href="{{ "/financer/#diversity" | relative_url }}" title="Offrir des places pour la diversité">Grâce à vos dons</a>, <strong>{{ site.data.crowdfunding.nb_diversity_tickets }}</strong> places ont pour l'instant été offertes par Sud Web à cette initiative.</p>
     <div class="text-center">
-      <a class="button" target="_blank" href="https://diversitytickets.org/events/160/applications/new" data-text="Candidater">
-        <span class="button-inner">Candidater</span>
+      <a class="button" target="_blank" href="https://diversitytickets.org/events/160/applications/new" data-text="Candidater sur le site de Diversity Tickets">
+        <span class="button-inner">Candidater sur le site de Diversity Tickets</span>
       </a>
     </div>
   </div>
@@ -145,13 +124,18 @@ permalink: /billetterie/
 
 <section class="section">
   <div class="wrapper">
-    <h2>Le pouvoir du choix</h2>
-    <p>Vous pouvez choisir de vivre l’évènement de différentes manières : en restant au Val de l'Hort avec nous pendant toute la durée de l'événement ou en profitant de ce que propose Anduze en terme d'hébergement, de repas et autres divertissements.</p>
-    <p>Mais quoi qu’il en soit, sachez que vous serez chouchouté·e·s et bien nourri·e·s. Chaque place comprend de copieux petits-déjeuners, de délicieux buffets déjeunatoires, et de petites collations pendant les pauses pour vous éviter l’hypoglycémie. Sans oublier les soirées communautaires, pour prolonger les échanges de la journée.</p>
-    <p>Si vous avez des questions, n'hésitez pas à nous contacter par <a href="mailto:contact@sudweb.fr" title="Envoyer-nous un email">mail</a>, sur <a href="https://twitter.com/sudweb">Twitter</a>, ou <a href="http://sudweb.herokuapp.com/">Slack</a>.</p>
+    <h2>Effrayé·e par le trajet ?</h2>
+    <section>
+      <p>Nous avons des solutions ! Nous n'avons pas choisi ce lieu par hasard et pensons vraiment qu'il nous permettra de vous offrir le meilleur Sud Web possible… qui commencera d'ailleurs peut-être pendant le trajet !</p>
+    </section>
+    <div class="text-center">
+      <a class="button" href="{{ "/venir-anduze/" | relative_url }}" data-text="Venir à Anduze">
+        <span class="button-inner">Venir à Anduze</span>
+      </a>
+    </div>
   </div>
 </section>
 
-{% include register-section.html inside=true %}
+<hr class="wrapper">
 
 {% include banners/station.html locale=page.locale %}
