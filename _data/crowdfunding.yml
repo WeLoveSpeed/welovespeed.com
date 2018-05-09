@@ -1,4 +1,7 @@
-amount: 2395
-nb_reduced: 14
-nb_reduced_allocated: 14
-nb_diversity_tickets: 13
+amount: 5140
+reduced:
+  nb: 14
+  available: 2
+diversity:
+  nb: 13
+  available: 10
