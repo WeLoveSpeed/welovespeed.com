@@ -34,7 +34,7 @@
     &::before {
       padding: 200% 0 0;
     }
-    grid-area: 33 / 1 / span 20 / -1;
+    grid-area: 38 / 1 / span 20 / -1;
     background-color: #000;
     .logo {
       background-image: url(../images/merci/mozilla.svg);
@@ -88,6 +88,16 @@
     background-color: $pastel-blue;
     .logo {
       background-image: url(../images/merci/anonymous/14.svg);
+    }
+  }
+  .M31780093O7771 {
+    &::before {
+      padding: 100% 0 0;
+    }
+    grid-area: 32 / 1 / span 5 / span 5;
+    background-color: #fff;
+    .logo {
+      background-image: url(../images/merci/jechange.svg);
     }
   }
   .M28223555O7771 {
