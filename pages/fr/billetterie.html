@@ -12,10 +12,10 @@ permalink: /billetterie/
       Il existe trois tarifs pour Sud Web, destinés à des publics différents. Ces trois types de billets ouvrent droit à la même expérience, sans aucune différence faite, sur place, entre les personnes. Les tarifs réduits et pro-diversité sont financés par <a href="{{ "/financer/" | relative_url }}">la solidarité</a> de la communauté Sud Web, <a href="{{ "/merci/" | relative_url }}">particuliers comme entreprises</a>.
     </p>
     <p class="text-center">
-      <a class="button" data-text="tarif plein (250&nbsp;€)" href="#register" title="Réserver une place à plein tarif">
+      <a class="button" data-text="ÉPUISÉS" href="#register" title="Réserver une place à plein tarif">
         <span class="button-inner">tarif plein (250&nbsp;€)</span>
       </a>
-      <a class="button" data-text="tarif réduit (50&nbsp;€)" href="#tarif-reduit" title="S'inscrire en liste d'attente pour une place à tarif réduit">
+      <a class="button" data-text="ÉPUISÉS" href="#tarif-reduit" title="S'inscrire en liste d'attente pour une place à tarif réduit">
         <span class="button-inner">tarif réduit (50&nbsp;€)</span>
       </a>
       <a class="button" data-text="tarif pro-diversité (gratuit)" href="#diversity" title="Candidater pour une place pro-diversité">
@@ -49,7 +49,7 @@ permalink: /billetterie/
 {% if site.tickets.selling %}
 <section class="section" id="register">
   <div class="wrapper">
-    <h2>Acheter votre place et&#8239;/&#8239;ou contribuer à la cagnotte</h2>
+    <h2>{% comment %}Acheter votre place et&#8239;/&#8239;ou {% endcomment %}Contribuer à la cagnotte</h2>
     <a title="Billetterie en ligne pour Sud Web" href="https://www.weezevent.com/?c=sys_widget" class="weezevent-widget-integration"
       target="_blank" data-src="https://www.weezevent.com/widget_billeterie.php?id_evenement=308930&lg_billetterie=1&code=76027&resize=1&width_auto=1&color_primary=93ac3d"
       data-width="650" data-height="600" data-id="308930" data-resize="1" data-width_auto="1" data-noscroll="0" data-nopb="0">Billetterie Weezevent</a>
@@ -86,9 +86,9 @@ permalink: /billetterie/
     <p>Parce que la vie ne fait pas toujours de cadeaux, il était important pour nous de proposer un tarif plus abordable, particulièrement destiné aux personnes sans emploi, aux étudiant·e·s, aux personnes en reconversion, à celles qui vivent un moment difficile… (cette liste est malheureusement non-exhaustive).</p>
     <p>C'est pourquoi nous avons mis en place une cagnotte qui permet de financer des places au <strong>tarif réduit de 50&nbsp;€</strong>. Une nouvelle place sera financée <a href="{{ "/financer/#crowdfounding" | relative_url }}">tous les 200&nbsp;€ de dons</a>.<p>
 
-    <p>Il y a actuellement {{ site.data.crowdfunding.reduced.nb }} places <a href="{{ "/financer/#crowdfounding" | relative_url }}" title="Contribuer à la cagnotte pour financer des place à tarif réduit">financées</a>{% if site.data.crowdfunding.reduced.available > 0 %} dont <strong>{{ site.data.crowdfunding.reduced.available }} sont disponible{% if site.data.crowdfunding.reduced.available > 1 %}s{% endif %}</strong>{% endif %}.</p>
+    <p>Il y a actuellement {{ site.data.crowdfunding.reduced.nb }} places <a href="{{ "/financer/#crowdfounding" | relative_url }}" title="Contribuer à la cagnotte pour financer des place à tarif réduit">financées</a>{% if site.data.crowdfunding.reduced.available > 0 %} dont <strong>{{ site.data.crowdfunding.reduced.available }} sont disponible{% if site.data.crowdfunding.reduced.available > 1 %}s{% endif %}</strong>{% endif %}.{% if site.data.crowdfunding.reduced.available==0 %} Toutes ont été affectées.{% endif %}</p>
 
-    <p>Par souci d'équité, l'attribution de ces places se fera par tirage au sort, qui aura lieu tous les jeudis jusqu'au <strong>17 mai 2018</strong> (limite d'inscription la veille à 23:59). Nous contacterons alors les personnes concernées pour confirmer leur réglement.</p>
+    {% comment %}<p>Par souci d'équité, l'attribution de ces places se fera par tirage au sort, qui aura lieu tous les jeudis jusqu'au <strong>17 mai 2018</strong> (limite d'inscription la veille à 23:59). Nous contacterons alors les personnes concernées pour confirmer leur réglement.</p>
     <p>Si vous souhaitez bénéficier d'une place à 50&nbsp;€, inscrivez-vous en envoyant votre adresse mail (elle sera utilisée uniquement dans le cadre du tirage au sort).<br>N'étant pas légitimes à évaluer vos situations, nous ne demanderons aucun justificatif.</p>
 
     <form method="post" id="mailto-form" action="https://docs.google.com/forms/d/1u8snYX6_t9WgT6he1fc_iKoZOOxvNlHgxmKInJ0SXXE/formResponse" enctype="multipart/form-data">
@@ -101,7 +101,7 @@ permalink: /billetterie/
           <span class="button-inner">s'inscrire sur la liste d'attente du tarif réduit</span>
         </button>
       </div>
-    </form>
+    </form>{% endcomment %}
   </div>
 </section>
 
