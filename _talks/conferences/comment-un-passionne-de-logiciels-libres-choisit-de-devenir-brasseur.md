@@ -10,4 +10,5 @@ en_US:
   title: "How an open-source hacker decided to become a brewer?"
   description: >-
     <p>After working a few years for Mozilla, I’ve changed my plans in 2016, opening a craft brewery near Rennes: la Brasserie du Vieux Singe.</p><p>But my core values stay inchanged: sharing, collaboration, helping each other.</p><p>I’ll try to talk about how my experiences overlap between brewing and hacking, how that helped me, and a bit about what it is to be a brewer for me.</p><p>Because, maybe, a little bit of our values can make it to our glasses?</p>
+  transcript: https://blog.notmyidea.org/de-mozilla-a-la-brasserie-du-vieux-singe.html
 ---
