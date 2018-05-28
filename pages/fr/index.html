@@ -101,11 +101,13 @@ redirect_from:
     <p>
       Si toutefois vous préférez vous loger par vos propres moyens, <a href="{{ "/alternatives-logement/" | relative_url }}">des alternatives sont disponibles</a>.
     </p>
+    {% if site.tickets.selling %}
     <p class="text-center">
       <a class="button" data-text="réserver votre place" href="{{ "/billetterie/" | relative_url }}" title="Venir à Sud Web 2018">
         <span class="button-inner">réserver votre place</span>
       </a>
     </p>
+    {% endif %}
     <div class="grid-3">
       <figure role="group" aria-labelledby="fig1">
         <img src="{{ site.lazyload.placeholder }}" class="lozad" data-src="{{ "/assets/images/anduze/val-de-lhort-1-460.jpg" | relative_url }}" alt="Un espace circulant" width="460" height="307">

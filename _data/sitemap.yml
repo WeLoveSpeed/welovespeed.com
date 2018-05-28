@@ -16,7 +16,7 @@
 - name: Billetterie
   type: page
   value: billetterie
-  in_nav: true
+  in_nav: false
   in_footer: false
 - name: Venir à Anduze
   type: page

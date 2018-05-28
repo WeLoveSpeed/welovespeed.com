@@ -14,6 +14,21 @@
         {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
       </h3>
       {{ verbatim.description | markdownify }}
+
+      {% if verbatim.video or verbatim.transcript or verbatim.slides %}
+        <p class="text-center">
+        {% if verbatim.video %}
+          <a class="button" data-text="{% t voir la vidéo %}" href="{{ verbatim.video }}" title="{% t voir la vidéo %}"><span class="button-inner">{% t voir la vidéo %}</span></a>
+        {% endif %}
+        {% if verbatim.transcript %}
+          <a class="button" data-text="{% t lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t lire la version textuelle %}"><span class="button-inner">{% t lire la version textuelle %}</span></a>
+        {% endif %}
+        {% if verbatim.slides %}
+          <a class="button" data-text="{% t consulter le support %}" href="{{ verbatim.slides }}" title="{% t consulter le support %}"><span class="button-inner">{% t consulter le support %}</span></a>
+        {% endif %}
+        </p>
+      {% endif %}
+
         {% for names in conference.speaker %}
         {% assign speaker = site.data.speakers[names] %}
         {% if include.locale == "en_US" and speaker.en_US %}

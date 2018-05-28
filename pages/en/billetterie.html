@@ -87,6 +87,8 @@ permalink: /en/register/
   </div>
 </section>
 
+{% if site.tickets.selling %}
 {% include register-section.html inside=true %}
+{% endif %}
 
 {% include banners/station.html locale=page.locale %}
