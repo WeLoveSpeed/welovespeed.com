@@ -15,11 +15,13 @@
       </h3>
       {{ verbatim.description | markdownify }}
 
-      {% if verbatim.video or verbatim.transcript or verbatim.slides %}
+      {% if verbatim.vimeo_id %}
+      <p class="text-center">
+        <iframe src="https://player.vimeo.com/video/{{ verbatim.vimeo_id }}?color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<br/><a href="https://vimeo.com/{{ verbatim.vimeo_id }}">{% t voir sur Vimeo %}</a>.</p>
+      {% endif %}
+      {% if verbatim.transcript or verbatim.slides %}
         <p class="text-center">
-        {% if verbatim.video %}
-          <a class="button" data-text="{% t voir la vidéo %}" href="{{ verbatim.video }}" title="{% t voir la vidéo %}"><span class="button-inner">{% t voir la vidéo %}</span></a>
-        {% endif %}
         {% if verbatim.transcript %}
           <a class="button" data-text="{% t lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t lire la version textuelle %}"><span class="button-inner">{% t lire la version textuelle %}</span></a>
         {% endif %}
