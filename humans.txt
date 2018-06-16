@@ -4,9 +4,8 @@ layout: null
 
 /* ABOUT */
 
-  Twitter:      @sudweb
-  Location:     South of France (Bordeaux, Toulouse, Montpellier, Avignon, Nîmes)
-  Design:       Matthieu Bué (@twikito)
+  Location:     Bordeaux
+  Design:       original design of https://sudweb.fr/2018/ by Matthieu Bué (@twikito)
 
 /* SITE */
 

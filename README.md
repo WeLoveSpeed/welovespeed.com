@@ -1,15 +1,12 @@
-# Sud Web 2018
+# We ❤️ Speed
 
-[![Build Status](https://travis-ci.org/sudweb/2018.svg?branch=master)](https://travis-ci.org/sudweb/2018)
-[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/sud-web/sud-web)
+Site internet de la conférence 'We ❤️ Speed', dont la première édition aura lieu le 9 octobre à Bordeaux
 
-Site internet du cycle de conférences annuel Sud Web, dont la 7e édition aura lieu à Anduze les 25 et 26 mai 2018.
-
-[https://sudweb.fr/](https://sudweb.fr/)
+**Site web en construction**, [version temporaire ici](https://www.welovespeed.com/).
 
 ## Pré-requis
 
-Le site est généré à l'aide de [Jekyll](http://jekyllrb.com/) et nécessite Ruby 2.4.0 (voir `.ruby-version`)
+Le site est généré à l'aide de [Jekyll](http://jekyllrb.com/) et nécessite Ruby 2.4.3 (voir `.ruby-version`)
 
 Nous vous recommandons de gérer l'installation de Ruby via [rbenv](http://rbenv.org/).
 
@@ -34,7 +31,7 @@ $ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 Si vous n'avez pas déjà cloné le dépot :
 ```bash
-$ git clone https://github.com/sudweb/2018.git && cd 2018
+$ git clone https://github.com/WeLoveSpeed/welovespeed.com.git && cd welovespeed.com
 ```
 Si bundler n'est pas installé
 ```bash
@@ -43,7 +40,6 @@ $ gem install bundler
 Pour installer toutes les dépendances du projet :
 ```bash
 $ bundle install;
-$ bundle exec rake prebuild:install;
 ```
 Pour installer la bonne version de Ruby avec rbenv :
 ```bash
@@ -87,7 +83,7 @@ Toute modification doit faire l'objet d'une [pull request](https://github.com/su
 
 ## Tests
 
-Avant de soumettre votre pull-request, vérifiez que les tests passent :
+Avant de soumettre votre pull-request, vérifiez que les tests passent après le build de la production :
 
 ```bash
 $ bundle exec rake postbuild:test:kiss

@@ -3,101 +3,77 @@ title: Code of Conduct
 description: "Consignes pour créer un cadre d’interaction bientraitant et protecteur"
 i18n-key: coc
 permalink: /en/code-of-conduct/
+layout: page
 ---
 
-<section class="section">
-  <div class="wrapper" markdown="1">
+# Code of conduct
 
-# Code of Conduct: <small>instructions for creating a framework for caring and safe interactions</small>
+**{{ site.title }}** is an organization dedicated to networking and collaboration in the Web Performance community.
 
-> What's not important to you may be important to others.
+We value the participation of each member of the Web Performance and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the organization events and at all conference events, whether officially sponsored by AFUP or not.
 
-At Sud Web, we assume that people are sensible and thoughtful, and we don't try to tell them what to do, especially since in the french conference landscape, Sud Web appears to be among the most welcoming. However, organizing this event in a safe&#8239;<sup><a href="#note1" id="note1-source">1</a></sup> environment seems important to us.
+To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any AFUP event are required to conform to the following Code of Conduct. Organizers will enforce this code throughout the event.
 
-We have therefore decided to propose guidelines that will make everyone feel comfortable.
+## The Short Version
 
-</div>
-</section>
+**{{ site.title }}** events are dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
 
-{% include banners/informelle.html locale=page.locale %}
+## The Longer Version
 
-<section class="section">
-<div class="wrapper" markdown="1">
+Harassment includes verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion; sexual images in public spaces; deliberate intimidation; stalking; following; harassing photography or recording; sustained disruption of talks or other events; inappropriate physical contact; and unwelcome sexual attention. Participants asked to stop any harassing behavior are expected to comply immediately.
 
-## Why a Code of Conduct?
+Exhibitors in the expo hall, sponsor or vendor booths, or similar activities are also subject to the anti-harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
 
-In each community, group or assembly, there is a dominant primary culture and people who do not belong to that culture. These people are therefore under-represented in the context, and of course they are more likely to be "oppressed" by the mainstream community. Often, this oppression manifests itself in hurtful behaviours or attitudes that are adopted without realizing it.
+If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
 
-This is where these instructions are used to create a safe environment for those who are under-represented by highlighting an issue.
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified by t-shirts or special lanyards. Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
 
-These instructions are a precautionary approach that allows us to anticipate uncomfortable situations that are inherent in a context.
+We expect participants to follow these rules at all conference venues and conference-related social events.
 
-Adopting these guidelines creates a trusting and caring relationship and invites those who are under-represented to join the community safely. This contributes to fostering and promoting diversity.
+## Staff Procedure for Incident
 
-## How does it work?
+### Warnings
 
-To safeguard and encourage the framework we aspire to, we have defined what works for us, and what does not:
+Any member of conference staff can issue a verbal warning to a participant that their behavior violates the conference's anti-harassment policy. Warnings should be reported to [{{ site.mail }}](mailto:{{ site.mail }}) as soon as practical. See [Report](#taking-reports) section for more information.
 
-### Encouraged behaviours:
+### Presentations
 
-**Hospitality !**
-Let's make sure that people (of all backgrounds and identities) are welcomed, that they feel accepted in an open and warm environment. This includes, but is not limited to, members of any ethnic group, culture, nationality, colour, immigration status, economic and social class, level of education, gender, sexual orientation, gender identity, age, size, family status, political belief, religion, and mental and physical ability.
+Presentations or similar events should not be stopped for one-time gaffes or minor problems, although a member of conference staff should speak to the presenter afterward. However, staff should take immediate action to politely and calmly stop any presentation or event that repeatedly or seriously violates the anti-harassment policy. For example, simply say "I'm sorry, this presentation cannot be continued at the present time" with no further explanation.
 
-**Benevolence and care!**
-Let us approach each other with kindness, that is to say, the willingness to aim for the good and happiness of others, and let us make sure that we are caring by making sure that our way of acting is based in kindness.
+### Taking reports
 
-### Behaviour we would like to discourage
+When taking a report from someone experiencing harassment you should record what they say and reassure them they are being taken seriously, but avoid making specific promises about what actions the organizers will take. Ask for any other information if the reporter has not volunteered it (such as time, place) but do not pressure them to provide it if they are reluctant. Even if the report lacks important details such as the identity of the person taking the harassing actions, it should still be recorded and passed along to the appropriate staff member(s). If the reporter desires it, arrange for an escort by conference staff or a trusted person, contact a friend, and contact local law enforcement. Do not pressure the reporter to take any action if they do not want to do it. Respect the reporter's privacy by not sharing unnecessary details with others, especially individuals who were not involved with the situation or non-staff members.
 
-* Personal attacks: threats, insults, use of violent language towards another person
-* Oppressive jokes and discriminatory language
-* Flirting, seduction, advances, etc.
-* Insisting or continuing when someone is asking you to stop
-* Advocating or encouraging the above behaviours
+The report should include:
 
-## What happens if I experience an uncomfortable situation that refers to these instructions?
+*   Identifying information (name/badge number) of the participant
+*   The time you issued the warning
+*   The behavior that was in violation
+*   The approximate time of the behavior (if different than the time of warning)
+*   The circumstances surrounding the incident
+*   Your identity
+*   Other people involved in the incident
 
-First of all, know that you are totally legitimate in saying that you are not comfortable with what is happening.
+### Expulsion
 
-Depending on your comfort level, there are a few options to choose from:
+A participant may be expelled by the decision of any of the above listed entities for whatever reasons they deem sufficient. However, here are some general guidelines for when a participant should be expelled:
 
-1. You feel secure and empowered: you are encouraged to report what happened to the organizing team.
-2. You don't feel secure and/or empowered:
-    * talk to a person you trust who is there. He or she will report what happened to the organizing team ;
-    * call a trusted friend ;
-    * go to a place and/or to people you feel comfortable with
+*   A second offense resulting in a warning from staff
+*   Continuing to harass after any "No" or "Stop" instruction
+*   A pattern of harassing behavior, with or without warnings
+*   A single serious offense (e.g., punching or groping someone)
+*   A single obviously intentional offense (e.g., taking up-skirt photos) Hotel/venue security and local authorities should be contacted when appropriate.
 
-## What can I do if I observe an oppressive situation or other CoC violations?
+### Public statements
 
-Although the options are multiple and often depend on the context and people involved, we recommend the following behaviour:
+Conference staff should not make any public statements about the behavior of individual people during or after the conference. In general, consult with other staff members when possible but act when necessary.
 
-1. With the person who experienced something uncomfortable :
-    * make sure that it was indeed a bad situation experienced by the person
-    * If so, make sure they feel good
-    * If you feel comfortable doing so, ask them if there's anything you can do for them. If so, ask them how they want to deal with the situation, or how they want you to deal with it
-    * in any case, what's important is to adapt your behaviour to the needs and requests of the person you are supporting.
-2. With the person causing the uncomfortable feeling (after the "victim" has given their consent):
-    * Call them out ;
-    * Check if they're willing to talk about the situation that you observed
-        * if so, ask them "how they feel about the situation[describe the situation]";
-        * If not, propose to talk about it later on and/or report what happened to the organizing team.
+## Information
 
-This is, of course, a non-exhaustive proposal that does not take into account multiple contexts and people. Our objective is more to define a framework than a strict method&#8239;<sup><a href="#note2" id="note2-source">2</a></sup>.
+At any time, for any question about this code of conduct please send an email to [{{ site.mail }}](mailto:{{ site.mail }}).
 
-## What happens if the instructions are not followed?
+## License and attribution
 
-Assuming we are informed about the situation, the organizing team's purpose is to **do something** while being well aware that each situation is different. First and foremost, we want to support people who have experienced something uncomfortable.
+This policy is licensed under the Creative Commons Zero license. It is public domain, no credit and no open licencing of your version is required.
 
-The first thing we're going to do is to make the person who experienced something uncomfortable feel better. Ideally, we build the resolution with them to make them feel that something is done, but everything will depend on them.
-
-Regarding the person who caused the situation, exclusion is possible but not automatic. There is a whole range of intervention options and we are determined to find the right solution every time.
-
-***
-
-<sup id="note1">1</sup>&#8239;: Here, a "safe" environment embodies an atmosphere of trust, tranquillity and harmony in which I feel "cared for" and in affective and emotional security. This is an environment in which I don't need to be on guard. That is to say, I am exempted from fears such as *"What if the other person judges me? What if they laugh at me? What if I'm wrong? What if the other one asks me to justify myself?"*. <a href="#note1-source">↵</a>
-
-<sup id="note2">2</sup>&#8239;: As [David (fr)](https://larlet.fr/david/stream/2018/01/12/) points out, we recall – for all intents and purposes – that there is already [a legal framework](https://www.legifrance.gouv.fr/affichSarde.do?reprise=true&page=1&idSarde=SARDOBJT000007118441) in France to tackle discrimination. **US readers**, to learn more about how French people culturally perceive freedom of expression, [here is an explanation](https://blogs.loc.gov/law/2015/03/falqs-freedom-of-speech-in-france/) <a href="#note2-source">↵</a>
-
-</div>
-</section>
-
-{% include banners/station.html locale=page.locale %}
+*This anti-harassment policy is based on the [example policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) from the [Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Geek_Feminism_Wiki), created by the [Ada Initiative](https://adainitiative.org/) and other volunteers and on the [PHP UK code of conduct](http://phpconference.co.uk/conduct/).*

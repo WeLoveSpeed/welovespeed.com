@@ -45,37 +45,37 @@ $media-expressions        : (
 $default-font-size          : 1em;
 $default-line-height        : 1.6;
 
-$font-weight-light          : 100;
-$font-weight-normal         : 300;
-$font-weight-bold           : 400;
+// $font-weight-light          : 100;
+$font-weight-normal         : 400;
+$font-weight-bold           : 700;
 
-$default-font-family        : "Roboto", arial, sans-serif;
+$default-font-family        : 'Spectral', serif;
 $default-font-weight        : $font-weight-normal;
 $default-font-style         : normal;
 
-$logo-font-family           : "Oraqle", cursive;
-$logo-font-weight           : normal;
-$logo-font-style            : normal;
+// $logo-font-family           : "Oraqle", cursive;
+// $logo-font-weight           : normal;
+// $logo-font-style            : normal;
 
-$main-title-font-family     : "Roboto", arial, sans-serif;
-$main-title-font-weight     : $font-weight-light;
-$main-title-font-style      : normal;
+// $main-title-font-family     : $default-font-family;
+// $main-title-font-weight     : $font-weight-light;
+// $main-title-font-style      : normal;
 
-$title-font-family          : "Roboto", arial, sans-serif;
-$title-font-weight          : $font-weight-light;
+$title-font-family          : 'Rubik', sans-serif;
+$title-font-weight          : $font-weight-normal;
 $title-font-style           : normal;
 $title-line-height          : 1.2;
 
-$nav-font-family            : "Roboto", arial, sans-serif;
-$nav-font-weight            : $font-weight-light;
+$nav-font-family            : $title-font-family;
+$nav-font-weight            : $title-font-weight;
 $nav-font-style             : normal;
 
-$input-font-family          : "Roboto", arial, sans-serif;
+$input-font-family          : $default-font-family;
 $input-font-weight          : $font-weight-normal;
 $input-font-style           : italic;
 
-$button-font-family         : "Roboto", arial, sans-serif;
-$button-font-weight         : $font-weight-bold;
+$button-font-family         : $title-font-family;
+$button-font-weight         : $title-font-weight;
 $button-font-style          : normal;
 
 
@@ -112,7 +112,7 @@ $btn-hpadding               : 1.5em;
 
 // Transitions
 
-$default-duration           : .25s;
+$default-duration           : .15s;
 $default-timing-function    : ceaser(easeInOutQuart);
 
 $nav-toggle-duration        : .5s;
@@ -121,4 +121,4 @@ $nav-toggle-timing-function : ceaser(easeOutCubic);
 
 // Banners slugs
 
-$banners                  : ('bambouseraie', 'forum', 'chemin', 'station', 'conference', 'informelle', 'along', 'hands', 'rocher', 'tornac', 'train');
+$banners                  : ('pexels-409701');

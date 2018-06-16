@@ -119,7 +119,7 @@ DEPENDENCIES
   rake (~> 12.0)
 
 RUBY VERSION
-   ruby 2.4.0p0
+   ruby 2.4.3p205
 
 BUNDLED WITH
    1.16.1

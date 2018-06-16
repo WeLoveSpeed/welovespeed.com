@@ -11,4 +11,4 @@ Fixes #
 
 ### Qui devrait être prévenu de cette demande ?
 
-@sudweb/thym
+@weblovespeed/staff

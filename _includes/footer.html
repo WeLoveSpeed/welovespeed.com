@@ -1,20 +1,10 @@
 <footer class="page-footer">
   <div class="wrapper">
     {% if page.i18n-key == 'home' or page.i18n-key == 'contact' %}
-      {% include thym.html %}
+      {% include staff.html %}
       <hr>
     {% endif %}
-    <div class="grid-3">
-      <section>
-        <h2 id="footerTitle1" class="text-lg">{% t Épisodes précédents %}</h2>
-        <nav aria-labelledby="footerTitle1">
-          <ul>
-            {% for edition in site.data.editions %}
-            <li><a href="https://sudweb.fr/{{edition.year}}">{{edition.year}} {% t à %} {{edition.town}}</a></li>
-            {% endfor%}
-          </ul>
-        </nav>
-      </section>
+    <div class="grid-2">
       <section>
         <h2 id="footerTitle2" class="text-lg">{% t Pour en savoir plus %}</h2>
         <nav aria-labelledby="footerTitle2">
@@ -27,11 +17,12 @@
         </nav>
       </section>
       <section>
+        {% if site.newsletter.display %}
         <h2 class="text-lg">{% t On reste en contact ? %}</h2>
-        <form action="//sudweb.us2.list-manage.com/subscribe/post?u=af19b58cf514c01eca3f7652e&amp;id=b579f5b507"
+        <form action="{{ site.newsletter.url }}"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
           class="newsletter-form validate" target="_blank" rel="noopener noreferrer" novalidate="">
-          <label for="mce-EMAIL">{% t Recevez la Sud Web letter %}</label>
+          <label for="mce-EMAIL">{% t Recevez notre newsletter %}</label>
           <div class="form-row">
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{% t Votre email %}" required="">
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -41,6 +32,7 @@
             <button class="button-reset" type="submit" name="subscribe" id="mc-embedded-subscribe">ok</button>
           </div>
         </form>
+        {% endif %}
         <ul class="social-links">
           {% for social in site.data.social %}
             <li>
@@ -55,6 +47,6 @@
       </section>
     </div>
     <hr>
-    <p class="text-center">{% t Contribué sur %} <a href="https://github.com/sudweb/2018">github</a> {% t et gracieusement hébergé par %} <a href="https://alwaysdata.com">alwaysdata</a>.</p>
+    <p class="text-center">{% t Contribué sur %} <a href="https://github.com/{{ site.repository }}">github</a> {% t et propulsé par %} <a href="https://www.netlify.com" alt="Netlify: All-in-one platform for automating modern web projects">netlify</a>.</p>
   </div>
 </footer>

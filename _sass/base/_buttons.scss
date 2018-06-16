@@ -24,23 +24,24 @@
 
 	&::after {
 		position: absolute; top: 0; right: 0; bottom: 0; left: 0;
-		transform: translateY(1em);
+		transform: translateX(30em);
 		color: $btn-hover-color;
 		content: attr(data-text); opacity: 0; visibility: hidden; speak: none;
 	}
 
 	&:hover,
 	&:focus {
-		background-color: $btn-hover-bg;
+    border: 1px solid $btn-hover-border-color;
+    background-color: $btn-hover-bg;
 		text-decoration: none;
 
 		.button-inner {
-			transform: translateY(-1em);
+			transform: translateX(-30em);
 			opacity: 0; visibility: hidden;
 		}
 
 		&::after {
-			transform: translateY(0);
+			transform: translateX(0);
 			opacity: 1; visibility: visible;
 		}
 	}

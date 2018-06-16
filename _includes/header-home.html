@@ -1,36 +1,26 @@
 <header class="home-header">
   <div class="wrapper">
     <h1 class="home-main-title">
-      <svg width="1em" class="home-main-title-logo" role="img" aria-labelledby="headerLogoTitle" viewBox="0 6.75 38.5 10.75">
-        <title id="headerLogoTitle">Sud Web</title>
-        <defs>
-          <pattern id="pic" patternUnits="userSpaceOnUse" width="38.5" height="20">
-            <image xlink:href="{{ "/assets/images/logo-bg.jpg" | relative_url }}" width="38.5" height="20" />
-          </pattern>
-        </defs>
-        <text y="1em">Sud Web</text>
-      </svg>
+      <img src="{{ "/assets/images/logo-transparent-bg.png" | relative_url }}" class="home-main-title-logo" alt="{{ site.title }}" />
       <div class="home-main-title-baseline">
-        {% t La conférence Web surtout Humaine %}
+        {% t L’événement des mordus de webperf français %}
       </div>
     </h1>
 
     <p class="home-sub-title">
-      Sud Web, {% t c’est %} <a href="#conferences">{% t une journée de conférences %}</a> {% t et %} <a href="#forum-ouvert">{% t une journée de forum ouvert %}</a>, {% t et plein d’informelles %}.
-      {% t La prochaine édition se tiendra les %} <strong><time datetime="2018-05-25">{% t vendredi 25 %}</time> {% t et %} <time datetime="2018-05-26">{% t samedi 26 mai 2018 %}</time></strong> {% t à %}
-      <a href="{{ page.baseurl | default:site.baseurl }}/{{ "venir-anduze" | t: page.locale }}/">Anduze, Gard (30)</a>.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Traditur, inquit, ab Epicuro ratio neglegendi doloris. Idque testamento cavebit is, qui nobis quasi oraculum ediderit nihil post mortem ad nos pertinere? Est autem etiam actio quaedam corporis, quae motus et status naturae congruentis tenet; Iam id ipsum absurdum, maximum malum neglegi.
     </p>
     <p class="text-center">
-      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: page.locale }}/" title="{% t Voir le programme de Sud Web 2018 %}">
+      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
         <span class="button-inner">{% t voir le programme %}</span>
       </a>
       {% if site.tickets.selling %}
-      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t Venir à Sud Web 2018 %}">
+      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
         <span class="button-inner">{% t réserver votre place %}</span>
       </a>
       {% endif %}
       {% if site.tickets.waiting-list %}
-      <a class="button" data-text="{% t s'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t Venir à Sud Web 2018 %}">
+      <a class="button" data-text="{% t s'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t s'incrire en liste d'attente %}">
         <span class="button-inner">{% t s'incrire en liste d'attente %}</span>
       </a>
       {% endif %}

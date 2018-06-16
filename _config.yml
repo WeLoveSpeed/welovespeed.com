@@ -1,15 +1,18 @@
 # Site configuration
 
-title: Sud Web
-tagline: les 25 et 26 mai 2018 à Anduze
-description: Deux journées pour faire le plein d'inspiration entre super-héros du web.
+title: We ❤️ Speed
+tagline: le 9 octobre 2018 à Bordeaux
+description: La conférence faite par et pour les experts de la Performance Web
 logo: /assets/images/twittercard.png
-url: https://sudweb.fr
-repository: sudweb/2018
-baseurl: /2018
-destination: _site/2018
+url: https://welovespeed.com/
+mail: contact@welovespeed.com
+social:
+  twitter: borisschapira
+repository: welovespeed/welovespeed.com
+baseurl: ""
+destination: _site/
 locale: fr_FR
-logo: https://sudweb.fr/2018/assets/images/social/sudweb-logo.jpg
+logo: https://welovespeed.com/assets/images/social/logo.jpg
 lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
@@ -26,15 +29,16 @@ compress_html:
 
 ## SEO
 
-robots: index,follow
+robots: noindex,nofollow
 
 # Services configuration
 
 weezevent:
-    mini-site-url: https://www.weezevent.com/sudweb-2018
+    mini-site-url: https://www.weezevent.com/welovespeed-2018
 
 newsletter:
-  url: http://sudweb.us2.list-manage.com/subscribe?u=af19b58cf514c01eca3f7652e&id=b579f5b507
+  display: false
+  url: ""
 
 # Jekyll configuration
 

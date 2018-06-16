@@ -3,12 +3,6 @@
     <head>
         <meta charset="utf-8">
 
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/oraqle_script-webfont.woff2?date=20180119" | relative_url }}">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/roboto-thin-webfont.woff2" | relative_url }}">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/roboto-light-webfont.woff2" | relative_url }}">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/roboto-lightitalic-webfont.woff2" | relative_url }}">
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "/assets/fonts/roboto-regular-webfont.woff2" | relative_url }}">
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <meta name="robots" content="{{ page.robots |default: site.robots }}">
@@ -16,14 +10,15 @@
         <title>{{ page.title }} - {{ site.title }}</title>
         <meta name="description" content="{{ page.description }}">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/apple-touch-icon.png?date=20180123">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
-        <link rel="manifest" href="{{ site.baseurl }}/assets/favicons/manifest.json">
-        <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicons/safari-pinned-tab.svg" color="#93ac3d">
-        <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicons/favicon.ico?date=20180119">
-        <meta name="msapplication-config" content="{{ site.baseurl }}/assets/favicons/browserconfig.xml">
-        <meta name="theme-color" content="#c8d891">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/assets/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#cd2f2b">
+        <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#cd2f2b">
 
         <link rel="author" href="{{ site.baseurl }}/humans.txt">
 
@@ -36,8 +31,8 @@
         <meta property="og:url" content="{{ page.url | absolute_url }}">
         <meta property="og:locale" content="{{ page.locale }}">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@SudWeb">
-        <meta name="twitter:creator" content="@SudWeb">
+        <meta name="twitter:site" content="@{{ site.social.twitter }}">
+        <meta name="twitter:creator" content="@{{ site.social.twitter }}">
 
         {% if page.translation %}
             {% assign lang = page.translation.locale | slice: 0,2 %}

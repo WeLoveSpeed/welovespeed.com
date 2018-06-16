@@ -2,8 +2,8 @@
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": "Sud Web 2018",
-  "description": "La conférence Web surtout Humaine",
+  "name": "{{ site.title }} 2018",
+  "description": "{{ site.description }}",
   "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}",
   "image": "{{ site.url }}{{ site.baseurl }}/assets/images/social/og-image-{{ lang }}.jpg",
   "startDate": "2018-05-25T09:00",
@@ -25,10 +25,9 @@
     "name": "{{ site.title }}",
     "logo": "{{ site.logo }}",
     "sameAs": [
-      "https://www.facebook.com/SudWeb",
-      "https://twitter.com/sudweb",
-      "https://vimeo.com/sudweb",
-      "https://www.flickr.com/people/sudweb/"
+      {% for social in site.data.social %}
+      "{{social.url}}"{% unless forloop.last %},{% endunless %}
+      {% endfor%}
     ],
     "contactPoint": {
       "@type": "ContactPoint",
@@ -37,7 +36,7 @@
       "contactOption": "TollFree"
     },
     "member": [
-    {% for member in thym %}
+    {% for member in staff %}
       {% unless forloop.first %},{% endunless %}
       {
         "@type": "Person",

@@ -2,21 +2,13 @@
   <div class="wrapper">
     <div class="page-main-title h-like">
       <a href="{{ page.baseurl | default:site.baseurl }}/{{ include.link.anchor }}" title="{% t Accueil %}">
-        <svg width="1em" class="page-main-title-logo" role="img" aria-labelledby="headerLogoTitle" viewBox="0 6.75 38.5 10.75">
-          <title id="headerLogoTitle">Sud Web</title>
-          <defs>
-            <pattern id="pic" patternUnits="userSpaceOnUse" width="38.5" height="20">
-              <image xlink:href="{{ "/assets/images/logo-bg.jpg" | relative_url }}" width="38.5" height="20" />
-            </pattern>
-          </defs>
-          <text y="1em">Sud Web</text>
-        </svg>
+        **{{ site.title }}**
       </a>
       <p class="page-main-title-baseline">
-        {% t Les %} <time datetime="2018-05-25">25</time> {% t et %} <time datetime="2018-05-26">{% t 26 mai 2018 %}</time> {% t à Anduze %}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Traditur, inquit, ab Epicuro ratio neglegendi doloris.
       </p>
     </div>
   </div>
 </header>
 
-{% unless page.hide_banner %}{% include banners/bambouseraie.html locale=page.locale page_top=true %}{% endunless %}
+{% unless page.hide_banner %}{% include banners/pexels-409701.html locale=page.locale page_top=true %}{% endunless %}

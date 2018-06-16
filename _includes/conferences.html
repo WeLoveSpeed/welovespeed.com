@@ -1,7 +1,7 @@
 <section class="section">
   <div class="wrapper">
     <h2 class="text-center">
-      {% t Programme détaillé %}
+      {% t Interventions et intervenants dévoilés %}
     </h2>
     {% for conference in include.conferences %}
     {% if include.locale == "en_US" and conference.en_US %}
@@ -14,12 +14,6 @@
         {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
       </h3>
       {{ verbatim.description | markdownify }}
-
-      {% if verbatim.vimeo_id %}
-      <p class="text-center">
-        <iframe src="https://player.vimeo.com/video/{{ verbatim.vimeo_id }}?color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<br/><a href="https://vimeo.com/{{ verbatim.vimeo_id }}">{% t voir sur Vimeo %}</a>.</p>
-      {% endif %}
       {% if verbatim.transcript or verbatim.slides %}
         <p class="text-center">
         {% if verbatim.transcript %}

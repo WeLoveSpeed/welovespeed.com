@@ -6,14 +6,15 @@
 
 $black                            : #000000;
 $softgrey                         : #ABB4BE;
-$softwhite                        : #FCFEFD;
+$softwhite                        : #FEFCFC;
 $white                            : #FFFFFF;
-$green                            : #6A7C2C;
 $darkgreen                        : #192112;
+$red                              : #cd2f2b;
+$darkred                          : #481110;
 
+$green                            : #6A7C2C;
 $blue                             : #12A6C6;
 $orange                           : #F39C12;
-$red                              : #E74C3C;
 
 $pastel-green                     : lighten($green, 50%);
 $pastel-blue                      : lighten($blue, 50%);
@@ -22,9 +23,9 @@ $pastel-red                       : lighten($red, 40%);;
 $pastel-yellow                    : #fcfccd;
 
 
-// Sementics
+// Semantics
 
-$regular                          : $darkgreen;
+$regular                          : $darkred;
 $inactive                         : $softgrey;
 $info                             : $blue;
 $valid                            : $green;
@@ -33,20 +34,20 @@ $alert                            : $red;
 
 // Colors applications
 
-$default-color                    : $darkgreen;
+$default-color                    : $darkred;
 $default-bg                       : $softwhite;
-$focus-color                      : $green;
+$focus-color                      : $red;
 
 $link-color                       : $focus-color;
 
 $title-color                      : $default-color;
 
 $selection-color                  : $white;
-$selection-bg                     : $green;
+$selection-bg                     : $red;
 
 $hr-color                         : lighten($softgrey, 20%);
 
-$blockquote-border-color          : lighten($green, 35%);
+$blockquote-border-color          : lighten($red, 35%);
 
 
 // Forms
@@ -55,7 +56,7 @@ $label-color                      : $focus-color;
 
 $input-color                      : $default-color;
 $input-bg                         : transparent;
-$input-border-color               : lighten($green, 35%);
+$input-border-color               : lighten($red, 35%);
 $input-focus-color                : $black;
 $input-focus-bg                   : transparent;
 $input-focus-border-color         : $black;
@@ -63,11 +64,12 @@ $input-focus-border-color         : $black;
 
 // Buttons:
 
-$btn-bg                           : lighten($green, 35%);
-$btn-color                        : $darkgreen;
-$btn-hover-bg                     : $green;
-$btn-hover-color                  : $white;
+$btn-bg                           : $red;
+$btn-color                        : $white;
 
+$btn-hover-bg                     : lighten($red, 65%);
+$btn-hover-border-color           : $red;
+$btn-hover-color                  : $darkred;
 
 // Navigation
 
