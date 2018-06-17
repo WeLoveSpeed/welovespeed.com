@@ -1,22 +1,28 @@
 ---
 title: Code of Conduct
-description: "Consignes pour créer un cadre d’interaction bientraitant et protecteur"
+description: "Providing a harassment-free conference experience, for everyone"
 i18n-key: coc
 permalink: /en/code-of-conduct/
 layout: page
 ---
 
-# Code of conduct
+# Code of Conduct
 
 **{{ site.title }}** is an organization dedicated to networking and collaboration in the Web Performance community.
 
-We value the participation of each member of the Web Performance and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the organization events and at all conference events, whether officially sponsored by AFUP or not.
+We value the participation of each member of the Web Performance and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the organization events and at all conference events, whether officially sponsored by {{ site.title }} or not.
 
-To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any AFUP event are required to conform to the following Code of Conduct. Organizers will enforce this code throughout the event.
+To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any {{ site.title }} event are required to conform to the following Code of Conduct. Organizers will enforce this code throughout the event.
 
 ## The Short Version
 
 **{{ site.title }}** events are dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
+
+## Contact in case of incident during our conference
+
+* [{{ site.mail }}](mailto:{{ site.mail }})
+* In case of emergency (medical or other) : 112
+* Bordeaux Taxi : <a href="tel:+33556316107">05 56 31 61 07</a>
 
 ## The Longer Version
 
@@ -46,23 +52,23 @@ When taking a report from someone experiencing harassment you should record what
 
 The report should include:
 
-*   Identifying information (name/badge number) of the participant
-*   The time you issued the warning
-*   The behavior that was in violation
-*   The approximate time of the behavior (if different than the time of warning)
-*   The circumstances surrounding the incident
-*   Your identity
-*   Other people involved in the incident
+* Identifying information (name/badge number) of the participant
+* The time you issued the warning
+* The behavior that was in violation
+* The approximate time of the behavior (if different than the time of warning)
+* The circumstances surrounding the incident
+* Your identity
+* Other people involved in the incident
 
 ### Expulsion
 
 A participant may be expelled by the decision of any of the above listed entities for whatever reasons they deem sufficient. However, here are some general guidelines for when a participant should be expelled:
 
-*   A second offense resulting in a warning from staff
-*   Continuing to harass after any "No" or "Stop" instruction
-*   A pattern of harassing behavior, with or without warnings
-*   A single serious offense (e.g., punching or groping someone)
-*   A single obviously intentional offense (e.g., taking up-skirt photos) Hotel/venue security and local authorities should be contacted when appropriate.
+* A second offense resulting in a warning from staff
+* Continuing to harass after any "No" or "Stop" instruction
+* A pattern of harassing behavior, with or without warnings
+* A single serious offense (e.g., punching or groping someone)
+* A single obviously intentional offense (e.g., taking up-skirt photos) Hotel/venue security and local authorities should be contacted when appropriate.
 
 ### Public statements
 
