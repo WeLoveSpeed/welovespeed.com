@@ -1,4 +1,4 @@
-{% if site.environment != 'development' %}
+{% if site.environment != 'dev' %}
 <script data-no-instant>
 		if (navigator.serviceWorker) {
 			navigator.serviceWorker.register('{{ site.baseurl }}/sw.js', {

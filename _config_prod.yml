@@ -67,7 +67,7 @@ defaults:
       path: "pages/en"
       type: pages
     values:
-      baseurl: "/2018/en"
+      baseurl: "/en"
       locale: en_US
 
 microtypo:

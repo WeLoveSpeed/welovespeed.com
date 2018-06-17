@@ -54,10 +54,10 @@ Pour travailler sur le site et surveiller les modifications :
 $ bundle exec rake build:serve
 ```
 
-Pour builder pour le Dév
+Pour builder sur l'environnement d'intégration
 
 ```bash
-$ bundle exec rake build:dev
+$ bundle exec rake build:integ
 ```
 
 Pour builder pour la Production

@@ -7,7 +7,7 @@ namespace :build do
   end
 
   desc 'Preview on local machine (server with --auto)'
-  task :dev => :clean do |_t, args|
+  task :integ => :clean do |_t, args|
     if rake_running
       puts "\n\nWarning! An instance of rake seems to be running (it might not be *this* Rakefile, however).\n"
       puts "Building while running other tasks (e.g., preview), might create a website with broken links.\n\n"
@@ -16,7 +16,7 @@ namespace :build do
       ans = STDIN.gets.chomp
       exit if ans != 'Y'
     end
-    jekyll("build --config _config.yml,_config_dev.yml")
+    jekyll("build --config _config_prod.yml,_config_integ.yml")
   end
 
   desc 'Preview on local machine (server with --auto)'
@@ -29,7 +29,7 @@ namespace :build do
       ans = STDIN.gets.chomp
       exit if ans != 'Y'
     end
-    jekyll("serve --config _config.yml,_config_dev.yml")
+    jekyll("serve --config _config_prod.yml,_config_dev.yml")
   end
 
   desc 'Generate for deployment (but do not deploy)'
@@ -43,7 +43,7 @@ namespace :build do
       exit if ans != 'Y'
     end
     puts 'Building with Jekyll…'
-    jekyll("build --config _config.yml")
+    jekyll("build --config _config_prod.yml")
   end
 
   #

@@ -1,5 +1,6 @@
+url: ""
 robots: noindex,nofollow
-environment: 'localhost'
+environment: 'development'
 
 sass:
   style: uncompressed
