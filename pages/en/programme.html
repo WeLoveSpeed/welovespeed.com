@@ -8,24 +8,6 @@ permalink: /en/line-up/
 {%- assign conferences = site.talks | sort: "display-order" -%}
 {%- assign number_of_conferences = conferences | where_exp:"item","item.type != 'pause'"| size -%}
 
-<section class="section">
-  <div class="wrapper">
-    <h1>{{ site.title }} 2018: {{ number_of_conferences }} talks</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Traditur, inquit, ab Epicuro ratio neglegendi doloris.</p>
-    {% if site.tickets.selling %}
-    <p class="text-center"><a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
-      <span class="button-inner">{% t réserver votre place %}</span>
-    </a></p>
-    {% endif %}
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrapper">
-    <hr>
-  </div>
-</section>
-
 {% include speakers.html conferences=conferences locale=page.locale shorturl=true %}
 
 <section class="section">
