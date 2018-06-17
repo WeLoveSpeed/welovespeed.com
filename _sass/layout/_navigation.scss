@@ -3,6 +3,13 @@ $nav-menu-width-active: $nav-menu-height;
 $nav-menu-width-inactive: 1.8 * $nav-menu-height;
 $nav-menu-bar-height: $nav-menu-height / 5;
 
+$load-first-start: $nav-menu-bar-height;
+$load-first-length: $nav-menu-width-inactive / 2;
+$load-second-start: ($load-first-start + $load-first-length) * 0.65;
+$load-second-length: $nav-menu-width-inactive / 5 * 2;
+$load-third-start: $load-first-start + $load-first-length + 5px;
+$load-third-length: ($nav-menu-width-inactive - ($load-first-start + $load-first-length)) * 0.9;
+
 .nav-trigger {
   position: absolute; top: 0; left: 0;
 
@@ -40,23 +47,23 @@ $nav-menu-bar-height: $nav-menu-height / 5;
 
         &:nth-child(1) {
           top: $nav-menu-bar-height;
-          left: $nav-menu-bar-height;
-          background: linear-gradient(to right, $devtools-dns-lookup, $devtools-dns-lookup 4%, $devtools-ssl 4%, $devtools-ssl 30%, $devtools-waiting 30%, $devtools-waiting 70%, $devtools-content-download 70%);
-          width: $nav-menu-width-inactive / 3;
+          left: $load-first-start;
+          background: linear-gradient(to right, $devtools-dns-lookup, $devtools-dns-lookup 2%, $devtools-initial-connection 2%, $devtools-initial-connection 10%, $devtools-ssl 10%, $devtools-ssl 16%, $devtools-waiting 16%, $devtools-waiting 25%, $devtools-content-download 25%);
+          width: $load-first-length;
         }
 
         &:nth-child(2) {
           top: $nav-menu-bar-height * 3;
-          left: $nav-menu-bar-height * 2;
+          left: $load-second-start;
           background: linear-gradient(to right, $devtools-waiting, $devtools-waiting 20%, $devtools-content-download 20%);
-          width: $nav-menu-width-inactive / 5 * 2;
+          width: $load-second-length;
         }
 
         &:nth-child(3) {
           top: $nav-menu-height;
-          left: $nav-menu-bar-height * 2.5;
+          left: $load-third-start;
           background: linear-gradient(to right, $devtools-dns-lookup, $devtools-dns-lookup 2%, $devtools-initial-connection 2%, $devtools-initial-connection 5%, $devtools-waiting 5%, $devtools-waiting 45%, $devtools-content-download 45%);
-          width: $nav-menu-width-inactive - $nav-menu-bar-height * 2.5 ;
+          width: $load-third-length;
         }
       }
 
@@ -65,13 +72,13 @@ $nav-menu-bar-height: $nav-menu-height / 5;
         height: $nav-menu-height;
 
         &:nth-child(4) {
-          left: $nav-menu-width-inactive / 3 + $nav-menu-bar-height;
-          border-left-color: grey;
+          left: $load-second-start + $load-second-length;
+          border-left-color: $devtools-dcl;
         }
 
         &:nth-child(5) {
-          left: $nav-menu-width-inactive / 5 * 2 + $nav-menu-bar-height * 2;
-          border-left-color: $darkgreen;
+          left: $load-third-start + $load-third-length ;
+          border-left-color: $devtools-fl;
         }
 
       }

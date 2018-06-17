@@ -1,7 +1,7 @@
 .button {
 	position: relative;
 	display: inline-block; margin: $input-vmargin $btn-hmargin; overflow: hidden;
-	border: none; border-radius: .125em; box-shadow: 0 0 .5em 0 rgba($btn-bg, .5);
+	border: 1px solid transparent; border-radius: .125em; box-shadow: 0 0 .5em 0 rgba($btn-bg, .5);
 	background-color: $btn-bg;
 	font: $button-font-style $button-font-weight 1em/#{$default-line-height} $button-font-family; text-align: center; text-decoration: none;
 	vertical-align: baseline;
