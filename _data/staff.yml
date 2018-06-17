@@ -1,6 +1,45 @@
+- firstname: Stéphane
+  lastname: Rios
+  slug: stephane
+  twitter: stefounet
+  company_name: Fasterize
+  company_url: https://www.fasterize.com/
+- firstname: Jean-Pierre
+  lastname: Vincent
+  slug: jp
+  twitter: theystolemynick
+  company_name: BrainCracking
+  company_url: http://braincracking.org/
+- firstname: Daniel
+  lastname: Diard
+  slug: daniel
+  company_name: Cdiscount
+  company_url: https://www.cdiscount.com/
+- firstname: Laurine
+  lastname: Jacquet
+  slug: laurine
+  company_name: Cdiscount
+  company_url: https://www.cdiscount.com/
+- firstname: Sébastien
+  lastname: Bonnet
+  slug: sebastien
+  company_name: Cdiscount
+  company_url: https://www.cdiscount.com/
 - firstname: Boris
   lastname: Schapira
-  slug: boris-schapira
+  slug: boris
   twitter: borisschapira
   company_name: Dareboost
   company_url: https://www.dareboost.com/
+- firstname: Émilie
+  lastname: Wilhelm
+  slug: emilie
+  twitter: EmilieWilhelm
+  company_name: Fasterize
+  company_url: https://www.fasterize.com/
+- firstname: Nicolas
+  lastname: Hoizey
+  slug: nicolas
+  twitter: nhoizey
+  company_name: Clever-Age
+  company_url: https://www.clever-age.com/
