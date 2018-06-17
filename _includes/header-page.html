@@ -2,10 +2,10 @@
   <div class="wrapper">
     <div class="page-main-title h-like">
       <a href="{{ page.baseurl | default:site.baseurl }}/{{ include.link.anchor }}" title="{% t Accueil %}">
-        **{{ site.title }}**
+        {% cloudinary /assets/images/logo-transparent-bg.png class="page-main-title-logo" alt="{{ site.title }}" %}
       </a>
       <p class="page-main-title-baseline">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Traditur, inquit, ab Epicuro ratio neglegendi doloris.
+          {% t 9 octobre, Bordeaux %}
       </p>
     </div>
   </div>

@@ -5,8 +5,8 @@
 
 %clearfix {
   &::after {
-    content: "";
-    display: table;
+    content: " ";
+    display: block;
     clear: both;
   }
 }

@@ -49,39 +49,37 @@
 
 .page {
 
-  &-header {
-    margin: 20% 0 2em;
+  &-main-title {
 
-    @include media('>small') {
-      margin: 15% 0 2em;
+    &-logo {
+      width: 25%;
     }
-    @include media('>medium') {
-      margin: 10% 0 2em;
-    }
-    @include media('>large') {
-      margin: 5% 0 2em;
-    }
-    @include media('>xlarge') {
-      margin: 2.5% 0 2em;
+
+    &-baseline {
+      float: right;
+      margin: 0;
+      font-size: 1em; color: $focus-color;
+
+      @include media('>=large') {
+        font-size: 2em;
+      }
     }
   }
 
-  // &-main-title {
-  //   display: flex;
-  //   flex-flow: row wrap; justify-content: space-between; align-items: center;
+  &-header {
+    margin: 100px 0 2em;
 
-  //   &-logo {
-  //     width: 15em; height: auto;
-  //     font: $logo-font-style $logo-font-weight 1.6rem/1 $logo-font-family;
-
-  //     text {
-  //       fill: url(#pic);
-  //     }
-  //   }
-
-  //   &-baseline {
-  //     margin: 0;
-  //     font-size: 2em; color: $focus-color;
-  //   }
-  // }
+    @include media('>small') {
+      margin: 100px 0 2em;
+    }
+    @include media('>medium') {
+      margin: 100px 0 2em;
+    }
+    @include media('>large') {
+      margin: 100px 0 2em;
+    }
+    @include media('>xlarge') {
+      margin: 100px 0 2em;
+    }
+  }
 }
