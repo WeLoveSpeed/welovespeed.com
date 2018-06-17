@@ -1,5 +1,5 @@
 robots: noindex,nofollow
-environment: 'localhost'
+environment: 'dev'
 
 sass:
   style: uncompressed
