@@ -1,5 +1,10 @@
+{% if include.page_top %}
+  {% assign slug = "pexels-409701 page-top" %}
+{% else %}
+  {% assign slug = "pexels-409701" %}
+{% endif %}
 {% include banners/_generic.html
-  slug="pexels-409701"
+  slug=slug
   locale=include.locale
   source_title="Blur cars, city commuting"
   source_url="https://www.pexels.com/photo/blur-cars-city-commuting-409701/"

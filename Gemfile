@@ -7,14 +7,10 @@ group :jekyll_plugins do
   gem 'jekyll-github-metadata'
   gem 'jekyll-microtypo'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-paginate-v2', '~> 1.8', '>= 1.8.1'
   gem 'jekyll-sitemap'
   gem 'liquid-md5'
   gem 'octopress-autoprefixer'
-end
-
-group :development do
-  gem 'foreman'
-  # gem 'jekyll-livereload'
 end
 
 group :test do

@@ -1,0 +1,91 @@
+{% capture url_prefix %}/blog{% endcapture %}
+{% if paginator.total_pages > 1 %}
+<ul class="pagination">
+  {% comment %} Page précédente {% endcomment %}
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      {% comment %} Si on est sur la page 2, la page précédente est la 1 {% endcomment %}
+      <li>
+        <a href="{{ url_prefix | relative_url }}" rel="prev"><span class="sr-only">{% t Accueil %}</span>&lsaquo;</a>
+      </li>
+    {% else %}
+      {% comment %} Sinon, c'est la page d'avant {% endcomment %}
+      <li>
+        <a href="{{ site.pagination.permalink | replace:':num', paginator.previous_page | prepend: url_prefix | relative_url }}" rel="prev"><span class="sr-only">{% t Page précédente %}</span>&lsaquo;</a>
+      </li>
+    {% endif %}
+  {% else %}
+    {% comment %} Si on est sur la page 1, pas de précédente {% endcomment %}
+    <li class="disabled">&lsaquo;</li>
+  {% endif %}
+
+  {% if paginator.page == 1 %}
+    {% comment %} Si on est sur la page 1 {% endcomment %}
+    <li>
+      <strong>1</strong>
+    </li>
+  {% else %}
+    {% comment %} Sinon, afficher le lien {% endcomment %}
+    <li>
+      <a href={{ url_prefix | relative_url }}/><span class="sr-only">{% t Accueil %}</span>1</a>
+    </li>
+  {% endif %}
+
+  {% comment %} À partir de la page 2 {% endcomment %}
+  {% assign page_start = 2 %}
+  {% if paginator.page > 5 %}
+    {% comment %} Si on est plus loin que la page 5,
+    on affiche "…" et on démarre 2 pages avant {% endcomment %}
+    {% assign page_start = paginator.page | minus: 2 %}
+    <li class="disabled">…</li>
+  {% endif %}
+
+  {% comment %} La dernière page de cette liste, c'est 2 pages avant la fin (mais on commence à compter à 0) {% endcomment %}
+  {% assign page_end = paginator.total_pages | minus: 1 %}
+
+  {% comment %} La distance entre la page courante et la dernière page dans l'absolu {% endcomment %}
+  {% assign to_end = paginator.total_pages | minus: paginator.page %}
+
+  {% comment %} Si cette distance est supérieure à 4, on s'arrêtera 2 pages après la page courante et on affichera "…" {% endcomment %}
+  {% if to_end > 4 %}
+    {% assign page_end = paginator.page | plus: 2 %}
+  {% endif %}
+
+  {% comment %} Production de la liste "du milieur" {% endcomment %}
+  {% for index in (page_start..page_end) %}
+    {% if index == paginator.page %}
+    <li>
+      <strong>{{index}}</strong>
+    </li>
+    {% else %}
+    <li>
+      <a href="{{ site.pagination.permalink | replace:':num', index | prepend: url_prefix | relative_url }}"><span class="sr-only">Page</span>{{index}}</a>
+    </li>
+    {% endif %}
+  {% endfor %}
+  {% if to_end > 4 %}
+    <li class="disabled">…</li>
+  {% endif %}
+
+  {% if paginator.page == paginator.total_pages %}
+    <li>
+      <strong>{{paginator.page}}</strong>
+    </li>
+  {% else %}
+    <li>
+      <a href="{{ site.pagination.permalink | replace:':num', paginator.total_pages | prepend: url_prefix | relative_url }}" {% if paginator.total_pages == paginator.page | plus: 1 %}rel="next"{% endif %}><span class="sr-only">{% t Dernière page %}</span>{{paginator.total_pages}}</a>
+    </li>
+  {% endif %}
+  {% if paginator.next_page %}
+    {% if paginator.next_page == paginator.total_pages %}
+      <li class="disabled">&raquo;</li>
+    {% else %}
+    <li>
+      <a href="{{ site.pagination.permalink | replace:':num', paginator.next_page | prepend: url_prefix | relative_url }}" rel="next"><span class="sr-only">{% t Page suivante %}</span>&rsaquo;</a>
+    </li>
+    {% endif %}
+  {% else %}
+    <li class="disabled">&rsaquo;</li>
+  {% endif %}
+</ul>
+{% endif %}

@@ -23,6 +23,11 @@
   value: sponsors
   in_nav: false
   in_footer: true
+- name: Blog
+  type: page
+  value: blog
+  in_nav: true
+  in_footer: true
 - name: Contact
   type: page
   value: contact

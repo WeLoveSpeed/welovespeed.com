@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% if page.category %}
+    {% assign cats_eyes = page.category|size %}
+    {% if cats_eyes > 0 %}{% assign has_cat = true %}{% else %}{% assign has_cat = false %}{% endif %}
+{% endif %}{% if page.locale %}
+    {% assign locale_size = page.locale|size %}
+    {% if locale_size > 0 %}{% assign has_locale = true %}{% else %}{% assign has_locale = false %}{% endif %}
+{% endif %}{% if page.url %}
+    {% assign the_url = page.url %}
+{% else %}
+    {% assign the_url = site.url %}
+{% endif %}<section class="posts" aria-label="{% t Tous les articles %}" >
+    {% assign current_edition = '' %}
+    {% for post in paginator.posts %}
+      {% if current_edition == '' %}
+        {% assign current_edition = post.category %}
+      {% else %}
+        {% if post.category == current_edition %}
+        <div class="wrapper">
+          <hr>
+        </div>
+        {% else %}
+          {% assign current_edition = post.category %}
+          {% include banners/pexels-409701.html locale=page.locale %}
+        {% endif %}
+      {% endif %}
+      {% include post-summary.html post=post %}
+    {% endfor %}
+    <div class="wrapper">
+        <hr>
+      </div>
+    {% include pagination.html %}
+</section>

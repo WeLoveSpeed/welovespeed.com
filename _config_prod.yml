@@ -47,6 +47,15 @@ sass:
     sass_dir: _sass
     style: compressed
 
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 collections:
   talks:
     output: false
@@ -69,6 +78,11 @@ defaults:
     values:
       baseurl: "/en"
       locale: en_US
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: post
 
 microtypo:
   median: true
