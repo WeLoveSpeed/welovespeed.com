@@ -1,15 +1,17 @@
 source 'https://rubygems.org'
 ruby '2.4.3'
 
-gem 'jekyll', '~>3.6.2'
+gem 'i18n'
+gem 'jekyll', '~>3.8.0'
 
 group :jekyll_plugins do
+  gem 'jekyll-cloudinary'
   gem 'jekyll-github-metadata'
-  gem 'jekyll-microtypo'
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-paginate-v2', '~> 1.8', '>= 1.8.1'
-  gem 'jekyll-sitemap'
   gem 'liquid-md5'
+  gem 'jekyll-microtypo'
+  gem 'jekyll-paginate-v2', '~> 1.8', '>= 1.8.1'
+  gem 'jekyll-redirect-from'
+  gem 'jekyll-sitemap'
   gem 'octopress-autoprefixer'
 end
 

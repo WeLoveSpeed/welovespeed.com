@@ -47,6 +47,23 @@ sass:
     sass_dir: _sass
     style: compressed
 
+cloudinary:
+  cloud_name: we-love-speed
+  origin_url: "https://borisschapira-welovespeed.netlify.com"
+  presets:
+    default:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 50rem) 50rem, 90vw"
+    staff:
+      min_width: 60
+      max_width: 60
+      fallback_max_width: 80
+      steps: 2
+      sizes: "60px"
+
 pagination:
   enabled: true
   per_page: 10

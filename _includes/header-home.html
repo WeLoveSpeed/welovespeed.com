@@ -1,7 +1,7 @@
 <header class="home-header">
   <div class="wrapper">
     <h1 class="home-main-title">
-      <img src="{{ "/assets/images/logo-transparent-bg.png" | relative_url }}" class="home-main-title-logo" alt="{{ site.title }}" />
+      {% cloudinary /assets/images/logo-transparent-bg.png class="home-main-title-logo" alt="{{ site.title }}" %}
       <div class="home-main-title-baseline">
         {% t L’événement des mordus de webperf français %}
       </div>
