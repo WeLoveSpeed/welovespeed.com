@@ -46,7 +46,7 @@
             {{ person }}
           </h3>
           <p class="conference-speaker-description">
-            {{ speakatim.bio }}
+            {{ speakatim.bio | markdownify }}
           </p>
         </section>
         {%- endfor -%}
