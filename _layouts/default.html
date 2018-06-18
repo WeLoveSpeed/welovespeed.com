@@ -4,12 +4,12 @@ layout: microtypo
 
 {% assign locale = page.locale | default: site.locale %}{% assign lang = locale | slice: 0,2 %}{% assign staff = site.data.staff | sort: "slug" %}{% include head.html %}
 <body>
+  {% include navigation.html %}
   {% if page.i18n-key == 'home' %}
     {% include header-home.html %}
   {% else %}
     {% include header-page.html %}
   {% endif %}
-  {% include navigation.html %}
   {{ content }}
   {% include footer.html %}
   {% include scripts.html %}
