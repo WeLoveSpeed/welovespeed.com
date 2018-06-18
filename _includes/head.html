@@ -23,7 +23,11 @@
         <link rel="author" href="{{ site.baseurl }}/humans.txt">
 
         {% comment %} Social Image computation {% endcomment %}
-        {% capture socialTitle %}{{ page.title }} - {{ site.title }}{% endcapture %}
+        {% if page.i18n-key=="home" %}
+          {% capture socialTitle %}{{ site.title }}{% endcapture %}
+        {% else %}
+          {% capture socialTitle %}{{ page.title }} - {{ site.title }}{% endcapture %}
+        {% endif %}
         {% assign imgtitle = socialTitle | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: "'", '%E2%80%99' | replace: '?', '%3F'%}
         {% capture socialImage %}{{ site.cloudinary.origin_url}}/assets/images/social-bg.jpg{% endcapture %}
         {% capture socialImage %}https://res.cloudinary.com/{{ site.cloudinary.cloud_name }}/image/fetch/e_blur:200,c_crop,ar_1200:600,b_white/e_grayscale/w_1200/b_rgb:{{ site.main_color }},o_40/w_1000,c_fit,l_text:Rubik_80:{{ imgtitle }},x_2,y_-98,co_black,o_80/w_1000,c_fit,l_text:Rubik_80:{{ imgtitle }},y_-100,co_white/{{ socialImage }}{% endcapture %}

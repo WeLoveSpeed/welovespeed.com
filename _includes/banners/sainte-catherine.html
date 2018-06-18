@@ -1,0 +1,15 @@
+{% if include.page_top %}
+  {% assign slug = "sainte-catherine page-top" %}
+{% else %}
+  {% assign slug = "sainte-catherine" %}
+{% endif %}
+{% include banners/_generic.html
+  slug=slug
+  locale=include.locale
+  source_title="Filé de lumières devant le Grand Théâtre"
+  source_url="https://flic.kr/p/26m3YoZ"
+  source_author="Didier Camus"
+  source_rights_url="https://creativecommons.org/publicdomain/mark/1.0/"
+  source_rights_title="Domaine Public"
+  source_rights_shortname="Public Domain"
+%}

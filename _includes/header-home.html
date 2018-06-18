@@ -8,7 +8,7 @@
     </h1>
 
     <p class="home-sub-title">
-      Enfin un événement français dédié à la web performance ! Créé par et pour la communauté webperf, {{ site.title }} est né de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnels du web, de l’e-commerce et experts de la webperf, cet événement est fait pour vous&nbsp;!
+      {{ page.intro }}
     </p>
     <p class="text-center">
       <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
@@ -27,7 +27,6 @@
     </p>
   </div>
 </header>
-{% comment %}
 <section class="section">
   <div class="wrapper">
     <hr>
@@ -35,4 +34,3 @@
 </section>
 {%- assign conferences = site.talks | sort: "display-order" -%}
 {% include speakers.html conferences=conferences locale=page.locale %}
-{% endcomment %}

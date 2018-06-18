@@ -1,0 +1,15 @@
+{% if include.page_top %}
+  {% assign slug = "grand-hotel page-top" %}
+{% else %}
+  {% assign slug = "grand-hotel" %}
+{% endif %}
+{% include banners/_generic.html
+  slug=slug
+  locale=include.locale
+  source_title="Grand Hotel de Bordeaux"
+  source_url="https://flic.kr/p/ppNJi2"
+  source_author="Geoffroy Groult"
+  source_rights_url="https://creativecommons.org/licenses/by/2.0/"
+  source_rights_title="Licence Creative Commons"
+  source_rights_shortname="CC BY 2.0"
+%}
