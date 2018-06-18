@@ -42,7 +42,11 @@ h2 {
 }
 
 h3 {
-	font-size: 1.25em;
+  font-size: 1.25em;
+
+  .talks & {
+    padding: 20px 0 0 80px;
+  }
 }
 
 p, .p-like, ul, ol, dl, blockquote, pre, caption {
