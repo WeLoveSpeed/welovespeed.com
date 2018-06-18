@@ -66,7 +66,7 @@ Pour builder pour la Production
 $ bundle exec rake build:prod
 ```
 
-Si vous modifiez le fichier `_config.yml`, il faut couper et relancer.
+Si vous modifiez un des fichiers `_config_*.yml`, il faut couper et relancer.
 
 Le site est maintenant accessible en local à l'adresse http://127.0.0.1:4000/ (dev).
 
