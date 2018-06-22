@@ -7,29 +7,28 @@ layout: page
 ---
 
 <h2>Où l'événement aura-t-il lieu ?</h2>
-<p><b>Au Palais de la Bourse de Bordeaux</b>
-  (L’entrée se fera au 17 place de la Bourse) 
-<a href="https://www.google.fr/maps/place/Bordeaux+Palais+de+la+Bourse/@44.8420627,-0.5702833,15z/data=!4m2!3m1!1s0x0:0xc1460f50922834de?sa=X&ved=0ahUKEwjQgaKCvOfbAhUHaRQKHYbBCzMQ_BIIrwEwDg" target ="_blank">Afficher la carte</a>
+<p><b>Au Palais de la Bourse de Bordeaux</b><br/>
+  (L’entrée se fera au 17 place de la Bourse) <br/>
+<a href="https://www.google.fr/maps/place/Bordeaux+Palais+de+la+Bourse/@44.8420627,-0.5702833,15z/data=!4m2!3m1!1s0x0:0xc1460f50922834de?sa=X&ved=0ahUKEwjQgaKCvOfbAhUHaRQKHYbBCzMQ_BIIrwEwDg" target ="_blank">Afficher la carte</a><br/><br/>
   
 Situé dans l’hypercentre de Bordeaux, en bordure des quais, le Palais de la Bourse profite d’une localisation idéale, le rendant facilement accessible par tous les moyens de transport.</p>
 
 <h2>Comment venir ?</h2>
 <h3>En TGV</h3>
-<p>Vous avez le choix parmi 20 allers/retours quotidiens entre Paris-Montparnasse et Bordeaux (2 heures, avec du Wifi). Pour ne pas manquer petit déjeuner et la première conférence, prenez celui de 6H48.
-  <i>Astuce prix : le train Bordeaux-Paris du mardi soir (18H52) ne coûte que 29€ en Ouigo !</i>
+<p>Vous avez le choix parmi 20 allers/retours quotidiens entre Paris-Montparnasse et Bordeaux (2 heures, avec du Wifi). Pour ne pas manquer petit déjeuner et la première conférence, prenez celui de 6H48.<br/>
+  <i>Astuce prix : le train Bordeaux-Paris du mardi soir (18H52) ne coûte que 29€ en Ouigo !</i><br/>
 Le Palais de la Bourse est ensuite à 10 minutes en tramway.</p>
 
 <h3>En avion</h3>
-<p>Il existe des vols quotidiens vers toutes les grandes villes françaises. 
-Des navettes relient l’aéroport Bordeaux-Mérignac vers le centre-ville et la gare de Bordeaux (30 minutes).
+<p>Il existe des vols quotidiens vers toutes les grandes villes françaises. <br/>
+Des navettes relient l’aéroport Bordeaux-Mérignac vers le centre-ville et la gare de Bordeaux (30 minutes).<br/>
 Le Palais de la Bourse est ensuite à 10 minutes en tramway.</p>
 
 <h3>En tramway</h3>
 <p>Ligne C : direct depuis la Gare Saint-Jean (10 minutes), direction Parc des Expositions / Stade « Matmut Atlantique », arrêt « Place de la  Bourse ».</p>
 
 <h3>En voiture</h3>
-<p>A10 (Bordeaux-Paris), A62 (Bordeaux-Toulouse), A63 (Bordeaux-Bayonne), A65 (Bordeaux-Pau), A89 (Bordeaux-Clermont-Lyon) et A8 (Bordeaux-Nice).
-Parking : 
+<p>A10 (Bordeaux-Paris), A62 (Bordeaux-Toulouse), A63 (Bordeaux-Bayonne), A65 (Bordeaux-Pau), A89 (Bordeaux-Clermont-Lyon) et A8 (Bordeaux-Nice).<br/>
 3 parkings souterrains sont situés à proximité du Palais de la Bourse (capacité de 1620 places).</p>
 
 <h3>En trotinette</h3>
