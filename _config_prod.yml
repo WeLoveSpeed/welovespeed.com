@@ -39,8 +39,9 @@ weezevent:
     mini-site-url: https://www.weezevent.com/welovespeed-2018
 
 newsletter:
-  display: false
-  url: ""
+  display: true
+  url: "https://welovespeed.us18.list-manage.com/subscribe/post?u=871757160e8496642288193e3&amp;id=1695ce944b"
+  honeypot: "b_871757160e8496642288193e3_1695ce944b"
 
 # Jekyll configuration
 

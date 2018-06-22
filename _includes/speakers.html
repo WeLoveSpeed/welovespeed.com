@@ -10,7 +10,7 @@
   <div class="wrapper">
     <a class="sr-only" src="{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#conferences" >{% t Aller directement au programme détaillé %}</a>
     <h2 class="text-center">
-        {% t Interventions et intervenant·e·s dévoilé·e·s %}
+        {% t Interventions et intervenants dévoilés %}
     </h2>
     <div class="grid-{{ count | divided_by: 2 }} text-center">
       {% for conference in include.conferences %}
