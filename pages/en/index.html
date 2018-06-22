@@ -28,18 +28,24 @@ permalink: /en/
   </div>
 </section>
 
-<section class="section">
-  <div class="wrapper">
-    <h2>You want to stay in the loop?</h2>
-    <p>
-      Subscribe our newsletter to receive information about the event.
-    </p>
-    {% include newsletter-form.html %}
-  </div>
-</section>
+<hr class="wrapper">
 
 {%- assign conferences = site.talks | sort: "display-order" -%}
-{% include speakers.html conferences=conferences locale=page.locale %}
+{% include speakers.html wrap=true conferences=conferences locale=page.locale %}
+
+{% if site.newsletter.display %}
+  <hr class="wrapper">
+
+  <section class="section">
+    <div class="wrapper">
+      <h2 class="text-center">You want to stay in the loop?</h2>
+      <p>
+        Subscribe our newsletter to receive information about the event.
+      </p>
+      {% include newsletter-form.html %}
+    </div>
+  </section>
+{% endif %}
 
 {% include banners/banner-grand-hotel.html locale=page.locale %}
 
