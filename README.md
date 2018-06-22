@@ -90,7 +90,7 @@ Par exemple, les en-têtes de page sont dans :
 - [_includes/header-home.html](_includes/header-home.html) pour la page d'accueil ;
 - [_includes/header-page.html](_includes/header-page.html) pour les autres pages.
 
-D'autres morceaux de contenus se trouvent dans [_includes](_includes), car ils servent à plusieurs endroits dans le site, comme le bloc d'affichage des speackers situés dans [_includes/speacker.html](_includes/speacker.html).
+D'autres morceaux de contenus se trouvent dans [_includes](_includes), car ils servent à plusieurs endroits dans le site, comme le bloc d'affichage des speakers situés dans [_includes/speaker.html](_includes/speaker.html).
 
 ### Et la traduction ?
 
