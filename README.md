@@ -81,6 +81,39 @@ Si vous souhaitez nous aider, vous pouvez [copier](https://help.github.com/artic
 
 Toute modification doit faire l'objet d'une [pull request](https://github.com/sudweb/2018/pulls) et doit passer les tests avant de pouvoir être fusionnée.
 
+### Comment sont organisés les contenus ?
+
+Les pages sont dans le dossier [pages](pages), mais certains contenus ne sont pas là, pour des raisons d'organisation du code.
+
+Par exemple, les en-têtes de page sont dans :
+
+- [_includes/header-home.html](_includes/header-home.html) pour la page d'accueil ;
+- [_includes/header-page.html](_includes/header-page.html) pour les autres pages.
+
+D'autres morceaux de contenus se trouvent dans [_includes](_includes), car ils servent à plusieurs endroits dans le site, comme le bloc d'affichage des speackers situés dans [_includes/speacker.html](_includes/speacker.html).
+
+### Et la traduction ?
+
+Le contenu principal des pages est traduit directement en séparant les fichiers. Mais pour éviter de dupliquer du code, certains portions de codes utilisent des mécanismes intégrés de traduction de chaines de caractères.
+
+Si vous voyez :
+
+```
+{% t Lorem ipsum sit dolor amet %}
+```
+
+ou :
+
+```
+{{ "Lorem ipsum sit dolor amet" | t: page.locale }}
+```
+
+C'est que la chaine `"Lorem ipsum sit dolor amet"` est traduite dans [_data/translations.yml](_data/translations.yml). À chaque chaine française (fr_FR) est associée un équivalent anglais (en_US). On pourrait imaginer d'autres langues mais ce n'est pas prévu pour l'instant.
+
+**Et pour le visiteur ?**
+
+Lors de sa première visite, il est automatiquement transférée vers la langue de préférence de son navigateur : français s'il s'agit du français ; anglais sinon.
+
 ## Tests
 
 Avant de soumettre votre pull-request, vérifiez que les tests passent après le build de la production :
