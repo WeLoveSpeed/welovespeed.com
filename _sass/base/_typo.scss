@@ -1,28 +1,28 @@
 html, input, textarea, select {
-	font-family: $default-font-family;
-	font-style: $default-font-style;
-	font-weight: $default-font-weight;
-	line-height: $default-line-height;
-	color: $default-color;
+  font-family: $default-font-family;
+  font-style: $default-font-style;
+  font-weight: $default-font-weight;
+  line-height: $default-line-height;
+  color: $default-color;
 }
 
 html {
-	font-size: .625em; /* fallback IE8+ */
-	font-size: calc(1em * .625); /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
+  font-size: .625em; /* fallback IE8+ */
+  font-size: calc(1em * .625); /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
 }
 
 body {
-	font-size: map-get($media-ratio, 'xsmall') * $default-font-size;
+  font-size: map-get($media-ratio, 'xsmall') * $default-font-size;
 
-	@each $breakpoint, $value in $breakpoints {
-		@include media(">#{$breakpoint}") {
-			font-size: map-get($media-ratio, $breakpoint) * $default-font-size;
-		}
-	}
+  @each $breakpoint, $value in $breakpoints {
+    @include media(">#{$breakpoint}") {
+      font-size: map-get($media-ratio, $breakpoint) * $default-font-size;
+    }
+  }
 }
 
 h1, h2, .h-like {
-	font-family: $title-font-family; font-style: $title-font-style; font-weight: $title-font-weight; line-height: $title-line-height;
+  font-family: $title-font-family; font-style: $title-font-style; font-weight: $title-font-weight; line-height: $title-line-height;
 }
 
 h3, h4, h5, h6 {
@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2em;
+  font-size: 2em;
 }
 
 h3 {
@@ -53,7 +53,7 @@ h3 {
 }
 
 p, .p-like, ul, ol, dl, blockquote, pre, caption {
-	margin: $default-line-height * 1em 0;
+  margin: $default-line-height * 1em 0;
 }
 
 dt {
@@ -61,11 +61,11 @@ dt {
 }
 
 strong, b, dt {
-	font-weight: $font-weight-bold;
+  font-weight: $font-weight-bold;
 }
 
 a, button.btn--link-like {
-	font-style: italic; color: $link-color; text-decoration: none; text-decoration: underline solid rgba($link-color, .25); text-decoration-skip: ink;
+  font-style: italic; color: $link-color; text-decoration: none; text-decoration: underline solid rgba($link-color, .25); text-decoration-skip: ink;
 
   &:hover,
   &:focus {
@@ -78,61 +78,61 @@ a, button.btn--link-like {
 
 .h-reset,
 .text-reset {
-	font: inherit; color: $default-color;
+  font: inherit; color: $default-color;
 }
 .h-reset {
-	margin: initial; padding: 0;
+  margin: initial; padding: 0;
 }
 @each $size in $font-sizes {
-	$class: map-get($size, 'class');
-	$size: map-get($size, 'size');
+  $class: map-get($size, 'class');
+  $size: map-get($size, 'size');
 
-	.text-#{$class} {
-		font-size: $size;
-	}
+  .text-#{$class} {
+    font-size: $size;
+  }
 }
 .text-left {
-	text-align: left;
+  text-align: left;
 }
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 .text-right {
-	text-align: right;
+  text-align: right;
 }
 .text-uppercase {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 .text-bold {
-	font-weight: $font-weight-bold;
+  font-weight: $font-weight-bold;
 }
 .text-italic {
-	font-style: italic;
+  font-style: italic;
 }
 .text-nowrap {
-	white-space: nowrap;
+  white-space: nowrap;
 }
 .text-ellipsis {
-	overflow: hidden;
-	white-space: nowrap; text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; text-overflow: ellipsis;
 }
 .text-wrap {
-	word-break: break-all; hyphens: auto;
+  word-break: break-all; hyphens: auto;
 }
 .text-focus {
-	color: $focus-color;
+  color: $focus-color;
 }
 
 .text-valid {
-	color: $valid;
+  color: $valid;
 }
 .required,
 .text-warning {
-	color: $warning;
+  color: $warning;
 }
 .text-alert {
-	color: $alert;
+  color: $alert;
 }
 .text-inactive {
-	color: $inactive;
+  color: $inactive;
 }

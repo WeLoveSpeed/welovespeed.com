@@ -1,16 +1,16 @@
 [class*=' banner-'],
 [class^='banner-'] {
-	position: relative;
-	padding: 30% 0;
-	background: center / cover no-repeat;
+  position: relative;
+  padding: 30% 0;
+  background: center / cover no-repeat;
 
-	@include media('>large') {
-		padding: 20% 0;
-	}
-	@include media('>xlarge') {
-		padding: 15% 0;
+  @include media('>large') {
+    padding: 20% 0;
+  }
+  @include media('>xlarge') {
+    padding: 15% 0;
     background-attachment: fixed;
-	}
+  }
 
   &.page-top {
     padding: 20% 0;
@@ -47,13 +47,13 @@
 }
 
 .photo-credits {
-	position: absolute; right: 0; bottom: 0;
-	margin: 0; padding: 0 .5em;
-	background-color: rgba($black, .5);
-	font-size: .625em;
+  position: absolute; right: 0; bottom: 0;
+  margin: 0; padding: 0 .5em;
+  background-color: rgba($black, .5);
+  font-size: .625em;
 
-	&,
-	a {
-		color: $white;
-	}
+  &,
+  a {
+    color: $white;
+  }
 }
