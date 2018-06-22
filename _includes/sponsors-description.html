@@ -1,6 +1,6 @@
 <article class="sponsor" id="{{ sponsor.slug }}">
   <figure class="company-logo" role="group">
-      <img src="{{ sponsor.logo | relative_url }}" alt="">
+      {% cloudinary {{ sponsor.logo }} alt="" %}
       <figcaption class="sr-only">{{ sponsor.name }}</figcaption>
   </figure>
   <p class="company-description">

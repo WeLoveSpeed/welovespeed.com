@@ -59,10 +59,16 @@ cloudinary:
       fallback_max_width: 800
       steps: 5
       sizes: "(min-width: 50rem) 50rem, 90vw"
+    gold_sponsors:
+      min_width: 60
+      max_width: 1760
+      fallback_max_width: 880
+      steps: 3
+      sizes: "100px"
     staff:
       min_width: 60
       max_width: 60
-      fallback_max_width: 80
+      fallback_max_width: 120
       steps: 2
       sizes: "60px"
 
