@@ -3,10 +3,43 @@ title: Accueil
 description: Le 9 octobre 2018, à Bordeaux, une journée de conférences dédiées à la performance web
 i18n-key: home
 permalink: /
-intro: >-
-  Enfin un événement français dédié à la web performance&nbsp;! Créé par et pour la communauté webperf, We ❤️ Speed est né de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnels du web, de l’e-commerce et experts de la webperf, cet événement est fait pour vous&nbsp;!
-contact_text: "Restons en contact"
 ---
+
+<section class="section">
+  <div class="wrapper">
+    <p class="home-sub-title">
+        Enfin un événement français dédié à la web performance&nbsp;! Créé par et pour la communauté webperf, We ❤️ Speed est né de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnels du web, de l’e-commerce et experts de la webperf, cet événement est fait pour vous&nbsp;!
+    </p>
+    <p class="text-center">
+      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
+        <span class="button-inner">{% t voir le programme %}</span>
+      </a>
+      {% if site.tickets.selling %}
+      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+        <span class="button-inner">{% t réserver votre place %}</span>
+      </a>
+      {% endif %}
+      {% if site.tickets.waiting-list %}
+      <a class="button" data-text="{% t s'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t s'incrire en liste d'attente %}">
+        <span class="button-inner">{% t s'incrire en liste d'attente %}</span>
+      </a>
+      {% endif %}
+    </p>
+    <h2>You want to stay in the loop?</h2>
+    <p>
+      Subscribe our newsletter to receive information about the event.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <hr>
+  </div>
+</section>
+
+{%- assign conferences = site.talks | sort: "display-order" -%}
+{% include speakers.html conferences=conferences locale=page.locale %}
 
 {% include banners/banner-grand-hotel.html locale=page.locale %}
 

@@ -6,10 +6,7 @@ permalink: /programme/
 ---
 
 {%- assign conferences = site.talks | sort: "display-order" -%}
-{%- assign number_of_conferences = conferences | where_exp:"item","item.type != 'pause'"| size -%}
-
-{% include speakers.html conferences=conferences locale=page.locale shorturl=true %}
-
+{% include speakers.html locale=page.locale shorturl=true %}
 <section class="section">
   <div class="wrapper">
     <hr>

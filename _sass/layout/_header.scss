@@ -1,16 +1,16 @@
 .home {
 
   &-header {
-    margin: 20% 0;
+    margin: 20% 0 2em;
 
     @include media('>medium') {
-      margin: 15% 0;
+      margin: 15% 0 2em;
     }
     @include media('>large') {
-      margin: 10% 0;
+      margin: 10% 0 2em;
     }
     @include media('>xlarge') {
-      margin: 8% 0;
+      margin: 8% 0 2em;
     }
   }
 

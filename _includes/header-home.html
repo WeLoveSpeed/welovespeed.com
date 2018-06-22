@@ -6,35 +6,5 @@
         {% t L’événement français des mordus de web performance ! %}
       </div>
     </h1>
-
-    <p class="home-sub-title">
-      {{ page.intro }}
-    </p>
-    <p class="text-center">
-      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
-        <span class="button-inner">{% t voir le programme %}</span>
-      </a>
-      {% if site.tickets.selling %}
-      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
-        <span class="button-inner">{% t réserver votre place %}</span>
-      </a>
-      {% endif %}
-      {% if site.tickets.waiting-list %}
-      <a class="button" data-text="{% t s'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t s'incrire en liste d'attente %}">
-        <span class="button-inner">{% t s'incrire en liste d'attente %}</span>
-      </a>
-      {% endif %}
-    </p>
-    <h2>{{ page.contact_text }}</h2>
-    <p>
-      Ici le code de Mailchimp
-    </p>
   </div>
 </header>
-<section class="section">
-  <div class="wrapper">
-    <hr>
-  </div>
-</section>
-{%- assign conferences = site.talks | sort: "display-order" -%}
-{% include speakers.html conferences=conferences locale=page.locale %}
