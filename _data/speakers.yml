@@ -12,3 +12,30 @@ rick:
       Rick, souriant.
     bio: >-
       Défenseur de la transparence sur le Web chez Google et intendant des données de [@HTTPArchive](https://twitter.com/HTTPArchive). Co-autheur [@UsingWPT](https://twitter.com/UsingWPT).
+stephanie:
+  name: Stéphanie Walter
+  image: /assets/images/staff/laurine.jpg
+  url: https://twitter.com/WalterStephanie
+  en_US:
+    alt: >-
+      Unknown
+    bio: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum in nostrane potestate est, quid meminerimus? Itaque rursus eadem ratione, qua sum paulo ante usus, haerebitis.
+  fr_FR:
+    alt: >-
+      Inconnue
+    bio: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum in nostrane potestate est, quid meminerimus? Itaque rursus eadem ratione, qua sum paulo ante usus, haerebitis.
+roundtable:
+  name: Table ronde
+  image: /assets/images/speakers/roundtable.jpg
+  en_US:
+    alt: >-
+      Several people
+    bio: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum in nostrane potestate est, quid meminerimus? Itaque rursus eadem ratione, qua sum paulo ante usus, haerebitis.
+  fr_FR:
+    alt: >-
+      Plusieurs silhouettes
+    bio: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum in nostrane potestate est, quid meminerimus? Itaque rursus eadem ratione, qua sum paulo ante usus, haerebitis.

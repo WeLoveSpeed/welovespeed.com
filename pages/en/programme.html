@@ -5,13 +5,10 @@ i18n-key: programme
 permalink: /en/line-up/
 ---
 
-{% include speakers.html locale=page.locale shorturl=true %}
+{%- assign conferences = site.talks | sort: "display-order" -%}
+{% include speakers.html conferences=conferences locale=page.locale shorturl=true %}
 
-<section class="section">
-  <div class="wrapper">
-    <hr>
-  </div>
-</section>
+<hr class="wrapper">
 
 {% include conferences.html conferences=conferences locale=page.locale %}
 

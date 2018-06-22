@@ -1,11 +1,3 @@
-{% comment %} Collecting speakers count {% endcomment %}
-{% assign speakers = '' | split: '' %}
-{% assign count = 0 %}
-{% for conference in include.conferences %}
-  {% for names in conference.speaker %}
-    {% assign count = count | plus: 1 %}
-  {%- endfor -%}
-{%- endfor -%}
 {% unless include.nowrap %}
 <section id="speakers" class="section">
   <div class="wrapper">
@@ -16,7 +8,7 @@
     <h2 class="text-center">
         {% t Intervenants dévoilés %}
     </h2>
-    <div class="grid-{{ count | divided_by: 2 }} text-center">
+    <div class="grid-4 text-center">
       {% for conference in include.conferences %}
         {% for names in conference.speaker %}
           {% capture conf-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#{{conference.slug}}{% endcapture %}
