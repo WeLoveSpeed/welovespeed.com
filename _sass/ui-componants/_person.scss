@@ -10,6 +10,12 @@ figure.company {
 }
 
 .company {
+  padding: 20px 0 20px 80px;
+
+  @include media('>=xlarge') {
+    padding-left: 0;
+  }
+
   &-logo-big {
     margin: 30px;
   }
