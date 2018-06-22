@@ -1,0 +1,16 @@
+<section class="section sponsors-description">
+  <div class="wrapper">
+    <h2 class="text-center">
+      {% t Nos sponsors Gold %}
+    </h2>
+    {% for sponsor in site.data.sponsors.gold %}
+    <hr>
+    {% if include.locale == "en_US" and sponsor.en_US %}
+      {% assign verbatim = sponsor.en_US %}
+    {% else %}
+      {% assign verbatim = sponsor.fr_FR %}
+    {% endif %}
+    {% include sponsors-description.html locale=page.locale %}
+    {%- endfor -%}
+  </div>
+</section>

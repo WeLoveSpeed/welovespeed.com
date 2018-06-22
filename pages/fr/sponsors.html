@@ -1,0 +1,28 @@
+---
+title: "Nos sponsors"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+i18n-key: sponsors
+permalink: /sponsors/
+---
+
+{% include sponsors.html locale=page.locale shorturl=true %}
+
+<section class="section">
+  <div class="wrapper">
+    <hr>
+  </div>
+</section>
+
+{% include sponsors-descriptions.html locale=page.locale %}
+
+{% if site.tickets.selling %}
+<section class="section">
+  <div class="wrapper">
+    <p class="text-center"><a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+      <span class="button-inner">{% t réserver votre place %}</span>
+    </a></p>
+  </div>
+</section>
+{% endif %}
+
+{% include banners/banner-grand-theatre.html locale=page.locale %}

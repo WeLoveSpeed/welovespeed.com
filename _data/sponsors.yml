@@ -1,0 +1,87 @@
+gold:
+  - name: Fasterize
+    slug: fstrz
+    logo: /assets/images/sponsors/fasterize.png
+    fr_FR:
+      cta:
+        text: "Fasterize CTA FR"
+        url: https://www.fasterize.com/
+      description: >-
+        Description Fasterizen Fr. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+    en_US:
+      cta:
+        text: "Fasterize CTA EN"
+        url: https://www.fasterize.com/
+      description: >-
+        Description Fasterizen En. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+  - name: Dareboost
+    slug: db
+    logo: /assets/images/sponsors/dareboost.png
+    fr_FR:
+      cta:
+        text: "Créer un compte gratuit"
+        url: https://www.dareboost.com/fr/home
+      description: >-
+        Du test de performance au monitoring synthétique de pages comme de parcours utilisateurs complets, Dareboost un outil tout-en-un dédié à la performance web. Un outil conçu pour faire collaborer tous les métiers web, offrant les fonctionalités de reporting nécessaires aux décideurs (tableaux de bord personnalisés, exports CSV ou API, etc) aussi bien que l'outillage nécessaire aux experts du domaine (waterfalls, mapping DNS, blacklists, budgets de performance,etc).
+    en_US:
+      cta:
+        text: "Create a free account"
+        url: https://www.dareboost.com/en/home
+      description: >-
+        From performance testing to synthetic page monitoring and comprehensive user journeys, Dareboost is an all-in-one tool dedicated to web performance. A tool designed to help the web professionals collaborate, offering the reporting functionalities necessary to decision makers (customized dashboards, CSV or API exports, etc.) as well as the tools necessary to experts in the field (waterfalls, DNS mapping, blacklists, performance budgets, etc.).
+  - name: Cdiscount
+    slug: cds
+    logo: /assets/images/sponsors/cdiscount.png
+    fr_FR:
+      cta:
+        text: "Cdiscount CTA FR"
+        url: https://www.cdiscount.com/
+      description: >-
+        Description Cdiscount Fr. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+    en_US:
+      cta:
+        text: "Cdiscount CTA EN"
+        url: https://www.cdiscount.com/
+      description: >-
+        Description Cdiscount En. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+  - name: Quanta Computing
+    slug: quanta
+    logo: /assets/images/sponsors/quanta.png
+    fr_FR:
+      cta:
+        text: "Quanta Computing CTA FR"
+        url: https://www.quanta-computing.com/
+      description: >-
+        Description Quanta Computing Fr. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+    en_US:
+      cta:
+        text: "Quanta Computing CTA EN"
+        url: https://www.quanta-computing.com/
+      description: >-
+        Description Quanta Computing En. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+
+others:
+  - name: Sponsor1
+    slug: sp1
+    logo: /assets/images/staff/sebastien.jpg
+    url: "#"
+  - name: Sponsor1
+    slug: sp1
+    logo: /assets/images/staff/sebastien.jpg
+    url: "#"
+  - name: Sponsor1
+    slug: sp1
+    logo: /assets/images/staff/sebastien.jpg
+    url: "#"
+  - name: Sponsor1
+    slug: sp1
+    logo: /assets/images/staff/sebastien.jpg
+    url: "#"
+  - name: Sponsor1
+    slug: sp1
+    logo: /assets/images/staff/sebastien.jpg
+    url: "#"
+  - name: Sponsor1
+    slug: sp1
+    logo: /assets/images/staff/sebastien.jpg
+    url: "#"

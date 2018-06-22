@@ -1,0 +1,12 @@
+<article class="sponsor" id="{{ sponsor.slug }}">
+  <figure class="company-logo" role="group">
+      <img src="{{ sponsor.logo | relative_url }}" alt="">
+      <figcaption class="sr-only">{{ sponsor.name }}</figcaption>
+  </figure>
+  <p class="company-description">
+      {{ verbatim.description | markdownify }}
+  </p>
+  <p class="text-center"><a class="button" data-text="{{ verbatim.cta.text }}" href="{{ verbatim.cta.url }}" title="{{ verbatim.cta.text }}">
+    <span class="button-inner">{{ verbatim.cta.text }}</span>
+  </a></p>
+</article>

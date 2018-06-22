@@ -4,3 +4,22 @@
 		border-radius: 50%;
 	}
 }
+
+figure.company {
+  margin: 30px;
+}
+
+.company {
+  &-logo-big {
+    margin: 30px;
+  }
+  &-logo {
+    max-width: 12em; float: left; margin: .5em 1em 0 0; overflow: hidden;
+  }
+  &-name {
+    line-height: 1.25;
+  }
+  &-description {
+    margin: .5em 0;
+  }
+}
