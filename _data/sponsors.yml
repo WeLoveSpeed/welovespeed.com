@@ -16,7 +16,7 @@ gold:
         Description Fasterizen En. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
   - name: Dareboost
     slug: db
-    logo: /assets/images/sponsors/dareboost.png
+    logo: /assets/images/sponsors/dareboost.svg
     fr_FR:
       cta:
         text: "Testez votre site"
