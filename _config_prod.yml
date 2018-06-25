@@ -66,12 +66,12 @@ cloudinary:
       fallback_max_width: 880
       steps: 3
       sizes: "100px"
-    staff:
+    avatar:
       min_width: 60
-      max_width: 60
-      fallback_max_width: 120
+      max_width: 110
+      fallback_max_width: 220
       steps: 2
-      sizes: "60px"
+      sizes: "110px"
 
 pagination:
   enabled: true

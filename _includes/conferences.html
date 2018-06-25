@@ -34,7 +34,7 @@
         {% endif %}
         <section class="conference-speaker text-sm">
           <figure class="conference-speaker-pic" role="group">
-            <img src="{{ speaker.image | relative_url }}" alt="">
+            {% cloudinary avatar {{ speaker.image | relative_url }} alt="" %}
             <figcaption class="sr-only">{{ speaker.name }}</figcaption>
           </figure>
           <h3 class="conference-speaker-name">

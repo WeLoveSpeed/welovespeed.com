@@ -14,7 +14,7 @@
           {% capture conf-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#{{conference.slug}}{% endcapture %}
           {% assign speaker = site.data.speakers[names] %}
           <figure class="person">
-            <a title="{{ "Aller directement à l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ conf-url }}"><img src="{{ site.lazyload.placeholder }}" class="person-avatar lozad" data-src="{{ speaker.image | relative_url }}" alt="{{speaker.name}}" width="100" height="100"></a>
+            <a title="{{ "Aller directement à l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ conf-url }}">{% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}</a>
           </figure>
         {%- endfor -%}
       {%- endfor -%}
