@@ -1,6 +1,6 @@
 ---
 display-order: 1
-speaker:
+speakers:
   - rick
 fr_FR:
   title: "Chrome UX Report"

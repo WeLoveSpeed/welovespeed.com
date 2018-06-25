@@ -10,7 +10,7 @@
     </h2>
     <div class="grid-4 text-center">
       {% for conference in include.conferences %}
-        {% for names in conference.speaker %}
+        {% for names in conference.speakers %}
           {% capture conf-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#{{conference.slug}}{% endcapture %}
           {% assign speaker = site.data.speakers[names] %}
           <figure class="person">

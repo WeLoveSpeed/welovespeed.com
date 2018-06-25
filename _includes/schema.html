@@ -60,7 +60,7 @@
   "performer": [
   {% for conference in site.talks %}
     {% unless forloop.first %},{% endunless %}
-    {% for names in conference.speaker %}
+    {% for names in conference.speakers %}
       {% assign speaker = site.data.speakers[names] %}
       {% unless forloop.first or forloop.last %},{% endunless %}
       {

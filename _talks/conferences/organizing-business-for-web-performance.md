@@ -1,13 +1,15 @@
 ---
 display-order: 3
-speaker:
-  - roundtable
+speakers:
+  - lesfurets
+  - ouestfrance
+  - lequipe
 fr_FR:
   title: "Organiser l'entreprise pour la Performance Web"
   description: >-
-    <p>Indicant pueri, in quibus ut in speculis natura cernitur. Qui bonum omne in virtute ponit, is potest dicere perfici beatam vitam perfectione virtutis; Quorum altera prosunt, nocent altera. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Quae quidem sapientes sequuntur duce natura tamquam videntes; Moriatur, inquit. Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. Maximus dolor, inquit, brevis est.</p>
+    Insufler une culture de la performance Web en entrepris n'est pas une chose aisée. Les managers doivent imaginer les modalités de l'organisation des projets (équipes transverses ou équipes spécialisées, champions…), définir les budgets, faire adhérer leurs équipes à de nouvelles valeurs en utilisant divers leviers de motivation. Plusieurs acteurs français se réuniront lors d'une table rond pour confronter leurs retours.
 en_US:
   title: "Organizing Business for Web Performance"
   description: >-
-    <p>Indicant pueri, in quibus ut in speculis natura cernitur. Qui bonum omne in virtute ponit, is potest dicere perfici beatam vitam perfectione virtutis; Quorum altera prosunt, nocent altera. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Quae quidem sapientes sequuntur duce natura tamquam videntes; Moriatur, inquit. Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. Maximus dolor, inquit, brevis est.</p>
+    Building a Web performance culture in the workplace is not easy. Managers must imagine how projects are organized (transversal or specialized teams, champions, etc.), define budgets, make their teams adhere to new values by using various motivational leverage. Several French actors will exchange during this roundtable to compare their experiences.
 ---

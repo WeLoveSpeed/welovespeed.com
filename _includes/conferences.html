@@ -25,7 +25,7 @@
         </p>
       {% endif %}
 
-        {% for names in conference.speaker %}
+        {% for names in conference.speakers %}
         {% assign speaker = site.data.speakers[names] %}
         {% if include.locale == "en_US" and speaker.en_US %}
           {% assign speakatim = speaker.en_US %}
@@ -38,7 +38,11 @@
             <figcaption class="sr-only">{{ speaker.name }}</figcaption>
           </figure>
           <h3 class="conference-speaker-name">
-            <span class="text-xs">{% t Présenté par %}</span><br>
+            {% unless conference.speakers | size > 1 %}
+              <span class="text-xs">{% t Présenté par %}</span><br>
+            {% else %}
+              <span class="text-xs">Avec la participation de</span><br>
+            {% endunless %}
             {% capture person %}<em>{{ speaker.name }}</em>{% endcapture %}
             {% if speaker.url %}
               {% capture person %}<a href="{{ speaker.url }}">{{ person }}</a>{% endcapture %}

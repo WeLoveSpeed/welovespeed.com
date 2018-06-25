@@ -44,7 +44,7 @@ h2 {
 h3 {
   font-size: 1.25em;
 
-  .talks & {
+  .conference > & {
     padding: 20px 0 20px 80px;
     @include media('>=xlarge') {
       padding-left: 0;

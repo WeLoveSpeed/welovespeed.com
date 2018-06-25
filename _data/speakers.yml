@@ -26,16 +26,42 @@ stephanie:
       Inconnue
     bio: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum in nostrane potestate est, quid meminerimus? Itaque rursus eadem ratione, qua sum paulo ante usus, haerebitis.
-roundtable:
-  name: Table ronde
-  image: /assets/images/speakers/roundtable.jpg
+lesfurets:
+  name: LesFurets.com
+  image: /assets/images/speakers/lesfurets.jpg
   en_US:
     alt: >-
-      Several people
+      LesFurets.com logo
     bio: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum in nostrane potestate est, quid meminerimus? Itaque rursus eadem ratione, qua sum paulo ante usus, haerebitis.
+      LesFurets.com is a French comparison site published by Courtanet. It enables users to compare rates, warranties and services for automobile, health, two-wheeler, home and loan insurance.
   fr_FR:
     alt: >-
-      Plusieurs silhouettes
+      Logo de LesFurets.com
     bio: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum in nostrane potestate est, quid meminerimus? Itaque rursus eadem ratione, qua sum paulo ante usus, haerebitis.
+      LesFurets.com est un site de comparaison français édité par la société Courtanet. Il permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
+ouestfrance:
+  name: Ouest France Multimédia
+  image: /assets/images/speakers/ouestfrance.jpg
+  en_US:
+    alt: >-
+      Ouest France logo
+    bio: >-
+      Ouest-France Multimédia is a subsidiary of Ouest-France. The company is dedicated to providing services and managing Ouest-France's web portals organized by sector: automotive, real estate, employment, internships & block release training and the maville.com network.
+  fr_FR:
+    alt: >-
+      Logo Ouest France
+    bio: >-
+      Ouest-France Multimédia est une filiale de Ouest-France. Elle est dédiée aux prestations de services et gestion des portails web de Ouest-France organisés par secteur : automobile, immobilier, emploi, stages-alternance, et le réseau maville.com.
+lequipe:
+  name: L'équipe
+  image: /assets/images/speakers/lequipe.jpg
+  en_US:
+    alt: >-
+      L'Équipe logo
+    bio: >-
+      The L'Équipe Interactive site, launched in 2000, is the leading French sports information site with over 2.3 million unique visitors in May 2007 and 230 million page views.
+  fr_FR:
+    alt: >-
+      Logo l'Équipe
+    bio: >-
+      Le site L'Équipe interactif, lancé en 2000, est le premier site d'informations sportives français avec plus de 2,3 M de visiteurs uniques en mai 2007 et 230 M de pages vues.

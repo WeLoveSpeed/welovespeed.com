@@ -1,6 +1,6 @@
 ---
 display-order: 2
-speaker:
+speakers:
   - stephanie
 fr_FR:
   title: "L’UX au service de la performance de vos interfaces"
