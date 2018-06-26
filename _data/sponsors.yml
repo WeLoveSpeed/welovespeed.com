@@ -4,14 +4,14 @@ gold:
     logo: /assets/images/sponsors/fasterize.png
     fr_FR:
       cta:
-        text: "Fasterize CTA FR"
+        text: "Accélérez votre site web"
         url: https://www.fasterize.com/
       description: >-
-        Description Fasterizen Fr. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+        Fasterize is a SaaS solution that automatically speeds up the loading of websites. Fasterize's optimization engine acts in real time (like a proxy) on the raw page performance, but also on the users' perception of speed. Quick to set up
     en_US:
       cta:
-        text: "Fasterize CTA EN"
-        url: https://www.fasterize.com/
+        text: "Fasterize your website"
+        url: https://www.fasterize.com/en/
       description: >-
         Description Fasterizen En. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
   - name: Dareboost
@@ -22,7 +22,7 @@ gold:
         text: "Testez votre site"
         url: https://www.dareboost.com/fr/home
       description: >-
-        Du test de performance au monitoring synthétique de pages comme de parcours utilisateurs complets, Dareboost est un outil tout-en-un dédié à la performance web. Un outil conçu pour faire collaborer tous les métiers web, offrant les fonctionalités de reporting nécessaires aux décideurs (tableaux de bord personnalisés, exports CSV ou API, etc.) aussi bien que l'outillage nécessaire aux experts du domaine (waterfalls, mapping DNS, blacklists, budgets de performance, etc.).
+        Du test de performance au monitoring synthétique de pages comme de parcours utilisateurs complets, Dareboost est un outil tout-en-un dédié à la performance web. Un outil conçu pour faire collaborer tous les métiers web, offrant les fonctionnalités de reporting nécessaires aux décideurs (tableaux de bord personnalisés, exports CSV ou API, etc.) aussi bien que l'outillage nécessaire aux experts du domaine (waterfalls, mapping DNS, blacklists, budgets de performance, etc.).
     en_US:
       cta:
         text: "Test your site"
@@ -34,31 +34,31 @@ gold:
     logo: /assets/images/sponsors/cdiscount.png
     fr_FR:
       cta:
-        text: "Cdiscount CTA FR"
+        text: "Découvrez Cdiscount.com"
         url: https://www.cdiscount.com/
       description: >-
-        Description Cdiscount Fr. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+        Bien plus qu’un leader de l’e-commerce, Cdiscount c’est surtout une réussite française symbolique du numérique. Depuis sa création, Cdiscount relève le défi de surprendre jour après jour ses clients avec une ambition simple : démocratiser l’accès à toutes les consommations.
     en_US:
       cta:
-        text: "Cdiscount CTA EN"
+        text: "Visit Cdiscount.com"
         url: https://www.cdiscount.com/
       description: >-
-        Description Cdiscount En. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+        Launched in 1998 in Bordeaux, Cdiscount is today one of the leaders of eCommerce in France. Among the top French brands in terms of price image. Cdiscount directly sells a diverse array of products and supports a marketplace where thousands of sellers offer millions of their own products. Cdiscount has a clear ambition: to offer attractive pricing on all its products, and ensure a high quality of customer service, based on its fully integrated storage and logistics network. The site offers the possibility of fast and flexible home delivery or collection at one of our thousands pick-up points at brick and mortar locations throughout France.
   - name: Quanta Computing
     slug: quanta
     logo: /assets/images/sponsors/quanta.png
     fr_FR:
       cta:
-        text: "Quanta Computing CTA FR"
+        text: "Pilotez et optimisez vos performances Web"
         url: https://www.quanta-computing.com/
       description: >-
-        Description Quanta Computing Fr. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+        Quanta est la solution d'analyse qui vous aide à générer plus de revenus en améliorant le temps de chargement des pages à chaque étape de votre tunnel e-commerce.
     en_US:
       cta:
-        text: "Quanta Computing CTA EN"
+        text: "Drive and optimize your Web Performance"
         url: https://www.quanta-computing.com/
       description: >-
-        Description Quanta Computing En. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
+        Quanta is the Analytics solution that helps you drive more revenue by improving page load time at each step of your E-commerce funnel.
 
 others:
   - name: Sponsor1
