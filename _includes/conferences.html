@@ -38,10 +38,11 @@
             <figcaption class="sr-only">{{ speaker.name }}</figcaption>
           </figure>
           <h3 class="conference-speaker-name">
-            {% unless conference.speakers | size > 1 %}
+            {% assign speakerCount = conference.speakers | size %}
+            {% unless speakerCount > 1 %}
               <span class="text-xs">{% t Présenté par %}</span><br>
             {% else %}
-              <span class="text-xs">Avec la participation de</span><br>
+              <span class="text-xs">{% t Avec la participation de %}</span><br>
             {% endunless %}
             {% capture person %}<em>{{ speaker.name }}</em>{% endcapture %}
             {% if speaker.url %}
