@@ -17,6 +17,8 @@
         </nav>
       </section>
       <section>
+        <h2 class="text-lg">{% t Restons en contact %}</h2>
+        {% include newsletter-form.html compact=true %}
         <ul class="social-links">
           {% for social in site.data.social %}
             <li>
