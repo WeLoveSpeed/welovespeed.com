@@ -90,7 +90,15 @@ Par exemple, les en-têtes de page sont dans :
 - [_includes/header-home.html](_includes/header-home.html) pour la page d'accueil ;
 - [_includes/header-page.html](_includes/header-page.html) pour les autres pages.
 
-D'autres morceaux de contenus se trouvent dans [_includes](_includes), car ils servent à plusieurs endroits dans le site, comme le bloc d'affichage des intervenant·e·s situés dans [_includes/speakers.html](_includes/speakers.html).
+D'autres morceaux de contenus se trouvent dans [_includes](_includes), car ils servent à plusieurs endroits dans le site, comme le bloc d'affichage des intervenants situés dans [_includes/speakers.html](_includes/speakers.html).
+
+Les définitions des talks sont dans [_talks](_talks).
+
+#### Données et navigation
+
+Certaines données-clées sont réunies dans [_data](_data) : les informations sur les [sponsors](_data/sponsors.yml), le [staff](_data/staff.yml), les [speakers](_data/speakers.yml)…
+
+C'est aussi là qu'on trouve le fichier qui définit [quels éléments apparaissent dans la navigation ou le pied de page](_data/sitemap.yml).
 
 ### Et la traduction ?
 
