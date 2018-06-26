@@ -1,0 +1,62 @@
+---
+title: Billetterie
+description: "Réservez votre place, il n'y en aura pas pour tout le monde"
+i18n-key: register
+permalink: /billetterie/
+---
+
+{% if site.tickets.selling %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Acheter votre place</h2>
+    <p>Weezevent Embed code</p>
+    <script type="text/javascript" src="https://www.weezevent.com/js/widget/min/widget.min.js"></script>
+  </div>
+</section>
+{% endif %}
+{% if site.tickets.waiting-list %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Liste d'attente</h2>
+    <p>Toutes les places disponibles pour cette édition ont été vendues. Il est possible que de nouvelles places se libèrent en cas de désistement.</p>
+    <p>Inscrivez-vous sur la liste d'attente pour être prévenu dès qu'une place se libère.</p>
+    <form method="post" id="waiting-list-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdshv4_du-1vKF7-S_p9NC_xHZIKBg4VYUFT7jkLgtP5VF1Zg/formResponse" enctype="multipart/form-data">
+      <div class="p-like">
+        <label for="wl-email">{% t Votre email %} {% t (obligatoire) %}</label>
+        <input type="email" name="entry.1045781291" id="wl-email" required placeholder="ex : michel@vaillante-f1.fr">
+      </div>
+      <div class="p-like">
+        <label for="wl-name">{% t Votre nom %} {% t (obligatoire) %}</label>
+          <input type="text" name="entry.1612045899" id="wl-name" required placeholder="ex : Michel Vaillant">
+      </div>
+      <div class="p-like">
+        <label for="wl-tel">{% t Votre numéro %} {% t (obligatoire) %}
+        <input type="text" name="entry.972508085" id="wl-tel" required placeholder="ex : +33123456789">
+      </div>
+      <div class="p-like text-center">
+        <button type="submit" class="button" data-text="s'inscrire sur la liste d'attente">
+          <span class="button-inner">s'inscrire sur la liste d'attente</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+{% endif %}
+
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <h2>Comment venir à Bordeaux&nbsp;?</h2>
+    <section>
+      <p>Nous avons des solutions ! Suivez les conseils que nous vous avons préparé pour un voyage sans encombre.</p>
+    </section>
+    <p class="text-center">
+      <a class="button" data-text="venir à Bordeaux" href="{{ page.baseurl | default:site.baseurl }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">venir à Bordeaux</span></a>
+    </p>
+  </div>
+</section>
+
+<hr class="wrapper">
+
+{% include banners/banner-grand-theatre.html locale=page.locale %}
