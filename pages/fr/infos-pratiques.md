@@ -23,13 +23,13 @@ Situé dans l’hypercentre de Bordeaux, en bordure des quais, le Palais de la B
 
 Vous avez le choix parmi 20 allers&#8239;/&#8239;retours quotidiens entre Paris-Montparnasse et Bordeaux (2 heures, avec du Wifi). Pour ne pas manquer petit déjeuner et la première conférence, prenez celui de 6h48.  
 _Astuce prix : le train Bordeaux-Paris du mardi soir (18h52) ne coûte que 29€ en Ouigo !_  
-Le Palais de la Bourse est ensuite à 10 minutes en tramway.
+Le Palais de la Bourse est ensuite à 10 minutes [en tramway](#en-tramway).
 
 ### En avion
 
 Il existe des vols quotidiens vers toutes les grandes villes françaises.  
 Des navettes relient l’aéroport Bordeaux-Mérignac vers le centre-ville et la gare de Bordeaux (30 minutes).  
-Le Palais de la Bourse est ensuite à 10 minutes en tramway.
+Le Palais de la Bourse est ensuite à 10 minutes [en tramway](#en-tramway).
 
 ### En tramway
 
