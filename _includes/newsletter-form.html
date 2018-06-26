@@ -1,25 +1,25 @@
 <form id="nl-form" class="page__form js-form form" method="POST" action="{{ site.newsletter.url }}" name="mc-embedded-subscribe-form"
 class="newsletter-form validate" target="_blank" rel="noopener noreferrer" novalidate="">
   <fieldset>
-    <label for="mce-EMAIL">{% t Votre email (obligatoire) %}</label>
-    <input type="email" placeholder="gre@tsco.tt" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
+    <label for="mce-EMAIL-{{ include.context }}">{% t Votre email (obligatoire) %}</label>
+    <input type="email" placeholder="gre@tsco.tt" value="" name="EMAIL" class="email" id="mce-EMAIL-{{ include.context }}" required>
   </fieldset>
   <fieldset>
-    <label for="mce-NAME">{% t Votre nom %}</label>
+    <label for="mce-NAME-{{ include.context }}">{% t Votre nom %}</label>
     {% if include.compact %}<div class="form-row">{% endif %}
-    <input type="name" value="" placeholder="Marty McFly" name="NAME" class="name" id="mce-NAME" required>
+    <input type="name" value="" placeholder="Marty McFly" name="NAME" class="name" id="mce-NAME-{{ include.context }}" required>
     {% if include.compact %}<button class="button-reset" type="submit" name="subscribe" id="mc-embedded-subscribe">{% t s'abonner %}</button>
     </div>{% endif %}
   </fieldset>
   <fieldset>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div class="sr-only">
-      <label for="{{ site.newsletter.honeypot }}">{% t Les vraies personnes ne doivent pas remplir ce champ %}</label>
-      <input type="text" name="{{ site.newsletter.honeypot }}" tabindex="-1" value="">
+      <label for="mce-not-{{ include.context }}">{% t Les vraies personnes ne doivent pas remplir ce champ %}</label>
+      <input type="text" name="{{ site.newsletter.honeypot }}" tabindex="-1" id="mce-not-{{ include.context }}" value="">
     </div>
   </fieldset>
   {% unless include.compact %}<p class="text-center">
-    <button class="button" data-text="{% t s'abonner %}" type="submit" name="subscribe" id="mc-embedded-subscribe">
+    <button class="button" data-text="{% t s'abonner %}" type="submit" name="subscribe" id="mc-embedded-subscribe-{{ include.context }}">
       <span class="button-inner">{% t s'abonner %}</span>
     </button>
   </p>{% endunless %}

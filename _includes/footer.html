@@ -18,7 +18,7 @@
       </section>
       <section>
         <h2 class="text-lg">{% t Restons en contact %}</h2>
-        {% include newsletter-form.html compact=true %}
+        {% include newsletter-form.html compact=true context=footer %}
         <ul class="social-links">
           {% for social in site.data.social %}
             <li>
