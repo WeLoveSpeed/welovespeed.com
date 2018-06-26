@@ -2,21 +2,25 @@
 class="newsletter-form validate" target="_blank" rel="noopener noreferrer" novalidate="">
   <fieldset>
     <label for="mce-EMAIL">{% t Votre email (obligatoire) %}</label>
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
+    <input type="email" placeholder="gre@tsco.tt" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
   </fieldset>
   <fieldset>
     <label for="mce-NAME">{% t Votre nom %}</label>
-    <input type="name" value="" name="NAME" class="name" id="mce-NAME" required>
+    {% if include.compact %}<div class="form-row">{% endif %}
+    <input type="name" value="" placeholder="Marty McFly" name="NAME" class="name" id="mce-NAME" required>
+    {% if include.compact %}<button class="button-reset" type="submit" name="subscribe" id="mc-embedded-subscribe">{% t s'abonner %}</button>
+    </div>{% endif %}
   </fieldset>
   <fieldset>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div class="sr-only">
+      <label for="{{ site.newsletter.honeypot }}">{% t Les vraies personnes ne doivent pas remplir ce champ %}</label>
       <input type="text" name="{{ site.newsletter.honeypot }}" tabindex="-1" value="">
     </div>
   </fieldset>
-  <p class="text-center">
+  {% unless include.compact %}<p class="text-center">
     <button class="button" data-text="{% t s'abonner %}" type="submit" name="subscribe" id="mc-embedded-subscribe">
       <span class="button-inner">{% t s'abonner %}</span>
     </button>
-  </p>
+  </p>{% endunless %}
 </form>

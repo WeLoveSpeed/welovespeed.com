@@ -6,6 +6,8 @@ permalink: /en/informations/
 layout: page
 ---
 
+# {{ page.title }}
+
 ## Where will the event take place?
 
 **At the Palais de la Bourse in Bordeaux**  

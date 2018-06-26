@@ -2,7 +2,7 @@
     <h2 class="text-center">{% t L'Équipe %}</h2>
     <div class="grid-4 text-center">
       {% for member in staff %}
-        <figure class="person" role="group" aria-labelledby="capt-{{member.twitter}}">
+        <figure class="person" role="group" aria-describedby="capt-{{member.twitter}}">
           {% cloudinary avatar {{ "/assets/images/staff/" | append: member.slug | append: ".jpg" | relative_url }} class="person-avatar lozad" alt="{{member.firstname}} {{member.lastname}}" %}
           <figcaption id="capt-{{member.slug}}" class="person-name text-xs">
             <a title="{{member.firstname}} {{member.lastname}}" href="https://twitter.com/{{member.twitter}}">{{member.firstname}} <span class="sr-only">{{member.lastname}}</span></a><br>(<a href="{{ member.company_url }}">{{ member.company_name }}</a>)

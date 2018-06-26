@@ -6,6 +6,8 @@ permalink: /infos-pratiques/
 layout: page
 ---
 
+# {{ page.title }}
+
 ## Où l'événement aura-t-il lieu ?
 
 **Au Palais de la Bourse de Bordeaux**  
