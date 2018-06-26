@@ -37,9 +37,9 @@ Le Palais de la Bourse est ensuite à 10 minutes [en tramway](#en-tramway).
 
 Ligne C : direct depuis la Gare Saint-Jean (10 minutes), direction Parc des Expositions / Stade "Matmut Atlantique", arrêt "Place de la Bourse".
 
-Besoin d'un plan des transports public à Bordeaux ? [C'est pas là](https://www.infotbm.com/fr/consultez-tous-les-plans/plans-du-reseau.html "Plans du réseau TBM")!
+Besoin d'un plan des transports public à Bordeaux ? [C'est par là](https://www.infotbm.com/fr/consultez-tous-les-plans/plans-du-reseau.html "Plans du réseau TBM")!
 
-Des tickets sont en vente à la gare pour 1.60€ pièce.
+Des tickets sont en vente à la gare pour 1,60€ pièce.
 
 ### En voiture
 
