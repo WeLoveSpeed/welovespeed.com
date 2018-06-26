@@ -26,22 +26,22 @@
 
 @each $slug in $banners {
   .banner-#{$slug}[data-loaded='true'] {
-    background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_768/https://borisschapira-welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
+    background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_768/https://welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
 
     @include media('height>768px') {
-      background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1080/https://borisschapira-welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
+      background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1080/https://welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
     }
 
     @include media('height>1080px') {
-      background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1260/https://borisschapira-welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
+      background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1260/https://welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
     }
 
     @include media('HDPIscreen', 'height>384px') {
-      background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1080/https://borisschapira-welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
+      background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1080/https://welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
     }
 
     @include media('HDPIscreen', 'height>630px') {
-      background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1260/https://borisschapira-welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
+      background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1260/https://welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
     }
   }
 }
