@@ -33,7 +33,7 @@ compress_html:
 
 ## SEO
 
-robots: noindex,nofollow
+robots: index,follow
 
 # Services configuration
 
