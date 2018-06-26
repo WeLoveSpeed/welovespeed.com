@@ -52,7 +52,7 @@ sass:
 
 cloudinary:
   cloud_name: we-love-speed
-  origin_url: "https://borisschapira-welovespeed.netlify.com"
+  origin_url: "https://welovespeed.netlify.com"
   presets:
     default:
       min_width: 320

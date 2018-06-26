@@ -3,3 +3,6 @@ environment: 'dev'
 
 sass:
   style: uncompressed
+
+cloudinary:
+  origin_url: "https://borisschapira-welovespeed.netlify.com"
