@@ -27,41 +27,41 @@ stephanie:
     bio: >-
       Stéphane a près d'une décennie d'expérience dans l'élaboration d'expériences centrées sur l'utilisateur et agréables. Elle est spécialisée dans le design mobile et les interfaces complexes et peut aider à la stratégie produit, une passion qu'elle partage à travers ses articles et conférences dans le monde entier.
 lesfurets:
-  name: LesFurets.com
+  name: Dimitri Baeli
   image: /assets/images/speakers/lesfurets.jpg
   en_US:
     alt: >-
       LesFurets.com logo
     bio: >-
-      LesFurets.com is a French comparison site published by Courtanet. It enables users to compare rates, warranties and services for automobile, health, two-wheeler, home and loan insurance.
+      CTO at LesFurets.com, a French comparison site that enables users to compare rates, warranties and services for automobile, health, two-wheeler, home and loan insurance.
   fr_FR:
     alt: >-
       Logo de LesFurets.com
     bio: >-
-      LesFurets.com est un site de comparaison français édité par la société Courtanet. Il permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
+      CTO chez LesFurets.com, un site de comparaison français qui permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
 ouestfrance:
-  name: Ouest France Multimédia
+  name: Jerome Debray
   image: /assets/images/speakers/ouestfrance.jpg
   en_US:
     alt: >-
       Ouest France logo
     bio: >-
-      Ouest-France Multimédia is a subsidiary of Ouest-France. The company is dedicated to providing services and managing Ouest-France's web portals organized by sector: automotive, real estate, employment, internships & block release training and the maville.com network.
+      CTO at Ouest-France Multimédia, a subsidiary of Ouest-France dedicated to providing services and managing Ouest-France's web portals organized by sector: automotive, real estate, employment, internships & block release training and the maville.com network.
   fr_FR:
     alt: >-
       Logo Ouest France
     bio: >-
-      Ouest-France Multimédia est une filiale de Ouest-France. Elle est dédiée aux prestations de services et gestion des portails web de Ouest-France organisés par secteur : automobile, immobilier, emploi, stages-alternance, et le réseau maville.com.
+      CTO de Ouest-France Multimédia, une filiale de Ouest-France dédiée aux prestations de services et gestion des portails web de Ouest-France organisés par secteur : automobile, immobilier, emploi, stages-alternance, et le réseau maville.com.
 lequipe:
-  name: L'équipe
+  name: Francois Boury
   image: /assets/images/speakers/lequipe.jpg
   en_US:
     alt: >-
       L'Équipe logo
     bio: >-
-      The L'Équipe Interactive site, launched in 2000, is the leading French sports information site with over 2.3 million unique visitors in May 2007 and 230 million page views.
+      Internet CTO at L'Équipe, the leading French sports information site.
   fr_FR:
     alt: >-
       Logo l'Équipe
     bio: >-
-      Le site L'Équipe interactif, lancé en 2000, est le premier site d'informations sportives français avec plus de 2,3 M de visiteurs uniques en mai 2007 et 230 M de pages vues.
+      Directer technique Internet de L'Équipe interactif, le premier site d'informations sportives français.
