@@ -5,3 +5,23 @@
   X-XSS-Protection: 1; mode=block
   X-Bordeaux: "Chocolatine FTW!"
   Referrer-Policy: strict-origin-when-cross-origin
+
+/*.woff2
+  Access-Control-Allow-Origin: "*"
+  Cache-Control: max-age=2592000, private
+/*.css
+  Cache-Control: max-age=2592000, private
+/*.js
+  Cache-Control: max-age=2592000, private
+/*.ico
+  Cache-Control: max-age=2592000, private
+/*.jpg
+  Cache-Control: max-age=2592000, private
+/*.jpeg
+  Cache-Control: max-age=2592000, private
+/*.png
+  Cache-Control: max-age=2592000, private
+/*.gif
+  Cache-Control: max-age=2592000, private
+/*.svg
+  Cache-Control: max-age=2592000, private
