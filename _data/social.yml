@@ -1,6 +1,15 @@
 - name: facebook
-  title: We ❤️ Speed sur Facebook
+  title: Facebook
   url: https://www.facebook.com/WeLoveSpeed
 - name: twitter
-  title: We ❤️ Speed sur Twitter
+  title: Twitter
   url: https://twitter.com/welovespeed
+- name: linkedin
+  title: LinkedIn
+  url: https://www.linkedin.com/company/welovespeed/
+- name: slack
+  title: Slack
+  url: https://welovespeed.slack.com/
+- name: mail
+  title: E-mail
+  url: http://localhost:4000/contact/
