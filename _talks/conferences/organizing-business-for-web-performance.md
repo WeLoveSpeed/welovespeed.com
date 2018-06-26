@@ -7,7 +7,7 @@ speakers:
 fr_FR:
   title: "Organiser l'entreprise pour la Performance Web"
   description: >-
-    Insufler une culture de la performance Web en entrepris n'est pas une chose aisée. Les managers doivent imaginer les modalités de l'organisation des projets (équipes transverses ou équipes spécialisées, champions…), définir les budgets, faire adhérer leurs équipes à de nouvelles valeurs en utilisant divers leviers de motivation. Plusieurs acteurs français se réuniront lors d'une table rond pour confronter leurs retours.
+    Insufler une culture de la performance Web en entrepris n'est pas une chose aisée. Les managers doivent imaginer les modalités de l'organisation des projets (équipes transverses ou équipes spécialisées, champions…), définir les budgets, faire adhérer leurs équipes à de nouvelles valeurs en utilisant divers leviers de motivation. Plusieurs acteurs français se réuniront lors d'une table ronde pour partager leurs retours.
 en_US:
   title: "Organizing Business for Web Performance"
   description: >-
