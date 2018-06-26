@@ -1,6 +1,7 @@
 en_US:
   "9 octobre 2018, Bordeaux": "October 9, 2018, Bordeaux, France"
   "(see in english)": "(voir en français)"
+  "(obligatoire)": "(required)"
   "à partir de": "from"
   "à pied": "on foot"
   "à": "at"
@@ -67,6 +68,8 @@ en_US:
   "Recevez notre newsletter": "Subscribe to our newsletter"
   "réserver votre place": "register now!"
   "merci": "thanks"
+  "s'incrire en liste d'attente": "subscribe to the waiting list"
+  "sponsors": "sponsors"
   "temoignages": "write-ups"
   "Témoignages": "Write-ups"
   "une journée de conférences": "one conference day"
@@ -75,5 +78,7 @@ en_US:
   "voir la vidéo": "see the video"
   "Voir le programme": "See the line-up"
   "voir le programme": "see the line-up"
-  "Votre email (obligatoire)": "Your email (required)"
+  "Votre email": "Your email (required)"
   "Votre nom": "Your name"
+  "Votre numéro": "Your email (required)"
+
