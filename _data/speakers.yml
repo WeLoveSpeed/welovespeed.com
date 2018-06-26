@@ -28,7 +28,7 @@ stephanie:
       Stéphane a près d'une décennie d'expérience dans l'élaboration d'expériences centrées sur l'utilisateur et agréables. Elle est spécialisée dans le design mobile et les interfaces complexes et peut aider à la stratégie produit, une passion qu'elle partage à travers ses articles et conférences dans le monde entier.
 lesfurets:
   name: Dimitri Baeli
-  image: /assets/images/speakers/lesfurets.jpg
+  image: /assets/images/speakers/dimitri.jpg
   en_US:
     alt: >-
       LesFurets.com logo
@@ -41,7 +41,7 @@ lesfurets:
       CTO chez LesFurets.com, un site de comparaison français qui permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
 ouestfrance:
   name: Jerome Debray
-  image: /assets/images/speakers/ouestfrance.jpg
+  image: /assets/images/speakers/jerome.jpg
   en_US:
     alt: >-
       Ouest France logo
@@ -54,14 +54,14 @@ ouestfrance:
       CTO de Ouest-France Multimédia, une filiale de Ouest-France dédiée aux prestations de services et gestion des portails web de Ouest-France organisés par secteur : automobile, immobilier, emploi, stages-alternance, et le réseau maville.com.
 lequipe:
   name: Francois Boury
-  image: /assets/images/speakers/lequipe.jpg
+  image: /assets/images/speakers/francois.jpg
   en_US:
     alt: >-
       L'Équipe logo
     bio: >-
-      Internet CTO at L'Équipe, the leading French sports information site.
+      Internet CTO at L'Équipe.fr, the leading French sports information site.
   fr_FR:
     alt: >-
       Logo l'Équipe
     bio: >-
-      Directer technique Internet de L'Équipe interactif, le premier site d'informations sportives français.
+      Directer Technique Internet de L'Équipe.fr, le premier site d'informations sportives français.
