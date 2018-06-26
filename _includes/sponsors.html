@@ -1,9 +1,7 @@
+{% assign othersCount = site.data.sponsors.others|size %}
 <section id="sponsors" class="section">
   <div class="wrapper">
     <a class="sr-only" src="{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#conferences" >{% t Aller directement aux descriptions des sponsors %}</a>
-    <h2 class="text-center">
-        {% t Nos sponsors %}
-    </h2>
     <div class="grid-2 text-center">
       {% for sponsor in site.data.sponsors.gold %}
           {% capture sponsor-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "sponsors" | t: include.locale }}{% endunless %}#{{sponsor.slug}}{% endcapture %}
@@ -12,6 +10,7 @@
           </figure>
       {%- endfor -%}
     </div>
+    {% if othersCount > 0 %}
     <hr>
     <div class="grid-6 text-center">
       {% for sponsor in site.data.sponsors.others %}
@@ -20,5 +19,6 @@
           </figure>
       {%- endfor -%}
     </div>
+    {% endif %}
   </div>
 </section>

@@ -7,9 +7,6 @@ permalink: /
 
 <section class="section">
   <div class="wrapper">
-    <p class="home-sub-title">
-        Enfin un événement français dédié à la web performance&nbsp;! Créé par et pour la communauté webperf, We ❤️ Speed est né de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnels du web, de l’e-commerce et experts de la webperf, cet événement est fait pour vous&nbsp;!
-    </p>
     <p class="text-center">
       <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
         <span class="button-inner">{% t voir le programme %}</span>
@@ -51,8 +48,12 @@ permalink: /
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="text-center">Lorem sit dolor amet.</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nos paucis ad haec additis finem faciamus aliquando; Age nunc isti doceant, vel tu potius quis enim ista melius? Quae cum magnifice primo dici viderentur, considerata minus probabantur. Quae hic rei publicae vulnera inponebat, eadem ille sanabat. Quis est, qui non oderit libidinosam, protervam adolescentiam?</p>
+    <h2 class="text-center">Enfin un événement français dédié à la web perf&nbsp;!</h2>
+    <p>Créé par et pour la communauté webperf, We ❤️ Speed est né de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnels du web, de l’e-commerce et experts de la webperf, cet événement est fait pour vous&nbsp;!</p>
+    <p>Décideurs, développeurs… retrouvons-nous pour une journée, et peut-être quelques soirées, dans une des plus belles villes de France, afin d'échanger sur la WebPerf : ses enjeux, son implémentation, ses acteurs mais aussi l'organisation des entreprises qui l'implémentent.</p>
+    <p class="text-center">
+        <a class="button" data-text="venir à Bordeaux" href="{{ "infos-pratiques" | t: page.locale | relative_url }}"><span class="button-inner">venir à Bordeaux</span></a>
+      </p>
   </div>
 </section>
 
@@ -60,22 +61,19 @@ permalink: /
 
 <section class="section" id="conferences">
   <div class="wrapper">
-    <h2 class="text-center">Lorem sit dolor amet.</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nos paucis ad haec additis finem faciamus aliquando; Age nunc isti doceant, vel tu potius quis enim ista melius? Quae cum magnifice primo dici viderentur, considerata minus probabantur. Quae hic rei publicae vulnera inponebat, eadem ille sanabat. Quis est, qui non oderit libidinosam, protervam adolescentiam?</p>
+    <h2 class="text-center">Nos sponsors</h2>
+    <p>E-commerçants, éditeurs de solutions, ils ont choisi de nous soutenir par amour de l'UX et de la performance Web.</p>
   </div>
 </section>
-
-<hr class="wrapper">
 
 {% include sponsors.html locale=page.locale shorturl=false %}
 
-{% include banners/banner-grand-theatre.html locale=page.locale %}
-
-<section class="section" id="dodo">
+<section id="sponsors" class="section">
   <div class="wrapper">
-    <h2 class="text-center">Lorem sit dolor amet.</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nos paucis ad haec additis finem faciamus aliquando; Age nunc isti doceant, vel tu potius quis enim ista melius? Quae cum magnifice primo dici viderentur, considerata minus probabantur. Quae hic rei publicae vulnera inponebat, eadem ille sanabat. Quis est, qui non oderit libidinosam, protervam adolescentiam?</p>
+    <p class="text-center">
+      <a class="button" data-text="Télécharger notre dossier de sponsoring" href="{{ "/assets/docs/sponsoring_fr.pdf" | relative_url }}"><span class="button-inner">Télécharger notre dossier de sponsoring</span></a>
+    </p>
   </div>
 </section>
 
-{% include banners/banner-pexels-409701.html locale=page.locale %}
+{% include banners/banner-grand-theatre.html locale=page.locale %}
