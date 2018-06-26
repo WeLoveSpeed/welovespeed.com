@@ -61,7 +61,7 @@
       font-size: 1em; color: $focus-color;
 
       @include media('>=large') {
-        font-size: 2em;
+        font-size: 1.6em;
       }
     }
   }
