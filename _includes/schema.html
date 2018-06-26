@@ -51,7 +51,7 @@
   "offers": {
     "@type": "Offer",
     "price": "{{ site.tickets.price }}",
-    "priceCurrency": "EUR",
+    "priceCurrency": "{{ site.tickets.price_currency }}",
     "validFrom": "2018-01-22T00:00",
     "validThrough": "2018-05-25T09:00",
     "availability": "http://schema.org/InStock",
@@ -62,7 +62,7 @@
     {% unless forloop.first %},{% endunless %}
     {% for names in conference.speakers %}
       {% assign speaker = site.data.speakers[names] %}
-      {% unless forloop.first or forloop.last %},{% endunless %}
+      {% unless forloop.first %},{% endunless %}
       {
         "@type": "Person",
         "name": "{{ speaker.name }}",

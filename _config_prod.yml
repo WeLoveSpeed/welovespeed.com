@@ -22,7 +22,8 @@ lazyload:
 tickets:
   selling: false
   waiting-list: false
-  price: "200€"
+  price: "200"
+  price_currency: "EUR"
 
 # Compression du code HTML en production
 compress_html:
