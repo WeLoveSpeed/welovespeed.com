@@ -34,7 +34,7 @@ Les sponsors sont aussi sujet à la politique anti-harcèlement. En particulier,
 
 Si un·e participant·e a un comportement de harcèlement, les organisateurs et organisatrices de l'événement peuvent prendre toute décision qui leur semble adéquate. Cela va d'un simple avertissement à l'exclusion du participant ou de la participante de l'événement sans remboursement.
 
-Si vous vous sentez harcelé·e, si vous pensez que quelqu'un·e se fait harceler, et plus généralement en cas de problème, merci de contacter immédiatement un·e membre de l'organisation de l'événement. Le staff est facilement identifiable à ses t-shirts ou par ses tours de cou personnalisés.
+Si vous vous sentez harcelé·e, si vous pensez que quelqu'un·e se fait harceler, et plus généralement en cas de problème, merci de contacter immédiatement un·e membre de l'organisation de l'événement. L'équipe est facilement identifiable à ses t-shirts ou par ses tours de cou personnalisés.
 
 Les membres de l'organisation aideront volontiers les participant·e·s à contacter la sécurité de l'hôtel ou des lieux où se déroule l'événement, ou les forces de l'ordre, à fournir une escorte ainsi qu'à aider de toute autre façon les personnes victimes de harcèlement, pour garantir leur sécurité pendant la durée de l'événement. Votre participation à l'événement compte beaucoup pour nous.
 
@@ -44,7 +44,7 @@ Nous attendons des participant·e·s qu'ils et elles suivent ces règles sur les
 
 ### Avertissements
 
-Tout membre de l'équipe organisatrice peut émettre un avertissement oral à l'encontre d'un participant dont le comportement enfreint le présent code de conduite. Tout avertissement doit être rapporté à l'adresse email [bureau@afup.org](mailto:bureau@afup.org) dès que possible. Voir la section Comptes-rendus pour plus d'informations.
+Tout membre de l'équipe organisatrice peut émettre un avertissement oral à l'encontre d'un participant dont le comportement enfreint le présent code de conduite. Tout avertissement doit être rapporté à l'adresse email [{{ site.mail }}](mailto:{{ site.mail }}) dès que possible.
 
 ### Présentations / Conférences
 
