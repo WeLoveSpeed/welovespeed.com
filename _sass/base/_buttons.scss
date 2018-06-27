@@ -9,7 +9,7 @@
   &,
   &-inner,
   &::after {
-    transition: $default-duration $default-timing-function;
+    @include transition();
   }
 
   &-inner,
