@@ -8,7 +8,7 @@ class="newsletter-form validate" target="_blank" rel="noopener noreferrer" noval
     <label for="mce-NAME-{{ include.context }}">{% t Votre nom %}</label>
     {% if include.compact %}<div class="form-row">{% endif %}
     <input type="name" value="" placeholder="Marty McFly" name="NAME" class="name" id="mce-NAME-{{ include.context }}" required>
-    {% if include.compact %}<button class="button-reset" type="submit" name="subscribe" id="mc-embedded-subscribe">{% t S'abonner %}</button>
+    {% if include.compact %}<button class="button-reset" type="submit" name="Subscribe" id="mc-embedded-subscribe">{% t S'abonner %}</button>
     </div>{% endif %}
   </fieldset>
   <fieldset>
@@ -19,7 +19,7 @@ class="newsletter-form validate" target="_blank" rel="noopener noreferrer" noval
     </div>
   </fieldset>
   {% unless include.compact %}<p class="text-center">
-    <button class="button" data-text="{% t S'abonner %}" type="submit" name="subscribe" id="mc-embedded-subscribe-{{ include.context }}">
+    <button class="button" data-text="{% t S'abonner %}" type="submit" name="Subscribe" id="mc-embedded-subscribe-{{ include.context }}">
       <span class="button-inner">{% t S'abonner %}</span>
     </button>
   </p>{% endunless %}
