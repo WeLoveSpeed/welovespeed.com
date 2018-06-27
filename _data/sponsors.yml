@@ -31,7 +31,7 @@ gold:
         From performance testing to synthetic page monitoring and comprehensive user journeys, Dareboost is an all-in-one tool dedicated to web performance. A tool designed to help the web professionals collaborate, offering the reporting functionalities necessary to decision makers (customized dashboards, CSV or API exports, etc.) as well as the tools necessary to experts in the field (waterfalls, DNS mapping, blacklists, performance budgets, etc.).
   - name: Cdiscount
     slug: cds
-    logo: /assets/images/thanks/cdiscount.png
+    logo: /assets/images/thanks/cdiscount.svg
     fr_FR:
       cta:
         text: "Découvrez Cdiscount.com"
