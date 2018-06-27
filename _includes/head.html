@@ -25,7 +25,7 @@
         {% comment %} Social Image computation {% endcomment %}
         {% if page.i18n-key=="home" %}
           {% capture socialTitle %}{{ site.title }}{% endcapture %}
-          {% capture socialImage %}https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,w_960/https://welovespeed.netlify.com/assets/images/social-main.png{% endcapture %}
+          {% capture socialImage %}https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,w_960/https://welovespeed.netlify.com/assets/images/social-{{ page.locale | slice: 0,2 }}.png{% endcapture %}
         {% else %}
           {% capture socialTitle %}{{ page.title }} - {{ site.title }}{% endcapture %}
           {% assign imgtitle = page.title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: "'", '%E2%80%99' | replace: '?', '%3F'%}
