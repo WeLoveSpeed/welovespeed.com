@@ -14,7 +14,7 @@ layout: page
 (L’entrée se fera au 17 place de la Bourse)
 
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11315.974594521282!2d-0.5702833!3d44.8420627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1460f50922834de!2sBordeaux+Palais+de+la+Bourse!5e0!3m2!1sfr!2sfr!4v1530001461818" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br><a href="https://www.google.fr/maps/place/Bordeaux+Palais+de+la+Bourse/@44.8420627,-0.5702833,15z/data=!4m2!3m1!1s0x0:0xc1460f50922834de?sa=X&ved=0ahUKEwjQgaKCvOfbAhUHaRQKHYbBCzMQ_BIIrwEwDg"><small>Afficher la carte sur Google Maps</small></a>.
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11315.974594521282!2d-0.5702833!3d44.8420627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1460f50922834de!2sBordeaux+Palais+de+la+Bourse!5e0!3m2!1sfr!2sfr!4v1530001461818" width="100%" height="450" frameborder="0" allowfullscreen></iframe><br><a href="https://www.google.fr/maps/place/Bordeaux+Palais+de+la+Bourse/@44.8420627,-0.5702833,15z/data=!4m2!3m1!1s0x0:0xc1460f50922834de?sa=X&ved=0ahUKEwjQgaKCvOfbAhUHaRQKHYbBCzMQ_BIIrwEwDg"><small>Afficher la carte sur Google Maps</small></a>.
 </p>
 
 Situé dans l’hypercentre de Bordeaux, en bordure des quais, le Palais de la Bourse profite d’une localisation idéale, le rendant facilement accessible par tous les moyens de transport.
