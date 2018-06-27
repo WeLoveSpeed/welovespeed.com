@@ -17,7 +17,7 @@ $load-third-length: ($nav-menu-width-inactive - ($load-first-start + $load-first
     position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: $zindex-nav-trigger-area;
     background-color: $nav-trigger-area-bg;
     opacity: 0; visibility: hidden; content: ''; pointer-events: none;
-    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAq0lEQVQ4T63U0Q2AIAwE0HMUJ9FRdDNHcRQ30dRYg9hrQeyfCbwILdfh5+oATAAGAHOjvQBYBZSSj70Blf1Sk4It6I0JkoJf0AdmgTXoC2NgCWpiHuihFItAC3WxEjBFdb3MLa28y2zhds1pHw1/CajHFCsc/gjM7yx8UR7IGuCiDIy6SVELjDDti4lab/lMjaibLKXytKnBzD9N8/AL9kI1sceKY7LbOBP7ADU8NNXvWjS7AAAAAElFTkSuQmCC), zoom-out;
+    cursor: url('../images/cross.png'), zoom-out;
     transition: $default-duration $default-timing-function;
   }
 
