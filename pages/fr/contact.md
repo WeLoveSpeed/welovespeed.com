@@ -23,7 +23,7 @@ Vous avez une question, une suggestion ? N'hésitez pas à nous envoyer un messa
   <fieldset>
     <div data-netlify-recaptcha="true"></div>
     <button type="submit" class="button" data-text="Send">
-      <span class="button-inner">Send</span>
+      <span class="button-inner">Envoyer</span>
     </button>
   </fieldset>
 </form>
