@@ -20,7 +20,7 @@
   in_footer: true
 - name: Nos sponsors
   type: page
-  value: sponsors
+  value: merci
   in_nav: true
   in_footer: true
 - name: Blog

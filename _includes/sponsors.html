@@ -4,9 +4,9 @@
     <a class="sr-only" src="{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#conferences" >{% t Aller directement aux descriptions des sponsors %}</a>
     <div class="grid-2 text-center">
       {% for sponsor in site.data.sponsors.gold %}
-          {% capture sponsor-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "sponsors" | t: include.locale }}{% endunless %}#{{sponsor.slug}}{% endcapture %}
+          {% capture sponsor-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "merci" | t: include.locale }}{% endunless %}#{{sponsor.slug}}{% endcapture %}
           <figure class="company-logo-big">
-            <a title="{{ "En savoir plus sur %s" | t: include.locale | replace:"%s",sponsor.name }}" href="{{ sponsor-url }}">{% cloudinary gold_sponsors {{ sponsor.logo }} alt="{{sponsor.name}}" %}</a>
+            <a title="{{ "En savoir plus sur %s" | t: include.locale | replace:"%s",sponsor.name }}" href="{{ sponsor-url }}"><img src="{{ sponsor.logo }}" alt="{{sponsor.name}}" /></a>
           </figure>
       {%- endfor -%}
     </div>
