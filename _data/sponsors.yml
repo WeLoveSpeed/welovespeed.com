@@ -46,7 +46,7 @@ gold:
         Launched in 1998 in Bordeaux, Cdiscount is today one of the leaders of eCommerce in France. Among the top French brands in terms of price image. Cdiscount directly sells a diverse array of products and supports a marketplace where thousands of sellers offer millions of their own products. Cdiscount has a clear ambition: to offer attractive pricing on all its products, and ensure a high quality of customer service, based on its fully integrated storage and logistics network. The site offers the possibility of fast and flexible home delivery or collection at one of our thousands pick-up points at brick and mortar locations throughout France.
   - name: Quanta Computing
     slug: quanta
-    logo: /assets/images/thanks/quanta.png
+    logo: /assets/images/thanks/quanta.svg
     fr_FR:
       cta:
         text: "Pilotez et optimisez vos performances Web"
