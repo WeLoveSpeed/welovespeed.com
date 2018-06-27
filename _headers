@@ -11,8 +11,6 @@
   Cache-Control: max-age=2592000, private
 /*.css
   Cache-Control: max-age=2592000, private
-/*.js
-  Cache-Control: max-age=2592000, private
 /*.ico
   Cache-Control: max-age=2592000, private
 /*.jpg
