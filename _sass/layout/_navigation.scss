@@ -18,7 +18,7 @@ $load-third-length: ($nav-menu-width-inactive - ($load-first-start + $load-first
     background-color: $nav-trigger-area-bg;
     opacity: 0; visibility: hidden; content: ''; pointer-events: none;
     cursor: url('../images/cross.png'), zoom-out;
-    transition: $default-duration $default-timing-function;
+    @include transition();
   }
 
   &-button {
@@ -40,7 +40,7 @@ $load-third-length: ($nav-menu-width-inactive - ($load-first-start + $load-first
       position: absolute;
       opacity: 1;
       transform: rotate(0deg);
-      transition: $default-duration $default-timing-function;
+      @include transition();
 
       &.load {
         height: $nav-menu-bar-height;
@@ -136,7 +136,7 @@ $load-third-length: ($nav-menu-width-inactive - ($load-first-start + $load-first
   background-color: $nav-bg;
   font: $default-font-style $default-font-weight 1.5em/#{$default-line-height} $default-font-family; text-align: center;
   opacity: 0; visibility: hidden; content: ''; pointer-events: none;
-  transition: $nav-toggle-duration $nav-toggle-timing-function;
+  @include transition('$nav-toggle-duration $nav-toggle-timing-function');
 
   @include media('>medium') {
     font: $nav-font-style $nav-font-weight 2em/#{$default-line-height} $nav-font-family;

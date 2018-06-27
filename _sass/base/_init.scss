@@ -37,12 +37,12 @@ fieldset {
 }
 
 a, button, input, select {
-  transition: $default-duration $default-timing-function;
+  @include transition();
 }
 
 textarea {
   resize: vertical;
-  transition: $default-duration $default-timing-function, height 0s;
+  @include transition('$default-duration $default-timing-function, height 0s');
 }
 
 button {
