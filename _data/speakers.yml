@@ -40,8 +40,8 @@ lesfurets:
     bio: >-
       CTO chez LesFurets.com, un site de comparaison français qui permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
 ouestfrance:
-  name: Jerome Debray
-  image: /assets/images/speakers/jerome.jpg
+  name: Vincent Robert
+  image: /assets/images/speakers/vincent.jpg
   en_US:
     alt: >-
       Ouest France logo
@@ -51,7 +51,7 @@ ouestfrance:
     alt: >-
       Logo Ouest France
     bio: >-
-      CTO de Ouest-France Multimédia, une filiale de Ouest-France dédiée aux prestations de services et gestion des portails web de Ouest-France organisés par secteur : automobile, immobilier, emploi, stages-alternance, et le réseau maville.com.
+       DSI chez OUESTFRANCE MULTIMEDIA, une filiale de Ouest-France dédiée aux prestations de services et gestion des portails web de Ouest-France organisés par secteur : automobile, immobilier, emploi, stages-alternance, et le réseau maville.com.
 lequipe:
   name: Francois Boury
   image: /assets/images/speakers/francois.jpg
