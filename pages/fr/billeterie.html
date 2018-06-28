@@ -13,6 +13,16 @@ permalink: /billetterie/
     <script type="text/javascript" src="https://www.weezevent.com/js/widget/min/widget.min.js"></script>
   </div>
 </section>
+{% else %}
+  <section class="section">
+    <div class="wrapper">
+      <h2 class="text-center">Les billets ne sont pas encore en vente !</h2>
+      <p>
+        Souhaitez-vous être informé dès la mise en vente des billets ? Abonnez-vous à notre newsletter :
+      </p>
+      {% include newsletter-form.html context="register" %}
+    </div>
+  </section>
 {% endif %}
 {% if site.tickets.waiting-list %}
 <section class="section" id="register">

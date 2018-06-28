@@ -13,6 +13,16 @@ permalink: /en/register/
     <script type="text/javascript" src="https://www.weezevent.com/js/widget/min/widget.min.js"></script>
   </div>
 </section>
+{% else %}
+  <section class="section">
+    <div class="wrapper">
+      <h2 class="text-center">The tickets aren't for sale yet!</h2>
+      <p>
+        Do you want to be informed as soon as tickets go on sale? Subscribe to our newsletter :
+      </p>
+      {% include newsletter-form.html context="register" %}
+    </div>
+  </section>
 {% endif %}
 {% if site.tickets.waiting-list %}
 <section class="section" id="register">
