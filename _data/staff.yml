@@ -12,22 +12,22 @@
   company_url: http://braincracking.org/
 - firstname: Daniel
   lastname: Diard
-  slug: daniel
+  slug: ddi
   company_name: Cdiscount
   company_url: https://www.cdiscount.com/
 - firstname: Laurine
   lastname: Jacquet
-  slug: laurine
+  slug: lja
   company_name: Cdiscount
   company_url: https://www.cdiscount.com/
 - firstname: Sébastien
   lastname: Bonnet
-  slug: sebastien
+  slug: sbo
   company_name: Cdiscount
   company_url: https://www.cdiscount.com/
 - firstname: Boris
   lastname: Schapira
-  slug: boris
+  slug: bsc
   twitter: borisschapira
   company_name: Dareboost
   company_url: https://www.dareboost.com/
@@ -39,7 +39,7 @@
   company_url: https://www.fasterize.com/
 - firstname: Nicolas
   lastname: Hoizey
-  slug: nicolas
+  slug: nhoizey
   twitter: nhoizey
   company_name: Clever Age
   company_url: https://www.clever-age.com/
