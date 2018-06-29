@@ -50,12 +50,12 @@ ouestfrance:
     alt: >-
       Ouest France logo
     bio: >-
-      CTO at Ouest-France Multimédia, a subsidiary of Ouest-France dedicated to providing services and managing Ouest-France's web portals organized by sector: automotive, real estate, employment, internships & block release training and the maville.com network.
+      CTO at Ouest-France Multimédia, a subsidiary of Ouest-France dedicated to providing services and managing Ouest-France's classifieds organized by sector: automotive, real estate, employment.
   fr_FR:
     alt: >-
       Logo Ouest France
     bio: >-
-      DSI chez OUESTFRANCE MULTIMEDIA, une filiale de Ouest-France dédiée aux prestations de services et gestion des portails web de Ouest-France organisés par secteur : automobile, immobilier, emploi, stages-alternance, et le réseau maville.com.
+      DSI de Ouest-France Multimédia, une filiale de Ouest-France dédiée aux sites de petites annonces de journal organisés par secteur : automobile, immobilier, emploi.
 lequipe:
   name: Francois Boury
   locale: fr_FR
