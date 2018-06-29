@@ -10,9 +10,6 @@ fr_FR:
 
 
     [Chrome UX Report](https://developers.google.com/web/tools/chrome-user-experience-report/ "Chrome User Experience Report") est jeu de données unique en son genre, qui rend possible ce genre de comparaisons. Explorons ensemble son fonctionnement et comment vous pouvez l'utiliser pour mieux comprendre l'expérience utilisateur sur le web.
-
-
-    *Intervention en anglais.*
 en_US:
   title: "Chrome UX Report"
   description: >-

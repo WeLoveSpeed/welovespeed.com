@@ -25,35 +25,35 @@
         </p>
       {% endif %}
 
-        {% for names in conference.speakers %}
-        {% assign speaker = site.data.speakers[names] %}
-        {% if include.locale == "en_US" and speaker.en_US %}
-          {% assign speakatim = speaker.en_US %}
-        {% else %}
-          {% assign speakatim = speaker.fr_FR %}
-        {% endif %}
-        <section class="conference-speaker text-sm">
-          <figure class="conference-speaker-pic" role="group">
-            {% cloudinary avatar {{ speaker.image | relative_url }} alt="" %}
-            <figcaption class="sr-only">{{ speaker.name }}</figcaption>
-          </figure>
-          <h3 class="conference-speaker-name">
-            {% assign speakerCount = conference.speakers | size %}
-            {% unless speakerCount > 1 %}
-              <span class="text-xs">{% t Présenté par %}</span><br>
-            {% else %}
-              <span class="text-xs">{% t Avec la participation de %}</span><br>
-            {% endunless %}
-            {% capture person %}<em>{{ speaker.name }}</em>{% endcapture %}
-            {% if speaker.url %}
-              {% capture person %}<a href="{{ speaker.url }}">{{ person }}</a>{% endcapture %}
-            {% endif %}
-            {{ person }}
-          </h3>
-          <p class="conference-speaker-description">
-            {{ speakatim.bio | markdownify }}
-          </p>
-        </section>
+        {% for name in conference.speakers %}
+          {% assign speaker = site.data.speakers[name] %}
+          {% if include.locale == "en_US" and speaker.en_US %}
+            {% assign speakatim = speaker.en_US %}
+          {% else %}
+            {% assign speakatim = speaker.fr_FR %}
+          {% endif %}
+          <section class="conference-speaker text-sm">
+            <figure class="conference-speaker-pic" role="group">
+              {% cloudinary avatar {{ speaker.image | relative_url }} alt="" %}
+              <figcaption class="sr-only">{{ speaker.name }}</figcaption>
+            </figure>
+            <h3 class="conference-speaker-name">
+              {% assign speakerCount = conference.speakers | size %}
+              {% unless speakerCount > 1 %}
+                <span class="text-xs">{% t Présenté %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %} {%t par %}</span><br>
+              {% else %}
+                <span class="text-xs">{% t Animé %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %} {%t par %}</span><br>
+              {% endunless %}
+              {% capture person %}<em>{{ speaker.name }}</em>{% endcapture %}
+              {% if speaker.url %}
+                {% capture person %}<a href="{{ speaker.url }}">{{ person }}</a>{% endcapture %}
+              {% endif %}
+              {{ person }}
+            </h3>
+            <p class="conference-speaker-description">
+              {{ speakatim.bio | markdownify }}
+            </p>
+          </section>
         {%- endfor -%}
     </article>
     <hr>

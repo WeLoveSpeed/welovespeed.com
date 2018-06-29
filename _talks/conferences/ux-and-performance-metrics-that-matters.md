@@ -16,9 +16,6 @@ fr_FR:
 
 
     JavaScript nous fournit de nombreux éléments pour mesurer la performance et l'expérience de l'utilisateur. Apprenons à les collecter et à comprendre à quoi s'attendre lorsque nous les optimisons.
-
-
-    *Intervention en anglais.*
 en_US:
   title: "User Experience & Performance: Metrics that Matter"
   description: >-

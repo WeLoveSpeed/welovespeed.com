@@ -13,7 +13,4 @@ en_US:
   title: "Organizing Business for Web Performance"
   description: >-
     Building a Web performance culture in the workplace is not easy. Managers must imagine how projects are organized (transversal or specialized teams, champions, etc.), define budgets, make their teams adhere to new values by using various motivational leverage. Several French actors will exchange during this roundtable to compare their experiences.
-
-
-    *Roundtable in French.*
 ---

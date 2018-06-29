@@ -1,5 +1,6 @@
 rick:
   name: Rick Viscomi
+  locale: en_US
   image: /assets/images/speakers/rick.jpg
   url: https://twitter.com/rick_viscomi
   en_US:
@@ -14,6 +15,7 @@ rick:
       Défenseur de la transparence sur le Web chez Google et intendant des données de [@HTTPArchive](https://twitter.com/HTTPArchive). Co-autheur [@UsingWPT](https://twitter.com/UsingWPT).
 stephanie:
   name: Stéphanie Walter
+  locale: fr_FR
   image: /assets/images/speakers/walterstephanie.jpg
   url: https://stephaniewalter.design/
   en_US:
@@ -28,6 +30,7 @@ stephanie:
       Stéphanie – UX et UI Designer. Avec près de 10 ans d’expérience dans le design centrés utilisateur, elle est spécialisée dans le design d’applications mobiles et le responsive, l’ergonomie et la création d’interfaces simples et agréables à utiliser. Elle partage sa passion pour son travail à travers ses articles, ses cours à l’université et les conférences qu’elle donne dans le monde entier.
 lesfurets:
   name: Dimitri Baeli
+  locale: fr_FR
   image: /assets/images/speakers/dimitri.jpg
   en_US:
     alt: >-
@@ -41,6 +44,7 @@ lesfurets:
       CTO chez LesFurets.com, un site de comparaison français qui permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
 ouestfrance:
   name: Vincent Robert
+  locale: fr_FR
   image: /assets/images/speakers/vincent.jpg
   en_US:
     alt: >-
@@ -54,6 +58,7 @@ ouestfrance:
       DSI chez OUESTFRANCE MULTIMEDIA, une filiale de Ouest-France dédiée aux prestations de services et gestion des portails web de Ouest-France organisés par secteur : automobile, immobilier, emploi, stages-alternance, et le réseau maville.com.
 lequipe:
   name: Francois Boury
+  locale: fr_FR
   image: /assets/images/speakers/francois.jpg
   en_US:
     alt: >-
@@ -67,6 +72,7 @@ lequipe:
       Directeur Technique Internet de L'Équipe.fr, le premier site d'informations sportives français.
 philip:
   name: Philip Tellis
+  locale: en_US
   image: /assets/images/speakers/bluesmoon.jpg
   en_US:
     alt: >-
