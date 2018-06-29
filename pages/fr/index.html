@@ -27,7 +27,7 @@ permalink: /
 
 <hr class="wrapper">
 
-{%- assign conferences = site.talks | sort: "display-order" -%}
+{%- assign conferences = site.talks | where: "display", true | sort: "display-order" -%}
 {% include speakers.html wrap=true conferences=conferences locale=page.locale %}
 
 {% if site.newsletter.display %}

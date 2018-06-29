@@ -18,12 +18,12 @@ stephanie:
   url: https://stephaniewalter.design/
   en_US:
     alt: >-
-      Selfie
+      Stéphanie's mugshot
     bio: >-
       Stéphanie is a UX and UI Designer with almost a decade of experience. She focuses on building a great user experience for mobile apps and responsive web sites. She’s passionate about her work and likes to share her knowledge with other people on blogs, at conferences and with the students she teaches to.
   fr_FR:
     alt: >-
-      Selfie
+      Selfie de Stéphanie
     bio: >-
       Stéphanie – UX et UI Designer. Avec près de 10 ans d’expérience dans le design centrés utilisateur, elle est spécialisée dans le design d’applications mobiles et le responsive, l’ergonomie et la création d’interfaces simples et agréables à utiliser. Elle partage sa passion pour son travail à travers ses articles, ses cours à l’université et les conférences qu’elle donne dans le monde entier.
 lesfurets:
@@ -65,3 +65,34 @@ lequipe:
       Logo l'Équipe
     bio: >-
       Directeur Technique Internet de L'Équipe.fr, le premier site d'informations sportives français.
+philip:
+  name: Philip Tellis
+  image: /assets/images/speakers/bluesmoon.jpg
+  en_US:
+    alt: >-
+      Philip's mugshot
+    bio: >-
+      Philip Tellis is a geek who likes to make the computer do his work for him. As Principal RUM Distiller at Akamai, he analyses the impact of various design decisions on web application performance, scalability and security. He is the lead developer of [boomerang](https://soasta.github.io/boomerang/) – a JavaScript based web performance testing tool.
+
+
+      In his spare time, Philip enjoys cycling, reading, cooking and learning spoken languages.
+
+
+      Philip has spoken at several conferences around the world, including Velocity, Fluent, JSConf, Paris Web, IPC, Webinale, FOSSDEM, FOSS.IN, FREED.IN, Ubuntulive, Linux Symposium, OpenSource Bridge, PHP Quebec, ConFoo, WebDU, and Midwest.IO. He also writes for Smashing Magazine, [blogs](http://tech.bluesmoon.info/) and is [@bluesmoon](https://twitter.com/bluesmoon) on Twitter.
+
+
+      You can watch some of Philip’s past talks [on Youtube](https://www.google.com/search?q=youtube+philip+tellis).
+  fr_FR:
+    alt: >-
+      Selfie de Philip
+    bio: >-
+      Philip Tellis est un geek qui aime faire travailler l'ordinateur à sa place. En tant que Principal RUM Distiller chez Akamai, il analyse l'impact de diverses décisions de conception sur les performances, l'évolutivité et la sécurité des applications web. Il est le développeur principal de[boomerang](https://soasta.github.io/boomerang/) - un outil de mesure de performance web basé sur JavaScript.
+
+
+      Philip aime faire du vélo, lire, cuisiner et apprendre à parler de nouvelles langues.
+
+
+      Philip est intervenu lors de plusieurs conférences à travers le monde, comme Velocity, Fluent, JSConf, Paris Web, IPC, Webinale, FOSSDEM, FOSS.IN, FREED.IN, Ubuntulive, Linux Symposium, OpenSource Bridge, PHP Québec, ConFoo, WebDU, et Midwest.IO. Il écrit également pour Smashing Magazine, [son blog](http://tech.bluesmoon.info/) et sur Twitter, sous le pseudonyme [@bluesmoon](https://twitter.com/bluesmoon).
+
+
+      Vous pouvez regarder certaines des conférences que Philip a déjà donné [sur Youtube](https://www.google.com/search?q=youtube+philip+tellis).

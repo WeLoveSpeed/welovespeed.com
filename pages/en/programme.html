@@ -5,7 +5,7 @@ i18n-key: programme
 permalink: /en/line-up/
 ---
 
-{%- assign conferences = site.talks | sort: "display-order" -%}
+{%- assign conferences = site.talks | where: "display", true | sort: "display-order" -%}
 {% include speakers.html conferences=conferences locale=page.locale shorturl=true %}
 
 <hr class="wrapper">

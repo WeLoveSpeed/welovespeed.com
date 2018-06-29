@@ -5,7 +5,7 @@ i18n-key: programme
 permalink: /programme/
 ---
 
-{%- assign conferences = site.talks | sort: "display-order" -%}
+{%- assign conferences = site.talks | where: "display", true | sort: "display-order" -%}
 {% include speakers.html conferences=conferences locale=page.locale shorturl=true h1=true %}
 
 <hr class="wrapper">

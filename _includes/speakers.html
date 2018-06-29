@@ -1,3 +1,10 @@
+{% assign nbspeakers = 0 %}
+{% for conference in include.conferences %}
+  {% for names in conference.speakers %}
+    {% capture nbspeakers %}{{ nbspeakers | plus:1 }}{% endcapture %}
+  {%- endfor -%}
+{%- endfor -%}
+
 {% unless include.nowrap %}
 <section id="speakers" class="section">
   <div class="wrapper">
@@ -8,7 +15,7 @@
     <h{% if include.h1 %}1{% else %}2{% endif %} class="text-center">
         {% t Intervenants dévoilés %}
     </h{% if include.h1 %}1{% else %}2{% endif %}>
-    <div class="grid-5 text-center">
+    <div class="grid-{{ nbspeakers }} text-center">
       {% for conference in include.conferences %}
         {% for names in conference.speakers %}
           {% capture conf-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#{{conference.slug}}{% endcapture %}
