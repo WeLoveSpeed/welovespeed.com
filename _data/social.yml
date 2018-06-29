@@ -1,9 +1,6 @@
-- name: facebook
-  title: Facebook
-  url: https://www.facebook.com/WeLoveSpeed
 - name: twitter
   title: Twitter
-  url: https://twitter.com/welovespeed
+  url: https://twitter.com/_welovespeed
 - name: linkedin
   title: LinkedIn
   url: https://www.linkedin.com/company/welovespeed/
@@ -12,4 +9,4 @@
   url: https://welovespeed.slack.com/
 - name: mail
   title: E-mail
-  url: http://localhost:4000/contact/
+  url: https://www.welovespeed.com/contact/
