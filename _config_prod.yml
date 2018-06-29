@@ -10,7 +10,7 @@ domain: 'welovespeed.com'
 mail: contact@welovespeed.com
 main_color: cd2f2b
 social:
-  twitter: ''
+  twitter: "_welovespeed"
 repository: welovespeed/welovespeed.com
 baseurl: ""
 destination: _site/
