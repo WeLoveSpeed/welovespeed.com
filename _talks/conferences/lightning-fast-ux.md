@@ -6,7 +6,7 @@ speakers:
 fr_FR:
   title: "L’UX au service de la performance de vos interfaces"
   description: >-
-    Vous avez optimisé la moindre ligne de code de votre site&#8239;/&#8239;application mobile, utilisé toutes les techniques à votre disposition pour avoir un temps de chargement le plus rapide possible. Pourtant, vous utilisateurs se plaignent encore de la lenteur. Vous n’avez pas le budget d’Instagram ou Pinterest&nbsp;? Ca tombe bien, moi non plus&nbsp;!
+    Vous avez optimisé la moindre ligne de code de votre site&#8239;/&#8239;application mobile, utilisé toutes les techniques à votre disposition pour avoir un temps de chargement le plus rapide possible. Pourtant, vos utilisateurs se plaignent encore de la lenteur. Vous n’avez pas le budget d’Instagram ou Pinterest&nbsp;? Ca tombe bien, moi non plus&nbsp;!
 
 
     À l’aide d’exemples tirés de mes projets, découvrez comment travailler la performance également au niveau de la perception utilisateur.
