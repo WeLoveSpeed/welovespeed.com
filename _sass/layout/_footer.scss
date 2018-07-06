@@ -10,20 +10,6 @@
     @extend %ul-reset;
   }
 
-  .social-links {
-    display: flex; margin: 1em 0;
-    flex-flow: row wrap; justify-content: space-between; align-items: center;
-
-    a {
-      font-size: 1.5em; color: $default-color;
-
-      &:hover,
-      &:focus {
-        color: $focus-color;
-      }
-    }
-  }
-
   .newsletter-form {
     button {
       padding: 0 .25em;

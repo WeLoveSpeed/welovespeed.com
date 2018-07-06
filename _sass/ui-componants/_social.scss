@@ -1,0 +1,19 @@
+ul.social-links {
+  display: flex; margin: 1em 0;
+  flex-flow: row wrap; justify-content: space-between; align-items: center;
+
+  a {
+    font-size: 1.5em; color: $default-color;
+    border: transparent;
+
+    &:hover,
+    &:focus {
+      color: $focus-color;
+      border: transparent;
+    }
+  }
+
+  .page-nav & {
+    font-size: 0.5em;
+  }
+}
