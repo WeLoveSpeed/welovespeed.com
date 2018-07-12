@@ -1,0 +1,29 @@
+# Permanent
+/sponsors/ /merci/ 301
+/en/sponsors/ /en/thanks/ 301
+
+# Temporary
+/en/blog/ /blog 302
+/en/legal-mentions/ /mentions-legales/ 302
+
+## Redirect to fr if language is fr
+
+/en/banners/ /bannieres/ 302 Language=fr
+/en/register/ /billetterie/ 302 Language=fr
+/en/code-of-conduct/ /code-de-conduite/ 302 Language=fr
+/en/contact/ /contact/ 302 Language=fr
+/en/ / 302 Language=fr
+/en/informations/ /infos-pratiques/ 302 Language=fr
+/en/line-up/ /programme/ 302 Language=fr
+/en/thanks/ /merci/ 302 Language=fr
+
+## Redirect to en if language is en
+
+/bannieres/ /en/banners/ 302 Language=en
+/billetterie/ /en/register/ 302 Language=en
+/code-de-conduite/ /en/code-of-conduct/ 302 Language=en
+/en/contact/ /contact/ 302 Language=en
+/ /en/ 302 Language=en
+/infos-pratiques/ /en/informations/ 302 Language=en
+/programme/ /en/line-up/ 302 Language=en
+/merci/ /en/thanks/ 302 Language=en

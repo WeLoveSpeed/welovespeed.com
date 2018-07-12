@@ -4,8 +4,6 @@ description: "Offrir une expérience de conférence sans harcèlement, pour tout
 i18n-key: coc
 permalink: /code-de-conduite/
 layout: page
-redirect_from:
-  - /code-of-conduct/
 ---
 
 # Code de conduite
