@@ -10,7 +10,6 @@ group :jekyll_plugins do
   gem 'liquid-md5'
   gem 'jekyll-microtypo'
   gem 'jekyll-paginate-v2', '~> 1.8', '>= 1.8.1'
-  gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
   gem 'octopress-autoprefixer'
 end

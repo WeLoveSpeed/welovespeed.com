@@ -3,8 +3,6 @@ title: Mentions légales
 description: "Sud Web est une association de type 1901 à but non-lucratif."
 permalink: /mentions-legales/
 layout: page
-redirect_from:
-  - /en/legal-mentions/
 ---
 
 # {{ page.title }}
