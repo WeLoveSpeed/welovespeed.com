@@ -46,7 +46,7 @@ Des tickets sont en vente à la gare pour 1,60€ pièce.
 Ces autoroutes desservent Bordeaux : A10 (Bordeaux-Paris), A62 (Bordeaux-Toulouse), A63 (Bordeaux-Bayonne), A65 (Bordeaux-Pau), A89 (Bordeaux-Clermont-Lyon) et A8 (Bordeaux-Nice).  
 3 parkings souterrains sont situés à proximité du Palais de la Bourse (capacité de 1620 places).
 
-### En trottinette, en bycyclette
+### En trottinette, en bicyclette
 
 Venez comme vous êtes ! Bordeaux propose des bornes de bicyclettes en libre service, les VCub. N'hésitez pas à flâner le long de la Garonne ! Depuis la gare, en comptant le retrait d'une bicyclette et sa fixation sur un terminal près du Palais de la Bourse, comptez 20 minutes.  
 Attention : les stations VCub disposent d'un nombre de place très limités et sont espacées de 300 à 400m.
