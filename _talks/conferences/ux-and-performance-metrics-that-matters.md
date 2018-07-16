@@ -1,6 +1,6 @@
 ---
 display-order: 4
-display: false
+display: true
 speakers:
   - philip
 fr_FR:
