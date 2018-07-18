@@ -80,5 +80,26 @@ gold:
 
 
         Present in Canada, France, Hong Kong, and Singapore, Clever Age is the partner you need to readily address the requirements of your local and global ecosystems.
+  - name: Akamai
+    slug: akamai
+    logo: /assets/images/thanks/akamai.svg
+    fr_FR:
+      cta:
+        text: "Bénéficier d'un essai gratuit"
+        url: https://www.akamai.com/fr/fr/
+      description: >-
+        Le public connecté exige un accès instantané, fiable et sécurisé aux sites Web et aux applications, peu importe l'appareil, peu importe où.
+
+
+        Les solutions de performances Web d'Akamai vous aident à capter les internautes avec une expérience Internet rapide et personnalisée, augmentant ainsi vos possibilités de chiffre d'affaires, tout en gagnant en agilité et en présence mondiale.
+    en_US:
+      cta:
+        text: "Start a free trial"
+        url: https://www.akamai.com/
+      description: >-
+        Connected audiences expect instant, reliable, secure access to websites and applications – from any device, anywhere.
+
+
+        Akamai Web Performance Solutions help you engage consumers with fast, personalized online experiences, enabling you to increase revenue opportunities, gain IT agility and scale globally.
 
 others:
