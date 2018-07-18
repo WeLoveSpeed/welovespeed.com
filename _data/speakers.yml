@@ -116,3 +116,17 @@ nicolas:
       Selfie de Nicolas
     bio: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hic ambiguo ludimur. Negat esse eam, inquit, propter se expetendam. Cur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? Ego vero volo in virtute vim esse quam maximam; Satisne vobis videor pro meo iure in vestris auribus commentatus?
+thomas:
+  name: Thomas Zilliox
+  locale: fr_FR
+  image: /assets/images/speakers/tzi.jpg
+  en_US:
+    alt: >-
+      Thomas's mugshot
+    bio: >-
+      Thomas - Freelance CSS Expert. Thomas helps technical teams produce maintainable styles. Web developer, teacher, trainer, lecturer, he multiplies his hats to share his passion for the web. His last challenge was the writing of "[Départ immédiat pour : Flexbox](https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox)" with _le Train de 13h37_.
+  fr_FR:
+    alt: >-
+      Selfie de Thomas
+    bio: >-
+      Thomas – Expert CSS Freelance. Thomas aide les équipes technique à produire des styles maintenables. Intégrateur, développeur, enseignant, formateur, conférencier, il multiplie les casquettes pour partager sa passion du web. Son dernier challenge a été l’écriture de "[Départ immédiat pour : Flexbox](https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox)" avec _le Train de 13h37_.
