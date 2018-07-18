@@ -118,6 +118,7 @@ microtypo:
 
 include:
   - _headers
+  - _redirects
 
 exclude:
   - .editorconfig
