@@ -131,3 +131,18 @@ thomas:
       Selfie de Thomas
     bio: >-
       Thomas – Expert CSS Freelance. Thomas aide les équipes technique à produire des styles maintenables. Intégrateur, développeur, enseignant, formateur, conférencier, il multiplie les casquettes pour partager sa passion du web. Son dernier challenge a été l’écriture de "[Départ immédiat pour : Flexbox](https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox)" avec _le Train de 13h37_.
+jp:
+  name: Jean-Pierre Vincent
+  locale: fr_FR
+  image: /assets/images/staff/jp.jpg
+  url: https://www.linkedin.com/in/jeanpierrevincent/?locale=fr_FR
+  en_US:
+    alt: >-
+      Jean-Pierre's mugshot
+    bio: >-
+      Jean-Pierre Vincent - Independent Technical Expert and trainer on Web and JavaScript Performance. For more than 7 years, Jean-Pierre accompanies his clients in their webperf strategy. He is also the co-organizer of Paris Webperf meetups.
+  fr_FR:
+    alt: >-
+      Selfie de Jean-Pierre
+    bio: >-
+      Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis plus de 7 ans, Jean-Pierre accompagne ses clients dans leur stratégie webperf. Il est aussi le co-organisateur des meetups Paris Webperf.
