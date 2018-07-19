@@ -4,9 +4,9 @@ display: true
 speakers:
   - thomas
 fr_FR:
-  title: "Les performances de rendus CSS"
+  title: "Les performances de rendu CSS"
   description: >-
-    Il est parfois difficile d'avoir des animations fluides. On verra ensemble comment fonctionne un navigateur et pourquoi il faut faire attention avec les SVG, avec certaines unités, et avec la plupart de propriétés CSS. On n’est pas pour autant dépourvu de possibilités. On en profitera pour faire le tour de ce que l’on a dans notre trousse à outils !
+Il est parfois difficile d'avoir des animations fluides. On verra ensemble comment fonctionne un navigateur et pourquoi il faut faire attention avec les SVGs, avec certaines unités, et avec la plupart de propriétés CSS. On n’est pas pour autant dépourvu de possibilités. On en profitera pour faire le tour de ce que l’on a dans notre trousse à outils ! 
 en_US:
   title: "CSS rendering performance"
   description: >-
