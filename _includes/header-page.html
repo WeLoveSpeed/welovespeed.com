@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="page-main-title h-like">
       <a href="{{ page.baseurl | default:site.baseurl }}/{{ include.link.anchor }}" title="{% t Accueil %}">
-        {% cloudinary /assets/images/logo-transparent-bg.png class="page-main-title-logo" alt="{{ site.title }}" %}
+        {% cloudinary /assets/images/logo-transparent-bg.png class="page-main-title-logo" alt="{{ site.seo_title }}" %}
       </a>
       <p class="page-main-title-baseline">
           {% t 9 octobre 2018, Bordeaux %}

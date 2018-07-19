@@ -2,7 +2,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": "{{ site.title }} 2018",
+  "name": "{{ site.seo_title }} 2018",
   "description": "{% if include.locale == "en_US" %}{{ site.description_en }}{% else %}{{ site.description }}{% endif %}",
   "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}",
   "image": "https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,w_960/{{ site.url }}{{ site.baseurl }}/assets/images/social-{{ lang }}.png",
@@ -22,7 +22,7 @@
   },
   "organizer": {
     "@type": "Organization",
-    "name": "{{ site.title }}",
+    "name": "{{ site.seo_title }}",
     "logo": "{{ site.logo }}",
     "sameAs": [
       {% for social in site.data.social %}

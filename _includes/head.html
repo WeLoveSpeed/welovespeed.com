@@ -7,7 +7,7 @@
 
         <meta name="robots" content="{{ page.robots |default: site.robots }}">
 
-        <title>{{ page.title }} - {{ site.title }}</title>
+        <title>{{ page.title }} - {{ site.seo_title }}</title>
         <meta name="description" content="{{ page.description }}">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -24,10 +24,10 @@
 
         {% comment %} Social Image computation {% endcomment %}
         {% if page.i18n-key=="home" %}
-          {% capture socialTitle %}{{ site.title }}{% endcapture %}
+          {% capture socialTitle %}{{ site.seo_title }}{% endcapture %}
           {% capture socialImage %}https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,w_960/https://welovespeed.netlify.com/assets/images/social-{{ page.locale | slice: 0,2 }}.png{% endcapture %}
         {% else %}
-          {% capture socialTitle %}{{ page.title }} - {{ site.title }}{% endcapture %}
+          {% capture socialTitle %}{{ page.title }} - {{ site.seo_title }}{% endcapture %}
           {% assign imgtitle = page.title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: "'", '%E2%80%99' | replace: '?', '%3F'%}
           {% capture socialImage %}{{ site.cloudinary.origin_url}}/assets/images/social-bg-bx.jpg{% endcapture %}
           {% capture socialImage %}https://res.cloudinary.com/{{ site.cloudinary.cloud_name }}/image/fetch/e_blur:200,c_crop,ar_1200:600,b_white/e_grayscale/w_1200/b_rgb:{{ site.main_color }},o_40/w_1000,c_fit,l_text:Rubik_80:{{ imgtitle }},x_2,y_-98,co_black,o_80/w_1000,c_fit,l_text:Rubik_80:{{ imgtitle }},y_-100,co_white/c_fill,y_150,h_200,w_200,l_ws-square,r_max,bo_5px_solid_red/{{ socialImage }}{% endcapture %}
@@ -39,16 +39,16 @@
         <meta property="og:image" content="{{ socialImage }}" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:site_name" content="{{ site.title }}" />
-        <meta property="article:author" content="{{ site.title }}" />
+        <meta property="og:site_name" content="{{ site.seo_title }}" />
+        <meta property="article:author" content="{{ site.seo_title }}" />
         <meta property="article:published_time" content="{{ page.date | date: "%Y-%m-%d" }}" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:domain" content="{{ site.domain }}" />
         <meta name="twitter:title" content="{{ socialTitle }}" />
         <meta name="twitter:description" content="{{ page.description }}" />
         <meta name="twitter:image" content="{{ socialImage }}">
-        <meta name="twitter:creator" content="{{ site.title }}" />
-        <meta name="twitter:site" content="{{ site.social.twitter }}" />
+        <meta name="twitter:creator" content="{{ site.social.twitter }}" />
+        <meta name="twitter:site" content="{{ site.seo_title }}" />
         <meta name="twitter:widgets:link-color" content="#{{ site.main_color }}">
         <meta name="twitter:widgets:border-color" content="#{{ site.main_color }}">
         <meta name="twitter:dnt" content="on">
