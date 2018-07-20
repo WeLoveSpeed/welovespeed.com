@@ -15,7 +15,7 @@
     <h{% if include.h1 %}1{% else %}2{% endif %} class="text-center">
         {% t Intervenants dévoilés %}
     </h{% if include.h1 %}1{% else %}2{% endif %}>
-    <div class="grid-{{ nbspeakers }} text-center">
+    <div class="grid-{{ nbspeakers | divided_by: 2 }} text-center">
       {% for conference in include.conferences %}
         {% for names in conference.speakers %}
           {% capture conf-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#{{conference.slug}}{% endcapture %}
