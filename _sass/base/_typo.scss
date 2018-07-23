@@ -45,9 +45,9 @@ h3 {
   font-size: 1.25em;
 
   .conference > & {
-    padding: 20px 0 20px 90px;
+    padding: 60px 0 20px 0;
     @include media('>=xlarge') {
-      padding-left: 0;
+      padding: 20px 0;
     }
   }
 }

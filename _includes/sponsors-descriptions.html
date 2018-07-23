@@ -4,7 +4,7 @@
       {% t Nos sponsors Gold %}
     </h2>
     {% for sponsor in site.data.sponsors.gold %}
-    <hr>
+    <hr id="{{ sponsor.slug }}">
     {% if include.locale == "en_US" and sponsor.en_US %}
       {% assign verbatim = sponsor.en_US %}
     {% else %}

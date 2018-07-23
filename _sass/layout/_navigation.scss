@@ -24,7 +24,8 @@ $load-third-length: ($nav-menu-width-inactive - ($load-first-start + $load-first
   &-button {
     position: fixed; top: .5em; left: .5em; z-index: $zindex-nav-trigger;
     display: block; padding: $nav-menu-bar-height;
-    border: 1px solid transparent;
+    border: 1px solid currentColor;
+    color: $nav-trigger-btn-color;
     background-color: $nav-trigger-btn-bg;
     font-size: .875em; color: $nav-trigger-btn-color;
     transition-duration: $nav-toggle-duration;

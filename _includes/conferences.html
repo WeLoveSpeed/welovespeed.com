@@ -4,12 +4,13 @@
       {% t Aperçu %}
     </h2>
     {% for conference in include.conferences %}
+    <hr id="{{ conference.slug }}">
     {% if include.locale == "en_US" and conference.en_US %}
       {% assign verbatim = conference.en_US %}
     {% else %}
       {% assign verbatim = conference.fr_FR %}
     {% endif %}
-    <article class="conference" id="{{ conference.slug }}">
+    <article class="conference">
       <h3>
         {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
       </h3>
@@ -56,7 +57,6 @@
           </section>
         {%- endfor -%}
     </article>
-    <hr>
     {%- endfor -%}
   </div>
 </section>
