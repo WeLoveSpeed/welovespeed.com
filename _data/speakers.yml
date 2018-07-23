@@ -146,3 +146,18 @@ jp:
       Selfie de Jean-Pierre
     bio: >-
       Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis plus de 7 ans, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes. Il est aussi le co-organisateur des [meetups Webperf parisiens](https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/).
+damien:
+  name: Damien Jubeau
+  locale: fr_FR
+  image: /assets/images/speakers/damien.jpg
+  url: https://www.dareboost.com
+  en_US:
+    alt: >-
+      Damien's mugshot
+    bio: >-
+      CEO and co-funder of Dareboost, a SaaS dedicated to web performance. Manager-friendly, Dareboost allows your team to unite around a common goal: a faster website.
+  fr_FR:
+    alt: >-
+      Selfie de Damien
+    bio: >-
+      CEO et cofondateur de Dareboost, solution SaaS de gestion de la performance web, pour réunir les équipes web autour d'un objectif commun : un site plus rapide et une qualité web accrue.

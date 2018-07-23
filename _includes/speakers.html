@@ -4,6 +4,18 @@
     {% capture nbspeakers %}{{ nbspeakers | plus:1 }}{% endcapture %}
   {%- endfor -%}
 {%- endfor -%}
+{% assign less-min = nbspeakers | minus: 5 %}
+{% assign ok4 = nbspeakers | modulo: 4 | minus: 2 %}
+{% assign ok5 = nbspeakers | modulo: 5 | minus: 3 %}
+{% if less-min <= 0 %}
+  {% assign grid-size = nbspeakers %}
+{% elsif ok4 > 0 %}
+  {% assign grid-size = 4 %}
+{% elsif ok5 > 0 %}
+  {% assign grid-size = 5 %}
+{% else %}
+  {% assign grid-size = 3 %}
+{% endif %}
 
 {% unless include.nowrap %}
 <section id="speakers" class="section">
@@ -15,7 +27,7 @@
     <h{% if include.h1 %}1{% else %}2{% endif %} class="text-center">
         {% t Intervenants dévoilés %}
     </h{% if include.h1 %}1{% else %}2{% endif %}>
-    <div class="grid-{{ nbspeakers | divided_by: 2 }} text-center">
+    <div class="grid-{{ grid-size }} text-center">
       {% for conference in include.conferences %}
         {% for names in conference.speakers %}
           {% capture conf-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#{{conference.slug}}{% endcapture %}

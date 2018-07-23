@@ -1,0 +1,22 @@
+---
+display-order: 8
+display: true
+speakers:
+  - damien
+fr_FR:
+  title: "Budgets de performance ou comment mettre votre site au régime"
+  description: >-
+    Je vous propose de découvrir une notion essentielle pour adopter une véritable culture de la performance web sur vos projets : les budgets de performance.
+
+
+    Ces derniers ne vont pas s’exprimer en euros, mais en secondes, en mégaoctects ou encore en nombre de fichiers !  
+    
+    Une notion qui mériterait d’être connue et d’être utilisée par tous les métiers du web, pour accompagner le cycle de vie des sites web et reprendre le contrôle de leur rapidité.
+en_US:
+  title: "User Experience & Performance: Metrics that Matter"
+  description: >-
+    I’ll talk about a key concept for building a real performance culture for your web projects: the performance budgets.
+    
+    
+    It’s a kind of budget that isn’t expressed in dollars nor euros, but in seconds, megabytes or even in number of requests!
+---
