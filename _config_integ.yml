@@ -1,6 +1,6 @@
 url: ""
 robots: noindex,nofollow
-environment: 'development'
+environment: 'dev'
 
 sass:
   style: uncompressed
