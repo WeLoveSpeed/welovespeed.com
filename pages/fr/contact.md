@@ -22,8 +22,8 @@ Vous avez une question, une suggestion ? N'hésitez pas à nous envoyer un messa
   <p><small>Note&nbsp;: bien que l'email ne soit pas obligatoire, pensez à le renseigner si vous souhaitez que nous vous répondions.</small></p>
   <fieldset>
     <div data-netlify-recaptcha="true"></div>
-    <button type="submit" class="button" data-text="Send">
-      <span class="button-inner">Envoyer</span>
+    <button type="submit" class="button" data-text="envoyer">
+      <span class="button-inner">envoyer</span>
     </button>
   </fieldset>
 </form>
