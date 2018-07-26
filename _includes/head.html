@@ -1,15 +1,22 @@
 <!doctype html>
 <html lang="{{ lang }}" dir="ltr">
+    {% comment %} Social Image computation {% endcomment %}
+    {% if page.i18n-key=="home" %}
+      {% capture socialTitle %}{{ site.seo_title }} - {{ site.description }}{% endcapture %}
+      {% capture socialImage %}https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,w_960/https://welovespeed.netlify.com/assets/images/social-{{ page.locale | slice: 0,2 }}.png{% endcapture %}
+    {% else %}
+      {% capture socialTitle %}{{ page.seo_title | default: page.title }} - {{ site.seo_title }}{% endcapture %}
+      {% assign imgtitle = page.title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: "'", '%E2%80%99' | replace: '?', '%3F'%}
+      {% capture socialImage %}{{ site.cloudinary.origin_url}}/assets/images/social-bg-bx.jpg{% endcapture %}
+      {% capture socialImage %}https://res.cloudinary.com/{{ site.cloudinary.cloud_name }}/image/fetch/e_blur:200,c_crop,ar_1200:600,b_white/e_grayscale/w_1200/b_rgb:{{ site.main_color }},o_40/w_1000,c_fit,l_text:Rubik_80:{{ imgtitle }},x_2,y_-98,co_black,o_80/w_1000,c_fit,l_text:Rubik_80:{{ imgtitle }},y_-100,co_white/c_fill,y_150,h_200,w_200,l_ws-square,r_max,bo_5px_solid_red/{{ socialImage }}{% endcapture %}
+    {% endif %}
+    {% comment %} End Social Image computation {% endcomment %}
     <head>
         <meta charset="utf-8">
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <meta name="robots" content="{{ page.robots |default: site.robots }}">
-
-        <title>{{ page.seo_title | default: page.title }} - {{ site.seo_title }}</title>
+        <title>{{ socialTitle }}</title>
         <meta name="description" content="{{ page.description }}">
-
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
@@ -19,20 +26,7 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
         <meta name="theme-color" content="#{{ site.main_color }}">
-
         <link rel="author" href="{{ site.baseurl }}/humans.txt">
-
-        {% comment %} Social Image computation {% endcomment %}
-        {% if page.i18n-key=="home" %}
-          {% capture socialTitle %}{{ site.seo_title }}{% endcapture %}
-          {% capture socialImage %}https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,w_960/https://welovespeed.netlify.com/assets/images/social-{{ page.locale | slice: 0,2 }}.png{% endcapture %}
-        {% else %}
-          {% capture socialTitle %}{{ page.seo_title | default: page.title }} - {{ site.seo_title }}{% endcapture %}
-          {% assign imgtitle = page.title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: "'", '%E2%80%99' | replace: '?', '%3F'%}
-          {% capture socialImage %}{{ site.cloudinary.origin_url}}/assets/images/social-bg-bx.jpg{% endcapture %}
-          {% capture socialImage %}https://res.cloudinary.com/{{ site.cloudinary.cloud_name }}/image/fetch/e_blur:200,c_crop,ar_1200:600,b_white/e_grayscale/w_1200/b_rgb:{{ site.main_color }},o_40/w_1000,c_fit,l_text:Rubik_80:{{ imgtitle }},x_2,y_-98,co_black,o_80/w_1000,c_fit,l_text:Rubik_80:{{ imgtitle }},y_-100,co_white/c_fill,y_150,h_200,w_200,l_ws-square,r_max,bo_5px_solid_red/{{ socialImage }}{% endcapture %}
-        {% endif %}
-        {% comment %} End Social Image computation {% endcomment %}
         <meta property="og:url" content="{{ page.url | absolute_url }}">
         <meta property="og:type" content="website">
         <meta property="og:title" content="{{ socialTitle }}">
