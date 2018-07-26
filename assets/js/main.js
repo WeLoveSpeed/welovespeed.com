@@ -1,4 +1,20 @@
 (function () {
+
+  // Manage lang linkgs
+  document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll('a[hreflang]').forEach(function(element) {
+      element.addEventListener('click', function(e){
+        e.preventDefault();
+        var url = element.getAttribute('href'),
+          hash = window.location.hash.substr(1);
+        if (hash) {
+          url += "#" + hash;
+        }
+        window.location.href = url;
+      }, true);
+    });
+  });
+
   // Lazyload ---------------------------------------------------------------------------
   var lozadObserver = lozad('.lozad', {
     load: function (el) {
