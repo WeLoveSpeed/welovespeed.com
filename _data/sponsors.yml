@@ -133,4 +133,19 @@ gold:
         1. Speed is now used as a ranking factor for mobile searches
 
         1. A new Mobile Speed Score for ads landing pages
+  - name: Ekino
+    slug: ekino
+    logo: /assets/images/thanks/ekino.svg
+    fr_FR:
+      cta:
+        text: "L'innovation digitale au service de votre business"
+        url: https://www.ekino.com/
+      description: >-
+        Ekino est une agence spécialisée dans la transformation digitale appartenant au groupe Havas. Nous concevons, réalisons et industrialisons des services digitaux à caractère innovant pour des grands comptes et des startups. Nous sommes près de 400 experts en digital (Ingénieurs en Développement, Chefs de Projets Techniques, Designers...) présents à ce jour dans 7 agences en France (Paris & Bordeaux) et à l'international (Londres, New York, Ho Chi Minh City, Singapour et Bengalore).
+    en_US:
+      cta:
+        text: "Digitise your business"
+        url: https://www.ekino.com/en/
+      description: >-
+        Ekino is an agency specializing in digital transformation.  We are part of the Havas group and we design, build, and industrialize innovative digital services for large accounts and startups. Ekino is close to 400 digital experts (development engineers, consultants, technicians, designers) who come from 7 agencies in France (Paris & Bordeaux) and internationally (London, Ho Chi Minh, Singapore, Bangalore, New York).
 others:
