@@ -11,7 +11,7 @@ fr_FR:
 
     Ces derniers ne vont pas s’exprimer en euros, mais en secondes, en mégaoctects ou encore en nombre de fichiers !  
     
-    Une notion qui mériterait d’être connue et d’être utilisée par tous les métiers du web, pour accompagner le cycle de vie des sites web et reprendre le contrôle de leur rapidité.
+    Une notion qui mériterait d’être connue et d’être utilisée par tous les métiers du web, pour accompagner le cycle de vie des sites et reprendre le contrôle de leur rapidité.
 en_US:
   title: "User Experience & Performance: Metrics that Matter"
   description: >-
