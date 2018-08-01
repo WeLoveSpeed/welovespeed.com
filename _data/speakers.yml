@@ -161,3 +161,30 @@ damien:
       Selfie de Damien
     bio: >-
       CEO et cofondateur de Dareboost, solution SaaS de gestion de la performance web, pour réunir les équipes web autour d'un objectif commun : un site plus rapide et une qualité web accrue.
+stephane:
+  name: Stéphane Rios
+  locale: fr_FR
+  image: /assets/images/staff/stephane.jpg
+  url: https://www.fasterize.com
+  en_US:
+    alt: >-
+      Stéphane's mugshot
+    bio: >-
+      For 10 years, Stéphane RIOS was the CTO of RueDuCommerce.com, leader of French eCommerce.
+
+
+      He has accompanied and supported the growth of a website that has seen its traffic double each year. Member of the Management Committee, he actively participated in the success of one of the rare pure-players of eCommerce that has become profitable.
+
+
+      Obsessed with the unnecessary byte, the wasting of time and energy, Stéphane RIOS put RueDuCommerce at the top of the ranking of high-performance sites before embarking on the Fasterize adventure. He has managed large technical teams while remaining a geek with a passion for development and highly available and efficient Web architectures.
+  fr_FR:
+    alt: >-
+      Selfie de Stéphane
+    bio: >-
+      Pendant 10 ans, Stéphane RIOS a été directeur technique (CTO) de RueDuCommerce.com, leader du eCommerce français.
+
+
+      Il a accompagné et soutenu la croissance d'un site Web qui a vu chaque année son trafic doubler. Membre du Comité de Direction, il a activement participé au succès de l'un des rares pure-players du eCommerce devenu profitable.
+
+
+      Obsédé de l'octet en trop, du gaspillage de temps et d'énergie, Stéphane RIOS a hissé RueDuCommerce en tête des classements des sites performants avant de se lancer dans l'aventure Fasterize. Il a géré des équipes techniques conséquentes tout en restant un geek passionné de développement et d'architectures Web hautement disponibles et performantes.
