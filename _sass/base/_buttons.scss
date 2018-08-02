@@ -29,20 +29,22 @@
     content: attr(data-text); opacity: 0; visibility: hidden; speak: none;
   }
 
-  &:hover,
-  &:focus {
-    border: 1px solid $btn-hover-border-color;
-    background-color: $btn-hover-bg;
-    text-decoration: none;
+  @include media('>=large') {
+    &:hover,
+    &:focus {
+      border: 1px solid $btn-hover-border-color;
+      background-color: $btn-hover-bg;
+      text-decoration: none;
 
-    .button-inner {
-      transform: translateX(-30em);
-      opacity: 0; visibility: hidden;
-    }
+      .button-inner {
+        transform: translateX(-30em);
+        opacity: 0; visibility: hidden;
+      }
 
-    &::after {
-      transform: translateX(0);
-      opacity: 1; visibility: visible;
+      &::after {
+        transform: translateX(0);
+        opacity: 1; visibility: visible;
+      }
     }
   }
 }
