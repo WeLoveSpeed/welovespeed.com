@@ -9,20 +9,22 @@
 
 /*.woff2
   Access-Control-Allow-Origin: "*"
-  Cache-Control: max-age=2592000, private
+  Cache-Control: max-age=31536000, private
+/*.mp4
+  Cache-Control: max-age=31536000, private
 /*.css
-  Cache-Control: max-age=2592000, private
+  Cache-Control: max-age=31536000, private
 /assets/*.js
-  Cache-Control: max-age=2592000, private
+  Cache-Control: max-age=31536000, private
 /*.ico
-  Cache-Control: max-age=2592000, private
+  Cache-Control: max-age=31536000, private
 /*.jpg
-  Cache-Control: max-age=2592000, private
+  Cache-Control: max-age=31536000, private
 /*.jpeg
-  Cache-Control: max-age=2592000, private
+  Cache-Control: max-age=31536000, private
 /*.png
-  Cache-Control: max-age=2592000, private
+  Cache-Control: max-age=31536000, private
 /*.gif
-  Cache-Control: max-age=2592000, private
+  Cache-Control: max-age=31536000, private
 /*.svg
-  Cache-Control: max-age=2592000, private
+  Cache-Control: max-age=31536000, private
