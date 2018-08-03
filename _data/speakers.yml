@@ -1,5 +1,6 @@
 rick:
   name: Rick Viscomi
+  display: true
   locale: en_US
   image: /assets/images/speakers/rick.jpg
   url: https://twitter.com/rick_viscomi
@@ -15,6 +16,7 @@ rick:
       Défenseur de la transparence sur le Web chez Google et intendant des données de [@HTTPArchive](https://twitter.com/HTTPArchive). Co-auteur de [@UsingWPT](https://twitter.com/UsingWPT).
 stephanie:
   name: Stéphanie Walter
+  display: true
   locale: fr_FR
   image: /assets/images/speakers/walterstephanie.jpg
   url: https://stephaniewalter.design/
@@ -25,60 +27,79 @@ stephanie:
       Stéphanie is a UX and UI Designer with almost a decade of experience. She focuses on building a great user experience for mobile apps and responsive web sites. She’s passionate about her work and likes to share her knowledge with other people on blogs, at conferences and with the students she teaches to.
   fr_FR:
     alt: >-
-      Selfie de Stéphanie
+      Portrait de Stéphanie
     bio: >-
       Stéphanie – UX et UI Designer. Avec près de 10 ans d’expérience dans le design centré utilisateur, elle est spécialisée dans le design d’applications mobiles et le responsive, l’ergonomie et la création d’interfaces simples et agréables à utiliser. Elle partage sa passion pour son travail à travers ses articles, ses cours à l’université et les conférences qu’elle donne dans le monde entier.
 lesfurets:
   name: Dimitri Baeli
+  display: true
   locale: fr_FR
   image: /assets/images/speakers/dimitri.jpg
   en_US:
     alt: >-
-      LesFurets.com logo
+      Dimitri's mugshot
     bio: >-
-      CTO at LesFurets.com, a French comparison site that enables users to compare rates, warranties and services for automobile, health, two-wheeler, home and loan insurance.
+      CTO at [LesFurets.com](https://www.lesfurets.com/), a French comparison site that enables users to compare rates, warranties and services for automobile, health, two-wheeler, home and loan insurance.
   fr_FR:
     alt: >-
-      Logo de LesFurets.com
+      Portrait de Dimitrie
     bio: >-
-      CTO chez LesFurets.com, un site de comparaison français qui permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
+      CTO chez [LesFurets.com](https://www.lesfurets.com/), un site de comparaison français qui permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
 ouestfrance:
   name: Vincent Robert
+  display: true
   locale: fr_FR
   image: /assets/images/speakers/vincent.jpg
   en_US:
     alt: >-
-      Ouest France logo
+      Vincent's mugshot
     bio: >-
-      CTO at Ouest-France Multimédia, a subsidiary of Ouest-France dedicated to providing services and managing Ouest-France's classifieds organized by sector: automotive, real estate, employment.
+      CTO at Ouest-France Multimédia, a subsidiary of [Ouest-France](https://www.ouest-france.fr/) dedicated to providing services and managing Ouest-France's classifieds organized by sector: automotive, real estate, employment.
   fr_FR:
     alt: >-
-      Logo Ouest France
+      Portrait de Vincent
     bio: >-
-      DSI de Ouest-France Multimédia, une filiale de Ouest-France dédiée aux sites de petites annonces de journal organisés par secteur : automobile, immobilier, emploi.
+      DSI de Ouest-France Multimédia, une filiale de [Ouest-France](https://www.ouest-france.fr/) dédiée aux sites de petites annonces de journal organisés par secteur : automobile, immobilier, emploi.
+rdc:
+  name: Aniss Boumrigua
+  display: false
+  locale: fr_FR
+  image: /assets/images/speakers/aniss.jpg
+  en_US:
+    alt: >-
+      Aniss' mugshot
+    bio: >-
+      IT Manager at [Rue du Commerce](https://www.rueducommerce.fr/).
+  fr_FR:
+    alt: >-
+      Portrait d'Aniss
+    bio: >-
+      IT Manager chez [Rue du Commerce](https://www.rueducommerce.fr/).
 lequipe:
   name: Francois Boury
+  display: true
   locale: fr_FR
   image: /assets/images/speakers/francois.jpg
   en_US:
     alt: >-
-      L'Équipe logo
+      François's mugshot
     bio: >-
-      Internet CTO at L'Équipe.fr, the leading French sports information site.
+      Internet CTO at [L'Équipe.fr](https://www.lequipe.fr/), the leading French sports information site.
   fr_FR:
     alt: >-
       Logo l'Équipe
     bio: >-
-      Directeur Technique Internet de L'Équipe.fr, le premier site d'informations sportives français.
+      Directeur Technique Internet de [L'Équipe.fr](https://www.lequipe.fr/), le premier site d'informations sportives français.
 philip:
   name: Philip Tellis
+  display: true
   locale: en_US
   image: /assets/images/speakers/bluesmoon.jpg
   en_US:
     alt: >-
       Philip's mugshot
     bio: >-
-      Philip Tellis is a geek who likes to make the computer do his work for him. As Principal RUM Distiller at Akamai, he analyses the impact of various design decisions on web application performance, scalability and security. He is the lead developer of [boomerang](https://soasta.github.io/boomerang/) – a JavaScript based web performance testing tool.
+      Philip Tellis is a geek who likes to make the computer do his work for him. As Principal RUM Distiller at [Akamai](https://www.akamai.com/), he analyses the impact of various design decisions on web application performance, scalability and security. He is the lead developer of [boomerang](https://soasta.github.io/boomerang/) – a JavaScript based web performance testing tool.
 
 
       In his spare time, Philip enjoys cycling, reading, cooking and learning spoken languages.
@@ -90,9 +111,9 @@ philip:
       You can watch some of Philip’s past talks [on Youtube](https://www.google.com/search?q=youtube+philip+tellis).
   fr_FR:
     alt: >-
-      Selfie de Philip
+      Portrait de Philip
     bio: >-
-      Philip Tellis est un geek qui aime faire travailler l'ordinateur à sa place. En tant que Principal RUM Distiller chez Akamai, il analyse l’impact de diverses décisions de conception sur les performances, l’évolutivité et la sécurité des applications web. Il est le développeur principal de [boomerang](https://soasta.github.io/boomerang/) - un outil de mesure de performance web basé sur JavaScript.
+      Philip Tellis est un geek qui aime faire travailler l'ordinateur à sa place. En tant que Principal RUM Distiller chez [Akamai](https://www.akamai.com/), il analyse l’impact de diverses décisions de conception sur les performances, l’évolutivité et la sécurité des applications web. Il est le développeur principal de [boomerang](https://soasta.github.io/boomerang/) - un outil de mesure de performance web basé sur JavaScript.
 
 
       Philip aime faire du vélo, lire, cuisiner et apprendre à parler de nouvelles langues.
@@ -104,6 +125,7 @@ philip:
       Vous pouvez regarder certaines des conférences que Philip a déjà donné [sur Youtube](https://www.google.com/search?q=youtube+philip+tellis).
 nicolas:
   name: Nicolas Hoizey
+  display: true
   locale: fr_FR
   image: /assets/images/speakers/nhoizey.jpg
   en_US:
@@ -113,11 +135,12 @@ nicolas:
       Nicolas is a co-founder and senior consultant at [Clever Age](https://www.clever-age.com/en/). He helps companies design the right technical architecture to cover their digital needs. He also brings front-end technical expertise about web performance, RWD, PWA, etc. Drawing on over 20 years of Web experience, he advocates a pragmatic use of Web technologies, defining and applying good technical and methodological practices.
   fr_FR:
     alt: >-
-      Selfie de Nicolas
+      Portrait de Nicolas
     bio: >-
       Nicolas est cofondateur et consultant senior chez [Clever Age](https://www.clever-age.com/fr/). Il aide les entreprises à concevoir la bonne architecture technique, avec les bon choix de technologies et solutions, pour couvrir leurs besoins numériques. Il apporte de plus une expertise technique front-end : performance web, RWD, PWA, etc. S'appuyant sur plus de 20 ans d'expérience, il préconise une utilisation pragmatique des technologies Web, en définissant et en appliquant de bonnes pratiques techniques et méthodologiques.
 thomas:
   name: Thomas Zilliox
+  display: true
   url: https://tzi.fr/
   locale: fr_FR
   image: /assets/images/speakers/tzi.jpg
@@ -128,11 +151,12 @@ thomas:
       Thomas - Freelance CSS Expert. Thomas helps technical teams produce maintainable styles. Web developer, teacher, trainer, lecturer, speaker, he multiplies his hats to share his passion for the web. His last challenge was the writing of "[Départ immédiat pour : Flexbox](https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox)" with _le Train de 13h37_.
   fr_FR:
     alt: >-
-      Selfie de Thomas
+      Portrait de Thomas
     bio: >-
       Thomas – Expert CSS Freelance. Thomas aide les équipes technique à produire des styles maintenables. Intégrateur, développeur, enseignant, formateur, conférencier, il multiplie les casquettes pour partager sa passion du web. Son dernier challenge a été l’écriture de "[Départ immédiat pour : Flexbox](https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox)" avec _le Train de 13h37_.
 jp:
   name: Jean-Pierre Vincent
+  display: true
   locale: fr_FR
   image: /assets/images/staff/jp.jpg
   url: https://www.linkedin.com/in/jeanpierrevincent/?locale=fr_FR
@@ -143,11 +167,12 @@ jp:
       Jean-Pierre Vincent - Independent Technical Expert and trainer on Web and JavaScript Performance. For more than 7 years, Jean-Pierre accompanies his clients in their webperf strategy or train their teams. He is also the co-organizer of the [Paris Webperf meetups](https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/).
   fr_FR:
     alt: >-
-      Selfie de Jean-Pierre
+      Portrait de Jean-Pierre
     bio: >-
       Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis plus de 7 ans, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes. Il est aussi le co-organisateur des [meetups Webperf parisiens](https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/).
 damien:
   name: Damien Jubeau
+  display: true
   locale: fr_FR
   image: /assets/images/speakers/damien.jpg
   url: https://www.dareboost.com
@@ -155,14 +180,15 @@ damien:
     alt: >-
       Damien's mugshot
     bio: >-
-      CEO and co-funder of Dareboost, a SaaS dedicated to web performance. Manager-friendly, Dareboost allows your team to unite around a common goal: a faster website.
+      CEO and co-funder of [Dareboost](https://www.dareboost.com/), a SaaS dedicated to web performance. Manager-friendly, Dareboost allows your team to unite around a common goal: a faster website.
   fr_FR:
     alt: >-
-      Selfie de Damien
+      Portrait de Damien
     bio: >-
-      CEO et cofondateur de Dareboost, solution SaaS de gestion de la performance web, pour réunir les équipes web autour d'un objectif commun : un site plus rapide et une qualité web accrue.
+      CEO et cofondateur de [Dareboost](https://www.dareboost.com/), solution SaaS de gestion de la performance web, pour réunir les équipes web autour d'un objectif commun : un site plus rapide et une qualité web accrue.
 stephane:
   name: Stéphane Rios
+  display: true
   locale: fr_FR
   image: /assets/images/staff/stephane.jpg
   url: https://www.fasterize.com
@@ -170,22 +196,38 @@ stephane:
     alt: >-
       Stéphane's mugshot
     bio: >-
-      For 10 years, Stephane RIOS was CTO of RueDuCommerce.com, leader of French eCommerce. 
+      For 10 years, Stephane Rios was CTO of RueDuCommerce.com, leader of French eCommerce.
 
 
       He has supported the growth of a website that has seen its traffic double every year. Member of the Executive Committee, he actively participated in the success of one of the few eCommerce pure players that become profitable.
 
 
-      Obsessed with the byte in excess, waste of time and energy, Stéphane RIOS hoisted RueDuCommerce at the top of performing sites before launching the Fasterize adventure. He has managed large technical teams while remaining a geek having passion for Web development and architecture.
+      Obsessed with the byte in excess, waste of time and energy, Stéphane Rios hoisted RueDuCommerce at the top of performing sites before launching the [Fasterize](https://www.fasterize.com) adventure. He has managed large technical teams while remaining a geek having passion for Web development and architecture.
 
   fr_FR:
     alt: >-
-      Selfie de Stéphane
+      Portrait de Stéphane
     bio: >-
       Pendant 10 ans, Stéphane RIOS a été directeur technique (CTO) de RueDuCommerce.com, leader du eCommerce français.
 
 
       Il a accompagné et soutenu la croissance d'un site Web qui a vu chaque année son trafic doubler. Membre du Comité de Direction, il a activement participé au succès de l'un des rares pure-players du eCommerce devenu profitable.
 
+      Obsédé de l'octet en trop, du gaspillage de temps et d'énergie, Stéphane RIOS a hissé RueDuCommerce en tête des classements des sites performants avant de se lancer dans l'aventure [Fasterize](https://www.fasterize.com). Il a géré des équipes techniques conséquentes tout en restant un geek passionné de développement et d'architectures Web hautement disponibles et performantes.
+jonas:
+  name: Jonas Badalic
+  display: true
+  locale: en_US
+  image: /assets/images/speakers/jonas.jpg
+  url: https://twitter.com/JonasBadalic
+  en_US:
+    alt: >-
+      Jonas' mugshot
+    bio: >-
+      Building all sorts of things [@Algolia](https://www.algolia.com/) with performance and end-user experience in mind. Always trying to find edge cases and exceptions to rules. Doubt everything, do what works best for you and your users.
 
-      Obsédé de l'octet en trop, du gaspillage de temps et d'énergie, Stéphane RIOS a hissé RueDuCommerce en tête des classements des sites performants avant de se lancer dans l'aventure Fasterize. Il a géré des équipes techniques conséquentes tout en restant un geek passionné de développement et d'architectures Web hautement disponibles et performantes.
+  fr_FR:
+    alt: >-
+      Portrait de Jonas
+    bio: >-
+      Construit toutes sortes de choses chez [Algolia](https://www.algolia.com/), en gardant toujours à l'esprit la performance web et l'expérience utilisateur. Toujours à la recherche de cas limites et d'exceptions. Un crédo : "Doute de tout, fait ce qui fonctionne le mieux pour toi et tes utilisateurs".

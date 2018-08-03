@@ -62,12 +62,14 @@
     {% unless forloop.first %},{% endunless %}
     {% for names in conference.speakers %}
       {% assign speaker = site.data.speakers[names] %}
-      {% unless forloop.first %},{% endunless %}
-      {
-        "@type": "Person",
-        "name": "{{ speaker.name }}",
-        "sameAs": "{{ speaker.url }}"
-      }
+      {% if speaker.display %}
+        {% unless forloop.first %},{% endunless %}
+        {
+          "@type": "Person",
+          "name": "{{ speaker.name }}",
+          "sameAs": "{{ speaker.url }}"
+        }
+      {% endif %}
     {% endfor %}
   {% endfor %}
   ]

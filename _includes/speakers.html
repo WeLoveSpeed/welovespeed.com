@@ -21,9 +21,11 @@
         {% for names in conference.speakers %}
           {% capture conf-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#{{conference.slug}}{% endcapture %}
           {% assign speaker = site.data.speakers[names] %}
-          <figure class="person">
-            <a title="{{ "Aller directement à l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ conf-url }}">{% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}</a>
-          </figure>
+          {% if speaker.display %}
+            <figure class="person">
+              <a title="{{ "Aller directement à l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ conf-url }}">{% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}</a>
+            </figure>
+          {% endif %}
         {%- endfor -%}
       {%- endfor -%}
     </div>

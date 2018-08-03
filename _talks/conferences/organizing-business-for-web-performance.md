@@ -5,6 +5,7 @@ speakers:
   - lesfurets
   - ouestfrance
   - lequipe
+  - rdc
 fr_FR:
   title: "Organiser l'entreprise pour la Performance Web"
   description: >-

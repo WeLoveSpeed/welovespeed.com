@@ -1,5 +1,5 @@
 ---
-display-order: 11
+display-order: 9
 display: true
 speakers:
   - stephane
