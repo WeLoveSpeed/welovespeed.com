@@ -25,3 +25,9 @@
 .grid-item-full {
   grid-column: 1 / -1;
 }
+
+.grid-other-sponsors {
+    @include media('<large') {
+    --grid-item-min-width: 15rem;
+    }
+}

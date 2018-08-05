@@ -149,3 +149,6 @@ gold:
       description: >-
         Ekino is an agency specializing in digital transformation.  We are part of the Havas group and we design, build, and industrialize innovative digital services for large accounts and startups. Ekino is close to 400 digital experts (development engineers, consultants, technicians, designers) who come from 7 agencies in France (Paris & Bordeaux) and internationally (London, Ho Chi Minh, Singapore, Bangalore, New York).
 others:
+  - name: Davidson Consulting
+    logo: /assets/images/thanks/davidson.png
+    url: https://www.davidson.fr/
