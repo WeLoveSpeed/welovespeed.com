@@ -12,7 +12,7 @@
     </div>
     {% if othersCount > 0 %}
     <hr>
-    <div class="grid-6 text-center">
+    <div class="grid-4 text-center grid-other-sponsors">
       {% for sponsor in site.data.sponsors.others %}
           <figure class="company-logo-big">
             <a title="{{ "En savoir plus sur %s" | t: include.locale | replace:"%s",sponsor.name }}" href="{{ sponsor.url }}"><img src="{{ site.lazyload.placeholder }}" class="lozad" data-src="{{ sponsor.logo | relative_url }}" alt="{{sponsor.name}}" width="100" height="100"></a>
