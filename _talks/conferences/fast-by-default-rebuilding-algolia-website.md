@@ -1,6 +1,6 @@
 ---
 display-order: 10
-display: false
+display: true
 speakers:
   - jonas
 fr_FR:
