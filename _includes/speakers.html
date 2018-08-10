@@ -14,7 +14,7 @@
 {% endunless %}
     <a class="sr-only" src="{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: include.locale }}{% endunless %}#conferences" >{% t Aller directement au programme détaillé %}</a>
     <h{% if include.h1 %}1{% else %}2{% endif %} class="text-center">
-        {% t Intervenants dévoilés %}
+        {% t Intervenants %}
     </h{% if include.h1 %}1{% else %}2{% endif %}>
     <div class="grid-{{ site.data.gridsize[nbitems] }} text-center">
       {% for conference in include.conferences %}
