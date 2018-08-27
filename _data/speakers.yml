@@ -75,6 +75,21 @@ rdc:
       Portrait d'Aniss
     bio: >-
       IT Manager chez [Rue du Commerce](https://www.rueducommerce.fr/).
+cdiscount:
+  name: Aurélien Lajoie
+  display: true
+  locale: fr_FR
+  image: /assets/images/speakers/aurelien.jpg
+  en_US:
+    alt: >-
+      Aurélien's mugshot
+    bio: >-
+      Director of Architecture at [Cdiscount](https://www.cdiscount.com/).
+  fr_FR:
+    alt: >-
+      Portrait d'Aurélien
+    bio: >-
+      Directeur de l’architecture chez [Cdiscount](https://www.cdiscount.com/).
 lequipe:
   name: Francois Boury
   display: true
