@@ -78,6 +78,7 @@ rdc:
 cdiscount:
   name: Aurélien Lajoie
   display: true
+  url: https://github.com/utix
   locale: fr_FR
   image: /assets/images/speakers/aurelien.jpg
   en_US:
