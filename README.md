@@ -2,7 +2,7 @@
 
 Site internet de la conférence 'We ❤️ Speed', dont la première édition aura lieu le 9 octobre à Bordeaux
 
-**Site web en construction**, [version temporaire ici](https://www.welovespeed.com/).
+URL finale : https://www.welovespeed.com/.
 
 ## Pré-requis
 
