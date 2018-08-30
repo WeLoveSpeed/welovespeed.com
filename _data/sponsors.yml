@@ -148,6 +148,21 @@ gold:
         url: https://www.ekino.com/en/
       description: >-
         Ekino is an agency specializing in digital transformation.  We are part of the Havas group and we design, build, and industrialize innovative digital services for large accounts and startups. Ekino is close to 400 digital experts (development engineers, consultants, technicians, designers) who come from 7 agencies in France (Paris & Bordeaux) and internationally (London, Ho Chi Minh, Singapore, Bangalore, New York).
+  - name: Dynatrace
+    slug: dynatrace
+    logo: /assets/images/thanks/dynatrace.svg
+    fr_FR:
+      cta:
+        text: "Découvrir Dynatrace"
+        url: https://www.dynatrace.fr/
+      description: >-
+        Dynatrace, spécialement conçue pour les organisations d’aujourd’hui, simplifie le monitoring et l’exploitation des écosystèmes multi-cloud complexes. À la fois pilotée par l’intelligence artificielle (AI), "full stack" et entièrement automatisée, Dynatrace est la seule solution à fournir non pas de simples données, mais de véritables réponses, basées sur une connaissance approfondie de la performance délivrée à chaque utilisateur, pour chaque transaction, au sein de chaque application. Les plus grandes sociétés au monde –&nbsp;dont 79 du Fortune 100&nbsp;– optimisent l’expérience client, accélèrent leur innovation et modernisent l’exploitation de leur système d’information en toute confiance avec Dynatrace.
+    en_US:
+      cta:
+        text: "Discover Dynatrace"
+        url: https://www.dynatrace.com/
+      description: >-
+        Dynatrace makes it easy and simple to monitor and run the most complex, hyper-scale multi-cloud ecosystems. Purpose built for today’s enterprises, Dynatrace is an AI-powered, full stack and completely automated monitoring solution that provides deep insight (answers, not data) into every user, every transaction, across every application. That’s why many of the world’s leading brands, including 72 of the Fortune 100, trust Dynatrace to optimize customer experiences, innovate faster and modernize IT operations with absolute confidence.
 others:
   - name: Davidson Consulting
     logo: /assets/images/thanks/davidson.png
