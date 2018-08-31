@@ -165,5 +165,5 @@ gold:
         Dynatrace makes it easy and simple to monitor and run the most complex, hyper-scale multi-cloud ecosystems. Purpose built for today’s enterprises, Dynatrace is an AI-powered, full stack and completely automated monitoring solution that provides deep insight (answers, not data) into every user, every transaction, across every application. That’s why many of the world’s leading brands, including 72 of the Fortune 100, trust Dynatrace to optimize customer experiences, innovate faster and modernize IT operations with absolute confidence.
 others:
   - name: Davidson Consulting
-    logo: /assets/images/thanks/davidson.png
+    logo: /assets/images/thanks/davidson.svg
     url: https://www.davidson.fr/
