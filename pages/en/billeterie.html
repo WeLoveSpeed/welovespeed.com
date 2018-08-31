@@ -53,7 +53,17 @@ permalink: /en/register/
   </div>
 </section>
 {% endif %}
+{% if site.tickets.selling %}
+<hr class="wrapper">
 
+<section class="section">
+  <div class="wrapper">
+    <section>
+      <p>Are you in need of a special price because of a particular situation? Do not hesitate, <a href="{{ page.baseurl | default:site.baseurl }}/{{ "contact" | t: page.locale }}/">contact us</a>.</p>
+    </section>
+  </div>
+</section>
+{% endif %}
 <hr class="wrapper">
 
 <section class="section">

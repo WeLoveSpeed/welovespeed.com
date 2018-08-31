@@ -53,7 +53,17 @@ permalink: /billetterie/
   </div>
 </section>
 {% endif %}
+{% if site.tickets.selling %}
+<hr class="wrapper">
 
+<section class="section">
+  <div class="wrapper">
+    <section>
+      <p>Besoin d'un tarif particulier lié à une situation particulière&nbsp;? N'hésitez pas, <a href="{{ page.baseurl | default:site.baseurl }}/{{ "contact" | t: page.locale }}/">contactez-nous</a>.</p>
+    </section>
+  </div>
+</section>
+{% endif %}
 <hr class="wrapper">
 
 <section class="section">
