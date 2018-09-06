@@ -55,6 +55,10 @@ Attention : les stations VCub disposent d'un nombre de place très limités et s
 
 La journée commence à 8h30 avec le petit déjeuner, la première conférence démarre à 9h et la journée se terminera vers 18h.
 
+## Y aura-t-il un after ?
+
+Ekino, [sponsor Gold](/merci/#ekino), propose aux participants de les rejoindre après l'événement pour un cocktail. [Les locaux](https://www.google.fr/maps/dir/Place+de+la+Bourse/Cours+Xavier+Arnozan,+33000+Bordeaux/@44.84302,-0.5709371,17z/data=!4m14!4m13!1m5!1m1!1s0xd5527d1a32e69b3:0x174e5d3e97b80b10!2m2!1d-0.5699017!2d44.8414707!1m5!1m1!1s0xd5527d7da085b9f:0xb413131104533be4!2m2!1d-0.5712925!2d44.8487607!3e2) sont à 2 stations de tram de la conférence, à 10 minutes à pied.
+
 ## Au fait, pourquoi à Bordeaux ?
 
 * parce qu’en moyenne il y fait 4 degrés de plus qu’à Paris ;
