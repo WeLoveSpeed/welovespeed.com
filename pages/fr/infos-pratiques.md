@@ -23,7 +23,7 @@ Situé dans l’hypercentre de Bordeaux, en bordure des quais, le Palais de la B
 
 ### En TGV
 
-Vous avez le choix parmi 20 allers&#8239;/&#8239;retours quotidiens entre Paris-Montparnasse et Bordeaux (2 heures, avec du Wifi). Pour ne pas manquer petit déjeuner et la première conférence, prenez celui de 6h48.  
+Vous avez le choix parmi 20 allers&#8239;/&#8239;retours quotidiens entre Paris-Montparnasse et Bordeaux (2 heures, avec du Wifi). Pour ne pas manquer le petit déjeuner et la première conférence, prenez celui de 6h48.  
 _Astuce prix : le train Bordeaux-Paris du mardi soir (18h52) ne coûte que 29€ en Ouigo !_  
 Le Palais de la Bourse est ensuite à 10 minutes [en tramway](#en-tramway).
 
@@ -43,7 +43,7 @@ Des tickets sont en vente à la gare pour 1,60€ pièce.
 
 ### En voiture
 
-Ces autoroutes desservent Bordeaux : A10 (Bordeaux-Paris), A62 (Bordeaux-Toulouse), A63 (Bordeaux-Bayonne), A65 (Bordeaux-Pau), A89 (Bordeaux-Clermont-Lyon) et A8 (Bordeaux-Nice).  
+Ces autoroutes desservent Bordeaux : A10 (Bordeaux-Paris), A62 (Bordeaux-Toulouse), A63 (Bordeaux-Bayonne), A65 (Bordeaux-Pau) et A89 (Bordeaux-Clermont-Lyon).  
 3 parkings souterrains sont situés à proximité du Palais de la Bourse (capacité de 1620 places).
 
 ### En trottinette, en bicyclette
