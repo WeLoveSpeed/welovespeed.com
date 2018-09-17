@@ -12,7 +12,7 @@ fr_FR:
     J’aborderai l’approche et les outils mis en place, les barrières que nous avons surmontées et les excellents résultats que nous avons obtenus et maintenus.
 
 en_US:
-  title: "How have its company embrace webperf as a core value ?"
+  title: "Web Performance as a Core Value"
   description: >-
-    Some company still hesitate to fully invest time and money into web performance because the matter is highly technical and the gains are nor obvious nor guaranteed. Let me show you how in "Rue Du Commerce" webperf started from a purely technical project to an important indicator the whole company is now looking at. We will discuss the methodology, the tooling, the challenges we faced and the excellent results we had.
+    Some company are still hesitating to invest a lot of time and money into Web Performance because the matter is highly technical and the gains are neither obvious nor guaranteed. Let me show you how how the "Rue Du Commerce" webperf journey started from a purely technical project to an important indicator the whole company is now looking at. We will discuss the methodology, the tooling, the challenges we faced and the excellent results we had.
 ---
