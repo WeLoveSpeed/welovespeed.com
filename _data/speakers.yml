@@ -62,7 +62,7 @@ ouestfrance:
       DSI de Ouest-France Multimédia, une filiale de [Ouest-France](https://www.ouest-france.fr/) dédiée aux sites de petites annonces de journal organisés par secteur : automobile, immobilier, emploi.
 rdc:
   name: Aniss Boumrigua
-  display: false
+  display: true
   locale: fr_FR
   image: /assets/images/speakers/aniss.jpg
   en_US:
