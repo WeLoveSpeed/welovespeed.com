@@ -4,15 +4,14 @@ display: true
 speakers:
   - rdc
 fr_FR:
-  title: "Comment Rue du commerce optimise sa performance web"
+  title: "Comment faire de la Performance Web un enjeu majeur pour l’entreprise ?"
   description: >-
-    Depuis 2016, Rue Du Commerce s'est lancé dans un vaste chantier de modernisation de sa plateforme web. Malgré une première refonte, nous n'avons pas obtenu les vitesses de chargements escomptées. Suite à ce constat, nous avons décidé de mener un deuxième projet centré sur l’optimisation des pages Web. Ce projet nous a permis en quelques mois de faire partie des sites e-commerce les plus rapide !!
+    Difficile pour une entreprise d’investir dans la webperf alors que le sujet peut paraitre technique et que le gain n'est ni évident ni garanti. A travers mon expérience chez Rue Du Commerce, je vous expliquerai comment en quelques mois, grâce à un projet initialement purement IT, nous avons engagé l’ensemble de la société à suivre la webperf comme un indicateur important.
+J’aborderai l’approche et les outils mis en place, les barrières que nous avons surmontées et les excellents résultats que nous avons obtenus et maintenus.
 
-    Vous allez découvrir comment Rue Du Commerce a travaillé sa perfomance web.
 en_US:
-  title: "How Rue du commerce optimizes its web performance"
+  title: "How have its company embrace webperf as a core value ?"
   description: >-
-    Since 2016, Rue Du Commerce has been engaged in a vast project to modernize its web platform. Despite a first redesign, we did not achieve the expected loading speeds. As a result, we decided to carry out a second project more focused on the optimization of our web pages. This project has made us one of the fastest e-commerce sites in a few months!
-
-    You will discover how Rue Du Commerce has worked on its web performance.
+    Some company still hesitate to fully invest time and money into web performance because the matter is highly technical and the gains are nor obvious nor guaranteed. Let me show you how in "Rue Du Commerce" webperf started from a purely technical project to an important indicator the whole company is now looking at. We will discuss the methodology, the tooling, the challenges we faced and the excellent results we had.
+    
 ---
