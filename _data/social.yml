@@ -6,7 +6,7 @@
   url: https://www.linkedin.com/company/welovespeed/
 - name: slack
   title: Slack
-  url: https://welovespeed.slack.com/
+  url: https://welovespeed.herokuapp.com/
 - name: mail
   title: E-mail
   url: https://www.welovespeed.com/contact/
