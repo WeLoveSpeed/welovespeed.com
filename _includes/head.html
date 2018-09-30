@@ -8,7 +8,7 @@
       {% capture socialTitle %}{{ page.seo_title | default: page.title }} - {{ site.seo_title }}{% endcapture %}
       {% assign imgtitle = page.title | url_escape | replace: ' ', '%20' | replace: '.', '%2e' | replace: ',', '%252C' | replace: "'", '%E2%80%99' | replace: '?', '%3F'%}
       {% capture socialImage %}{{ site.cloudinary.origin_url}}/assets/images/social-bg-bx.jpg{% endcapture %}
-      {% capture socialImage %}https://res.cloudinary.com/{{ site.cloudinary.cloud_name }}/image/fetch/e_blur:200,c_crop,ar_1200:600,b_white/e_grayscale/w_1200/b_rgb:{{ site.main_color }},o_40/w_1000,c_fit,l_text:Rubik_80:{{ imgtitle }},x_2,y_-98,co_black,o_80/w_1000,c_fit,l_text:Rubik_80:{{ imgtitle }},y_-100,co_white/c_fill,y_150,h_200,w_200,l_ws-square,r_max,bo_5px_solid_red/{{ socialImage }}{% endcapture %}
+      {% capture socialImage %}https://res.cloudinary.com/{{ site.cloudinary.cloud_name }}/image/fetch/e_blur:200,c_crop,ar_1200:600,b_white/e_grayscale/w_1200/b_rgb:{{ site.main_color }},o_40/w_1000,c_fit,l_text:Source%20Sans%20Pro_100:{{ imgtitle }},x_2,y_-98,co_black,o_80/w_1000,c_fit,l_text:Source%20Sans%20Pro_100:{{ imgtitle }},y_-100,co_white/c_fit,x_2,y_152,w_600,l_wls-inline,e_colorize,co_black/c_fit,y_150,w_600,l_wls-inline,e_colorize,co_white/{{ socialImage }}{% endcapture %}
     {% endif %}
     {% comment %} End Social Image computation {% endcomment %}
     <head>

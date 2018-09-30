@@ -6,11 +6,11 @@
 
 $black                            : #000000;
 $softgrey                         : #ABB4BE;
-$softwhite                        : #FEFCFC;
 $white                            : #FFFFFF;
 $darkgreen                        : #192112;
-$red                              : #cd2f2b;
-$darkred                          : #481110;
+$red                              : #e62827;
+$darkred                          : darken($red, 20);
+$softwhite                        : lighten($red,47);
 
 $green                            : #6A7C2C;
 $blue                             : #12A6C6;
