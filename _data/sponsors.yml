@@ -138,16 +138,22 @@ gold:
     logo: /assets/images/thanks/ekino.svg
     fr_FR:
       cta:
-        text: "L'innovation digitale au service de votre business"
+        text: "Pour en savoir plus, sur ekino, c’est par ici !"
         url: https://www.ekino.com/
       description: >-
-        Ekino est une agence spécialisée dans la transformation digitale appartenant au groupe Havas. Nous concevons, réalisons et industrialisons des services digitaux à caractère innovant pour des grands comptes et des startups. Nous sommes près de 400 experts en digital (Ingénieurs en Développement, Chefs de Projets Techniques, Designers...) présents à ce jour dans 7 agences en France (Paris & Bordeaux) et à l'international (Londres, New York, Ho Chi Minh City, Singapour et Bengalore).
+        Aujourd’hui, les internautes n’attendent plus. Les habitudes de consommation, soutenues par l’émergence de nouvelles technologies de plus en plus performantes n’ont fait qu’accroître leur impatience et leurs exigences. La vitesse de chargement d’une page web n’est pourtant pas le seul critère à prendre en compte pour répondre à ces exigences. Il est nécessaire d’avoir une vision globale ; à la fois sur les technologies, mais également sur l’expérience utilisateurs, mais aussi sur la data.
+
+
+        Chez ekino, nous avons pris le parti de faire collaborer ensemble ces métiers au sein d’une même structure. Depuis près de 10 ans, notre agence digitale intégrée accompagne ses clients dans la digitalisation et la création de services et outils digitaux avec cette vision globale. Nous pensons que c’est cette synergie qui fait notre force et qui permet à tous nos projets d’être pérennes, évolutifs et performants.
     en_US:
       cta:
-        text: "Digitise your business"
+        text: "Find out more about ekino!"
         url: https://www.ekino.com/en/
       description: >-
-        Ekino is an agency specializing in digital transformation.  We are part of the Havas group and we design, build, and industrialize innovative digital services for large accounts and startups. Ekino is close to 400 digital experts (development engineers, consultants, technicians, designers) who come from 7 agencies in France (Paris & Bordeaux) and internationally (London, Ho Chi Minh, Singapore, Bangalore, New York).
+        Internet users no longer wait. Consumption habits, supported by the emergence of new and increasingly efficient technologies, have only increased their impatience and expectations. However, the loading speed of a web page is not the only factor to be considered in meeting these requirements. A global vision is essential; both on technologies, but also on the user experience, and also on data.
+
+
+        At ekino, we have decided to bring these businesses together within the same structure. For nearly 10 years, our integrated digital agency has been supporting its clients in their digital transformation and the creation of digital services and tools with this global vision. We believe that this synergy is our strength and ensures that all our projects are sustainable, scalable and efficient.
   - name: Dynatrace
     slug: dynatrace
     logo: /assets/images/thanks/dynatrace.svg
