@@ -2,25 +2,27 @@
 title: Accueil
 description: Le 9 octobre 2018, à Bordeaux, une journée de conférences dédiées à la performance web. Métriques, UX, optimisations du code et des images. Venez rencontrer les experts !
 i18n-key: home
-permalink: /
+permalink: /2018/
+year: 2018
 ---
 
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
+      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
         <span class="button-inner">{% t voir le programme %}</span>
       </a>
-      <a class="button" data-text="{% t Infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
+      <a class="button" data-text="{% t Infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
         <span class="button-inner">{% t Infos pratiques %}</span>
-      </a><br/>
+      </a>
       {% if site.tickets.selling %}
-      <a class="button" data-text="{% t Derniers jours ! %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+      <br/>
+      <a class="button" data-text="{% t Derniers jours ! %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
         <span class="button-inner">{% t réserver votre place %}</span>
       </a>
       {% endif %}
       {% if site.tickets.waiting-list %}
-      <a class="button" data-text="{% t s'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t s'incrire en liste d'attente %}">
+      <a class="button" data-text="{% t s'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t s'incrire en liste d'attente %}">
         <span class="button-inner">{% t s'incrire en liste d'attente %}</span>
       </a>
       {% endif %}
@@ -55,7 +57,7 @@ permalink: /
     <p>Créé par et pour la communauté webperf, {{ site.title }} est né de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnels du web, de l’e-commerce et experts de la webperf, cet événement est fait pour vous&nbsp;!</p>
     <p>Décideurs, développeurs… retrouvons-nous pour une journée, et peut-être quelques soirées, dans une des plus belles villes de France, afin d'échanger sur la WebPerf : ses enjeux, son implémentation, ses acteurs mais aussi l'organisation des entreprises qui l'implémentent.</p>
     <p class="text-center">
-        <a class="button" data-text="venir à Bordeaux" href="{{ page.baseurl | default:site.baseurl }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">venir à Bordeaux</span></a>
+        <a class="button" data-text="venir à Bordeaux" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">venir à Bordeaux</span></a>
       </p>
   </div>
 </section>
@@ -74,7 +76,7 @@ permalink: /
 <section id="sponsors" class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="télécharger notre dossier de sponsoring" href="{{ "/assets/docs/sponsoring_fr.pdf" | relative_url }}"><span class="button-inner">télécharger notre dossier de sponsoring</span></a>
+      <a class="button" data-text="télécharger notre dossier de sponsoring" href="{{ "/assets/docs/2018/sponsoring_fr.pdf" | relative_url }}"><span class="button-inner">télécharger notre dossier de sponsoring</span></a>
     </p>
   </div>
 </section>

@@ -2,13 +2,14 @@
 title: Informations
 description: "The information you need about the event"
 i18n-key: informations
-permalink: /en/informations/
+permalink: /en/2018/informations/
 layout: page
+year: 2018
 ---
 
 # {{ page.title }}
 
-## Where will the event take place?
+## Where will the We Love Speed 2018 take place?
 
 **At the Palais de la Bourse in Bordeaux**  
 (Entrance will be at 17 place de la Bourse)

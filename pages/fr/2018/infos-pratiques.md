@@ -2,13 +2,14 @@
 title: Infos pratiques
 description: "Toutes les infos à propos de l'événement"
 i18n-key: informations
-permalink: /infos-pratiques/
+permalink: /2018/infos-pratiques/
 layout: page
+year: 2018
 ---
 
 # {{ page.title }}
 
-## Où l'événement aura-t-il lieu ?
+## Où We Love Speed 2018 aura-t-il lieu ?
 
 **Au Palais de la Bourse de Bordeaux**  
 (L’entrée se fera au 17 place de la Bourse)
@@ -57,7 +58,7 @@ La journée commence à 8h30 avec le petit déjeuner, la première conférence d
 
 ## Y aura-t-il un after ?
 
-Ekino, [sponsor Gold](/merci/#ekino), propose aux participants de les rejoindre après l'événement pour un cocktail. [Les locaux](https://www.google.fr/maps/dir/Place+de+la+Bourse/Cours+Xavier+Arnozan,+33000+Bordeaux/@44.84302,-0.5709371,17z/data=!4m14!4m13!1m5!1m1!1s0xd5527d1a32e69b3:0x174e5d3e97b80b10!2m2!1d-0.5699017!2d44.8414707!1m5!1m1!1s0xd5527d7da085b9f:0xb413131104533be4!2m2!1d-0.5712925!2d44.8487607!3e2) sont à 2 stations de tram de la conférence, à 10 minutes à pied.
+Ekino, [sponsor Gold](/2018/merci/#ekino), propose aux participants de les rejoindre après l'événement pour un cocktail. [Les locaux](https://www.google.fr/maps/dir/Place+de+la+Bourse/Cours+Xavier+Arnozan,+33000+Bordeaux/@44.84302,-0.5709371,17z/data=!4m14!4m13!1m5!1m1!1s0xd5527d1a32e69b3:0x174e5d3e97b80b10!2m2!1d-0.5699017!2d44.8414707!1m5!1m1!1s0xd5527d7da085b9f:0xb413131104533be4!2m2!1d-0.5712925!2d44.8487607!3e2) sont à 2 stations de tram de la conférence, à 10 minutes à pied.
 
 ## Et l’accessibilité ?
 

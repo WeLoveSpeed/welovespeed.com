@@ -21,11 +21,14 @@ lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
 # Est-ce qu'on vend des places à tarif plein, est-ce qu'on propose une liste d'attente ou les deux ?
+current_edition: 2018
 tickets:
-  selling: true
+  selling: false
   waiting-list: false
   price: "180"
   price_currency: "EUR"
+infos:
+  display: false
 
 # Compression du code HTML en production
 compress_html:

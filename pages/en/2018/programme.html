@@ -1,12 +1,13 @@
 ---
-title: Programme
-description: Le programme de l'édition 2018 de We Love Speed
+title: Line-up
+description: The talks of the 2018 edition of We Love Speed
 i18n-key: programme
-permalink: /programme/
+permalink: /en/2018/line-up/
+year: 2018
 ---
 
 {%- assign conferences = site.talks | where: "display", true | sort: "display-order" -%}
-{% include speakers.html conferences=conferences locale=page.locale shorturl=true h1=true %}
+{% include speakers.html conferences=conferences locale=page.locale shorturl=true %}
 
 <hr class="wrapper">
 
@@ -15,7 +16,7 @@ permalink: /programme/
 {% if site.tickets.selling %}
 <section class="section">
   <div class="wrapper">
-    <p class="text-center"><a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+    <p class="text-center"><a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "billetterie" | t: page.locale }}/{{ page.year }}/" title="{% t réserver votre place %}">
       <span class="button-inner">{% t réserver votre place %}</span>
     </a></p>
   </div>

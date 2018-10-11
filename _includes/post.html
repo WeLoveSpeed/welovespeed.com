@@ -1,7 +1,7 @@
 <section class="section">
   <div class="wrapper">
     <time class="published">{% include fr_date.html date=include.post.date %}</time> • {{ include.post.author }}{% if include.post.category %} •
-    <a href="{{ site.baseurl }}/{{ post.category }}" rel="tag">We ♥️ Speed {{ include.post.category }}</a> {% endif %}
+    <a href="{{ site.baseurl }}/{{ include.post.category }}/" rel="tag">We ♥️ Speed {{ include.post.category }}</a> {% endif %}
     <h2 class="post-title entry-title">
       {{ include.post.title }}
     </h2>

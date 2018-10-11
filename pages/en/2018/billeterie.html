@@ -2,7 +2,8 @@
 title: Register
 description: "Book your ticket, there won't be one for everyone"
 i18n-key: register
-permalink: /en/register/
+permalink: /en/2018/register/
+year: 2018
 ---
 
 {% if site.tickets.selling %}
@@ -17,7 +18,7 @@ permalink: /en/register/
 {% else %}
   <section class="section">
     <div class="wrapper">
-      <h2 class="text-center">The tickets aren't for sale yet!</h2>
+      <h2 class="text-center">The tickets for our next edition aren't for sale yet!</h2>
       <p>
         Do you want to be informed as soon as tickets go on sale? Subscribe to our newsletter :
       </p>
@@ -64,6 +65,7 @@ permalink: /en/register/
   </div>
 </section>
 {% endif %}
+
 <hr class="wrapper">
 
 <section class="section">
@@ -73,7 +75,7 @@ permalink: /en/register/
       <p>We have solutions! Follow the tips we've prepared for a trouble-free trip.</p>
     </section>
     <p class="text-center">
-      <a class="button" data-text="come to Bordeaux" href="{{ page.baseurl | default:site.baseurl }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">come to Bordeaux</span></a>
+      <a class="button" data-text="come to Bordeaux" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">come to Bordeaux</span></a>
     </p>
   </div>
 </section>

@@ -2,12 +2,12 @@
 {% when 'url' %}
     <a href="{{ include.link.value }}">{{ include.link.name | t: page.locale }}</a>
 {% when 'root_anchor' %}
-    <a href="{{ page.baseurl | default:site.baseurl }}/{{ include.link.anchor }}">{{ include.link.name | t: page.locale }}</a>
+    <a href="{{ page.baseurl | default:site.baseurl }}{% if include.link.edition_relative %}/{{ page.year|default: site.current_edition }}{% endif %}/{{ include.link.anchor }}">{{ include.link.name | t: page.locale }}</a>
 {% when 'translate' %}
     <a href="{{ include.link.value | t: page.locale }}">{{ include.link.name | t: page.locale }}</a>
 {% else %}
     {% unless include.link.fr_only %}
-    <a href="{{ page.baseurl | default:site.baseurl }}/{{ include.link.value | t: page.locale }}/">{{ include.link.name | t: page.locale }}</a>
+    <a href="{{ page.baseurl | default:site.baseurl }}{% if include.link.edition_relative %}/{{ page.year|default: site.current_edition }}{% endif %}/{{ include.link.value | t: page.locale }}/">{{ include.link.name | t: page.locale }}</a>
     {% else %}
     {% if page.locale == "fr_FR" %}
       <a href="{{ page.baseurl | default:site.baseurl }}/{{ include.link.value }}/">{{ include.link.name }}</a>

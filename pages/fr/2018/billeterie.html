@@ -2,7 +2,8 @@
 title: Billetterie
 description: "Réservez votre place, il n'y en aura pas pour tout le monde"
 i18n-key: register
-permalink: /billetterie/
+permalink: /2018/billetterie/
+year: 2018
 ---
 
 {% if site.tickets.selling %}
@@ -17,7 +18,7 @@ permalink: /billetterie/
 {% else %}
   <section class="section">
     <div class="wrapper">
-      <h2 class="text-center">Les billets ne sont pas encore en vente !</h2>
+      <h2 class="text-center">Les billets de notre prochaine édition ne sont pas encore en vente !</h2>
       <p>
         Souhaitez-vous être informé dès la mise en vente des billets ? Abonnez-vous à notre newsletter :
       </p>
@@ -73,7 +74,7 @@ permalink: /billetterie/
       <p>Nous avons des solutions ! Suivez les conseils que nous vous avons préparé pour un voyage sans encombre.</p>
     </section>
     <p class="text-center">
-      <a class="button" data-text="venir à Bordeaux" href="{{ page.baseurl | default:site.baseurl }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">venir à Bordeaux</span></a>
+      <a class="button" data-text="venir à Bordeaux" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">venir à Bordeaux</span></a>
     </p>
   </div>
 </section>
