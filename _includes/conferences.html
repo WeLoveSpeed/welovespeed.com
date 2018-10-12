@@ -7,21 +7,33 @@
     <hr id="{{ conference.slug }}">
     {% if include.locale == "en_US" and conference.en_US %}
       {% assign verbatim = conference.en_US %}
+      {% assign other_verbatim = conference.fr_FR %}
     {% else %}
       {% assign verbatim = conference.fr_FR %}
+      {% assign other_verbatim = conference.en_US %}
     {% endif %}
     <article class="conference">
       <h3>
         {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
       </h3>
       {{ verbatim.description | markdownify }}
-      {% if verbatim.transcript or verbatim.slides %}
+      {% if verbatim.transcript or verbatim.slides or other_verbatim.transcript or other_verbatim.slides %}
         <p class="text-center">
         {% if verbatim.transcript %}
           <a class="button" data-text="{% t lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t lire la version textuelle %}"><span class="button-inner">{% t lire la version textuelle %}</span></a>
+        {% else %}
+          {% if other_verbatim.transcript %}
+            {% capture text_button %}{% t lire la version textuelle %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+            <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.transcript }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+          {% endif %}
         {% endif %}
         {% if verbatim.slides %}
           <a class="button" data-text="{% t consulter le support %}" href="{{ verbatim.slides }}" title="{% t consulter le support %}"><span class="button-inner">{% t consulter le support %}</span></a>
+        {% else %}
+          {% if other_verbatim.slides %}
+            {% capture text_button %}{% t consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+            <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.slides }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+          {% endif %}
         {% endif %}
         </p>
       {% endif %}
