@@ -20,5 +20,6 @@ en_US:
     
     
     It’s a kind of budget that isn’t expressed in dollars nor euros, but in seconds, megabytes or even in number of requests!
+  transcript: https://blog.dareboost.com/en/2018/10/performance-budgets-we-love-speed-2018/
   slides: https://fr.slideshare.net/DamienJubeau/budgets-de-performance
 ---
