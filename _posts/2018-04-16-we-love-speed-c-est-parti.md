@@ -9,7 +9,7 @@ category: '2018'
 
 Nous y sommes, les statuts de l'association sont déposés. J'ai donc le plaisir de vous annoncer la création de We ❤️ Speed, premier événement français dédié à la performance Web !
 
-À l'appel de Daniel Diard (Cdiscount), Stéphane (Fasterize), Jean-pierre (Braincracking) et moi-même (Dareboost) nous sommes réunis pour imaginer une nouvelle conférence entièrement tournée vers les enjeux de la performance Web : retours d'expérience, interventions pointues réalisées par des experts, discussions libre sur les grands sujets qui animent notre quotidien.
+À l'appel de Daniel Diard (Cdiscount), Stéphane (Fasterize), Jean-Pierre (Braincracking) et moi-même (Dareboost) nous sommes réunis pour imaginer une nouvelle conférence entièrement tournée vers les enjeux de la performance Web : retours d'expérience, interventions pointues réalisées par des experts, discussions libre sur les grands sujets qui animent notre quotidien.
 
 Pour cela, nous avons choisi la Place de la Bourse, un lieu emblématique de Bordeaux et particulièrement accessible par la LGV et le tram. L'occasion de faire découvrir cette superbe ville aux nombreux développeurs et décideurs se déplaçant pour écouter nos orateurs et oratrices.
 
