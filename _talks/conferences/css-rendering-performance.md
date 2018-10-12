@@ -12,4 +12,5 @@ en_US:
   title: "CSS rendering performance"
   description: >-
     Fluid animations is sometimes difficult to obtain. We will see together how a browser works and why we have to be careful with SVGs, some units, and most CSS properties. This does not mean that we are deprived of possibilities. We'll take this opportunity to take a look at what we have in our toolkit!
+  slides: https://tzi.fr/slides/speed2018/
 ---
