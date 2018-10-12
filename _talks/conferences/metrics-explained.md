@@ -11,4 +11,5 @@ en_US:
   title: "Eventually: how to measure web performance?"
   description: >-
     The page loading time is (very often) silly. Other generic and much better metrics exist but each have their weaknesses (speedIndex, first contentful paint, Time to Interactive …). So, I'm going to teach you how to measure what really counts for YOUR website: technical loading metrics, visual metrics, client CPU and custom metrics.
+  video: https://youtu.be/CFvPsBkrruE
 ---
