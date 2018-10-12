@@ -17,7 +17,7 @@
         {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
       </h3>
       {{ verbatim.description | markdownify }}
-      {% if verbatim.transcript or verbatim.slides or other_verbatim.transcript or other_verbatim.slides %}
+      {% if verbatim.transcript or verbatim.slides or verbatim.video or other_verbatim.transcript or other_verbatim.slides or other_verbatim.video %}
         <p class="text-center">
         {% if verbatim.transcript %}
           <a class="button" data-text="{% t lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t lire la version textuelle %}"><span class="button-inner">{% t lire la version textuelle %}</span></a>
@@ -33,6 +33,14 @@
           {% if other_verbatim.slides %}
             {% capture text_button %}{% t consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
             <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.slides }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+          {% endif %}
+        {% endif %}
+        {% if verbatim.video %}
+          <a class="button" data-text="{% t Voir en vidéo %}" href="{{ verbatim.video }}" title="{% t Voir en vidéo %}"><span class="button-inner">{% t Voir en vidéo %}</span></a>
+        {% else %}
+          {% if other_verbatim.video %}
+            {% capture text_button %}{% t Voir en vidéo %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+            <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.video }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
           {% endif %}
         {% endif %}
         </p>
