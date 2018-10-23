@@ -4,6 +4,9 @@
 - name: linkedin
   title: LinkedIn
   url: https://www.linkedin.com/company/welovespeed/
+- name: youtube
+  title: Youtube
+  url: https://www.youtube.com/channel/UCkGu-L_zodm1nm6_JfGxR2g
 - name: flickr
   title: Flicker
   url: https://www.flickr.com/groups/3951477@N20/pool/
