@@ -10,6 +10,7 @@ fr_FR:
     
     
     Je vous propose de dépasser cette notion de corrélation et de présenter des méthodes pour mesurer concrètement quel est l'impact de la webperf sur votre site Web : distributions, tests A/B, tests du Khi2, etc… mais aussi d'illustrer cela avec des cas réels rencontrés au cours de ma longue vie d'expert Webperf.
+    slides: https://www.slideshare.net/Fasterize/webperf-combien-rapporte-100-ms
 en_US:
   title: "How much is 100ms?"
   description: >-
