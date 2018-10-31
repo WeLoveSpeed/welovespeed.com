@@ -30,4 +30,5 @@ en_US:
 
     JavaScript provides us with many hooks into measuring performance and user experience. Let’s learn to collect them and understand what to expect when we optimize for them.
   slides: https://speakerdeck.com/bluesmoon/ux-and-performance-metrics-that-matter-a062d37f-e6c7-4b8a-8399-472ec76bb75e
+  video: https://youtu.be/nEHsHioWY1U
 ---
