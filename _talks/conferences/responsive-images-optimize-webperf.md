@@ -17,6 +17,7 @@ fr_FR:
 
     Il ne sera par contre pas question dans cette conférence de taux de compression optimal, de format d’encodage des images ou de solution automatisant la gestion de toutes ces optimisations.
   slides: https://talks.nicolas-hoizey.com/U7c3zE/optimiser-la-performance-par-un-choix-optimal-des-dimensions-des-images-responsives
+  video: https://youtu.be/JsahUtZwp94
 en_US:
   title: "Optimize performance by selecting optimal dimensions of responsive images"
   description: >-

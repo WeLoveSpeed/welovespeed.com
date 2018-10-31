@@ -12,4 +12,5 @@ en_US:
   description: >-
     Avoiding the common mistakes and hidden bottlenecks that hinder your site from going fast on all devices and different network conditions by considering multiple options and choosing the one that works best for you. Best practices and common tips do not always apply and you might actually find that they hurt your website’s performance.
   slides: https://blog.badalic.com/conference/welovespeed/welovespeed
+  video: https://youtu.be/sZKpkNCmYJk
 ---
