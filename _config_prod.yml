@@ -29,6 +29,7 @@ tickets:
   price_currency: "EUR"
 infos:
   display: false
+  video: true
 
 # Compression du code HTML en production
 compress_html:
