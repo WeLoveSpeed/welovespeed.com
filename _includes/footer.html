@@ -1,15 +1,24 @@
 <footer class="page-footer">
   <div class="wrapper">
-    {% if page.i18n-key == 'home' or page.i18n-key == 'contact' %}
-      {% include staff.html %}
+    {% if page.i18n-key == '2018-home' or page.i18n-key == '2019-home' or page.i18n-key == 'contact' %}
+      {% include staff.html year=year %}
       <hr>
     {% endif %}
-    <div class="grid-2">
+    <div class="grid-3">
       <section>
-        <h2 id="footerTitle2" class="text-lg">{% t Pour en savoir plus %}</h2>
+        <h2 id="footerTitle2" class="text-lg">{% t Éditions %}</h2>
         <nav aria-labelledby="footerTitle2">
           <ul>
-            {% assign footer_links = site.data.sitemap | where: 'in_footer', true %}
+              <li><a href="{{ page.baseurl | default:site.baseurl }}/2019">2019</a></li>
+            <li><a href="{{ page.baseurl | default:site.baseurl }}/2018">2018, Bordeaux</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <h2 id="footerTitle3" class="text-lg">{% t Pour en savoir plus %}</h2>
+        <nav aria-labelledby="footerTitle3">
+          <ul>
+            {% assign footer_links = site.data.sitemap[include.year] | where: 'in_footer', true %}
             {% for link in footer_links %}
               <li>{% include link.html link=link %}</li>
             {% endfor%}

@@ -1,17 +1,16 @@
 ---
 title: Infos pratiques
 description: "Toutes les infos à propos de l'événement"
-i18n-key: informations
+i18n-key: 2018-informations
 permalink: /2018/infos-pratiques/
 layout: page
-year: 2018
 ---
 
 # {{ page.title }}
 
 ## Où We Love Speed 2018 aura-t-il lieu ?
 
-**Au Palais de la Bourse de Bordeaux**  
+**Au Palais de la Bourse de Bordeaux**
 (L’entrée se fera au 17 place de la Bourse)
 
 <p>
@@ -24,14 +23,14 @@ Situé dans l’hypercentre de Bordeaux, en bordure des quais, le Palais de la B
 
 ### En TGV
 
-Vous avez le choix parmi 20 allers&#8239;/&#8239;retours quotidiens entre Paris-Montparnasse et Bordeaux (2 heures, avec du Wifi). Pour ne pas manquer le petit déjeuner et la première conférence, prenez celui de 6h48.  
-_Astuce prix : le train Bordeaux-Paris du mardi soir (18h52) ne coûte que 29€ en Ouigo !_  
+Vous avez le choix parmi 20 allers&#8239;/&#8239;retours quotidiens entre Paris-Montparnasse et Bordeaux (2 heures, avec du Wifi). Pour ne pas manquer le petit déjeuner et la première conférence, prenez celui de 6h48.
+_Astuce prix : le train Bordeaux-Paris du mardi soir (18h52) ne coûte que 29€ en Ouigo !_
 Le Palais de la Bourse est ensuite à 10 minutes [en tramway](#en-tramway).
 
 ### En avion
 
-Il existe des vols quotidiens vers toutes les grandes villes françaises.  
-Des navettes relient l’aéroport Bordeaux-Mérignac vers le centre-ville et la gare de Bordeaux (30 minutes).  
+Il existe des vols quotidiens vers toutes les grandes villes françaises.
+Des navettes relient l’aéroport Bordeaux-Mérignac vers le centre-ville et la gare de Bordeaux (30 minutes).
 Le Palais de la Bourse est ensuite à 10 minutes [en tramway](#en-tramway).
 
 ### En tramway
@@ -44,12 +43,12 @@ Des tickets sont en vente à la gare pour 1,60€ pièce.
 
 ### En voiture
 
-Ces autoroutes desservent Bordeaux : A10 (Bordeaux-Paris), A62 (Bordeaux-Toulouse), A63 (Bordeaux-Bayonne), A65 (Bordeaux-Pau) et A89 (Bordeaux-Clermont-Lyon).  
+Ces autoroutes desservent Bordeaux : A10 (Bordeaux-Paris), A62 (Bordeaux-Toulouse), A63 (Bordeaux-Bayonne), A65 (Bordeaux-Pau) et A89 (Bordeaux-Clermont-Lyon).
 3 parkings souterrains sont situés à proximité du Palais de la Bourse (capacité de 1620 places).
 
 ### En trottinette, en bicyclette
 
-Venez comme vous êtes ! Bordeaux propose des bornes de bicyclettes en libre service, les VCub. N'hésitez pas à flâner le long de la Garonne ! Depuis la gare, en comptant le retrait d'une bicyclette et sa fixation sur un terminal près du Palais de la Bourse, comptez 20 minutes.  
+Venez comme vous êtes ! Bordeaux propose des bornes de bicyclettes en libre service, les VCub. N'hésitez pas à flâner le long de la Garonne ! Depuis la gare, en comptant le retrait d'une bicyclette et sa fixation sur un terminal près du Palais de la Bourse, comptez 20 minutes.
 Attention : les stations VCub disposent d'un nombre de place très limités et sont espacées de 300 à 400m.
 
 ## À quelle heure commence la première conférence ? À quelle heure se termine la journée ?

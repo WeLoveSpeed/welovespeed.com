@@ -1,8 +1,8 @@
 ---
 title: Code of Conduct
 description: "Providing a harassment-free conference experience, for everyone"
-i18n-key: 2018-coc
-permalink: /en/2018/code-of-conduct/
+i18n-key: 2019-coc
+permalink: /en/2019/code-of-conduct/
 layout: page
 ---
 

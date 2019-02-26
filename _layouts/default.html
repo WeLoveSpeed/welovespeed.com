@@ -2,18 +2,19 @@
 layout: microtypo
 ---
 
-{% assign locale = page.locale | default: site.locale %}{% assign lang = locale | slice: 0,2 %}{% assign staff = site.data.staff | sort: "slug" %}{% include head.html %}
+{% assign locale = page.locale | default: site.locale %}
+{% assign lang = locale | slice: 0,2 %}
+{% assign year = page.year | default: site.current_edition %}
+{% include head.html %}
 <body>
-  {% include navigation.html %}
-  {% if page.i18n-key == 'home' %}
-    {% include header-home.html %}
-  {% else %}
+  {% include navigation.html year=year %}
+  {% unless page.i18n-key == '2018-home' or page.i18n-key == '2019-home' %}
     {% include header-page.html %}
-  {% endif %}
+  {% endunless %}
   {{ content }}
-  {% include footer.html %}
+  {% include footer.html year=year %}
   {% include scripts.html %}
-  {% include schema.html locale=page.locale %}
+  {% include schema.html locale=page.locale year=year staff=staff %}
   {% include serviceworkers.html %}
 </body>
 </html>

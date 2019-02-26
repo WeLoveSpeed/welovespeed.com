@@ -1,175 +1,225 @@
-gold:
-  - name: Fasterize
-    slug: fstrz
-    logo: /assets/images/thanks/fasterize.svg
-    fr_FR:
-      cta:
-        text: "Accélérez votre site web"
-        url: https://www.fasterize.com/
-      description: >-
-        Fasterize est une solution SaaS qui accélère automatiquement le chargement des sites web. Le moteur d’optimisation de Fasterize agit en temps réel (tel un proxy) sur les performances brutes des pages, mais aussi sur la perception de vitesse des utilisateurs. Rapide à mettre en place
-    en_US:
-      cta:
-        text: "Fasterize your website"
-        url: https://www.fasterize.com/en/
-      description: >-
-        Fasterize is a SaaS solution that automatically speeds up the loading of websites. Fasterize's optimization engine acts in real time (like a proxy) on the raw page performance, but also on the users' perception of speed. Quick to set up.
-  - name: Dareboost
-    slug: db
-    logo: /assets/images/thanks/dareboost.svg
-    fr_FR:
-      cta:
-        text: "Testez votre site"
-        url: https://www.dareboost.com/fr/home
-      description: >-
-        Du test de performance au monitoring synthétique de pages comme de parcours utilisateurs complets, Dareboost est un outil tout-en-un dédié à la performance web. Un outil conçu pour faire collaborer tous les métiers web, offrant les fonctionnalités de reporting nécessaires aux décideurs (tableaux de bord personnalisés, exports CSV ou API, etc.) aussi bien que l'outillage nécessaire aux experts du domaine (waterfalls, mapping DNS, blacklists, budgets de performance, etc.).
-    en_US:
-      cta:
-        text: "Test your site"
-        url: https://www.dareboost.com/en/home
-      description: >-
-        From performance testing to synthetic page monitoring and comprehensive user journeys, Dareboost is an all-in-one tool dedicated to web performance. A tool designed to help the web professionals collaborate, offering the reporting functionalities necessary to decision makers (customized dashboards, CSV or API exports, etc.) as well as the tools necessary to experts in the field (waterfalls, DNS mapping, blacklists, performance budgets, etc.).
-  - name: Cdiscount
-    slug: cds
-    logo: /assets/images/thanks/cdiscount.svg
-    fr_FR:
-      cta:
-        text: "Découvrez Cdiscount.com"
-        url: https://www.cdiscount.com/
-      description: >-
-        Bien plus qu’un leader de l’e-commerce, Cdiscount c’est surtout une réussite française symbolique du numérique. Depuis sa création, Cdiscount relève le défi de surprendre jour après jour ses clients avec une ambition simple : démocratiser l’accès à toutes les consommations.
-    en_US:
-      cta:
-        text: "Visit Cdiscount.com"
-        url: https://www.cdiscount.com/
-      description: >-
-        Launched in 1998 in Bordeaux, Cdiscount is today one of the leaders of eCommerce in France. Among the top French brands in terms of price image. Cdiscount directly sells a diverse array of products and supports a marketplace where thousands of sellers offer millions of their own products. Cdiscount has a clear ambition: to offer attractive pricing on all its products, and ensure a high quality of customer service, based on its fully integrated storage and logistics network. The site offers the possibility of fast and flexible home delivery or collection at one of our thousands pick-up points at brick and mortar locations throughout France.
-  - name: Quanta Computing
-    slug: quanta
-    logo: /assets/images/thanks/quanta.svg
-    fr_FR:
-      cta:
-        text: "Pilotez et optimisez vos performances Web"
-        url: https://www.quanta-computing.com/
-      description: >-
-        Quanta est la solution d'analyse qui vous aide à générer plus de revenus en améliorant le temps de chargement des pages à chaque étape de votre tunnel e-commerce.
-    en_US:
-      cta:
-        text: "Drive and optimize your Web Performance"
-        url: https://www.quanta-computing.com/
-      description: >-
-        Quanta is the Analytics solution that helps you drive more revenue by improving page load time at each step of your E-commerce funnel.
-  - name: Clever Age
-    slug: cleverage
-    logo: /assets/images/thanks/cleverage2.svg
-    fr_FR:
-      cta:
-        text: "Briefez-nous"
-        url: https://www.clever-age.com/fr/
-      description: >-
-        Clever Age est une agence full service couvrant l'ensemble de la chaîne digitale. 100&nbsp;% indépendant, Clever Age est le meilleur atout pour votre transformation numérique. Nous nous efforçons de créer du sens et de la valeur pour nos clients et leurs utilisateurs finaux, en concevant et construisant des services robustes et innovants.
+2018:
+  gold:
+    - name: Fasterize
+      slug: fstrz
+      logo: /assets/images/thanks/fasterize.svg
+      fr_FR:
+        cta:
+          text: "Accélérez votre site web"
+          url: https://www.fasterize.com/
+        description: >-
+          Fasterize est une solution SaaS qui accélère automatiquement le chargement des sites web. Le moteur d’optimisation de Fasterize agit en temps réel (tel un proxy) sur les performances brutes des pages, mais aussi sur la perception de vitesse des utilisateurs. Rapide à mettre en place
+      en_US:
+        cta:
+          text: "Fasterize your website"
+          url: https://www.fasterize.com/en/
+        description: >-
+          Fasterize is a SaaS solution that automatically speeds up the loading of websites. Fasterize's optimization engine acts in real time (like a proxy) on the raw page performance, but also on the users' perception of speed. Quick to set up.
+    - name: Dareboost
+      slug: db
+      logo: /assets/images/thanks/dareboost.svg
+      fr_FR:
+        cta:
+          text: "Testez votre site"
+          url: https://www.dareboost.com/fr/home
+        description: >-
+          Du test de performance au monitoring synthétique de pages comme de parcours utilisateurs complets, Dareboost est un outil tout-en-un dédié à la performance web. Un outil conçu pour faire collaborer tous les métiers web, offrant les fonctionnalités de reporting nécessaires aux décideurs (tableaux de bord personnalisés, exports CSV ou API, etc.) aussi bien que l'outillage nécessaire aux experts du domaine (waterfalls, mapping DNS, blacklists, budgets de performance, etc.).
+      en_US:
+        cta:
+          text: "Test your site"
+          url: https://www.dareboost.com/en/home
+        description: >-
+          From performance testing to synthetic page monitoring and comprehensive user journeys, Dareboost is an all-in-one tool dedicated to web performance. A tool designed to help the web professionals collaborate, offering the reporting functionalities necessary to decision makers (customized dashboards, CSV or API exports, etc.) as well as the tools necessary to experts in the field (waterfalls, DNS mapping, blacklists, performance budgets, etc.).
+    - name: Cdiscount
+      slug: cds
+      logo: /assets/images/thanks/cdiscount.svg
+      fr_FR:
+        cta:
+          text: "Découvrez Cdiscount.com"
+          url: https://www.cdiscount.com/
+        description: >-
+          Bien plus qu’un leader de l’e-commerce, Cdiscount c’est surtout une réussite française symbolique du numérique. Depuis sa création, Cdiscount relève le défi de surprendre jour après jour ses clients avec une ambition simple : démocratiser l’accès à toutes les consommations.
+      en_US:
+        cta:
+          text: "Visit Cdiscount.com"
+          url: https://www.cdiscount.com/
+        description: >-
+          Launched in 1998 in Bordeaux, Cdiscount is today one of the leaders of eCommerce in France. Among the top French brands in terms of price image. Cdiscount directly sells a diverse array of products and supports a marketplace where thousands of sellers offer millions of their own products. Cdiscount has a clear ambition: to offer attractive pricing on all its products, and ensure a high quality of customer service, based on its fully integrated storage and logistics network. The site offers the possibility of fast and flexible home delivery or collection at one of our thousands pick-up points at brick and mortar locations throughout France.
+    - name: Quanta Computing
+      slug: quanta
+      logo: /assets/images/thanks/quanta.svg
+      fr_FR:
+        cta:
+          text: "Pilotez et optimisez vos performances Web"
+          url: https://www.quanta-computing.com/
+        description: >-
+          Quanta est la solution d'analyse qui vous aide à générer plus de revenus en améliorant le temps de chargement des pages à chaque étape de votre tunnel e-commerce.
+      en_US:
+        cta:
+          text: "Drive and optimize your Web Performance"
+          url: https://www.quanta-computing.com/
+        description: >-
+          Quanta is the Analytics solution that helps you drive more revenue by improving page load time at each step of your E-commerce funnel.
+    - name: Clever Age
+      slug: cleverage
+      logo: /assets/images/thanks/cleverage2.svg
+      fr_FR:
+        cta:
+          text: "Briefez-nous"
+          url: https://www.clever-age.com/fr/
+        description: >-
+          Clever Age est une agence full service couvrant l'ensemble de la chaîne digitale. 100&nbsp;% indépendant, Clever Age est le meilleur atout pour votre transformation numérique. Nous nous efforçons de créer du sens et de la valeur pour nos clients et leurs utilisateurs finaux, en concevant et construisant des services robustes et innovants.
 
 
-        Présents au Canada, en France, à Hong Kong et à Singapour, Clever Age est le partenaire qu'il vous faut pour répondre aux exigences de vos écosystèmes locaux et mondiaux.
-    en_US:
-      cta:
-        text: "Brief us"
-        url: https://www.clever-age.com/en/
-      description: >-
-        Clever Age is a full-service agency covering the entire digital production chain. 100% independant, Clever Age is the best asset for your digital transformation. We strive to create meaning and value for our clients and their end users, designing and building robust and innovative services.
+          Présents au Canada, en France, à Hong Kong et à Singapour, Clever Age est le partenaire qu'il vous faut pour répondre aux exigences de vos écosystèmes locaux et mondiaux.
+      en_US:
+        cta:
+          text: "Brief us"
+          url: https://www.clever-age.com/en/
+        description: >-
+          Clever Age is a full-service agency covering the entire digital production chain. 100% independant, Clever Age is the best asset for your digital transformation. We strive to create meaning and value for our clients and their end users, designing and building robust and innovative services.
 
 
-        Present in Canada, France, Hong Kong, and Singapore, Clever Age is the partner you need to readily address the requirements of your local and global ecosystems.
-  - name: Akamai
-    slug: akamai
-    logo: /assets/images/thanks/akamai.svg
-    fr_FR:
-      cta:
-        text: "Bénéficier d'un essai gratuit"
-        url: https://www.akamai.com/fr/fr/
-      description: >-
-        Le public connecté exige un accès instantané, fiable et sécurisé aux sites Web et aux applications, peu importe l'appareil, peu importe où.
+          Present in Canada, France, Hong Kong, and Singapore, Clever Age is the partner you need to readily address the requirements of your local and global ecosystems.
+    - name: Akamai
+      slug: akamai
+      logo: /assets/images/thanks/akamai.svg
+      fr_FR:
+        cta:
+          text: "Bénéficier d'un essai gratuit"
+          url: https://www.akamai.com/fr/fr/
+        description: >-
+          Le public connecté exige un accès instantané, fiable et sécurisé aux sites Web et aux applications, peu importe l'appareil, peu importe où.
 
 
-        Les solutions de performances Web d'Akamai vous aident à capter les internautes avec une expérience Internet rapide et personnalisée, augmentant ainsi vos possibilités de chiffre d'affaires, tout en gagnant en agilité et en présence mondiale.
-    en_US:
-      cta:
-        text: "Start a free trial"
-        url: https://www.akamai.com/
-      description: >-
-        Connected audiences expect instant, reliable, secure access to websites and applications – from any device, anywhere.
+          Les solutions de performances Web d'Akamai vous aident à capter les internautes avec une expérience Internet rapide et personnalisée, augmentant ainsi vos possibilités de chiffre d'affaires, tout en gagnant en agilité et en présence mondiale.
+      en_US:
+        cta:
+          text: "Start a free trial"
+          url: https://www.akamai.com/
+        description: >-
+          Connected audiences expect instant, reliable, secure access to websites and applications – from any device, anywhere.
 
 
-        Akamai Web Performance Solutions help you engage consumers with fast, personalized online experiences, enabling you to increase revenue opportunities, gain IT agility and scale globally.
-  - name: Google
-    slug: google
-    logo: /assets/images/thanks/google.svg
-    fr_FR:
-      cta:
-        text: "Découvrez les dernières initiatives de Google en matière de vitesse [EN]"
-        url: https://developers.google.com/web/updates/2018/07/search-ads-speed
-      description: >-
-        Lorsque de vrais utilisateurs ont une expérience lente sur mobile, ils sont beaucoup moins susceptibles de trouver ce qu'ils cherchent ou d'acheter chez vous à l'avenir. Pour de nombreux sites, cela équivaut à une énorme opportunité manquée, surtout lorsque plus de la moitié des visites sont abandonnées si une page mobile prend plus de 3 secondes à charger.
+          Akamai Web Performance Solutions help you engage consumers with fast, personalized online experiences, enabling you to increase revenue opportunities, gain IT agility and scale globally.
+    - name: Google
+      slug: google
+      logo: /assets/images/thanks/google.svg
+      fr_FR:
+        cta:
+          text: "Découvrez les dernières initiatives de Google en matière de vitesse [EN]"
+          url: https://developers.google.com/web/updates/2018/07/search-ads-speed
+        description: >-
+          Lorsque de vrais utilisateurs ont une expérience lente sur mobile, ils sont beaucoup moins susceptibles de trouver ce qu'ils cherchent ou d'acheter chez vous à l'avenir. Pour de nombreux sites, cela équivaut à une énorme opportunité manquée, surtout lorsque plus de la moitié des visites sont abandonnées si une page mobile prend plus de 3 secondes à charger.
 
 
-        En juillet, Google a annoncé deux nouvelles initiatives concernant la vitesse, pour aider à améliorer l'expérience des utilisateurs sur le Web. Ces deux efforts s'appuient sur des données d'expérience utilisateur réelles (Chrome User Experience Report) pour prioriser et mettre en évidence les pages qui offrent une expérience utilisateur optimisée et rapide.
+          En juillet, Google a annoncé deux nouvelles initiatives concernant la vitesse, pour aider à améliorer l'expérience des utilisateurs sur le Web. Ces deux efforts s'appuient sur des données d'expérience utilisateur réelles (Chrome User Experience Report) pour prioriser et mettre en évidence les pages qui offrent une expérience utilisateur optimisée et rapide.
 
 
-        1. La vitesse est maintenant utilisée comme facteur de classement pour les recherches mobiles.
+          1. La vitesse est maintenant utilisée comme facteur de classement pour les recherches mobiles.
 
-        1. Un nouveau Mobile Speed Score pour les Landing Pages des publicités.
+          1. Un nouveau Mobile Speed Score pour les Landing Pages des publicités.
 
-    en_US:
-      cta:
-        text: "Learn more about Google latest speed initiatives"
-        url: https://developers.google.com/web/updates/2018/07/search-ads-speed
-      description: >-
-        When real users have a slow experience on mobile, they're much less likely to find what they are looking for or purchase from you in the future. For many sites this equates to a huge missed opportunity, especially when more than half of visits are abandoned if a mobile page takes over 3 seconds to load.
-
-
-        In July, Google announced two new speed initiatives to help improve user-experience on the web. Both efforts are leveraging real-world user experience data (Chrome User Experience Report) to prioritize and highlight pages that deliver optimized and fast user experiences.
+      en_US:
+        cta:
+          text: "Learn more about Google latest speed initiatives"
+          url: https://developers.google.com/web/updates/2018/07/search-ads-speed
+        description: >-
+          When real users have a slow experience on mobile, they're much less likely to find what they are looking for or purchase from you in the future. For many sites this equates to a huge missed opportunity, especially when more than half of visits are abandoned if a mobile page takes over 3 seconds to load.
 
 
-        1. Speed is now used as a ranking factor for mobile searches
-
-        1. A new Mobile Speed Score for ads landing pages
-  - name: Ekino
-    slug: ekino
-    logo: /assets/images/thanks/ekino.svg
-    fr_FR:
-      cta:
-        text: "Pour en savoir plus, sur ekino, c’est par ici !"
-        url: https://www.ekino.com/
-      description: >-
-        Aujourd’hui, les internautes n’attendent plus. Les habitudes de consommation, soutenues par l’émergence de nouvelles technologies de plus en plus performantes n’ont fait qu’accroître leur impatience et leurs exigences. La vitesse de chargement d’une page web n’est pourtant pas le seul critère à prendre en compte pour répondre à ces exigences. Il est nécessaire d’avoir une vision globale ; à la fois sur les technologies, mais également sur l’expérience utilisateurs, mais aussi sur la data.
+          In July, Google announced two new speed initiatives to help improve user-experience on the web. Both efforts are leveraging real-world user experience data (Chrome User Experience Report) to prioritize and highlight pages that deliver optimized and fast user experiences.
 
 
-        Chez ekino, nous avons pris le parti de faire collaborer ensemble ces métiers au sein d’une même structure. Depuis près de 10 ans, notre agence digitale intégrée accompagne ses clients dans la digitalisation et la création de services et outils digitaux avec cette vision globale. Nous pensons que c’est cette synergie qui fait notre force et qui permet à tous nos projets d’être pérennes, évolutifs et performants.
-    en_US:
-      cta:
-        text: "Find out more about ekino!"
-        url: https://www.ekino.com/en/
-      description: >-
-        Internet users no longer wait. Consumption habits, supported by the emergence of new and increasingly efficient technologies, have only increased their impatience and expectations. However, the loading speed of a web page is not the only factor to be considered in meeting these requirements. A global vision is essential; both on technologies, but also on the user experience, and also on data.
+          1. Speed is now used as a ranking factor for mobile searches
+
+          1. A new Mobile Speed Score for ads landing pages
+    - name: Ekino
+      slug: ekino
+      logo: /assets/images/thanks/ekino.svg
+      fr_FR:
+        cta:
+          text: "Pour en savoir plus, sur ekino, c’est par ici !"
+          url: https://www.ekino.com/
+        description: >-
+          Aujourd’hui, les internautes n’attendent plus. Les habitudes de consommation, soutenues par l’émergence de nouvelles technologies de plus en plus performantes n’ont fait qu’accroître leur impatience et leurs exigences. La vitesse de chargement d’une page web n’est pourtant pas le seul critère à prendre en compte pour répondre à ces exigences. Il est nécessaire d’avoir une vision globale ; à la fois sur les technologies, mais également sur l’expérience utilisateurs, mais aussi sur la data.
 
 
-        At ekino, we have decided to bring these businesses together within the same structure. For nearly 10 years, our integrated digital agency has been supporting its clients in their digital transformation and the creation of digital services and tools with this global vision. We believe that this synergy is our strength and ensures that all our projects are sustainable, scalable and efficient.
-  - name: Dynatrace
-    slug: dynatrace
-    logo: /assets/images/thanks/dynatrace.svg
-    fr_FR:
-      cta:
-        text: "Découvrir Dynatrace"
-        url: https://www.dynatrace.fr/
-      description: >-
-        Dynatrace, spécialement conçue pour les organisations d’aujourd’hui, simplifie le monitoring et l’exploitation des écosystèmes multi-cloud complexes. À la fois pilotée par l’intelligence artificielle (AI), "full stack" et entièrement automatisée, Dynatrace est la seule solution à fournir non pas de simples données, mais de véritables réponses, basées sur une connaissance approfondie de la performance délivrée à chaque utilisateur, pour chaque transaction, au sein de chaque application. Les plus grandes sociétés au monde –&nbsp;dont 79 du Fortune 100&nbsp;– optimisent l’expérience client, accélèrent leur innovation et modernisent l’exploitation de leur système d’information en toute confiance avec Dynatrace.
-    en_US:
-      cta:
-        text: "Discover Dynatrace"
-        url: https://www.dynatrace.com/
-      description: >-
-        Dynatrace makes it easy and simple to monitor and run the most complex, hyper-scale multi-cloud ecosystems. Purpose built for today’s enterprises, Dynatrace is an AI-powered, full stack and completely automated monitoring solution that provides deep insight (answers, not data) into every user, every transaction, across every application. That’s why many of the world’s leading brands, including 72 of the Fortune 100, trust Dynatrace to optimize customer experiences, innovate faster and modernize IT operations with absolute confidence.
-others:
-  - name: Davidson Consulting
-    logo: /assets/images/thanks/davidson.svg
-    url: https://www.davidson.fr/
+          Chez ekino, nous avons pris le parti de faire collaborer ensemble ces métiers au sein d’une même structure. Depuis près de 10 ans, notre agence digitale intégrée accompagne ses clients dans la digitalisation et la création de services et outils digitaux avec cette vision globale. Nous pensons que c’est cette synergie qui fait notre force et qui permet à tous nos projets d’être pérennes, évolutifs et performants.
+      en_US:
+        cta:
+          text: "Find out more about ekino!"
+          url: https://www.ekino.com/en/
+        description: >-
+          Internet users no longer wait. Consumption habits, supported by the emergence of new and increasingly efficient technologies, have only increased their impatience and expectations. However, the loading speed of a web page is not the only factor to be considered in meeting these requirements. A global vision is essential; both on technologies, but also on the user experience, and also on data.
+
+
+          At ekino, we have decided to bring these businesses together within the same structure. For nearly 10 years, our integrated digital agency has been supporting its clients in their digital transformation and the creation of digital services and tools with this global vision. We believe that this synergy is our strength and ensures that all our projects are sustainable, scalable and efficient.
+    - name: Dynatrace
+      slug: dynatrace
+      logo: /assets/images/thanks/dynatrace.svg
+      fr_FR:
+        cta:
+          text: "Découvrir Dynatrace"
+          url: https://www.dynatrace.fr/
+        description: >-
+          Dynatrace, spécialement conçue pour les organisations d’aujourd’hui, simplifie le monitoring et l’exploitation des écosystèmes multi-cloud complexes. À la fois pilotée par l’intelligence artificielle (AI), "full stack" et entièrement automatisée, Dynatrace est la seule solution à fournir non pas de simples données, mais de véritables réponses, basées sur une connaissance approfondie de la performance délivrée à chaque utilisateur, pour chaque transaction, au sein de chaque application. Les plus grandes sociétés au monde –&nbsp;dont 79 du Fortune 100&nbsp;– optimisent l’expérience client, accélèrent leur innovation et modernisent l’exploitation de leur système d’information en toute confiance avec Dynatrace.
+      en_US:
+        cta:
+          text: "Discover Dynatrace"
+          url: https://www.dynatrace.com/
+        description: >-
+          Dynatrace makes it easy and simple to monitor and run the most complex, hyper-scale multi-cloud ecosystems. Purpose built for today’s enterprises, Dynatrace is an AI-powered, full stack and completely automated monitoring solution that provides deep insight (answers, not data) into every user, every transaction, across every application. That’s why many of the world’s leading brands, including 72 of the Fortune 100, trust Dynatrace to optimize customer experiences, innovate faster and modernize IT operations with absolute confidence.
+  others:
+    - name: Davidson Consulting
+      logo: /assets/images/thanks/davidson.svg
+      url: https://www.davidson.fr/
+2019:
+  gold:
+    - name: Fasterize
+      slug: fstrz
+      logo: /assets/images/thanks/fasterize.svg
+      fr_FR:
+        cta:
+          text: "Accélérez votre site web"
+          url: https://www.fasterize.com/
+        description: >-
+          Fasterize est une solution SaaS qui accélère automatiquement le chargement des sites web. Le moteur d’optimisation de Fasterize agit en temps réel (tel un proxy) sur les performances brutes des pages, mais aussi sur la perception de vitesse des utilisateurs. Rapide à mettre en place
+      en_US:
+        cta:
+          text: "Fasterize your website"
+          url: https://www.fasterize.com/en/
+        description: >-
+          Fasterize is a SaaS solution that automatically speeds up the loading of websites. Fasterize's optimization engine acts in real time (like a proxy) on the raw page performance, but also on the users' perception of speed. Quick to set up.
+    - name: Dareboost
+      slug: db
+      logo: /assets/images/thanks/dareboost.svg
+      fr_FR:
+        cta:
+          text: "Testez votre site"
+          url: https://www.dareboost.com/fr/home
+        description: >-
+          Du test de performance au monitoring synthétique de pages comme de parcours utilisateurs complets, Dareboost est un outil tout-en-un dédié à la performance web. Un outil conçu pour faire collaborer tous les métiers web, offrant les fonctionnalités de reporting nécessaires aux décideurs (tableaux de bord personnalisés, exports CSV ou API, etc.) aussi bien que l'outillage nécessaire aux experts du domaine (waterfalls, mapping DNS, blacklists, budgets de performance, etc.).
+      en_US:
+        cta:
+          text: "Test your site"
+          url: https://www.dareboost.com/en/home
+        description: >-
+          From performance testing to synthetic page monitoring and comprehensive user journeys, Dareboost is an all-in-one tool dedicated to web performance. A tool designed to help the web professionals collaborate, offering the reporting functionalities necessary to decision makers (customized dashboards, CSV or API exports, etc.) as well as the tools necessary to experts in the field (waterfalls, DNS mapping, blacklists, performance budgets, etc.).
+    - name: Cdiscount
+      slug: cds
+      logo: /assets/images/thanks/cdiscount.svg
+      fr_FR:
+        cta:
+          text: "Découvrez Cdiscount.com"
+          url: https://www.cdiscount.com/
+        description: >-
+          Bien plus qu’un leader de l’e-commerce, Cdiscount c’est surtout une réussite française symbolique du numérique. Depuis sa création, Cdiscount relève le défi de surprendre jour après jour ses clients avec une ambition simple : démocratiser l’accès à toutes les consommations.
+      en_US:
+        cta:
+          text: "Visit Cdiscount.com"
+          url: https://www.cdiscount.com/
+        description: >-
+          Launched in 1998 in Bordeaux, Cdiscount is today one of the leaders of eCommerce in France. Among the top French brands in terms of price image. Cdiscount directly sells a diverse array of products and supports a marketplace where thousands of sellers offer millions of their own products. Cdiscount has a clear ambition: to offer attractive pricing on all its products, and ensure a high quality of customer service, based on its fully integrated storage and logistics network. The site offers the possibility of fast and flexible home delivery or collection at one of our thousands pick-up points at brick and mortar locations throughout France.
+  others: ~
+

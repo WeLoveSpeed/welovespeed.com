@@ -1,9 +1,8 @@
 ---
-title: Home
-description: >-
-  On October 9, 2018, in Bordeaux, a day of conferences dedicated to web performance. Metric, UX, code and image optimizations. Join the experts!
-i18n-key: 2018-home
-permalink: /en/2018/
+title: Accueil
+description: Une journée de conférences dédiées à la performance web. Métriques, UX, optimisations du code et des images. Venez rencontrer les experts !
+i18n-key: 2019-home
+permalink: /2019/
 ---
 {% assign year = page.year | default: site.current_edition %}
 <header class="home-header">
@@ -11,7 +10,8 @@ permalink: /en/2018/
     <h1 class="home-main-title">
       <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" />
       <div class="home-main-title-baseline">
-        The 2018 Edition is over.
+        Quelque part, durant le dernier trimestre 2019<br>
+        <small>{% t L’événement français des mordus de web performance ! %}</small>
       </div>
     </h1>
   </div>
@@ -20,15 +20,12 @@ permalink: /en/2018/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
-        <span class="button-inner">{% t voir le programme %}</span>
-      </a>
       {% if site.current_edition == page.year and site.tickets.selling %}
       <a class="button" data-text="{% t Infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
         <span class="button-inner">{% t Infos pratiques %}</span>
       </a>
       <br/>
-      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+      <a class="button" data-text="{% t Derniers jours ! %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
         <span class="button-inner">{% t réserver votre place %}</span>
       </a>
       {% endif %}
@@ -58,9 +55,9 @@ permalink: /en/2018/
 
   <section class="section">
     <div class="wrapper">
-      <h2 class="text-center">Stay in the loop!</h2>
+      <h2 class="text-center">Ne ratez rien !</h2>
       <p>
-        Subscribe our newsletter to receive information about the event.
+        Abonnez-vous à notre liste d'envoi pour recevoir des informations sur l'événement par courriel.
       </p>
       {% include newsletter-form.html context="main" %}
     </div>
@@ -71,12 +68,9 @@ permalink: /en/2018/
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="text-center">At last, a French event dedicated to web performance!</h2>
-    <p>Created by and for the webperf community, {{ site.title }} was born from the desire to share as widely as possible knowledge and experience about webperf. Web professionals, e-commerce and webperf experts, this event is for you!</p>
-    <p>Decision makers, developers... let's meet for a day, and maybe a few evenings, in one of the most beautiful cities in France, to discuss web performance: its challenges, its implementation, its stakeholders but also the organization of the companies that implement it.</p>
-    <p class="text-center">
-        <a class="button" data-text="come to Bordeaux" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">come to Bordeaux</span></a>
-      </p>
+    <h2 class="text-center">Enfin un événement français dédié à la performance web&nbsp;!</h2>
+    <p>Créé par et pour la communauté, {{ site.title }} est né de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnels du web, de l’e-commerce et experts de la webperf, cet événement est fait pour vous&nbsp;!</p>
+    <p>Décideurs, développeurs… retrouvons-nous pour une journée, et peut-être quelques soirées, dans une des plus belles villes de France, afin d'échanger sur la WebPerf : ses enjeux, son implémentation, ses acteurs mais aussi l'organisation des entreprises qui l'implémentent.</p>
   </div>
 </section>
 
@@ -84,8 +78,8 @@ permalink: /en/2018/
 
 <section class="section" id="conferences">
   <div class="wrapper">
-    <h2 class="text-center">Our sponsors</h2>
-    <p>They chose to support us out of love for UX and Web performance.</p>
+    <h2 class="text-center">Nos sponsors</h2>
+    <p>E-commerçants, éditeurs de solutions, prestataires de services, ils ont choisi de nous soutenir par amour de l'UX et de la performance Web.</p>
   </div>
 </section>
 
@@ -94,7 +88,7 @@ permalink: /en/2018/
 <section id="sponsors" class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="contact us" href="{{ "/contact" | relative_url }}"><span class="button-inner">contact us</span></a>
+      <a class="button" data-text="contactez-nous" href="{{ "/contact" | relative_url }}"><span class="button-inner">contactez-nous</span></a>
     </p>
   </div>
 </section>

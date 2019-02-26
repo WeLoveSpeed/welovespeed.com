@@ -1,5 +1,5 @@
 ---
-title: "We ❤️ Speed, c'est parti !"
+title: "We Love Speed, c'est parti !"
 seo_title: "We Love Speed, c'est parti !"
 locale: fr_FR
 description: "Un nouvel événement, entièrement dédié à la performance Web !"

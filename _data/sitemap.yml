@@ -1,48 +1,98 @@
-- name: Accueil
-  type: root_anchor
-  value: ""
-  edition_relative: true
-  in_nav: true
-  in_footer: false
-- name: Programme
-  type: page
-  value: programme
-  edition_relative: true
-  in_nav: true
-  in_footer: false
-- name: Infos pratiques
-  type: page
-  value: infos-pratiques
-  edition_relative: true
-  in_nav: true
-  in_footer: true
-- name: Code de Conduite
-  type: page
-  value: code-de-conduite
-  edition_relative: true
-  in_nav: false
-  in_footer: true
-- name: Nos sponsors
-  type: page
-  value: merci
-  edition_relative: true
-  in_nav: true
-  in_footer: true
-- name: Blog
-  type: page
-  value: blog
-  edition_relative: false
-  in_nav: false
-  in_footer: false
-- name: Contact
-  type: page
-  value: contact
-  edition_relative: false
-  in_nav: true
-  in_footer: true
-- name: Mentions légales
-  type: page
-  value: mentions-legales
-  edition_relative: false
-  in_nav: false
-  in_footer: true
+2019:
+  - name: Accueil
+    type: root_anchor
+    value: ""
+    edition_relative: true
+    in_nav: true
+    in_footer: false
+  - name: Programme
+    type: page
+    value: programme
+    edition_relative: true
+    in_nav: false
+    in_footer: false
+  - name: Infos pratiques
+    type: page
+    value: infos-pratiques
+    edition_relative: true
+    in_nav: false
+    in_footer: false
+  - name: Code de Conduite
+    type: page
+    value: code-de-conduite
+    edition_relative: true
+    in_nav: false
+    in_footer: false
+  - name: Nos sponsors
+    type: page
+    value: merci
+    edition_relative: true
+    in_nav: true
+    in_footer: true
+  - name: Blog
+    type: page
+    value: blog
+    edition_relative: false
+    in_nav: false
+    in_footer: false
+  - name: Contact
+    type: page
+    value: contact
+    edition_relative: false
+    in_nav: true
+    in_footer: true
+  - name: Mentions légales
+    type: page
+    value: mentions-legales
+    edition_relative: false
+    in_nav: false
+    in_footer: true
+2018:
+  - name: Accueil
+    type: root_anchor
+    value: ""
+    edition_relative: true
+    in_nav: true
+    in_footer: false
+  - name: Programme
+    type: page
+    value: programme
+    edition_relative: true
+    in_nav: true
+    in_footer: false
+  - name: Infos pratiques
+    type: page
+    value: infos-pratiques
+    edition_relative: true
+    in_nav: true
+    in_footer: true
+  - name: Code de Conduite
+    type: page
+    value: code-de-conduite
+    edition_relative: true
+    in_nav: false
+    in_footer: true
+  - name: Nos sponsors
+    type: page
+    value: merci
+    edition_relative: true
+    in_nav: true
+    in_footer: true
+  - name: Blog
+    type: page
+    value: blog
+    edition_relative: false
+    in_nav: false
+    in_footer: false
+  - name: Contact
+    type: page
+    value: contact
+    edition_relative: false
+    in_nav: true
+    in_footer: true
+  - name: Mentions légales
+    type: page
+    value: mentions-legales
+    edition_relative: false
+    in_nav: false
+    in_footer: true

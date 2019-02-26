@@ -1,3 +1,5 @@
+{% assign talks = site.talks | where:'year', include.year %}
+{% assign staff = site.data.staff[include.year] %}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -58,7 +60,7 @@
     "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t billetterie %}/"
   },
   "performer": [
-  {% for conference in site.talks %}
+  {% for conference in talks %}
     {% unless forloop.first %},{% endunless %}
     {% for names in conference.speakers %}
       {% assign speaker = site.data.speakers[names] %}
