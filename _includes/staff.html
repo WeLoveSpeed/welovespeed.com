@@ -1,3 +1,4 @@
+{% assign staff = site.data.staff[include.year] %}
 {% capture nbitems %}{{staff | size}}i{% endcapture %}
 <section id="staff">
     <h2 class="text-center">{% t L'Équipe %}</h2>

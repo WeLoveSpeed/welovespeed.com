@@ -1,6 +1,6 @@
 # Site configuration
 
-title: We ❤️ Speed
+title: We Love Speed
 seo_title: We Love Speed
 tagline: le 9 octobre 2018 à Bordeaux
 description: "L’événement français des mordus de web performance !"
@@ -21,7 +21,8 @@ lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
 # Est-ce qu'on vend des places à tarif plein, est-ce qu'on propose une liste d'attente ou les deux ?
-current_edition: 2018
+current_edition: 2019
+# sponsoring_doc: '/assets/docs/2018/sponsoring_en.pdf'
 tickets:
   selling: false
   waiting-list: false
@@ -119,6 +120,36 @@ defaults:
       type: "posts"
     values:
       layout: post
+  -
+    scope:
+      path: "pages/fr/2018"
+    values:
+      year: 2018
+  -
+    scope:
+      path: "pages/en/2018"
+    values:
+      year: 2018
+  -
+    scope:
+      path: "pages/fr/2019"
+    values:
+      year: 2019
+  -
+    scope:
+      path: "pages/en/2019"
+    values:
+      year: 2019
+  -
+    scope:
+      path: "_talks/2018"
+    values:
+      year: 2018
+  -
+    scope:
+      path: "_talks/2019"
+    values:
+      year: 2019
 
 microtypo:
   median: true

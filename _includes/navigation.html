@@ -13,7 +13,7 @@
 
 <nav class="page-nav" id="navigation" aria-labelledby="navTrigger">
   <ul class="page-nav-inner">
-    {% assign nav_links = site.data.sitemap | where: 'in_nav', true %}
+    {% assign nav_links = site.data.sitemap[include.year] | where: 'in_nav', true %}
     {% for link in nav_links %}
       <li>{% include link.html link=link %}</li>
     {% endfor%}

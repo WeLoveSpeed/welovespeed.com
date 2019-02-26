@@ -2,8 +2,8 @@
 title: Home
 description: >-
   On October 9, 2018, in Bordeaux, a day of conferences dedicated to web performance. Metric, UX, code and image optimizations. Join the experts!
-i18n-key: 2018-home
-permalink: /en/2018/
+i18n-key: 2019-home
+permalink: /en/2019/
 ---
 {% assign year = page.year | default: site.current_edition %}
 <header class="home-header">
@@ -11,7 +11,8 @@ permalink: /en/2018/
     <h1 class="home-main-title">
       <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" />
       <div class="home-main-title-baseline">
-        The 2018 Edition is over.
+        Someday in the last trimester of 2019<br/>
+        <small>{% t L’événement français des mordus de web performance ! %}</small>
       </div>
     </h1>
   </div>
@@ -20,9 +21,6 @@ permalink: /en/2018/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
-        <span class="button-inner">{% t voir le programme %}</span>
-      </a>
       {% if site.current_edition == page.year and site.tickets.selling %}
       <a class="button" data-text="{% t Infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
         <span class="button-inner">{% t Infos pratiques %}</span>
@@ -74,9 +72,6 @@ permalink: /en/2018/
     <h2 class="text-center">At last, a French event dedicated to web performance!</h2>
     <p>Created by and for the webperf community, {{ site.title }} was born from the desire to share as widely as possible knowledge and experience about webperf. Web professionals, e-commerce and webperf experts, this event is for you!</p>
     <p>Decision makers, developers... let's meet for a day, and maybe a few evenings, in one of the most beautiful cities in France, to discuss web performance: its challenges, its implementation, its stakeholders but also the organization of the companies that implement it.</p>
-    <p class="text-center">
-        <a class="button" data-text="come to Bordeaux" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">come to Bordeaux</span></a>
-      </p>
   </div>
 </section>
 

@@ -1,17 +1,16 @@
 ---
 title: Informations
 description: "The information you need about the event"
-i18n-key: informations
+i18n-key: 2018-informations
 permalink: /en/2018/informations/
 layout: page
-year: 2018
 ---
 
 # {{ page.title }}
 
 ## Where will the We Love Speed 2018 take place?
 
-**At the Palais de la Bourse in Bordeaux**  
+**At the Palais de la Bourse in Bordeaux**
 (Entrance will be at 17 place de la Bourse)
 
 <p>
@@ -24,14 +23,14 @@ Located in the heart of Bordeaux, on the edge of the quays, the Palais de la Bou
 
 ### By TGV
 
-You can choose from 20 daily return trips between Paris-Montparnasse and Bordeaux (2 hours, with Wifi). To make sure you don't miss breakfast and the first conference, take the 6:48 am train.  
-_Price tip: the Bordeaux-Paris train on Tuesday evening (18h52) costs only 29€ with Ouigo !_  
+You can choose from 20 daily return trips between Paris-Montparnasse and Bordeaux (2 hours, with Wifi). To make sure you don't miss breakfast and the first conference, take the 6:48 am train.
+_Price tip: the Bordeaux-Paris train on Tuesday evening (18h52) costs only 29€ with Ouigo !_
 The Palais de la Bourse is, then, 10 minutes away [by tramway](#by-tramway).
 
 ### By plane
 
-There are daily flights to all major French cities.  
-Shuttles connect Bordeaux-Mérignac airport to the city centre and Bordeaux train station (30 minutes).  
+There are daily flights to all major French cities.
+Shuttles connect Bordeaux-Mérignac airport to the city centre and Bordeaux train station (30 minutes).
 The Palais de la Bourse is then 10 minutes away [by tramway](#by-tramway).
 
 ### By tramway
@@ -44,12 +43,12 @@ Tickets are on sale at the station for 1.60€.
 
 ### By car
 
-These highways serve Bordeaux: A10 (Bordeaux-Paris), A62 (Bordeaux-Toulouse), A63 (Bordeaux-Bayonne), A65 (Bordeaux-Pau), A89 (Bordeaux-Clermont-Lyon) and A8 (Bordeaux-Nice).  
+These highways serve Bordeaux: A10 (Bordeaux-Paris), A62 (Bordeaux-Toulouse), A63 (Bordeaux-Bayonne), A65 (Bordeaux-Pau), A89 (Bordeaux-Clermont-Lyon) and A8 (Bordeaux-Nice).
 3 underground car parks are located near the Palais de la Bourse (capacity 1620 places).
 
 ### By scooter or bycicle
 
-Come as you are! Bordeaux offers self-service bicycle terminals, the VCub. Don't hesitate to stroll along the Garonne! From the station, counting the withdrawal of a bicycle and its fixation on a terminal near the Palais de la Bourse, count 20 minutes.  
+Come as you are! Bordeaux offers self-service bicycle terminals, the VCub. Don't hesitate to stroll along the Garonne! From the station, counting the withdrawal of a bicycle and its fixation on a terminal near the Palais de la Bourse, count 20 minutes.
 Warning: VCub stations have very limited space and are spaced 300 to 400m apart.
 
 ## When does the first conference start? When does the day end?

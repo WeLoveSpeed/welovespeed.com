@@ -1,48 +1,98 @@
-- firstname: Stéphane
-  lastname: Rios
-  slug: stephane
-  twitter: stefounet
-  links:
-    - label: Fasterize
-      url : https://www.fasterize.com/
-- firstname: Jean-Pierre
-  lastname: Vincent
-  slug: jp
-  twitter: theystolemynick
-  links:
-    - label: BrainCracking
-      url : http://braincracking.org/
-- firstname: Daniel
-  lastname: Diard
-  slug: ddi
-  links:
-    - label: Cdiscount
-      url : https://www.cdiscount.com/
-- firstname: Laurine
-  lastname: Jacquet
-  slug: lja
-  links:
-    - label: Cdiscount
-      url : https://www.cdiscount.com/
-- firstname: Sébastien
-  lastname: Bonnet
-  slug: sbo
-  links:
-    - label: Cdiscount
-      url : https://www.cdiscount.com/
-- firstname: Boris
-  lastname: Schapira
-  slug: bsc
-  twitter: borisschapira
-  links:
-    - label: Dareboost
-      url : https://www.dareboost.com/
-- firstname: Émilie
-  lastname: Wilhelm
-  slug: emilie
-  twitter: EmilieWilhelm
-  links:
-    - label: Fasterize
-      url : https://www.fasterize.com/
-    - label: Girlz in Web
-      url : http://girlzinweb.com/
+2019:
+  - firstname: Boris
+    lastname: Schapira
+    slug: bsc
+    twitter: borisschapira
+    links:
+      - label: Dareboost
+        url : https://www.dareboost.com/
+  - firstname: Daniel
+    lastname: Diard
+    slug: ddi
+    links:
+      - label: Cdiscount
+        url : https://www.cdiscount.com/
+  - firstname: Émilie
+    lastname: Wilhelm
+    slug: emilie
+    twitter: EmilieWilhelm
+    links:
+      - label: Fasterize
+        url : https://www.fasterize.com/
+      - label: Girlz in Web
+        url : http://girlzinweb.com/
+  - firstname: Jean-Pierre
+    lastname: Vincent
+    slug: jp
+    twitter: theystolemynick
+    links:
+      - label: BrainCracking
+        url : http://braincracking.org/
+  - firstname: Laurine
+    lastname: Jacquet
+    slug: lja
+    links:
+      - label: Cdiscount
+        url : https://www.cdiscount.com/
+  - firstname: Sébastien
+    lastname: Bonnet
+    slug: sbo
+    links:
+      - label: Cdiscount
+        url : https://www.cdiscount.com/
+  - firstname: Stéphane
+    lastname: Rios
+    slug: stephane
+    twitter: stefounet
+    links:
+      - label: Fasterize
+        url : https://www.fasterize.com/
+2018:
+  - firstname: Boris
+    lastname: Schapira
+    slug: bsc
+    twitter: borisschapira
+    links:
+      - label: Dareboost
+        url : https://www.dareboost.com/
+  - firstname: Daniel
+    lastname: Diard
+    slug: ddi
+    links:
+      - label: Cdiscount
+        url : https://www.cdiscount.com/
+  - firstname: Émilie
+    lastname: Wilhelm
+    slug: emilie
+    twitter: EmilieWilhelm
+    links:
+      - label: Fasterize
+        url : https://www.fasterize.com/
+      - label: Girlz in Web
+        url : http://girlzinweb.com/
+  - firstname: Jean-Pierre
+    lastname: Vincent
+    slug: jp
+    twitter: theystolemynick
+    links:
+      - label: BrainCracking
+        url : http://braincracking.org/
+  - firstname: Laurine
+    lastname: Jacquet
+    slug: lja
+    links:
+      - label: Cdiscount
+        url : https://www.cdiscount.com/
+  - firstname: Sébastien
+    lastname: Bonnet
+    slug: sbo
+    links:
+      - label: Cdiscount
+        url : https://www.cdiscount.com/
+  - firstname: Stéphane
+    lastname: Rios
+    slug: stephane
+    twitter: stefounet
+    links:
+      - label: Fasterize
+        url : https://www.fasterize.com/

@@ -3,7 +3,7 @@
     <h2 class="text-center">
       {% t Nos sponsors Gold %}
     </h2>
-    {% for sponsor in site.data.sponsors.gold %}
+    {% for sponsor in site.data.sponsors[include.year].gold %}
     <hr id="{{ sponsor.slug }}">
     {% if include.locale == "en_US" and sponsor.en_US %}
       {% assign verbatim = sponsor.en_US %}

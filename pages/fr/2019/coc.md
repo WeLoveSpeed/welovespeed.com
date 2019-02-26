@@ -1,8 +1,8 @@
 ---
 title: Code de conduite
 description: "Offrir une expérience de conférence sans harcèlement, pour tout le monde."
-i18n-key: 2018-coc
-permalink: /2018/code-de-conduite/
+i18n-key: 2019-coc
+permalink: /2019/code-de-conduite/
 layout: page
 ---
 
@@ -22,7 +22,6 @@ Les événements **{{ site.title }}** se veulent une expérience agréable et co
 
 * [{{ site.mail }}](mailto:{{ site.mail }})
 * En cas d'urgence (médicales ou autres) : 112
-* Bordeaux Taxi : <a href="tel:+33556316107">05 56 31 61 07</a>
 
 ## Version complète
 
