@@ -22,7 +22,7 @@
     value: code-de-conduite
     edition_relative: true
     in_nav: false
-    in_footer: false
+    in_footer: true
   - name: Nos sponsors
     type: page
     value: merci
