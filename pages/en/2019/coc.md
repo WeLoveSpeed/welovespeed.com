@@ -22,7 +22,6 @@ To make clear what is expected, all delegates/attendees, speakers, exhibitors, o
 
 * [{{ site.mail }}](mailto:{{ site.mail }})
 * In case of emergency (medical or other) : 112
-* Bordeaux Taxi : <a href="tel:+33556316107">05 56 31 61 07</a>
 
 ## The Longer Version
 
