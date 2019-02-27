@@ -5,7 +5,7 @@ layout: microtypo
 {% assign locale = page.locale | default: site.locale %}
 {% assign lang = locale | slice: 0,2 %}
 {% assign year = page.year | default: site.current_edition %}
-{% include head.html %}
+{% include head.html year=year %}
 <body>
   {% include navigation.html year=year %}
   {% unless page.i18n-key == '2018-home' or page.i18n-key == '2019-home' %}
