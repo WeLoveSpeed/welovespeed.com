@@ -2,7 +2,9 @@
 
 title: We Love Speed
 seo_title: We Love Speed
-tagline: le 9 octobre 2018 à Bordeaux
+tagline:
+  2018: "9 octobre 2018, Bordeaux"
+  2019: ""
 description: "L’événement français des mordus de web performance !"
 description_en: "The French event for web performance enthusiasts"
 logo: /assets/images/twittercard.png

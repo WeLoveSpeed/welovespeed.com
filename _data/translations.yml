@@ -1,4 +1,5 @@
 en_US:
+  "": ""
   " en anglais": ", in French,"
   "(obligatoire)": "(required)"
   "(see in english)": "(voir en français)"
@@ -29,6 +30,7 @@ en_US:
   "contact": "contact"
   "contenu en anglais": "contenu en français"
   "Contribué sur": "Contributed on"
+  "date et lieu prochainement annoncés": "date and venue to be announced soon"
   "Derniers jours !": "Last days!"
   "Domaine Public": "Public Domain"
   "Éditions": "Editions"
