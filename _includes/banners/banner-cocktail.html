@@ -1,0 +1,15 @@
+{% if include.page_top %}
+  {% assign slug = "banner-cocktail page-top" %}
+{% else %}
+  {% assign slug = "banner-cocktail" %}
+{% endif %}
+{% include banners/_generic.html
+  slug=slug
+  locale=include.locale
+  source_title="Cocktail"
+  source_url="https://flic.kr/p/2auA4T4"
+  source_author="0gust1"
+  source_rights_url="https://creativecommons.org/licenses/by-nc/2.0/"
+  source_rights_title="Licence Creative Commons"
+  source_rights_shortname="CC BY NC 2.0"
+%}
