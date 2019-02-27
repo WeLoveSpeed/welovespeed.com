@@ -9,7 +9,7 @@ layout: microtypo
 <body>
   {% include navigation.html year=year %}
   {% unless page.i18n-key == '2018-home' or page.i18n-key == '2019-home' %}
-    {% include header-page.html %}
+    {% include header-page.html year=year %}
   {% endunless %}
   {{ content }}
   {% include footer.html year=year %}
