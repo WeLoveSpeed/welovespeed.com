@@ -7,7 +7,7 @@
         <figure class="person" role="group" aria-describedby="capt-{{member.slug}}">
           {% cloudinary avatar {{ "/assets/images/staff/" | append: member.slug | append: ".jpg" | relative_url }} class="person-avatar lozad" alt="{{member.firstname}} {{member.lastname}}" %}
           <figcaption id="capt-{{member.slug}}" class="person-name text-xs">
-            <a title="{{member.firstname}} {{member.lastname}}" href="https://twitter.com/{{member.twitter}}">{{member.firstname}} <span class="sr-only">{{member.lastname}}</span></a><br>
+            {% if member.twitter %}<a title="{{member.firstname}} {{member.lastname}}" href="https://twitter.com/{{member.twitter}}">{{member.firstname}} <span class="sr-only">{{member.lastname}}</span></a>{% else %}{{member.firstname}} <span class="sr-only">{{member.lastname}}</span>{% endif %}<br>
             ({% for link in member.links %}
               {% unless forloop.first %}·{% endunless %}
               <a href="{{ link.url }}">{{ link.label }}</a>
