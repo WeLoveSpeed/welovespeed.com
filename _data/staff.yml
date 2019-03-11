@@ -34,6 +34,13 @@
     links:
       - label: Cdiscount
         url : https://www.cdiscount.com/
+  - firstname: Nicolas
+    lastname: Goutay
+    slug: ngo
+    twitter: Phacks
+    links:
+      - label: Theodo
+        url : https://www.theodo.fr/
   - firstname: Sébastien
     lastname: Bonnet
     slug: sbo
