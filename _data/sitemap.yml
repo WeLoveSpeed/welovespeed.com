@@ -47,6 +47,11 @@
     edition_relative: false
     in_nav: false
     in_footer: true
+  - name: Témoignages
+    type: page
+    value: temoignages
+    in_nav: false
+    in_footer: true
 2018:
   - name: Accueil
     type: root_anchor
@@ -94,5 +99,10 @@
     type: page
     value: mentions-legales
     edition_relative: false
+    in_nav: false
+    in_footer: true
+  - name: Témoignages
+    type: page
+    value: temoignages
     in_nav: false
     in_footer: true
