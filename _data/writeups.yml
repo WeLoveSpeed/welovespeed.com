@@ -1,0 +1,37 @@
+- year: 2018
+  writeups:
+  - url: https://www.ekino.fr/articles/mick-grzesitchak-ingenieur-java-chez-ekino-revient-sur-la-conference-we
+    title: "Mick Grzesitchak, Ingénieur Java chez ekino revient sur la conférence We Love Speed"
+    authors: [Team Ekino, Mick Grzesitchak]
+    locale: fr_FR
+    extract: >-
+      Le dynamisme de l’événement m’a marqué. Comme si l’état d’esprit de la communauté Performance était performant. 🙂<br/>
+      La culture de la performance en entreprise est nécessaire pour de nombreux secteurs d’activité. J’ai l’impression qu’elle s’étend au-delà des aspects techniques et marque les esprits de façon plus globale.
+    from:
+      name: Ekino
+      url: https://www.ekino.fr/
+  - url: https://blog.badalic.com/welovespeed-conference
+    title: "Conference: WeLoveSpeed"
+    authors: [Jonas Badalic]
+    locale: en_US
+    extract: >-
+      A big thank you to the organizers, this could not have been better!<br/>
+      I really mean it, you've clearly put a lot of effort and thought into making this conference happen by providing everything needed prior and during the conference!
+    from:
+      name: Clever Age
+      url: https://blog.clever-age.com/
+  - url: https://blog.clever-age.com/fr/2018/10/31/we-love-speed-2018/
+    title: "We Love Speed 2018"
+    authors: [Sébastien Dugué, Nicolas Hoizey, Cyril Aknine, Baptiste Longval]
+    locale: fr_FR
+    extract: >-
+      Nous sommes fiers d’avoir accompagné les organisateurs pour cette première édition.
+    from:
+      name: Clever Age
+      url: https://blog.clever-age.com/
+  - url: https://www.dankon.fr/article.php?id=653
+    title: "Retour sur We Love Speed 2018 – Une journée de partage pour les amoureux de la web-performance !"
+    authors: [Romain Thierry]
+    locale: fr_FR
+    extract: >-
+      On pouvait croiser des experts français mais aussi quelques pointures internationales venues distiller de bons conseils pour booster les performances de vos sites web.

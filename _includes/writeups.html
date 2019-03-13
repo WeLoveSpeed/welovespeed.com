@@ -33,6 +33,9 @@
     {% include writeups-items.html writeups=foreign_writeups locale=include.locale %}
     {% include writeups-items.html writeups=unsetlocal_writeups locale=include.locale %}
   </ul>
+  {% if forloop.first %}
+    <p class="text-center"> <a class="button" data-text="{{ "contribuer un témoignage dans GitHub" | t:page.locale }}" href="https://github.com/{{site.repository}}/blob/master/_data/writeups.yml"> <span class="button-inner">{{ "contribuer un témoignage dans GitHub" | t:page.locale }}</span> </a> </p>
+  {% endif %}
 </section>
 <hr>
 {% endfor%}
