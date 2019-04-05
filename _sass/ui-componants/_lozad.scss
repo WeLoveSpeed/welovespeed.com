@@ -5,4 +5,8 @@
 
 .lozad[data-loaded='true'] {
   animation: 2s ceaser(easeOutSine) lozad-fade;
+  &.no-lazy {
+    animation: none;
+    opacity: 1;
+  }
 }
