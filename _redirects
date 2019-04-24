@@ -1,6 +1,8 @@
 # Permanent
-/sponsors/ /merci/ 301
-/en/sponsors/ /en/thanks/ 301
+/sponsors/ /2019/merci/ 302
+/merci/ /2019/merci/ 302
+/en/sponsors/ /en/2019/thanks/ 302
+/en/thanks/ /en/2019/thanks/ 302
 
 # Temporary
 /en/blog/ /blog 302
