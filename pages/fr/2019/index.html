@@ -10,7 +10,7 @@ permalink: /2019/
     <h1 class="home-main-title">
       <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" />
       <div class="home-main-title-baseline">
-        Quelque part, en septembre ou octobre 2019<br>
+        {{"20 septembre 2019, Lille" | t: page.locale}}<br>
         <small>{% t L’événement français des mordus de web performance ! %}</small>
       </div>
     </h1>
@@ -20,15 +20,15 @@ permalink: /2019/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="{% t Appel à propositions %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/cfp" title="{% t Appel à propositions %}">
-        <span class="button-inner">{% t Appel à propositions %}</span>
+      <a class="button" data-text="{% t appel à propositions %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/cfp" title="{% t Appel à propositions %}">
+        <span class="button-inner">{% t appel à propositions %}</span>
       </a>
       {% if site.current_edition == page.year and site.tickets.selling %}
-      <a class="button" data-text="{% t Infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
-        <span class="button-inner">{% t Infos pratiques %}</span>
+      <a class="button" data-text="{% t infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
+        <span class="button-inner">{% t infos pratiques %}</span>
       </a>
       <br/>
-      <a class="button" data-text="{% t Derniers jours ! %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+      <a class="button" data-text="{% t derniers jours ! %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
         <span class="button-inner">{% t réserver votre place %}</span>
       </a>
       {% endif %}
@@ -71,8 +71,8 @@ permalink: /2019/
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="text-center">Enfin un événement français dédié à la performance web&nbsp;!</h2>
-    <p>Créé par et pour la communauté, {{ site.title }} est né de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnels du web, de l’e-commerce et experts de la webperf, cet événement est fait pour vous&nbsp;!</p>
+    <h2 class="text-center">Le seul événement français dédié aux amateurs et amatrices de cascades&nbsp;!</h2>
+    <p>Créé en 2018 par et pour la communauté, {{ site.title }} est né de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnels du web, de l’e-commerce et experts de la webperf, cet événement est fait pour vous&nbsp;!</p>
     <p>Décideurs, développeurs… retrouvons-nous pour une journée, et peut-être quelques soirées, dans une des plus belles villes de France, afin d'échanger sur la WebPerf : ses enjeux, son implémentation, ses acteurs mais aussi l'organisation des entreprises qui l'implémentent.</p>
     <p class="text-center">
       <a class="button" data-text="{% t voir les vidéos de l'année dernière %}" href="https://www.youtube.com/watch?v=RG5IKvSMg20&list=PLqQ-opbi5cUMbSedX4whMc_YjXP_wcSDg" title="{% t voir les vidéos de l'année dernière %}">
@@ -94,11 +94,11 @@ permalink: /2019/
 {% include sponsors.html locale=page.locale shorturl=false year=year %}
 
 <section id="sponsors" class="section">
-  <div class="wrapper">
-    <p class="text-center">
-      <a class="button" data-text="contactez-nous" href="{{ "/contact" | relative_url }}"><span class="button-inner">contactez-nous</span></a>
-    </p>
-  </div>
-</section>
+    <div class="wrapper">
+      <p class="text-center">
+        <a class="button" data-text="télécharger notre dossier sponsor (1.1&nbsp;Mo)" href="{{ site.sponsoring[page.locale] | relative_url }}"><span class="button-inner">télécharger notre dossier sponsor (1.1&nbsp;Mo)</span></a>
+      </p>
+    </div>
+  </section>
 
 {% include banners/banner-cocktail.html locale=page.locale %}

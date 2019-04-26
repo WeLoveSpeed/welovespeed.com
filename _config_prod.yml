@@ -4,7 +4,7 @@ title: We Love Speed
 seo_title: We Love Speed
 tagline:
   2018: "9 octobre 2018, Bordeaux"
-  2019: ""
+  2019: "20 septembre 2019, Lille"
 description: "L’événement français des mordus de web performance !"
 description_en: "The French event for web performance enthusiasts"
 logo: /assets/images/twittercard.png
@@ -24,7 +24,8 @@ lazyload:
 
 # Est-ce qu'on vend des places à tarif plein, est-ce qu'on propose une liste d'attente ou les deux ?
 current_edition: 2019
-# sponsoring_doc: '/assets/docs/2018/sponsoring_en.pdf'
+sponsoring:
+  fr_FR: '/assets/docs/2019/sponsoring_fr.pdf'
 tickets:
   selling: false
   waiting-list: false
