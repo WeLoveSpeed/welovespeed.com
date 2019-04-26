@@ -1,6 +1,6 @@
 <footer class="page-footer">
   <div class="wrapper">
-    {% if page.i18n-key == '2018-home' or page.i18n-key == '2019-home' or page.i18n-key == 'contact' %}
+    {% if shortKey=="home" or page.i18n-key == 'contact' %}
       {% include staff.html year=year %}
       <hr>
     {% endif %}
