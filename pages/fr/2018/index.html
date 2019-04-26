@@ -23,11 +23,11 @@ permalink: /2018/
         <span class="button-inner">{% t voir le programme %}{% if site.infos.video %} {% t et les vidéos %}{% endif %}</span>
       </a>
       {% if site.current_edition == page.year and site.tickets.selling %}
-      <a class="button" data-text="{% t Infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
-        <span class="button-inner">{% t Infos pratiques %}</span>
+      <a class="button" data-text="{% t infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
+        <span class="button-inner">{% t infos pratiques %}</span>
       </a>
       <br/>
-      <a class="button" data-text="{% t Derniers jours ! %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+      <a class="button" data-text="{% t derniers jours ! %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
         <span class="button-inner">{% t réserver votre place %}</span>
       </a>
       {% endif %}

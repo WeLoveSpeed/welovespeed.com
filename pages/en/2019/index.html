@@ -11,7 +11,7 @@ permalink: /en/2019/
     <h1 class="home-main-title">
       <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" />
       <div class="home-main-title-baseline">
-        Someday in September or October, 2019<br/>
+        {{"20 septembre 2019, Lille" | t: page.locale}}<br/>
         <small>{% t L’événement français des mordus de web performance ! %}</small>
       </div>
     </h1>
@@ -21,12 +21,12 @@ permalink: /en/2019/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="{% t Appel à propositions %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/cfp" title="{% t Appel à propositions %}">
-        <span class="button-inner">{% t Appel à propositions %}</span>
+      <a class="button" data-text="{% t appel à propositions %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/cfp" title="{% t Appel à propositions %}">
+        <span class="button-inner">{% t appel à propositions %}</span>
       </a>
       {% if site.current_edition == page.year and site.tickets.selling %}
-      <a class="button" data-text="{% t Infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
-        <span class="button-inner">{% t Infos pratiques %}</span>
+      <a class="button" data-text="{% t infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t infos pratiques %}">
+        <span class="button-inner">{% t infos pratiques %}</span>
       </a>
       <br/>
       <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
@@ -72,8 +72,8 @@ permalink: /en/2019/
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="text-center">At last, a French event dedicated to web performance!</h2>
-    <p>Created by and for the webperf community, {{ site.title }} was born from the desire to share as widely as possible knowledge and experience about webperf. Web professionals, e-commerce and webperf experts, this event is for you!</p>
+    <h2 class="text-center">The only French event dedicated to chasing waterfalls!</h2>
+    <p>Created in 2018 by and for the webperf community, {{ site.title }} was born from the desire to share as widely as possible knowledge and experience about webperf. Web professionals, e-commerce and webperf experts, this event is for you!</p>
     <p>Decision makers, developers... let's meet for a day, and maybe a few evenings, in one of the most beautiful cities in France, to discuss web performance: its challenges, its implementation, its stakeholders but also the organization of the companies that implement it.</p>
     <p class="text-center">
       <a class="button" data-text="{% t voir les vidéos de l'année dernière %}" href="https://www.youtube.com/watch?v=RG5IKvSMg20&list=PLqQ-opbi5cUMbSedX4whMc_YjXP_wcSDg" title="{% t voir les vidéos de l'année dernière %}">
