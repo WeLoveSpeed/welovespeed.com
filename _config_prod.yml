@@ -26,6 +26,7 @@ lazyload:
 current_edition: 2019
 sponsoring:
   fr_FR: '/assets/docs/2019/sponsoring_fr.pdf'
+  en_US: '/assets/docs/2019/sponsoring_en.pdf'
 tickets:
   selling: false
   waiting-list: false
