@@ -28,11 +28,12 @@ sponsoring:
   fr_FR: '/assets/docs/2019/sponsoring_fr.pdf'
   en_US: '/assets/docs/2019/sponsoring_en.pdf'
 tickets:
-  selling: false
+  selling: true
   waiting-list: false
-  price: "180"
+  price: "179"
   price_currency: "EUR"
 infos:
+  diversity_id: false
   display: false
   video: true
 

@@ -25,13 +25,15 @@ permalink: /en/2019/
         <span class="button-inner">{% t appel à propositions %}</span>
       </a>
       {% if site.current_edition == page.year and site.tickets.selling %}
-      <a class="button" data-text="{% t infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t infos pratiques %}">
-        <span class="button-inner">{% t infos pratiques %}</span>
-      </a>
-      <br/>
       <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
         <span class="button-inner">{% t réserver votre place %}</span>
       </a>
+      {% if site.infos.display %}
+      <br/>
+      <a class="button" data-text="{% t infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
+        <span class="button-inner">{% t infos pratiques %}</span>
+      </a>
+      {% endif %}
       {% endif %}
       {% if site.current_edition == page.year and site.tickets.waiting-list %}
       <a class="button" data-text="{% t s'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t s'incrire en liste d'attente %}">
