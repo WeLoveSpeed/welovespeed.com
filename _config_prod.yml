@@ -33,7 +33,7 @@ tickets:
   price: "179"
   price_currency: "EUR"
 infos:
-  diversity_id: false
+  diversity_id: 437
   display: false
   video: true
 
