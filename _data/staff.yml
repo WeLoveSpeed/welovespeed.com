@@ -28,12 +28,6 @@
     links:
       - label: BrainCracking
         url : http://braincracking.org/
-  - firstname: Laurine
-    lastname: Jacquet
-    slug: lja
-    links:
-      - label: Cdiscount
-        url : https://www.cdiscount.com/
   - firstname: Nicolas
     lastname: Goutay
     slug: ngo
