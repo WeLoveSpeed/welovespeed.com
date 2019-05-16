@@ -221,5 +221,20 @@
           url: https://www.cdiscount.com/
         description: >-
           Launched in 1998 in Bordeaux, Cdiscount is today one of the leaders of eCommerce in France. Among the top French brands in terms of price image. Cdiscount directly sells a diverse array of products and supports a marketplace where thousands of sellers offer millions of their own products. Cdiscount has a clear ambition: to offer attractive pricing on all its products, and ensure a high quality of customer service, based on its fully integrated storage and logistics network. The site offers the possibility of fast and flexible home delivery or collection at one of our thousands pick-up points at brick and mortar locations throughout France.
-  others: ~
-
+  others:
+    - name: BrainCracking
+      logo: /assets/images/thanks/braincracking.svg
+      url: https://braincracking.org/
+      slug: braincracking
+      fr_FR:
+        cta:
+          text: "Écrivez à Jean-Pierre"
+          url: mailto:jp@braincracking.fr
+        description: >-
+          Formateur et Auditeur Webperf indépendant depuis 2011, j'aide les développeurs et les organisations à améliorer les performances de leurs sites. Engagé dans la communauté Webperf FR (talks, co-organisateur du meetup Webperf parisien et de la conf WeLoveSpeed, contributeur open-source …), je fais également de l'architecture et du développement frontend. Travaillons ensemble !
+      en_US:
+        cta:
+          text: "Mail to Jean-Pierre"
+          url: mailto:jp@braincracking.fr
+        description: >-
+          Trainer and Webperf Expert since 2011, I help developers and organizations to have the fastest website possible. Involved in the french Webperf community (talks, co-organizer of the Paris Webperf meetup, open-source contributor …), I'm also a frontend architect and developer. Let’s work together !
