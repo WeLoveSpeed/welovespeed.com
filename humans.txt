@@ -4,7 +4,7 @@ layout: null
 
 /* ABOUT */
 
-  Location:     Bordeaux
+  Location:     Lille
   Design:       original design of https://sudweb.fr/2018/ by Matthieu Bué (@twikito)
 
 /* SITE */
