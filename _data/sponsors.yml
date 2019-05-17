@@ -224,7 +224,7 @@
   others:
     - name: BrainCracking
       logo: /assets/images/thanks/braincracking.svg
-      url: https://braincracking.org/
+      url: http://braincracking.org/
       slug: braincracking
       fr_FR:
         cta:
