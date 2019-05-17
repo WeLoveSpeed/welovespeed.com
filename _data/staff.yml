@@ -50,12 +50,12 @@
         url : https://www.fasterize.com/
   - firstname: Sarah
     lastname: Salis
-    slug: sarah
+    slug: ss
     links:
       - label: Fasterize
   - firstname: Anne-Marie
     lastname: Sicard
-    slug: anne-marie
+    slug: ams
     links:
       - label: Fasterize
 2018:
