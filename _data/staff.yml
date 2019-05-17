@@ -48,6 +48,16 @@
     links:
       - label: Fasterize
         url : https://www.fasterize.com/
+  - firstname: Sarah
+    lastname: Salis
+    slug: sarah
+    links:
+      - label: Fasterize
+  - firstname: Anne-Marie
+    lastname: Sicard
+    slug: sarah
+    links:
+      - label: Fasterize
 2018:
   - firstname: Boris
     lastname: Schapira
