@@ -206,6 +206,27 @@
           url: https://www.dareboost.com/en/home
         description: >-
           From performance testing to synthetic page monitoring and comprehensive user journeys, Dareboost is an all-in-one tool dedicated to web performance. A tool designed to help the web professionals collaborate, offering the reporting functionalities necessary to decision makers (customized dashboards, CSV or API exports, etc.) as well as the tools necessary to experts in the field (waterfalls, DNS mapping, blacklists, performance budgets, etc.).
+    - name: Clever Age
+      slug: cleverage
+      logo: /assets/images/thanks/cleverage2.svg
+      fr_FR:
+        cta:
+          text: "Briefez-nous"
+          url: https://www.clever-age.com/fr/
+        description: >-
+          Clever Age est une agence full service couvrant l'ensemble de la chaîne digitale. 100&nbsp;% indépendant, Clever Age est le meilleur atout pour votre transformation numérique. Nous nous efforçons de créer du sens et de la valeur pour nos clients et leurs utilisateurs finaux, en concevant et construisant des services robustes et innovants.
+
+
+          Présents au Canada, en France, à Hong Kong et à Singapour, Clever Age est le partenaire qu'il vous faut pour répondre aux exigences de vos écosystèmes locaux et mondiaux.
+      en_US:
+        cta:
+          text: "Brief us"
+          url: https://www.clever-age.com/en/
+        description: >-
+          Clever Age is a full-service agency covering the entire digital production chain. 100% independant, Clever Age is the best asset for your digital transformation. We strive to create meaning and value for our clients and their end users, designing and building robust and innovative services.
+
+
+          Present in Canada, France, Hong Kong, and Singapore, Clever Age is the partner you need to readily address the requirements of your local and global ecosystems.
     - name: Cdiscount
       slug: cds
       logo: /assets/images/thanks/cdiscount.svg
