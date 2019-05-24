@@ -242,6 +242,38 @@
           url: https://www.cdiscount.com/
         description: >-
           Launched in 1998 in Bordeaux, Cdiscount is today one of the leaders of eCommerce in France. Among the top French brands in terms of price image. Cdiscount directly sells a diverse array of products and supports a marketplace where thousands of sellers offer millions of their own products. Cdiscount has a clear ambition: to offer attractive pricing on all its products, and ensure a high quality of customer service, based on its fully integrated storage and logistics network. The site offers the possibility of fast and flexible home delivery or collection at one of our thousands pick-up points at brick and mortar locations throughout France.
+    - name: Google
+      slug: google
+      logo: /assets/images/thanks/google.svg
+      fr_FR:
+        cta:
+          text: "Découvrez les dernières initiatives de Google en matière de vitesse [EN]"
+          url: https://developers.google.com/web/updates/2018/07/search-ads-speed
+        description: >-
+          Lorsque de vrais utilisateurs ont une expérience lente sur mobile, ils sont beaucoup moins susceptibles de trouver ce qu'ils cherchent ou d'acheter chez vous à l'avenir. Pour de nombreux sites, cela équivaut à une énorme opportunité manquée, surtout lorsque plus de la moitié des visites sont abandonnées si une page mobile prend plus de 3 secondes à charger.
+
+
+          En juillet 2018, Google a annoncé deux nouvelles initiatives concernant la vitesse, pour aider à améliorer l'expérience des utilisateurs sur le Web. Ces deux efforts s'appuient sur des données d'expérience utilisateur réelles (Chrome User Experience Report) pour prioriser et mettre en évidence les pages qui offrent une expérience utilisateur optimisée et rapide.
+
+
+          1. La vitesse est maintenant utilisée comme facteur de classement pour les recherches mobiles.
+
+          1. Un nouveau Mobile Speed Score pour les Landing Pages des publicités.
+
+      en_US:
+        cta:
+          text: "Learn more about Google latest speed initiatives"
+          url: https://developers.google.com/web/updates/2018/07/search-ads-speed
+        description: >-
+          When real users have a slow experience on mobile, they're much less likely to find what they are looking for or purchase from you in the future. For many sites this equates to a huge missed opportunity, especially when more than half of visits are abandoned if a mobile page takes over 3 seconds to load.
+
+
+          In July 2018, Google announced two new speed initiatives to help improve user-experience on the web. Both efforts are leveraging real-world user experience data (Chrome User Experience Report) to prioritize and highlight pages that deliver optimized and fast user experiences.
+
+
+          1. Speed is now used as a ranking factor for mobile searches
+
+          1. A new Mobile Speed Score for ads landing pages
   others:
     - name: BrainCracking
       logo: /assets/images/thanks/braincracking.svg
