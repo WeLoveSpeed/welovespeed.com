@@ -274,6 +274,21 @@
           1. Speed is now used as a ranking factor for mobile searches
 
           1. A new Mobile Speed Score for ads landing pages
+    - name: Quanta Computing
+      slug: quanta
+      logo: /assets/images/thanks/quanta.svg
+      fr_FR:
+        cta:
+          text: "Pilotez et optimisez vos performances Web"
+          url: https://www.quanta-computing.com/
+        description: >-
+          Quanta est la solution d'analyse qui vous aide à générer plus de revenus en améliorant le temps de chargement des pages à chaque étape de votre tunnel e-commerce.
+      en_US:
+        cta:
+          text: "Drive and optimize your Web Performance"
+          url: https://www.quanta-computing.com/
+        description: >-
+          Quanta is the Analytics solution that helps you drive more revenue by improving page load time at each step of your E-commerce funnel.
   others:
     - name: BrainCracking
       logo: /assets/images/thanks/braincracking.svg
