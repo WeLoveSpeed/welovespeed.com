@@ -280,7 +280,7 @@
       fr_FR:
         cta:
           text: "Pilotez et optimisez vos performances Web"
-          url: https://www.quanta-computing.com/
+          url: https://www.quanta.io
         description: >-
           Quanta est une solution de pilotage de la Web Performance spécialement conçue pour permettre à tous les acteurs des équipes e-commerce, qu’ils soient techniques ou business, de collaborer efficacement autour du même objectif : utiliser la Web Performance pour optimiser les revenus en ligne.
 
@@ -294,7 +294,7 @@
       en_US:
         cta:
           text: "Drive and optimize your Web Performance"
-          url: https://www.quanta-computing.com/
+          url: https://www.quanta.io
         description: >-
           Quanta is an analytics solution specifically designed to enable business and technical members of e-commerce teams to collaborate effectively with the end in mind: use Web Performance to directly impact online revenue at all times.
 
