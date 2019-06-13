@@ -22,7 +22,7 @@
     value: infos-pratiques
     edition_relative: true
     in_nav: false
-    in_footer: false
+    in_footer: true
   - name: Code de Conduite
     type: page
     value: code-de-conduite
