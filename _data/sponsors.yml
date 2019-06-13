@@ -287,6 +287,33 @@
 
 
           Quanta supports the Web Performance strategies of more than 500 brands in the world, such as LVMH, Orange, Veepee, Nestlé, and The Kooples.
+    - name: Theodo
+      slug: theodo
+      logo: /assets/images/thanks/theodo.svg
+      fr_FR:
+        cta:
+          text: "Découvrez Theodo"
+          url: https://www.theodo.fr/
+        description: >-
+          Theodo développe des applications web et mobile sur-mesure pour aider ses clients à gagner des parts de marché. Theodo accompagne aussi bien des grands groupes comme Safran et Michelin, que des start-ups comme BlaBlaCar et ManoMano.
+
+
+          Theodo compte plus de 150 ingénieurs développeurs et business developers basés à Paris, Londres et New York.
+
+
+          Theodo met à profit les meilleures pratiques du digital acquises sur plus de 500 projets, pour aider ses clients à optimiser la performance de leurs applications.
+      en_US:
+        cta:
+          text: "Discover Theodo"
+          url: https://www.theodo.co.uk/
+        description: >-
+          Theodo is a tech-team-for-hire web and mobile development company. They build digital products for fast growing startups like ManoMano and BlaBlaCar as well as for large corporations like BNP Paribas and Safran.
+
+
+          Theodo has more than 150 developer-engineers and business developers based in Paris, London and New York.
+
+
+          Born out of experience on hundreds of projects, Theodo shares best practices with their clients to help them optimize the performance of their apps.
   others:
     - name: BrainCracking
       logo: /assets/images/thanks/braincracking.svg
