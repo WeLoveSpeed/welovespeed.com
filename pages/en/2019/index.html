@@ -21,9 +21,11 @@ permalink: /en/2019/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
+      {% if site.current_edition == page.year and site.cfp_open %}
       <a class="button" data-text="{% t appel à propositions %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/cfp" title="{% t Appel à propositions %}">
         <span class="button-inner">{% t appel à propositions %}</span>
       </a>
+      {% endif %}
       {% if site.current_edition == page.year and site.tickets.selling %}
       <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
         <span class="button-inner">{% t réserver votre place %}</span>

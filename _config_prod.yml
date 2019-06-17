@@ -36,6 +36,7 @@ infos:
   diversity_id: 437
   display: false
   video: true
+cfp_open: false
 
 # Compression du code HTML en production
 compress_html:
