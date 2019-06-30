@@ -1,6 +1,6 @@
 ---
 display-order: 7
-display: true
+pub_date: '2018-07-01'
 speakers:
   - jp
 fr_FR:

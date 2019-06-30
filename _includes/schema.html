@@ -60,10 +60,10 @@
     "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t billetterie %}/"
   },
   "performer": [
-  {% for conference in talks %}
+  {% for talk in talks %}
     {% unless forloop.first %},{% endunless %}
-    {% for names in conference.speakers %}
-      {% assign speaker = site.data.speakers[names] %}
+    {% for name in talk.speakers %}
+      {% assign speaker = site.data.speakers[include.year][name] %}
       {% if speaker.display %}
         {% unless forloop.first %},{% endunless %}
         {

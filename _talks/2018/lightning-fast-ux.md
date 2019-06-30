@@ -1,6 +1,6 @@
 ---
 display-order: 2
-display: true
+pub_date: '2018-07-01'
 speakers:
   - stephanie
 fr_FR:

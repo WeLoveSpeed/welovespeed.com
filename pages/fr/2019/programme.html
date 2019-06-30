@@ -1,12 +1,12 @@
 ---
-title: Line-up
-description: The talks of the 2018 edition of We Love Speed
-i18n-key: 2018-programme
-permalink: /en/2018/line-up/
+title: Programme
+description: Le programme de l'édition 2019 de We Love Speed
+i18n-key: 2019-programme
+permalink: /2019/programme/
 ---
 
 {%- assign conferences = site.talks | where: "year", page.year | sort: "display-order" -%}
-{% include speakers.html conferences=conferences locale=page.locale year=page.year %}
+{% include speakers.html conferences=conferences locale=page.locale shorturl=true h1=true year=page.year %}
 
 <hr class="wrapper">
 

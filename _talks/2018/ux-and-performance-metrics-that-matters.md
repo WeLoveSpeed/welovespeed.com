@@ -1,6 +1,6 @@
 ---
 display-order: 4
-display: true
+pub_date: '2018-07-01'
 speakers:
   - philip
 fr_FR:
