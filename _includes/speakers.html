@@ -46,7 +46,7 @@
     {%- endfor -%}
     {%- for i in (1..nBIncognito) -%}
       <figure class="person">
-        <img src="/assets/images/speakers/incognito.png" class="person-avatar" alt="" />
+        {% cloudinary avatar {{ "/assets/images/speakers/incognito.png" | relative_url }} class="person-avatar" alt="" %}
       </figure>
     {%- endfor -%}
     </div>
