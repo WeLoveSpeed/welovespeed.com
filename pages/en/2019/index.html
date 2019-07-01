@@ -11,7 +11,7 @@ permalink: /en/2019/
     <h1 class="home-main-title">
       <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" />
       <div class="home-main-title-baseline">
-        {{"20 septembre 2019, Lille" | t: page.locale}}<br/>
+        {{ site.data.editions[page.year].tagline[page.locale] }}<br/>
         <small>{% t L’événement français des mordus de web performance ! %}</small>
       </div>
     </h1>
