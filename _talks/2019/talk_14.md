@@ -1,8 +1,8 @@
 ---
 display-order: 14
-pub_date: '2019-08-01'
+pub_date: '2019-06-01'
 speakers:
-  - sp14
+  - peter
 fr_FR:
   title: "Titre de l'intervention"
   description: >-

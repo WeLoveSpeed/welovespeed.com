@@ -1,8 +1,8 @@
 ---
 display-order: 2
-pub_date: '2019-06-01'
+pub_date: '2020-06-01'
 speakers:
-  - sp02
+  - matthew
 fr_FR:
   title: "Titre de l'intervention"
   description: >-

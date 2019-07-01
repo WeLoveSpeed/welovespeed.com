@@ -1,8 +1,8 @@
 2019:
-  sp01:
+  romuald:
     name: Lorem Ipsim 1
     locale: en_US
-    image: /assets/images/speakers/2019/speaker_00001.png
+    image: /assets/images/speakers/2019/romuald.jpg
     url: https://twitter.com/_welovespeed?sp=1
     en_US:
       alt: >-
@@ -14,10 +14,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp02:
+  matthew:
     name: Lorem Ipsim 2
     locale: fr_FR
-    image: /assets/images/speakers/2019/speaker_00002.png
+    image: /assets/images/speakers/2019/matthew.jpg
     url: https://twitter.com/_welovespeed?sp=2
     en_US:
       alt: >-
@@ -29,10 +29,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp03:
+  estelle:
     name: Lorem Ipsim 3
     locale: en_US
-    image: /assets/images/speakers/2019/speaker_00003.png
+    image: /assets/images/speakers/2019/estelle.jpg
     url: https://twitter.com/_welovespeed?sp=3
     en_US:
       alt: >-
@@ -44,10 +44,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp04:
+  anthony:
     name: Lorem Ipsim 4
     locale: fr_FR
-    image: /assets/images/speakers/2019/speaker_00004.png
+    image: /assets/images/speakers/2019/anthony.jpg
     url: https://twitter.com/_welovespeed?sp=4
     en_US:
       alt: >-
@@ -59,10 +59,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp05:
+  antoine:
     name: Lorem Ipsim 5
     locale: en_US
-    image: /assets/images/speakers/2019/speaker_00005.png
+    image: /assets/images/speakers/2019/antoine.jpg
     url: https://twitter.com/_welovespeed?sp=5
     en_US:
       alt: >-
@@ -74,10 +74,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp06:
+  jeremy:
     name: Lorem Ipsim 6
     locale: fr_FR
-    image: /assets/images/speakers/2019/speaker_00006.png
+    image: /assets/images/speakers/2019/jeremy.jpg
     url: https://twitter.com/_welovespeed?sp=6
     en_US:
       alt: >-
@@ -89,10 +89,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp07:
+  katie:
     name: Lorem Ipsim 7
     locale: en_US
-    image: /assets/images/speakers/2019/speaker_00007.png
+    image: /assets/images/speakers/2019/katie.jpg
     url: https://twitter.com/_welovespeed?sp=7
     en_US:
       alt: >-
@@ -104,10 +104,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp08:
+  ryan:
     name: Lorem Ipsim 8
     locale: fr_FR
-    image: /assets/images/speakers/2019/speaker_00008.png
+    image: /assets/images/speakers/2019/ryan.jpg
     url: https://twitter.com/_welovespeed?sp=8
     en_US:
       alt: >-
@@ -119,10 +119,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp09:
+  raphael:
     name: Lorem Ipsim 9
     locale: en_US
-    image: /assets/images/speakers/2019/speaker_00009.png
+    image: /assets/images/speakers/2019/raphael.jpg
     url: https://twitter.com/_welovespeed?sp=9
     en_US:
       alt: >-
@@ -134,10 +134,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp10:
+  benoit:
     name: Lorem Ipsim 10
     locale: fr_FR
-    image: /assets/images/speakers/2019/speaker_00010.png
+    image: /assets/images/speakers/2019/benoitj.jpg
     url: https://twitter.com/_welovespeed?sp=10
     en_US:
       alt: >-
@@ -149,10 +149,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp11:
+  antonio:
     name: Lorem Ipsim 11
     locale: en_US
-    image: /assets/images/speakers/2019/speaker_00011.png
+    image: /assets/images/speakers/2019/antonio.jpg
     url: https://twitter.com/_welovespeed?sp=11
     en_US:
       alt: >-
@@ -164,10 +164,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp12:
+  quentin:
     name: Lorem Ipsim 12
     locale: fr_FR
-    image: /assets/images/speakers/2019/speaker_00012.png
+    image: /assets/images/speakers/2019/quentin.jpg
     url: https://twitter.com/_welovespeed?sp=12
     en_US:
       alt: >-
@@ -179,10 +179,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp13:
+  loic:
     name: Lorem Ipsim 13
     locale: en_US
-    image: /assets/images/speakers/2019/speaker_00013.png
+    image: /assets/images/speakers/2019/loic.jpg
     url: https://twitter.com/_welovespeed?sp=13
     en_US:
       alt: >-
@@ -194,10 +194,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp14:
+  peter:
     name: Lorem Ipsim 14
     locale: fr_FR
-    image: /assets/images/speakers/2019/speaker_00014.png
+    image: /assets/images/speakers/2019/peter.jpg
     url: https://twitter.com/_welovespeed?sp=14
     en_US:
       alt: >-
@@ -209,10 +209,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp15:
+  gilles:
     name: Lorem Ipsim 15
     locale: en_US
-    image: /assets/images/speakers/2019/speaker_00015.png
+    image: /assets/images/speakers/2019/gilles.jpg
     url: https://twitter.com/_welovespeed?sp=15
     en_US:
       alt: >-
@@ -224,10 +224,10 @@
         Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  sp16:
+  nicolas:
     name: Lorem Ipsim 16
     locale: fr_FR
-    image: /assets/images/speakers/2019/speaker_00016.png
+    image: /assets/images/speakers/2019/nicos.jpg
     url: https://twitter.com/_welovespeed?sp=16
     en_US:
       alt: >-

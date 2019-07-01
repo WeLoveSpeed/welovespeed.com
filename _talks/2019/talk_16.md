@@ -1,8 +1,8 @@
 ---
 display-order: 16
-pub_date: '2019-08-01'
+pub_date: '2020-06-01'
 speakers:
-  - sp16
+  - nicolas
 fr_FR:
   title: "Titre de l'intervention"
   description: >-

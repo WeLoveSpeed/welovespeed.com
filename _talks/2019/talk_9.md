@@ -1,8 +1,8 @@
 ---
 display-order: 9
-pub_date: '2019-08-01'
+pub_date: '2019-06-01'
 speakers:
-  - sp09
+  - raphael
 fr_FR:
   title: "Titre de l'intervention"
   description: >-

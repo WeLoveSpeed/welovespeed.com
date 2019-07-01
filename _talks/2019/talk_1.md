@@ -2,7 +2,7 @@
 display-order: 1
 pub_date: '2019-06-01'
 speakers:
-  - sp01
+  - romuald
 fr_FR:
   title: "Titre de l'intervention"
   description: >-

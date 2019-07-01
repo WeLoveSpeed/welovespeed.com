@@ -1,8 +1,8 @@
 ---
 display-order: 5
-pub_date: '2019-08-01'
+pub_date: '2019-06-01'
 speakers:
-  - sp05
+  - antoine
 fr_FR:
   title: "Titre de l'intervention"
   description: >-
