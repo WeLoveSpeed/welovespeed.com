@@ -1,32 +1,30 @@
 2019:
   romuald:
-    name: Lorem Ipsim 1
-    locale: en_US
+    name: Romuald Priol
+    locale: fr_FR
     image: /assets/images/speakers/2019/romuald.jpg
     url: https://twitter.com/_welovespeed?sp=1
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        Driven by a passion for computers and new technologies, I was drawn to the world of the Web where I learned to master the different PHP Frameworks ( Zend, Symfony, Phalcon...) and JavaScript (View.Js...). I then took a close look at the industry's best practices (accessibility, SEO, etc...), before turning my attention to another world, mobile development (Windows Phone, FirefoxOs, Android) in both native and hybrid solutions (Xamarin, PhoneGap, Unity, Ionic, etc.) and Windows development (C# / XAML).
+
+
+        Thanks to these different areas of expertise, I grasped the performance and architecture issues of many projects, and to take a serious look at responsible design by taking into account the eco-design of web and native applications and all the aspects of responsible digital design.
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        La programmation informatique est avant tout une passion, tout comme le sont les nouvelles technologies. Orienté dans un premier temps dans le monde du Web, j'ai rapidement appris à maitriser les différents Frameworks PHP ( Zend, Symfony, Phalcon...) et JavaScript (Vue.Js...), je me suis intéressé de près aux bonnes pratiques du secteur (accessibilité, SEO, etc...), avant de détourner mon regard vers un autre monde, celui de la mobilité, (Windows Phone, FirefoxOs, Android) en natif et en hybride via différentes solutions (Xamarin, PhoneGap, Unity, Ionic..) et du développement Windows (C# / XAML).
+
+
+        Ces différents domaines d'expertises m'ont permis de définir les problématiques de performance et d'architecture de beaucoup de projets, et de me pencher sérieusement sur la conception responsable en prenant en compte l'éco-conception des applications web et natives et tous les horizons du numérique responsable.
   matthew:
     name: Lorem Ipsim 2
     locale: fr_FR
     image: /assets/images/speakers/2019/matthew.jpg
     url: https://twitter.com/_welovespeed?sp=2
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   estelle:
@@ -35,13 +33,9 @@
     image: /assets/images/speakers/2019/estelle.jpg
     url: https://twitter.com/_welovespeed?sp=3
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   anthony:
@@ -50,13 +44,9 @@
     image: /assets/images/speakers/2019/anthony.jpg
     url: https://twitter.com/_welovespeed?sp=4
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   antoine:
@@ -65,13 +55,9 @@
     image: /assets/images/speakers/2019/antoine.jpg
     url: https://twitter.com/_welovespeed?sp=5
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   jeremy:
@@ -80,13 +66,9 @@
     image: /assets/images/speakers/2019/jeremy.jpg
     url: https://twitter.com/_welovespeed?sp=6
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   katie:
@@ -95,13 +77,9 @@
     image: /assets/images/speakers/2019/katie.jpg
     url: https://twitter.com/_welovespeed?sp=7
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   ryan:
@@ -110,13 +88,9 @@
     image: /assets/images/speakers/2019/ryan.jpg
     url: https://twitter.com/_welovespeed?sp=8
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   raphael:
@@ -125,13 +99,9 @@
     image: /assets/images/speakers/2019/raphael.jpg
     url: https://twitter.com/_welovespeed?sp=9
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   benoit:
@@ -140,13 +110,9 @@
     image: /assets/images/speakers/2019/benoitj.jpg
     url: https://twitter.com/_welovespeed?sp=10
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   antonio:
@@ -155,13 +121,9 @@
     image: /assets/images/speakers/2019/antonio.jpg
     url: https://twitter.com/_welovespeed?sp=11
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   quentin:
@@ -170,13 +132,9 @@
     image: /assets/images/speakers/2019/quentin.jpg
     url: https://twitter.com/_welovespeed?sp=12
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   loic:
@@ -185,13 +143,9 @@
     image: /assets/images/speakers/2019/loic.jpg
     url: https://twitter.com/_welovespeed?sp=13
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   peter:
@@ -200,13 +154,9 @@
     image: /assets/images/speakers/2019/peter.jpg
     url: https://twitter.com/_welovespeed?sp=14
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   gilles:
@@ -215,13 +165,9 @@
     image: /assets/images/speakers/2019/gilles.jpg
     url: https://twitter.com/_welovespeed?sp=15
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   nicolas:
@@ -230,13 +176,9 @@
     image: /assets/images/speakers/2019/nicos.jpg
     url: https://twitter.com/_welovespeed?sp=16
     en_US:
-      alt: >-
-        English alternative texte.
       bio: >-
         English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
     fr_FR:
-      alt: >-
-        Texte alternatif français.
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
 2018:
