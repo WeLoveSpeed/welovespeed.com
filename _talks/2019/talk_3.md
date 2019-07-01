@@ -2,7 +2,7 @@
 display-order: 3
 pub_date: '2019-06-01'
 speakers:
-  - estelle
+  - matthew
 fr_FR:
   title: "Titre de l'intervention"
   description: >-

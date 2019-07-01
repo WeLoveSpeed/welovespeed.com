@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 3
 pub_date: '2019-06-01'
 speakers:
   - romuald
