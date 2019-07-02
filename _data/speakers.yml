@@ -134,10 +134,34 @@
     url: https://twitter.com/_welovespeed?sp=11
     en_US:
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        Antonio Gomes Rodrigues is an expert in the field of application performance for over 10 years. His missions led him to work:
+
+        - on the performance of high-traffic websites;
+
+        - on the performance of an application for brokers;
+
+        - on the performance of large client apps, cloud and web applications, etc.
+
+
+        With various tools (Profiler, APM, Synthetic Monitoring, load test...) and in various tasks: stress tests, implementation of performance strategies, training, performance audits, troubleshooting, etc...
+
+
+        He is currently Performance Manager at SeLoger, contributor and <abbr title="Project Management Committee">PMC</abbr> member of the JMeter project within the Apache Software Foundation - ASF.
     fr_FR:
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        Antonio Gomes Rodrigues est expert dans le domaine des performances applicatives depuis plus de 10 ans. Ses missions l’ont amené à travailler :
+
+        - sur les performances des sites WEB à fort trafic ;
+
+        - sur les performances d'une application pour courtiers ;
+
+        - sur les performances de clients lourds, d'applications dans le cloud, d'application WEB, etc.
+
+
+        Avec divers outils (Profiler, APM, Synthetic Monitoring, load test...et dans diverses missions : tests de charge, mise en place de stratégies de performance, formations, audits de performance, diagnostics, etc.
+
+
+        Il est actuellement responsable performance chez SeLoger, contributeur et membre <abbr title="Project Management Committee">PMC</abbr> du projet JMeter au sein de la fondation Apache Software - ASF.
   quentin:
     name: Quentin Mathieu
     locale: fr_FR
