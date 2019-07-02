@@ -83,16 +83,28 @@
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   ryan:
-    name: Lorem Ipsim 8
+    name: Ryan Townsend
     locale: fr_FR
     image: /assets/images/speakers/2019/ryan.jpg
     url: https://twitter.com/_welovespeed?sp=8
     en_US:
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        With over 15 years experience developing for the web, and an undying passion for web performance, Ryan Townsend is the CTO of Shift Commerce – a SaaS e-commerce platform for ambitious retailers.
+
+
+        His pragmatic and performance-led outlook means that—on the rare occasion that he does wear a shirt—his sleeves stay firmly rolled up: even as an exec, his favourite place is right there in the thick of things with his team.
+
+
+        Outside of the office, you’ll usually find him picking up heavy objects in the gym or falling off his mountain bike down the side of a hill.
     fr_FR:
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        Avec plus de 15 ans d'expérience dans le développement web, et une passion inébranlable pour la WebPerf, Ryan Townsend est le directeur technique de Shift Commerce - une plateforme e-commerce SaaS pour les détaillants ambitieux.
+
+
+        Sa vision pragmatique et axée sur la performance impliquent que même quand il porte une chemise, ses manches restent bien retroussées : bien qu'il soit cadre, sa place préférée est là, au cœur de l'action, avec son équipe.
+
+
+        À l'extérieur du bureau, il ramasse des objets lourds dans des gymnases ou tombe de son VTT sur le flanc des collines.
   raphael:
     name: Lorem Ipsim 9
     locale: en_US
