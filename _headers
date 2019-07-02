@@ -1,5 +1,6 @@
 /*
   Cache-Control: max-age=7200, private
+  Strict-Transport-Security: "max-age=63072000" always
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
