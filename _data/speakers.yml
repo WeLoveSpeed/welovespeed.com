@@ -61,16 +61,16 @@
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   jeremy:
-    name: Lorem Ipsim 6
-    locale: fr_FR
+    name: Jeremy Wagner
+    locale: en_US
     image: /assets/images/speakers/2019/jeremy.jpg
-    url: https://twitter.com/_welovespeed?sp=6
+    url: https://twitter.com/malchata
     en_US:
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        Jeremy Wagner is an independent performance consultant, author, and speaker from Minnesota.
     fr_FR:
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        Jeremy Wagner est un consultant indépendant, auteur et conférencier qui nous vient du Minnesota. Il est l'auteur de nombreux articles de références sur la Performance Web, notamment [sur WebFundamentals](https://developers.google.com/web/resources/contributors/jeremywagner).
   katie:
     name: Lorem Ipsim 7
     locale: en_US
