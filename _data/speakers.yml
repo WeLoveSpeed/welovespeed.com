@@ -18,7 +18,7 @@
         Ces différents domaines d'expertises m'ont permis de définir les problématiques de performance et d'architecture de beaucoup de projets, et de me pencher sérieusement sur la conception responsable en prenant en compte l'éco-conception des applications web et natives et tous les horizons du numérique responsable.
   matthew:
     name: Lorem Ipsim 2
-    locale: fr_FR
+    locale: en_US
     image: /assets/images/speakers/2019/matthew.jpg
     url: https://twitter.com/_welovespeed?sp=2
     en_US:
@@ -50,8 +50,8 @@
       bio: >-
         Expert webperf chez Fasterize, je suis un des développeurs du moteur d'optimisation au cœur de la solution. Je travaille essentiellement sur des optimisations Front-End.
   antoine:
-    name: Lorem Ipsim 5
-    locale: en_US
+    name: Antoine Khan
+    locale: fr_FR
     image: /assets/images/speakers/2019/antoine.jpg
     url: https://twitter.com/_welovespeed?sp=5
     en_US:
@@ -72,7 +72,7 @@
       bio: >-
         Jeremy Wagner est un consultant indépendant, auteur et conférencier qui nous vient du Minnesota. Il est l'auteur de nombreux articles de références sur la Performance Web, notamment [sur WebFundamentals](https://developers.google.com/web/resources/contributors/jeremywagner).
   katie:
-    name: Lorem Ipsim 7
+    name: Katie Koshland
     locale: en_US
     image: /assets/images/speakers/2019/katie.jpg
     url: https://twitter.com/_welovespeed?sp=7
@@ -84,7 +84,7 @@
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   ryan:
     name: Ryan Townsend
-    locale: fr_FR
+    locale: en_US
     image: /assets/images/speakers/2019/ryan.jpg
     url: https://twitter.com/_welovespeed?sp=8
     en_US:
@@ -106,8 +106,8 @@
 
         À l'extérieur du bureau, il ramasse des objets lourds dans des gymnases ou tombe de son VTT sur le flanc des collines.
   raphael:
-    name: Lorem Ipsim 9
-    locale: en_US
+    name: Raphaël Dardeau
+    locale: fr_FR
     image: /assets/images/speakers/2019/raphael.jpg
     url: https://twitter.com/_welovespeed?sp=9
     en_US:
@@ -117,7 +117,7 @@
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   benoit:
-    name: Lorem Ipsim 10
+    name: Benoit Jacquemont
     locale: fr_FR
     image: /assets/images/speakers/2019/benoitj.jpg
     url: https://twitter.com/_welovespeed?sp=10
@@ -128,8 +128,8 @@
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   antonio:
-    name: Lorem Ipsim 11
-    locale: en_US
+    name: Antonio Gomes Rodrigues
+    locale: fr_FR
     image: /assets/images/speakers/2019/antonio.jpg
     url: https://twitter.com/_welovespeed?sp=11
     en_US:
@@ -139,7 +139,7 @@
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   quentin:
-    name: Lorem Ipsim 12
+    name: Quentin Mathieu
     locale: fr_FR
     image: /assets/images/speakers/2019/quentin.jpg
     url: https://twitter.com/_welovespeed?sp=12
@@ -150,8 +150,8 @@
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   loic:
-    name: Lorem Ipsim 13
-    locale: en_US
+    name: Loïc Troquet
+    locale: fr_FR
     image: /assets/images/speakers/2019/loic.jpg
     url: https://twitter.com/_welovespeed?sp=13
     en_US:
@@ -161,8 +161,8 @@
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   peter:
-    name: Lorem Ipsim 14
-    locale: fr_FR
+    name: Peter Hedenskog
+    locale: en_US
     image: /assets/images/speakers/2019/peter.jpg
     url: https://twitter.com/_welovespeed?sp=14
     en_US:
@@ -172,8 +172,8 @@
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   gilles:
-    name: Lorem Ipsim 15
-    locale: en_US
+    name: Gilles Dubuc
+    locale: fr_FR
     image: /assets/images/speakers/2019/gilles.jpg
     url: https://twitter.com/_welovespeed?sp=15
     en_US:
@@ -183,7 +183,7 @@
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   nicolas:
-    name: Lorem Ipsim 16
+    name: Nicolas Hoffmann
     locale: fr_FR
     image: /assets/images/speakers/2019/nicos.jpg
     url: https://twitter.com/_welovespeed?sp=16
