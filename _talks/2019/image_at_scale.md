@@ -4,7 +4,7 @@ pub_date: '2018-06-01'
 speakers:
   - anthony
 fr_FR:
-  title: "Image at scale"
+  title: "Images : automatiser pour mieux délivrer"
   description: >-
     Mon intervention visera à vulgariser les grandes problématiques et solutions autour de l'optimisation massive d'images sur des services comme Akamai, Cloudinary ou Fasterize.
 
