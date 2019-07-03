@@ -27,10 +27,21 @@
     fr_FR:
       bio: >-
         Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
-  estelle:
+  estelle_fr:
+    name: Estelle Weyl
+    locale: fr_FR
+    image: /assets/images/speakers/2019/estelle_fr.jpg
+    url: https://twitter.com/estellevw
+    en_US:
+      bio: >-
+        Estelle is a consulting web developer, trainer, author and speaker, currently writing for MDN Web Docs on accessibility, performance and CSS. She speaks and leads workshops on web development all over the world. Her books have been translated into over 14 languages. She’s been coding CSS, HTML, and JavaScript since 1999.
+    fr_FR:
+      bio: >-
+        Estelle est consultante, formatrice, auteure et conférencière. Elle organise la conférence #Perfmatters. Elle documente les technologies Web pour MDN concernant l'accessibilité, les performances et CSS. Elle parle et anime des ateliers sur le développement Web dans le monde entier et ses livres ont été traduits dans plus de 14 langues. Elle code en CSS, HTML et JavaScript depuis 1999.
+  estelle_en:
     name: Estelle Weyl
     locale: en_US
-    image: /assets/images/speakers/2019/estelle.jpg
+    image: /assets/images/speakers/2019/estelle_us.jpg
     url: https://twitter.com/estellevw
     en_US:
       bio: >-

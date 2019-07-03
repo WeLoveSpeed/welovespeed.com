@@ -2,7 +2,7 @@
 display-order: 1
 pub_date: '2018-06-01'
 speakers:
-  - estelle
+  - estelle_fr
 fr_FR:
   title: "Navigateur : les coulisses du chargement"
   description: >-
