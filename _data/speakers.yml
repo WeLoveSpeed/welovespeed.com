@@ -61,16 +61,16 @@
       bio: >-
         Expert webperf chez Fasterize, je suis un des développeurs du moteur d'optimisation au cœur de la solution. Je travaille essentiellement sur des optimisations Front-End.
   antoine:
-    name: Antoine Khan
+    name: Antoine Kahn-Dubois
     locale: fr_FR
     image: /assets/images/speakers/2019/antoine.jpg
-    url: https://twitter.com/_welovespeed?sp=5
+    url: https://www.linkedin.com/in/antoine-kahn-dubois-3236b88b/
     en_US:
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        Antoine is an agile developer who has been working for four years at Theodo, and is passionate about performance, JavaScript & Python. He is convinced that reducing JavaScript bundle sizes is the way to save the world.
     fr_FR:
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        Antoine est un développeur agile depuis quatre ans chez Theodo, passionné de performances, JavaScript et Python. Il est convaincu que nous pouvons sauver le monde en réduisant la taille de nos bundles JavaScript.
   jeremy:
     name: Jeremy Wagner
     locale: en_US
