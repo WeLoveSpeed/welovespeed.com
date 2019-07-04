@@ -34,7 +34,7 @@ tickets:
   price_currency: "EUR"
 infos:
   diversity_id: 437
-  display: false
+  display: true
   video: true
 cfp_open: false
 
