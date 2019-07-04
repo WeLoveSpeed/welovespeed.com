@@ -9,7 +9,7 @@ fr_FR:
     Mon intervention visera à vulgariser les grandes problématiques et solutions autour de l'optimisation massive d'images sur des services comme Akamai, Cloudinary ou Fasterize.
 
 
-    Elle commencera par rappeler les principles même de l'optimisation des images : facteur de compression, luminance/chrominance, format avec ou sans perte.
+    Elle commencera par rappeler les principes même de l'optimisation des images : facteur de compression, luminance/chrominance, format avec ou sans perte.
 
 
     Puis, on rentrera dans le vif du sujet : 
@@ -21,9 +21,9 @@ fr_FR:
 
     - sélection automatique du meilleur format en fonction de l'image
 
-    - choix de la meilleur image pour un contexte donnée (connexion, support du navigateur, capacité de l'écran)
+    - choix de la meilleure image pour un contexte donné (connexion, support du navigateur, capacité de l'écran)
 
-    - génération des balises HTML srcset / picture de façon automatique.
+    - génération automatique des attributs HTML `srcset` et `sizes` ainsi que de la balise `<picture>`.
 
 
     Le but est donc de partager à la fois mon expérience sur ce sujet et ma veille sur les nombreuses avancées dans ce domaine.
@@ -49,7 +49,7 @@ en_US:
 
     - choice of the best image for a given context (connection, browser support, screen capacity)
 
-    - automatic generation of HTML srcset / picture tags.
+    - automatic generation of HTML `srcset`, `sizes` attributes and `<picture>` tag.
 
 
     The purpose of this talk is therefore to share both my experience on this subject and my understanding of recent developments in this field.

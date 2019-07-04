@@ -6,7 +6,7 @@ speakers:
 fr_FR:
   title: "Navigateur : les coulisses du chargement"
   description: >-
-    Pour comprendre la performances web, les développeurs doivent d'abord comprendre comment un navigateur fonctionne. Partons à la découverte du navigateur et de ce qui s'y passe quand un internaute demande une page.
+    Pour comprendre la performance web, les développeurs doivent d'abord comprendre comment un navigateur fonctionne. Partons à la découverte du navigateur et de ce qui s'y passe quand un internaute demande une page.
   slides: ~
   video: ~
 en_US:

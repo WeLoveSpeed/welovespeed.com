@@ -9,7 +9,7 @@ fr_FR:
     Le Web doit être rapide, optimisé et performant. Mais rendre un site performant n'est pas chose facile lorsque l'on essaye de prendre en compte les problématiques écologiques soulevées par le code généré ou l'ajout de serveurs à des infrastructures. La performance n'est pas <i lang="en">green</i>, mais elle pourrait.
     
     
-    J'expliquerai dans cette conférence les défis écologiques que pose le numérique et ceux qui sont spécificiquement liés à certaines optimisations de la Performance Web afin que vous sachiez les éviter. Ensemble, construisons un web rapide, performant <strong>et responsable</strong>.
+    J'expliquerai dans cette conférence les défis écologiques que pose le numérique et ceux qui sont spécifiquement liés à certaines optimisations de la Performance Web afin que vous sachiez les éviter. Ensemble, construisons un web rapide, performant <strong>et responsable</strong>.
   slides: ~
   video: ~
 en_US:

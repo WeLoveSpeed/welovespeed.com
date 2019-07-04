@@ -22,7 +22,7 @@ fr_FR:
 
     - Les obstacles (quelle·s posture·s adopter dans des cas d'intérêts divergents) ;
 
-    - La phase de maturité (sensibliser les équipes plus largement, déterminer les relais de l'acculturation) ;
+    - La phase de maturité (sensibiliser les équipes plus largement, déterminer les relais de l'acculturation) ;
 
     - Et bien sûr, la fin (quand peut-on dire qu'un projet d'optimisation est terminé ?).
   slides: ~

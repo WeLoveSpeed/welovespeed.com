@@ -9,7 +9,7 @@ fr_FR:
     Grâce aux APIs côté client telles que Navigation Timing, nous avons la possibilité de collecter énormément d'informations sur la performance web réelle de nos utilisateurs et utilisatrices. Cependant, le nature organique de ces données crée de nombreux pièges dans lesquels il est facile de tomber quand on tente de les interpréter. 
     
     
-    Nous allons voir ensemble de bonnes pratiques en la matière, des exemples réels provenant du trafic de Wikipédia ainsi que des résultats de recherche récents que vous avons publié sur ce sujet. 
+    Nous allons voir ensemble de bonnes pratiques en la matière, des exemples réels provenant du trafic de Wikipédia ainsi que des résultats de recherche récents que nous avons publié sur ce sujet. 
     
     Nous chercherons à savoir quelles mesures RUM sont les plus pertinentes. 
     
