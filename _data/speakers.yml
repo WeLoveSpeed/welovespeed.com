@@ -226,23 +226,31 @@
       bio: >-
         After more than ten years of experience as a Full Stack developer, Gilles Dubuc joined the Wikimedia Foundation in 2014.
 
+
         He is one of the founding members of the Performance team within the foundation, created in 2015. Since then, he has contributed to making Wikipedia and other Wikimedia projects the most efficient websites possible, through his involvement at all levels of architecture, by participating in the future of Web performance within the W3C, and through research work.
     fr_FR:
       bio: >-
         Après plus d’une dizaine d'années d’expérience en tant que développeur Full Stack, Gilles Dubuc a rejoint la Fondation Wikimedia en 2014.
 
+
         Il est l’un des membres fondateurs de l’équipe Performance au sein de la fondation, créée en 2015. Il contribue depuis au fait de rendre Wikipedia et les autres projets Wikimedia les sites web les plus performants possibles, en intervenant à tous les niveaux de l’architecture et en participant au futur de la performance Web au sein du W3C et à travers des travaux de recherche.
   nicolas:
     name: Nicolas Hoffmann
     locale: fr_FR
-    image: /assets/images/speakers/2019/nicos.jpg
-    url: https://twitter.com/_welovespeed?sp=16
+    image: /assets/images/speakers/2019/nicolas.jpg
+    url: https://twitter.com/Nico3333fr
     en_US:
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        Nicolas is a soldier who has been pacificaly moving up to the front(-end) over more than 15 years. He’s been working in a Swiss web agency for about 10 years, and he’s currently working as a quark on UI and CSS among other things… at ProtonMail.
+
+
+        Head of the OpenWeb group, speaker at events such as Paris-Web, Codeurs en Seine, Sud Web… He’s also the editor of the micro-framework CSS Röcssti, Opquast certified Quality Expert, editor of scripts available via the Van11y project -- with some ARIA inside --, and he published more than 50 articles about CSS conception, security, Web quality… He’s sometimes kindly nicknamed "the Web quality Swiss-German", due to his great score at the Opquast certification. And maybe you won’t believe it, but  he considers this nickname as a compliment!
     fr_FR:
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        Nicolas est un soldat monté pacifiquement au front (-end) depuis plus de 15 ans, qui a bossé en web agency en Suisse pendant une dizaine d'année, et qui travaille actuellement entre autres sur l'UI et CSS en tant que quark… chez ProtonMail.
+
+
+        Directeur du collectif OpenWeb, conférencier à des événements comme Paris-Web, Codeurs en Seine, Sud Web, etc., aussi auteur du micro-framework CSS Röcssti, certifié Expert qualité Opquast, également auteur de scripts accessibles via le projet Van11y - avec de l’ARIA dedans - et de plus d’une cinquantaine d’articles sur la conception de CSS, la sécurité, la qualité Web, etc., il est parfois délicatement surnommé « le Suisse-Allemand de la qualité Web » à cause d'un bon score à la certification Opquast. Le pire, c’est qu’il prend ce surnom comme un compliment.
 2018:
   rick:
     name: Rick Viscomi
