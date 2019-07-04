@@ -141,7 +141,7 @@
   antonio:
     name: Antonio Gomes Rodrigues
     locale: fr_FR
-    image: /assets/images/speakers/2019/antonio.jpg
+    image: /assets/images/speakers/2019/antonio2.jpg
     url: https://www.linkedin.com/in/antoniogomesrodrigues/
     en_US:
       bio: >-
@@ -177,13 +177,24 @@
     name: Quentin Mathieu
     locale: fr_FR
     image: /assets/images/speakers/2019/quentin.jpg
-    url: https://twitter.com/_welovespeed?sp=12
+    url: https://fr.linkedin.com/in/quentinmathieu
     en_US:
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        Expert <abbr title="Quality of Experience">QOE</abbr> at OUI.sncf, strives to master the IT for the benefit of the user experience.
     fr_FR:
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        Expert <abbr title="Quality of Experience">QOE</abbr> pour OUI.sncf, œuvre pour la maîtrise du SI au service de l'expérience utilisateur.
+  mathilde:
+    name: Mathilde Lassort
+    locale: fr_FR
+    image: /assets/images/speakers/2019/mathilde.jpg
+    url: https://www.linkedin.com/in/mathilde-lassort/
+    en_US:
+      bio: >-
+        Head of Customer Experience Program at OUI.sncf, Mathilde actively participates in improving the customer experience on all OUI.sncf devices (web, mobile, tablet, connected objects etc.) in order to increase customer satisfaction, conversion and business growth.
+    fr_FR:
+      bio: >-
+        Chef de Programme Expérience Client chez OUI.sncf, Mathilde participe activement à l’amélioration de l’expérience client sur l’ensemble des dispositifs OUI.sncf (web, mobile, tablette, objets connectés etc.) dans le but d’augmenter la satisfaction client, la conversion et le développement du volume d’affaire.
   loic:
     name: Loïc Troquet
     locale: fr_FR
