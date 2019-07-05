@@ -26,7 +26,7 @@
 {% endunless %}
     <a class="sr-only" src="{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: include.locale }}{% endunless %}#conferences" >{% t Aller directement au programme détaillé %}</a>
     <h{% if include.h1 %}1{% else %}2{% endif %} class="text-center">
-        {% t Intervenants %}
+        <span class="inline-not-large">{% t Intervenant‧e‧s %}</span><span class="inline-large">{% t Intervenants et Intervenantes %}</span>
     </h{% if include.h1 %}1{% else %}2{% endif %}>
     <div class="grid-{{ site.data.gridsize[nbItemGrid] }} text-center">
 
