@@ -15,10 +15,14 @@ fr_FR:
 en_US:
   title: "Why does frontend performance matter?"
   description: >-
-    A talk about my opinion on why performance matters and it's huge impact on users when looking at it from the perspective of government services. Talk focuses on the UK government's website for central government, GOV.UK. The talk contains details on the history of GDS and GOV.UK. Who are users are and the connections / devices that they use. There's a focus on what happens if web performance is poor for a government service and what this means for users who rely on these essential services. It also covers what we have done, are doing and plans for the future for web performance across government.
+    A talk giving my opinion on why frontend performance matters and it's huge impact on users from the perspective of government services. The talk focuses on the UK central government's website, [GOV.UK](https://www.gov.uk/). It contains details on the history of Government Digital Service and [GOV.UK](https://www.gov.uk/), who our users are and the devices that they use. 
 
 
-    Target audience is anyone interested in performance who would like a government perspective on the matter. It's a sector where there is no competition. If a user can't find the information they need quickly and easily, there are no alternatives.
+    There's a focus on what happens if web performance is poor for government services and what this means for users who rely on them. It also covers what we've done in the past, are currently doing and our plans for the future of frontend web performance across government.
+
+
+    The target audience is anyone interested in web performance, and who would like a government perspective on the subject. It's a sector where there is no competition. If a user can't find the information they need quickly and easily, there really are no alternatives.
+
   slides: ~
   video: ~
 ---
