@@ -82,17 +82,6 @@
     fr_FR:
       bio: >-
         Jeremy Wagner est un consultant indépendant, auteur et conférencier qui nous vient du Minnesota. Il est l'auteur de nombreux articles de références sur la Performance Web, notamment [sur WebFundamentals](https://developers.google.com/web/resources/contributors/jeremywagner).
-  katie:
-    name: Katie Koshland
-    locale: en_US
-    image: /assets/images/speakers/2019/katie.jpg
-    url: https://twitter.com/_welovespeed?sp=7
-    en_US:
-      bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
-    fr_FR:
-      bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
   ryan:
     name: Ryan Townsend
     locale: en_US
@@ -131,13 +120,13 @@
     name: Benoit Jacquemont
     locale: fr_FR
     image: /assets/images/speakers/2019/benoitj.jpg
-    url: https://twitter.com/_welovespeed?sp=10
+    url: https://twitter.com/bjacquemont
     en_US:
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        Benoit Jacquemont est tombé dans le web en 2000 après avoir une première expérience sur des logiciels d'encaissements. De Java à PHP, de Oracle à MySQL et des applications de gestions aux sites de eCommerce, il roule sa bosse sur les projets, toujours à forte composante OpenSource, au sein du groupe Smile. Il en devient le CTO en 2009 alors que l'entreprise compte près de 450 salariés. En janvier 2013, il co-fonde [Akeneo](https://www.akeneo.com/fr/) avec Frédéric de Gombert, Nicolas Dupont et Yoav Kutner. L'aventure startup commence alors pour lui, en tant que CTO d'[Akeneo](https://www.akeneo.com/fr/).
     fr_FR:
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        Benoit Jacquemont dived into the web in 2000 after having a first experience on payment software. From Java to PHP, from Oracle to MySQL and from management applications to eCommerce sites, he worked on various projects, always with a strong OpenSource dimension, within the Smile group. He became the CTO in 2009 when the company had nearly 450 employees. In January 2013, he co-founded [Akeneo](https://www.akeneo.com/) with Frédéric de Gombert, Nicolas Dupont and Yoav Kutner. The startup adventure then began for him, as [Akeneo](https://www.akeneo.com/)'s CTO.
   antonio:
     name: Antonio Gomes Rodrigues
     locale: fr_FR
