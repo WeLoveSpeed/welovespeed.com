@@ -17,16 +17,16 @@
 
         Ces différents domaines d'expertises m'ont permis de définir les problématiques de performance et d'architecture de beaucoup de projets, et de me pencher sérieusement sur la conception responsable en prenant en compte l'éco-conception des applications web et natives et tous les horizons du numérique responsable.
   matthew:
-    name: Lorem Ipsim 2
+    name: Matt Hobbs
     locale: en_US
     image: /assets/images/speakers/2019/matthew.jpg
-    url: https://twitter.com/_welovespeed?sp=2
+    url: https://twitter.com/TheRealNooshu
     en_US:
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        Matt Hobbs is Head of Frontend Development at the Government Digital Service. An experienced frontend developer, he is passionate about using his skills to build accessible and performant user interfaces. Matt makes a point of keeping on top of the latest technology and tools, is an expert in all aspects of interface development, and is a keen advocate for best practice.
     fr_FR:
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        Matt est Responsable du développement Front-End au Service Numérique Gouvernemental du Royaume-Uni. Développeur Front expérimenté, il est passionné par l'utilisation de ses compétences pour créer des interfaces utilisateur accessibles et performantes. Matt se fait un point d'honneur de rester à la pointe de la technologie et des outils les plus récents, est un expert dans tous les aspects du développement d'interfaces et est un ardent défenseur des bonnes pratiques Web.
   estelle_fr:
     name: Estelle Weyl
     locale: fr_FR

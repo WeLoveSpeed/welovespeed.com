@@ -1,6 +1,6 @@
 ---
 display-order: 6
-pub_date: '2019-06-01'
+pub_date: '2019-07-01'
 speakers:
   - jeremy
 fr_FR:
