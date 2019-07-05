@@ -210,13 +210,13 @@
     name: Peter Hedenskog
     locale: en_US
     image: /assets/images/speakers/2019/peter.jpg
-    url: https://twitter.com/_welovespeed?sp=14
+    url: https://twitter.com/soulislove
     en_US:
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        Peter works in the performance team of the Wikimedia Foundation where he measure the performance of Wikipedia using synthetic testing and RUM. Before he joined the foundation he worked as a web performance consultant helping some of the biggest Swedish brands. Peter also created the popular open source web performance tool sitespeed.io.
     fr_FR:
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        Peter travaille dans l'équipe Performance de la Wikimedia Foundation où il mesure la performance de Wikipédia à l'aide de tests synthétiques et de RUM. Avant de rejoindre la fondation, il a travaillé comme consultant en Performance Web pour les plus grandes marques suédoises. Peter a également créé le populaire outil de Performance Web open source sitespeed.io.
   gilles:
     name: Gilles Dubuc
     locale: fr_FR
