@@ -12,7 +12,7 @@ fr_FR:
 en_US:
   title: "Browser 101: how the browser loads a page"
   description: >-
-    To understand web performance, developers must first understand how a browser works. Let's discover the browser and what happens when an Internet user requests a page.
+    To understand web performance, developers must first understand how a browser works. Let’s discuss what happens when a user requests a page and how the browser loads the page.
   slides: ~
   video: ~
 ---
