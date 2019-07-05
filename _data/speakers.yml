@@ -199,13 +199,13 @@
     name: Loïc Troquet
     locale: fr_FR
     image: /assets/images/speakers/2019/loic.jpg
-    url: https://twitter.com/_welovespeed?sp=13
+    url: https://twitter.com/loic_troquet
     en_US:
       bio: >-
-        English Lorem ipsum dolor sit amet, consectetur adipiscing elit. Propter nos enim illam, non propter eam nosmet ipsos diligimus. Quid turpius quam sapientis vitam ex insipientium sermone pendere?
+        Head of the architecture department at [www.pagesjaunes.fr](https://www.pagesjaunes.fr). Specialist in the development of high visibility web applications. Certified ScrumMaster. Specializations: Java, Spring, Continuous Delivery, Webperf, Security, Git, Maven, Scrum, Kanban, Lean, Management 3.0
     fr_FR:
       bio: >-
-        Français Non est igitur voluptas bonum. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere.
+        Responsable du pôle architecture [www.pagesjaunes.fr](https://www.pagesjaunes.fr). Spécialiste des développements d'applications web à forte visibilité. ScrumMaster certifié. Spécialisations : Java, Spring, Continuous Delivery, Webperf, Sécurité, Git, Maven, Scrum, Kanban, Lean, Management 3.0
   peter:
     name: Peter Hedenskog
     locale: en_US
