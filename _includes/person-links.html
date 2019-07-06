@@ -1,0 +1,13 @@
+<ul class="person-links">
+  {% capture symbols-url %}/assets/svg/symbol-defs.svg?{{site.time | date: '%Y%m%d%H%M%S'}}#{% endcapture %}
+
+  {% for link in include.urls %}
+    <li>
+      <a href="{{link.url}}" title="{{link.title}}">
+        <svg width="1em" role="img" aria-label="{{link.name}}" viewBox="0 0 448 512">
+          <use xlink:href="{{ symbols-url | append: link.name | relative_url }}"/>
+        </svg>
+      </a>
+    </li>
+  {% endfor%}
+</ul>

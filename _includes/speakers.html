@@ -40,6 +40,7 @@
                 <a title="{{ "Aller directement à l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ talkUrl }}">
                   {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}
                 </a>
+                {% include person-links.html urls=speaker.urls %}
           </figure>
         {%- endfor -%}
       {%- endif -%}
