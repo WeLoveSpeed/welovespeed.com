@@ -68,11 +68,7 @@
                 {% else %}
                   <span class="text-xs">{% t Animé %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %} {%t par %}</span><br>
                 {% endunless %}
-                {% capture person %}<em>{{ speaker.name }}</em>{% endcapture %}
-                {% if speaker.url %}
-                  {% capture person %}<a href="{{ speaker.url }}">{{ person }}</a>{% endcapture %}
-                {% endif %}
-                {{ person }}
+                <em>{{ speaker.name }}</em> {% include person-links.html urls=speaker.urls %}
               </h3>
               <p class="conference-speaker-description">
                 {{ speakatim.bio | markdownify }}

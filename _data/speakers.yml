@@ -245,7 +245,10 @@
     name: Rick Viscomi
     locale: en_US
     image: /assets/images/speakers/2018/rick.jpg
-    url: https://twitter.com/rick_viscomi
+    urls:
+      - name: twitter
+        title: '@rick_viscomi (Twitter)'
+        url: https://twitter.com/rick_viscomi
     en_US:
       alt: >-
         Rick is smiling.
@@ -260,7 +263,13 @@
     name: Stéphanie Walter
     locale: fr_FR
     image: /assets/images/speakers/2018/walterstephanie.jpg
-    url: https://stephaniewalter.design/
+    urls:
+      - name: twitter
+        title: '@WalterStephanie (Twitter)'
+        url: https://twitter.com/WalterStephanie
+      - name: web
+        title: Website
+        url: https://stephaniewalter.design/
     en_US:
       alt: >-
         Stéphanie's mugshot
@@ -315,7 +324,10 @@
         IT Manager chez [Rue du Commerce](https://www.rueducommerce.fr/).
   cdiscount:
     name: Aurélien Lajoie
-    url: https://github.com/utix
+    urls:
+      - name: github
+        title: Github
+        url: https://github.com/utix
     locale: fr_FR
     image: /assets/images/speakers/2018/aurelien.jpg
     en_US:
@@ -346,6 +358,13 @@
     name: Philip Tellis
     locale: en_US
     image: /assets/images/speakers/2018/bluesmoon.jpg
+    urls:
+      - name: youtube
+        title: Youtube
+        url: https://www.google.com/search?q=youtube+philip+tellis
+      - name: twitter
+        title: '@bluesmoon (Twitter)'
+        url: https://twitter.com/bluesmoon
     en_US:
       alt: >-
         Philip's mugshot
@@ -378,6 +397,10 @@
     name: Nicolas Hoizey
     locale: fr_FR
     image: /assets/images/speakers/2018/nhoizey.jpg
+    urls:
+      - name: twitter
+        title: '@nhoizey (Twitter)'
+        url: https://twitter.com/nhoizey
     en_US:
       alt: >-
         Nicolas's mugshot
@@ -390,7 +413,10 @@
         Nicolas est cofondateur et consultant senior chez [Clever Age](https://www.clever-age.com/fr/). Il aide les entreprises à concevoir la bonne architecture technique, avec les bon choix de technologies et solutions, pour couvrir leurs besoins numériques. Il apporte de plus une expertise technique front-end : performance web, RWD, PWA, etc. S'appuyant sur plus de 20 ans d'expérience, il préconise une utilisation pragmatique des technologies Web, en définissant et en appliquant de bonnes pratiques techniques et méthodologiques.
   thomas:
     name: Thomas Zilliox
-    url: https://tzi.fr/
+    urls:
+      - name: web
+        title: Website
+        url: https://tzi.fr/
     locale: fr_FR
     image: /assets/images/speakers/2018/tzi.jpg
     en_US:
@@ -407,7 +433,10 @@
     name: Jean-Pierre Vincent
     locale: fr_FR
     image: /assets/images/staff/jp.jpg
-    url: https://www.linkedin.com/in/jeanpierrevincent/?locale=fr_FR
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/jeanpierrevincent/
     en_US:
       alt: >-
         Jean-Pierre's mugshot
@@ -422,7 +451,10 @@
     name: Damien Jubeau
     locale: fr_FR
     image: /assets/images/speakers/2018/damien.jpg
-    url: https://www.dareboost.com
+    urls:
+      - name: web
+        title: Dareboost
+        url: https://www.dareboost.com
     en_US:
       alt: >-
         Damien's mugshot
@@ -437,7 +469,10 @@
     name: Stéphane Rios
     locale: fr_FR
     image: /assets/images/staff/stephane.jpg
-    url: https://www.fasterize.com
+    urls:
+      - name: web
+        title: Fasterize
+        url: https://www.fasterize.com
     en_US:
       alt: >-
         Stéphane's mugshot
@@ -464,7 +499,10 @@
     name: Jonas Badalic
     locale: en_US
     image: /assets/images/speakers/2018/jonas.jpg
-    url: https://twitter.com/JonasBadalic
+    urls:
+      - name: twitter
+        title: '@JonasBadalic (Twitter)'
+        url: https://twitter.com/JonasBadalic
     en_US:
       alt: >-
         Jonas' mugshot
