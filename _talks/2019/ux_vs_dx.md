@@ -6,7 +6,7 @@ speakers:
 fr_FR:
   title: '<abbr title="User Experience">UX</abbr> vs <abbr title="Developer Experience">DX</abbr>'
   description: >-
-    Rapide à coder. Rapide à montrer. Mais pourquoi devrait-on choisir entre l'un et l'autre ? Nos sites sont censés être réactifs, internationalisables, sécurisés, accessibles et performants. Il est normal d’utiliser tous les outils disponibles pour implémenter rapidement des fonctionnalités, mais certains outils ont un impact négatif sur la facilité d’utilisation. Voyons quels sont les problèmes communs et comment ne pas sacrifier la qualité au profit du confort du développeur.
+    Rapide à coder. Rapide à montrer. Mais pourquoi devrait-on choisir entre l'un et l'autre ? Nos sites sont censés être réactifs, internationalisables, sécurisés, accessibles et performants. Il est logique d’utiliser tous les outils disponibles pour implémenter rapidement des fonctionnalités, mais il faut faire attention à ce que vos outils n’aient pas un impact négatif sur la facilité d’utilisation. Voyons quels sont les problèmes communs et comment ne pas sacrifier la qualité au profit du confort du développeur.
     
     
     Dans cette session, nous abordons les problèmes de création de sites sans compromettre aucune exigence.
