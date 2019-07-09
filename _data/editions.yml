@@ -1,0 +1,26 @@
+2019:
+  com_city: "Lille"
+  tagline:
+    fr_FR: "20 septembre 2019, Lille"
+    en_US: "September 20, Lille, France"
+  start: "2019-09-20T08:30"
+  end: "2019-09-20T18:30"
+  address:
+    line1: "LA CITÉ des échanges"
+    line2: "40 Rue Eugène Jacquet"
+    zipcode: "59700"
+    city: "Marcq-en-Barœul"
+    region: "Nord-Pas-de-Calais"
+2018:
+  com_city: "Bordeaux"
+  tagline:
+    fr_FR: "9 octobre 2018, Bordeaux"
+    en_US: "October 9, 2018, Bordeaux, France"
+  start: "2018-10-09T08:30"
+  end: "2018-10-09T18:30"
+  address:
+    line1: "Palais de la Bourse"
+    line2: "17 place de la Bourse"
+    zipcode: "33000"
+    city: "Bordeaux"
+    region: "Nouvelle Aquitaine"

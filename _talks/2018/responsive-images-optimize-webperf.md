@@ -1,6 +1,6 @@
 ---
 display-order: 5
-display: true
+pub_date: '2018-07-01'
 speakers:
   - nicolas
 fr_FR:

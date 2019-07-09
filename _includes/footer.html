@@ -9,8 +9,9 @@
         <h2 id="footerTitle2" class="text-lg">{% t Éditions %}</h2>
         <nav aria-labelledby="footerTitle2">
           <ul>
-              <li><a href="{{ page.baseurl | default:site.baseurl }}/2019">2019</a></li>
-            <li><a href="{{ page.baseurl | default:site.baseurl }}/2018">2018, Bordeaux</a></li>
+            {%- for edition in site.data.editions -%}
+            <li><a href="{{ page.baseurl | default:site.baseurl }}/{{ edition[0] }}">{{ edition[0] }}, {{ edition[1].com_city }}</a></li>
+            {%- endfor -%}
           </ul>
         </nav>
       </section>

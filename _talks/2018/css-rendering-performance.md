@@ -1,6 +1,6 @@
 ---
 display-order: 6
-display: true
+pub_date: '2018-07-01'
 speakers:
   - thomas
 fr_FR:

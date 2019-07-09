@@ -1,53 +1,56 @@
+{% capture nowUnix %}{{ site.time | date: '%s'}}{% endcapture %}
 <section class="section talks">
   <div class="wrapper">
     <h2 class="text-center">
       {% t Aperçu %}
     </h2>
     {% for conference in include.conferences %}
-    <hr id="{{ conference.slug }}">
-    {% if include.locale == "en_US" and conference.en_US %}
-      {% assign verbatim = conference.en_US %}
-      {% assign other_verbatim = conference.fr_FR %}
-    {% else %}
-      {% assign verbatim = conference.fr_FR %}
-      {% assign other_verbatim = conference.en_US %}
-    {% endif %}
-    <article class="conference">
-      <h3>
-        {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
-      </h3>
-      {{ verbatim.description | markdownify }}
-      {% if verbatim.transcript or verbatim.slides or verbatim.video or other_verbatim.transcript or other_verbatim.slides or other_verbatim.video %}
-        <p class="text-center">
-        {% if verbatim.transcript %}
-          <a class="button" data-text="{% t lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t lire la version textuelle %}"><span class="button-inner">{% t lire la version textuelle %}</span></a>
-        {% else %}
-          {% if other_verbatim.transcript %}
-            {% capture text_button %}{% t lire la version textuelle %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-            <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.transcript }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
-          {% endif %}
-        {% endif %}
-        {% if verbatim.slides %}
-          <a class="button" data-text="{% t consulter le support %}" href="{{ verbatim.slides }}" title="{% t consulter le support %}"><span class="button-inner">{% t consulter le support %}</span></a>
-        {% else %}
-          {% if other_verbatim.slides %}
-            {% capture text_button %}{% t consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-            <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.slides }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
-          {% endif %}
-        {% endif %}
-        {% if verbatim.video %}
-          <a class="button" data-text="{% t voir la vidéo %}" href="{{ verbatim.video }}" title="{% t voir la vidéo %}"><span class="button-inner">{% t voir la vidéo %}</span></a>
-        {% else %}
-          {% if other_verbatim.video %}
-            {% capture text_button %}{% t voir la vidéo %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-            <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.video }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
-          {% endif %}
-        {% endif %}
-        </p>
+      {% capture pubDateUnix %}{{ conference.pub_date | date: '%s' }}{% endcapture %}
+      {% if pubDateUnix <= nowUnix %}
+
+      <hr id="{{ conference.slug }}">
+      {% if include.locale == "en_US" and conference.en_US %}
+        {% assign verbatim = conference.en_US %}
+        {% assign other_verbatim = conference.fr_FR %}
+      {% else %}
+        {% assign verbatim = conference.fr_FR %}
+        {% assign other_verbatim = conference.en_US %}
       {% endif %}
-        {% for name in conference.speakers %}
-          {% assign speaker = site.data.speakers[name] %}
-          {% if speaker.display %}
+      <article class="conference">
+        <h3>
+          {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
+        </h3>
+        {{ verbatim.description | markdownify }}
+        {% if verbatim.transcript or verbatim.slides or verbatim.video or other_verbatim.transcript or other_verbatim.slides or other_verbatim.video %}
+          <p class="text-center">
+          {% if verbatim.transcript %}
+            <a class="button" data-text="{% t lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t lire la version textuelle %}"><span class="button-inner">{% t lire la version textuelle %}</span></a>
+          {% else %}
+            {% if other_verbatim.transcript %}
+              {% capture text_button %}{% t lire la version textuelle %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+              <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.transcript }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+            {% endif %}
+          {% endif %}
+          {% if verbatim.slides %}
+            <a class="button" data-text="{% t consulter le support %}" href="{{ verbatim.slides }}" title="{% t consulter le support %}"><span class="button-inner">{% t consulter le support %}</span></a>
+          {% else %}
+            {% if other_verbatim.slides %}
+              {% capture text_button %}{% t consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+              <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.slides }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+            {% endif %}
+          {% endif %}
+          {% if verbatim.video %}
+            <a class="button" data-text="{% t voir la vidéo %}" href="{{ verbatim.video }}" title="{% t voir la vidéo %}"><span class="button-inner">{% t voir la vidéo %}</span></a>
+          {% else %}
+            {% if other_verbatim.video %}
+              {% capture text_button %}{% t voir la vidéo %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+              <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.video }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+            {% endif %}
+          {% endif %}
+          </p>
+        {% endif %}
+          {% for name in conference.speakers %}
+            {% assign speaker = site.data.speakers[include.year][name] %}
             {% if include.locale == "en_US" and speaker.en_US %}
               {% assign speakatim = speaker.en_US %}
             {% else %}
@@ -55,7 +58,7 @@
             {% endif %}
             <section class="conference-speaker text-sm">
               <figure class="conference-speaker-pic" role="group">
-                {% cloudinary avatar {{ speaker.image | relative_url }} alt="" %}
+                {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}
                 <figcaption class="sr-only">{{ speaker.name }}</figcaption>
               </figure>
               <h3 class="conference-speaker-name">
@@ -65,19 +68,24 @@
                 {% else %}
                   <span class="text-xs">{% t Animé %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %} {%t par %}</span><br>
                 {% endunless %}
-                {% capture person %}<em>{{ speaker.name }}</em>{% endcapture %}
-                {% if speaker.url %}
-                  {% capture person %}<a href="{{ speaker.url }}">{{ person }}</a>{% endcapture %}
-                {% endif %}
-                {{ person }}
+                <em>{{ speaker.name }}</em> {% include person-links.html urls=speaker.urls %}
               </h3>
               <p class="conference-speaker-description">
                 {{ speakatim.bio | markdownify }}
               </p>
             </section>
-          {% endif %}
-        {%- endfor -%}
-    </article>
+          {%- endfor -%}
+      </article>
+      {%- endif -%}
+
+      {% if site.current_edition == page.year and site.tickets.selling %}
+    <p class="text-center">
+        <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+          <span class="button-inner">{% t réserver votre place %}</span>
+        </a>
+    </p>
+{% endif %}
+
     {%- endfor -%}
   </div>
 </section>

@@ -1,3 +1,17 @@
 .wrapper {
   width: $wrapper-width; max-width: $wrapper-max-width; margin: 0 auto;
 }
+
+.inline-large {
+  display: none;
+  @include media('>=large') {
+    display: inline-block;
+  }
+}
+
+.inline-not-large {
+  display: none;
+  @include media('<large') {
+    display: inline-block;
+  }
+}

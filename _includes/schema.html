@@ -1,26 +1,28 @@
-{% assign talks = site.talks | where:'year', include.year %}
+{%- assign talks = site.talks | where: "year", include.year | sort: "display-order" -%}
 {% assign staff = site.data.staff[include.year] %}
+{% assign edition = site.data.editions[include.year] %}
+{% capture nowUnix %}{{ site.time | date: '%s'}}{% endcapture %}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": "{{ site.seo_title }} 2019",
+  "name": "{{ site.seo_title }} {{ include.year }}",
   "description": "{% if include.locale == "en_US" %}{{ site.description_en }}{% else %}{{ site.description }}{% endif %}",
   "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}",
   "image": "https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,w_960/{{ site.url }}{{ site.baseurl }}/assets/images/social-{{ lang }}.png",
-  "startDate": "2019-09-20T09:00",
-  "endDate": "2019-09-20T18:00",
+  "startDate": "{{ edition.start }}",
+  "endDate": "{{ edition.end }}",
   "duration": "P2D",
   "location": {
     "@type": "Place",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "40 Rue Eugène Jacquet",
-      "postalCode": "59700",
-      "addressLocality": "Marcq-en-Barœul",
-      "addressRegion": "Nord-Pas-de-Calais"
+      "streetAddress": "{{ edition.address.line2 }}",
+      "postalCode": "{{ edition.address.zipcode }}",
+      "addressLocality": "{{ edition.address.city }}",
+      "addressRegion": "{{ edition.address.region }}"
     },
-    "name": "LA CITÉ des échanges"
+    "name": "{{ edition.address.line1 }}"
   },
   "organizer": {
     "@type": "Organization",
@@ -54,25 +56,26 @@
     "@type": "Offer",
     "price": "{{ site.tickets.price }}",
     "priceCurrency": "{{ site.tickets.price_currency }}",
-    "validFrom": "2019-01-01T00:00",
-    "validThrough": "2019-09-13T00:00",
+    "validFrom": "{{ include.year }}-01-01T00:00",
+    "validThrough": "{{ edition.start }}",
     "availability": "http://schema.org/InStock",
     "url": "{{ site.url }}{{ page.baseurl | default:site.baseurl }}/{% t billetterie %}/"
   },
   "performer": [
-  {% for conference in talks %}
+  {% for talk in talks %}
     {% unless forloop.first %},{% endunless %}
-    {% for names in conference.speakers %}
-      {% assign speaker = site.data.speakers[names] %}
-      {% if speaker.display %}
+    {% capture pubDateUnix %}{{ talk.pub_date | date: '%s' }}{% endcapture %}
+    {%- if pubDateUnix <= nowUnix -%}
+      {% for name in talk.speakers %}
+        {% assign speaker = site.data.speakers[include.year][name] %}
         {% unless forloop.first %},{% endunless %}
         {
           "@type": "Person",
           "name": "{{ speaker.name }}",
           "sameAs": "{{ speaker.url }}"
         }
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+    {%- endif -%}
   {% endfor %}
   ]
 }

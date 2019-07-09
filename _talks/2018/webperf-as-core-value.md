@@ -1,6 +1,6 @@
 ---
 display-order: 11
-display: true
+pub_date: '2018-07-01'
 speakers:
   - rdc
 fr_FR:

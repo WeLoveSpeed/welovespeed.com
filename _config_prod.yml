@@ -2,9 +2,6 @@
 
 title: We Love Speed
 seo_title: We Love Speed
-tagline:
-  2018: "9 octobre 2018, Bordeaux"
-  2019: "20 septembre 2019, Lille"
 description: "L’événement français des mordus de web performance !"
 description_en: "The French event for web performance enthusiasts"
 logo: /assets/images/twittercard.png
@@ -51,7 +48,7 @@ robots: index,follow
 # Services configuration
 
 weezevent:
-    mini-site-url: https://www.weezevent.com/welovespeed-2018
+    mini-site-url: https://www.weezevent.com/welovespeed-2019
 
 newsletter:
   display: true

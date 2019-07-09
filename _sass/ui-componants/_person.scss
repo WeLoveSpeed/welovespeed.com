@@ -1,6 +1,30 @@
 .person {
+  position: relative;
   &-avatar {
     max-width: 5em;
     border-radius: 50%;
+  }
+  &-links {
+    @extend %ul-reset;
+    position: absolute;
+    right: 15%;
+    bottom: -10px;
+    font-size: 0;
+
+    li {
+      font-size: 20px;
+      float: right;
+
+      a {
+        background-color: $default-bg;
+        margin: 0;
+        padding: 0;
+        line-height: 20px;
+        width: 20px;
+        border-radius: 30%;
+        display: inline-block;
+        height: 20px;
+      }
+    }
   }
 }

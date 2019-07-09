@@ -5,19 +5,21 @@ i18n-key: 2018-programme
 permalink: /2018/programme/
 ---
 
-{%- assign conferences = site.talks | where: "display", true | sort: "display-order" -%}
-{% include speakers.html conferences=conferences locale=page.locale shorturl=true h1=true %}
+{%- assign conferences = site.talks | where: "year", page.year | sort: "display-order" -%}
+{% include speakers.html conferences=conferences locale=page.locale shorturl=true h1=true year=page.year %}
 
 <hr class="wrapper">
 
-{% include conferences.html conferences=conferences locale=page.locale %}
+{% include conferences.html conferences=conferences locale=page.locale year=page.year %}
 
 {% if site.current_edition == page.year and site.tickets.selling %}
 <section class="section">
   <div class="wrapper">
-    <p class="text-center"><a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
-      <span class="button-inner">{% t réserver votre place %}</span>
-    </a></p>
+    <p class="text-center">
+        <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+          <span class="button-inner">{% t réserver votre place %}</span>
+        </a>
+    </p>
   </div>
 </section>
 {% endif %}
