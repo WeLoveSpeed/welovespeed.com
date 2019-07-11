@@ -6,7 +6,7 @@ speakers:
 fr_FR:
   title: "Chérie, j'ai rétréci mes bundles JS"
   description: >-
-    Sur un site à destination de conseillers d'une grande banque, nous nous sommes heurtés à des problèmes de performance dus à la quantité de JavaScript que nous envoyions au client.
+    Sur un site à destination de conseiller·ère·s d'une grande banque, nous nous sommes heurté·e·s à des problèmes de performance dus à la quantité de JavaScript que nous envoyions au client.
 
 
     Nous avons réduit le temps de chargement de notre application de 9 à 2 secondes, et ce grâce à plusieurs méthodes : l'analyse de bundle, le code splitting et la déduplication de dépendances.
@@ -27,7 +27,7 @@ fr_FR:
     J'illustrerai ces sujets avec les impacts concrets de chacune de ces méthodes sur la performance de mon projet.
 
 
-    À la fin du talk, vous connaitrez toutes les bonnes pratiques pour garder une faible taille de JavaScript, et aurez à votre disposition un support de formation pour faire de vous des experts.
+    À la fin du talk, vous connaitrez toutes les bonnes pratiques pour garder une faible taille de JavaScript, et aurez à votre disposition un support de formation pour faire de vous des expert·e·s.
   slides: ~
   video: ~
 en_US:
