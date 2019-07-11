@@ -7,14 +7,14 @@ speakers:
 fr_FR:
   title: "Dans quoi s'embarque-t-on en lançant un projet d'optimisation de la webperf ?"
   description: >-
-    Envie de lancer ou en phase de lancement d'un projet d'optimisation de la performance Web ?
+    Envie de lancer ou en phase de lancement d'un projet d'optimisation de la Performance Web ?
 
-    Abordons ensemble les différentes étapes de maturation d'un projet de webperf en entreprise au travers du retour d'expérience de OUI.sncf, mais  également sur des retours d'expériences d'autres sites e-commerce ayant eu la même démarche.
+    Abordons ensemble les différentes étapes de maturation d'un projet de webperf en entreprise au travers du retour d'expérience de OUI.sncf, mais également grâce à des retours d'expériences d'autres sites e-commerce ayant eu la même démarche.
 
     Durant cette présentation, nous aborderons :
 
 
-    - Les conditions de lancement d'un projet webperf (quel·s élément·s déclencheur·s ou argument·s peuvent permettre la prise de conscience de la nécessité de lancer un tel projet ?) ;
+    - Les conditions de lancement d'un projet webperf (quel·s élément·s déclencheur·s ou argument·s permettent la prise de conscience de la nécessité d'un tel projet ?) ;
 
     - La préparation (de qui s'entourer, comment s'organiser ?) ;
 
@@ -30,7 +30,7 @@ fr_FR:
 en_US:
   title: "Webperf optimization project: what are we getting into?"
   description: >-
-    Do you want to launch or are you in the process of launching a Web performance optimization project?
+    Do you want to launch or are you in the process of launching a Web Performance optimization project?
 
     Let's discuss together the different stages of maturation of a webperf project in a company through the feedback of OUI.sncf, but also from other e-commerce sites that have had the same approach.
 
