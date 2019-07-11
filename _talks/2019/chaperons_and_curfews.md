@@ -10,7 +10,7 @@ fr_FR:
 
     Même si l'époque où il était viable de tout construire en interne est révolue depuis longtemps, l'impact sur les performances de ces scripts commence à devenir incontrôlable. Alors bien sûr, nous n'allons pas devenir aigris et jeter tout ce petit monde dehors, mais ce n'est pas une raison pour ne pas modérer la fête.
 
-    Durant cette présentation, nous ne chercherons pas à éliminer complètement les tierces parties – personne n'aime qu'on lui enlève ses jouets – au lieu de cela, nous adopterons l'approche pratique consistant à accepter que les tierces parties restent tout en examinant les stratégies que nous pouvons employer pour garantir la performance et nous protéger conte des futurs ralentissements, pannes, et abus.
+    Durant cette présentation, nous ne chercherons pas à éliminer complètement les tierces parties – personne n'aime qu'on lui enlève ses jouets – au lieu de cela, nous adopterons l'approche pratique consistant à accepter que les tierces parties restent tout en examinant les stratégies que nous pouvons employer pour garantir la performance et nous protéger contre de futurs ralentissements, pannes et abus.
   slides: ~
   video: ~
 en_US:
