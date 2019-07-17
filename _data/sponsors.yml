@@ -314,6 +314,27 @@
 
 
           Born out of experience on hundreds of projects, Theodo shares best practices with their clients to help them optimize the performance of their apps.
+    - name: New Relic
+      slug: newrelic
+      logo: /assets/images/thanks/newrelic.svg
+      fr_FR:
+        cta:
+          text: "Équipez. Mesurez. Progressez."
+          url: https://newrelic.fr/
+        description: >-
+          Équipez tout votre environnement en quelques minutes
+
+
+          Depuis votre interface utilisateur jusqu'à la couche d'infrastructure. Sur site, cloud ou hybride. Suivez chaque changement à travers toutes vos entités en toute clarté et dans leur contexte.
+      en_US:
+        cta:
+          text: "Instrument. Measure. Improve."
+          url: https://www.newrelic.com/
+        description: >-
+          Instrument your entire environment in minutes
+
+
+          From your frontend to the infrastructure layer. On-prem, cloud, or hybrid. Track every change across all your entities with complete clarity and full context.
   others:
     - name: BrainCracking
       logo: /assets/images/thanks/braincracking.svg
