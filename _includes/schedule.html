@@ -1,1 +1,38 @@
-Schedule
+{{ site.data.talks }}
+
+<table summary="Programme heure par heure">
+  <caption class="sr-only">Conférences de We Love Speed 2019, le 20 septembre</caption>
+  <tbody>
+      {%- for line in site.data.schedule[include.year] -%}
+      {% case line.type %}
+        {% when 'headers' %}
+          <tr class="thead">
+            <th scope="col">Heure</th>
+            {%- for value in line.values -%}
+              <th scope="col">{{ value }}</th>
+            {%- endfor -%}
+          </tr>
+        {% when 'sync_event' %}
+          <tr class="thead">
+            <td scope="col">{{ line.hour }}</td>
+            {%- for value in line.values -%}
+              <th scope="col">{{ value }}</th>
+            {%- endfor -%}
+          </tr>
+        {% when 'talks' %}
+          <tr class="thead">
+            <td scope="col">{{ line.hour }}</td>
+            {%- for value in line.values -%}
+              {%- for item in site.talks -%}
+                  {% if item.slug == value %}
+                      {% assign talk = item %}
+                  {% endif %}
+              {%- endfor -%}
+              <th scope="col">"{{ talk.title }}"</th>
+            {%- endfor -%}
+          </tr>
+        {% else %}
+      {% endcase %}
+      {%- endfor -%}
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+2019:
+  - type: headers
+    values:
+      - Amphithéâtre 1
+      - Amphithéâtre 2
+  - type: sync_event
+    hour: "08:00"
+    values:
+      - Accueil des participant·e·s
+  - type: talks
+    hour: "09:00"
+    values:
+      - chaperons_and_curfews
+      - cherie_j_ai_retreci_mes_bundles_js

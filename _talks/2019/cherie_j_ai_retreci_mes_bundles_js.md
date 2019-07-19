@@ -16,11 +16,11 @@ fr_FR:
     - Séparer simplement son bundle JavaScript
 
     - Analyser et monitorer la taille de son JavaScript
-    
+
     - Dédupliquer ses dépendances
-    
+
     - Bien choisir ses dépendances
-    
+
     - Code splitting vs. bundle splitting
 
 
