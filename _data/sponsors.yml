@@ -314,6 +314,24 @@
 
 
           Born out of experience on hundreds of projects, Theodo shares best practices with their clients to help them optimize the performance of their apps.
+    - name: New Relic
+      slug: newrelic
+      logo: /assets/images/thanks/newrelic.svg
+      fr_FR:
+        cta:
+          text: "En savoir plus"
+          url: https://newrelic.fr/
+        description: >-
+          New Relic est une entreprise d’information numérique, leader du secteur, et fournit des analyses et une visibilité complètes à plus de 40 % des entreprises Fortune 100. La plateforme New Relic offre des données exploitables pour soutenir l’activité numérique. Des entreprises de toutes tailles ont confié à New Relic la surveillance des performances de leurs applications et de leur infrastructure pour une résolution rapide des problèmes et une expérience client numérique améliorée.
+      en_US:
+        cta:
+          text: "Learn Why"
+          url: https://www.newrelic.com/
+        description: >-
+          New Relic is the industry’s largest and most comprehensive cloud-based instrumentation platform built to create more perfect software. The world’s best software and DevOps teams rely on New Relic to move faster, make better decisions and create best-in-class digital experiences.
+
+
+          If you run software, you need to run New Relic. More than 50% of the Fortune 100 trust New Relic to make the world’s software run.
   others:
     - name: BrainCracking
       logo: /assets/images/thanks/braincracking.svg
