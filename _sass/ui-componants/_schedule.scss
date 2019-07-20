@@ -21,7 +21,8 @@
     background: $default-bg;
     position: sticky;
     top: 0;
-    /* box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4); */
+    z-index: 10;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
     font-size: 1.1em;
     @include media("<=medium") {
       display: none;
@@ -77,13 +78,82 @@
 
     &-room {
       display: inline;
-      font-size: 0.8em;
+    }
+  }
+}
 
-      &.room1 {
-        color: $purple;
+.talk {
+  // max-width: 350px;
+  min-height: 120px;
+  border: 1px solid #ddd;
+  border-radius: $global-gutters/2;
+
+  header {
+    height: 60px;
+    padding: $global-gutters/2;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    &.room1 {
+      background-color: $purple;
+    }
+    &.room2 {
+      background-color: $blue;
+    }
+
+    h2 {
+      font-size: 0.8em;
+    }
+
+    .person {
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      overflow: hidden;
+
+      &-avatar {
+        max-width: 100%;
       }
-      &.room2 {
-        color: $blue;
+    }
+  }
+
+  &-summary {
+    margin-left: 100px;
+    color: white;
+  }
+
+  h2 {
+    font-family: $title-font-family;
+    margin: 0;
+    color: white;
+  }
+
+  &-authors {
+    margin: 0;
+    margin-top: 4px;
+    font-size: 0.7em;
+  }
+
+  &-excerpt {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 12px;
+    color: #333;
+  }
+
+  footer {
+    text-align: right;
+    font-size: 11px;
+    padding: 6px 10px;
+    background-color: #efefef;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    .link {
+      text-decoration: none;
+      color: #220a37;
+
+      &:hover {
+        text-decoration: underline;
       }
     }
   }

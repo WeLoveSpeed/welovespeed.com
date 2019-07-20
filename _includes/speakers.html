@@ -37,7 +37,7 @@
           {% assign speaker = yearSpeakers[name] %}
           <figure class="person {{ name }}">
                 {% capture talkUrl %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}{% endunless %}#{{ talk.slug }}{% endcapture %}
-                <a title="{{ "Aller directement à l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ talkUrl }}">
+                <a title="{{ "Détails de l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ talkUrl }}">
                   {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}
                 </a>
                 {% include person-links.html urls=speaker.urls %}
