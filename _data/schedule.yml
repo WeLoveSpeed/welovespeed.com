@@ -1,14 +1,57 @@
 2019:
   - type: headers
     values:
-      - Amphithéâtre 1
-      - Amphithéâtre 2
-  - type: sync_event
-    hour: "08:00"
-    values:
-      - Accueil des participant·e·s
-  - type: talks
+      - fr_FR: Amphi Découverte
+        en_US: Discovery Auditorium
+      - fr_FR: Amphi Approfondissemet
+        en_US: Deep Dive Auditorium
+  - type: pause
     hour: "09:00"
     values:
-      - chaperons_and_curfews
-      - cherie_j_ai_retreci_mes_bundles_js
+      fr_FR: Accueil des participant·e·s
+      en_US: Attendees' welcome
+  - type: short
+    hour: "09:25"
+    values:
+      fr_FR: Ouverture des conférences
+      en_US: Conference Opening
+  - type: talks
+    hour: "09:30"
+    values:
+      - navigateur_coulisses
+      - why_webperf_matters
+  - type: short
+    hour: "10:05"
+    values:
+      fr_FR: Changement de salle
+      en_US: Change of room
+  - type: talks
+    hour: "10:10"
+    values:
+      - performance_et_ecologie
+      - responsible_javascript
+  - type: pause
+    hour: "11:05"
+    values:
+      fr_FR: Pause Café
+      en_US: Coffee Break
+  - type: short
+    hour: "11:30"
+    values:
+      fr_FR: Reprise des conférences
+      en_US: Conferences resume
+  - type: talks
+    hour: "11:35"
+    values:
+      - pagesjaunes_top10
+      - image_at_scale
+  - type: short
+    hour: "12:10"
+    values:
+      fr_FR: Changement de salle
+      en_US: Change of room
+  - type: talks
+    hour: "12:15"
+    values:
+      - keeping_wikipedia_fast
+      - interpreter_rum

@@ -1,38 +1,54 @@
 {{ site.data.talks }}
 
-<table summary="Programme heure par heure">
-  <caption class="sr-only">Conférences de We Love Speed 2019, le 20 septembre</caption>
-  <tbody>
-      {%- for line in site.data.schedule[include.year] -%}
-      {% case line.type %}
-        {% when 'headers' %}
-          <tr class="thead">
-            <th scope="col">Heure</th>
-            {%- for value in line.values -%}
-              <th scope="col">{{ value }}</th>
-            {%- endfor -%}
-          </tr>
-        {% when 'sync_event' %}
-          <tr class="thead">
-            <td scope="col">{{ line.hour }}</td>
-            {%- for value in line.values -%}
-              <th scope="col">{{ value }}</th>
-            {%- endfor -%}
-          </tr>
-        {% when 'talks' %}
-          <tr class="thead">
-            <td scope="col">{{ line.hour }}</td>
-            {%- for value in line.values -%}
-              {%- for item in site.talks -%}
-                  {% if item.slug == value %}
-                      {% assign talk = item %}
-                  {% endif %}
-              {%- endfor -%}
-              <th scope="col">"{{ talk.title }}"</th>
-            {%- endfor -%}
-          </tr>
-        {% else %}
-      {% endcase %}
-      {%- endfor -%}
-  </tbody>
-</table>
+<section class="section" id="schedule" class="schedule">
+  <div class="wrapper">
+    <h1 class="text-center">
+      {% t Programme %}
+    </h1>
+    <table summary="Programme heure par heure" class="schedule-container">
+      <caption class="sr-only">Conférences de We Love Speed 2019, le 20 septembre</caption>
+      <tbody class="schedule-body">
+          {%- for line in site.data.schedule[include.year] -%}
+          {% case line.type %}
+            {% when 'headers' %}
+              <tr class="schedule-headers">
+                <th scope="col" class="schedule-hour">Heure</th>
+                {% assign rooms = line.values %}
+                {%- for room in rooms -%}
+                  <th scope="col" class="schedule-header">{{ room[include.locale] }}</th>
+                {%- endfor -%}
+              </tr>
+            {% when 'short' %}
+              <tr class="schedule-short">
+                <td scope="col" class="schedule-hour">{{ line.hour }}</td>
+                <td scope="col" colspan="{{ rooms | size }}">{{ line.values[include.locale] }}</td>
+              </tr>
+            {% when 'pause' %}
+              <tr class="schedule-pause">
+                <td scope="col" class="schedule-hour">{{ line.hour }}</td>
+                <td scope="col" colspan="{{ rooms | size }}">{{ line.values[include.locale] }}</td>
+              </tr>
+            {% when 'talks' %}
+              <tr class="schedule-talks">
+                <td scope="col" class="schedule-hour">{{ line.hour }}</td>
+                {%- for value in line.values -%}
+                  {%- for item in site.talks -%}
+                      {% if item.slug == value %}
+                          {% assign talk = item %}
+                      {% endif %}
+                  {%- endfor -%}
+                  {% capture talkUrl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}#{{ talk.slug }}{% endcapture %}
+                  {% assign speakers = '' | split: '' %}
+                  {% comment %} Count official speakers and incognitos {% endcomment %}
+                  <td scope="col">
+                    <a title="{{ "Aller directement à l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ talkUrl }}">"{{ talk[include.locale].title }}"</a>,&nbsp;{%- for name in talk.speakers -%}{{ site.data.speakers[include.year][name].name }}{%- endfor -%}<br><span class="schedule-room room{{ forloop.index }}">{{ rooms[forloop.index0][include.locale] }}</span></td>
+                {%- endfor -%}
+              </tr>
+            {% else %}
+          {% endcase %}
+          {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+</section>
+<hr class="wrapper">
