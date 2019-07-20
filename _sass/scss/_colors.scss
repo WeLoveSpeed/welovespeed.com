@@ -10,6 +10,7 @@ $white                            : #FFFFFF;
 $darkgreen                        : #192112;
 $red                              : #e62827;
 $darkred                          : darken($red, 20);
+$blackred                         : darken($red, 40);
 $softred                          : lighten($red, 40);
 $softwhite                        : lighten($red, 47);
 

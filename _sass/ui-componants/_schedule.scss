@@ -10,11 +10,13 @@
 .schedule {
   &-hour {
     text-align: center;
-    padding: $global-gutters/2;
+    padding: 5px 1rem;
+    td {
+      padding: 0 $global-gutters/2;
+    }
   }
 
-  border-collapse: separate;
-  border-spacing: 0.45rem;
+  border-spacing: 5px;
 
   &-header {
     display: table-cell;
@@ -57,7 +59,7 @@
     background-color: $pastel-green;
     background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='#{url-encode-rgb(darken($pastel-green,10))}' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
     td {
-      padding: 1em 0;
+      padding: 1.5rem 1rem;
     }
   }
 
@@ -78,18 +80,27 @@
 
     &-room {
       display: inline;
+      &::after{
+        content: " | "
+      }
+    }
+    &-hour {
+      font-size: 1.6em;
     }
   }
 }
 
 .talk {
-  // max-width: 350px;
-  min-height: 120px;
   border: 1px solid #ddd;
   border-radius: $global-gutters/2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 290px;
+  margin-bottom: 5px;
 
   header {
-    height: 60px;
+    grid-row: 1;
     padding: $global-gutters/2;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -111,6 +122,11 @@
       height: 90px;
       overflow: hidden;
 
+      @include media("<=medium") {
+        width: 50px;
+        height: 50px;
+      }
+
       &-avatar {
         max-width: 100%;
       }
@@ -119,6 +135,9 @@
 
   &-summary {
     margin-left: 100px;
+    @include media("<=medium") {
+      margin-left: 60px;
+    }
     color: white;
   }
 
@@ -137,13 +156,18 @@
   &-excerpt {
     margin-top: 10px;
     padding: 10px;
-    font-size: 12px;
-    color: #333;
+    color: $blackred;
+    font-size: 0.8em;
+    grid-row: 2;
+    p {
+      margin: 1em 0;
+    }
   }
 
   footer {
+    grid-row: 3;
     text-align: right;
-    font-size: 11px;
+    font-size: 0.8em;
     padding: 6px 10px;
     background-color: #efefef;
     border-bottom-right-radius: 5px;

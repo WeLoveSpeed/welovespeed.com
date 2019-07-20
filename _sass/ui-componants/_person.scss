@@ -27,4 +27,15 @@
       }
     }
   }
+
+  &:hover {
+    z-index: 10;
+  }
+}
+
+@for $i from 1 through 5 {
+  .person-#{$i} {
+    margin-left: -5px * ($i - 1);
+    z-index: 9 - $i;
+  }
 }

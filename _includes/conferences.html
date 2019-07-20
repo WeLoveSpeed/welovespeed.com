@@ -66,7 +66,7 @@
                 {% unless speakerCount > 1 %}
                   <span class="text-xs">{% t Présenté %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %} {%t par %}</span><br>
                 {% else %}
-                  <span class="text-xs">{% t Animé %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %} {%t par %}</span><br>
+                  <span class="text-xs">{% t Animé %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}</span><br>
                 {% endunless %}
                 <em>{{ speaker.name }}</em> {% include person-links.html urls=speaker.urls %}
               </h3>
@@ -78,14 +78,17 @@
       </article>
       {%- endif -%}
 
-      {% if site.current_edition == page.year and site.tickets.selling %}
-    <p class="text-center">
-        <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
-          <span class="button-inner">{% t réserver votre place %}</span>
-        </a>
-    </p>
-{% endif %}
+      <p class="text-center">
+          {% if site.current_edition == page.year and site.tickets.selling %}
+          <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+            <span class="button-inner">{% t réserver votre place %}</span>
+          </a>
+          {% endif %}
 
+          <a class="button" data-text="{% t voir sur le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "programme" | t: include.locale }}#{{ conference.slug }}" title="{% t voir sur le programme %}">
+            <span class="button-inner">{% t voir sur le programme %}</span>
+          </a>
+      </p>
     {%- endfor -%}
   </div>
 </section>
