@@ -38,6 +38,10 @@
   - type: talks
     hour: "11:40"
     values:
+      - webperf-as-core-value
+  - type: talks
+    hour: "12:00"
+    values:
       - organizing-business-for-web-performance
   - type: pause
     hour: "12:40"
