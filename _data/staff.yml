@@ -6,12 +6,6 @@
     links:
       - label: Dareboost
         url : https://www.dareboost.com/
-  - firstname: Daniel
-    lastname: Diard
-    slug: ddi
-    links:
-      - label: Cdiscount
-        url : https://www.cdiscount.com/
   - firstname: Émilie
     lastname: Wilhelm
     slug: emilie

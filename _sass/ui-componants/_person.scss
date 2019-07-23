@@ -6,14 +6,12 @@
   }
   &-links {
     @extend %ul-reset;
-    position: absolute;
-    right: 15%;
-    bottom: -10px;
     font-size: 0;
+    font-size: 0;
+    display: inline-block;
 
     li {
       font-size: 20px;
-      float: right;
 
       a {
         background-color: $default-bg;
@@ -26,6 +24,7 @@
         height: 20px;
       }
     }
+
   }
 
   &:hover {

@@ -3,12 +3,12 @@
     name: Romuald Priol
     image: /assets/images/speakers/2019/romuald2.jpg
     urls:
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/romuald-p/
       - name: twitter
         title: '@doc_roms (Twitter)'
         url: https://twitter.com/doc_roms
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/romuald-p/
     en_US:
       bio: >-
         Driven by a passion for computers and new technologies, I was drawn to the world of the Web where I learned to master the different PHP Frameworks ( Zend, Symfony, Phalcon...) and JavaScript (View.Js...). I then took a close look at the industry's best practices (accessibility, SEO, etc...), before turning my attention to another world, mobile development (Windows Phone, FirefoxOs, Android) in both native and hybrid solutions (Xamarin, PhoneGap, Unity, Ionic, etc.) and Windows development (C# / XAML).
@@ -25,12 +25,12 @@
     name: Matt Hobbs
     image: /assets/images/speakers/2019/matthew.jpg
     urls:
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/matt-r-hobbs/
       - name: twitter
         title: '@TheRealNooshu (Twitter)'
         url: https://twitter.com/TheRealNooshu
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/matt-r-hobbs/
     en_US:
       bio: >-
         Matt Hobbs is Head of Frontend Development at the Government Digital Service. An experienced frontend developer, he is passionate about using his skills to build accessible and performant user interfaces. Matt makes a point of keeping on top of the latest technology and tools, is interested in all aspects of interface development, and is a keen advocate for best practice.
@@ -80,12 +80,12 @@
     name: Jeremy Wagner
     image: /assets/images/speakers/2019/jeremy.jpg
     urls:
-      - name: github
-        title: '@malchata (Github)'
-        url: https://github.com/malchata
       - name: twitter
         title: '@malchata (Twitter)'
         url: https://twitter.com/malchata
+      - name: github
+        title: '@malchata (Github)'
+        url: https://github.com/malchata
     en_US:
       bio: >-
         Jeremy Wagner is an independent performance consultant, author, and speaker from Minnesota.
@@ -130,12 +130,12 @@
     name: Benoit Jacquemont
     image: /assets/images/speakers/2019/benoitj.jpg
     urls:
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/benoit-jacquemont-657aba9
       - name: twitter
         title: '@bjacquemont (Twitter)'
         url: https://twitter.com/bjacquemont
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/benoit-jacquemont-657aba9
     en_US:
       bio: >-
         Benoit Jacquemont est tombé dans le web en 2000 après avoir une première expérience sur des logiciels d'encaissements. De Java à PHP, de Oracle à MySQL et des applications de gestions aux sites de eCommerce, il roule sa bosse sur les projets, toujours à forte composante OpenSource, au sein du groupe Smile. Il en devient le CTO en 2009 alors que l'entreprise compte près de 450 salariés. En janvier 2013, il co-fonde [Akeneo](https://www.akeneo.com/fr/) avec Frédéric de Gombert, Nicolas Dupont et Yoav Kutner. L'aventure startup commence alors pour lui, en tant que CTO d'[Akeneo](https://www.akeneo.com/fr/).
@@ -209,12 +209,12 @@
     name: Loïc Troquet
     image: /assets/images/speakers/2019/loic.jpg
     urls:
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/lo%C3%AFc-troquet-19623312/
       - name: twitter
         title: '@loic_troquet (Twitter)'
         url: https://twitter.com/loic_troquet
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/lo%C3%AFc-troquet-19623312/
     en_US:
       bio: >-
         Head of the architecture department at [www.pagesjaunes.fr](https://www.pagesjaunes.fr). Specialist in the development of high visibility web applications. Certified ScrumMaster. Specializations: Java, Spring, Continuous Delivery, Webperf, Security, Git, Maven, Scrum, Kanban, Lean, Management 3.0
@@ -225,12 +225,12 @@
     name: Peter Hedenskog
     image: /assets/images/speakers/2019/peter.jpg
     urls:
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/peterhedenskog/
       - name: twitter
         title: '@soulislove (Twitter)'
         url: https://twitter.com/soulislove
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/peterhedenskog/
     en_US:
       bio: >-
         Peter works in the performance team of the Wikimedia Foundation where he measure the performance of Wikipedia using synthetic testing and RUM. Before he joined the foundation he worked as a web performance consultant helping some of the biggest Swedish brands. Peter also created the popular open source web performance tool sitespeed.io.
@@ -241,15 +241,15 @@
     name: Gilles Dubuc
     image: /assets/images/speakers/2019/gilles2.jpg
     urls:
+      - name: twitter
+        title: '@fullstackjerk (Twitter)'
+        url: https://twitter.com/fullstackjerk
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/gillesdubuc/
       - name: github
         title: '@gi11es (Github)'
         url: https://github.com/gi11es
-      - name: twitter
-        title: '@fullstackjerk (Twitter)'
-        url: https://twitter.com/fullstackjerk
     en_US:
       bio: >-
         After more than ten years of experience as a Full Stack developer, Gilles Dubuc joined the Wikimedia Foundation in 2014.
@@ -266,12 +266,12 @@
     name: Nicolas Hoffmann
     image: /assets/images/speakers/2019/nicolas.jpg
     urls:
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/nicolas-hoffmann-b22aaa43/
       - name: twitter
         title: '@Nico3333fr (Twitter)'
         url: https://twitter.com/Nico3333fr
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/nicolas-hoffmann-b22aaa43/
     en_US:
       bio: >-
         Nicolas is a soldier who has been pacificaly moving up to the front(-end) over more than 15 years. He’s been working in a Swiss web agency for about 10 years, and he’s currently working as a quark on UI and CSS among other things… at ProtonMail.
