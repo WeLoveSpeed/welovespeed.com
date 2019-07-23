@@ -24,7 +24,6 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
     font-size: 1.1em;
     @include media("<=medium") {
       display: none;
@@ -74,8 +73,8 @@
 
     &-room {
       display: inline;
-      &::after{
-        content: " | "
+      &::after {
+        content: " | ";
       }
     }
     &-hour {
@@ -199,10 +198,32 @@
 }
 
 .room1 {
-  background-color: $red;
-  background-image: url("/assets/images/textures/diagonal-lines.svg");
+  header,
+  &-header {
+    background-color: $red;
+    background-image: url("/assets/images/textures/diagonal-lines.svg");
+    box-shadow: 0 2px 8px -1px $red;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border-color: dargen($red, 40);
+    box-shadow: $red 0 0 $global-gutters/2;
+  }
 }
 .room2 {
-  background-color: $blue;
-  background-image: url("/assets/images/textures/tiny-checkers.svg");
+  header,
+  &-header {
+    background-color: $blue;
+    background-image: url("/assets/images/textures/tiny-checkers.svg");
+    box-shadow: 0 2px 8px -1px $blue;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border-color: dargen($blue, 40);
+    box-shadow: $blue 0 0 $global-gutters/2;
+  }
 }

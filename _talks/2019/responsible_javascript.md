@@ -5,7 +5,7 @@ pub_date: '2019-07-01'
 speakers:
   - jeremy
 fr_FR:
-  title: "Responsible JavaScript"
+  title: '<span lang="en">Responsible JavaScript</span>'
   description: >-
     Bien que les performances des moteurs JavaScript dans les navigateurs aient connu une amélioration continue, la quantité de JavaScript que nous servons augmente sans relâche. Nous devons utiliser JavaScript de manière plus responsable, ce qui signifie que nous devons nous fier à des fonctions de navigation natives par prudence, utiliser HTML et CSS lorsque c'est approprié, et savoir quand rajouter du JavaScript en fait trop.
 

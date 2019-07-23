@@ -15,7 +15,7 @@
                 <th scope="col" class="schedule-header schedule-hour">{{ "Heure" | t:include.locale }}</th>
                 {% assign rooms = line.values %}
                 {%- for room in rooms -%}
-                  <th scope="col" class="schedule-header room{{ forloop.index }}">{{ room[include.locale] }}</th>
+                  <th scope="col" class="schedule-header room{{ forloop.index }}-header">{{ room[include.locale] }}</th>
                 {%- endfor -%}
               </tr>
             {% when 'short' %}
@@ -41,8 +41,8 @@
                   {%- endfor -%}
                   {% capture talkUrl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}#{{ talk.slug }}{% endcapture %}
                   <td scope="col" {% unless rowspan == 1 %}rowspan="{{ rowspan }}"{% endunless %}>
-                    <a href="{{ talkUrl }}" class="talk" id="{{ talk.slug }}">
-                      <header class="room{{ forloop.index }}">
+                    <a href="{{ talkUrl }}" class="talk room{{ forloop.index }}" id="{{ talk.slug }}">
+                      <header>
                         {%- for speakerSlug in talk.speakers -%}
                           {% assign speaker = site.data.speakers[include.year][speakerSlug] %}
                           <figure class="person person-{{ talk.speakers | size }} {{ speaker.slug }}">
