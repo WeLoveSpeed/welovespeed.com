@@ -35,7 +35,7 @@
       color: $white;
     }
     &:nth-of-type(2) {
-      background-color: $purple;
+      background-color: $red;
     }
     &:nth-of-type(3) {
       background-color: $blue;
@@ -99,6 +99,14 @@
   height: 290px;
   margin-bottom: 5px;
 
+  &-fr header {
+    background-image: url("/assets/images/textures/diagonal-lines.svg");
+  }
+
+  &-en header {
+    background-image: url("/assets/images/textures/tiny-checkers.svg");
+  }
+
   header {
     grid-row: 1;
     padding: $global-gutters/2;
@@ -106,7 +114,7 @@
     border-top-left-radius: 5px;
 
     &.room1 {
-      background-color: $purple;
+      background-color: $red;
     }
     &.room2 {
       background-color: $blue;

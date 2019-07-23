@@ -1,5 +1,6 @@
 ---
 display-order: 16
+locale: fr_FR
 pub_date: '2019-07-01'
 speakers:
   - nicolas

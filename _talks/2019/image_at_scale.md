@@ -1,5 +1,6 @@
 ---
 display-order: 4
+locale: fr_FR
 pub_date: '2018-06-01'
 speakers:
   - anthony

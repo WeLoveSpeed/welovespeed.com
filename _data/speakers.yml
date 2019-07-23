@@ -1,7 +1,6 @@
 2019:
   romuald:
     name: Romuald Priol
-    locale: fr_FR
     image: /assets/images/speakers/2019/romuald2.jpg
     urls:
       - name: linkedin
@@ -24,7 +23,6 @@
         Ces différents domaines d'expertises m'ont permis de définir les problématiques de performance et d'architecture de beaucoup de projets, et de me pencher sérieusement sur la conception responsable en prenant en compte l'éco-conception des applications web et natives et tous les horizons du numérique responsable.
   matthew:
     name: Matt Hobbs
-    locale: en_US
     image: /assets/images/speakers/2019/matthew.jpg
     urls:
       - name: linkedin
@@ -39,24 +37,9 @@
     fr_FR:
       bio: >-
         Matt est Responsable du développement Front-End au Service Numérique Gouvernemental du Royaume-Uni. Développeur Front expérimenté, il est passionné par l'utilisation de ses compétences pour créer des interfaces utilisateur accessibles et performantes. Matt se fait un point d'honneur de rester à la pointe de la technologie et des outils les plus récents, s'intéresse à tous les aspects du développement d'interfaces et est un ardent défenseur des bonnes pratiques Web.
-  estelle_fr:
+  estelle:
     name: Estelle Weyl
-    locale: fr_FR
-    image: /assets/images/speakers/2019/estelle_fr.jpg
-    urls:
-      - name: twitter
-        title: '@estellevw (Twitter)'
-        url: https://twitter.com/estellevw
-    en_US:
-      bio: >-
-        Estelle is a consulting web developer, trainer, author and speaker, currently writing for MDN Web Docs on accessibility, performance and CSS. She speaks and leads workshops on web development all over the world. Her books have been translated into over 14 languages. She’s been coding CSS, HTML, and JavaScript since 1999.
-    fr_FR:
-      bio: >-
-        Estelle est consultante, formatrice, auteure et conférencière. Elle organise la conférence #Perfmatters. Elle documente les technologies Web pour MDN concernant l'accessibilité, les performances et CSS. Elle parle et anime des ateliers sur le développement Web dans le monde entier et ses livres ont été traduits dans plus de 14 langues. Elle code en CSS, HTML et JavaScript depuis 1999.
-  estelle_en:
-    name: Estelle Weyl
-    locale: en_US
-    image: /assets/images/speakers/2019/estelle_us.jpg
+    image: /assets/images/speakers/2019/estelle.jpg
     urls:
       - name: twitter
         title: '@estellevw (Twitter)'
@@ -69,7 +52,6 @@
         Estelle est consultante, formatrice, auteure et conférencière. Elle organise la conférence #Perfmatters. Elle documente les technologies Web pour MDN concernant l'accessibilité, les performances et CSS. Elle parle et anime des ateliers sur le développement Web dans le monde entier et ses livres ont été traduits dans plus de 14 langues. Elle code en CSS, HTML et JavaScript depuis 1999.
   anthony:
     name: Anthony Barre
-    locale: fr_FR
     image: /assets/images/speakers/2019/anthony.jpg
     urls:
       - name: twitter
@@ -83,7 +65,6 @@
         Expert webperf chez Fasterize, je suis un des développeurs du moteur d'optimisation au cœur de la solution. Je travaille essentiellement sur des optimisations Front-End.
   antoine:
     name: Antoine Kahn-Dubois
-    locale: fr_FR
     image: /assets/images/speakers/2019/antoine.jpg
     urls:
       - name: linkedin
@@ -97,7 +78,6 @@
         Antoine est un développeur agile depuis quatre ans chez Theodo, passionné de performances, JavaScript et Python. Il est convaincu que nous pouvons sauver le monde en réduisant la taille de nos bundles JavaScript.
   jeremy:
     name: Jeremy Wagner
-    locale: en_US
     image: /assets/images/speakers/2019/jeremy.jpg
     urls:
       - name: github
@@ -114,7 +94,6 @@
         Jeremy Wagner est un consultant indépendant, auteur et conférencier qui nous vient du Minnesota. Il est l'auteur de nombreux articles de références sur la Performance Web, notamment [sur WebFundamentals](https://developers.google.com/web/resources/contributors/jeremywagner).
   ryan:
     name: Ryan Townsend
-    locale: en_US
     image: /assets/images/speakers/2019/ryan.jpg
     urls:
       - name: twitter
@@ -140,7 +119,6 @@
         À l'extérieur du bureau, il ramasse des objets lourds dans des gymnases ou tombe de son VTT sur le flanc des collines.
   raphael:
     name: Raphaël Dardeau
-    locale: fr_FR
     image: /assets/images/speakers/2019/raphael.jpg
     en_US:
       bio: >-
@@ -150,7 +128,6 @@
         Responsable des développements web à L'Équipe, premier site d’informations sportives français.
   benoit:
     name: Benoit Jacquemont
-    locale: fr_FR
     image: /assets/images/speakers/2019/benoitj.jpg
     urls:
       - name: linkedin
@@ -167,7 +144,6 @@
         Benoit Jacquemont dived into the web in 2000 after having a first experience on payment software. From Java to PHP, from Oracle to MySQL and from management applications to eCommerce sites, he worked on various projects, always with a strong OpenSource dimension, within the Smile group. He became the CTO in 2009 when the company had nearly 450 employees. In January 2013, he co-founded [Akeneo](https://www.akeneo.com/) with Frédéric de Gombert, Nicolas Dupont and Yoav Kutner. The startup adventure then began for him, as [Akeneo](https://www.akeneo.com/)'s CTO.
   antonio:
     name: Antonio Gomes Rodrigues
-    locale: fr_FR
     image: /assets/images/speakers/2019/antonio2.jpg
     urls:
       - name: linkedin
@@ -205,7 +181,6 @@
         Il est actuellement responsable performance chez SeLoger, contributeur et membre <abbr title="Project Management Committee">PMC</abbr> du projet JMeter au sein de la fondation Apache Software - ASF.
   quentin:
     name: Quentin Mathieu
-    locale: fr_FR
     image: /assets/images/speakers/2019/quentin.jpg
     urls:
       - name: linkedin
@@ -219,7 +194,6 @@
         Expert <abbr title="Quality of Experience">QOE</abbr> pour OUI.sncf, œuvre pour la maîtrise du SI au service de l'expérience utilisateur.
   mathilde:
     name: Mathilde Lassort
-    locale: fr_FR
     image: /assets/images/speakers/2019/mathilde.jpg
     urls:
       - name: linkedin
@@ -233,7 +207,6 @@
         Product Strategist chez OUI.sncf, j'accompagne les équipes dans la stratégie produit.
   loic:
     name: Loïc Troquet
-    locale: fr_FR
     image: /assets/images/speakers/2019/loic.jpg
     urls:
       - name: linkedin
@@ -250,7 +223,6 @@
         Responsable du pôle architecture [www.pagesjaunes.fr](https://www.pagesjaunes.fr). Spécialiste des développements d'applications web à forte visibilité. ScrumMaster certifié. Spécialisations : Java, Spring, Continuous Delivery, Webperf, Sécurité, Git, Maven, Scrum, Kanban, Lean, Management 3.0
   peter:
     name: Peter Hedenskog
-    locale: en_US
     image: /assets/images/speakers/2019/peter.jpg
     urls:
       - name: linkedin
@@ -267,7 +239,6 @@
         Peter travaille dans l'équipe Performance de la Wikimedia Foundation où il mesure la performance de Wikipédia à l'aide de tests synthétiques et de RUM. Avant de rejoindre la fondation, il a travaillé comme consultant en Performance Web pour les plus grandes marques suédoises. Peter a également créé le populaire outil de Performance Web open source sitespeed.io.
   gilles:
     name: Gilles Dubuc
-    locale: fr_FR
     image: /assets/images/speakers/2019/gilles2.jpg
     urls:
       - name: linkedin
@@ -293,7 +264,6 @@
         Il est l’un des membres fondateurs de l’équipe Performance au sein de la fondation, créée en 2015. Il contribue depuis au fait de rendre Wikipedia et les autres projets Wikimedia les sites web les plus performants possibles, en intervenant à tous les niveaux de l’architecture et en participant au futur de la performance Web au sein du W3C et à travers des travaux de recherche.
   nicolas:
     name: Nicolas Hoffmann
-    locale: fr_FR
     image: /assets/images/speakers/2019/nicolas.jpg
     urls:
       - name: linkedin
@@ -317,7 +287,6 @@
 2018:
   rick:
     name: Rick Viscomi
-    locale: en_US
     image: /assets/images/speakers/2018/rick.jpg
     urls:
       - name: twitter
@@ -335,7 +304,6 @@
         Défenseur de la transparence sur le Web chez Google et intendant des données de [@HTTPArchive](https://twitter.com/HTTPArchive). Co-auteur de [@UsingWPT](https://twitter.com/UsingWPT).
   stephanie:
     name: Stéphanie Walter
-    locale: fr_FR
     image: /assets/images/speakers/2018/walterstephanie.jpg
     urls:
       - name: twitter
@@ -356,7 +324,6 @@
         Stéphanie – UX et UI Designer. Avec près de 10 ans d’expérience dans le design centré utilisateur, elle est spécialisée dans le design d’applications mobiles et le responsive, l’ergonomie et la création d’interfaces simples et agréables à utiliser. Elle partage sa passion pour son travail à travers ses articles, ses cours à l’université et les conférences qu’elle donne dans le monde entier.
   lesfurets:
     name: Dimitri Baeli
-    locale: fr_FR
     image: /assets/images/speakers/2018/dimitri.jpg
     en_US:
       alt: >-
@@ -370,7 +337,6 @@
         CTO chez [LesFurets.com](https://www.lesfurets.com/), un site de comparaison français qui permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
   ouestfrance:
     name: Vincent Robert
-    locale: fr_FR
     image: /assets/images/speakers/2018/vincent.jpg
     en_US:
       alt: >-
@@ -384,7 +350,6 @@
         DSI de Ouest-France Multimédia, une filiale de [Ouest-France](https://www.ouest-france.fr/) dédiée aux sites de petites annonces de journal organisés par secteur : automobile, immobilier, emploi.
   rdc:
     name: Aniss Boumrigua
-    locale: fr_FR
     image: /assets/images/speakers/2018/aniss.jpg
     en_US:
       alt: >-
@@ -402,7 +367,6 @@
       - name: github
         title: Github
         url: https://github.com/utix
-    locale: fr_FR
     image: /assets/images/speakers/2018/aurelien.jpg
     en_US:
       alt: >-
@@ -416,7 +380,6 @@
         Directeur de l’architecture chez [Cdiscount](https://www.cdiscount.com/).
   lequipe:
     name: Francois Boury
-    locale: fr_FR
     image: /assets/images/speakers/2018/francois.jpg
     en_US:
       alt: >-
@@ -430,7 +393,6 @@
         Directeur Technique Internet de [L'Équipe.fr](https://www.lequipe.fr/), le premier site d'informations sportives français.
   philip:
     name: Philip Tellis
-    locale: en_US
     image: /assets/images/speakers/2018/bluesmoon.jpg
     urls:
       - name: youtube
@@ -469,7 +431,6 @@
         Vous pouvez regarder certaines des conférences que Philip a déjà donné [sur Youtube](https://www.google.com/search?q=youtube+philip+tellis).
   nicolas:
     name: Nicolas Hoizey
-    locale: fr_FR
     image: /assets/images/speakers/2018/nhoizey.jpg
     urls:
       - name: twitter
@@ -491,7 +452,6 @@
       - name: web
         title: Website
         url: https://tzi.fr/
-    locale: fr_FR
     image: /assets/images/speakers/2018/tzi.jpg
     en_US:
       alt: >-
@@ -505,7 +465,6 @@
         Thomas – Expert CSS Freelance. Thomas aide les équipes technique à produire des styles maintenables. Intégrateur, développeur, enseignant, formateur, conférencier, il multiplie les casquettes pour partager sa passion du web. Son dernier challenge a été l’écriture de "[Départ immédiat pour : Flexbox](https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox)" avec _le Train de 13h37_.
   jp:
     name: Jean-Pierre Vincent
-    locale: fr_FR
     image: /assets/images/staff/jp.jpg
     urls:
       - name: linkedin
@@ -523,7 +482,6 @@
         Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis plus de 7 ans, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes. Il est aussi le co-organisateur des [meetups Webperf parisiens](https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/).
   damien:
     name: Damien Jubeau
-    locale: fr_FR
     image: /assets/images/speakers/2018/damien.jpg
     urls:
       - name: web
@@ -541,7 +499,6 @@
         CEO et cofondateur de [Dareboost](https://www.dareboost.com/), solution SaaS de gestion de la performance web, pour réunir les équipes web autour d'un objectif commun : un site plus rapide et une qualité web accrue.
   stephane:
     name: Stéphane Rios
-    locale: fr_FR
     image: /assets/images/staff/stephane.jpg
     urls:
       - name: web
@@ -571,7 +528,6 @@
         Obsédé de l'octet en trop, du gaspillage de temps et d'énergie, Stéphane RIOS a hissé RueDuCommerce en tête des classements des sites performants avant de se lancer dans l'aventure [Fasterize](https://www.fasterize.com). Il a géré des équipes techniques conséquentes tout en restant un geek passionné de développement et d'architectures Web hautement disponibles et performantes.
   jonas:
     name: Jonas Badalic
-    locale: en_US
     image: /assets/images/speakers/2018/jonas.jpg
     urls:
       - name: twitter

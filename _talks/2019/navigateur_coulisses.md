@@ -1,8 +1,9 @@
 ---
 display-order: 1
+locale: fr_FR
 pub_date: '2018-06-01'
 speakers:
-  - estelle_fr
+  - estelle
 fr_FR:
   title: "Navigateur : les coulisses du chargement"
   description: >-

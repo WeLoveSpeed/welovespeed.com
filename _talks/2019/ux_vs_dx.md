@@ -1,8 +1,9 @@
 ---
 display-order: 16
+locale: en_US
 pub_date: '2019-07-01'
 speakers:
-  - estelle_en
+  - estelle
 fr_FR:
   title: '<abbr title="User Experience" lang="en">UX</abbr> vs <abbr title="Developer Experience">DX</abbr>'
   description: >-

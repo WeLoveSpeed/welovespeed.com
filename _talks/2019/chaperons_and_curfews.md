@@ -1,5 +1,6 @@
 ---
 display-order: 8
+locale: en_US
 pub_date: '2018-06-01'
 speakers:
   - ryan

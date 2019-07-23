@@ -1,5 +1,6 @@
 ---
 display-order: 2
+locale: fr_FR
 pub_date: '2018-07-01'
 speakers:
   - stephanie

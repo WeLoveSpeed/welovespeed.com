@@ -1,5 +1,6 @@
 ---
 display-order: 3
+locale: en_US
 pub_date: "2019-07-01"
 speakers:
   - matthew

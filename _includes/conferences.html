@@ -9,6 +9,8 @@
       {% if pubDateUnix <= nowUnix %}
 
       <hr id="{{ conference.slug }}">
+      {% for name in conference.speakers %}<span class="sr-only" id={{name}} aria-hidden></span>{% endfor %}
+
       {% if include.locale == "en_US" and conference.en_US %}
         {% assign verbatim = conference.en_US %}
         {% assign other_verbatim = conference.fr_FR %}
@@ -64,9 +66,9 @@
               <h3 class="conference-speaker-name">
                 {% assign speakerCount = conference.speakers | size %}
                 {% unless speakerCount > 1 %}
-                  <span class="text-xs">{% t Présenté %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %} {%t par %}</span><br>
+                  <span class="text-xs">{% t Présenté %}{% unless conference.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %} {%t par %}</span><br>
                 {% else %}
-                  <span class="text-xs">{% t Animé %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}</span><br>
+                  <span class="text-xs">{% t Animé %}{% unless conference.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}</span><br>
                 {% endunless %}
                 <em>{{ speaker.name }}</em> {% include person-links.html urls=speaker.urls %}
               </h3>
