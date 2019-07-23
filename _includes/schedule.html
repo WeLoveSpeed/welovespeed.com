@@ -15,7 +15,7 @@
                 <th scope="col" class="schedule-header schedule-hour">{{ "Heure" | t:include.locale }}</th>
                 {% assign rooms = line.values %}
                 {%- for room in rooms -%}
-                  <th scope="col" class="schedule-header">{{ room[include.locale] }}</th>
+                  <th scope="col" class="schedule-header room{{ forloop.index }}">{{ room[include.locale] }}</th>
                 {%- endfor -%}
               </tr>
             {% when 'short' %}
@@ -41,18 +41,18 @@
                   {%- endfor -%}
                   {% capture talkUrl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}#{{ talk.slug }}{% endcapture %}
                   <td scope="col" {% unless rowspan == 1 %}rowspan="{{ rowspan }}"{% endunless %}>
-                    <article class="talk talk-{{ talk.locale | slice: 0, 2 }}" id="{{ talk.slug }}">
+                    <a href="{{ talkUrl }}" class="talk" id="{{ talk.slug }}">
                       <header class="room{{ forloop.index }}">
                         {%- for speakerSlug in talk.speakers -%}
                           {% assign speaker = site.data.speakers[include.year][speakerSlug] %}
-                          <figure class="person person-{{ forloop.index }} {{ speaker.slug }}">
+                          <figure class="person person-{{ talk.speakers | size }} {{ speaker.slug }}">
                             {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}
                           </figure>
                         {%- endfor -%}
                         <div class="talk-summary">
                           <h2>{{ talk[include.locale].title }}</h2>
                           <p class="talk-authors">
-                            {% unless talk.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}
+                            {% unless talk.locale == include.locale %}<strong>{{ " en anglais" | t: page.locale }}</strong>{% endunless %}
                             {%- for speakerSlug in talk.speakers -%}
                               {% assign speaker = site.data.speakers[include.year][speakerSlug] %}
                               {% if forloop.first %} {%t par %} {{ speaker.name }}{% else %}{{ speaker.name }}{% endif %}
@@ -64,11 +64,7 @@
                       <section class="talk-excerpt">
                         <p>{{ talk[include.locale].description | truncatewords: 20 }}</p>
                       </section>
-                      <footer>
-                        <span class="schedule-room">{{ rooms[forloop.index0][include.locale] }}</span>
-                        <a href="{{ talkUrl }}">{{ "Détails" | t:include.locale }}</a>
-                      </footer>
-                    </article>
+                    </a>
                   </td>
                 {%- endfor -%}
               </tr>

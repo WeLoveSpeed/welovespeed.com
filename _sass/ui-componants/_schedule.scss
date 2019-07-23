@@ -34,12 +34,6 @@
     &:nth-of-type(3) {
       color: $white;
     }
-    &:nth-of-type(2) {
-      background-color: $red;
-    }
-    &:nth-of-type(3) {
-      background-color: $blue;
-    }
   }
 
   &-short,
@@ -96,29 +90,16 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
-  height: 290px;
+  height: 230px;
   margin-bottom: 5px;
-
-  &-fr header {
-    background-image: url("/assets/images/textures/diagonal-lines.svg");
-  }
-
-  &-en header {
-    background-image: url("/assets/images/textures/tiny-checkers.svg");
-  }
+  text-decoration: none;
+  font-style: normal;
 
   header {
     grid-row: 1;
     padding: $global-gutters/2;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-
-    &.room1 {
-      background-color: $red;
-    }
-    &.room2 {
-      background-color: $blue;
-    }
 
     h2 {
       font-size: 0.8em;
@@ -129,6 +110,7 @@
       width: 90px;
       height: 90px;
       overflow: hidden;
+      z-index: 9;
 
       @include media("<=medium") {
         width: 50px;
@@ -137,6 +119,31 @@
 
       &-avatar {
         max-width: 100%;
+      }
+
+      &-2 {
+        width: 45px;
+
+        &:nth-of-type(2) {
+          z-index: 8;
+          transform: translate(30px, 30px);
+        }
+      }
+
+      &-4 {
+        width: 30px;
+
+        &:nth-of-type(2) {
+          transform: translate(35px, 35px);
+        }
+
+        &:nth-of-type(3) {
+          transform: translate(0, 35px);
+        }
+
+        &:nth-of-type(4) {
+          transform: translate(35px, 0);
+        }
       }
     }
   }
@@ -189,4 +196,13 @@
       }
     }
   }
+}
+
+.room1 {
+  background-color: $red;
+  background-image: url("/assets/images/textures/diagonal-lines.svg");
+}
+.room2 {
+  background-color: $blue;
+  background-image: url("/assets/images/textures/tiny-checkers.svg");
 }
