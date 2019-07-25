@@ -162,8 +162,8 @@
   - type: short
     hour: ""
     values:
-      fr_FR: <small>⚠️ Pas de changement de salle entre les interventions</small>
-      en_US: </small>⚠️ No change of room between the talks</small>
+      fr_FR: <small>⚠️ PAS de changement de salle entre les interventions</small>
+      en_US: </small>⚠️ NO change of room between the talks</small>
   - type: talks
     hour: ""
     values:
