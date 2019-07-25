@@ -26,7 +26,7 @@
             {% when 'pause' %}
               <tr class="schedule-pause">
                 <td scope="col" class="schedule-hour">{{ line.hour }}</td>
-                <td scope="col" colspan="{{ rooms | size }}">{{ line.values[include.locale] }}</td>
+                <td scope="col" colspan="{{ rooms | size }}">{{ line.values[include.locale] | raw }}</td>
               </tr>
             {% when 'talks' %}
               <tr class="schedule-talks">
