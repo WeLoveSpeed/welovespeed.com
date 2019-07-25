@@ -105,7 +105,7 @@
       fr_FR: Ouverture des conférences
       en_US: Conference Opening
   - type: talks
-    hour: "09:30"
+    hour: ""
     values:
       - navigateur_coulisses
       - why_webperf_matters
@@ -115,7 +115,7 @@
       fr_FR: Changement de salle
       en_US: Change of room
   - type: talks
-    hour: "10:10"
+    hour: ""
     values:
       - performance_et_ecologie
       - responsible_javascript
@@ -130,7 +130,7 @@
       fr_FR: Reprise des conférences
       en_US: Conferences resume
   - type: talks
-    hour: "11:35"
+    hour: ""
     values:
       - pagesjaunes_top10
       - image_at_scale
@@ -140,7 +140,7 @@
       fr_FR: Changement de salle
       en_US: Change of room
   - type: talks
-    hour: "12:15"
+    hour: ""
     values:
       - keeping_wikipedia_fast
       - interpreter_rum
@@ -155,7 +155,7 @@
       fr_FR: Reprise des conférences
       en_US: Conferences resume
   - type: talks
-    hour: "14:45"
+    hour: ""
     values:
       - http3
       - chaperons_and_curfews
@@ -180,7 +180,7 @@
       fr_FR: Reprise des conférences
       en_US: Conferences resume
   - type: talks
-    hour: "16h50"
+    hour: ""
     values:
       - webperf_project_checklist
       - cherie_j_ai_retreci_mes_bundles_js
@@ -190,7 +190,7 @@
       fr_FR: Changement de salle
       en_US: Change of room
   - type: talks
-    hour: "17h30"
+    hour: ""
     values:
       - rex_protonmail
       - ux_vs_dx
