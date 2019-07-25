@@ -90,10 +90,10 @@
 2019:
   - type: headers
     values:
-      - fr_FR: Amphi 1
-        en_US: Auditorium 1
-      - fr_FR: Amphi 2
-        en_US: Auditorium 2
+      - fr_FR: Amphi Exploration
+        en_US: Exploration Auditorium
+      - fr_FR: Amphi Approfondissement
+        en_US: Deep-Dive Auditorium
   - type: pause
     hour: "09:00"
     values:
@@ -192,8 +192,8 @@
   - type: short
     hour: "18:00"
     values:
-      fr_FR: Rendez-vous dans l'Amphi 1
-      en_US: Let's meet in the Auditorium 1
+      fr_FR: Rendez-vous dans l'Amphi Exploration
+      en_US: Let's meet in the Exploration Auditorium
   - type: pause
     hour: "18:05"
     values:
