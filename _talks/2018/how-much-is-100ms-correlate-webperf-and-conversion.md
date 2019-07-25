@@ -1,5 +1,6 @@
 ---
 display-order: 9
+locale: fr_FR
 pub_date: '2018-07-01'
 speakers:
   - stephane

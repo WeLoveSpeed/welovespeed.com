@@ -1,10 +1,12 @@
 ---
 display-order: 14
+locale: en_US
+length: 45
 pub_date: "2019-07-01"
 speakers:
   - peter
 fr_FR:
-  title: "Keeping Wikipedia Fast"
+  title: '<span lang="en">Keeping Wikipedia Fast</span>'
   description: >-
     L'équipe Performance de la Wikimedia Foundation est chargée de mesurer la performance de Wikipedia. On met en place une surveillance et pouf, c'est parti ? En théorie, c'est facile, mais dans la pratique, c'est une autre histoire. 
 

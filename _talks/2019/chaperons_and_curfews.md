@@ -1,10 +1,12 @@
 ---
 display-order: 8
+locale: en_US
+length: 45
 pub_date: '2018-06-01'
 speakers:
   - ryan
 fr_FR:
-  title: "Chaperons et couvre-feux : réduire l'impact des scripts tiers"
+  title: '<span lang="en">Chaperones and curfews: minimising 3rd party impact</span>'
   description: >-
     Le poids des sites Web augmente d'année en année. Le gros de cette croissance ne vient pas du code écrit par les organisations qui les gèrent… il vient des scripts tiers. 
 

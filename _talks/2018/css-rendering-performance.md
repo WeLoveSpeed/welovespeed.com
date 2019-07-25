@@ -1,5 +1,6 @@
 ---
 display-order: 6
+locale: fr_FR
 pub_date: '2018-07-01'
 speakers:
   - thomas

@@ -1,5 +1,6 @@
 ---
 display-order: 1
+locale: en_US
 pub_date: '2018-07-01'
 speakers:
   - rick

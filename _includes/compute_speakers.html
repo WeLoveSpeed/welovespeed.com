@@ -1,0 +1,26 @@
+{% assign speakers = '' | split: '' %}
+{% comment %} Count official speakers and incognitos {% endcomment %}
+{% for speaker in site.data.speakers[include.year] %}
+  {% assign isDisplayed = false %}
+  {% for conference in include.conferences %}
+    {% for confName in conference.speakers %}
+      {% unless isDisplayed %}
+        {% if speaker[0] == confName %}
+          {% capture pubDateUnix %}{{ conference.pub_date | date: '%s' }}{% endcapture %}
+          {% if pubDateUnix <= nowUnix %}
+            {% assign isDisplayed = true %}
+          {% endif %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  {%- endfor -%}
+  {% if isDisplayed %}
+    {% assign speakerName = speaker[0] | split: '  ' %}
+    {% assign speakers = speakers | concat: speakerName %}
+  {% endif %}
+{%- endfor -%}
+{% assign visibleSpeakers = speakers | sort | uniq %}
+{% assign nbVisibleSpeakers = visibleSpeakers | size %}
+{% assign yearSpeakers = site.data.speakers[include.year] %}
+{% assign nbSpeakersMax = yearSpeakers | size %}
+{% assign nBIncognito = nbSpeakersMax | minus: nbVisibleSpeakers %}

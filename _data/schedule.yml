@@ -1,0 +1,211 @@
+2018:
+  - type: headers
+    values:
+      - fr_FR: Intervention
+        en_US: Talk
+  - type: pause
+    hour: "08:30"
+    values:
+      fr_FR: Accueil des participant·e·s
+      en_US: Attendees' welcome
+  - type: short
+    hour: "09:00"
+    values:
+      fr_FR: Ouverture des conférences
+      en_US: Conference Opening
+  - type: talks
+    hour: "09:10"
+    values:
+      - metrics-explained
+  - type: talks
+    hour: "09:40"
+    values:
+      - lightning-fast-ux
+  - type: pause
+    hour: "10:30"
+    values:
+      fr_FR: Pause Café (30 min)
+      en_US: Coffee Break (30 min)
+  - type: short
+    hour: "11:00"
+    values:
+      fr_FR: Reprise des conférences
+      en_US: Conferences resume
+  - type: talks
+    hour: "11:10"
+    values:
+      - css-rendering-performance
+  - type: talks
+    hour: "11:40"
+    values:
+      - webperf-as-core-value
+  - type: talks
+    hour: "12:00"
+    values:
+      - organizing-business-for-web-performance
+  - type: pause
+    hour: "12:40"
+    values:
+      fr_FR: Pause Déjeuner (1 hour)
+      en_US: Launch Break (1 hour)
+  - type: short
+    hour: "13:40"
+    values:
+      fr_FR: Reprise des conférences
+      en_US: Conferences resume
+  - type: talks
+    hour: "13:50"
+    values:
+      - how-much-is-100ms-correlate-webperf-and-conversion
+  - type: talks
+    hour: "14:10"
+    values:
+      - performance-budgets
+  - type: talks
+    hour: "14:10"
+    values:
+      - chrome-ux-report
+  - type: talks
+    hour: "15:10"
+    values:
+      - responsive-images-optimize-webperf
+  - type: pause
+    hour: "15:40"
+    values:
+      fr_FR: Pause Café (30 min)
+      en_US: Coffee Break (30 min)
+  - type: short
+    hour: "16:10"
+    values:
+      fr_FR: Reprise des conférences
+      en_US: Conferences resume
+  - type: talks
+    hour: "16:20"
+    values:
+      - ux-and-performance-metrics-that-matters
+  - type: talks
+    hour: "17:10"
+    values:
+      - fast-by-default-rebuilding-algolia-website
+2019:
+  - type: headers
+    values:
+      - fr_FR: Amphi Exploration
+        en_US: Exploration Auditorium
+      - fr_FR: Amphi Approfondissement
+        en_US: Deep-Dive Auditorium
+  - type: pause
+    hour: "09:00"
+    values:
+      fr_FR: Accueil des participant·e·s
+      en_US: Attendees' welcome
+  - type: short
+    hour: "09:25"
+    values:
+      fr_FR: Ouverture des conférences
+      en_US: Conference Opening
+  - type: talks
+    hour: "09:30"
+    values:
+      - navigateur_coulisses
+      - why_webperf_matters
+  - type: short
+    hour: "10:05"
+    values:
+      fr_FR: Changement de salle
+      en_US: Change of room
+  - type: talks
+    hour: "10:10"
+    values:
+      - performance_et_ecologie
+      - responsible_javascript
+  - type: pause
+    hour: "11:05"
+    values:
+      fr_FR: Pause Café
+      en_US: Coffee Break
+  - type: short
+    hour: "11:30"
+    values:
+      fr_FR: Reprise des conférences
+      en_US: Conferences resume
+  - type: talks
+    hour: "11:35"
+    values:
+      - pagesjaunes_top10
+      - image_at_scale
+  - type: short
+    hour: "12:10"
+    values:
+      fr_FR: Changement de salle
+      en_US: Change of room
+  - type: talks
+    hour: "12:15"
+    values:
+      - keeping_wikipedia_fast
+      - interpreter_rum
+  - type: pause
+    hour: "13:10"
+    values:
+      fr_FR: Pause Déjeuner (90 min)
+      en_US: Launch Break (90 min)
+  - type: short
+    hour: "14:40"
+    values:
+      fr_FR: Reprise des conférences
+      en_US: Conferences resume
+  - type: talks
+    hour: "14:45"
+    values:
+      - http3
+      - chaperons_and_curfews
+  - type: short
+    hour: ""
+    values:
+      fr_FR: <small>⚠️ PAS de changement de salle entre les interventions</small>
+      en_US: </small>⚠️ NO change of room between the talks</small>
+  - type: talks
+    hour: ""
+    values:
+      - rex_seloger
+      - pwa_webperf
+  - type: pause
+    hour: "16:20"
+    values:
+      fr_FR: Pause Café
+      en_US: Coffee Break
+  - type: short
+    hour: "16:45"
+    values:
+      fr_FR: Reprise des conférences
+      en_US: Conferences resume
+  - type: talks
+    hour: "16h50"
+    values:
+      - webperf_project_checklist
+      - cherie_j_ai_retreci_mes_bundles_js
+  - type: short
+    hour: "17:25"
+    values:
+      fr_FR: Changement de salle
+      en_US: Change of room
+  - type: talks
+    hour: "17h30"
+    values:
+      - rex_protonmail
+      - ux_vs_dx
+  - type: short
+    hour: "18:05"
+    values:
+      fr_FR: Rendez-vous dans l'Amphi Exploration
+      en_US: Let's meet in the Exploration Auditorium
+  - type: pause
+    hour: "18:10"
+    values:
+      fr_FR: Clotûre de We Love Speed 2019
+      en_US: We Love Speed 2019 Ending
+  - type: short
+    hour: "18:30"
+    values:
+      fr_FR: C'est fini !
+      en_US: That's all folks!

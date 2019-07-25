@@ -1,5 +1,7 @@
 ---
 display-order: 3
+locale: fr_FR
+length: 45
 pub_date: '2019-07-01'
 speakers:
   - romuald

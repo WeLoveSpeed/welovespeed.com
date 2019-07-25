@@ -1,21 +1,6 @@
 {% comment %} Count speakers {% endcomment %}
 {% capture nowUnix %}{{ site.time | date: '%s'}}{% endcapture %}
-{% assign speakers = '' | split: '' %}
-{% comment %} Count official speakers and incognitos {% endcomment %}
-{% for conference in include.conferences %}
-  {% for name in conference.speakers %}
-    {% capture pubDateUnix %}{{ conference.pub_date | date: '%s' }}{% endcapture %}
-    {% if pubDateUnix <= nowUnix %}
-      {% assign speakerName = name | split: '  ' %}
-      {% assign speakers = speakers | concat: speakerName %}
-    {% endif %}
-  {%- endfor -%}
-{%- endfor -%}
-{% assign visibleSpeakers = speakers | sort | uniq %}
-{% assign nbVisibleSpeakers = visibleSpeakers | size %}
-{% assign yearSpeakers = site.data.speakers[include.year] %}
-{% assign nbSpeakersMax = yearSpeakers | size %}
-{% assign nBIncognito = nbSpeakersMax | minus: nbVisibleSpeakers %}
+{% include compute_speakers.html year=include.year conferences=include.conferences %}
 {% capture nbItemGrid %}{{ nbSpeakersMax }}i{% endcapture %}
 {% comment %} Display speakers {% endcomment %}
 {% unless include.nowrap %}
@@ -29,21 +14,15 @@
         <span class="inline-not-large">{% t Intervenant‧e‧s %}</span><span class="inline-large">{% t Intervenants et Intervenantes %}</span>
     </h{% if include.h1 %}1{% else %}2{% endif %}>
     <div class="grid-{{ site.data.gridsize[nbItemGrid] }} text-center">
-
-    {% for talk in include.conferences %}
-      {% capture pubDateUnix %}{{ talk.pub_date | date: '%s' }}{% endcapture %}
-      {%- if pubDateUnix <= nowUnix -%}
-        {%- for name in talk.speakers -%}
-          {% assign speaker = yearSpeakers[name] %}
-          <figure class="person {{ name }}">
-                {% capture talkUrl %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "programme" | t: include.locale }}{% endunless %}#{{ talk.slug }}{% endcapture %}
-                <a title="{{ "Aller directement à l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ talkUrl }}">
-                  {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}
-                </a>
-                {% include person-links.html urls=speaker.urls %}
-          </figure>
-        {%- endfor -%}
-      {%- endif -%}
+    {%- for name in visibleSpeakers -%}
+      {% assign speaker = yearSpeakers[name] %}
+      <figure class="person {{ name }}">
+            {% capture speakerUrl %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}{% endunless %}#{{ name }}{% endcapture %}
+            <a title="{{ "Détails de l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ speakerUrl }}">
+              {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}
+            </a>
+            {% include person-links.html urls=speaker.urls %}
+      </figure>
     {%- endfor -%}
     {%- for i in (1..nBIncognito) -%}
       <figure class="person">

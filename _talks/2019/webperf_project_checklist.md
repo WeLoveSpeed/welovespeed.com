@@ -1,5 +1,7 @@
 ---
 display-order: 5
+locale: fr_FR
+length: 25
 pub_date: "2019-07-01"
 speakers:
   - quentin

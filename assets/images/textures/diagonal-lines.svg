@@ -1,0 +1,5 @@
+<svg width="6px" height="6px" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#aaa" fill-opacity="0.5" fill-rule="evenodd">
+    <path d="M5 0h1L0 6V5zM6 5v1H5z"/>
+  </g>
+</svg>

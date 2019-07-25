@@ -10,15 +10,18 @@ $white                            : #FFFFFF;
 $darkgreen                        : #192112;
 $red                              : #e62827;
 $darkred                          : darken($red, 20);
-$softwhite                        : lighten($red,47);
+$blackred                         : darken($red, 40);
+$softred                          : lighten($red, 40);
+$softwhite                        : lighten($red, 47);
 
 $green                            : #6A7C2C;
 $blue                             : #12A6C6;
-$orange                           : #F39C12;
+$orange                           : #f3973e;
+$purple                           : #9d3bb0;
 
 $devtools-dns-lookup              : #409688;
-$devtools-initial-connection      : #f3973e;
-$devtools-ssl                     : #9d3bb0;
+$devtools-initial-connection      : $orange;
+$devtools-ssl                     : $purple;
 $devtools-waiting                 : #5dc954;
 $devtools-content-download        : #3da9f5;
 $devtools-dcl                     : #dcdcff;
@@ -28,7 +31,7 @@ $devtools-fl                      : #ffc7c6;
 
 $pastel-green                     : lighten($green, 50%);
 $pastel-blue                      : lighten($blue, 50%);
-$pastel-orange                    : lighten($orange, 40%);
+$pastel-orange                    : lighten($orange, 35%);
 $pastel-red                       : lighten($red, 40%);;
 $pastel-yellow                    : #fcfccd;
 

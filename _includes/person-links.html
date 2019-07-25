@@ -1,4 +1,5 @@
-<ul class="person-links">
+<sup>
+  <ul class="person-links">
   {% capture symbols-url %}/assets/svg/symbol-defs.svg?{{site.time | date: '%Y%m%d%H%M%S'}}#{% endcapture %}
 
   {% for link in include.urls %}
@@ -10,4 +11,5 @@
       </a>
     </li>
   {% endfor%}
-</ul>
+  </ul>
+</sup>

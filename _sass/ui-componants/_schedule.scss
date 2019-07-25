@@ -1,0 +1,229 @@
+@function url-encode-rgb($string) {
+  @if type-of($string) == "color" {
+    $hex: str-slice(ie-hex-str($string), 4);
+    $string: unquote("#{$hex}");
+  }
+  $string: "%23" + $string;
+  @return $string;
+}
+
+.schedule {
+  &-hour {
+    text-align: center;
+    padding: 5px 1rem;
+    td {
+      padding: 0 $global-gutters/2;
+    }
+  }
+
+  border-spacing: 5px;
+
+  &-header {
+    display: table-cell;
+    background: $default-bg;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-size: 1.1em;
+    @include media("<=medium") {
+      display: none;
+    }
+
+    &:nth-of-type(2),
+    &:nth-of-type(3) {
+      color: $white;
+    }
+  }
+
+  &-short,
+  &-pause {
+    td {
+      text-align: center;
+    }
+    background-color: $pastel-orange;
+    background-image: url("/assets/images/textures/waves.svg");
+  }
+
+  &-room {
+    display: none;
+  }
+
+  &-pause {
+    background-color: $pastel-green;
+    background-image: url("/assets/images/textures/windows.svg");
+    td {
+      padding: 1.5rem 1rem;
+    }
+  }
+
+  @include media("<=medium") {
+    &-headers,
+    &-talks,
+    &-short,
+    &-pause,
+    &-talks td {
+      display: block;
+    }
+    &-short,
+    &-pause {
+      td {
+        display: inline-block;
+      }
+    }
+
+    &-room {
+      display: inline;
+      &::after {
+        content: " | ";
+      }
+    }
+    &-hour {
+      font-size: 1.6em;
+    }
+  }
+}
+
+.talk {
+  border: 1px solid #ddd;
+  border-radius: $global-gutters/2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 260px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-style: normal;
+
+  header {
+    grid-row: 1;
+    padding: $global-gutters/2;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    h2 {
+      font-size: 0.8em;
+    }
+
+    .person {
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      overflow: hidden;
+      z-index: 9;
+
+      @include media("<=medium") {
+        width: 50px;
+        height: 50px;
+      }
+
+      &-avatar {
+        max-width: 100%;
+      }
+
+      &-2 {
+        width: 45px;
+
+        &:nth-of-type(2) {
+          z-index: 8;
+          transform: translate(30px, 30px);
+        }
+      }
+
+      &-4 {
+        width: 30px;
+
+        &:nth-of-type(2) {
+          transform: translate(35px, 35px);
+        }
+
+        &:nth-of-type(3) {
+          transform: translate(0, 35px);
+        }
+
+        &:nth-of-type(4) {
+          transform: translate(35px, 0);
+        }
+      }
+    }
+  }
+
+  &-summary {
+    margin-left: 100px;
+    @include media("<=medium") {
+      margin-left: 60px;
+    }
+    color: white;
+  }
+
+  h2 {
+    font-family: $title-font-family;
+    margin: 0;
+    color: white;
+  }
+
+  &-authors {
+    margin: 0;
+    margin-top: 4px;
+    font-size: 0.7em;
+  }
+
+  &-excerpt {
+    margin-top: 10px;
+    padding: 10px;
+    color: $blackred;
+    font-size: 16px;
+    grid-row: 2;
+    p {
+      margin: 0;
+    }
+  }
+
+  footer {
+    grid-row: 3;
+    text-align: right;
+    font-size: 0.8em;
+    padding: 6px 10px;
+    background-color: #efefef;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    .link {
+      text-decoration: none;
+      color: #220a37;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.room1 {
+  header,
+  &-header {
+    background-color: $red;
+    background-image: url("/assets/images/textures/diagonal-lines.svg");
+    box-shadow: 0 2px 8px -1px $red;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border-color: dargen($red, 40);
+    box-shadow: $red 0 0 $global-gutters/2;
+  }
+}
+.room2 {
+  header,
+  &-header {
+    background-color: $blue;
+    background-image: url("/assets/images/textures/tiny-checkers.svg");
+    box-shadow: 0 2px 8px -1px $blue;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border-color: dargen($blue, 40);
+    box-shadow: $blue 0 0 $global-gutters/2;
+  }
+}

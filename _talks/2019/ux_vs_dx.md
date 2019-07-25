@@ -1,10 +1,12 @@
 ---
 display-order: 16
+locale: en_US
+length: 25
 pub_date: '2019-07-01'
 speakers:
-  - estelle_en
+  - estelle
 fr_FR:
-  title: '<abbr title="User Experience">UX</abbr> vs <abbr title="Developer Experience">DX</abbr>'
+  title: '<span lang="en"><abbr title="User Experience">UX</abbr> vs <abbr title="Developer Experience">DX</abbr><span lang="en">'
   description: >-
     Rapide à coder. Rapide à montrer. Mais pourquoi devrait-on choisir entre l'un et l'autre ? Nos sites sont censés être réactifs, internationalisables, sécurisés, accessibles et performants. Il est logique d’utiliser tous les outils disponibles pour implémenter rapidement des fonctionnalités, mais il faut faire attention à ce que vos outils n’aient pas un impact négatif sur la facilité d’utilisation. Voyons quels sont les problèmes communs et comment ne pas sacrifier la qualité au profit du confort des développeur·se·s.
     
