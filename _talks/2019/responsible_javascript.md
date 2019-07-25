@@ -1,6 +1,7 @@
 ---
 display-order: 6
 locale: en_US
+length: 45
 pub_date: '2019-07-01'
 speakers:
   - jeremy

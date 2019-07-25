@@ -1,6 +1,7 @@
 ---
 display-order: 15
 locale: fr_FR
+length: 45
 pub_date: '2018-06-01'
 speakers:
   - gilles

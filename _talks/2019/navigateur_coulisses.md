@@ -1,6 +1,7 @@
 ---
 display-order: 1
 locale: fr_FR
+length: 25
 pub_date: '2018-06-01'
 speakers:
   - estelle
