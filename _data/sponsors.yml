@@ -339,3 +339,6 @@
     - name: Mozilla
       logo: /assets/images/thanks/mozilla.svg
       url: https://www.mozilla.org/
+    - name: Stickermule
+      logo: /assets/images/thanks/stickermule.svg
+      url: http://stickermule.com/supports/welovespeed19-sponsorship
