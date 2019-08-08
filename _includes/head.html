@@ -13,6 +13,10 @@
     {% comment %} End Social Image computation {% endcomment %}
     <head>
         <meta charset="utf-8">
+
+        <link rel="preconnect" href="https://res.cloudinary.com">
+        <link rel="preconnect" href="https://analytics.schapira.dev/">
+
         <link rel="preload" href="/assets/svg/wls-inline.svg" as="image">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="{{ page.robots |default: site.robots }}">
