@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="page-main-title h-like">
       <a href="{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ include.link.anchor }}" title="{% t Accueil %}">
-        <img src="/assets/svg/wls-inline.svg" class="page-main-title-logo" alt="{{ site.seo_title }}" />
+        <img src="/assets/svg/wls-inline.svg" class="page-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
       </a>
       <p class="page-main-title-baseline">
           {{ site.data.editions[page.year].tagline[page.locale] }}

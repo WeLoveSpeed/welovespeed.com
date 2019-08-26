@@ -46,7 +46,7 @@
                         {%- for speakerSlug in talk.speakers -%}
                           {% assign speaker = site.data.speakers[include.year][speakerSlug] %}
                           <figure class="person person-{{ talk.speakers | size }} {{ speaker.slug }}">
-                            {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}
+                            {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" loading="lazy" %}
                           </figure>
                         {%- endfor -%}
                         <div class="talk-summary">

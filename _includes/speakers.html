@@ -19,14 +19,14 @@
       <figure class="person {{ name }}">
             {% capture speakerUrl %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}{% endunless %}#{{ name }}{% endcapture %}
             <a title="{{ "Détails de l'intervention de %s" | t: include.locale | replace:"%s",speaker.name }}" href="{{ speakerUrl }}">
-              {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" %}
+              {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" loading="lazy" %}
             </a>
             {% include person-links.html urls=speaker.urls %}
       </figure>
     {%- endfor -%}
     {%- for i in (1..nBIncognito) -%}
       <figure class="person">
-        {% cloudinary avatar {{ "/assets/images/speakers/incognito.png" | relative_url }} class="person-avatar" alt="" %}
+        {% cloudinary avatar {{ "/assets/images/speakers/incognito.png" | relative_url }} class="person-avatar" alt="" loading="lazy" %}
       </figure>
     {%- endfor -%}
     </div>

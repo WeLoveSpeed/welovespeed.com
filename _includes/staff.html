@@ -5,7 +5,7 @@
     <div class="grid-{{ site.data.gridsize[nbitems] }} text-center">
       {% for member in staff %}
         <figure class="person" role="group" aria-describedby="capt-{{member.slug}}">
-          {% cloudinary avatar {{ "/assets/images/staff/" | append: member.slug | append: ".jpg" | relative_url }} class="person-avatar lozad" alt="{{member.firstname}} {{member.lastname}}" %}
+          {% cloudinary avatar {{ "/assets/images/staff/" | append: member.slug | append: ".jpg" | relative_url }} class="person-avatar lozad" alt="{{member.firstname}} {{member.lastname}}" loading="lazy" %}
           <figcaption id="capt-{{member.slug}}" class="person-name text-xs">
             {% if member.twitter %}<a title="{{member.firstname}} {{member.lastname}}" href="https://twitter.com/{{member.twitter}}">{{member.firstname}} <span class="sr-only">{{member.lastname}}</span></a>{% else %}{{member.firstname}} <span class="sr-only">{{member.lastname}}</span>{% endif %}<br>
             ({% for link in member.links %}

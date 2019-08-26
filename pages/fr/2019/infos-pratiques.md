@@ -17,7 +17,7 @@ Une journée complète, le vendredi 20 septembre 2019. L’accueil se fera avec 
 À “LA CITÉ des Échanges”, juste à côté de Lille, une région pionnière et motrice pour l’e-commerce.
 
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2529.212821896712!2d3.1092103156398365!3d50.660308979504855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3298c8bbc835f%3A0x531fcce4347c737e!2sLA+CIT%C3%89+des+%C3%A9changes!5e0!3m2!1sfr!2sfr!4v1560419850754!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br><a href="https://goo.gl/maps/P2NTVejeBbngx4YYA"><small>Afficher la carte sur Google Maps</small></a>.
+<iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2529.212821896712!2d3.1092103156398365!3d50.660308979504855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3298c8bbc835f%3A0x531fcce4347c737e!2sLA+CIT%C3%89+des+%C3%A9changes!5e0!3m2!1sfr!2sfr!4v1560419850754!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br><a href="https://goo.gl/maps/P2NTVejeBbngx4YYA"><small>Afficher la carte sur Google Maps</small></a>.
 </p>
 
 LA CITÉ des Échanges<br />
