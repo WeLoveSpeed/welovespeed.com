@@ -348,3 +348,6 @@
     - name: Ubik Ingénieurie
       logo: /assets/images/thanks/ubik2.png
       url: https://ubikloadpack.com/our-services.php
+    - name: Prestarocket
+      logo: /assets/images/thanks/prestarocket.svg
+      url: https://prestarocket.com/
