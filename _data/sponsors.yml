@@ -351,3 +351,6 @@
     - name: Prestarocket
       logo: /assets/images/thanks/prestarocket.svg
       url: https://prestarocket.com/
+    - name: Quadran
+      logo: /assets/images/thanks/quadran.svg
+      url: https://www.quadran.eu/
