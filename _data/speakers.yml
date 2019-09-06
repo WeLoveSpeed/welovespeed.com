@@ -239,7 +239,7 @@
         Peter travaille dans l'équipe Performance de la Wikimedia Foundation où il mesure la performance de Wikipédia à l'aide de tests synthétiques et de RUM. Avant de rejoindre la fondation, il a travaillé comme consultant en Performance Web pour les plus grandes marques suédoises. Peter a également créé le populaire outil de Performance Web open source [sitespeed.io](https://www.sitespeed.io/).
   gilles:
     name: Gilles Dubuc
-    image: /assets/images/speakers/2019/gilles2.jpg
+    image: /assets/images/speakers/2019/gilles3.jpg
     urls:
       - name: twitter
         title: '@fullstackjerk (Twitter)'
@@ -250,6 +250,9 @@
       - name: github
         title: '@gi11es (Github)'
         url: https://github.com/gi11es
+      - name: cc
+        title: 'Photo by Myleen Hollero CC-BY-SA 4.0'
+        url: https://creativecommons.org/licenses/by-sa/4.0/deed
     en_US:
       bio: >-
         After more than ten years of experience as a Full Stack developer, Gilles Dubuc joined the Wikimedia Foundation in 2014.
