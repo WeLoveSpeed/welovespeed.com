@@ -10,7 +10,7 @@ layout: page
 
 ## When 🕗
 
-A full day, on Friday, September 20, 2019. There will be a welcome breakfast, and we’ll jump to the talks.
+A full day, on Friday, September 20, 2019. At 9AM, we welcome you with a breakfast, and we’ll jump to the talks at 9:30.
 In order for everyone to take a breath and chat around, there will be 3 breaks throughout the day.
 
 ## Where 🗺️
