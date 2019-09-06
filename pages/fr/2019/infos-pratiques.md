@@ -10,7 +10,7 @@ layout: page
 
 ## Quand 🕗
 
-Une journée complète, le vendredi 20 septembre 2019. L’accueil se fera avec des viennoiseries, avant de démarrer les présentations.
+Une journée complète, le vendredi 20 septembre 2019. On vous attend pour 9H00 avec des viennoiseries et du croissant, avant de démarrer les présentations 30 minutes après.
 
 ## Où 🗺️
 
@@ -38,7 +38,7 @@ Comptez ensuite 25 minutes (tramway et marche) pour rejoindre la Cité des Écha
 La station la plus proche de la Cité, à pied, est Acacias (Marcq-en-Barœul). Depuis les gares de Lille, prendre le tramway en direction de Eurotéléport / Roubaix, prévoir 12 à 15 minutes.
 Pour votre calcul d’itinéraire, vous pouvez utiliser [Ilevia](https://www.ilevia.fr/cms/institutionnel/se-deplacer/#itineraires) ou consulter le [plan de la ligne en PDF](http://www.ilevia.fr/cms/institutionnel/wp-content/uploads/sites/4/2019/01/tramway.pdf).
 
-À Acacias, traversez la zone résidentielle par l’Avenue des Acacias (1e rue à droite). Au bout, tourner à droite rue Eugène Jacquet. Au numéro 40 environ, un panneau “Entreprises et Cités” vous indiquera le domaine. Pénétrez dans l’enceinte en suivant la voie principale jusqu’à la Cité des Échanges.
+À Acacias, traversez la zone résidentielle par l’Avenue des Acacias (1ère rue à droite). Au bout, tourner à droite rue Eugène Jacquet. Au numéro 40 environ, un panneau “Entreprises et Cités” vous indiquera le domaine. Pénétrez dans l’enceinte en suivant la voie principale jusqu’à la Cité des Échanges.
 
 [Itinéraire à pied jusqu’à nos portes](https://www.google.fr/maps/dir/Acacias,+Marcq-en-Bar%C5%93ul/50.6598929,3.1109869/@50.6618326,3.109441,680m/data=!3m1!1e3!4m14!4m13!1m10!1m1!1s0x47c3298eb9631495:0xe704062a7ed6a41e!2m2!1d3.1095316!2d50.6649308!3m4!1m2!1d3.1093697!2d50.6611923!3s0x47c3298c8ab0f019:0x2d0eafefd6ef73b7!1m0!3e2!5m1!1e2).
 
