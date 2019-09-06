@@ -88,10 +88,10 @@
         url: https://github.com/malchata
     en_US:
       bio: >-
-        Performance consultant at [SiteImprove](https://siteimprove.com/), author, and speaker from Minnesota.
+        Jeremy Wagner is a web performance consultant from The United States working for [Siteimprove](https://siteimprove.com/). He writes and speaks often on performance and works to make the web faster for everyone, everywhere.
     fr_FR:
       bio: >-
-        Consultant en Performance pour [SiteImprove](https://siteimprove.com/), auteur et conférencier qui nous vient du Minnesota. Il est l'auteur de nombreux articles de références sur la Performance Web, notamment [sur WebFundamentals](https://developers.google.com/web/resources/contributors/jeremywagner).
+        Jeremy Wagner est un consultant en Performance Web américain, travaillant pour [Siteimprove](https://siteimprove.com/). Il écrit et parle souvent sur la Performance et travaille à rendre le web plus rapide pour tout le monde, en tous lieux.
   ryan:
     name: Ryan Townsend
     image: /assets/images/speakers/2019/ryan.jpg
