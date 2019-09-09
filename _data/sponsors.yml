@@ -354,3 +354,6 @@
     - name: Quadran
       logo: /assets/images/thanks/quadran.svg
       url: https://www.quadran.eu/
+    - name: Oseox Software
+      logo: /assets/images/thanks/oseox-software.png
+      url: http://www.oseox-software.fr/
