@@ -170,12 +170,12 @@
       - rex_seloger
       - pwa_webperf
   - type: pause
-    hour: "16:20"
+    hour: "16:15"
     values:
       fr_FR: Pause Café
       en_US: Coffee Break
   - type: short
-    hour: "16:45"
+    hour: "16:40"
     values:
       fr_FR: Reprise des conférences
       en_US: Conferences resume
@@ -185,7 +185,7 @@
       - webperf_project_checklist
       - cherie_j_ai_retreci_mes_bundles_js
   - type: short
-    hour: "17:25"
+    hour: "17:20"
     values:
       fr_FR: Changement de salle
       en_US: Change of room
@@ -195,17 +195,17 @@
       - rex_protonmail
       - ux_vs_dx
   - type: short
-    hour: "18:05"
+    hour: "18:00"
     values:
       fr_FR: Rendez-vous dans l'Amphi Exploration
       en_US: Let's meet in the Exploration Auditorium
   - type: pause
-    hour: "18:10"
+    hour: "18:05"
     values:
       fr_FR: Clôture de We Love Speed 2019
       en_US: We Love Speed 2019 Ending
   - type: short
-    hour: "18:30"
+    hour: "18:20"
     values:
       fr_FR: C'est fini !
       en_US: That's all folks!
