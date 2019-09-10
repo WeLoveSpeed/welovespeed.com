@@ -357,3 +357,6 @@
     # - name: Oseox Software
     #   logo: /assets/images/thanks/oseox-software.png
     #   url: http://www.oseox-software.fr/
+    - name: JDN
+      logo: /assets/images/thanks/jdn.svg
+      url: https://www.journaldunet.com/
