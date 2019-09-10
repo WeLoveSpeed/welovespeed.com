@@ -152,6 +152,10 @@ $load-third-length: ($nav-menu-width-inactive - ($load-first-start + $load-first
     @extend %ul-reset;
   }
 
+  hr {
+    margin: 0.6em 0;
+  }
+
   a {
     padding: .25em .5em;
     border: 1px solid transparent; outline: none;

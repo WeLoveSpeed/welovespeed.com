@@ -15,8 +15,13 @@
   <ul class="page-nav-inner">
     {% assign nav_links = site.data.sitemap[include.year] | where: 'in_nav', true %}
     {% for link in nav_links %}
+      {% unless link.type == "separator" %}
       <li>{% include link.html link=link %}</li>
+      {% else %}
+        <hr>
+      {% endunless %}
     {% endfor%}
+    <hr>
     {% if page.translation %}
       {% assign hreflang = page.translation.locale | slice: 0,2 %}
       <li><a hreflang="{{ hreflang }}" href="{{ page.translation.url | relative_url }}"><small>{% t (see in english) %}</small></a></li>

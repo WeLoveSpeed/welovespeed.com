@@ -29,7 +29,7 @@
     edition_relative: true
     in_nav: false
     in_footer: true
-  - name: Nos sponsors
+  - name: Sponsors
     type: page
     value: merci
     edition_relative: true
@@ -41,9 +41,18 @@
     edition_relative: false
     in_nav: false
     in_footer: false
+  - type: separator
+    in_nav: true
+    in_footer: false
   - name: Contact
     type: page
     value: contact
+    edition_relative: false
+    in_nav: true
+    in_footer: true
+  - name: Newsletter
+    type: page
+    value: newsletter
     edition_relative: false
     in_nav: true
     in_footer: true
@@ -83,7 +92,7 @@
     edition_relative: true
     in_nav: false
     in_footer: true
-  - name: Nos sponsors
+  - name: Sponsors
     type: page
     value: merci
     edition_relative: true
