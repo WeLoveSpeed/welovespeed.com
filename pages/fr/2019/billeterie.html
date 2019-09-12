@@ -5,12 +5,25 @@ i18n-key: 2019-register
 permalink: /2019/billetterie/
 ---
 
-{% if site.tickets.selling %}
+{% if site.tickets.selling and site.tickets.weezevent %}
 <section class="section" id="register">
   <div class="wrapper">
     <h2>Acheter votre place</h2>
     <a title="Logiciel billetterie en ligne" href="{{ site.weezevent.mini-site-url }}" class="weezevent-widget-integration" target="_blank" data-src="https://www.weezevent.com/widget_billeterie.php?id_evenement=459513&lg_billetterie=1&code=1130&resize=1&width_auto=1&color_primary=cd2f2b" data-width="650" data-height="600" data-id="459513" data-resize="1" data-width_auto="1" data-noscroll="0" data-nopb="0">Billetterie Weezevent</a>
     <script type="text/javascript" src="https://www.weezevent.com/js/widget/min/widget.min.js"></script>
+  </div>
+</section>
+{% endif %}
+{% if site.tickets.selling and site.tickets.coupons-only %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Coupons uniquement</h2>
+    <p>Toutes les places pour We Love Speed ont été vendues ! Si vous êtes bénéficiaire d'un coupon "place offerte", vous pouvez cependant l'utiliser ici&nbsp;:</p>
+    <div class="text-center">
+      <a class="button" href="{{ page.baseurl | default:site.baseurl }}/{{ "contact" | t: page.locale }}/?message=Bonjour%2C%0A%0AJe%20souhaiterai%20r%C3%A9server%20une%20place%20avec%20le%20coupon%20%3A%20%5Bpr%C3%A9ciser%20le%20coupon%5D%0AMon%20email%20est%20%3A%20%5BEmail%5D%0A%0APour%20mon%20badge%2C%20mon%20nom%20est%20%3A%20%5BPr%C3%A9nom%5D%20%5BNom%5D%2C%20je%20suis%20%3A%20%5BPoste%5D%2C%20et%20je%20travaille%20pour%20%3A%20%5BEntreprise%5D." data-text="Utiliser mon coupon">
+        <span class="button-inner">Utiliser mon coupon</span>
+      </a>
+    </div>
   </div>
 </section>
 {% endif %}
@@ -44,7 +57,6 @@ permalink: /2019/billetterie/
 {% endif %}
 {% if site.tickets.selling %}
 <hr class="wrapper">
-
 <section class="section">
   <div class="wrapper">
     <div class="grid-2">
