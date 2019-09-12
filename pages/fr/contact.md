@@ -19,7 +19,7 @@ Vous avez une question, une suggestion ? N'hésitez pas à nous envoyer un messa
     <label for="message">Votre message (obligatoire)&nbsp;:</label>
     <textarea name="message" rows="10" id="message" required></textarea>
   </fieldset>
-  <p><small>Note&nbsp;: bien que l'email soit obligatoire pour que nous vous réondions, n'hésitez pas à utiliser anonymous@anon.com si vous souhaitez rester anonyme.</small></p>
+  <p><small>Note&nbsp;: bien que l'email soit obligatoire pour que nous vous répondions, n'hésitez pas à utiliser anonymous@anon.com si vous souhaitez rester anonyme.</small></p>
   <fieldset>
     <div data-netlify-recaptcha="true"></div>
     <button type="submit" class="button" data-text="envoyer">
