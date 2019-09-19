@@ -26,8 +26,8 @@ sponsoring:
   en_US: '/assets/docs/2019/sponsoring_en.pdf'
 tickets:
   selling: true
-  weezevent: true
-  coupons-only: false
+  weezevent: false
+  coupons-only: true
   waiting-list: false
   price: "179"
   price_currency: "EUR"
