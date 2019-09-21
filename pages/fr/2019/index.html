@@ -24,6 +24,9 @@ permalink: /2019/
       <a class="button" data-text="présentations et vidéos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="présentations et vidéos">
         <span class="button-inner">présentations et vidéos</span>
       </a>
+      <a class="button" data-text="témoignages" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/#{{page.year}}" title="témoignages">
+        <span class="button-inner">témoignages</span>
+      </a>
       {% if site.current_edition != page.year %}
         <a class="button" data-text="{% t voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t voir l'édition courante %}">
           <span class="button-inner">{% t voir l'édition courante %}</span>

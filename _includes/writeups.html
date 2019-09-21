@@ -1,6 +1,6 @@
 {% assign editions = site.data.writeups | sort: 'year' | reverse %} {% for edition in editions %}
 <section>
-  <h2>{{ edition.year }}</h2>
+  <h2 id="{{ edition.year }}">{{ edition.year }}</h2>
   <ul>
     {% comment %}
 
