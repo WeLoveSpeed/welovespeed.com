@@ -1,5 +1,8 @@
 .wrapper {
   width: $wrapper-width; max-width: $wrapper-max-width; margin: 0 auto;
+  &.writeups li {
+    list-style-type: none;
+  }
 }
 
 .inline-large {

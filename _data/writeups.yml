@@ -1,34 +1,75 @@
+- year: 2019
+  messages:
+    - url: https://twitter.com/Capitaine/status/1175341846979121152
+      author: "Capitaine Commerce (@Capitaine)"
+      locale: fr_FR
+      extract: >-
+        Vraiment un événement intéressant pour un sujet qui devrait sortir du cercle des développeurs et être pris en considération par le marketing. La vitesse d’affichage, c’est du marketing !
+    - url: https://twitter.com/0gust1/status/1175104519065296897
+      author: "@0gust1"
+      locale: fr_FR
+      extract: >-
+        Superbe édition, super programme. Merci aux organisateurs et conférenciers !
+    - url: https://twitter.com/doc_roms/status/1175157658774642688
+      author: "Romuald ♻️🌱 🚵‍♂️ (@doc_roms)"
+      locale: fr_FR
+      extract: >-
+        👏 Merci à la team pour cette superbe édition. Merci aussi aux speakers pour leur talks: c'était vraiment super intéressant ! #webperf 🚀<br>
+        Vivement l'année prochaine ! À Lyon peut-être ? 😋😁
+    - url: https://twitter.com/letitou/status/1175094586164822017
+      author: "Alexandre JAKUBIAK (@letitou)"
+      locale: fr_FR
+      extract: >-
+        Un programme riche, des orateurs passionnants et une organisation au cordeau! Super événement autour d'un sujet important et intéressant ! Bravo et à l'année prochaine !
+    - url: https://twitter.com/TheRealNooshu/status/1175133352019582976
+      author: "Matt Hobbs (@TheRealNooshu)"
+      locale: en_US
+      extract: >-
+        Huge thanks to the team for a fantastic conference. Thoroughly enjoyed it. You really knocked out of the park!
+    - url: https://twitter.com/BJacquemont/status/1175139090121011200
+      author: "Benoit Jacquemont (@BJacquemont)"
+      locale: en_US
+      extract: >-
+        The event was wonderful: a lot of nice talks and very nice people.<br>
+        The organization was top notch, great venue and great food 😉<br>
+        Congratulations to the team!<br>
+        Looking forward to the 2020 edition!
+    - url: https://twitter.com/SiliconSalad/status/1175078807579107335
+      author: "@SiliconSalad"
+      locale: fr_FR
+      extract: >-
+        Clôture de la conférence: sujet passionnant traité sous ses différents axes, bravo à toute l’équipe – article à venir sur notre blog prochainement.
 - year: 2018
   writeups:
-  - url: https://www.ekino.fr/articles/mick-grzesitchak-ingenieur-java-chez-ekino-revient-sur-la-conference-we
-    title: "Mick Grzesitchak, Ingénieur Java chez ekino revient sur la conférence We Love Speed"
-    authors: [Team Ekino, Mick Grzesitchak]
-    locale: fr_FR
-    extract: >-
-      Le dynamisme de l’événement m’a marqué. Comme si l’état d’esprit de la communauté Performance était performant. 🙂<br/>
-      La culture de la performance en entreprise est nécessaire pour de nombreux secteurs d’activité. J’ai l’impression qu’elle s’étend au-delà des aspects techniques et marque les esprits de façon plus globale.
-    from:
-      name: Ekino
-      url: https://www.ekino.fr/
-  - url: https://blog.badalic.com/welovespeed-conference
-    title: "Conference: WeLoveSpeed"
-    authors: [Jonas Badalic]
-    locale: en_US
-    extract: >-
-      A big thank you to the organizers, this could not have been better!<br/>
-      I really mean it, you've clearly put a lot of effort and thought into making this conference happen by providing everything needed prior and during the conference!
-  - url: https://blog.clever-age.com/fr/2018/10/31/we-love-speed-2018/
-    title: "We Love Speed 2018"
-    authors: [Sébastien Dugué, Nicolas Hoizey, Cyril Aknine, Baptiste Longval]
-    locale: fr_FR
-    extract: >-
-      Nous sommes fiers d’avoir accompagné les organisateurs pour cette première édition.
-    from:
-      name: Clever Age
-      url: https://www.clever-age.com/fr/content/nos-references-webperf/
-  - url: https://www.dankon.fr/article.php?id=653
-    title: "Retour sur We Love Speed 2018 – Une journée de partage pour les amoureux de la web-performance !"
-    authors: [Romain Thierry]
-    locale: fr_FR
-    extract: >-
-      On pouvait croiser des experts français mais aussi quelques pointures internationales venues distiller de bons conseils pour booster les performances de vos sites web.
+    - url: https://www.ekino.fr/articles/mick-grzesitchak-ingenieur-java-chez-ekino-revient-sur-la-conference-we
+      title: "Mick Grzesitchak, Ingénieur Java chez ekino revient sur la conférence We Love Speed"
+      authors: [Team Ekino, Mick Grzesitchak]
+      locale: fr_FR
+      extract: >-
+        Le dynamisme de l’événement m’a marqué. Comme si l’état d’esprit de la communauté Performance était performant. 🙂<br/>
+        La culture de la performance en entreprise est nécessaire pour de nombreux secteurs d’activité. J’ai l’impression qu’elle s’étend au-delà des aspects techniques et marque les esprits de façon plus globale.
+      from:
+        name: Ekino
+        url: https://www.ekino.fr/
+    - url: https://blog.badalic.com/welovespeed-conference
+      title: "Conference: WeLoveSpeed"
+      authors: [Jonas Badalic]
+      locale: en_US
+      extract: >-
+        A big thank you to the organizers, this could not have been better!<br/>
+        I really mean it, you've clearly put a lot of effort and thought into making this conference happen by providing everything needed prior and during the conference!
+    - url: https://blog.clever-age.com/fr/2018/10/31/we-love-speed-2018/
+      title: "We Love Speed 2018"
+      authors: [Sébastien Dugué, Nicolas Hoizey, Cyril Aknine, Baptiste Longval]
+      locale: fr_FR
+      extract: >-
+        Nous sommes fiers d’avoir accompagné les organisateurs pour cette première édition.
+      from:
+        name: Clever Age
+        url: https://www.clever-age.com/fr/content/nos-references-webperf/
+    - url: https://www.dankon.fr/article.php?id=653
+      title: "Retour sur We Love Speed 2018 – Une journée de partage pour les amoureux de la web-performance !"
+      authors: [Romain Thierry]
+      locale: fr_FR
+      extract: >-
+        On pouvait croiser des experts français mais aussi quelques pointures internationales venues distiller de bons conseils pour booster les performances de vos sites web.

@@ -23,6 +23,19 @@
       {% endif %}
     {% endfor%}
 
+    {% assign local_messages = ''|split:''%}
+    {% assign foreign_messages = ''|split:''%}
+    {% assign unsetlocal_messages = ''|split:''%}
+    {% for message in edition.messages %}
+      {% if message.locale == include.locale %}
+        {% assign local_messages = local_messages|push:message%}
+      {% elsif message.locale == nil %}
+        {% assign unsetlocal_messages = unsetlocal_messages|push:message%}
+      {% else %}
+        {% assign foreign_messages = foreign_messages|push:message%}
+      {% endif %}
+    {% endfor%}
+
     {% comment %}
 
       Maintenant qu'on a nos trois collections, on peut les utiliser.
@@ -30,8 +43,13 @@
     {% endcomment %}
 
     {% include writeups-items.html writeups=local_writeups locale=include.locale %}
+    {% include messages-items.html messages=local_messages locale=include.locale %}
+
     {% include writeups-items.html writeups=foreign_writeups locale=include.locale %}
+    {% include messages-items.html messages=foreign_messages locale=include.locale %}
+
     {% include writeups-items.html writeups=unsetlocal_writeups locale=include.locale %}
+    {% include messages-items.html messages=unsetlocal_messages locale=include.locale %}
   </ul>
   {% if forloop.first %}
     <p class="text-center"> <a class="button" data-text="{{ "contribuer un témoignage dans GitHub" | t:page.locale }}" href="https://github.com/{{site.repository}}/blob/master/_data/writeups.yml"> <span class="button-inner">{{ "contribuer un témoignage dans GitHub" | t:page.locale }}</span> </a> </p>

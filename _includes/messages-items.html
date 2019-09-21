@@ -1,0 +1,30 @@
+
+{% for message in include.messages %}
+{% capture markup %}{{ message.url }}{% endcapture %}
+
+{% comment %} Auteur et lien {% endcomment %}
+{% if message.author %}
+  {% capture markup %}<a href="{{ markup }}">{{ message.author }}</a>{% endcapture %}
+{% endif %}
+
+{% comment %} Si ça vient d'une organisation, on le précise {% endcomment %}
+{% if message.from and message.from.name %}
+  {% capture organization %}{{ message.from.name }}{% endcapture %}
+  {% if message.from.url %}
+    {% capture organization %}<a href="{{ message.from.url }}">{{ organization }}</a>{% endcapture %}
+  {% endif %}
+  {% capture markup %}{{ markup }} – {{ organization }}{% endcapture %}
+{% endif %}
+
+{% comment %} Si on a un extrait, on décore avec un `blockquote` et un `cite` {% endcomment %}
+{% if message.extract %}
+  {% capture markup %}
+    <blockquote{% if message.locale and include.locale != message.locale %} lang="{{ message.locale | slice: 0,2 }}" class="other-lang"{% endif %}>
+      <p>{{ message.extract }}</p>
+      <cite>{{ markup }}</cite>
+    </blockquote>
+  {% endcapture %}
+{% endif %}
+
+<li>{{ markup }}</li>
+{% endfor%}
