@@ -5,24 +5,24 @@
     edition_relative: true
     in_nav: true
     in_footer: false
-  - name: Programme
+  - name: Interventions
     type: page
-    value: programme
+    value: interventions
     edition_relative: true
     in_nav: true
-    in_footer: false
+    in_footer: true
   - name: Billetterie
     type: page
     value: billetterie
     edition_relative: true
-    in_nav: true
-    in_footer: true
+    in_nav: false
+    in_footer: false
   - name: Infos pratiques
     type: page
     value: infos-pratiques
     edition_relative: true
-    in_nav: true
-    in_footer: true
+    in_nav: false
+    in_footer: false
   - name: Code de Conduite
     type: page
     value: code-de-conduite
@@ -65,7 +65,7 @@
   - name: Témoignages
     type: page
     value: temoignages
-    in_nav: false
+    in_nav: true
     in_footer: true
 2018:
   - name: Accueil
@@ -74,12 +74,12 @@
     edition_relative: true
     in_nav: true
     in_footer: false
-  - name: Programme
+  - name: Interventions
     type: page
-    value: programme
+    value: interventions
     edition_relative: true
     in_nav: true
-    in_footer: false
+    in_footer: true
   - name: Infos pratiques
     type: page
     value: infos-pratiques
@@ -119,5 +119,5 @@
   - name: Témoignages
     type: page
     value: temoignages
-    in_nav: false
+    in_nav: true
     in_footer: true

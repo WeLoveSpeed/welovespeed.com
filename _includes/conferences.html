@@ -8,7 +8,7 @@
       {% capture pubDateUnix %}{{ conference.pub_date | date: '%s' }}{% endcapture %}
       {% if pubDateUnix <= nowUnix %}
 
-      <hr id="{{ conference.slug }}">
+      <{% unless forloop.first %}hr{%else%}br{%endunless%} id="{{ conference.slug }}">
       {% for name in conference.speakers %}<span class="sr-only" id={{name}} aria-hidden></span>{% endfor %}
 
       {% if include.locale == "en_US" and conference.en_US %}
@@ -86,10 +86,6 @@
             <span class="button-inner">{% t réserver votre place %}</span>
           </a>
           {% endif %}
-
-          <a class="button" data-text="{% t voir sur le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "programme" | t: include.locale }}#{{ conference.slug }}" title="{% t voir sur le programme %}">
-            <span class="button-inner">{% t voir sur le programme %}</span>
-          </a>
       </p>
     {%- endfor -%}
   </div>

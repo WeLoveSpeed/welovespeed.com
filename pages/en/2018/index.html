@@ -11,7 +11,8 @@ permalink: /en/2018/
     <h1 class="home-main-title">
       <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
       <div class="home-main-title-baseline">
-        The 2018 Edition is over.
+        {{ site.data.editions[page.year].tagline[page.locale] }}<br/>
+        <small>This edition is over.<br><small>Thanks to all the people who made it a success!</small></small>
       </div>
     </h1>
   </div>
@@ -20,27 +21,13 @@ permalink: /en/2018/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
-        <span class="button-inner">{% t voir le programme %}</span>
+      <a class="button" data-text="slides and videos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="slides et videos">
+        <span class="button-inner">slides and videos</span>
       </a>
-      {% if site.current_edition == page.year and site.tickets.selling %}
-      <a class="button" data-text="{% t infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t infos pratiques %}">
-        <span class="button-inner">{% t infos pratiques %}</span>
-      </a>
-      <br/>
-      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
-        <span class="button-inner">{% t réserver votre place %}</span>
-      </a>
-      {% endif %}
-      {% if site.current_edition == page.year and site.tickets.waiting-list %}
-      <a class="button" data-text="{% t s'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t s'incrire en liste d'attente %}">
-        <span class="button-inner">{% t s'incrire en liste d'attente %}</span>
-      </a>
-      {% endif %}
       {% if site.current_edition != page.year %}
-      <a class="button" data-text="{% t voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t voir l'édition courante %}">
-        <span class="button-inner">{% t voir l'édition courante %}</span>
-      </a>
+        <a class="button" data-text="{% t voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t voir l'édition courante %}">
+          <span class="button-inner">{% t voir l'édition courante %}</span>
+        </a>
       {% endif %}
     </p>
   </div>

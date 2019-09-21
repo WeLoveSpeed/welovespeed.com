@@ -10,7 +10,8 @@ permalink: /2018/
     <h1 class="home-main-title">
       <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
       <div class="home-main-title-baseline">
-          L'édition 2018 est terminée.
+        {{ site.data.editions[page.year].tagline[page.locale] }}<br>
+        <small>Cette édition est terminée<br><small>Merci à toutes les personnes qui en ont fait un succès&nbsp;!</small></small>
       </div>
     </h1>
   </div>
@@ -19,27 +20,13 @@ permalink: /2018/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="{% t voir le programme %}{% if site.infos.video %} {% t et les vidéos %}{% endif %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}{% if site.infos.video %} {% t et les vidéos %}{% endif %}">
-        <span class="button-inner">{% t voir le programme %}{% if site.infos.video %} {% t et les vidéos %}{% endif %}</span>
+      <a class="button" data-text="présentations et vidéos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="présentations et vidéos">
+        <span class="button-inner">présentations et vidéos</span>
       </a>
-      {% if site.current_edition == page.year and site.tickets.selling %}
-      <a class="button" data-text="{% t infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
-        <span class="button-inner">{% t infos pratiques %}</span>
-      </a>
-      <br/>
-      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
-        <span class="button-inner">{% t réserver votre place %}</span>
-      </a>
-      {% endif %}
-      {% if site.current_edition == page.year and site.tickets.waiting-list %}
-      <a class="button" data-text="{% t s'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t s'incrire en liste d'attente %}">
-        <span class="button-inner">{% t s'incrire en liste d'attente %}</span>
-      </a>
-      {% endif %}
       {% if site.current_edition != page.year %}
-      <a class="button" data-text="{% t voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t voir l'édition courante %}">
-        <span class="button-inner">{% t voir l'édition courante %}</span>
-      </a>
+        <a class="button" data-text="{% t voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t voir l'édition courante %}">
+          <span class="button-inner">{% t voir l'édition courante %}</span>
+        </a>
       {% endif %}
     </p>
   </div>

@@ -81,7 +81,7 @@ permalink: /2019/billetterie/
   </div>
 </section>
 
-  {% if site.infos.diversity_id %}
+  {% if site.tickets.diversity_id %}
   <hr class="wrapper">
 
   <section class="section">
@@ -91,7 +91,7 @@ permalink: /2019/billetterie/
       <p>Les personnes ayant l'impression d'appartenir à un groupe sous-représenté dans le domaine de la technologie (cela comprend, sans s'y limiter : les personnes de couleur, les personnes LGBTQIA+, les femmes et les personnes handicapées) sont éligibles à un <a href="https://diversitytickets.org/fr">Diversity Ticket</a> leur permettant de bénéficier d'un billet gratuit pour l'événement.</p>
 
       <div class="text-center">
-        <a class="button" target="_blank" href="https://diversitytickets.org/fr/events/{{ site.infos.diversity_id }}" data-text="Faire une demande de billet">
+        <a class="button" target="_blank" href="https://diversitytickets.org/fr/events/{{ site.tickets.diversity_id }}" data-text="Faire une demande de billet">
           <span class="button-inner">Faire une demande de billet</span>
         </a>
       </div>
@@ -100,7 +100,7 @@ permalink: /2019/billetterie/
   {% endif %}
 
 {% endif %}
-{% if site.infos.display %}
+
 <hr class="wrapper">
 
 <section class="section">
@@ -114,7 +114,6 @@ permalink: /2019/billetterie/
     </p>
   </div>
 </section>
-{% endif %}
 
 <hr class="wrapper">
 

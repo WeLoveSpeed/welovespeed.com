@@ -12,7 +12,7 @@ permalink: /2019/
       <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
       <div class="home-main-title-baseline">
         {{ site.data.editions[page.year].tagline[page.locale] }}<br>
-        <small>{% t L’événement français des mordus de web performance ! %}</small>
+        <small>Cette édition est terminée<br><small>Merci à toutes les personnes qui en ont fait un succès&nbsp;!</small></small>
       </div>
     </h1>
   </div>
@@ -21,34 +21,13 @@ permalink: /2019/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
-        <span class="button-inner">{% t voir le programme %}</span>
+      <a class="button" data-text="présentations et vidéos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="présentations et vidéos">
+        <span class="button-inner">présentations et vidéos</span>
       </a>
-      {% if site.current_edition == page.year and site.cfp_open %}
-      <a class="button" data-text="{% t appel à propositions %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/cfp" title="{% t Appel à propositions %}">
-        <span class="button-inner">{% t appel à propositions %}</span>
-      </a>
-      {% endif %}
-      {% if site.current_edition == page.year and site.tickets.selling %}
-      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
-        <span class="button-inner">{% t réserver votre place %}</span>
-      </a>
-      {% if site.infos.display %}
-      <br/>
-      <a class="button" data-text="{% t infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
-        <span class="button-inner">{% t infos pratiques %}</span>
-      </a>
-      {% endif %}
-      {% endif %}
-      {% if site.current_edition == page.year and site.tickets.waiting-list %}
-      <a class="button" data-text="{% t s'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t s'incrire en liste d'attente %}">
-        <span class="button-inner">{% t s'incrire en liste d'attente %}</span>
-      </a>
-      {% endif %}
       {% if site.current_edition != page.year %}
-      <a class="button" data-text="{% t voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t voir l'édition courante %}">
-        <span class="button-inner">{% t voir l'édition courante %}</span>
-      </a>
+        <a class="button" data-text="{% t voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t voir l'édition courante %}">
+          <span class="button-inner">{% t voir l'édition courante %}</span>
+        </a>
       {% endif %}
     </p>
   </div>
@@ -99,6 +78,7 @@ permalink: /2019/
 
 {% include sponsors.html locale=page.locale shorturl=false year=year %}
 
+{% comment %}
 <section id="sponsors" class="section">
     <div class="wrapper">
       <p class="text-center">
@@ -106,5 +86,6 @@ permalink: /2019/
       </p>
     </div>
   </section>
+{% endcomment %}
 
 {% include banners/banner-cocktail.html locale=page.locale %}

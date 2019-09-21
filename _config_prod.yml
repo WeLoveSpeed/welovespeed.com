@@ -22,20 +22,16 @@ lazyload:
 # Est-ce qu'on vend des places à tarif plein, est-ce qu'on propose une liste d'attente ou les deux ?
 current_edition: 2019
 sponsoring:
-  fr_FR: '/assets/docs/2019/sponsoring_fr.pdf'
-  en_US: '/assets/docs/2019/sponsoring_en.pdf'
+  # fr_FR: '/assets/docs/2019/sponsoring_fr.pdf'
+  # en_US: '/assets/docs/2019/sponsoring_en.pdf'
 tickets:
-  selling: true
+  selling: false
+  diversity_id: 437
   weezevent: false
   coupons-only: true
   waiting-list: false
   price: "179"
   price_currency: "EUR"
-infos:
-  diversity_id: 437
-  display: true
-  video: true
-cfp_open: false
 
 # Compression du code HTML en production
 compress_html:
