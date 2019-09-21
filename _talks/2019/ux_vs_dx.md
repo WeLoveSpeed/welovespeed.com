@@ -12,7 +12,7 @@ fr_FR:
     
     
     Dans cette session, nous abordons les problèmes de création de sites sans compromettre aucune exigence.
-  slides: ~
+  slides: https://estelle.github.io/lille/
   video: ~
 en_US:
   title: '<abbr title="User Experience">UX</abbr> vs <abbr title="Developer Experience">DX</abbr>'

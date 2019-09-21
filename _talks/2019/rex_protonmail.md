@@ -18,7 +18,7 @@ fr_FR:
 
 
     L'intégrateur n'a pas dit son dernier mot !
-  slides: ~
+  slides: https://www.nicolas-hoffmann.net/CSS-WLS2019/
   video: ~
 en_US:
   title: "Reduce the weight of a mail client UI via CSS&#8239;/&#8239;SVG"

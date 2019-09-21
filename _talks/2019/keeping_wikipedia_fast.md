@@ -21,6 +21,6 @@ en_US:
     
     
     In this talk, we will look at how we do performance testing at the Wikimedia Foundation using synthetic monitoring tools and how it works together with our real user measurements. We will talk about the setup, some case studies where we found regressions and go through the learnings we got from our mistakes.
-  slides: ~
+  slides: https://speakerdeck.com/soulislove/keeping-wikipedia-fast-welovespeed
   video: ~
 ---

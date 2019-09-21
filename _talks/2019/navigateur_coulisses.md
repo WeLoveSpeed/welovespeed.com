@@ -9,7 +9,7 @@ fr_FR:
   title: "Navigateur : les coulisses du chargement"
   description: >-
     Pour comprendre la Performance Web, les développeur·se·s doivent d'abord comprendre comment fonctionne un navigateur. Partons à la découverte du navigateur et de ce qu’il s’y passe quand un·e internaute demande une page.
-  slides: ~
+  slides: https://estelle.github.io/browsers/
   video: ~
 en_US:
   title: "Browser 101: how the browser loads a page"

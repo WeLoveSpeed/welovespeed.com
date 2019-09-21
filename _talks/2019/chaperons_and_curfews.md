@@ -23,6 +23,6 @@ en_US:
     Long gone are the days when it was viable to build everything internally, but their impact on performance is already getting a little out-of-hand. We don’t want to be the fun police throwing everyone out, but we can start to moderate the party.
 
     In this talk we won’t be looking to remove 3rd parties altogether – nobody likes having their toys taken away; instead we’ll be taking the practical approach of accepting that 3rd parties aren’t going anywhere and look at what strategies we can employ for maintaining performance and safeguarding against slowdowns, outages and abuse.
-  slides: ~
+  slides: https://speakerdeck.com/ryantownsend/chaperones-and-curfews-we-love-speed-2019
   video: ~
 ---

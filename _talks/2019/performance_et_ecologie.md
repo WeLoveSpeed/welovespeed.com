@@ -12,7 +12,7 @@ fr_FR:
     
     
     J'explique dans cette conférence les défis écologiques que pose le numérique et ceux qui sont spécifiquement liés à certaines optimisations de la Performance Web pour vous aider à les relever. Ensemble, construisons un Web rapide, performant <strong>et responsable</strong>.
-  slides: ~
+  slides: https://onedrive.live.com/view.aspx?resid=2D8E5D31C7A5EB6B!168549&ithint=file%2cpptx&authkey=!AE2-nMPzPe3WHDQ
   video: ~
 en_US:
   title: "How to link performance and ecology?"

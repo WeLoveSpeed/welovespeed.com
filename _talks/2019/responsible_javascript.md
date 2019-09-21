@@ -21,6 +21,6 @@ en_US:
 
 
     In this talk, we'll explore what happens to performance and accessibility when devices are inundated with more JavaScript than they can handle. We'll also dive into some novel techniques you can use to tailor delivery of scripts with respect to a person's device capabilities and network connection quality. When you walk out of this session, you'll be equipped with new knowledge to make your sites as fast as they are beautiful.
-  slides: ~
+  slides: https://speaking.jeremy.codes/sN2UQZ/responsible-javascript
   video: ~
 ---
