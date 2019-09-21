@@ -1,20 +1,26 @@
 .wrapper {
-  width: $wrapper-width; max-width: $wrapper-max-width; margin: 0 auto;
+  width: $wrapper-width;
+  max-width: $wrapper-max-width;
+  margin: 0 auto;
   &.writeups li {
     list-style-type: none;
+    cite::before {
+      display: block;
+      content: "_";
+    }
   }
 }
 
 .inline-large {
   display: none;
-  @include media('>=large') {
+  @include media(">=large") {
     display: inline-block;
   }
 }
 
 .inline-not-large {
   display: none;
-  @include media('<large') {
+  @include media("<large") {
     display: inline-block;
   }
 }
