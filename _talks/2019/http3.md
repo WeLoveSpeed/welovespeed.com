@@ -71,6 +71,6 @@ en_US:
     - limitations imposed by TCP over HTTP/2
 
     - the challenges regarding the implementation of HTTP/3
-  slides: ~
+  slides: https://speakerdeck.com/bitone/3
   video: ~
 ---
