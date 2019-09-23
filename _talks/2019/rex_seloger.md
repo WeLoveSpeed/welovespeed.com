@@ -75,6 +75,6 @@ en_US:
 
 
     I will start by presenting the context to SeLoger and our late Synthetic Monitoring solution. Then we will proceed with the selection process we have put in place.
-  slides: ~
+  slides: https://www.welovespeed.com/assets/docs/2019/rex-seloger.pdf
   video: ~
 ---
