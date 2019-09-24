@@ -11,6 +11,9 @@
     zipcode: "59700"
     city: "Marcq-en-Barœul"
     region: "Nord-Pas-de-Calais"
+  pictures:
+    title: Flicker
+    url: https://www.flickr.com/groups/14626865@N24/
 2018:
   com_city: "Bordeaux"
   tagline:
@@ -24,3 +27,6 @@
     zipcode: "33000"
     city: "Bordeaux"
     region: "Nouvelle Aquitaine"
+  pictures:
+    title: Flicker
+    url: https://www.flickr.com/groups/3951477@N20/

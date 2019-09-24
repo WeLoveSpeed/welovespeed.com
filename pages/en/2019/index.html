@@ -27,6 +27,9 @@ permalink: /en/2019/
       <a class="button" data-text="audience feedback" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}//#{{page.year}}" title="audience feedback">
         <span class="button-inner">audience feedback</span>
       </a>
+      <a class="button" data-text="pictures ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="pictures ({{ site.data.editions[page.year].pictures.title }})">
+        <span class="button-inner">pictures ({{ site.data.editions[page.year].pictures.title }})</span>
+      </a>
       {% if site.current_edition != page.year %}
         <a class="button" data-text="{% t voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t voir l'édition courante %}">
           <span class="button-inner">{% t voir l'édition courante %}</span>
