@@ -31,7 +31,7 @@ fr_FR:
 
     À la fin du talk, vous connaitrez toutes les bonnes pratiques pour garder une faible taille de JavaScript, et aurez à votre disposition un support de formation pour faire de vous des expert·e·s.
   slides: https://www.welovespeed.com/assets/docs/2019/bundle-optim.pdf
-  video: ~
+  video: https://youtu.be/cFVsl4_fBHI
 en_US:
   title: "Honey, I Shrunk the JS Bundles"
   description: >-
@@ -58,5 +58,5 @@ en_US:
 
     By the end of this talk, you will know the best practices to keep your JavaScript size as low as possible, and will have access to training materials that I wrote that will help make you experts on the topic.
   slides: ~
-  video: ~
+  video: https://youtu.be/cFVsl4_fBHI
 ---
