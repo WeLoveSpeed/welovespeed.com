@@ -16,7 +16,7 @@ fr_FR:
     Nous chercherons à savoir quelles mesures RUM sont les plus pertinentes. 
     
     Enfin, nous ferons un tour d'horizon de futures APIs très prometteuses en cours de développement au sein du groupe de travail Web Performance du W3C, et partagerons notre retour d'expérience sur celles-ci, les ayant testées récemment sur Wikipedia dans le cadre d'Origin Trials de Chrome.
-  slides: https://www.welovespeed.com/assets/docs/2019/monstre-rum.pdf
+  slides: https://docs.google.com/presentation/d/1F4xzupG4w66uLUYCgyUGlaD-wUROFTikwO8a9OAkTbQ/edit
   video: ~
 en_US:
   title: "How to make sense of real user metrics"
