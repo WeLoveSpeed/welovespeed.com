@@ -1,4 +1,15 @@
 - year: 2019
+  writeups:
+    - url: https://tech.evaneos.com/evaneos-lille-we-love-speed-2019-26557b0ba6b6
+      title: "Ce qu’on retient de WeLoveSpeed"
+      authors: ["Thierry Marianne"]
+      locale: fr_FR
+      extract: >-
+        Cet article rappelle quelques temps forts de #WeLoveSpeed 2019 (portant sur le sujet épineux des performances web) au travers des
+        retours d’expériences et propositions des conférencier·e·s.
+      from:
+        name: Evaneos Tech
+        url: https://tech.evaneos.com/
   messages:
     - url: https://twitter.com/Capitaine/status/1175341846979121152
       author: "Capitaine Commerce (@Capitaine)"
