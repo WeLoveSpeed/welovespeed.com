@@ -242,8 +242,8 @@
     image: /assets/images/speakers/2019/gilles3.jpg
     urls:
       - name: twitter
-        title: '@fullstackjerk (Twitter)'
-        url: https://twitter.com/fullstackjerk
+        title: '@MonsieurPerf (Twitter)'
+        url: https://twitter.com/MonsieurPerf
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/gillesdubuc/
