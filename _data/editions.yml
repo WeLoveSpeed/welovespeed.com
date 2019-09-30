@@ -12,7 +12,7 @@
     city: "Marcq-en-Barœul"
     region: "Nord-Pas-de-Calais"
   pictures:
-    title: Flicker
+    title: Flickr
     url: https://www.flickr.com/groups/14626865@N24/
 2018:
   com_city: "Bordeaux"
@@ -28,5 +28,5 @@
     city: "Bordeaux"
     region: "Nouvelle Aquitaine"
   pictures:
-    title: Flicker
+    title: Flickr
     url: https://www.flickr.com/groups/3951477@N20/
