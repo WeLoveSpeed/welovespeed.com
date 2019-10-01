@@ -10,6 +10,15 @@
       from:
         name: Evaneos Tech
         url: https://tech.evaneos.com/
+    - url: https://wexperience.fr/blog/retour-du-welovespeed-a-lille-comment-concilier-web-performance-et-ux/
+      title: "Retour du WeLoveSpeed à Lille&nbsp;: comment concilier Web Performance et UX&nbsp;!"
+      authors: ["Olivier Sauvage, aka CapitaineCommerce"]
+      locale: fr_FR
+      extract: >-
+        […] mon coup de ❤️ est allé à <a href="https://www.welovespeed.com/2019/interventions/#romuald">la conférence de Romuald Priol</a> sur la relation qui existe entre la performance et l’impact environnemental des apps digitales. Sujet, dont il est difficile de prendre conscience et de trouver des moyens d’applications concrets dans un projet digital, mais qui devrait peu à peu titiller notre conscience à tous.
+      from:
+        name: Wexperience
+        url: https://wexperience.fr/
   messages:
     - url: https://twitter.com/Capitaine/status/1175341846979121152
       author: "Capitaine Commerce (@Capitaine)"
