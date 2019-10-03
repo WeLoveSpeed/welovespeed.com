@@ -40,7 +40,7 @@ fr_FR:
 
     Je commencerai par présenter le contexte de SeLoger et notre défunt outil de Synthetic Monitoring. Puis nous déroulerons le processus de sélection que nous avons mis en place.
   slides: ~
-  video: ~
+  video: https://youtu.be/hVdPkkgp01A
 en_US:
   title: "Feedback on 4 years of XP using a Synthetic Monitoring tool at SeLoger"
   description: >-
@@ -76,5 +76,5 @@ en_US:
 
     I will start by presenting the context to SeLoger and our late Synthetic Monitoring solution. Then we will proceed with the selection process we have put in place.
   slides: https://www.slideshare.net/ra77/we-love-speed-2019-retour-dexprience-sur-4-ans-dutilisation-dun-outil-de-surveillance-synthtique-chez-seloger
-  video: ~
+  video: https://youtu.be/hVdPkkgp01A
 ---

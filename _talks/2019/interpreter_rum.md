@@ -17,7 +17,7 @@ fr_FR:
     
     Enfin, nous ferons un tour d'horizon de futures APIs très prometteuses en cours de développement au sein du groupe de travail Web Performance du W3C, et partagerons notre retour d'expérience sur celles-ci, les ayant testées récemment sur Wikipedia dans le cadre d'Origin Trials de Chrome.
   slides: https://docs.google.com/presentation/d/1F4xzupG4w66uLUYCgyUGlaD-wUROFTikwO8a9OAkTbQ/edit
-  video: ~
+  video: https://youtu.be/9PBeqHXk7zw
 en_US:
   title: "How to make sense of real user metrics"
   description: >-
@@ -30,5 +30,5 @@ en_US:
     
     Finally, we will take a tour of exciting new RUM metrics being worked on at the W3C Web Performance working group and share our experience testing them on Wikipedia with Google Origin Trials.
   slides: ~
-  video: ~
+  video: https://youtu.be/9PBeqHXk7zw
 ---

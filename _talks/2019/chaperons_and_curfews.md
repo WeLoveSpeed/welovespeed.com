@@ -24,5 +24,5 @@ en_US:
 
     In this talk we won’t be looking to remove 3rd parties altogether – nobody likes having their toys taken away; instead we’ll be taking the practical approach of accepting that 3rd parties aren’t going anywhere and look at what strategies we can employ for maintaining performance and safeguarding against slowdowns, outages and abuse.
   slides: https://speakerdeck.com/ryantownsend/chaperones-and-curfews-we-love-speed-2019
-  video: ~
+  video: https://youtu.be/rL32_VNNGXk
 ---

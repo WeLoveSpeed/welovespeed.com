@@ -13,7 +13,7 @@ fr_FR:
 
     Dans cet exposé, examinons comment nous effectuons des tests de performance à la Wikimedia Foundation à l'aide d'outils synthétiques et comment cela s'articule avec les mesures réalisées auprès d'utilisateur·rice·s réel·le·s. Nous parlerons de la mise en place, des quelques études de cas où nous avons trouvé des régressions et nous passerons en revue les leçons que nous avons tirées de nos erreurs.
   slides: ~
-  video: ~
+  video: https://youtu.be/gbmkNR46P2E
 en_US:
   title: "Keeping Wikipedia Fast"
   description: >-
@@ -22,5 +22,5 @@ en_US:
     
     In this talk, we will look at how we do performance testing at the Wikimedia Foundation using synthetic monitoring tools and how it works together with our real user measurements. We will talk about the setup, some case studies where we found regressions and go through the learnings we got from our mistakes.
   slides: https://speakerdeck.com/soulislove/keeping-wikipedia-fast-welovespeed
-  video: ~
+  video: https://youtu.be/gbmkNR46P2E
 ---

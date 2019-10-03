@@ -38,7 +38,7 @@ fr_FR:
 
     - les challenges quant à la mise en place de HTTP/3
   slides: ~
-  video: ~
+  video: https://youtu.be/J8Sl9Lr5Mk8
 en_US:
   title: "HTTP/3: it's a transport issue!"
   description: >-
@@ -72,5 +72,5 @@ en_US:
 
     - the challenges regarding the implementation of HTTP/3
   slides: https://speakerdeck.com/bitone/3
-  video: ~
+  video: https://youtu.be/J8Sl9Lr5Mk8
 ---

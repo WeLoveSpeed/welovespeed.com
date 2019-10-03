@@ -13,7 +13,7 @@ fr_FR:
     
     Nous allons voir ensemble les grands principes de l'optimisation et les techniques qui en découlent : redimensionnement en fonction du contenu, compression selon la qualité perçue, comment choisir une image en fonction de la capacité de l'écran, du support navigateur et même de la qualité de la connexion du navigateur. Enfin nous verrons comment appliquer ces techniques à l'échelle de services comme Akamai et Cloudinary grâce à notre expérience du sujet chez Fasterize.
   slides: https://www.welovespeed.com/assets/docs/2019/images-at-scale.pdf
-  video: ~
+  video: https://youtu.be/HtY5j4Hrxek
 en_US:
   title: "Image at scale"
   description: >-
@@ -22,5 +22,5 @@ en_US:
     
     Together we will see the main principles of optimization and the techniques that result from it: resizing according to content, compression according to perceived quality, how to choose an image according to the capacity of the screen, the browser support and even the quality of the browser connection. Finally, we will see how to apply these techniques to large-scale services such as Akamai and Cloudinary based on our experience with this topic at Fasterize.
   slides: ~
-  video: ~
+  video: https://youtu.be/HtY5j4Hrxek
 ---
