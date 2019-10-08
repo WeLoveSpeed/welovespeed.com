@@ -28,7 +28,7 @@ fr_FR:
 
     - Et bien sûr, la fin (quand peut-on dire qu'un projet d'optimisation est terminé ?).
   slides: https://www.welovespeed.com/assets/docs/2019/wls_oui.sncf.pdf
-  video: ~
+  video: https://youtu.be/cvG23lSfBAA
 en_US:
   title: "Webperf optimization project: what are we getting into?"
   description: >-
@@ -51,5 +51,5 @@ en_US:
 
     - And of course, the end (when can we say that an optimization project is finished?).
   slides: ~
-  video: ~
+  video: https://youtu.be/cvG23lSfBAA
 ---
