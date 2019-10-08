@@ -13,7 +13,7 @@ fr_FR:
 
     Dans cet exposé, examinons comment nous effectuons des tests de performance à la Wikimedia Foundation à l'aide d'outils synthétiques et comment cela s'articule avec les mesures réalisées auprès d'utilisateur·rice·s réel·le·s. Nous parlerons de la mise en place, des quelques études de cas où nous avons trouvé des régressions et nous passerons en revue les leçons que nous avons tirées de nos erreurs.
   slides: ~
-  video: https://youtu.be/gbmkNR46P2E
+  video: ~
 en_US:
   title: "Keeping Wikipedia Fast"
   description: >-

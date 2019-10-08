@@ -30,5 +30,5 @@ en_US:
     
     Finally, we will take a tour of exciting new RUM metrics being worked on at the W3C Web Performance working group and share our experience testing them on Wikipedia with Google Origin Trials.
   slides: ~
-  video: https://youtu.be/9PBeqHXk7zw
+  video: ~
 ---

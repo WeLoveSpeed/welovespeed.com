@@ -22,5 +22,5 @@ en_US:
     
     During this talk, I'll explain the ecological impacts of digital technology and those specifically added by some Web performance optimizations so that you know how to embrace them. Together, let's build a fast, efficient <strong>and responsible</strong> web.
   slides: ~
-  video: https://youtu.be/_bSYhkm5oPc
+  video: ~
 ---

@@ -16,5 +16,5 @@ en_US:
   description: >-
     To understand Web Performance, developers must first understand how a browser works. Let’s discuss what happens when a user requests a page and how the browser loads the page.
   slides: ~
-  video: https://youtu.be/Fq8WzcCc1CA
+  video: ~
 ---

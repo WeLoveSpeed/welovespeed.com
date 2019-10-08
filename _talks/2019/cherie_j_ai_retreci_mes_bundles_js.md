@@ -58,5 +58,5 @@ en_US:
 
     By the end of this talk, you will know the best practices to keep your JavaScript size as low as possible, and will have access to training materials that I wrote that will help make you experts on the topic.
   slides: ~
-  video: https://youtu.be/cFVsl4_fBHI
+  video: ~
 ---

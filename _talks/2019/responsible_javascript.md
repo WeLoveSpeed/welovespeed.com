@@ -13,7 +13,7 @@ fr_FR:
 
     Nous explorerons ce qu'il advient de la performance et de l'accessibilité lorsque les périphériques sont inondés de plus de JavaScript qu'ils ne peuvent le gérer. Nous nous plongerons également dans de nouvelles techniques permettant d'adapter la livraison des scripts en fonction des capacités du matériel et de la qualité de la connexion réseau. Lorsque vous sortirez de cette session, vous serez équipé·e de nouvelles connaissances pour rendre vos sites aussi rapides qu'ils sont beaux.
   slides: ~
-  video: https://youtu.be/p43uiQ9VZDY
+  video: ~
 en_US:
   title: "Responsible JavaScript"
   description: >-

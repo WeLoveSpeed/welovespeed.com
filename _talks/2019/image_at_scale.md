@@ -22,5 +22,5 @@ en_US:
     
     Together we will see the main principles of optimization and the techniques that result from it: resizing according to content, compression according to perceived quality, how to choose an image according to the capacity of the screen, the browser support and even the quality of the browser connection. Finally, we will see how to apply these techniques to large-scale services such as Akamai and Cloudinary based on our experience with this topic at Fasterize.
   slides: ~
-  video: https://youtu.be/HtY5j4Hrxek
+  video: ~
 ---

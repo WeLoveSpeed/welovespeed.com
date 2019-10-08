@@ -16,5 +16,5 @@ en_US:
   description: >-
     This feedback chronologically retraces all the work done by my team over the past year to improve the webperf on www.pagesjaunes.fr. I will review everything that has been implemented, the achievements but also the failures.
   slides: ~
-  video: https://youtu.be/7XqlTYdoVBg
+  video: ~
 ---

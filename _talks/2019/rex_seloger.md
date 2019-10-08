@@ -76,5 +76,5 @@ en_US:
 
     I will start by presenting the context to SeLoger and our late Synthetic Monitoring solution. Then we will proceed with the selection process we have put in place.
   slides: https://www.slideshare.net/ra77/we-love-speed-2019-retour-dexprience-sur-4-ans-dutilisation-dun-outil-de-surveillance-synthtique-chez-seloger
-  video: https://youtu.be/hVdPkkgp01A
+  video: ~
 ---

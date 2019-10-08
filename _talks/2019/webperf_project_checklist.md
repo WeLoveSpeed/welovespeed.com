@@ -51,5 +51,5 @@ en_US:
 
     - And of course, the end (when can we say that an optimization project is finished?).
   slides: ~
-  video: https://youtu.be/cvG23lSfBAA
+  video: ~
 ---

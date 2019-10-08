@@ -72,5 +72,5 @@ en_US:
 
     - the challenges regarding the implementation of HTTP/3
   slides: https://speakerdeck.com/bitone/3
-  video: https://youtu.be/J8Sl9Lr5Mk8
+  video: ~
 ---

@@ -34,5 +34,5 @@ en_US:
 
     You haven’t heard the last from HTML/CSS developpers!
   slides: ~
-  video: https://youtu.be/M-0mELaBX8Y
+  video: ~
 ---
