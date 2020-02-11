@@ -1,3 +1,11 @@
+2020:
+  com_city: "Lyon"
+  tagline:
+    fr_FR: "Date TBD, Lyon"
+    en_US: "Date TBD, Lyon, France"
+  pictures:
+    title: Flickr
+    url: https://www.flickr.com/groups/14626865@N24/
 2019:
   com_city: "Lille"
   tagline:
