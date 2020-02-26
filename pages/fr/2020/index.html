@@ -1,0 +1,55 @@
+---
+title: Accueil
+description: >-
+  Une journée de conférences dédiées à la performance web. Métriques, UX, optimisations du code et des images. Venez rencontrer les experts !
+i18n-key: home
+permalink: /2020/
+---
+{% assign year = page.year | default: site.current_edition %}
+<header class="home-header">
+  <div class="wrapper">
+    <h1 class="home-main-title">
+      <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
+      <div class="home-main-title-baseline">
+        {{ site.data.editions[page.year].tagline[page.locale] }}<br>
+        <small>Cette édition va commencer<br><small>Merci à toutes les personnes qui vont en faire un succès&nbsp;!</small></small>
+      </div>
+    </h1>
+  </div>
+</header>
+
+{%- assign conferences = site.talks | where: "year", page.year | sort: "display-order" -%}
+{% assign nbconf = conferences | size %}
+{% if nbconf > 0 %}
+  <hr class="wrapper">
+  {% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}
+{% endif %}
+
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="text-center">Ne ratez rien !</h2>
+    <p>
+      Abonnez-vous à notre liste d'envoi pour recevoir des informations sur l'événement par courriel.
+    </p>
+    {% include newsletter-form.html context="main" %}
+  </div>
+</section>
+
+{% include banners/banner-corbusier.html locale=page.locale %}
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="text-center">Le seul événement français dédié aux amateurs et amatrices de cascades&nbsp;!</h2>
+    <p>Créé en 2018 par et pour la communauté, la conférence à but non-lucratif {{ site.title }} est née de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnels du web, de l’e-commerce et experts de la webperf, cet événement est fait pour vous&nbsp;!</p>
+    <p>Décideurs, développeurs… retrouvons-nous pour une journée, et peut-être quelques soirées, dans une des plus belles villes de France, afin d'échanger sur la WebPerf : ses enjeux, son implémentation, ses acteurs mais aussi l'organisation des entreprises qui l'implémentent.</p>
+    <p class="text-center">
+      <a class="button" data-text="{% t voir les vidéos de l'année dernière %}" href="https://www.youtube.com/watch?v=RG5IKvSMg20&list=PLqQ-opbi5cUMbSedX4whMc_YjXP_wcSDg" title="{% t voir les vidéos de l'année dernière %}">
+        <span class="button-inner">{% t voir les vidéos de l'année dernière %}</span>
+      </a>
+    </p>
+  </div>
+</section>
+
+{% include banners/banner-cocktail.html locale=page.locale %}
