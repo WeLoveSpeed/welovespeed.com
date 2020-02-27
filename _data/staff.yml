@@ -1,3 +1,63 @@
+2020:
+  - firstname: Émilie
+    lastname: Wilhelm
+    slug: emilie
+    twitter: EmilieWilhelm
+    links:
+      - label: Fasterize
+        url : https://www.fasterize.com/
+      - label: Girlz in Web
+        url : http://girlzinweb.com/
+  - firstname: Jean-Pierre
+    lastname: Vincent
+    slug: jp
+    twitter: theystolemynick
+    links:
+      - label: BrainCracking
+        url : http://braincracking.org/
+  - firstname: Nicolas
+    lastname: Goutay
+    slug: ngo
+    twitter: Phacks
+    links:
+      - label: Theodo
+        url : https://www.theodo.fr/
+  - firstname: Stéphane
+    lastname: Rios
+    slug: stephane
+    twitter: stefounet
+    links:
+      - label: Fasterize
+        url : https://www.fasterize.com/
+  - firstname: Sarah
+    lastname: Salis
+    slug: ss
+    links:
+      - label: Fasterize
+        url : https://www.fasterize.com/
+  - firstname: Antoine
+    lastname: Kahn-Dubois
+    slug: akd
+    links:
+      - label: Linkvalue
+        url : https://link-value.fr/
+  - firstname: Pierre-Marie
+    lastname: Dartus
+    slug: pm
+    twitter: pmdartus
+    links:
+      - label: Salesforce
+        url: https://www.salesforce.com/
+  - firstname: Clément
+    lastname: Elgard
+    slug: ce
+    twitter: ClementElgard
+    links:
+      - label: Quanta
+        url: https://www.quanta.io/
+  - firstname: Olivier
+    lastname: Rundstadler
+    slug: or
 2019:
   - firstname: Boris
     lastname: Schapira
