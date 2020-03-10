@@ -5,42 +5,42 @@
     twitter: EmilieWilhelm
     links:
       - label: Fasterize
-        url : https://www.fasterize.com/
+        url: https://www.fasterize.com/
       - label: Girlz in Web
-        url : http://girlzinweb.com/
+        url: http://girlzinweb.com/
   - firstname: Jean-Pierre
     lastname: Vincent
     slug: jp
     twitter: theystolemynick
     links:
       - label: BrainCracking
-        url : http://braincracking.org/
+        url: http://braincracking.org/
   - firstname: Nicolas
     lastname: Goutay
     slug: ngo
     twitter: Phacks
     links:
       - label: Theodo
-        url : https://www.theodo.fr/
+        url: https://www.theodo.fr/
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
     twitter: stefounet
     links:
       - label: Fasterize
-        url : https://www.fasterize.com/
+        url: https://www.fasterize.com/
   - firstname: Sarah
     lastname: Salis
     slug: ss
     links:
       - label: Fasterize
-        url : https://www.fasterize.com/
+        url: https://www.fasterize.com/
   - firstname: Antoine
     lastname: Kahn-Dubois
     slug: akd
     links:
       - label: Linkvalue
-        url : https://link-value.fr/
+        url: https://link-value.fr/
   - firstname: Pierre-Marie
     lastname: Dartus
     slug: pm
@@ -58,6 +58,9 @@
   - firstname: Olivier
     lastname: Rundstadler
     slug: or
+    links:
+      - label: Sogeti
+        url: https://www.fr.sogeti.com/
   - firstname: Audrey
     lastname: Schoonwater
     slug: as
@@ -71,43 +74,43 @@
     twitter: boostmarks
     links:
       - label: Dareboost
-        url : https://www.dareboost.com/
+        url: https://www.dareboost.com/
   - firstname: Émilie
     lastname: Wilhelm
     slug: emilie
     twitter: EmilieWilhelm
     links:
       - label: Fasterize
-        url : https://www.fasterize.com/
+        url: https://www.fasterize.com/
       - label: Girlz in Web
-        url : http://girlzinweb.com/
+        url: http://girlzinweb.com/
   - firstname: Jean-Pierre
     lastname: Vincent
     slug: jp
     twitter: theystolemynick
     links:
       - label: BrainCracking
-        url : http://braincracking.org/
+        url: http://braincracking.org/
   - firstname: Nicolas
     lastname: Goutay
     slug: ngo
     twitter: Phacks
     links:
       - label: Theodo
-        url : https://www.theodo.fr/
+        url: https://www.theodo.fr/
   - firstname: Sébastien
     lastname: Bonnet
     slug: sbo
     links:
       - label: Cdiscount
-        url : https://www.cdiscount.com/
+        url: https://www.cdiscount.com/
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
     twitter: stefounet
     links:
       - label: Fasterize
-        url : https://www.fasterize.com/
+        url: https://www.fasterize.com/
   - firstname: Sarah
     lastname: Salis
     slug: ss
@@ -125,45 +128,45 @@
     twitter: boostmarks
     links:
       - label: Dareboost
-        url : https://www.dareboost.com/
+        url: https://www.dareboost.com/
   - firstname: Daniel
     lastname: Diard
     slug: ddi
     links:
       - label: Cdiscount
-        url : https://www.cdiscount.com/
+        url: https://www.cdiscount.com/
   - firstname: Émilie
     lastname: Wilhelm
     slug: emilie
     twitter: EmilieWilhelm
     links:
       - label: Fasterize
-        url : https://www.fasterize.com/
+        url: https://www.fasterize.com/
       - label: Girlz in Web
-        url : http://girlzinweb.com/
+        url: http://girlzinweb.com/
   - firstname: Jean-Pierre
     lastname: Vincent
     slug: jp
     twitter: theystolemynick
     links:
       - label: BrainCracking
-        url : http://braincracking.org/
+        url: http://braincracking.org/
   - firstname: Laurine
     lastname: Jacquet
     slug: lja
     links:
       - label: Cdiscount
-        url : https://www.cdiscount.com/
+        url: https://www.cdiscount.com/
   - firstname: Sébastien
     lastname: Bonnet
     slug: sbo
     links:
       - label: Cdiscount
-        url : https://www.cdiscount.com/
+        url: https://www.cdiscount.com/
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
     twitter: stefounet
     links:
       - label: Fasterize
-        url : https://www.fasterize.com/
+        url: https://www.fasterize.com/
