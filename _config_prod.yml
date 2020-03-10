@@ -20,7 +20,7 @@ lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
 # Est-ce qu'on vend des places à tarif plein, est-ce qu'on propose une liste d'attente ou les deux ?
-current_edition: 2019
+current_edition: 2020
 sponsoring:
   # fr_FR: '/assets/docs/2019/sponsoring_fr.pdf'
   # en_US: '/assets/docs/2019/sponsoring_en.pdf'
@@ -140,6 +140,16 @@ defaults:
       path: "pages/en/2019"
     values:
       year: 2019
+  -
+    scope:
+      path: "pages/en/2020"
+    values:
+      year: 2020
+  -
+    scope:
+      path: "pages/fr/2020"
+    values:
+      year: 2020
   -
     scope:
       path: "_talks/2018"

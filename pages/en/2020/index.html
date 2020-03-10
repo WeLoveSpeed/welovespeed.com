@@ -1,0 +1,57 @@
+---
+title: Home
+description: >-
+  A day of conferences dedicated to web performance. Metrics, UX, code and image optimizations. Come and meet the experts!
+i18n-key: home
+permalink: /en/2020/
+---
+{% assign year = page.year | default: site.current_edition %}
+<header class="home-header">
+  <div class="wrapper">
+    <h1 class="home-main-title">
+      <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
+      <div class="home-main-title-baseline">
+        <!-- {{ site.data.editions[page.year].tagline[page.locale] }}<br/> -->
+        <small>
+          The Web Performance lovers event is coming back in 2020
+        </small>
+      </div>
+    </h1>
+  </div>
+</header>
+
+{%- assign conferences = site.talks | where: "year", page.year | sort: "display-order" -%}
+{% assign nbconf = conferences | size %}
+{% if nbconf > 0 %}
+  <hr class="wrapper">
+  {% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}
+{% endif %}
+
+  <hr class="wrapper">
+
+  <section class="section">
+    <div class="wrapper">
+      <h2 class="text-center">Stay in the loop!</h2>
+      <p class="text-center">
+        Receive our breaking news about the event ;)
+      </p>
+      {% include newsletter-form.html context="main" %}
+    </div>
+  </section>
+
+{% include banners/banner-corbusier.html locale=page.locale %}
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="text-center">The only French event dedicated to chasing waterfalls!</h2>
+    <p>Created in 2018 by and for the webperf community, the "{{ site.title }}" not-for-profit conference is born from the desire to share as widely as possible knowledge and experience about webperf. Web professionals, e-commerce and webperf experts, this event is for you!</p>
+    <p>Decision makers, developers... let's meet for a day, and maybe a few evenings, in one of the most beautiful cities in France, to discuss web performance: its challenges, its implementation, its stakeholders but also the organization of the companies that implement it.</p>
+    <p class="text-center">
+      <a class="button" data-text="{% t voir les vidéos de l'année dernière %}" href="https://www.youtube.com/watch?v=Fq8WzcCc1CA&list=PLqQ-opbi5cUPEK7C9Jx-15xfKmipBNGw3" title="{% t voir les vidéos de l'année dernière %}">
+        <span class="button-inner">{% t voir les vidéos de l'année dernière %}</span>
+      </a>
+    </p>
+  </div>
+</section>
+
+{% include banners/banner-cocktail.html locale=page.locale %}

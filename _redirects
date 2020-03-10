@@ -8,12 +8,12 @@
 /en/blog/ /blog 302
 /en/legal-mentions/ /mentions-legales/ 302
 
-# Redirect to 2019
+# Redirect to 2020
 
-/en/ /en/2019 302
-/ /2019 302
+/en/ /en/2020 302
+/ /2020 302
 
-/code-de-conduite/ /2019/code-de-conduite/ 302
-/code-of-conduct/ /en/2019/code-of-conduct/ 302
+/code-de-conduite/ /2020/code-de-conduite/ 302
+/code-of-conduct/ /en/2020/code-of-conduct/ 302
 
 /en/2019/line-up/ /en/2019/speakers/ 301
