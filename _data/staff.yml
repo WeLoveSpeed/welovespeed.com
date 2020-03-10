@@ -58,6 +58,12 @@
   - firstname: Olivier
     lastname: Rundstadler
     slug: or
+  - firstname: Audrey
+    lastname: Schoonwater
+    slug: as
+    links:
+      - label: Clustaar
+        url: https://seo-data.clustaar.com
 2019:
   - firstname: Boris
     lastname: Schapira
