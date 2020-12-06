@@ -1,11 +1,4 @@
 2020:
-  - firstname: Boris
-    lastname: Schapira
-    slug: bsc
-    twitter: boostmarks
-    links:
-      - label: Dareboost
-        url: https://www.dareboost.com/
   - firstname: Émilie
     lastname: Wilhelm
     slug: emilie
@@ -27,14 +20,8 @@
     slug: ngo
     twitter: Phacks
     links:
-      - label: Theodo
-        url: https://www.theodo.fr/
-  - firstname: Sébastien
-    lastname: Bonnet
-    slug: sbo
-    links:
-      - label: Cdiscount
-        url: https://www.cdiscount.com/
+      - label: Twitter
+        url: https://twitter.com/phacks
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
@@ -42,16 +29,12 @@
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
-  - firstname: Sarah
-    lastname: Salis
-    slug: ss
+  - firstname: Audrey
+    lastname: Schoonwater
+    slug: as
     links:
-      - label: Fasterize
-  - firstname: Anne-Marie
-    lastname: Sicard
-    slug: ams
-    links:
-      - label: Fasterize
+      - label: Twitter
+        url: https://twitter.com/witamine
 2019:
   - firstname: Boris
     lastname: Schapira
