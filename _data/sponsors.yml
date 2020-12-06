@@ -377,57 +377,6 @@
           url: https://www.fasterize.com/en/
         description: >-
           Fasterize is a SaaS solution that automatically speeds up the loading of websites. Fasterize's optimization engine acts in real time (like a proxy) on the raw page performance, but also on the users' perception of speed. Quick to set up.
-    - name: Dareboost
-      slug: db
-      logo: /assets/images/thanks/dareboost.svg
-      fr_FR:
-        cta:
-          text: "Testez votre site"
-          url: https://www.dareboost.com/fr/home
-        description: >-
-          Du test de performance au monitoring synthétique de pages comme de parcours utilisateurs complets, Dareboost est un outil tout-en-un dédié à la performance web. Un outil conçu pour faire collaborer tous les métiers web, offrant les fonctionnalités de reporting nécessaires aux décideurs (tableaux de bord personnalisés, exports CSV ou API, etc.) aussi bien que l'outillage nécessaire aux experts du domaine (waterfalls, mapping DNS, blacklists, budgets de performance, etc.).
-      en_US:
-        cta:
-          text: "Test your site"
-          url: https://www.dareboost.com/en/home
-        description: >-
-          From performance testing to synthetic page monitoring and comprehensive user journeys, Dareboost is an all-in-one tool dedicated to web performance. A tool designed to help the web professionals collaborate, offering the reporting functionalities necessary to decision makers (customized dashboards, CSV or API exports, etc.) as well as the tools necessary to experts in the field (waterfalls, DNS mapping, blacklists, performance budgets, etc.).
-    - name: Clever Age
-      slug: cleverage
-      logo: /assets/images/thanks/cleverage2.svg
-      fr_FR:
-        cta:
-          text: "Briefez-nous"
-          url: https://www.clever-age.com/fr/content/nos-references-webperf/
-        description: >-
-          Clever Age est une agence full service couvrant l'ensemble de la chaîne digitale. 100&nbsp;% indépendant, Clever Age est le meilleur atout pour votre transformation numérique. Nous nous efforçons de créer du sens et de la valeur pour nos clients et leurs utilisateurs finaux, en concevant et construisant des services robustes et innovants.
-
-
-          Présents au Canada, en France, à Hong Kong, Singapour et au Vietnam, Clever Age est le partenaire qu'il vous faut pour répondre aux exigences de vos écosystèmes locaux et mondiaux.
-      en_US:
-        cta:
-          text: "Brief us"
-          url: https://www.clever-age.com/en/
-        description: >-
-          Clever Age is a full-service agency covering the entire digital production chain. 100% independant, Clever Age is the best asset for your digital transformation. We strive to create meaning and value for our clients and their end users, designing and building robust and innovative services.
-
-
-          Present in Canada, France, Hong Kong, Singapore and in Vietnam, Clever Age is the partner you need to readily address the requirements of your local and global ecosystems.
-    - name: Cdiscount
-      slug: cds
-      logo: /assets/images/thanks/cdiscount.svg
-      fr_FR:
-        cta:
-          text: "Découvrez Cdiscount.com"
-          url: https://www.cdiscount.com/
-        description: >-
-          Bien plus qu’un leader de l’e-commerce, Cdiscount c’est surtout une réussite française symbolique du numérique. Depuis sa création, Cdiscount relève le défi de surprendre jour après jour ses clients avec une ambition simple : démocratiser l’accès à toutes les consommations.
-      en_US:
-        cta:
-          text: "Visit Cdiscount.com"
-          url: https://www.cdiscount.com/
-        description: >-
-          Launched in 1998 in Bordeaux, Cdiscount is today one of the leaders of eCommerce in France. Among the top French brands in terms of price image. Cdiscount directly sells a diverse array of products and supports a marketplace where thousands of sellers offer millions of their own products. Cdiscount has a clear ambition: to offer attractive pricing on all its products, and ensure a high quality of customer service, based on its fully integrated storage and logistics network. The site offers the possibility of fast and flexible home delivery or collection at one of our thousands pick-up points at brick and mortar locations throughout France.
     - name: Google
       slug: google
       logo: /assets/images/thanks/google.svg
@@ -443,106 +392,37 @@
           url: https://www.thinkwithgoogle.com/intl/en-gb/advertising-channels/mobile/mobile-site-speed-playbook/
         description: >-
           When it comes to user experience, speed matters. And delays caused by mobile speed aren’t just frustrating, they can also have a negative impact on business results. Download our new Mobile Site Speed Playbook to explore why speed matters, what it is and how to measure it, and then how to go about speeding up and staying fast.
-    - name: Quanta
-      slug: quanta
-      logo: /assets/images/thanks/quanta.svg
-      fr_FR:
-        cta:
-          text: "Pilotez et optimisez vos performances Web"
-          url: https://www.quanta.io
-        description: >-
-          Quanta est une solution de pilotage de la Web Performance spécialement conçue pour permettre à tous les acteurs des équipes e-commerce, qu’ils soient techniques ou business, de collaborer efficacement autour du même objectif : utiliser la Web Performance pour optimiser les revenus en ligne.
-
-
-          Le résultat est une expérience d’achat plus rapide et plus rentable.
-
-          La méthodologie offerte par Quanta permet également des optimisations plus efficaces, des incidents moins nombreux, une empreinte écologique et des coûts d’hébergement réduits, et enfin des résolutions de problème plus transparentes sans perte de temps à chercher des coupables.
-
-
-          Quanta accompagne sur ce sujet plus de 500 marques dans le monde telles que LVMH, Orange, Veepee, Nestlé et The Kooples.
-      en_US:
-        cta:
-          text: "Drive and optimize your Web Performance"
-          url: https://www.quanta.io
-        description: >-
-          Quanta is an analytics solution specifically designed to enable business and technical members of e-commerce teams to collaborate effectively with the end in mind: use Web Performance to directly impact online revenue at all times.
-
-
-          The results is a faster and more cost-efficient shopping experience.
-          Quanta’s methodology offers more impactful optimizations, less downtimes, a reduction of both the ecological footprint and hosting costs, and a more transparent resolution processes with no finger-pointing.
-
-
-          Quanta supports the Web Performance strategies of more than 500 brands in the world, such as LVMH, Orange, Veepee, Nestlé, and The Kooples.
-    - name: Theodo
-      slug: theodo
-      logo: /assets/images/thanks/theodo.svg
-      fr_FR:
-        cta:
-          text: "Découvrez Theodo"
-          url: https://www.theodo.fr/
-        description: >-
-          Theodo développe des applications web et mobile sur-mesure pour aider ses clients à gagner des parts de marché. Theodo accompagne aussi bien des grands groupes comme Safran et Michelin, que des start-ups comme BlaBlaCar et ManoMano.
-
-
-          Theodo compte plus de 150 ingénieurs développeurs et business developers basés à Paris, Londres et New York.
-
-
-          Theodo met à profit les meilleures pratiques du digital acquises sur plus de 500 projets, pour aider ses clients à optimiser la performance de leurs applications.
-      en_US:
-        cta:
-          text: "Discover Theodo"
-          url: https://www.theodo.co.uk/
-        description: >-
-          Theodo is a tech-team-for-hire web and mobile development company. They build digital products for fast growing startups like ManoMano and BlaBlaCar as well as for large corporations like BNP Paribas and Safran.
-
-
-          Theodo has more than 150 developer-engineers and business developers based in Paris, London and New York.
-
-
-          Born out of experience on hundreds of projects, Theodo shares best practices with their clients to help them optimize the performance of their apps.
-    - name: New Relic
-      slug: newrelic
-      logo: /assets/images/thanks/newrelic.svg
+    - name: Akamai
+      slug: akamai
+      logo: /assets/images/thanks/akamai.svg
       fr_FR:
         cta:
           text: "En savoir plus"
-          url: https://newrelic.fr/
+          url: https://www.akamai.com
         description: >-
-          New Relic est une entreprise d’information numérique, leader du secteur, et fournit des analyses et une visibilité complètes à plus de 40 % des entreprises Fortune 100. La plateforme New Relic offre des données exploitables pour soutenir l’activité numérique. Des entreprises de toutes tailles ont confié à New Relic la surveillance des performances de leurs applications et de leur infrastructure pour une résolution rapide des problèmes et une expérience client numérique améliorée.
+          TODO: Description Akamai
       en_US:
         cta:
           text: "Learn Why"
           url: https://www.newrelic.com/
         description: >-
-          New Relic is the industry’s largest and most comprehensive cloud-based instrumentation platform built to create more perfect software. The world’s best software and DevOps teams rely on New Relic to move faster, make better decisions and create best-in-class digital experiences.
-
-
-          If you run software, you need to run New Relic. More than 50% of the Fortune 100 trust New Relic to make the world’s software run.
-  others:
-    - name: BrainCracking
+          TODO: Description Akamai
+    - name: Braincracking
+      slug: braincracking
       logo: /assets/images/thanks/braincracking.svg
-      url: http://braincracking.org/
-    - name: Mozilla
-      logo: /assets/images/thanks/mozilla.svg
-      url: https://www.mozilla.org/
-    - name: Stickermule
-      logo: /assets/images/thanks/stickermule.svg
-      url: http://stickermule.com/supports/welovespeed19-sponsorship
-    - name: Capitaine Commerce
-      logo: /assets/images/thanks/capitaine-commerce2.png
-      url: http://www.capitaine-commerce.com/
-    - name: Ubik Ingénieurie
-      logo: /assets/images/thanks/ubik2.png
-      url: https://ubikloadpack.com/our-services.php
-    - name: Prestarocket
-      logo: /assets/images/thanks/prestarocket.svg
-      url: https://prestarocket.com/
-    - name: Quadran
-      logo: /assets/images/thanks/quadran.svg
-      url: https://www.quadran.eu/
-    # - name: Oseox Software
-    #   logo: /assets/images/thanks/oseox-software.png
-    #   url: http://www.oseox-software.fr/
-    - name: JDN
-      logo: /assets/images/thanks/jdn.svg
-      url: https://www.journaldunet.com/
+      fr_FR:
+        cta:
+          text: "En savoir plus"
+          url: http://braincracking.org/
+        description: >-
+          TODO: Description Braincracking
+      en_US:
+        cta:
+          text: "Learn Why"
+          url: http://braincracking.org/
+        description: >-
+          TODO: Description Braincracking
+  others:
+    # - name: BrainCracking
+    #   logo: /assets/images/thanks/braincracking.svg
+    #   url: http://braincracking.org/
