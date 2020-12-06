@@ -1,292 +1,133 @@
 2020:
-  romuald:
-    name: Romuald Priol
-    image: /assets/images/speakers/2019/romuald2.jpg
+  marta:
+    name: Marta Wiśniewska
+    image: /assets/images/speakers/2020/marta.png
     urls:
       - name: twitter
-        title: "@doc_roms (Twitter)"
-        url: https://twitter.com/doc_roms
+        title: "@MartaW_PL (Twitter)"
+        url: https://twitter.com/martaw_pl
       - name: linkedin
         title: LinkedIn
-        url: https://www.linkedin.com/in/romuald-p/
+        url: https://linkedin.com/in/martawpl
     en_US:
       bio: >-
-        Driven by a passion for computers and new technologies, I was drawn to the world of the Web where I learned to master the different PHP Frameworks ( Zend, Symfony, Phalcon...) and JavaScript (View.Js...). I then took a close look at the industry's best practices (accessibility, SEO, etc...), before turning my attention to another world, mobile development (Windows Phone, FirefoxOs, Android) in both native and hybrid solutions (Xamarin, PhoneGap, Unity, Ionic, etc.) and Windows development (C# / XAML).
-
-
-        Thanks to these different areas of expertise, I grasped the performance and architecture issues of many projects, and to take a serious look at responsible design by taking into account the eco-design of web and native applications and all the aspects of responsible digital design.
+        Marta is a Google Developer Expert in Angular and Web Technologies from Poland.
+        She is an international speaker, blogger, enthusiast of Angular, PWA, hybrid apps who loves exploring new web features and following hottest trends in tech.
+        Marta is passionate about sharing knowledge in the community and spreading her love for tech.
+        Currently, she satisfies herself as an organizer in Women Techmakers Warsaw and Google Developers Group Warsaw and PWA Fire co-creator.
     fr_FR:
       bio: >-
-        La programmation informatique est avant tout une passion, tout comme le sont les nouvelles technologies. Orienté dans un premier temps dans le monde du Web, j'ai rapidement appris à maitriser les différents Frameworks PHP ( Zend, Symfony, Phalcon...) et JavaScript (Vue.Js...), je me suis intéressé de près aux bonnes pratiques du secteur (accessibilité, SEO, etc...), avant de détourner mon regard vers un autre monde, celui de la mobilité, (Windows Phone, FirefoxOs, Android) en natif et en hybride via différentes solutions (Xamarin, PhoneGap, Unity, Ionic..) et du développement Windows (C# / XAML).
-
-
-        Ces différents domaines d'expertises m'ont permis de définir les problématiques de performance et d'architecture de beaucoup de projets, et de me pencher sérieusement sur la conception responsable en prenant en compte l'éco-conception des applications web et natives et tous les horizons du numérique responsable.
-  matthew:
-    name: Matt Hobbs
-    image: /assets/images/speakers/2019/matthew.jpg
-    urls:
-      - name: twitter
-        title: "@TheRealNooshu (Twitter)"
-        url: https://twitter.com/TheRealNooshu
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/matt-r-hobbs/
-    en_US:
-      bio: >-
-        Matt Hobbs is Head of Frontend Development at the Government Digital Service. An experienced frontend developer, he is passionate about using his skills to build accessible and performant user interfaces. Matt makes a point of keeping on top of the latest technology and tools, is interested in all aspects of interface development, and is a keen advocate for best practice.
-    fr_FR:
-      bio: >-
-        Matt est Responsable du développement Front-End au Service Numérique Gouvernemental du Royaume-Uni. Développeur Front expérimenté, il est passionné par l'utilisation de ses compétences pour créer des interfaces utilisateur accessibles et performantes. Matt se fait un point d'honneur de rester à la pointe de la technologie et des outils les plus récents, s'intéresse à tous les aspects du développement d'interfaces et est un ardent défenseur des bonnes pratiques Web.
-  estelle:
-    name: Estelle Weyl
-    image: /assets/images/speakers/2019/estelle.jpg
-    urls:
-      - name: twitter
-        title: "@estellevw (Twitter)"
-        url: https://twitter.com/estellevw
-    en_US:
-      bio: >-
-        Estelle is a consulting web developer, trainer, author and speaker, currently writing for MDN Web Docs on accessibility, performance and CSS. She speaks and leads workshops on web development all over the world. Her books have been translated into over 14 languages. She’s been coding CSS, HTML, and JavaScript since 1999.
-    fr_FR:
-      bio: >-
-        Estelle est consultante, formatrice, auteure et conférencière. Elle organise la conférence #Perfmatters. Elle documente les technologies Web pour MDN concernant l'accessibilité, les performances et CSS. Elle parle et anime des ateliers sur le développement Web dans le monde entier et ses livres ont été traduits dans plus de 14 langues. Elle code en CSS, HTML et JavaScript depuis 1999.
-  anthony:
-    name: Anthony Barré
-    image: /assets/images/speakers/2019/anthony.jpg
-    urls:
-      - name: twitter
-        title: "@AnthoBarre (Twitter)"
-        url: https://twitter.com/AnthoBarre
-    en_US:
-      bio: >-
-        As a webperf expert at Fasterize, I am one of the developers of the optimization engine at the heart of the solution. I mainly work on Front-End optimizations.
-    fr_FR:
-      bio: >-
-        Expert webperf chez Fasterize, je suis un des développeurs du moteur d'optimisation au cœur de la solution. Je travaille essentiellement sur des optimisations Front-End.
-  antoine:
-    name: Antoine Kahn-Dubois
-    image: /assets/images/speakers/2019/antoine.jpg
-    urls:
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/antoine-kahn-dubois-3236b88b/
-    en_US:
-      bio: >-
-        Antoine is an agile developer who has been working for four years at Theodo, and is passionate about performance, JavaScript & Python. He is convinced that reducing JavaScript bundle sizes is the way to save the world.
-    fr_FR:
-      bio: >-
-        Antoine est un développeur agile depuis quatre ans chez Theodo, passionné de performances, JavaScript et Python. Il est convaincu que nous pouvons sauver le monde en réduisant la taille de nos bundles JavaScript.
-  jeremy:
-    name: Jeremy Wagner
-    image: /assets/images/speakers/2019/jeremy.jpg
-    urls:
-      - name: twitter
-        title: "@malchata (Twitter)"
-        url: https://twitter.com/malchata
-      - name: github
-        title: "@malchata (Github)"
-        url: https://github.com/malchata
-    en_US:
-      bio: >-
-        Jeremy Wagner is a web performance consultant from The United States working for [Siteimprove](https://siteimprove.com/). He writes and speaks often on performance and works to make the web faster for everyone, everywhere.
-    fr_FR:
-      bio: >-
-        Jeremy Wagner est un consultant en Performance Web américain, travaillant pour [Siteimprove](https://siteimprove.com/). Il écrit et parle souvent sur la Performance et travaille à rendre le web plus rapide pour tout le monde, en tous lieux.
-  ryan:
-    name: Ryan Townsend
-    image: /assets/images/speakers/2019/ryan.jpg
-    urls:
-      - name: twitter
-        title: "@ryantownsend (Twitter)"
-        url: https://twitter.com/ryantownsend
-    en_US:
-      bio: >-
-        With over 15 years experience developing for the web, and an undying passion for web performance, Ryan Townsend is the CTO of Shift Commerce – a SaaS e-commerce platform for ambitious retailers.
-
-
-        His pragmatic and performance-led outlook means that—on the rare occasion that he does wear a shirt—his sleeves stay firmly rolled up: even as an exec, his favourite place is right there in the thick of things with his team.
-
-
-        Outside of the office, you’ll usually find him picking up heavy objects in the gym or falling off his mountain bike down the side of a hill.
-    fr_FR:
-      bio: >-
-        Avec plus de 15 ans d'expérience dans le développement web, et une passion inébranlable pour la WebPerf, Ryan Townsend est le directeur technique de Shift Commerce - une plateforme e-commerce SaaS pour les détaillants ambitieux.
-
-
-        Sa vision pragmatique et axée sur la performance impliquent que même quand il porte une chemise, ses manches restent bien retroussées : bien qu'il soit cadre, sa place préférée est là, au cœur de l'action, avec son équipe.
-
-
-        À l'extérieur du bureau, il ramasse des objets lourds dans des gymnases ou tombe de son VTT sur le flanc des collines.
-  raphael:
-    name: Raphaël Dardeau
-    image: /assets/images/speakers/2019/raphael.jpg
-    en_US:
-      bio: >-
-        Web Development Manager at L'Équipe, French first sports news website
-    fr_FR:
-      bio: >-
-        Responsable des développements web à L'Équipe, premier site d’informations sportives français.
-  benoit:
-    name: Benoit Jacquemont
-    image: /assets/images/speakers/2019/benoitj.jpg
-    urls:
-      - name: twitter
-        title: "@bjacquemont (Twitter)"
-        url: https://twitter.com/bjacquemont
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/benoit-jacquemont-657aba9
-    fr_FR:
-      bio: >-
-        Benoit Jacquemont est tombé dans le web en 2000 après avoir une première expérience sur des logiciels d'encaissements. De Java à PHP, de Oracle à MySQL et des applications de gestions aux sites de eCommerce, il roule sa bosse sur les projets, toujours à forte composante OpenSource, au sein du groupe Smile. Il en devient le CTO en 2009 alors que l'entreprise compte près de 450 salariés. En janvier 2013, il co-fonde [Akeneo](https://www.akeneo.com/fr/) avec Frédéric de Gombert, Nicolas Dupont et Yoav Kutner. L'aventure startup commence alors pour lui, en tant que CTO d'[Akeneo](https://www.akeneo.com/fr/).
-    en_US:
-      bio: >-
-        Benoit Jacquemont dived into the web in 2000 after having a first experience on payment software. From Java to PHP, from Oracle to MySQL and from management applications to eCommerce sites, he worked on various projects, always with a strong OpenSource dimension, within the Smile group. He became the CTO in 2009 when the company had nearly 450 employees. In January 2013, he co-founded [Akeneo](https://www.akeneo.com/) with Frédéric de Gombert, Nicolas Dupont and Yoav Kutner. The startup adventure then began for him, as [Akeneo](https://www.akeneo.com/)'s CTO.
-  antonio:
-    name: Antonio Gomes Rodrigues
-    image: /assets/images/speakers/2019/antonio2.jpg
-    urls:
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/antoniogomesrodrigues/
-    en_US:
-      bio: >-
-        Antonio Gomes Rodrigues is an expert in the field of application performance for over 10 years. His missions led him to work:
-
-        - on the performance of high-traffic websites;
-
-        - on the performance of an application for brokers;
-
-        - on the performance of large client apps, cloud and web applications, etc.
-
-
-        With various tools (Profiler, APM, Synthetic Monitoring, load test...) and in various tasks: stress tests, implementation of performance strategies, training, performance audits, troubleshooting, etc...
-
-
-        He is currently Performance Manager at SeLoger, contributor and <abbr title="Project Management Committee">PMC</abbr> member of the JMeter project within the Apache Software Foundation - ASF.
-    fr_FR:
-      bio: >-
-        Antonio Gomes Rodrigues est expert dans le domaine des performances applicatives depuis plus de 10 ans. Ses missions l’ont amené à travailler :
-
-        - sur les performances des sites WEB à fort trafic ;
-
-        - sur les performances d'une application pour courtiers ;
-
-        - sur les performances de clients lourds, d'applications dans le cloud, d'application WEB, etc.
-
-
-        Avec divers outils (Profiler, APM, Synthetic Monitoring, load test...et dans diverses missions : tests de charge, mise en place de stratégies de performance, formations, audits de performance, diagnostics, etc.
-
-
-        Il est actuellement responsable performance chez SeLoger, contributeur et membre <abbr title="Project Management Committee">PMC</abbr> du projet JMeter au sein de la fondation Apache Software - ASF.
-  quentin:
-    name: Quentin Mathieu
-    image: /assets/images/speakers/2019/quentin.jpg
-    urls:
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/quentinmathieu
-    en_US:
-      bio: >-
-        Expert <abbr title="Quality of Experience">QOE</abbr> at OUI.sncf, strives to master the IT for the benefit of the user experience.
-    fr_FR:
-      bio: >-
-        Expert <abbr title="Quality of Experience">QOE</abbr> pour OUI.sncf, œuvre pour la maîtrise du SI au service de l'expérience utilisateur.
-  mathilde:
-    name: Mathilde Lassort
-    image: /assets/images/speakers/2019/mathilde.jpg
-    urls:
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/mathilde-lassort/
-    en_US:
-      bio: >-
-        Product Strategist at OUI.sncf, I support teams in product strategy.
-    fr_FR:
-      bio: >-
-        Product Strategist chez OUI.sncf, j'accompagne les équipes dans la stratégie produit.
-  loic:
-    name: Loïc Troquet
-    image: /assets/images/speakers/2019/loic.jpg
-    urls:
-      - name: twitter
-        title: "@loic_troquet (Twitter)"
-        url: https://twitter.com/loic_troquet
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/lo%C3%AFc-troquet-19623312/
-    en_US:
-      bio: >-
-        Head of the architecture department at [www.pagesjaunes.fr](https://www.pagesjaunes.fr). Specialist in the development of high visibility web applications. Certified ScrumMaster. Specializations: Java, Spring, Continuous Delivery, Webperf, Security, Git, Maven, Scrum, Kanban, Lean, Management 3.0
-    fr_FR:
-      bio: >-
-        Responsable du pôle architecture [www.pagesjaunes.fr](https://www.pagesjaunes.fr). Spécialiste des développements d'applications web à forte visibilité. ScrumMaster certifié. Spécialisations : Java, Spring, Continuous Delivery, Webperf, Sécurité, Git, Maven, Scrum, Kanban, Lean, Management 3.0
-  peter:
-    name: Peter Hedenskog
-    image: /assets/images/speakers/2019/peter.jpg
-    urls:
-      - name: twitter
-        title: "@soulislove (Twitter)"
-        url: https://twitter.com/soulislove
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/peterhedenskog/
-    en_US:
-      bio: >-
-        Peter works in the performance team of the Wikimedia Foundation where he measure the performance of Wikipedia using synthetic testing and RUM. Before he joined the foundation he worked as a web performance consultant helping some of the biggest Swedish brands. Peter also created the popular open source web performance tool [sitespeed.io](https://www.sitespeed.io/).
-    fr_FR:
-      bio: >-
-        Peter travaille dans l'équipe Performance de la Wikimedia Foundation où il mesure la performance de Wikipédia à l'aide de tests synthétiques et de RUM. Avant de rejoindre la fondation, il a travaillé comme consultant en Performance Web pour les plus grandes marques suédoises. Peter a également créé le populaire outil de Performance Web open source [sitespeed.io](https://www.sitespeed.io/).
+        Marta is a Google Developer Expert in Angular and Web Technologies from Poland.
+        She is an international speaker, blogger, enthusiast of Angular, PWA, hybrid apps who loves exploring new web features and following hottest trends in tech.
+        Marta is passionate about sharing knowledge in the community and spreading her love for tech.
+        Currently, she satisfies herself as an organizer in Women Techmakers Warsaw and Google Developers Group Warsaw and PWA Fire co-creator.
   gilles:
     name: Gilles Dubuc
-    image: /assets/images/speakers/2019/gilles3.jpg
+    image: /assets/images/speakers/2020/gilles.png
     urls:
       - name: twitter
         title: "@MonsieurPerf (Twitter)"
         url: https://twitter.com/MonsieurPerf
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/gillesdubuc/
-      - name: github
-        title: "@gi11es (Github)"
-        url: https://github.com/gi11es
-      - name: cc
-        title: "Photo by Myleen Hollero CC-BY-SA 4.0"
-        url: https://creativecommons.org/licenses/by-sa/4.0/deed
     en_US:
       bio: >-
-        After more than ten years of experience as a Full Stack developer, Gilles Dubuc joined the Wikimedia Foundation in 2014.
-
-
-        He is one of the founding members of the Performance team within the foundation, created in 2015. Since then, he has contributed to making Wikipedia and other Wikimedia projects the most efficient websites possible, through his involvement at all levels of architecture, by participating in the future of Web performance within the W3C, and through research work.
+        Après plus d’une dizaine d’années d’expérience en tant que développeur Full Stack, Gilles Dubuc a rejoint la Fondation Wikimedia en 2014.
+        Il est l'un des membres fondateurs de l’équipe Performance au sein de la fondation, créée en 2015 - équipe qu'il dirige à présent.
+        Le but de cette équipe est de rendre Wikipedia et les autres projets Wikimedia les sites web les plus performants possibles.
     fr_FR:
       bio: >-
-        Après plus d’une dizaine d'années d’expérience en tant que développeur Full Stack, Gilles Dubuc a rejoint la Fondation Wikimedia en 2014.
-
-
-        Il est l’un des membres fondateurs de l’équipe Performance au sein de la fondation, créée en 2015. Il contribue depuis au fait de rendre Wikipedia et les autres projets Wikimedia les sites web les plus performants possibles, en intervenant à tous les niveaux de l’architecture et en participant au futur de la performance Web au sein du W3C et à travers des travaux de recherche.
-  nicolas:
-    name: Nicolas Hoffmann
-    image: /assets/images/speakers/2019/nicolas.jpg
+        Après plus d’une dizaine d’années d’expérience en tant que développeur Full Stack, Gilles Dubuc a rejoint la Fondation Wikimedia en 2014.
+        Il est l'un des membres fondateurs de l’équipe Performance au sein de la fondation, créée en 2015 - équipe qu'il dirige à présent.
+        Le but de cette équipe est de rendre Wikipedia et les autres projets Wikimedia les sites web les plus performants possibles.
+  boris:
+    name: Boris Schapira
+    image: /assets/images/speakers/2020/boris.jpg
     urls:
       - name: twitter
-        title: "@Nico3333fr (Twitter)"
-        url: https://twitter.com/Nico3333fr
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/nicolas-hoffmann-b22aaa43/
+        title: "@Boostmarks (Twitter)"
+        url: https://twitter.com/boostmarks
     en_US:
       bio: >-
-        Nicolas is a soldier who has been pacificaly moving up to the front(-end) over more than 15 years. He’s been working in a Swiss web agency for about 10 years, and he’s currently working as a quark on UI and CSS among other things… at ProtonMail.
-
-
-        Head of the OpenWeb group, speaker at events such as Paris-Web, Codeurs en Seine, Sud Web… He’s also the editor of the micro-framework CSS Röcssti, Opquast certified Quality Expert, editor of scripts available via the Van11y project -- with some ARIA inside --, and he published more than 50 articles about CSS conception, security, Web quality… He’s sometimes kindly nicknamed "the Web quality Swiss-German", due to his great score at the Opquast certification. And maybe you won’t believe it, but  he considers this nickname as a compliment!
+        TBD
     fr_FR:
       bio: >-
-        Nicolas est un soldat monté pacifiquement au front (-end) depuis plus de 15 ans, qui a bossé en web agency en Suisse pendant une dizaine d'année, et qui travaille actuellement entre autres sur l'UI et CSS en tant que quark… chez ProtonMail.
-
-
-        Directeur du collectif OpenWeb, conférencier à des événements comme Paris-Web, Codeurs en Seine, Sud Web, etc., aussi auteur du micro-framework CSS Röcssti, certifié Expert qualité Opquast, également auteur de scripts accessibles via le projet Van11y - avec de l’ARIA dedans - et de plus d’une cinquantaine d’articles sur la conception de CSS, la sécurité, la qualité Web, etc., il est parfois délicatement surnommé « le Suisse-Allemand de la qualité Web » à cause d'un bon score à la certification Opquast. Le pire, c’est qu’il prend ce surnom comme un compliment.
+        TBD
+  henri:
+    name: Henri Helvetica
+    image: /assets/images/speakers/2020/henri.jpg
+    urls:
+      - name: twitter
+        title: "@henrihelvetica (Twitter)"
+        url: https://twitter.com/henrihelvetica
+    en_US:
+      bio: >-
+        Henri is a freelance developer who has turned his interests to a passionate mix of site performance engineering and pinches of user experience.
+        When not reading the deluge of daily research docs and case studies, or auditing sites in devtools, Henri can be found contributing back to the community: Toronto Web Performance Group meetup + Jamstack Toronto organizer, curating conference content or volunteering his time for lunch and learns at various bootcamps.
+        Otherwise, Henri is focusing on running the fastest 5k possible (surprise surprise), encouraging a healthy lifestyle via #devsWhoRun.
+    fr_FR:
+      bio: >-
+        Henri is a freelance developer who has turned his interests to a passionate mix of site performance engineering and pinches of user experience.
+        When not reading the deluge of daily research docs and case studies, or auditing sites in devtools, Henri can be found contributing back to the community: Toronto Web Performance Group meetup + Jamstack Toronto organizer, curating conference content or volunteering his time for lunch and learns at various bootcamps.
+        Otherwise, Henri is focusing on running the fastest 5k possible (surprise surprise), encouraging a healthy lifestyle via #devsWhoRun.
+  m4dz:
+    name: m4dz 🥑🦄
+    image: /assets/images/speakers/2020/m4dz.jpg
+    urls:
+      - name: twitter
+        title: "@m4d_z (Twitter)"
+        url: https://twitter.com/m4d_z
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/m4d-z/
+      - name: github
+        title: "GitHub"
+        url: https://github.com/m4dz/
+    en_US:
+      bio: >-
+        m4dz is a "curious pet". Tech Evangelist at alwaysdata, a Cloud Hosting Provider, he has made security and privacy one of his challenges for the Web.
+        All the technologies are under his radar, to make all the digital players aware of our realities.
+        Chronic optimist, his favourite book will always remain "Alice in Wonderland".
+    fr_FR:
+      bio: >-
+        m4dz is a "curious pet". Tech Evangelist at alwaysdata, a Cloud Hosting Provider, he has made security and privacy one of his challenges for the Web.
+        All the technologies are under his radar, to make all the digital players aware of our realities.
+        Chronic optimist, his favourite book will always remain "Alice in Wonderland".
+  myriam:
+    name: Myriam Jessier
+    image: /assets/images/speakers/2020/myriam.jpg
+    urls:
+      - name: web
+        title: "Pragm.co"
+        url: https://www.pragm.co/fr/blog/team/myriam-jessier-seo/
+    en_US:
+      bio: >-
+        Myriam used to be a digital nomad (with a mortgage) but she is currently headquartered on her sofa in Montreal.
+        She has more than a decade of experience in search engine optimization. Sometimes, she likes nerding out on performance optimization.
+    fr_FR:
+      bio: >-
+        Myriam était une nomade mais depuis quelques temps, elle passe le plus clair de son temps sur son canapé à Montréal.
+        Après plus d'une décennie à se spécialiser en référencement naturel, elle aime parfois geeker sur l'optimisation de la performance des sites web.
+  stephanie:
+    name: Stéphanie Walter
+    image: /assets/images/speakers/2020/stephanie.jpg
+    urls:
+      - name: twitter
+        title: "@walterstephanie (Twitter)"
+        url: https://twitter.com/walterstephanie
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/stephaniewalterpro/ 
+    en_US:
+      bio: >-
+        Designer d’expérience utilisateur, spécialisée en interfaces métier et optimisation mobile, actuellement située à Luxembourg.
+        Je mets mes 10 ans d’expertise au service de mes clients en tant que consultante dans différentes industries (assurance, transport, voyage, banques, automobile, etc.)
+        Je place les utilisatrices et utilisateurs au coeur de mon processus de conception et fais le lien entre leurs besoins et les contraintes métier de mes clientes et clients.
+        Passionnée par mon travail, je partage mon savoir sur mon blog, dans des conférence à travers le monde et des cours que je donne dans différentes filières. 
+    fr_FR:
+      bio: >-
+        Designer d’expérience utilisateur, spécialisée en interfaces métier et optimisation mobile, actuellement située à Luxembourg.
+        Je mets mes 10 ans d’expertise au service de mes clients en tant que consultante dans différentes industries (assurance, transport, voyage, banques, automobile, etc.)
+        Je place les utilisatrices et utilisateurs au coeur de mon processus de conception et fais le lien entre leurs besoins et les contraintes métier de mes clientes et clients.
+        Passionnée par mon travail, je partage mon savoir sur mon blog, dans des conférence à travers le monde et des cours que je donne dans différentes filières. 
 2019:
   romuald:
     name: Romuald Priol
