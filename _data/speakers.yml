@@ -1,7 +1,7 @@
 2020:
   marta:
     name: Marta Wiśniewska
-    image: /assets/images/speakers/2020/marta.png
+    image: /assets/images/speakers/2020/marta_square.png
     urls:
       - name: twitter
         title: "@MartaW_PL (Twitter)"
@@ -23,7 +23,7 @@
         Currently, she satisfies herself as an organizer in Women Techmakers Warsaw and Google Developers Group Warsaw and PWA Fire co-creator.
   gilles:
     name: Gilles Dubuc
-    image: /assets/images/speakers/2020/gilles.png
+    image: /assets/images/speakers/2020/gilles_square.jpg
     urls:
       - name: twitter
         title: "@MonsieurPerf (Twitter)"
@@ -40,7 +40,7 @@
         Le but de cette équipe est de rendre Wikipedia et les autres projets Wikimedia les sites web les plus performants possibles.
   boris:
     name: Boris Schapira
-    image: /assets/images/speakers/2020/boris.jpg
+    image: /assets/images/speakers/2020/boris_square.jpg
     urls:
       - name: twitter
         title: "@Boostmarks (Twitter)"
@@ -53,7 +53,7 @@
         TBD
   henri:
     name: Henri Helvetica
-    image: /assets/images/speakers/2020/henri.jpg
+    image: /assets/images/speakers/2020/henri_square.jpg
     urls:
       - name: twitter
         title: "@henrihelvetica (Twitter)"
@@ -70,7 +70,7 @@
         Otherwise, Henri is focusing on running the fastest 5k possible (surprise surprise), encouraging a healthy lifestyle via #devsWhoRun.
   m4dz:
     name: m4dz 🥑🦄
-    image: /assets/images/speakers/2020/m4dz.jpg
+    image: /assets/images/speakers/2020/m4dz_square.jpg
     urls:
       - name: twitter
         title: "@m4d_z (Twitter)"
@@ -93,7 +93,7 @@
         Chronic optimist, his favourite book will always remain "Alice in Wonderland".
   myriam:
     name: Myriam Jessier
-    image: /assets/images/speakers/2020/myriam.jpg
+    image: /assets/images/speakers/2020/myriam_square.jpg
     urls:
       - name: web
         title: "Pragm.co"
@@ -108,26 +108,26 @@
         Après plus d'une décennie à se spécialiser en référencement naturel, elle aime parfois geeker sur l'optimisation de la performance des sites web.
   stephanie:
     name: Stéphanie Walter
-    image: /assets/images/speakers/2020/stephanie.jpg
+    image: /assets/images/speakers/2020/stephanie_square.jpg
     urls:
       - name: twitter
         title: "@walterstephanie (Twitter)"
         url: https://twitter.com/walterstephanie
       - name: linkedin
         title: "LinkedIn"
-        url: https://www.linkedin.com/in/stephaniewalterpro/ 
+        url: https://www.linkedin.com/in/stephaniewalterpro/
     en_US:
       bio: >-
         Designer d’expérience utilisateur, spécialisée en interfaces métier et optimisation mobile, actuellement située à Luxembourg.
         Je mets mes 10 ans d’expertise au service de mes clients en tant que consultante dans différentes industries (assurance, transport, voyage, banques, automobile, etc.)
         Je place les utilisatrices et utilisateurs au coeur de mon processus de conception et fais le lien entre leurs besoins et les contraintes métier de mes clientes et clients.
-        Passionnée par mon travail, je partage mon savoir sur mon blog, dans des conférence à travers le monde et des cours que je donne dans différentes filières. 
+        Passionnée par mon travail, je partage mon savoir sur mon blog, dans des conférence à travers le monde et des cours que je donne dans différentes filières.
     fr_FR:
       bio: >-
         Designer d’expérience utilisateur, spécialisée en interfaces métier et optimisation mobile, actuellement située à Luxembourg.
         Je mets mes 10 ans d’expertise au service de mes clients en tant que consultante dans différentes industries (assurance, transport, voyage, banques, automobile, etc.)
         Je place les utilisatrices et utilisateurs au coeur de mon processus de conception et fais le lien entre leurs besoins et les contraintes métier de mes clientes et clients.
-        Passionnée par mon travail, je partage mon savoir sur mon blog, dans des conférence à travers le monde et des cours que je donne dans différentes filières. 
+        Passionnée par mon travail, je partage mon savoir sur mon blog, dans des conférence à travers le monde et des cours que je donne dans différentes filières.
 2019:
   romuald:
     name: Romuald Priol
