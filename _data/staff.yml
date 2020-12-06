@@ -20,8 +20,8 @@
     slug: ngo
     twitter: Phacks
     links:
-      - label: Twitter
-        url: https://twitter.com/phacks
+      - label: Orbit
+        url: https://orbit.love
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
@@ -32,6 +32,7 @@
   - firstname: Audrey
     lastname: Schoonwater
     slug: as
+    twitter: witamine
     links:
       - label: Twitter
         url: https://twitter.com/witamine
