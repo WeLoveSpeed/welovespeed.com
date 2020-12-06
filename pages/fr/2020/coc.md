@@ -1,8 +1,8 @@
 ---
 title: Code de conduite
 description: "Offrir une expérience de conférence sans harcèlement, pour tout le monde."
-i18n-key: 2020-coc
-permalink: /2020/code-de-conduite/
+i18n-key: 2019-coc
+permalink: /2019/code-de-conduite/
 layout: page
 ---
 

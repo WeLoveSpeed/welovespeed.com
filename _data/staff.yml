@@ -1,4 +1,11 @@
 2020:
+  - firstname: Boris
+    lastname: Schapira
+    slug: bsc
+    twitter: boostmarks
+    links:
+      - label: Dareboost
+        url: https://www.dareboost.com/
   - firstname: Émilie
     lastname: Wilhelm
     slug: emilie
@@ -22,6 +29,12 @@
     links:
       - label: Theodo
         url: https://www.theodo.fr/
+  - firstname: Sébastien
+    lastname: Bonnet
+    slug: sbo
+    links:
+      - label: Cdiscount
+        url: https://www.cdiscount.com/
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
@@ -34,39 +47,11 @@
     slug: ss
     links:
       - label: Fasterize
-        url: https://www.fasterize.com/
-  - firstname: Antoine
-    lastname: Kahn-Dubois
-    slug: akd
+  - firstname: Anne-Marie
+    lastname: Sicard
+    slug: ams
     links:
-      - label: Linkvalue
-        url: https://link-value.fr/
-  - firstname: Pierre-Marie
-    lastname: Dartus
-    slug: pm
-    twitter: pmdartus
-    links:
-      - label: Salesforce
-        url: https://www.salesforce.com/
-  - firstname: Clément
-    lastname: Elgard
-    slug: ce
-    twitter: ClementElgard
-    links:
-      - label: Quanta
-        url: https://www.quanta.io/
-  - firstname: Olivier
-    lastname: Rundstadler
-    slug: or
-    links:
-      - label: Sogeti
-        url: https://www.fr.sogeti.com/
-  - firstname: Audrey
-    lastname: Schoonwater
-    slug: as
-    links:
-      - label: Clustaar
-        url: https://seo-data.clustaar.com
+      - label: Fasterize
 2019:
   - firstname: Boris
     lastname: Schapira
