@@ -399,14 +399,12 @@
         cta:
           text: "En savoir plus"
           url: https://www.akamai.com
-        description: >-
-          TODO: Description Akamai
+        description: # TODO: Description Akamai
       en_US:
         cta:
-          text: "Learn Why"
-          url: https://www.newrelic.com/
-        description: >-
-          TODO: Description Akamai
+          text: "Learn More"
+          url: https://www.akamai.com
+        description: # TODO: Description Akamai
     - name: Braincracking
       slug: braincracking
       logo: /assets/images/thanks/braincracking.svg
@@ -414,14 +412,12 @@
         cta:
           text: "En savoir plus"
           url: http://braincracking.org/
-        description: >-
-          TODO: Description Braincracking
+        description: # TODO: Description Akamai
       en_US:
         cta:
-          text: "Learn Why"
+          text: "Learn More"
           url: http://braincracking.org/
-        description: >-
-          TODO: Description Braincracking
+        description: # TODO: Description Akamai
   others:
     # - name: BrainCracking
     #   logo: /assets/images/thanks/braincracking.svg
