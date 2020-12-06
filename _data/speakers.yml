@@ -45,12 +45,18 @@
       - name: twitter
         title: "@Boostmarks (Twitter)"
         url: https://twitter.com/boostmarks
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/borisschapira/
+      - name: web
+        title: "Blog"
+        url: https://boris.schapira.dev
     en_US:
       bio: >-
-        TBD
+        Boris is a Web professional who is interested in Web Performance and, more broadly, in all aspects of Web Quality. He is the husband of a dragonfly and the father of two hobbits, and currently Customer Success Manager at Contentsquare, in charge of Dareboost.
     fr_FR:
       bio: >-
-        TBD
+        Boris est un professionnel du Web qui s'intéresse à la performance du Web et, plus largement, à tous les aspects de la Qualité Web. Il est le mari d'une libellule et le père de deux hobbits, et actuellement Customer Success Manager chez Contentsquare, en charge de Dareboost.
   henri:
     name: Henri Helvetica
     image: /assets/images/speakers/2020/henri_square.jpg
