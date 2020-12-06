@@ -360,3 +360,65 @@
     - name: JDN
       logo: /assets/images/thanks/jdn.svg
       url: https://www.journaldunet.com/
+2020:
+  gold:
+    - name: Fasterize
+      slug: fstrz
+      logo: /assets/images/thanks/fasterize.svg
+      fr_FR:
+        cta:
+          text: "Accélérez votre site web"
+          url: https://www.fasterize.com/
+        description: >-
+          Fasterize est une solution SaaS qui accélère automatiquement le chargement des sites web. Le moteur d’optimisation de Fasterize agit en temps réel (tel un proxy) sur les performances brutes des pages, mais aussi sur la perception de vitesse des utilisateurs. Rapide à mettre en place
+      en_US:
+        cta:
+          text: "Fasterize your website"
+          url: https://www.fasterize.com/en/
+        description: >-
+          Fasterize is a SaaS solution that automatically speeds up the loading of websites. Fasterize's optimization engine acts in real time (like a proxy) on the raw page performance, but also on the users' perception of speed. Quick to set up.
+    - name: Google
+      slug: google
+      logo: /assets/images/thanks/google.svg
+      fr_FR:
+        cta:
+          text: "Téléchargez le nouveau Mobile Site Speed Playbook"
+          url: https://www.thinkwithgoogle.com/intl/en-gb/advertising-channels/mobile/mobile-site-speed-playbook/
+        description: >-
+          En terme d'expérience utilisateur, la vitesse est cruciale. Chaque seconde compte, la lenteur n'est pas seulement frustrante, elle a un impact négatif sur les performances commerciales. Téléchargez notre nouveau PlayBook Mobile Speed pour comprendre pourquoi la vitesse est importante, comment la mesurer, comment accélérer votre site et maintenir vos performances !
+      en_US:
+        cta:
+          text: "Download the new Mobile Site Speed Playbook"
+          url: https://www.thinkwithgoogle.com/intl/en-gb/advertising-channels/mobile/mobile-site-speed-playbook/
+        description: >-
+          When it comes to user experience, speed matters. And delays caused by mobile speed aren’t just frustrating, they can also have a negative impact on business results. Download our new Mobile Site Speed Playbook to explore why speed matters, what it is and how to measure it, and then how to go about speeding up and staying fast.
+    - name: Akamai
+      slug: akamai
+      logo: /assets/images/thanks/akamai.svg
+      fr_FR:
+        cta:
+          text: "En savoir plus"
+          url: https://www.akamai.com
+        description: # TODO: Description Akamai
+      en_US:
+        cta:
+          text: "Learn More"
+          url: https://www.akamai.com
+        description: # TODO: Description Akamai
+    - name: Braincracking
+      slug: braincracking
+      logo: /assets/images/thanks/braincracking.svg
+      fr_FR:
+        cta:
+          text: "En savoir plus"
+          url: http://braincracking.org/
+        description: # TODO: Description Akamai
+      en_US:
+        cta:
+          text: "Learn More"
+          url: http://braincracking.org/
+        description: # TODO: Description Akamai
+  others:
+    # - name: BrainCracking
+    #   logo: /assets/images/thanks/braincracking.svg
+    #   url: http://braincracking.org/

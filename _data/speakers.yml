@@ -1,10 +1,140 @@
+2020:
+  marta:
+    name: Marta Wiśniewska
+    image: /assets/images/speakers/2020/marta.png
+    urls:
+      - name: twitter
+        title: "@MartaW_PL (Twitter)"
+        url: https://twitter.com/martaw_pl
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/martawpl
+    en_US:
+      bio: >-
+        Marta is a Google Developer Expert in Angular and Web Technologies from Poland.
+        She is an international speaker, blogger, enthusiast of Angular, PWA, hybrid apps who loves exploring new web features and following hottest trends in tech.
+        Marta is passionate about sharing knowledge in the community and spreading her love for tech.
+        Currently, she satisfies herself as an organizer in Women Techmakers Warsaw and Google Developers Group Warsaw and PWA Fire co-creator.
+    fr_FR:
+      bio: >-
+        Marta is a Google Developer Expert in Angular and Web Technologies from Poland.
+        She is an international speaker, blogger, enthusiast of Angular, PWA, hybrid apps who loves exploring new web features and following hottest trends in tech.
+        Marta is passionate about sharing knowledge in the community and spreading her love for tech.
+        Currently, she satisfies herself as an organizer in Women Techmakers Warsaw and Google Developers Group Warsaw and PWA Fire co-creator.
+  gilles:
+    name: Gilles Dubuc
+    image: /assets/images/speakers/2020/gilles.png
+    urls:
+      - name: twitter
+        title: "@MonsieurPerf (Twitter)"
+        url: https://twitter.com/MonsieurPerf
+    en_US:
+      bio: >-
+        Après plus d’une dizaine d’années d’expérience en tant que développeur Full Stack, Gilles Dubuc a rejoint la Fondation Wikimedia en 2014.
+        Il est l'un des membres fondateurs de l’équipe Performance au sein de la fondation, créée en 2015 - équipe qu'il dirige à présent.
+        Le but de cette équipe est de rendre Wikipedia et les autres projets Wikimedia les sites web les plus performants possibles.
+    fr_FR:
+      bio: >-
+        Après plus d’une dizaine d’années d’expérience en tant que développeur Full Stack, Gilles Dubuc a rejoint la Fondation Wikimedia en 2014.
+        Il est l'un des membres fondateurs de l’équipe Performance au sein de la fondation, créée en 2015 - équipe qu'il dirige à présent.
+        Le but de cette équipe est de rendre Wikipedia et les autres projets Wikimedia les sites web les plus performants possibles.
+  boris:
+    name: Boris Schapira
+    image: /assets/images/speakers/2020/boris.jpg
+    urls:
+      - name: twitter
+        title: "@Boostmarks (Twitter)"
+        url: https://twitter.com/boostmarks
+    en_US:
+      bio: >-
+        TBD
+    fr_FR:
+      bio: >-
+        TBD
+  henri:
+    name: Henri Helvetica
+    image: /assets/images/speakers/2020/henri.jpg
+    urls:
+      - name: twitter
+        title: "@henrihelvetica (Twitter)"
+        url: https://twitter.com/henrihelvetica
+    en_US:
+      bio: >-
+        Henri is a freelance developer who has turned his interests to a passionate mix of site performance engineering and pinches of user experience.
+        When not reading the deluge of daily research docs and case studies, or auditing sites in devtools, Henri can be found contributing back to the community: Toronto Web Performance Group meetup + Jamstack Toronto organizer, curating conference content or volunteering his time for lunch and learns at various bootcamps.
+        Otherwise, Henri is focusing on running the fastest 5k possible (surprise surprise), encouraging a healthy lifestyle via #devsWhoRun.
+    fr_FR:
+      bio: >-
+        Henri is a freelance developer who has turned his interests to a passionate mix of site performance engineering and pinches of user experience.
+        When not reading the deluge of daily research docs and case studies, or auditing sites in devtools, Henri can be found contributing back to the community: Toronto Web Performance Group meetup + Jamstack Toronto organizer, curating conference content or volunteering his time for lunch and learns at various bootcamps.
+        Otherwise, Henri is focusing on running the fastest 5k possible (surprise surprise), encouraging a healthy lifestyle via #devsWhoRun.
+  m4dz:
+    name: m4dz 🥑🦄
+    image: /assets/images/speakers/2020/m4dz.jpg
+    urls:
+      - name: twitter
+        title: "@m4d_z (Twitter)"
+        url: https://twitter.com/m4d_z
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/m4d-z/
+      - name: github
+        title: "GitHub"
+        url: https://github.com/m4dz/
+    en_US:
+      bio: >-
+        m4dz is a "curious pet". Tech Evangelist at alwaysdata, a Cloud Hosting Provider, he has made security and privacy one of his challenges for the Web.
+        All the technologies are under his radar, to make all the digital players aware of our realities.
+        Chronic optimist, his favourite book will always remain "Alice in Wonderland".
+    fr_FR:
+      bio: >-
+        m4dz is a "curious pet". Tech Evangelist at alwaysdata, a Cloud Hosting Provider, he has made security and privacy one of his challenges for the Web.
+        All the technologies are under his radar, to make all the digital players aware of our realities.
+        Chronic optimist, his favourite book will always remain "Alice in Wonderland".
+  myriam:
+    name: Myriam Jessier
+    image: /assets/images/speakers/2020/myriam.jpg
+    urls:
+      - name: web
+        title: "Pragm.co"
+        url: https://www.pragm.co/fr/blog/team/myriam-jessier-seo/
+    en_US:
+      bio: >-
+        Myriam used to be a digital nomad (with a mortgage) but she is currently headquartered on her sofa in Montreal.
+        She has more than a decade of experience in search engine optimization. Sometimes, she likes nerding out on performance optimization.
+    fr_FR:
+      bio: >-
+        Myriam était une nomade mais depuis quelques temps, elle passe le plus clair de son temps sur son canapé à Montréal.
+        Après plus d'une décennie à se spécialiser en référencement naturel, elle aime parfois geeker sur l'optimisation de la performance des sites web.
+  stephanie:
+    name: Stéphanie Walter
+    image: /assets/images/speakers/2020/stephanie.jpg
+    urls:
+      - name: twitter
+        title: "@walterstephanie (Twitter)"
+        url: https://twitter.com/walterstephanie
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/stephaniewalterpro/ 
+    en_US:
+      bio: >-
+        Designer d’expérience utilisateur, spécialisée en interfaces métier et optimisation mobile, actuellement située à Luxembourg.
+        Je mets mes 10 ans d’expertise au service de mes clients en tant que consultante dans différentes industries (assurance, transport, voyage, banques, automobile, etc.)
+        Je place les utilisatrices et utilisateurs au coeur de mon processus de conception et fais le lien entre leurs besoins et les contraintes métier de mes clientes et clients.
+        Passionnée par mon travail, je partage mon savoir sur mon blog, dans des conférence à travers le monde et des cours que je donne dans différentes filières. 
+    fr_FR:
+      bio: >-
+        Designer d’expérience utilisateur, spécialisée en interfaces métier et optimisation mobile, actuellement située à Luxembourg.
+        Je mets mes 10 ans d’expertise au service de mes clients en tant que consultante dans différentes industries (assurance, transport, voyage, banques, automobile, etc.)
+        Je place les utilisatrices et utilisateurs au coeur de mon processus de conception et fais le lien entre leurs besoins et les contraintes métier de mes clientes et clients.
+        Passionnée par mon travail, je partage mon savoir sur mon blog, dans des conférence à travers le monde et des cours que je donne dans différentes filières. 
 2019:
   romuald:
     name: Romuald Priol
     image: /assets/images/speakers/2019/romuald2.jpg
     urls:
       - name: twitter
-        title: '@doc_roms (Twitter)'
+        title: "@doc_roms (Twitter)"
         url: https://twitter.com/doc_roms
       - name: linkedin
         title: LinkedIn
@@ -26,7 +156,7 @@
     image: /assets/images/speakers/2019/matthew.jpg
     urls:
       - name: twitter
-        title: '@TheRealNooshu (Twitter)'
+        title: "@TheRealNooshu (Twitter)"
         url: https://twitter.com/TheRealNooshu
       - name: linkedin
         title: LinkedIn
@@ -42,7 +172,7 @@
     image: /assets/images/speakers/2019/estelle.jpg
     urls:
       - name: twitter
-        title: '@estellevw (Twitter)'
+        title: "@estellevw (Twitter)"
         url: https://twitter.com/estellevw
     en_US:
       bio: >-
@@ -55,7 +185,7 @@
     image: /assets/images/speakers/2019/anthony.jpg
     urls:
       - name: twitter
-        title: '@AnthoBarre (Twitter)'
+        title: "@AnthoBarre (Twitter)"
         url: https://twitter.com/AnthoBarre
     en_US:
       bio: >-
@@ -81,10 +211,10 @@
     image: /assets/images/speakers/2019/jeremy.jpg
     urls:
       - name: twitter
-        title: '@malchata (Twitter)'
+        title: "@malchata (Twitter)"
         url: https://twitter.com/malchata
       - name: github
-        title: '@malchata (Github)'
+        title: "@malchata (Github)"
         url: https://github.com/malchata
     en_US:
       bio: >-
@@ -97,7 +227,7 @@
     image: /assets/images/speakers/2019/ryan.jpg
     urls:
       - name: twitter
-        title: '@ryantownsend (Twitter)'
+        title: "@ryantownsend (Twitter)"
         url: https://twitter.com/ryantownsend
     en_US:
       bio: >-
@@ -131,7 +261,7 @@
     image: /assets/images/speakers/2019/benoitj.jpg
     urls:
       - name: twitter
-        title: '@bjacquemont (Twitter)'
+        title: "@bjacquemont (Twitter)"
         url: https://twitter.com/bjacquemont
       - name: linkedin
         title: LinkedIn
@@ -210,7 +340,7 @@
     image: /assets/images/speakers/2019/loic.jpg
     urls:
       - name: twitter
-        title: '@loic_troquet (Twitter)'
+        title: "@loic_troquet (Twitter)"
         url: https://twitter.com/loic_troquet
       - name: linkedin
         title: LinkedIn
@@ -226,7 +356,7 @@
     image: /assets/images/speakers/2019/peter.jpg
     urls:
       - name: twitter
-        title: '@soulislove (Twitter)'
+        title: "@soulislove (Twitter)"
         url: https://twitter.com/soulislove
       - name: linkedin
         title: LinkedIn
@@ -242,16 +372,16 @@
     image: /assets/images/speakers/2019/gilles3.jpg
     urls:
       - name: twitter
-        title: '@MonsieurPerf (Twitter)'
+        title: "@MonsieurPerf (Twitter)"
         url: https://twitter.com/MonsieurPerf
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/gillesdubuc/
       - name: github
-        title: '@gi11es (Github)'
+        title: "@gi11es (Github)"
         url: https://github.com/gi11es
       - name: cc
-        title: 'Photo by Myleen Hollero CC-BY-SA 4.0'
+        title: "Photo by Myleen Hollero CC-BY-SA 4.0"
         url: https://creativecommons.org/licenses/by-sa/4.0/deed
     en_US:
       bio: >-
@@ -270,7 +400,7 @@
     image: /assets/images/speakers/2019/nicolas.jpg
     urls:
       - name: twitter
-        title: '@Nico3333fr (Twitter)'
+        title: "@Nico3333fr (Twitter)"
         url: https://twitter.com/Nico3333fr
       - name: linkedin
         title: LinkedIn
@@ -293,7 +423,7 @@
     image: /assets/images/speakers/2018/rick.jpg
     urls:
       - name: twitter
-        title: '@rick_viscomi (Twitter)'
+        title: "@rick_viscomi (Twitter)"
         url: https://twitter.com/rick_viscomi
     en_US:
       alt: >-
@@ -310,7 +440,7 @@
     image: /assets/images/speakers/2018/walterstephanie.jpg
     urls:
       - name: twitter
-        title: '@WalterStephanie (Twitter)'
+        title: "@WalterStephanie (Twitter)"
         url: https://twitter.com/WalterStephanie
       - name: web
         title: Website
@@ -402,7 +532,7 @@
         title: Youtube
         url: https://www.google.com/search?q=youtube+philip+tellis
       - name: twitter
-        title: '@bluesmoon (Twitter)'
+        title: "@bluesmoon (Twitter)"
         url: https://twitter.com/bluesmoon
     en_US:
       alt: >-
@@ -437,7 +567,7 @@
     image: /assets/images/speakers/2018/nhoizey.jpg
     urls:
       - name: twitter
-        title: '@nhoizey (Twitter)'
+        title: "@nhoizey (Twitter)"
         url: https://twitter.com/nhoizey
     en_US:
       alt: >-
@@ -534,7 +664,7 @@
     image: /assets/images/speakers/2018/jonas.jpg
     urls:
       - name: twitter
-        title: '@JonasBadalic (Twitter)'
+        title: "@JonasBadalic (Twitter)"
         url: https://twitter.com/JonasBadalic
     en_US:
       alt: >-

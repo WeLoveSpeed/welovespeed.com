@@ -1,0 +1,109 @@
+---
+title: Billetterie
+description: "Réservez votre place, il n'y en aura pas pour tout le monde"
+i18n-key: 2020-register
+permalink: /2020/billetterie/
+---
+
+{% if site.tickets.selling %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Acheter votre place</h2>
+    <a title="Logiciel billetterie en ligne" href="https://weezevent.com/?c=sys_widget" class="weezevent-widget-integration" target="_blank" data-src="https://widget.weezevent.com/ticket/E675339/?id_evenement=675339&lg_billetterie=1&code=49279&locale=fr&width_auto=1&color_primary=00AEEF" data-width="650" data-height="600" data-id="675339" data-resize="1" data-width_auto="1" data-noscroll="0" data-nopb="0" data-type="neo">Billetterie Weezevent</a>
+    <script type="text/javascript" src="https://widget.weezevent.com/weez.js"></script>
+  </div>
+</section>
+{% endif %}
+{% if site.tickets.waiting-list %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Liste d'attente</h2>
+    <p>Toutes les places disponibles pour cette édition ont été vendues. Il est possible que de nouvelles places se libèrent en cas de désistement.</p>
+    <p>Inscrivez-vous sur la liste d'attente pour être prévenu dès qu'une place se libère.</p>
+    <form method="post" id="waiting-list-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdshv4_du-1vKF7-S_p9NC_xHZIKBg4VYUFT7jkLgtP5VF1Zg/formResponse" enctype="multipart/form-data">
+      <div class="p-like">
+        <label for="wl-email">{% t Votre email %} {% t (obligatoire) %}</label>
+        <input type="email" name="entry.1045781291" id="wl-email" required placeholder="ex : michel@vaillante-f1.fr">
+      </div>
+      <div class="p-like">
+        <label for="wl-name">{% t Votre nom %} {% t (obligatoire) %}</label>
+          <input type="text" name="entry.1612045899" id="wl-name" required placeholder="ex : Michel Vaillant">
+      </div>
+      <div class="p-like">
+        <label for="wl-tel">{% t Votre numéro %} {% t (obligatoire) %}
+        <input type="text" name="entry.972508085" id="wl-tel" required placeholder="ex : +33123456789">
+      </div>
+      <div class="p-like text-center">
+        <button type="submit" class="button" data-text="s'inscrire sur la liste d'attente">
+          <span class="button-inner">s'inscrire sur la liste d'attente</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+{% endif %}
+{% if site.tickets.selling %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <div class="grid-2">
+      <section>
+        <h2>Billets</h2>
+        <p>
+          Les billets sont vendus <strong>dans la limite des places disponibles</strong> et donnent accès à la conférence, aux repas et collations entre 8h30 et 18h.<br>
+          Le transport et l’hébergement <strong>ne sont pas inclus</strong>.<br>
+          Besoin d'un <strong>tarif particulier</strong> lié à une situation particulière (études, chômage, partenariat…)&nbsp;? N'hésitez pas, <a href="{{ page.baseurl | default:site.baseurl }}/{{ "contact" | t: page.locale }}/">contactez-nous</a>.
+        </p>
+      </section>
+      <section>
+        <h2>Moyens de paiement</h2>
+        <p>
+          Vous pouvez régler vos places par <strong>carte bancaire</strong> lors de l’inscription en ligne.<br>
+          À moins de trois semaines de l'événement, vous pourrez également <strong>réserver vos places</strong> en ligne puis de les régler sous quinze jours <strong>par virement bancaire</strong>.<br>
+          Si vous en avez besoin, la plate-forme Weezevent vous fournira une <strong>facture</strong>.<br>
+          Tout achat d'un billet est <strong>ferme et définitif</strong>.
+        </p>
+      </section>
+    </div>
+  </div>
+</section>
+
+  {% if site.infos.diversity_id %}
+  <hr class="wrapper">
+
+  <section class="section">
+    <div class="wrapper">
+      <h2 id="diversity">Tickets Pro-Diversité (offerts par <a href="https://www.mozilla.org/">Mozilla</a>)</h2>
+
+      <p>Les personnes ayant l'impression d'appartenir à un groupe sous-représenté dans le domaine de la technologie (cela comprend, sans s'y limiter : les personnes de couleur, les personnes LGBTQIA+, les femmes et les personnes handicapées) sont éligibles à un <a href="https://diversitytickets.org/fr">Diversity Ticket</a> leur permettant de bénéficier d'un billet gratuit pour l'événement.</p>
+
+      <div class="text-center">
+        <a class="button" target="_blank" href="https://diversitytickets.org/fr/events/{{ site.infos.diversity_id }}" data-text="Faire une demande de billet">
+          <span class="button-inner">Faire une demande de billet</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+{% endif %}
+{% if site.infos.display %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <h2>Comment venir à Lille&nbsp;?</h2>
+    <section>
+      <p>Nous avons des solutions ! Suivez les conseils que nous vous avons préparé pour un voyage sans encombre.</p>
+    </section>
+    <p class="text-center">
+      <a class="button" data-text="venir à Lille" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">venir à Lille</span></a>
+    </p>
+  </div>
+</section>
+{% endif %}
+
+<hr class="wrapper">
+
+{% include banners/banner-cocktail.html locale=page.locale %}

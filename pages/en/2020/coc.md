@@ -20,8 +20,8 @@ To make clear what is expected, all delegates/attendees, speakers, exhibitors, o
 
 ## Contact in case of incident during our conference
 
-* [{{ site.mail }}](mailto:{{ site.mail }})
-* In case of emergency (medical or other) : 112
+- [{{ site.mail }}](mailto:{{ site.mail }})
+- In case of emergency (medical or other) : 112
 
 ## The Longer Version
 
@@ -51,23 +51,23 @@ When taking a report from someone experiencing harassment you should record what
 
 The report should include:
 
-* Identifying information (name/badge number) of the participant
-* The time you issued the warning
-* The behavior that was in violation
-* The approximate time of the behavior (if different than the time of warning)
-* The circumstances surrounding the incident
-* Your identity
-* Other people involved in the incident
+- Identifying information (name/badge number) of the participant
+- The time you issued the warning
+- The behavior that was in violation
+- The approximate time of the behavior (if different than the time of warning)
+- The circumstances surrounding the incident
+- Your identity
+- Other people involved in the incident
 
 ### Expulsion
 
 A participant may be expelled by the decision of any of the above listed entities for whatever reasons they deem sufficient. However, here are some general guidelines for when a participant should be expelled:
 
-* A second offense resulting in a warning from staff
-* Continuing to harass after any "No" or "Stop" instruction
-* A pattern of harassing behavior, with or without warnings
-* A single serious offense (e.g., punching or groping someone)
-* A single obviously intentional offense (e.g., taking up-skirt photos) Hotel/venue security and local authorities should be contacted when appropriate.
+- A second offense resulting in a warning from staff
+- Continuing to harass after any "No" or "Stop" instruction
+- A pattern of harassing behavior, with or without warnings
+- A single serious offense (e.g., punching or groping someone)
+- A single obviously intentional offense (e.g., taking up-skirt photos) Hotel/venue security and local authorities should be contacted when appropriate.
 
 ### Public statements
 
@@ -81,4 +81,4 @@ At any time, for any question about this code of conduct please send an email to
 
 This policy is licensed under the Creative Commons Zero license. It is public domain, no credit and no open licencing of your version is required.
 
-*This anti-harassment policy is based on the [example policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) from the [Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Geek_Feminism_Wiki), created by the [Ada Initiative](https://adainitiative.org/) and other volunteers and on the [PHP UK code of conduct](http://phpconference.co.uk/conduct/).*
+_This anti-harassment policy is based on the [example policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) from the [Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Geek_Feminism_Wiki), created by the [Ada Initiative](https://adainitiative.org/) and other volunteers and on the [PHP UK code of conduct](http://phpconference.co.uk/conduct/)._

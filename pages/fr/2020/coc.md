@@ -20,8 +20,8 @@ Les événements **{{ site.title }}** se veulent une expérience agréable et co
 
 ## Contact en cas d'incident lors de notre cycle de conférences
 
-* [{{ site.mail }}](mailto:{{ site.mail }})
-* En cas d'urgence (médicales ou autres) : 112
+- [{{ site.mail }}](mailto:{{ site.mail }})
+- En cas d'urgence (médicales ou autres) : 112
 
 ## Version complète
 
@@ -53,23 +53,23 @@ Dans le cas où une personne viendrait rapporter un incident, il est prudent de 
 
 Dans la mesure du possible, le compte rendu doit contenir :
 
-* les informations permettant l'identification du ou de la participante en faute (nom, numéro de badge…) ;
-* l'heure où le compte rendu a été établi ;
-* le comportement enfreignant le code de conduite ;
-* l'heure approximative de l'incident (si différente de celle du compte rendu) ;
-* les circonstances de l'incident ;
-* votre identité ;
-* les autres personnes impliquées dans l'incident.
+- les informations permettant l'identification du ou de la participante en faute (nom, numéro de badge…) ;
+- l'heure où le compte rendu a été établi ;
+- le comportement enfreignant le code de conduite ;
+- l'heure approximative de l'incident (si différente de celle du compte rendu) ;
+- les circonstances de l'incident ;
+- votre identité ;
+- les autres personnes impliquées dans l'incident.
 
 ### Exclusion
 
 L'organisation se réserve le droit d'exclure tout·e participant·e quelque soit la raison. Voici quelques directives générales permettant d'estimer si un participant doit être exclu :
 
-* un second incident malgré un premier avertissement de l'organisation ;
-* persister dans le harcèlement malgré une consigne d'arrêt immédiat ;
-* une démonstration évidente de harcèlement, avec ou sans avertissement ;
-* une unique infraction sérieuse (par exemple, violence ou contacts physiques inappropriés) ;
-* une unique infraction intentionnelle (exemple: une photo sous une jupe).
+- un second incident malgré un premier avertissement de l'organisation ;
+- persister dans le harcèlement malgré une consigne d'arrêt immédiat ;
+- une démonstration évidente de harcèlement, avec ou sans avertissement ;
+- une unique infraction sérieuse (par exemple, violence ou contacts physiques inappropriés) ;
+- une unique infraction intentionnelle (exemple: une photo sous une jupe).
 
 Les autorités locales, la salle ou l'hôtel peuvent être contactés en cas de besoin.
 

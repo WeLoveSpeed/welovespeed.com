@@ -1,0 +1,27 @@
+---
+title: Programme
+description: Le programme de l'édition 2019 de We Love Speed
+i18n-key: 2020-interventions
+permalink: /2020/interventions/
+---
+
+{%- assign conferences = site.talks | where: "year", page.year | sort: "display-order" -%}
+{% include speakers.html conferences=conferences locale=page.locale shorturl=true h1=true year=page.year %}
+
+<hr class="wrapper">
+
+{% include conferences.html conferences=conferences locale=page.locale year=page.year %}
+
+{% if site.current_edition == page.year and site.tickets.selling %}
+<section class="section">
+  <div class="wrapper">
+    <p class="text-center">
+        <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+          <span class="button-inner">{% t réserver votre place %}</span>
+        </a>
+    </p>
+  </div>
+</section>
+{% endif %}
+
+{% include banners/banner-grand-theatre.html locale=page.locale %}

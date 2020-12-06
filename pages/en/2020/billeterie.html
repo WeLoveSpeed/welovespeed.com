@@ -1,0 +1,109 @@
+---
+title: Register
+description: "Book your ticket!"
+i18n-key: 2020-register
+permalink: /en/2020/register/
+---
+
+{% if site.tickets.selling %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Purchase a ticket</h2>
+    <a title="Logiciel billetterie en ligne" href="{{ site.weezevent.mini-site-url }}" class="weezevent-widget-integration" target="_blank" data-src="https://www.weezevent.com/widget_billeterie.php?id_evenement=459513&lg_billetterie=1&code=1130&resize=1&width_auto=1&color_primary=cd2f2b" data-width="650" data-height="600" data-id="459513" data-resize="1" data-width_auto="1" data-noscroll="0" data-nopb="0">Buy a ticket on Weezevent</a>
+    <script type="text/javascript" src="https://www.weezevent.com/js/widget/min/widget.min.js"></script>
+  </div>
+</section>
+{% endif %}
+{% if site.tickets.waiting-list %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Waiting list</h2>
+    <p>All tickets available for this edition have been sold. It is possible that new places will become available in the event of withdrawal.</p>
+    <p>Join the waiting list to be notified as soon as a place becomes available.</p>
+    <form method="post" id="waiting-list-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdshv4_du-1vKF7-S_p9NC_xHZIKBg4VYUFT7jkLgtP5VF1Zg/formResponse" enctype="multipart/form-data">
+      <div class="p-like">
+        <label for="wl-email">{% t Votre email %} {% t (obligatoire) %}</label>
+        <input type="email" name="entry.1045781291" id="wl-email" required placeholder="ex : michel@vaillante-f1.fr">
+      </div>
+      <div class="p-like">
+        <label for="wl-name">{% t Votre nom %} {% t (obligatoire) %}</label>
+          <input type="text" name="entry.1612045899" id="wl-name" required placeholder="ex : Michel Vaillant">
+      </div>
+      <div class="p-like">
+        <label for="wl-tel">{% t Votre numéro %} {% t (obligatoire) %}
+        <input type="text" name="entry.972508085" id="wl-tel" required placeholder="ex : +33123456789">
+      </div>
+      <div class="p-like text-center">
+        <button type="submit" class="button" data-text="register on the waiting list">
+          <span class="button-inner">register on the waiting list</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+{% endif %}
+{% if site.tickets.selling %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <div class="grid-2">
+      <section>
+        <h2>Tickets</h2>
+        <p>
+          Tickets are sold <strong>according to availability</strong> and give access to the conference, meals and snacks between 8:30am and 6pm.<br>
+          Transportation and accommodation are <strong>not included</strong>.<br>
+          Need for a <strong>particular fare</strong> due to a particular situation (studies, unemployment, media relations…)? Please, <a href="{{ page.baseurl | default:site.baseurl }}/{{ "contact" | t: page.locale }}/">contact us</a>.
+        </p>
+      </section>
+      <section>
+        <h2>Payment</h2>
+        <p>
+          You can register and pay for your tickets by <strong>credit card</strong>, online.<br>
+          Within three weeks of the event, you can also <strong>book</strong> your tickets <strong>online</strong> and pay within two weeks by <strong>bank transfer</strong>.<br>
+          If you need it, the Weezevent platform will provide you with an <strong>invoice</strong>.<br>
+          All purchases are <strong>firm and final</strong>.
+        </p>
+      </section>
+    </div>
+  </div>
+</section>
+
+  {% if site.infos.diversity_id %}
+  <hr class="wrapper">
+
+  <section class="section">
+    <div class="wrapper">
+      <h2 id="diversity">Diversity Tickets (offered by <a href="https://www.mozilla.org/">Mozilla</a>)</h2>
+
+      <p>If you feel like you are a member of an underrepresented group in tech — this includes, but is not limited to: people of colour, LGBTQIA+ people, women and disabled people — you are eligible for a <a href="https://diversitytickets.org">Diversity Ticket</a>.</p>
+
+      <div class="text-center">
+        <a class="button" target="_blank" href="https://diversitytickets.org/en/events/{{ site.infos.diversity_id }}" data-text="Apply for a ticket">
+          <span class="button-inner">Apply for a ticket</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+{% endif %}
+{% if site.infos.display %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <h2>How to get to Lille?</h2>
+    <section>
+      <p>We have solutions! Follow the tips we've prepared for a trouble-free trip.</p>
+    </section>
+    <p class="text-center">
+      <a class="button" data-text="come to Lille" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">come to Lille</span></a>
+    </p>
+  </div>
+</section>
+{% endif %}
+
+<hr class="wrapper">
+
+{% include banners/banner-cocktail.html locale=page.locale %}

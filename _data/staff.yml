@@ -20,8 +20,8 @@
     slug: ngo
     twitter: Phacks
     links:
-      - label: Theodo
-        url: https://www.theodo.fr/
+      - label: Orbit
+        url: https://orbit.love
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
@@ -29,44 +29,13 @@
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
-  - firstname: Sarah
-    lastname: Salis
-    slug: ss
-    links:
-      - label: Fasterize
-        url: https://www.fasterize.com/
-  - firstname: Antoine
-    lastname: Kahn-Dubois
-    slug: akd
-    links:
-      - label: Linkvalue
-        url: https://link-value.fr/
-  - firstname: Pierre-Marie
-    lastname: Dartus
-    slug: pm
-    twitter: pmdartus
-    links:
-      - label: Salesforce
-        url: https://www.salesforce.com/
-  - firstname: Clément
-    lastname: Elgard
-    slug: ce
-    twitter: ClementElgard
-    links:
-      - label: Quanta
-        url: https://www.quanta.io/
-  - firstname: Olivier
-    lastname: Rundstadler
-    slug: or
-    links:
-      - label: Sogeti
-        url: https://www.fr.sogeti.com/
   - firstname: Audrey
     lastname: Schoonwater
     slug: as
+    twitter: witamine
     links:
-      - label: Clustaar
-        url: https://seo-data.clustaar.com
+      - label: Twitter
+        url: https://twitter.com/witamine
 2019:
   - firstname: Boris
     lastname: Schapira
