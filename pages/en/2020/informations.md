@@ -1,8 +1,8 @@
 ---
 title: Informations
 description: "Practical informations regarding the event"
-i18n-key: 2019-informations
-permalink: /en/2019/informations/
+i18n-key: 2020-informations
+permalink: /en/2020/informations/
 layout: page
 ---
 
@@ -35,10 +35,9 @@ Prices for the train varies between €15 (if you buy tickets early) and €90 f
 
 When you get to Lille’s train station, count 25 minutes (tramway + walking) to get to the CITÉ des Échanges.
 
-
 ### By tramway 🚋 and on foot 🚶‍♂️🚶‍♀️
 
-The closest station to the Cité, in walking distance, is Acacias (Marcq-en-Barœul). From Lille’ train stations (both stations are really close), take the tramway to Eurotéléport / Roubaix, which should take 12-15 minutes. 
+The closest station to the Cité, in walking distance, is Acacias (Marcq-en-Barœul). From Lille’ train stations (both stations are really close), take the tramway to Eurotéléport / Roubaix, which should take 12-15 minutes.
 
 To get the intinerary, you can head to [Ilevia](https://www.ilevia.fr/cms/institutionnel/se-deplacer/#itineraires) or see the [tramway map (PDF)](http://www.ilevia.fr/cms/institutionnel/wp-content/uploads/sites/4/2019/01/tramway.pdf).
 
@@ -63,7 +62,6 @@ La CITÉ des Échanges is accessible by car and is also by the (accessible) Lill
 The facility and the conference rooms are accessible to persons with reduced mobility.
 
 The talks will not be live captioned or signed. If you or your company is able to offer these services, or if you have specific needs and those informations are not sufficient, please [contact us](/contact).
-
 
 ## Food 🥘
 

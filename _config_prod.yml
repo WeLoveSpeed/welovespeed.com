@@ -25,12 +25,12 @@ sponsoring:
   # fr_FR: '/assets/docs/2019/sponsoring_fr.pdf'
   # en_US: '/assets/docs/2019/sponsoring_en.pdf'
 tickets:
-  selling: false
-  diversity_id: 437
-  weezevent: false
-  coupons-only: true
+  selling: true
+  # diversity_id: 437
+  weezevent: true
+  coupons-only: false
   waiting-list: false
-  price: "179"
+  price: "0+"
   price_currency: "EUR"
 
 # Compression du code HTML en production
@@ -46,7 +46,7 @@ robots: index,follow
 # Services configuration
 
 weezevent:
-    mini-site-url: https://www.weezevent.com/welovespeed-2019
+    mini-site-url: https://www.weezevent.com/welovespeed-2020
 
 newsletter:
   url: "https://welovespeed.us18.list-manage.com/subscribe/post?u=871757160e8496642288193e3&amp;id=1695ce944b"

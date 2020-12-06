@@ -1,8 +1,8 @@
 ---
 title: Infos pratiques
 description: "Toutes les infos à propos de l'événement"
-i18n-key: 2019-informations
-permalink: /2019/infos-pratiques/
+i18n-key: 2020-informations
+permalink: /2020/infos-pratiques/
 layout: page
 ---
 
@@ -29,7 +29,7 @@ LA CITÉ des Échanges<br />
 ### En train 🚄
 
 Depuis **Paris**, matin ou soir, dans les deux directions, il y a un [TGV Paris-Lille](https://www.trainline.fr/search/paris/lille/2019-09-20-06:00/2019-09-20-18:00) toutes les 30 minutes. Nous vous conseillons ceux de 7H16 pour arriver sans stress ni attente au petit déjeuner, OU celui de 7H46 pour arriver juste avant la première présentation.
-Le prix oscille entre 15 € si vous vous y prenez très tôt et 90 € à la dernière minute. 
+Le prix oscille entre 15 € si vous vous y prenez très tôt et 90 € à la dernière minute.
 
 Comptez ensuite 25 minutes (tramway et marche) pour rejoindre la Cité des Échanges.
 
