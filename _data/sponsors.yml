@@ -422,3 +422,6 @@
     # - name: BrainCracking
     #   logo: /assets/images/thanks/braincracking.svg
     #   url: http://braincracking.org/
+    - name: Contentsquare
+      logo: /assets/images/thanks/contentsquare.svg
+      url: https://contentsquare.com/

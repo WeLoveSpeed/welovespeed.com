@@ -1,10 +1,15 @@
-[class*=' grid-'],
-[class^='grid-'] {
+[class*=" grid-"],
+[class^="grid-"] {
   --grid-item-min-width: 1fr;
 
   display: grid;
-  grid-template-columns: repeat( auto-fill, minmax( var(--grid-item-min-width), 1fr ) );
-  grid-gap: $global-gutters $global-gutters; justify-items: stretch; align-items: stretch;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--grid-item-min-width), 1fr)
+  );
+  grid-gap: $global-gutters $global-gutters;
+  justify-items: stretch;
+  align-items: stretch;
 
   & > * {
     min-width: 0;
@@ -12,10 +17,9 @@
 }
 
 @for $i from 1 through 10 {
-
   $x: ($wrapper-max-width / $i) - $global-gutters;
 
-  @include media('>#{$x}') {
+  @include media(">#{$x}") {
     .grid-#{$i} {
       --grid-item-min-width: #{$x};
     }
@@ -27,7 +31,13 @@
 }
 
 .grid-other-sponsors {
-    @include media('<large') {
+  @include media("<large") {
     --grid-item-min-width: 15rem;
+  }
+
+  @include media(">=large") {
+    .unique-thank {
+      grid-column: 2;
     }
+  }
 }
