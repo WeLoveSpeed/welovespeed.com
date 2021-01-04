@@ -16,7 +16,7 @@
     <h3 class="text-center">{% t Nos autres sponsors %}</h3>
     <div class="grid-3 text-center grid-other-sponsors">
       {% for sponsor in site.data.sponsors[include.year].others %}
-        <figure class="company-logo-big">
+        <figure class="company-logo-big{% if site.data.sponsors[include.year].others.size < 2 %} unique-thank{% endif %}">
           <a title="{{ "En savoir plus sur %s" | t: include.locale | replace:"%s",sponsor.name }}" href="{{ sponsor.url }}" rel="sponsored"><img src="{{ sponsor.logo }}" alt="{{sponsor.name}}" loading="lazy" /></a>
         </figure>
       {%- endfor -%}
