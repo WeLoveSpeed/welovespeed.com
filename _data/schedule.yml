@@ -248,28 +248,28 @@
       fr_FR: Pause
       en_US: Break
   - type: talks
-    hour: "15:15"
+    hour: "15:15
     values:
-      - designer_cas_oublies
+      - concrete_utopia
   - type: short
-    hour: "15:45"
+    hour: "15:35"
     values:
-      fr_FR: Questions/réponses avec Stéphanie
-      en_US: Q&A with Stéphanie
+      fr_FR: Questions/réponses avec Boris
+      en_US: Q&A with Boris
   - type: pause
-    hour: "15:55"
+    hour: "15:45"
     values:
       fr_FR: Pause
       en_US: Break
   - type: talks
-    hour: "16:00"
+    hour: "15:50"
     values:
-      - concrete_utopia
+      - designer_cas_oublies
   - type: short
     hour: "16:20"
     values:
-      fr_FR: Questions/réponses avec Boris
-      en_US: Q&A with Boris
+      fr_FR: Questions/réponses avec Stéphanie
+      en_US: Q&A with Stéphanie
   - type: pause
     hour: "16:30"
     values:
