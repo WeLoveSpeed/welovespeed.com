@@ -215,26 +215,216 @@
       - fr_FR: Track unique
         en_US: Single track
   - type: pause
-    hour: "09:00"
+    hour: "13:45"
     values:
-      fr_FR: Accueil des participant·e·s
-      en_US: Attendees' welcome
+      fr_FR: Introduction
+      en_US: Kickoff
   - type: short
-    hour: "09:25"
+    hour: "13:55"
     values:
-      fr_FR: Ouverture des conférences
-      en_US: Conference Opening
+      fr_FR: Conférence, en français
+      en_US: Talk, in French
+  - type: talks
+    hour: ""
+    values:
+      - humains_mesurer_performance
+  - type: short
+    hour: "14:25"
+    values:
+      fr_FR: Questions/réponses avec Gilles
+      en_US: Q&A with Gilles
+  - type: pause
+    hour: "14:35"
+    values:
+      fr_FR: Pause
+      en_US: Break
+  - type: short
+    hour: "14:40"
+    values:
+      fr_FR: Conférence, en français
+      en_US: Talk, in French
+  - type: talks
+    hour: ""
+    values:
+      - cdn_performance_cover_the_fonts
+  - type: short
+    hour: "15:00"
+    values:
+      fr_FR: Questions/réponses avec Matthias
+      en_US: Q&A with Matthias
+  - type: pause
+    hour: "15:10"
+    values:
+      fr_FR: Pause
+      en_US: Break
+  - type: short
+    hour: "15:15"
+    values:
+      fr_FR: Conférence, en français
+      en_US: Talk, in French
+  - type: talks
+    hour: ""
+    values:
+      - designer_cas_oublies
+  - type: short
+    hour: "15:45"
+    values:
+      fr_FR: Questions/réponses avec Stéphanie
+      en_US: Q&A with Stéphanie
+  - type: pause
+    hour: "15:55"
+    values:
+      fr_FR: Pause
+      en_US: Break
+  - type: short
+    hour: "16:00"
+    values:
+      fr_FR: Conférence, en français
+      en_US: Talk, in French
+  - type: talks
+    hour: ""
+    values:
+      - concrete_utopia
+  - type: short
+    hour: "16:20"
+    values:
+      fr_FR: Questions/réponses avec Boris
+      en_US: Q&A with Boris
+  - type: pause
+    hour: "16:30"
+    values:
+      fr_FR: Pause
+      en_US: Break
+  - type: short
+    hour: "16:35"
+    values:
+      fr_FR: Conférence, en français
+      en_US: Talk, in French
+  - type: talks
+    hour: ""
+    values:
+      - cls
+  - type: short
+    hour: "17:05"
+    values:
+      fr_FR: Questions/réponses avec Myriam
+      en_US: Q&A with Myriam
+  - type: pause
+    hour: "17:15"
+    values:
+      fr_FR: Pause
+      en_US: Break
+  - type: short
+    hour: "17:20"
+    values:
+      fr_FR: Conférence, en anglais
+      en_US: Talk, in English
   - type: talks
     hour: ""
     values:
       - pwa
+  - type: short
+    hour: "17:50"
+    values:
+      fr_FR: Questions/réponses avec Marta
+      en_US: Q&A with Marta
   - type: pause
+    hour: "18:00"
+    values:
+      fr_FR: Pause
+      en_US: Break
+  - type: short
     hour: "18:05"
     values:
-      fr_FR: Clôture de We Love Speed 2019
-      en_US: We Love Speed 2019 Ending
-  - type: short
-    hour: "18:20"
+      fr_FR: Conférence, en anglais
+      en_US: Talk, in English
+  - type: talks
+    hour: ""
     values:
-      fr_FR: C'est fini !
-      en_US: That's all folks!
+      - moving_pictures
+  - type: short
+    hour: "18:35"
+    values:
+      fr_FR: Questions/réponses avec Henri
+      en_US: Q&A with Henri
+  - type: pause
+    hour: "18:45"
+    values:
+      fr_FR: Pause
+      en_US: Break
+  - type: short
+    hour: "18:50"
+    values:
+      fr_FR: Conférence, en anglais
+      en_US: Talk, in English
+  - type: talks
+    hour: ""
+    values:
+      - humains_mesurer_performance
+  - type: short
+    hour: "19:10"
+    values:
+      fr_FR: Questions/réponses avec Gilles
+      en_US: Q&A with Gilles
+  - type: pause
+    hour: "19:20"
+    values:
+      fr_FR: Pause
+      en_US: Break
+  - type: short
+    hour: "19:25"
+    values:
+      fr_FR: Conférence, en anglais
+      en_US: Talk, in English
+  - type: talks
+    hour: ""
+    values:
+      - cls
+  - type: short
+    hour: "19:55"
+    values:
+      fr_FR: Questions/réponses avec Myriam
+      en_US: Q&A with Myriam
+  - type: pause
+    hour: "20:05"
+    values:
+      fr_FR: Pause
+      en_US: Break
+  - type: short
+    hour: "20:10"
+    values:
+      fr_FR: Conférence, en anglais
+      en_US: Talk, in English
+  - type: talks
+    hour: ""
+    values:
+      - cdn_performance_cover_the_fonts
+  - type: short
+    hour: "20:30"
+    values:
+      fr_FR: Questions/réponses avec Matthias
+      en_US: Q&A with Matthias
+  - type: pause
+    hour: "20:40"
+    values:
+      fr_FR: Pause
+      en_US: Break
+  - type: short
+    hour: "20:45"
+    values:
+      fr_FR: Conférence, en anglais
+      en_US: Talk, in English
+  - type: talks
+    hour: ""
+    values:
+      - concrete_utopia
+  - type: short
+    hour: "21:05"
+    values:
+      fr_FR: Questions/réponses avec Boris
+      en_US: Q&A with Boris
+  - type: pause
+    hour: "21:15"
+    values:
+      fr_FR: Conclusion
+      en_US: Conclusion
