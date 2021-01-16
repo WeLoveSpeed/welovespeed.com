@@ -248,7 +248,7 @@
       fr_FR: Pause
       en_US: Break
   - type: talks
-    hour: "15:15
+    hour: "15:15"
     values:
       - concrete_utopia
   - type: short
