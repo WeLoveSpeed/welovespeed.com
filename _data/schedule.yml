@@ -219,13 +219,8 @@
     values:
       fr_FR: Introduction
       en_US: Kickoff
-  - type: short
-    hour: "13:55"
-    values:
-      fr_FR: Conférence, en français
-      en_US: Talk, in French
   - type: talks
-    hour: ""
+    hour: "13:55"
     values:
       - humains_mesurer_performance
   - type: short
@@ -238,13 +233,8 @@
     values:
       fr_FR: Pause
       en_US: Break
-  - type: short
-    hour: "14:40"
-    values:
-      fr_FR: Conférence, en français
-      en_US: Talk, in French
   - type: talks
-    hour: ""
+    hour: "14:40"
     values:
       - cdn_performance_cover_the_fonts
   - type: short
@@ -257,13 +247,8 @@
     values:
       fr_FR: Pause
       en_US: Break
-  - type: short
-    hour: "15:15"
-    values:
-      fr_FR: Conférence, en français
-      en_US: Talk, in French
   - type: talks
-    hour: ""
+    hour: "15:15"
     values:
       - designer_cas_oublies
   - type: short
@@ -276,13 +261,8 @@
     values:
       fr_FR: Pause
       en_US: Break
-  - type: short
-    hour: "16:00"
-    values:
-      fr_FR: Conférence, en français
-      en_US: Talk, in French
   - type: talks
-    hour: ""
+    hour: "16:00"
     values:
       - concrete_utopia
   - type: short
@@ -295,13 +275,8 @@
     values:
       fr_FR: Pause
       en_US: Break
-  - type: short
-    hour: "16:35"
-    values:
-      fr_FR: Conférence, en français
-      en_US: Talk, in French
   - type: talks
-    hour: ""
+    hour: "16:35"
     values:
       - cls
   - type: short
@@ -314,13 +289,8 @@
     values:
       fr_FR: Pause
       en_US: Break
-  - type: short
-    hour: "17:20"
-    values:
-      fr_FR: Conférence, en anglais
-      en_US: Talk, in English
   - type: talks
-    hour: ""
+    hour: "17:20"
     values:
       - pwa
   - type: short
@@ -333,13 +303,8 @@
     values:
       fr_FR: Pause
       en_US: Break
-  - type: short
-    hour: "18:05"
-    values:
-      fr_FR: Conférence, en anglais
-      en_US: Talk, in English
   - type: talks
-    hour: ""
+    hour: "18:05"
     values:
       - moving_pictures
   - type: short
@@ -352,13 +317,9 @@
     values:
       fr_FR: Pause
       en_US: Break
-  - type: short
-    hour: "18:50"
-    values:
-      fr_FR: Conférence, en anglais
-      en_US: Talk, in English
   - type: talks
-    hour: ""
+    hour: "18:50"
+    locale: en_US
     values:
       - humains_mesurer_performance
   - type: short
@@ -371,13 +332,9 @@
     values:
       fr_FR: Pause
       en_US: Break
-  - type: short
-    hour: "19:25"
-    values:
-      fr_FR: Conférence, en anglais
-      en_US: Talk, in English
   - type: talks
-    hour: ""
+    hour: "19:25"
+    locale: en_US
     values:
       - cls
   - type: short
@@ -390,13 +347,9 @@
     values:
       fr_FR: Pause
       en_US: Break
-  - type: short
-    hour: "20:10"
-    values:
-      fr_FR: Conférence, en anglais
-      en_US: Talk, in English
   - type: talks
-    hour: ""
+    hour: "20:10"
+    locale: en_US
     values:
       - cdn_performance_cover_the_fonts
   - type: short
@@ -409,13 +362,9 @@
     values:
       fr_FR: Pause
       en_US: Break
-  - type: short
-    hour: "20:45"
-    values:
-      fr_FR: Conférence, en anglais
-      en_US: Talk, in English
   - type: talks
-    hour: ""
+    hour: "20:45"
+    locale: en_US
     values:
       - concrete_utopia
   - type: short

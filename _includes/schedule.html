@@ -37,6 +37,7 @@
                       {% if item.slug == value %}
                           {% assign talk = item %}
                           {% assign rowspan = value.span | default: 1 %}
+                          {% assign locale = line.locale | default: talk.locale %}
                       {% endif %}
                   {%- endfor -%}
                   {% capture talkUrl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}#{{ talk.slug }}{% endcapture %}
@@ -52,7 +53,7 @@
                         <div class="talk-summary">
                           <h2>{{ talk[include.locale].title }}</h2>
                           <p class="talk-authors">
-                            {% unless talk.locale == include.locale %}<strong>{{ " en anglais" | t: page.locale }}</strong>{% endunless %}
+                            {% unless locale == include.locale %}<strong>{{ " en anglais" | t: page.locale }}</strong>{% endunless %}
                             {%- for speakerSlug in talk.speakers -%}
                               {% assign speaker = site.data.speakers[include.year][speakerSlug] %}
                               {% if forloop.first %} {%t par %} {{ speaker.name }}{% else %}{{ speaker.name }}{% endif %}{%- unless forloop.last -%}, {%- endunless -%}
@@ -61,7 +62,7 @@
                         </div>
                       </header>
                       <section class="talk-excerpt">
-                        <p>{{ talk[include.locale].description | truncatewords: 20 }}</p>
+                        <p>{{ talk[include.locale].description | truncatewords: 40 }}</p>
                       </section>
                     </a>
                   </td>
