@@ -412,16 +412,17 @@
         cta:
           text: "En savoir plus"
           url: http://braincracking.org/
-        description: # TODO: Description Akamai
+        description: >-
+          Avec 10 ans d’expérience en audits Webperf indépendants et en formation d’équipes de développeurs, Jean-Pierre Vincent vous aide à démarrer vos projets webperf ou vous accompagne.
       en_US:
         cta:
           text: "Learn More"
           url: http://braincracking.org/
         description: # TODO: Description Akamai
   others:
-    # - name: BrainCracking
-    #   logo: /assets/images/thanks/braincracking.svg
-    #   url: http://braincracking.org/
     - name: Contentsquare
       logo: /assets/images/thanks/contentsquare.svg
       url: https://contentsquare.com/
+    - name: JDN
+      logo: /assets/images/thanks/jdn.png
+      url: https://www.journaldunet.com/
