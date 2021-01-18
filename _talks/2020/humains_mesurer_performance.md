@@ -6,7 +6,7 @@ pub_date: "2020-12-05"
 speakers:
   - gilles
 fr_FR:
-  title: '<span lang="en">Des humains peuvent (aussi) mesurer votre performance</span>'
+  title: '<span lang="fr">Des humains peuvent (aussi) mesurer votre performance</span>'
   description: >-
     La communauté webperf a tendance à se concentrer sur les mesures automatiques. Qu'elles proviennent de test synthétiques, de rapports publiés par les marques de navigateurs, d'outils qui les collectent directement sur les navigateurs qui se connectent à votre site, toutes ces mesures sont effectuées par des machines.
     Or, le but d'améliorer la performance n'est-il pas d'améliorer l'expérience web pour les humains qui s'en servent? Pourquoi ne pas leur demander directement ce qu'ils pensent de notre performance?
@@ -14,7 +14,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: '<span lang="fr">Humans can (also) measure your performance</span>'
+  title: '<span lang="en">Humans can (also) measure your performance</span>'
   description: >-
     The webperf community has a tendency to focus on automated measurements. Whether they come from synthetic tests, reports published by browser vendors or field browser data, all these measurements are made by machines. Yet, isn't the goal of performance improvements to improve the web experience for humans browsing the web? Why don't we ask humans directly what they think of our performance? This is what we've been doing at Wikipedia since 2018 and in this talk we will look at how we did it and what it has allowed us to discover about Wikipedia's performance.
     
