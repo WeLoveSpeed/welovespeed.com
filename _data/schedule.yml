@@ -210,10 +210,6 @@
       fr_FR: C'est fini !
       en_US: That's all folks!
 2020:
-  - type: headers
-    values:
-      - fr_FR: Track unique
-        en_US: Single track
   - type: pause
     hour: "13:45"
     values:
