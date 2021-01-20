@@ -21,8 +21,11 @@ permalink: /2020/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="{% t voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="{% t voir le programme %}">
-        <span class="button-inner">{% t voir le programme %}</span>
+      <a class="button" data-text="{% t Voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t voir le programme %}">
+        <span class="button-inner">{% t Voir le programme %}</span>
+      </a>
+      <a class="button" data-text="{% t Intervenant‧e‧s %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="{% t Intervenant‧e‧s %}">
+        <span class="button-inner">{% t Intervenant‧e‧s %}</span>
       </a>
       {% if site.current_edition == page.year and site.cfp_open %}
       <a class="button" data-text="{% t appel à propositions %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/cfp" title="{% t Appel à propositions %}">
@@ -30,8 +33,8 @@ permalink: /2020/
       </a>
       {% endif %}
       {% if site.current_edition == page.year and site.tickets.selling %}
-      <a class="button" data-text="{% t réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
-        <span class="button-inner">{% t réserver votre place %}</span>
+      <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t réserver votre place %}">
+        <span class="button-inner">{% t Réserver votre place %}</span>
       </a>
       {% if site.infos.display %}
       <br/>
