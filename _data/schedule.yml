@@ -366,7 +366,7 @@
   - type: short
     hour: "21:05"
     values:
-      fr_FR: Questions/réponses avec Boris
+      fr_FR: Questions/réponses avec  Boris
       en_US: Q&A with Boris
   - type: pause
     hour: "21:15"
