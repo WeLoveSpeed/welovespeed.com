@@ -9,7 +9,7 @@
   );
   grid-gap: $global-gutters $global-gutters;
   justify-items: stretch;
-  align-items: stretch;
+  align-items: center;
 
   & > * {
     min-width: 0;
