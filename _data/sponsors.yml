@@ -429,3 +429,6 @@
     - name: SEOCamp
       logo: /assets/images/thanks/seo-camp.png
       url: http://www.seo-camp.org/
+    - name: Cdiscount
+      logo: /assets/images/thanks/cdiscount.svg
+      url: https://www.cdiscount.com/
