@@ -18,7 +18,7 @@ fr_FR:
 
     Repartons de ce que Google Fonts fait correctement (fournir des polices) et tâchons de comprendre toutes les petites optimisations qui permettront de vraiment booster votre front ! Une enquête pas à pas, consacrée à la dernière délaissée de la performance Web : la typographie.
   slides: https://talks.m4dz.net/fonts-perf/en/
-  video: ~
+  video: https://youtu.be/QHpdk-o68JE
 en_US:
   title: 'CDN and Performances: Cover the Fonts'
   description: >-
@@ -32,5 +32,5 @@ en_US:
 
     Let's start from what Google Fonts does right (aka providing fonts) and let's try to understand all the little tricks that will really boost your frontend! A step-by-step investigation, dedicated to the latest neglected area of Web performance: typography.
   slides: https://talks.m4dz.net/fonts-perf/en/
-  video: ~
+  video: https://youtu.be/t2n2z5UmFyo
 ---
