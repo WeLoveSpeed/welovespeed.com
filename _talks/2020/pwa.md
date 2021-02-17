@@ -16,7 +16,7 @@ fr_FR:
     - the most common issues and fixes based on PWAs’ performance tests,
     - how to keep a progressive style? Tips and tricks for your CSS and assets.
   slides: ~
-  video: ~
+  video: https://youtu.be/S62FdEMYtxg
 en_US:
   title: "Supercharge the speed of your app with these PWAs' secrets!"
   description: >-
@@ -28,5 +28,5 @@ en_US:
     - the most common issues and fixes ba~ed on PWAs’ performance tests,
     - how to keep a progressive style? Tips and tricks for your CSS and assets.
   slides: ~
-  video: ~
+  video: https://youtu.be/S62FdEMYtxg
 ---
