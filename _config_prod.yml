@@ -24,9 +24,9 @@ sponsoring:
   fr_FR: '/assets/docs/2020/sponsoring_fr.pdf'
   en_US: '/assets/docs/2020/sponsoring_fr.pdf'
 tickets:
-  selling: true
+  selling: false
   # diversity_id: 437
-  weezevent: true
+  weezevent: false
   coupons-only: false
   waiting-list: false
   price: "0+"
