@@ -1,11 +1,19 @@
+2021:
+  com_city: "Lyon"
+  tagline:
+    fr_FR: "automne 2021, Lyon"
+    en_US: "Autumn 2021, Lyon, France"
+  pictures:
+    title: Flickr
+    url: https://www.flickr.com/photos/165201814@N05
 2020:
-  com_city: "Internet"
+  com_city: "en ligne"
   tagline:
     fr_FR: "28/01/2021, en ligne"
     en_US: "01/28/2021, virtual"
   pictures:
     title: Flickr
-    url: https://www.flickr.com/groups/14626865@N24/
+    url: https://www.flickr.com/photos/165201814@N05
 2019:
   com_city: "Lille"
   tagline:

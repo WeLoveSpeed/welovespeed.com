@@ -1,8 +1,8 @@
 # Permanent
-/sponsors/ /2019/merci/ 302
-/merci/ /2019/merci/ 302
-/en/sponsors/ /en/2019/thanks/ 302
-/en/thanks/ /en/2019/thanks/ 302
+/sponsors/ /2021/merci/ 302
+/merci/ /2021/merci/ 302
+/en/sponsors/ /en/2021/thanks/ 302
+/en/thanks/ /en/2021/thanks/ 302
 /slack https://join.slack.com/t/welovespeed/shared_invite/zt-5l09qo37-lNRBmfud5YTQL8EytnMyrw 302
 
 # Temporary
@@ -12,9 +12,7 @@
 # Redirect to 2020
 
 /en/ /en/2020 302
-/ /2020 302
+/ /2021 302
 
-/code-de-conduite/ /2020/code-de-conduite/ 302
-/code-of-conduct/ /en/2020/code-of-conduct/ 302
-
-/en/2020/line-up/ /en/2020/speakers/ 301
+/code-de-conduite/ /2021/code-de-conduite/ 302
+/code-of-conduct/ /en/2021/code-of-conduct/ 302

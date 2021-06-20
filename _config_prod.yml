@@ -19,10 +19,10 @@ logo: https://welovespeed.com/assets/images/social/logo.jpg
 lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
-current_edition: 2020
-sponsoring:
-  fr_FR: '/assets/docs/2020/sponsoring_fr.pdf'
-  en_US: '/assets/docs/2020/sponsoring_fr.pdf'
+current_edition: 2021
+# sponsoring:
+#  fr_FR: '/assets/docs/2020/sponsoring_fr.pdf'
+#  en_US: '/assets/docs/2020/sponsoring_fr.pdf'
 tickets:
   selling: false
   # diversity_id: 437
@@ -151,6 +151,16 @@ defaults:
       year: 2020
   -
     scope:
+      path: "pages/en/2021"
+    values:
+      year: 2021
+  -
+    scope:
+      path: "pages/fr/2021"
+    values:
+      year: 2021
+  -
+    scope:
       path: "_talks/2018"
     values:
       year: 2018
@@ -164,7 +174,11 @@ defaults:
       path: "_talks/2020"
     values:
       year: 2020
-
+  -
+    scope:
+      path: "_talks/2021"
+    values:
+      year: 2021
 microtypo:
   median: true
 

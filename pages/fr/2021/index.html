@@ -1,24 +1,24 @@
 ---
-title: Home
+title: Accueil
 description: >-
-  A day of conferences dedicated to web performance. Metrics, UX, code and image optimizations. Come and meet the experts!
-i18n-key: 2020-home
-permalink: /en/2020/
+  Une journée de conférences dédiées à la performance web. Métriques, UX, optimisations du code et des images. Venez rencontrer les experts !
+i18n-key: 2021-home
+permalink: /2021/
 ---
 {% assign year = page.year | default: site.current_edition %}
 <header class="home-header">
   <div class="wrapper">
     <h1 class="home-main-title">
-      <img src="/assets/svg/wls-inline-lazy-loaded.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
+      <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
       <div class="home-main-title-baseline">
-        {{ site.data.editions[page.year].tagline[page.locale] }}<br/>
-        <small>{% t L’événement français des mordus de web performance ! %}</small>
+        {{ site.data.editions[page.year].tagline[page.locale] }}<br>
+        <small>L’événement français des mordus de web performance reviendra à l'automne 2021, à Lyon !</small>
       </div>
     </h1>
   </div>
 </header>
 
-<section class="section">
+{% comment %} <section class="section">
   <div class="wrapper">
     <p class="text-center">
       <a class="button" data-text="{% t Voir sur YouTube %}" href="https://youtu.be/6aupyVi_QMU" title="{% t voir sur youtube %}">
@@ -59,36 +59,39 @@ permalink: /en/2020/
     </p>
   </div>
 </section>
+{% endcomment %}
 
+{% comment %}
 {%- assign conferences = site.talks | where: "year", page.year | sort: "display-order" -%}
 {% assign nbconf = conferences | size %}
 {% if nbconf > 0 %}
   <hr class="wrapper">
   {% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}
 {% endif %}
+{% endcomment %}
 
   <hr class="wrapper">
 
   <section class="section">
     <div class="wrapper">
-      <h2 class="text-center">Stay in the loop!</h2>
+      <h2 class="text-center">Ne ratez rien !</h2>
       <p>
-        Subscribe our newsletter to receive information about the event.
+        Abonnez-vous à notre liste d'envoi pour recevoir des informations sur l'événement par courriel.
       </p>
       {% include newsletter-form.html context="main" %}
     </div>
   </section>
 
-{% include banners/banner-corbusier.html locale=page.locale %}
+{% include banners/banner-lyon-restaurants.html locale=page.locale %}
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="text-center">The only French event dedicated to chasing waterfalls!</h2>
-    <p>Created in 2018 by and for the webperf community, the "{{ site.title }}" not-for-profit conference is born from the desire to share as widely as possible knowledge and experience about webperf. Web professionals, e-commerce and webperf experts, this event is for you!</p>
-    <p>Decision makers, developers... let's meet for a day, and maybe a few evenings, in one of the most beautiful cities in France, to discuss web performance: its challenges, its implementation, its stakeholders but also the organization of the companies that implement it.</p>
+    <h2 class="text-center">Le seul événement français dédié aux amateurs et amatrices de cascades&nbsp;!</h2>
+    <p>Créé en 2018 par et pour la communauté, la conférence à but non-lucratif {{ site.title }} est née de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnel·les du web, de l’e-commerce et expert·es de la webperf, cet événement est fait pour vous&nbsp;!</p>
+    <p>Décideur·euses, développeur·euses… retrouvons-nous pour une journée, et peut-être quelques soirées, dans une des plus belles villes de France, afin d'échanger sur la WebPerf : ses enjeux, son implémentation, ses acteur·trices mais aussi l'organisation des entreprises qui l'implémentent.</p>
     <p class="text-center">
-      <a class="button" data-text="{% t voir les vidéos de l'année dernière %}" href="https://www.youtube.com/watch?v=Fq8WzcCc1CA&list=PLqQ-opbi5cUPEK7C9Jx-15xfKmipBNGw3" title="{% t voir les vidéos de l'année dernière %}">
-        <span class="button-inner">{% t voir les vidéos de l'année dernière %}</span>
+      <a class="button" data-text="{% t voir les interventions de l'année dernière %}" href="/2020/interventions/" title="{% t voir les interventions de l'année dernière %}">
+        <span class="button-inner">{% t voir les interventions de l'année dernière %}</span>
       </a>
     </p>
   </div>
@@ -98,19 +101,19 @@ permalink: /en/2020/
 
 <section class="section" id="conferences">
   <div class="wrapper">
-    <h2 class="text-center">Our Gold sponsors</h2>
-    <p>E-merchants, solution providers, service providers, they have chosen to support us for the love of UX and Web performance. Without them, there would be no event. Thank you very much!</p>
+    <h2 class="text-center">Nos sponsors Gold</h2>
+    <p>E-commerçants, éditeurs de solutions, prestataires de services, ils ont choisi de nous soutenir par amour de l'UX et de la performance Web. Sans eux, point d'événement. Merci beaucoup !</p>
   </div>
 </section>
 
 {% include sponsors.html locale=page.locale shorturl=false year=year %}
 
-<section id="sponsors" class="section">
+{% comment %}<section id="sponsors" class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="download our sponsorship kit (1.4&nbsp;MB)" href="{{ site.sponsoring[page.locale] | relative_url }}"><span class="button-inner">download our sponsorship kit (1.4&nbsp;MB)</span></a>
+      <a class="button" data-text="télécharger notre dossier sponsor (1.2&nbsp;Mo)" href="{{ site.sponsoring[page.locale] | relative_url }}"><span class="button-inner">télécharger notre dossier sponsor (1.2&nbsp;Mo)</span></a>
     </p>
   </div>
-</section>
+</section>{% endcomment %}
 
 {% include banners/banner-cocktail.html locale=page.locale %}
