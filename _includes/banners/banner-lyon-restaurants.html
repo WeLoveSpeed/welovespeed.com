@@ -1,0 +1,16 @@
+{% if include.page_top %}
+  {% assign slug = "banner-lyon-restaurants page-top" %}
+{% else %}
+  {% assign slug = "banner-lyon-restaurants" %}
+{% endif %}
+{% include banners/_generic.html
+  slug=slug
+  locale=include.locale
+  source_title="Lyon Restaurants"
+  source_url="https://flic.kr/p/27nXs7c"
+  source_author="Pedro Szekely"
+  source_rights_url="https://creativecommons.org/licenses/by/2.0/"
+  source_rights_title="Licence Creative Commons"
+  source_rights_shortname="CC BY 2.0"
+  no_lazy=include.no_lazy
+%}
