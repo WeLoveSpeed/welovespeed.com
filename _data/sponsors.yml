@@ -418,7 +418,8 @@
         cta:
           text: "Learn More"
           url: http://braincracking.org/
-        description: # TODO: Description Akamai
+        description: >-
+          With 10 years of experience in independent webperf audits and in training teams of developers, Jean-Pierre Vincent helps you start your webperf projects or accompanies you along the way.
   others:
     - name: Contentsquare
       logo: /assets/images/thanks/contentsquare.svg
@@ -462,5 +463,6 @@
         cta:
           text: "Learn More"
           url: http://braincracking.org/
-        description: # TODO: Description Akamai
+        description: >-
+          With 10 years of experience in independent webperf audits and in training teams of developers, Jean-Pierre Vincent helps you start your webperf projects or accompanies you along the way.
   others: ~
