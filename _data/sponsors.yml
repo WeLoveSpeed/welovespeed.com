@@ -440,10 +440,10 @@
       logo: /assets/images/thanks/fasterize-hiring.svg
       fr_FR:
         cta:
-          text: "Accélérez votre site web"
-          url: https://www.fasterize.com/
+          text: "Nous recrutons !"
+          url: https://www.welcometothejungle.com/fr/companies/fasterize/jobs
         description: >-
-          Fasterize est une solution SaaS qui accélère automatiquement le chargement des sites web. Le moteur d’optimisation de Fasterize agit en temps réel (tel un proxy) sur les performances brutes des pages, mais aussi sur la perception de vitesse des utilisateurs. Rapide à mettre en place
+          Fasterize est une solution SaaS qui accélère automatiquement le chargement des sites web. Notre moteur d’optimisation, rapide à mettre en place, agit en temps réel (tel un proxy) sur les performances brutes des pages, mais aussi sur la perception de vitesse des utilisateurs.
       en_US:
         cta:
           text: "Fasterize your website"
