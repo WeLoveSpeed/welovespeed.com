@@ -465,4 +465,19 @@
           url: http://braincracking.org/
         description: >-
           With 10 years of experience in independent webperf audits and in training teams of developers, Jean-Pierre Vincent helps you start your webperf projects or accompanies you along the way.
+    - name: Google
+      slug: google
+      logo: /assets/images/thanks/google.svg
+      fr_FR:
+        cta:
+          text: "En savoir plus sur les Core Web Vitals"
+          url: https://web.dev/learn-web-vitals/
+        description: >-
+          En terme d'expérience utilisateur, la vitesse est cruciale. Chaque seconde compte, la lenteur n'est pas seulement frustrante, elle a un impact négatif sur les performances commerciales. Téléchargez notre nouveau PlayBook Mobile Speed pour comprendre pourquoi la vitesse est importante, comment la mesurer, comment accélérer votre site et maintenir vos performances !
+      en_US:
+        cta:
+          text: "Learn more about Core Web Vitals"
+          url: https://web.dev/learn-web-vitals/
+        description: >-
+          When it comes to user experience, speed matters. And delays caused by mobile speed aren’t just frustrating, they can also have a negative impact on business results. Download our new Mobile Site Speed Playbook to explore why speed matters, what it is and how to measure it, and then how to go about speeding up and staying fast.
   others: ~
