@@ -1,3 +1,32 @@
+2021:
+  - firstname: Émilie
+    lastname: Wilhelm
+    slug: emilie
+    twitter: EmilieWilhelm
+    links:
+      - label: Fasterize
+        url: https://www.fasterize.com/
+  - firstname: Jean-Pierre
+    lastname: Vincent
+    slug: jp
+    twitter: theystolemynick
+    links:
+      - label: BrainCracking
+        url: http://braincracking.org/
+  - firstname: Stéphane
+    lastname: Rios
+    slug: stephane
+    twitter: stefounet
+    links:
+      - label: Fasterize
+        url: https://www.fasterize.com/
+  - firstname: Boris
+    lastname: Schapira
+    slug: bsc
+    twitter: boostmarks
+    links:
+      - label: Contentsquare
+        url: https://www.contentsquare.com/
 2020:
   - firstname: Émilie
     lastname: Wilhelm
