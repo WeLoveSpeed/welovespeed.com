@@ -16,7 +16,9 @@ Afin de clarifier nos attentes, tous les représentant·es/participant·es, conf
 
 ## Version courte
 
-Les événements **{{ site.title }}** se veulent une expérience agréable et conviviale, ouverts à tou·te·s quel que soit le genre, l'orientation sexuelle, le handicap, l'apparence physique, le poids, l'origine ou la religion des participant·es. Nous ne tolérons donc aucun harcèlement ou attaque, sous aucune forme. Les expressions et les images à connotation sexuelle ne sont pas appropriées lors de l'événement. Ceci inclut les conférences, les ateliers, les soirées, Twitter et les autres médias en ligne. Les participant·es qui enfreignent ces règles peuvent être sanctionné·es, voire exclu·es de l'événement sans remboursement, à la discrétion de ses organisateurs.
+Les événements **{{ site.title }}** se veulent une expérience agréable et conviviale, ouverts à tou·te·s quel que soit le genre, l'orientation sexuelle, le handicap, l'apparence physique, le poids, l'origine ou la religion des participant·es. Nous ne tolérons donc aucun harcèlement ou attaque, sous aucune forme. Les expressions et les images à connotation sexuelle ne sont pas appropriées lors de l'événement. Ceci inclut les conférences, les ateliers, les soirées, Twitter et les autres médias en ligne. Toutes les personnes présentes devront adopter les recommandations de la Haute Autorité Sanitaire et du gouvernement français au moment de la tenue de l'événement.
+
+Les participant·es qui enfreignent ces règles peuvent être sanctionné·es, voire exclu·es de l'événement sans remboursement, à la discrétion de ses organisateurs.
 
 ## Contact en cas d'incident lors de notre cycle de conférences
 

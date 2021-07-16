@@ -16,7 +16,9 @@ To make clear what is expected, all delegates/attendees, speakers, exhibitors, o
 
 ## The Short Version
 
-**{{ site.title }}** events are dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
+**{{ site.title }}** events are dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. All attendees will be required to adopt the recommendations of the Haute Autorité Sanitaire and the French government at the time the event is held.
+
+Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
 
 ## Contact in case of incident during our conference
 
