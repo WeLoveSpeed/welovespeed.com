@@ -10,13 +10,13 @@ layout: page
 
 **{{ site.title }}** est une association dédiée à la collaboration et au réseautage au sein de la communauté WebPerf.
 
-Nous attachons une importance à la participation de tou·te·s les membres de la communauté WebPerf et souhaitons que chaque participant·e vive une expérience positive. Dans cette optique, nous attendons de tous les participant·e·s qu'ils et elles fassent preuve de respect et de courtoisie envers les autres participant·e·s pendant toute la durée des événements de l'association et des événements affiliés à {{ site.title }}.
+Nous attachons une importance à la participation de tou·te·s les membres de la communauté WebPerf et souhaitons que chaque participant·e vive une expérience positive. Dans cette optique, nous attendons de tous les participant·es qu'ils et elles fassent preuve de respect et de courtoisie envers les autres participant·es pendant toute la durée des événements de l'association et des événements affiliés à {{ site.title }}.
 
-Afin de clarifier nos attentes, tous les représentant·e·s/participant·e·s, conférencier·e·s, exposant·e·s, organisateurs et organisatrices, et bénévoles aux événements de {{ site.title }} doivent se conformer au code de conduite ci-dessous. Ce code de conduite s'applique à tous les événements de l'association.
+Afin de clarifier nos attentes, tous les représentant·es/participant·es, conférencier·es, exposant·es, organisateurs et organisatrices, et bénévoles aux événements de {{ site.title }} doivent se conformer au code de conduite ci-dessous. Ce code de conduite s'applique à tous les événements de l'association.
 
 ## Version courte
 
-Les événements **{{ site.title }}** se veulent une expérience agréable et conviviale, ouverts à tou·te·s quel que soit le genre, l'orientation sexuelle, le handicap, l'apparence physique, le poids, l'origine ou la religion des participant·e·s. Nous ne tolérons donc aucun harcèlement ou attaque, sous aucune forme. Les expressions et les images à connotation sexuelle ne sont pas appropriées lors de l'événement. Ceci inclut les conférences, les ateliers, les soirées, Twitter et les autres médias en ligne. Les participant·e·s qui enfreignent ces règles peuvent être sanctionné·e·s, voire exclu·e·s de l'événement sans remboursement, à la discrétion de ses organisateurs.
+Les événements **{{ site.title }}** se veulent une expérience agréable et conviviale, ouverts à tou·te·s quel que soit le genre, l'orientation sexuelle, le handicap, l'apparence physique, le poids, l'origine ou la religion des participant·es. Nous ne tolérons donc aucun harcèlement ou attaque, sous aucune forme. Les expressions et les images à connotation sexuelle ne sont pas appropriées lors de l'événement. Ceci inclut les conférences, les ateliers, les soirées, Twitter et les autres médias en ligne. Les participant·es qui enfreignent ces règles peuvent être sanctionné·es, voire exclu·es de l'événement sans remboursement, à la discrétion de ses organisateurs.
 
 ## Contact en cas d'incident lors de notre cycle de conférences
 
@@ -33,9 +33,9 @@ Si un·e participant·e a un comportement de harcèlement, les organisateurs et 
 
 Si vous vous sentez harcelé·e, si vous pensez que quelqu'un·e se fait harceler, et plus généralement en cas de problème, merci de contacter immédiatement un·e membre de l'organisation de l'événement. L'équipe est facilement identifiable à ses t-shirts ou par ses tours de cou personnalisés.
 
-Les membres de l'organisation aideront volontiers les participant·e·s à contacter la sécurité de l'hôtel ou des lieux où se déroule l'événement, ou les forces de l'ordre, à fournir une escorte ainsi qu'à aider de toute autre façon les personnes victimes de harcèlement, pour garantir leur sécurité pendant la durée de l'événement. Votre participation à l'événement compte beaucoup pour nous.
+Les membres de l'organisation aideront volontiers les participant·es à contacter la sécurité de l'hôtel ou des lieux où se déroule l'événement, ou les forces de l'ordre, à fournir une escorte ainsi qu'à aider de toute autre façon les personnes victimes de harcèlement, pour garantir leur sécurité pendant la durée de l'événement. Votre participation à l'événement compte beaucoup pour nous.
 
-Nous attendons des participant·e·s qu'ils et elles suivent ces règles sur les lieux des conférences et des ateliers, ainsi que pendant les événements sociaux relatifs à la l'événement.
+Nous attendons des participant·es qu'ils et elles suivent ces règles sur les lieux des conférences et des ateliers, ainsi que pendant les événements sociaux relatifs à la l'événement.
 
 ## Procédure en cas d'incident pour l'équipe organisatrice
 

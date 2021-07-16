@@ -6,7 +6,7 @@
   - type: pause
     hour: "08:30"
     values:
-      fr_FR: Accueil des participant·e·s
+      fr_FR: Accueil des participant·es
       en_US: Attendees' welcome
   - type: short
     hour: "09:00"
@@ -97,7 +97,7 @@
   - type: pause
     hour: "09:00"
     values:
-      fr_FR: Accueil des participant·e·s
+      fr_FR: Accueil des participant·es
       en_US: Attendees' welcome
   - type: short
     hour: "09:25"
