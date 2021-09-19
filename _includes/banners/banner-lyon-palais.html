@@ -1,0 +1,15 @@
+{% if include.page_top %}
+  {% assign slug = "banner-lyon-palais page-top" %}
+{% else %}
+  {% assign slug = "banner-lyon-palais" %}
+{% endif %}
+{% include banners/_generic.html
+  slug=slug
+  locale=include.locale
+  source_title="Salle Tony Garnier, Palais de la Bourse de Lyon"
+  source_author="We Love Speed"
+  source_rights_url="https://creativecommons.org/licenses/by/2.0/"
+  source_rights_title="Licence Creative Commons"
+  source_rights_shortname="CC BY 2.0"
+  no_lazy=include.no_lazy
+%}
