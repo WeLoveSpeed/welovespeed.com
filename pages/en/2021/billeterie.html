@@ -1,0 +1,89 @@
+---
+title: Register
+description: "Book your ticket"
+i18n-key: 2021-register
+permalink: /en/2021/register/
+---
+
+{% if site.tickets.selling %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Purchase a ticket</h2>
+    <a title="Online ticketing"
+      href="{{ site.weezevent.mini-site-url }}"
+      class="weezevent-widget-integration"
+      data-src="https://widget.weezevent.com/ticket/E761376/?code=2444&locale=en-GB&width_auto=1&color_primary=cd2f2b"
+      data-width="650"
+      data-height="600"
+      data-id="761376"
+      data-resize="1"
+      data-width_auto="1"
+      data-noscroll="0"
+      data-use-container="yes"
+      data-type="neo"
+      target="_blank">Billetterie Weezevent</a>
+    <script type="text/javascript" src="https://widget.weezevent.com/weez.js"></script>
+  </div>
+</section>
+{% endif %}
+{% if site.tickets.selling %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <div class="grid-2">
+      <section>
+        <h2>Tickets</h2>
+        <p>
+          Prices for previous (physical) editions were around 200€ and included the budget for the venue and the meals.<br>
+          This year, the price is up to you ! It can be free if you want, but giving to our organization will allow to pay for the 2020 small expenses (insurance, bank, speaker hardware for remote, Saas …) and to have some cash to book the 2021 venue. If you or your company can afford it, please help us !
+        </p>
+      </section>
+      <section>
+        <h2>Payment</h2>
+        <p>
+          You can register and pay for your tickets by <strong>credit card</strong>, online.<br>
+          Within three weeks of the event, you can also <strong>book</strong> your tickets <strong>online</strong> and pay within two weeks by <strong>bank transfer</strong>.<br>
+          If you need it, the Weezevent platform will provide you with an <strong>invoice</strong>.<br>
+          All purchases are <strong>firm and final</strong>.
+        </p>
+      </section>
+    </div>
+  </div>
+</section>
+
+
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <h2 id="diversity">Diversity Tickets</h2>
+
+    <p>If you feel like you are a member of an underrepresented group in tech — this includes, but is not limited to: people of colour, LGBTQIA+ people, women and disabled people — you are eligible for a Diversity Ticket.</p>
+
+    <p class="text-center">
+      <a class="button" data-text="{% t Contactez-nous %}" href="{{ "/contact" | relative_url }}"><span class="button-inner">{% t Contactez-nous %}</span></a>
+    </p>
+  </div>
+</section>
+
+{% endif %}
+{% if site.infos.display %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <h2>How to get to the Palais de la Bourse in Lyon?</h2>
+    <section>
+      <p>We have solutions! Follow the tips we've prepared for a trouble-free trip.</p>
+    </section>
+    <p class="text-center">
+      <a class="button" data-text="come to Lille" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">come to Lille</span></a>
+    </p>
+  </div>
+</section>
+{% endif %}
+
+<hr class="wrapper">
+
+{% include banners/banner-cocktail.html locale=page.locale %}

@@ -25,12 +25,12 @@ current_edition: 2021
 #  fr_FR: '/assets/docs/2020/sponsoring_fr.pdf'
 #  en_US: '/assets/docs/2020/sponsoring_fr.pdf'
 tickets:
-  selling: false
+  selling: true
   # diversity_id: 437
-  weezevent: false
+  weezevent: true
   coupons-only: false
   waiting-list: false
-  price: "0+"
+  price: "220+"
   price_currency: "EUR"
 
 # Compression du code HTML en production
@@ -46,7 +46,7 @@ robots: index,follow
 # Services configuration
 
 weezevent:
-    mini-site-url: https://www.weezevent.com/welovespeed-2020
+    mini-site-url: https://www.weezevent.com/we-love-speed-2021
 
 newsletter:
   url: "https://welovespeed.us18.list-manage.com/subscribe/post?u=871757160e8496642288193e3&amp;id=1695ce944b"
