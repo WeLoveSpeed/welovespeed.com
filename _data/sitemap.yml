@@ -23,18 +23,6 @@
   #   edition_relative: true
   #   in_nav: false
   #   in_footer: false
-  - name: Protocole Sanitaire
-    type: page
-    value: protocole-sanitaire
-    edition_relative: true
-    in_nav: false
-    in_footer: true
-  - name: Code de Conduite
-    type: page
-    value: code-de-conduite
-    edition_relative: true
-    in_nav: false
-    in_footer: true
   - name: Sponsors
     type: page
     value: merci
@@ -47,6 +35,11 @@
     edition_relative: false
     in_nav: false
     in_footer: false
+  - name: Témoignages
+    type: page
+    value: temoignages
+    in_nav: false
+    in_footer: true
   - type: separator
     in_nav: true
     in_footer: false
@@ -60,7 +53,7 @@
     type: page
     value: newsletter
     edition_relative: false
-    in_nav: true
+    in_nav: false
     in_footer: true
   - name: Mentions légales
     type: page
@@ -68,9 +61,16 @@
     edition_relative: false
     in_nav: false
     in_footer: true
-  - name: Témoignages
+  - name: Code de Conduite
     type: page
-    value: temoignages
+    value: code-de-conduite
+    edition_relative: true
+    in_nav: false
+    in_footer: true
+  - name: Protocole Sanitaire
+    type: page
+    value: protocole-sanitaire
+    edition_relative: true
     in_nav: true
     in_footer: true
 2020:
