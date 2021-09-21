@@ -13,6 +13,13 @@
     links:
       - label: BrainCracking
         url: http://braincracking.org/
+  - firstname: Audrey
+    lastname: Schoonwater
+    slug: audrey
+    twitter: witamine
+    links:
+      - label: Witamine
+        url: https://www.witamine.com/
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
@@ -27,6 +34,26 @@
     links:
       - label: Contentsquare
         url: https://www.contentsquare.com/
+  - firstname: Martine
+    lastname: Constantinidis
+    slug: martine
+    links:
+      - label: AWE, data minded B2B
+        url: https://www.awe.fr/
+  - firstname: Olivier
+    lastname: Perrin
+    slug: olivier
+    twitter: AlmarenaIt
+    links:
+      - label: Almarena IT
+        url: https://www.almarena-it.com/
+  - firstname: Pierre
+    lastname: Ammeloot
+    slug: pierre
+    twitter: Pierre_A
+    links:
+      - label: Site
+        url: https://pierre.ammeloot.fr/
 2020:
   - firstname: Émilie
     lastname: Wilhelm
