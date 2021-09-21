@@ -21,9 +21,9 @@ lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
 current_edition: 2021
-# sponsoring:
-#  fr_FR: '/assets/docs/2020/sponsoring_fr.pdf'
-#  en_US: '/assets/docs/2020/sponsoring_fr.pdf'
+sponsoring:
+  fr_FR: '/assets/docs/2021/sponsoring_fr.pdf'
+  en_US: '/assets/docs/2021/sponsoring_fr.pdf'
 tickets:
   selling: true
   # diversity_id: 437
