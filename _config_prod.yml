@@ -23,7 +23,7 @@ lazyload:
 current_edition: 2021
 sponsoring:
   fr_FR: '/assets/docs/2021/sponsoring_fr.pdf'
-  en_US: '/assets/docs/2021/sponsoring_fr.pdf'
+  en_US: '/assets/docs/2021/sponsoring_en.pdf'
 tickets:
   selling: true
   # diversity_id: 437
