@@ -16,7 +16,7 @@ baseurl: ""
 destination: _site/
 locale: fr_FR
 logo: https://welovespeed.com/assets/images/social/logo.jpg
-cfp_open: true
+cfp_open: false
 lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
