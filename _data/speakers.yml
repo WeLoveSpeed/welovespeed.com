@@ -1,3 +1,310 @@
+2021:
+  ludovic_lagatie:
+    name: Ludovic Lagatie
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/ludovic-lagatie/
+    en_US:
+      bio: >-
+        Freelance for more than 15 years as a Tech Lead and Application Architect, I support large companies in the development of their e-commerce site. My main motivation is to find technical solutions to continuously improve application performance and web performance.
+    fr_FR:
+      bio: >-
+        Freelance depuis plus de 15 ans en tant que Tech Lead et Architecte applicatif, j’accompagne les grosses enseignes dans le développement de leur site e-commerce. Ma principale motivation est la recherche de solution technique pour améliorer continuellement la performance applicative et la webperf.
+  jeremy_wyler:
+    name: Jeremy Wyler
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/jeremywyler/
+    en_US:
+      bio: >-
+        Jérémy is the SEO manager for the Sites division at Solocal. He leads the local SEO strategy for the website offering, with nearly 40,000 clients to his credit. Jérémy and his team of SEO managers are in charge of implementing SEO strategies and audits for each of Solocal's mid-range and high-end websites, and developing internal SEO tools.
+    fr_FR:
+      bio: >-
+        Jérémy est le responsable SEO de la division Sites chez Solocal. Il dirige la stratégie de référencement local pour l'offre de site internet, comptant près de 40 000 clients à son actif. Jérémy et son équipe de chargés de SEO, ont la charge de la réalisation des stratégies SEO et audit pour chacun des sites des offres milieu et haut de gamme proposée par Solocal, et du développement des outils SEO interne.
+  eric_camilleri:
+    name: Eric Camilleri
+    image: /assets/images/speakers/incognito.png
+    urls: ~
+    en_US:
+      bio: >-
+        Eric is the Ux & Design Manager for the Sites division at Solocal. Eric and his team are in charge of creating site models and custom designs proposed by Solocal, and coordinating the integration of technical and functional evolutions of the Duda platform into Solocal's site production processes.
+    fr_FR:
+      bio: >-
+        Eric est le responsable Ux & Design de la division Sites chez Solocal. Eric et son équipe ont la charge de la réalisation des modèles de site et design sur mesure proposés par Solocal, et de la coordination de l'intégration des évolutions technique et fonctionnelle de la plateforme Duda, dans les process de fabrication des sites solocal.
+  mathilde_duboille:
+    name: Mathilde Duboille
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/mathilde-duboille-b6474a148/
+    en_US:
+      bio: >-
+        Web developer for more than 2 years and active member of the performance and front-end dev community within Theodo.
+    fr_FR:
+      bio: >-
+        Développeuse web depuis plus de 2 ans et membre active de la communauté performance et dev front au sein de Theodo.
+  francois_hendriks:
+    name: François Hendriks
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/francois-hendriks-b83696122/
+    en_US:
+      bio: >-
+        Francois has been working for more than two years at Theodo as a Tech Lead. Convinced that our development tools should be written in fast languages such as Go or Rust, he regularly does audits or performance missions involving both the front and back ends.
+    fr_FR:
+      bio: >-
+        Francois travaille depuis plus de deux ans chez Theodo en tant que Tech Lead. Convaincu que nos outils de développement devraient être écrits dans des langages rapides comme Go ou Rust, il fait régulièrement des audits ou des missions de performance touchant au front comme au back.
+  tim_vereecke:
+    name: Tim Vereecke
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@TimVereecke (Twitter)"
+        url: https://twitter.com/TimVereecke
+    en_US:
+      bio: >-
+        Tim loves speeding up websites. Works as a web performance architect @Akamai, also runs [scalemates.com](https://www.scalemates.com/) and [frustrationindex.com](https://www.frustrationindex.com/).
+    fr_FR:
+      bio: >-
+        Tim aime accélérer les sites web. Il travaille en tant qu'architecte des performances web chez Akamai, et dirige également [scalemates.com](https://www.scalemates.com/) et [frustrationindex.com](https://www.frustrationindex.com/).
+  josselin_buils:
+    name: Josselin Buils
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@josselinbuils (Twitter)"
+        url: https://twitter.com/josselinbuils
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/josselinbuils/
+      - name: github
+        title: Github
+        url: https://github.com/josselinbuils
+    en_US:
+      bio: >-
+        Front-end developer @ManoMano_FR. ❤️ JavaScript, TypeScript and dev xp.
+    fr_FR:
+      bio: >-
+        Front-end developer @ManoMano_FR. ❤️ JavaScript, TypeScript and dev xp.
+  nicolas_audemar:
+    name: Nicolas Audemar
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        Nicolas, expert en référencement et responsable de SISTRIX France depuis son lancement, a une passion intense pour tout ce qui touche à cette discipline. Nicolas est attentif aux moindres détails et sait décrypter les directives de Google avec virtuosité. Il est toujours à l'affût de nouvelles informations sur les problématiques des éditeurs de sites qu'il partage librement avec ses clients afin qu'ils puissent les optimiser eux-mêmes.
+
+        Voyageant entre Paris, Toulouse et Barcelone où il vit, Nicolas sait trouver les moyens qui feront exploser vos KPI ainsi que votre nombre de leads de qualité !
+  jeremie_pereira:
+    name: Jeremie Pereira
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
+  xavier_bouteiller:
+    name: Xavier Bouteiller
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
+  anthony_ricaud:
+    name: Anthony Ricaud
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
+  yoav_weiss:
+    name: Yoav Weiss
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
+  jp_vincent:
+    name: Jean-Pierre Vincent
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
+  romuald_priol:
+    name: Romuald Priol
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
+  ludovic_lefebvre:
+    name: Ludovic Lefebvre
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
+  valentine_jahan:
+    name: Valentine Jahan
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
+  bastien_gatellier:
+    name: Bastien Gatellier
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        Développeur web depuis 10 ans, j'ai posé il y a 4 ans mes bagages chez Fabernovel en tant que Tech Lead.
+
+        Féru de performance web, je m'emploi à sensibiliser et mettre en place ce sujet sur nos projets client. A cet effet, j'ai contribué à élaborer [l'outil open-source Heart](https://heart.fabernovel.com/), qui permet d'automatiser les analyses de pages web via différents services en ligne (Lighthouse, Dareboost…).
+  hubert_sablonniere:
+    name: Hubert Sablonnière
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
+  aymeric_bouillat:
+    name: Aymeric Bouilat
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
+  gabriel_pillet:
+    name: Gabriel Pillet
+    image: /assets/images/speakers/incognito.png
+    urls:
+      - name: twitter
+        title: "@todo(Twitter)"
+        url: https://twitter.com/todo
+      - name: linkedin
+        title: LinkedIn
+        url: https://linkedin.com/in/todo
+    en_US:
+      bio: >-
+        todo
+    fr_FR:
+      bio: >-
+        todo
 2020:
   marta:
     name: Marta Wiśniewska

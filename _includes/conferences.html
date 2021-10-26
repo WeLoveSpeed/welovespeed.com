@@ -18,7 +18,7 @@
         {% assign verbatim = conference.fr_FR %}
         {% assign other_verbatim = conference.en_US %}
       {% endif %}
-      <article class="conference">
+      <article class="conference {% cycle 'odd', 'even' %}">
         <h3>
           {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
         </h3>
