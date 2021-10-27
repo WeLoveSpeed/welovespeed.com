@@ -19,6 +19,9 @@
       line-height: 1.25;
       position: relative;
       display: inline-block;
+      sup {
+        vertical-align: bottom;
+      }
     }
     &-description {
       margin: 0.5em 0;
