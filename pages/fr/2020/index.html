@@ -27,8 +27,8 @@ permalink: /2020/
       <a class="button" data-text="{% t Voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t Voir le programme %}">
         <span class="button-inner">{% t Voir le programme %}</span>
       </a>
-      <a class="button" data-text="{% t Intervenant‧e‧s %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="{% t Intervenant‧e‧s %}">
-        <span class="button-inner">{% t Intervenant‧e‧s %}</span>
+      <a class="button" data-text="{% t Intervenant‧es %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="{% t Intervenant‧es %}">
+        <span class="button-inner">{% t Intervenant‧es %}</span>
       </a>
       {% if site.current_edition == page.year and site.cfp_open %}
       <a class="button" data-text="{% t Proposer un sujet %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/cfp" title="{% t Proposer un sujet %}">
