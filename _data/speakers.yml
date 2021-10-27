@@ -28,7 +28,10 @@
   eric_camilleri:
     name: Eric Camilleri
     image: /assets/images/speakers/2021/eric_camilleri.jpg
-    urls: ~
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/camilleri/
     en_US:
       bio: >-
         Eric is the Ux & Design Manager for the Sites division at Solocal. Eric and his team are in charge of creating site models and custom designs proposed by Solocal, and coordinating the integration of technical and functional evolutions of the Duda platform into Solocal's site production processes.

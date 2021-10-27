@@ -1,4 +1,7 @@
-html, input, textarea, select {
+html,
+input,
+textarea,
+select {
   font-family: $default-font-family;
   font-style: $default-font-style;
   font-weight: $default-font-weight;
@@ -7,12 +10,14 @@ html, input, textarea, select {
 }
 
 html {
-  font-size: .625em; /* fallback IE8+ */
-  font-size: calc(1em * .625); /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
+  font-size: 0.625em; /* fallback IE8+ */
+  font-size: calc(
+    1em * 0.625
+  ); /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
 }
 
 body {
-  font-size: map-get($media-ratio, 'xsmall') * $default-font-size;
+  font-size: map-get($media-ratio, "xsmall") * $default-font-size;
 
   @each $breakpoint, $value in $breakpoints {
     @include media(">#{$breakpoint}") {
@@ -21,15 +26,31 @@ body {
   }
 }
 
-h1, h2, .h-like {
-  font-family: $title-font-family; font-style: $title-font-style; font-weight: $title-font-weight; line-height: $title-line-height;
+h1,
+h2,
+.h-like {
+  font-family: $title-font-family;
+  font-style: $title-font-style;
+  font-weight: $title-font-weight;
+  line-height: $title-line-height;
 }
 
-h3, h4, h5, h6 {
-  font-family: $default-font-family; font-style: $default-font-style; font-weight: $default-font-weight;
+h3,
+h4,
+h5,
+h6 {
+  font-family: $default-font-family;
+  font-style: $default-font-style;
+  font-weight: $default-font-weight;
 }
 
-h1, h2, h3, h4, h5, h6, .h-like {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h-like {
   color: $title-color;
 }
 
@@ -43,16 +64,24 @@ h2 {
 
 h3 {
   font-size: 1.25em;
+  margin-top: 0;
 
-  .conference > & {
-    padding: 60px 0 20px 0;
-    @include media('>=xlarge') {
-      padding: 20px 0;
-    }
-  }
+  // .conference > & {
+  //   padding: 60px 0 20px 0;
+  //   @include media('>=xlarge') {
+  //     padding: 20px 0;
+  //   }
+  // }
 }
 
-p, .p-like, ul, ol, dl, blockquote, pre, caption {
+p,
+.p-like,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+caption {
   margin: $default-line-height * 1em 0;
 }
 
@@ -60,12 +89,19 @@ dt {
   margin-top: $default-line-height * 1em;
 }
 
-strong, b, dt {
+strong,
+b,
+dt {
   font-weight: $font-weight-bold;
 }
 
-a, button.btn--link-like {
-  font-style: italic; color: $link-color; text-decoration: none; text-decoration: underline solid rgba($link-color, .25); text-decoration-skip: ink;
+a,
+button.btn--link-like {
+  font-style: italic;
+  color: $link-color;
+  text-decoration: none;
+  text-decoration: underline solid rgba($link-color, 0.25);
+  text-decoration-skip: ink;
 
   &:hover,
   &:focus {
@@ -73,19 +109,20 @@ a, button.btn--link-like {
   }
 }
 
-
 // Typo helpers ---------------------------------------------------------------
 
 .h-reset,
 .text-reset {
-  font: inherit; color: $default-color;
+  font: inherit;
+  color: $default-color;
 }
 .h-reset {
-  margin: initial; padding: 0;
+  margin: initial;
+  padding: 0;
 }
 @each $size in $font-sizes {
-  $class: map-get($size, 'class');
-  $size: map-get($size, 'size');
+  $class: map-get($size, "class");
+  $size: map-get($size, "size");
 
   .text-#{$class} {
     font-size: $size;
@@ -114,10 +151,12 @@ a, button.btn--link-like {
 }
 .text-ellipsis {
   overflow: hidden;
-  white-space: nowrap; text-overflow: ellipsis;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .text-wrap {
-  word-break: break-all; hyphens: auto;
+  word-break: break-all;
+  hyphens: auto;
 }
 .text-focus {
   color: $focus-color;

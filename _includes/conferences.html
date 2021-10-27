@@ -68,7 +68,7 @@
                 {% unless speakerCount > 1 %}
                   <span class="text-xs">{% t Présenté %}{% unless conference.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %} {%t par %}</span><br>
                 {% else %}
-                  <span class="text-xs">{% t Animé %}{% unless conference.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}</span><br>
+                  <span class="text-xs">{% t Animé %}{% unless conference.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %} {% t par %}</span><br>
                 {% endunless %}
                 <em>{{ speaker.name }}</em> {% include person-links.html urls=speaker.urls %}
               </h3>
@@ -90,4 +90,6 @@
     {%- endfor -%}
   </div>
 </section>
+
+<hr>
 
