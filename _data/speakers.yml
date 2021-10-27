@@ -1,7 +1,7 @@
 2021:
   ludovic_lagatie:
     name: Ludovic Lagatie
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/ludovic_lagatie.jpg
     urls:
       - name: linkedin
         title: LinkedIn
@@ -14,7 +14,7 @@
         Freelance depuis plus de 15 ans en tant que Tech Lead et Architecte applicatif, j’accompagne les grosses enseignes dans le développement de leur site e-commerce. Ma principale motivation est la recherche de solution technique pour améliorer continuellement la performance applicative et la webperf.
   jeremy_wyler:
     name: Jeremy Wyler
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/jeremy_wyler.jpg
     urls:
       - name: linkedin
         title: LinkedIn
@@ -27,7 +27,7 @@
         Jérémy est le responsable SEO de la division Sites chez Solocal. Il dirige la stratégie de référencement local pour l'offre de site internet, comptant près de 40 000 clients à son actif. Jérémy et son équipe de chargés de SEO, ont la charge de la réalisation des stratégies SEO et audit pour chacun des sites des offres milieu et haut de gamme proposée par Solocal, et du développement des outils SEO interne.
   eric_camilleri:
     name: Eric Camilleri
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/eric_camilleri.jpg
     urls: ~
     en_US:
       bio: >-
@@ -37,7 +37,7 @@
         Eric est le responsable Ux & Design de la division Sites chez Solocal. Eric et son équipe ont la charge de la réalisation des modèles de site et design sur mesure proposés par Solocal, et de la coordination de l'intégration des évolutions technique et fonctionnelle de la plateforme Duda, dans les process de fabrication des sites solocal.
   mathilde_duboille:
     name: Mathilde Duboille
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/mathilde_duboille.jpg
     urls:
       - name: linkedin
         title: LinkedIn
@@ -50,7 +50,7 @@
         Développeuse web depuis plus de 2 ans et membre active de la communauté performance et dev front au sein de Theodo.
   francois_hendriks:
     name: François Hendriks
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/francois_hendriks.jpg
     urls:
       - name: linkedin
         title: LinkedIn
@@ -63,7 +63,7 @@
         Francois travaille depuis plus de deux ans chez Theodo en tant que Tech Lead. Convaincu que nos outils de développement devraient être écrits dans des langages rapides comme Go ou Rust, il fait régulièrement des audits ou des missions de performance touchant au front comme au back.
   tim_vereecke:
     name: Tim Vereecke
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/tim_vereecke.jpg
     urls:
       - name: twitter
         title: "@TimVereecke (Twitter)"
@@ -76,7 +76,7 @@
         Tim aime accélérer les sites web. Il travaille en tant qu'architecte des performances web chez Akamai, et dirige également [scalemates.com](https://www.scalemates.com/) et [frustrationindex.com](https://www.frustrationindex.com/).
   josselin_buils:
     name: Josselin Buils
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/josselin_buils_square.jpg
     urls:
       - name: twitter
         title: "@josselinbuils (Twitter)"
@@ -95,163 +95,145 @@
         Front-end developer @ManoMano_FR. ❤️ JavaScript, TypeScript and dev xp.
   nicolas_audemar:
     name: Nicolas Audemar
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/nicolas_audemar.jpg
     urls:
       - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
+        title: "@nicoseosem (Twitter)"
+        url: https://twitter.com/nicoseosem
       - name: linkedin
         title: LinkedIn
-        url: https://linkedin.com/in/todo
+        url: https://www.linkedin.com/in/nicolasaudemar/
     en_US:
       bio: >-
-        todo
+        Nicolas, SEO expert and manager of SISTRIX France since its launch, has an intense passion for everything related to this discipline. Nicolas is attentive to the smallest details and knows how to decipher Google's guidelines with virtuosity. He is always on the lookout for new information on the problems of website editors, which he freely shares with his clients so that they can optimize them themselves.
+
+        Traveling between Paris, Toulouse and Barcelona where he lives, Nicolas knows how to find the means that will make your KPIs explode as well as your number of quality leads!
     fr_FR:
       bio: >-
         Nicolas, expert en référencement et responsable de SISTRIX France depuis son lancement, a une passion intense pour tout ce qui touche à cette discipline. Nicolas est attentif aux moindres détails et sait décrypter les directives de Google avec virtuosité. Il est toujours à l'affût de nouvelles informations sur les problématiques des éditeurs de sites qu'il partage librement avec ses clients afin qu'ils puissent les optimiser eux-mêmes.
 
         Voyageant entre Paris, Toulouse et Barcelone où il vit, Nicolas sait trouver les moyens qui feront exploser vos KPI ainsi que votre nombre de leads de qualité !
-  jeremie_pereira:
-    name: Jeremie Pereira
-    image: /assets/images/speakers/incognito.png
-    urls:
-      - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
-      - name: linkedin
-        title: LinkedIn
-        url: https://linkedin.com/in/todo
-    en_US:
-      bio: >-
-        todo
-    fr_FR:
-      bio: >-
-        todo
-  xavier_bouteiller:
-    name: Xavier Bouteiller
-    image: /assets/images/speakers/incognito.png
-    urls:
-      - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
-      - name: linkedin
-        title: LinkedIn
-        url: https://linkedin.com/in/todo
-    en_US:
-      bio: >-
-        todo
-    fr_FR:
-      bio: >-
-        todo
   anthony_ricaud:
     name: Anthony Ricaud
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/anthony_ricaud.jpg
     urls:
       - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
+        title: "@anthony_ricaud (Twitter)"
+        url: https://twitter.com/anthony_ricaud
       - name: linkedin
         title: LinkedIn
-        url: https://linkedin.com/in/todo
+        url: https://www.linkedin.com/in/anthonyricaud/
     en_US:
       bio: >-
-        todo
+        As a performance and web architecture consultant, Anthony helps teams improve their web projects. With a broad understanding of web protocols and browsers, he enjoys designing simple but fast web architectures.
     fr_FR:
       bio: >-
-        todo
+        Consultant en performance et architecture web, Anthony accompagne les équipes pour améliorer leurs projets web. Avec une large compréhension des protocoles Web et des navigateurs, il aime concevoir des architectures Web simples mais rapides.
   yoav_weiss:
     name: Yoav Weiss
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/yoav_weiss.jpg
     urls:
       - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
-      - name: linkedin
-        title: LinkedIn
-        url: https://linkedin.com/in/todo
+        title: "@yoavweiss (Twitter)"
+        url: https://twitter.com/yoavweiss
     en_US:
       bio: >-
-        todo
+        Yoav Weiss has been working on mobile web performance for longer than he cares to admit, on the server side as well as in browsers. He now works as part of Chrome's web platform team, helping to fix web performance once and for all.
+
+
+        He takes image bloat on the web as a personal insult, which is why he joined the Responsive Images Community Group and implemented the various responsive images features in Blink and WebKit. That was his gateway drug into the wonderfully complex world of browsers and standards.
+
+
+        When he’s not writing code, he’s probably slapping his bass, mowing the lawn in the French countryside, or playing board games with his family.
     fr_FR:
       bio: >-
-        todo
+        Yoav Weiss travaille sur les performances du web mobile depuis plus longtemps qu'il ne veut bien l'admettre, tant du côté des serveurs que des navigateurs. Il fait désormais partie de l'équipe chargée de la plateforme web de Chrome, où il contribue à améliorer les performances du web une fois pour toutes.
+
+
+        Il considère le gonflement des images sur le web comme une insulte personnelle, c'est pourquoi il a rejoint le Responsive Images Community Group et mis en œuvre les diverses fonctionnalités d'images <i lang="en">responsive</i> dans Blink et WebKit. Ce fut sa porte d'entrée dans le monde merveilleusement complexe des navigateurs et des normes.
+
+
+        Lorsqu'il n'écrit pas de code, il est probablement en train de gratter sa basse, de tondre la pelouse dans la campagne française ou de jouer à des jeux de société avec sa famille.
   jp_vincent:
     name: Jean-Pierre Vincent
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/jp_vincent.jpg
     urls:
       - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
+        title: "@theystolemynick (Twitter)"
+        url: https://twitter.com/theystolemynick
       - name: linkedin
         title: LinkedIn
-        url: https://linkedin.com/in/todo
+        url: https://www.linkedin.com/in/jeanpierrevincent/
     en_US:
       bio: >-
-        todo
+        Independent expert, Web Performance trainer.
     fr_FR:
       bio: >-
-        todo
+        Expert indépendant, formateur Web Performance.
   romuald_priol:
     name: Romuald Priol
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/romuald_priol.jpg
     urls:
       - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
-      - name: linkedin
-        title: LinkedIn
-        url: https://linkedin.com/in/todo
+        title: "@doc_roms (Twitter)"
+        url: https://twitter.com/doc_roms
     en_US:
       bio: >-
-        todo
+        Passionate about ecology, good-tech, ethics and computer performance, I am a representative of the responsible digital collective, a collective of [GreenIt.fr](https://www.greenit.fr/). I try to promote the evolution of digital technology by making it responsible: for a greener, more "efficient", more "ethical", more "accessible" digital world.
     fr_FR:
       bio: >-
-        todo
+        Passionné d'écologie, de <i lang="en">good-tech</i>, d'éthique et de performance informatique, je suis représentant du collectif numérique responsable, collectif de [GreenIt.fr](https://www.greenit.fr/). J'essaye de promouvoir l'évolution du numérique en le rendant responsable : pour un numérique plus "<i lang="en">green</i>", plus "performant", plus "éthique", plus "accessible".
   ludovic_lefebvre:
     name: Ludovic Lefebvre
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/ludovic_lefebvre.jpg
     urls:
       - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
+        title: "@Crafty33 (Twitter)"
+        url: https://twitter.com/Crafty33
       - name: linkedin
         title: LinkedIn
-        url: https://linkedin.com/in/todo
+        url: https://www.linkedin.com/in/ludovic-lefebvre-7611a08/
     en_US:
       bio: >-
-        todo
+        I'm the person who triggers 10,000 requests/second without breaking a sweat, a performance crazy programmer and competitor.
+
+
+        I started the web performance adventure in 2008 at Cdiscount, going from load testing to back end and front end optimization. Today, I'm in charge of the "coaching perf" team and my mission is to bring support and innovative solutions to web issues. In my free time, I am passionate about mind mapping and electronic music composition.
     fr_FR:
       bio: >-
-        todo
+        Je suis la personne qui déclenche 10 000 requêtes/seconde sans transpirer, un programmeur fou de performance et compétiteur.
+
+
+        J’ai démarré l’aventure de la web performance en 2008 chez Cdiscount, passant des tests de charge, à l’optimisation back end et front end. Aujourd’hui responsable de l’équipe « coaching perf » ma mission est d’apporter du support et des solutions innovantes aux problématiques du web. Pendant mon temps libre, je me passionne pour le mind mapping et la composition de musiques électroniques.
   valentine_jahan:
     name: Valentine Jahan
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/valentine_jahan.jpg
     urls:
-      - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
       - name: linkedin
         title: LinkedIn
-        url: https://linkedin.com/in/todo
+        url: https://www.linkedin.com/in/valentine-jahan-321a5017/
     en_US:
       bio: >-
-        todo
+        Valentine is a Senior SEO Specialist at FABERNOVEL since February 2019. With 8 years of experience in SEO, she provides strategic SEO advice and recommendations to both big accounts and start-ups.
+
+        She works on all aspects of SEO (technical, structure, content, netlinking) and mobile, and has recently developed an interest in web performance. She has been responsible for major B2C accounts in the beauty and insurance sectors, but also in B2B. Previously, she worked at SENDINBLUE as an SEO Manager, RESONEO and PUBLICIS.Sapient.
     fr_FR:
       bio: >-
-        todo
+        Valentine est Senior SEO Specialist chez FABERNOVEL depuis février 2019. Avec 8 ans d’expérience en SEO, elle formule conseils et recommandations stratégiques SEO auprès de clients grands comptes et start-ups.
+
+        Elle travaille sur tous les aspects SEO (technique, structure, contenu, netlinking) et mobile, et a développé récemment un intérêt pour la web performance. Elle a notamment été responsable de grands comptes B2C issus des secteurs de la beauté, de l'assurance, mais aussi en B2B. Auparavant, elle a travaillé chez SENDINBLUE en tant que SEO Manager et est passée par RESONEO et PUBLICIS.Sapient.
   bastien_gatellier:
     name: Bastien Gatellier
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/bastien_gatellier.jpg
     urls:
-      - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
       - name: linkedin
         title: LinkedIn
-        url: https://linkedin.com/in/todo
+        url: https://www.linkedin.com/in/bgatellier/
     en_US:
       bio: >-
-        todo
+        Web developer for 10 years, I joined Fabernovel 4 years ago as a Tech Lead.
+
+        Fond of web performance, I work to raise awareness and bootstrap this topic on our customer projects. To this end, I contributed to the development of [the open-source tool Heart](https://heart.fabernovel.com/), that automates the analysis of web pages through various online services (Lighthouse, Dareboost…).
     fr_FR:
       bio: >-
         Développeur web depuis 10 ans, j'ai posé il y a 4 ans mes bagages chez Fabernovel en tant que Tech Lead.
@@ -259,52 +241,54 @@
         Féru de performance web, je m'emploi à sensibiliser et mettre en place ce sujet sur nos projets client. A cet effet, j'ai contribué à élaborer [l'outil open-source Heart](https://heart.fabernovel.com/), qui permet d'automatiser les analyses de pages web via différents services en ligne (Lighthouse, Dareboost…).
   hubert_sablonniere:
     name: Hubert Sablonnière
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/hubert_sablonniere.jpg
     urls:
       - name: twitter
         title: "@todo(Twitter)"
-        url: https://twitter.com/todo
-      - name: linkedin
-        title: LinkedIn
-        url: https://linkedin.com/in/todo
+        url: https://twitter.com/hsablonniere
     en_US:
       bio: >-
-        todo
+        Hubert is passionate about the Web. He is always looking for new ideas and tricks to improve the experience of users and developers.
     fr_FR:
       bio: >-
-        todo
+        Hubert est passionné par le Web. Il est toujours à la recherche de nouvelles idées et autres bidouilles pour améliorer l'expérience des utilisateurs et des développeurs.
   aymeric_bouillat:
     name: Aymeric Bouilat
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/aymeric_bouillat.jpg
     urls:
       - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
-      - name: linkedin
-        title: LinkedIn
-        url: https://linkedin.com/in/todo
+        title: "@aymerictwit (Twitter)"
+        url: https://twitter.com/aymerictwit
     en_US:
       bio: >-
-        todo
+        After a diploma of assistant multimedia director at the Ecole des Gobelins, I worked as an HTML integrator for the agency BaBeL@STaL, then as a Webmaster at Europages (business directory), and for Motors TV as a WebManager.
+
+        I turned to SEO in 2010 and joined NetBooster. After passing through the agencies Résonéo and SEOHackers, where I accompanied various clients (banks, institutions, e-commerce, travel, real estate, etc.) in the development of their SEO strategy, I joined Novalem (SEO entity of Havas Market) in 2019 as a Senior SEO consultant and technical referent. I also provide SEO training at the Gobelins school, the Coding Academy, the Oreegami school, as well as at SEOHighLevel.
+
+        Specialist in migrations and redesigns of websites, I attach particular importance to issues related to the mobile first index, as well as web performance.
     fr_FR:
       bio: >-
-        todo
+        Après un diplôme d'assistant réalisateur multimédia à l'Ecole des Gobelins, j'ai travaillé comme intégrateur HTML pour l'agence BaBeL@STaL, puis comme Webmaster chez Europages (annuaire d'entreprises), et pour Motors TV en tant que WebManager.
+
+        Je me suis tourné vers le SEO en 2010 et intègre NetBooster. Après être passé par les agences Résonéo puis SEOHackers, où j'ai accompagné différents clients (banques, institutions, e-commerce, voyage, immobilier, etc.) dans le développement de leur stratégie  SEO, j'ai rejoint Novalem (entité SEO d'Havas Market) en 2019 en tant que consultant SEO Senior et référent technique. Je dispense également des formations SEO à l'école des Gobelins, à la Coding Academy, l'école Oreegami, ainsi qu'au SEOHighLevel.
+
+        Spécialiste dans les migrations et refontes de sites Web, j'attache une importance toute particulière aux enjeux liés à l'index mobile first, ainsi qu’à la web performance.
   gabriel_pillet:
     name: Gabriel Pillet
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/2021/gabriel_pillet.jpg
     urls:
       - name: twitter
-        title: "@todo(Twitter)"
-        url: https://twitter.com/todo
+        title: "@tentacode (Twitter)"
+        url: https://twitter.com/tentacode
       - name: linkedin
         title: LinkedIn
-        url: https://linkedin.com/in/todo
+        url: https://www.linkedin.com/in/gabrielpillet
     en_US:
       bio: >-
-        todo
+        Gabriel Pillet - CTO at Web^ID. After 12 years as a Symfony backend developer, Gabriel was Lead QA in a startup and is now in charge of the technical side of a small tech agency in Lyon & Caen: Web^ID.
     fr_FR:
       bio: >-
-        todo
+        Gabriel Pillet — CTO chez Web^ID. Après 12 ans en tant que dev backend Symfony, Gabriel a été Lead QA en startup et dirige aujourd'hui la technique dans une petite agence tech Lyonnaise / Caennoise : Web^ID.
 2020:
   marta:
     name: Marta Wiśniewska
