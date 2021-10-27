@@ -5,6 +5,7 @@ length: 45
 pub_date: "2021-10-26"
 speakers:
   - ludovic_lagatie
+  - bertrand_laot
 fr_FR:
   title: "L’architecture Micro-Front, un levier pour la webperf ?"
   description: >-

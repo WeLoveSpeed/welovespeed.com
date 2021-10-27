@@ -12,6 +12,19 @@
     fr_FR:
       bio: >-
         Freelance depuis plus de 15 ans en tant que Tech Lead et Architecte applicatif, j’accompagne les grosses enseignes dans le développement de leur site e-commerce. Ma principale motivation est la recherche de solution technique pour améliorer continuellement la performance applicative et la webperf.
+  bertrand_laot:
+    name: Bertrand Laot
+    image: /assets/images/speakers/2021/bertrand_laot.jpg
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/bertrandlaot/
+    en_US:
+      bio: >-
+        In love with the web for the past 15 years, I am front-end advocate at Leroy Merlin. I lead a community of front-end developers around the issues of web quality, including web performance and accessibility.
+    fr_FR:
+      bio: >-
+        Amoureux du web depuis une quinzaine d'année, je suis front-end developer advocate chez Leroy Merlin. J'anime une communauté de développeurs front-end autour des enjeux de la qualité web, notamment la web performance et l'accessibilité.
   jeremy_wyler:
     name: Jeremy Wyler
     image: /assets/images/speakers/2021/jeremy_wyler.jpg
