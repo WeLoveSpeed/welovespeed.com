@@ -18,9 +18,9 @@ fr_FR:
 en_US:
   title: Yes, boosting your Core Web Vitals improves your visibility on Google
   description: >-
-    Following Google's announcement of its special web performance update ([read more in French](https://www.sistrix.fr/blog/google-deploie-la-mise-a-jour-page-experience/)) SISTRIX engaged in measurements to track the performance of a representative sample of hundreds of thousands of sites.
+    Following Google's announcement of its special web performance update SISTRIX engaged in measurements to track the performance of a representative sample of hundreds of thousands of sites.
 
-    After 1 month of monitoring, there was almost no change. Then at the official end of the rollout, we found that sites with poor CWVs lost 3.7 percentage points less than the average. Those with good ones jumped one point ([read more in French](https://www.sistrix.fr/blog/mise-a-jour-de-lexperience-des-pages-les-core-web-vitals-sont-un-facteur-de-classement-mesurable/)). 
+    After 1 month of monitoring, there was almost no change. Then at the official end of the rollout, we found that sites with poor CWVs lost 3.7 percentage points less than the average. Those with good ones jumped one point ([read more](https://www.sistrix.com/blog/core-web-vitals-is-a-measurable-ranking-factor/)). 
 
     During this presentation, we will provide explanations of the measurements and studies conducted, and take examples to show what went up or down at the sites.
   slides: ~
