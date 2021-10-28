@@ -480,4 +480,19 @@
           url: https://web.dev/learn-web-vitals/
         description: >-
           When it comes to user experience, speed matters. And delays caused by mobile speed aren’t just frustrating, they can also have a negative impact on business results. Download our new Mobile Site Speed Playbook to explore why speed matters, what it is and how to measure it, and then how to go about speeding up and staying fast.
+    - name: Scaleflex
+      slug: scaleflex
+      logo: /assets/images/thanks/scaleflex.png
+      fr_FR:
+        cta:
+          text: "Découvrez Scaleflex"
+          url: https://www.scaleflex.com/en/home
+        description: >-
+          Lorem ipsum dolor sit amet. Aut corporis reiciendis aut omnis natus et blanditiis natus et cumque provident. Et expedita assumenda et numquam maiores est excepturi dignissimos ea mollitia voluptas id repellat expedita. Est impedit amet et quia alias qui beatae dolorem aut rerum animi eum labore odit aut numquam molestiae.
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://www.scaleflex.com/en/home
+        description: >-
+          Lorem ipsum dolor sit amet. Aut corporis reiciendis aut omnis natus et blanditiis natus et cumque provident. Et expedita assumenda et numquam maiores est excepturi dignissimos ea mollitia voluptas id repellat expedita. Est impedit amet et quia alias qui beatae dolorem aut rerum animi eum labore odit aut numquam molestiae.
   others: ~
