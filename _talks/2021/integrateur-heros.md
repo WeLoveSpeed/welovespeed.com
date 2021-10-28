@@ -1,0 +1,32 @@
+---
+display-order: 1
+locale: fr_FR
+length: 45
+pub_date: "2021-10-26"
+speakers:
+  - jp_vincent
+fr_FR:
+  title: "Performance Web : l'intégrateur, ce héro"
+  description: >-
+    Intégrateur, il est temps de remonter au front !
+
+
+    Pour qu'un site s'affiche vite et reste fluide, déployer HTTP/3, webpack et des images compressées ne suffit carrément pas ! L'intégrateur reste le maître d'orchestre de l'affichage dans un navigateur. Passons en revue les pièges d'intégrations classiques comme ce slideshow sur la Home, ces belles polices, les animations, les menus et le responsive, puis voyons comment déployer des optimisations comme le lazy-loading et le critical CSS qui peuvent vite être contre-productives. 
+
+
+    Le tout sans toucher ni au backend ni au JS.
+  slides: ~
+  video: ~
+en_US:
+  title: "Web Performance: be a hero and leverage HTML/CSS"
+  description: >-
+    HTML/CSS devs, roll up your sleeves!
+
+
+    For a site to display quickly and remain fluid, deploying HTTP/3, webpack and compressed images is not enough! The HTML/CSS developer is still the master of the browser display. Let's review the pitfalls of classic integrations such as this slideshow on the Home page, these beautiful fonts, animations, menus and responsive design, then let's see how to deploy optimizations such as lazy-loading and critical CSS that can quickly be counter-productive. 
+
+
+    All this without touching the backend or the JS.
+  slides: ~
+  video: ~
+---
