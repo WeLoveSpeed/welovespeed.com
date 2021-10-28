@@ -2,7 +2,7 @@
 display-order: 1
 locale: fr_FR
 length: 45
-pub_date: "2021-10-26"
+pub_date: "2021-11-15"
 speakers:
   - jeremy_wyler
   - eric_camilleri
