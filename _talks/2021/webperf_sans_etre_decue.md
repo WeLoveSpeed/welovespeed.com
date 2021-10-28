@@ -7,7 +7,7 @@ speakers:
   - mathilde_duboille
   - francois_hendriks
 fr_FR:
-  title: "Faire de la webperf sans être décu·e"
+  title: "Faire de la webperf sans être déçu·e"
   description: >-
     Retour d'experience sur un projet d'amélioration de performance pour un géant de e-commerce du luxe français.
 
