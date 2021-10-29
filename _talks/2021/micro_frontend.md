@@ -9,7 +9,7 @@ speakers:
 fr_FR:
   title: "L’architecture Micro-Front, un levier pour la webperf ?"
   description: >-
-    L’architecture micro-front est de plus en plus mise en avant dans les grosses entreprises, mais on ne trouve que très peu de feedback sur les problématiques de webperf (multiplication des appels aux APIs, duplication de code, augmentation du nombre de ressources, etc.).
+    L’architecture micro-front est de plus en plus mise en avant dans les gandes entreprises, mais on ne trouve que très peu de feedback sur les problématiques de webperf (multiplication des appels aux APIs, duplication de code, augmentation du nombre de ressources, etc.).
 
 
     Pour répondre aux problématiques de Time to Market, de performance et de résilience, Leroy Merlin a choisi en 2017 de refondre son site internet sur la base d’une architecture micro-front. Nous sommes partis d’une feuille blanche et avons abordé dès le début et comme un seul sujet les problématiques de performance back et front.
