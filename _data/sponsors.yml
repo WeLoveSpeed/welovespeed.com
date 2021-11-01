@@ -480,4 +480,19 @@
           url: https://web.dev/learn-web-vitals/
         description: >-
           When it comes to user experience, speed matters. And delays caused by mobile speed aren’t just frustrating, they can also have a negative impact on business results. Download our new Mobile Site Speed Playbook to explore why speed matters, what it is and how to measure it, and then how to go about speeding up and staying fast.
+    - name: Scaleflex
+      slug: scaleflex
+      logo: /assets/images/thanks/scaleflex.png
+      fr_FR:
+        cta:
+          text: "Découvrez Scaleflex"
+          url: https://www.scaleflex.com/en/home
+        description: >-
+          Scaleflex est une entreprise B2B SaaS qui développe des solutions de gestion des actifs numériques et d'accélération des médias. Notre mission est de charger, stocker, organiser, optimiser, publier et distribuer tous types d'assets médias (images, vidéos, fichiers statiques tels que les fichiers JS et CSS, etc.) afin d'accélérer les applications web et mobiles.
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://www.scaleflex.com/en/home
+        description: >-
+          Scaleflex is a B2B SaaS company that develops digital asset management and media acceleration solutions. Our mission is to upload, store, organize, optimize, publish and distribute all types of media assets (images, videos, static files such as JS and CSS files, etc.) to accelerate web and mobile applications.
   others: ~
