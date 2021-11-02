@@ -19,6 +19,9 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/bertrandlaot/
+      - name: twitter
+        title: "@josselinbuils (Twitter)"
+        url: https://twitter.com/BertrandLaot
     en_US:
       bio: >-
         In love with the web for the past 15 years, I am front-end advocate at Leroy Merlin. I lead a community of front-end developers around the issues of web quality, including web performance and accessibility.
