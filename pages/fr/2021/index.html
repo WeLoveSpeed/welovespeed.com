@@ -62,15 +62,12 @@ permalink: /2021/
   </div>
 </section>
 
-
-{% comment %}
 {%- assign conferences = site.talks | where: "year", page.year | sort: "display-order" -%}
 {% assign nbconf = conferences | size %}
 {% if nbconf > 0 %}
   <hr class="wrapper">
   {% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}
 {% endif %}
-{% endcomment %}
 
   <hr class="wrapper">
 
