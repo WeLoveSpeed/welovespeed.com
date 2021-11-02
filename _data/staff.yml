@@ -2,35 +2,35 @@
   - firstname: Émilie
     lastname: Wilhelm
     slug: emilie
-    twitter: EmilieWilhelm
+    name_link: https://twitter.com/EmilieWilhelm
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
   - firstname: Jean-Pierre
     lastname: Vincent
     slug: jp
-    twitter: theystolemynick
+    name_link: https://twitter.com/theystolemynick
     links:
       - label: BrainCracking
         url: http://braincracking.org/
   - firstname: Audrey
     lastname: Schoonwater
     slug: audrey
-    twitter: witamine
+    name_link: https://twitter.com/witamine
     links:
       - label: Witamine
         url: https://www.witamine.com/
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
-    twitter: stefounet
+    name_link: https://twitter.com/stefounet
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
   - firstname: Boris
     lastname: Schapira
     slug: bsc
-    twitter: boostmarks
+    name_link: https://twitter.com/boostmarks
     links:
       - label: Contentsquare
         url: https://www.contentsquare.com/
@@ -43,14 +43,21 @@
   - firstname: Olivier
     lastname: Perrin
     slug: olivier
-    twitter: AlmarenaIt
+    name_link: https://twitter.com/AlmarenaIt
     links:
       - label: Almarena IT
         url: https://www.almarena-it.com/
+  - firstname: Shadine
+    lastname: Derbal
+    slug: shadined
+    name_link: https://www.linkedin.com/in/shadine-derbal/
+    links:
+      - label: Fasterize
+        url: https://www.fasterize.com/
   - firstname: Pierre
     lastname: Ammeloot
     slug: pierre
-    twitter: Pierre_A
+    name_link: https://twitter.com/Pierre_A
     links:
       - label: Site
         url: https://pierre.ammeloot.fr/
@@ -58,35 +65,35 @@
   - firstname: Émilie
     lastname: Wilhelm
     slug: emilie
-    twitter: EmilieWilhelm
+    name_link: https://twitter.com/EmilieWilhelm
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
   - firstname: Jean-Pierre
     lastname: Vincent
     slug: jp
-    twitter: theystolemynick
+    name_link: https://twitter.com/theystolemynick
     links:
       - label: BrainCracking
         url: http://braincracking.org/
   - firstname: Nicolas
     lastname: Goutay
     slug: ngo
-    twitter: Phacks
+    name_link: https://twitter.com/Phacks
     links:
       - label: Orbit
         url: https://orbit.love
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
-    twitter: stefounet
+    name_link: https://twitter.com/stefounet
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
   - firstname: Audrey
     lastname: Schoonwater
     slug: as
-    twitter: witamine
+    name_link: https://twitter.com/witamine
     links:
       - label: Twitter
         url: https://twitter.com/witamine
@@ -94,14 +101,14 @@
   - firstname: Boris
     lastname: Schapira
     slug: bsc
-    twitter: boostmarks
+    name_link: https://twitter.com/boostmarks
     links:
       - label: Dareboost
         url: https://www.dareboost.com/
   - firstname: Émilie
     lastname: Wilhelm
     slug: emilie
-    twitter: EmilieWilhelm
+    name_link: https://twitter.com/EmilieWilhelm
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
@@ -110,14 +117,14 @@
   - firstname: Jean-Pierre
     lastname: Vincent
     slug: jp
-    twitter: theystolemynick
+    name_link: https://twitter.com/theystolemynick
     links:
       - label: BrainCracking
         url: http://braincracking.org/
   - firstname: Nicolas
     lastname: Goutay
     slug: ngo
-    twitter: Phacks
+    name_link: https://twitter.com/Phacks
     links:
       - label: Theodo
         url: https://www.theodo.fr/
@@ -130,7 +137,7 @@
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
-    twitter: stefounet
+    name_link: https://twitter.com/stefounet
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
@@ -148,7 +155,7 @@
   - firstname: Boris
     lastname: Schapira
     slug: bsc
-    twitter: boostmarks
+    name_link: https://twitter.com/boostmarks
     links:
       - label: Dareboost
         url: https://www.dareboost.com/
@@ -161,7 +168,7 @@
   - firstname: Émilie
     lastname: Wilhelm
     slug: emilie
-    twitter: EmilieWilhelm
+    name_link: https://twitter.com/EmilieWilhelm
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
@@ -170,7 +177,7 @@
   - firstname: Jean-Pierre
     lastname: Vincent
     slug: jp
-    twitter: theystolemynick
+    name_link: https://twitter.com/theystolemynick
     links:
       - label: BrainCracking
         url: http://braincracking.org/
@@ -189,7 +196,7 @@
   - firstname: Stéphane
     lastname: Rios
     slug: stephane
-    twitter: stefounet
+    name_link: https://twitter.com/stefounet
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
