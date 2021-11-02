@@ -312,6 +312,38 @@
     fr_FR:
       bio: >-
         Gabriel Pillet — CTO chez Web^ID. Après 12 ans en tant que dev backend Symfony, Gabriel a été Lead QA en startup et dirige aujourd'hui la technique dans une petite agence tech Lyonnaise / Caennoise : Web^ID.
+  jeremie_pereira:
+    name: Jérémie Pereira
+    image: /assets/images/speakers/2021/jeremie_pereira_sq.jpg
+    urls:
+      - name: twitter
+        title: "@jeremieP (Twitter)"
+        url: https://twitter.com/jeremieP
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/jeremiepereira/
+    en_US:
+      bio: >-
+        Passionate about the web for 15 years, I am a frontend lead developer at leboncoin, which I joined 9 years ago. I actively participated in the responsive redesign of the site, the total redesign of the frontend stack and I am now passionate about performance, accessibility or developer experience.
+    fr_FR:
+      bio: >-
+        Passionné du web depuis 15 ans, je suis lead développeur frontend chez leboncoin, que j’ai rejoint il y a 9 ans maintenant. J’ai activement participé à la refonte responsive du site, à la refonte totale de la stack frontend et me passionne aujourd’hui pour les sujets de performances, d’accessibilité ou de developer experience.
+  xavier_bouteiller:
+    name: Xavier Bouteiller
+    image: /assets/images/speakers/2021/xavier_bouteiller_sq.jpg
+    urls:
+      - name: twitter
+        title: "@xavierbllr (Twitter)"
+        url: https://twitter.com/xavierbllr
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/xavierbouteiller
+    en_US:
+      bio: >-
+        After several experiences in e-commerce sites and marketplaces in various fields (home, fashion ...), I joined leboncoin in 2020, as Product Owner. Having always contributed to product evolutions in relation with acquisition issues, it is quite natural that I became passionate about SEO and webperfs.
+    fr_FR:
+      bio: >-
+        Après plusieurs expériences au sein de sites e-commerce et marketplace dans différents domaines (maison, mode…), j’ai rejoint leboncoin en 2020, en tant que Product Owner. Ayant toujours contribué à apporter des évolutions produits en lien avec des enjeux d’acquisition, c’est tout naturellement que je me suis passionné pour le SEO et les webperfs.
 2020:
   marta:
     name: Marta Wiśniewska
