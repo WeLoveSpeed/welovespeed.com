@@ -4,7 +4,12 @@
     <h2 class="text-center">
       {% t Aperçu %}
     </h2>
-    {% for conference in include.conferences %}
+  </div>
+</section>
+
+{% for conference in include.conferences %}
+  <section class="section talks">
+    <div class="wrapper">
       {% capture pubDateUnix %}{{ conference.pub_date | date: '%s' }}{% endcapture %}
       {% if pubDateUnix <= nowUnix %}
 
@@ -83,9 +88,10 @@
           </a>
           {% endif %}
       </p>
-    {%- endfor -%}
-  </div>
-</section>
+    </div>
+  </section>
+  {% include banners/banner-lyon-palais.html locale=page.locale %}
+{%- endfor -%}
 
 <hr>
 
