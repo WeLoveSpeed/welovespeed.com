@@ -497,7 +497,7 @@
           Scaleflex is a B2B SaaS company that develops digital asset management and media acceleration solutions. Our mission is to upload, store, organize, optimize, publish and distribute all types of media assets (images, videos, static files such as JS and CSS files, etc.) to accelerate web and mobile applications.
     - name: Le Bon Coin
       slug: leboncoin
-      logo: /assets/images/thanks/leboncoin.svg
+      logo: /assets/images/thanks/lbc.svg
       fr_FR:
         cta:
           text: "En savoir plus sur notre webperf"
