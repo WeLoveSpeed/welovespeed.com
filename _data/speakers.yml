@@ -36,14 +36,17 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/jeremywyler/
+      - name: twitter
+        title: "@jay_wyler (Twitter)"
+        url: https://twitter.com/jay_wyler
     en_US:
       title: SEO Manager - Solocal
       bio: >-
-        Jérémy Wyler is SEO manager at Solocal. He leads the local SEO strategy for the group's website offering, with nearly 40,000 clients to his credit. Jérémy and his SEO team conduct semantic studies and audits for each of Solocal's mid- and high-end websites. Jérémy also develops internal SEO tools for the automation of semantic and competitive analysis.
+        Jérémy Wyler is SEO manager at Solocal. He leads the local SEO strategy for the group's website offering, with nearly 40,000 clients to his credit. Jérémy and his SEO team conduct semantic studies and audits for each of Solocal's mid- and high-end websites. Jérémy also develops internal SEO tools for [the automation of semantic and competitive analysis](https://www.jeremywyler.fr/).
     fr_FR:
       title: Responsable SEO - Solocal
       bio: >-
-        Jérémy Wyler est responsable SEO chez Solocal. Il dirige la stratégie de référencement local pour l'offre de site internet du groupe, comptant près de 40 000 clients à son actif. Jérémy et son équipe de SEO, réalisent études sémantiques et audit pour chacun des sites des offres milieu et haut de gamme proposée par Solocal. Jérémy s'occupe par ailleurs du développement d'outils SEO interne pour l’automatisation des analyses sémantiques et concurrentielles.
+        Jérémy Wyler est responsable SEO chez Solocal. Il dirige la stratégie de référencement local pour l'offre de site internet du groupe, comptant près de 40 000 clients à son actif. Jérémy et son équipe de SEO, réalisent études sémantiques et audit pour chacun des sites des offres milieu et haut de gamme proposée par Solocal. Jérémy s'occupe par ailleurs du développement d'outils SEO interne pour [l’automatisation des analyses sémantiques et concurrentielles](https://www.jeremywyler.fr/).
   amir_glatt:
     locale: en_US
     name: Amir Glatt
