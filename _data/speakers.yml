@@ -29,31 +29,37 @@
       bio: >-
         Amoureux du web depuis une quinzaine d'année, je suis front-end developer advocate chez Leroy Merlin. J'anime une communauté de développeurs front-end autour des enjeux de la qualité web, notamment la web performance et l'accessibilité.
   jeremy_wyler:
+    locale: fr_FR
     name: Jeremy Wyler
-    image: /assets/images/speakers/2021/jeremy_wyler.jpg
+    image: /assets/images/speakers/2021/jeremy_wyler2.jpg
     urls:
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/jeremywyler/
     en_US:
+      title: SEO Manager - Solocal
       bio: >-
-        Jérémy is the SEO manager for the Sites division at Solocal. He leads the local SEO strategy for the website offering, with nearly 40,000 clients to his credit. Jérémy and his team of SEO managers are in charge of implementing SEO strategies and audits for each of Solocal's mid-range and high-end websites, and developing internal SEO tools.
+        Jérémy Wyler is SEO manager at Solocal. He leads the local SEO strategy for the group's website offering, with nearly 40,000 clients to his credit. Jérémy and his SEO team conduct semantic studies and audits for each of Solocal's mid- and high-end websites. Jérémy also develops internal SEO tools for the automation of semantic and competitive analysis.
     fr_FR:
+      title: Responsable SEO - Solocal
       bio: >-
-        Jérémy est le responsable SEO de la division Sites chez Solocal. Il dirige la stratégie de référencement local pour l'offre de site internet, comptant près de 40 000 clients à son actif. Jérémy et son équipe de chargés de SEO, ont la charge de la réalisation des stratégies SEO et audit pour chacun des sites des offres milieu et haut de gamme proposée par Solocal, et du développement des outils SEO interne.
-  eric_camilleri:
-    name: Eric Camilleri
-    image: /assets/images/speakers/2021/eric_camilleri.jpg
+        Jérémy Wyler est responsable SEO chez Solocal. Il dirige la stratégie de référencement local pour l'offre de site internet du groupe, comptant près de 40 000 clients à son actif. Jérémy et son équipe de SEO, réalisent études sémantiques et audit pour chacun des sites des offres milieu et haut de gamme proposée par Solocal. Jérémy s'occupe par ailleurs du développement d'outils SEO interne pour l’automatisation des analyses sémantiques et concurrentielles.
+  amir_glatt:
+    locale: en_US
+    name: Amir Glatt
+    image: /assets/images/speakers/2021/amir_glatt.jpg
     urls:
       - name: linkedin
         title: LinkedIn
-        url: https://www.linkedin.com/in/camilleri/
+        url: https://www.linkedin.com/in/amirglatt/
     en_US:
+      title: Co-founder & CTO of Duda
       bio: >-
-        Eric is the Ux & Design Manager for the Sites division at Solocal. Eric and his team are in charge of creating site models and custom designs proposed by Solocal, and coordinating the integration of technical and functional evolutions of the Duda platform into Solocal's site production processes.
+        Co-founder and CTO of Duda, Amir Glatt has over 20 years of experience in product management, software architecture expertise and managing large development teams. Starting as Duda's only developer and engineer, Amir is the original mind behind the company's unique platform. In 2010, he left California and returned to Tel Aviv to open and oversee the company's new research and development facility. Under Amir's leadership, this team has grown to include over 80 highly skilled engineers and product managers.
     fr_FR:
+      title: Co-fondateur et CTO - Duda
       bio: >-
-        Eric est le responsable Ux & Design de la division Sites chez Solocal. Eric et son équipe ont la charge de la réalisation des modèles de site et design sur mesure proposés par Solocal, et de la coordination de l'intégration des évolutions technique et fonctionnelle de la plateforme Duda, dans les process de fabrication des sites solocal.
+        Co-fondateur et CTO de Duda, Amir Glatt a plus de 20 ans d'expérience dans la gestion de produits, l'expertise en architecture logicielle et la gestion de grandes équipes de développement. Ayant commencé en tant que seul développeur et ingénieur de Duda, Amir est l'esprit original derrière la plate-forme, seule en son genre, de l'entreprise. En 2010, il quitte la Californie et revient à Tel-Aviv pour ouvrir et superviser le nouveau bureau de recherche et développement de l'entreprise. Sous la direction d'Amir, cette équipe s'est agrandie pour compter aujourd'hui plus de 80 ingénieurs et chefs de produits hautement qualifiés.
   mathilde_duboille:
     name: Mathilde Duboille
     image: /assets/images/speakers/2021/mathilde_duboille.jpg
@@ -296,22 +302,6 @@
 
 
         Spécialiste dans les migrations et refontes de sites Web, j'attache une importance toute particulière aux enjeux liés à l'index mobile first, ainsi qu’à la web performance.
-  gabriel_pillet:
-    name: Gabriel Pillet
-    image: /assets/images/speakers/2021/gabriel_pillet.jpg
-    urls:
-      - name: twitter
-        title: "@tentacode (Twitter)"
-        url: https://twitter.com/tentacode
-      - name: linkedin
-        title: LinkedIn
-        url: https://www.linkedin.com/in/gabrielpillet
-    en_US:
-      bio: >-
-        Gabriel Pillet - CTO at Web^ID. After 12 years as a Symfony backend developer, Gabriel was Lead QA in a startup and is now in charge of the technical side of a small tech agency in Lyon & Caen: Web^ID.
-    fr_FR:
-      bio: >-
-        Gabriel Pillet — CTO chez Web^ID. Après 12 ans en tant que dev backend Symfony, Gabriel a été Lead QA en startup et dirige aujourd'hui la technique dans une petite agence tech Lyonnaise / Caennoise : Web^ID.
   jeremie_pereira:
     name: Jérémie Pereira
     image: /assets/images/speakers/2021/jeremie_pereira_sq.jpg
