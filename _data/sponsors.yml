@@ -520,3 +520,6 @@
     - name: Solocal
       logo: /assets/images/thanks/solocal.svg
       url: https://www.solocal.com/
+    - name: Duda
+      logo: /assets/images/thanks/duda.svg
+      url: https://www.duda.co/
