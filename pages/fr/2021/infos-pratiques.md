@@ -1,7 +1,7 @@
 ---
 title: Infos pratiques
 description: "Toutes les infos à propos de l'événement"
-i18n-key: 2021-informations
+i18n-key: informations
 permalink: /2021/infos-pratiques/
 layout: page
 ---
