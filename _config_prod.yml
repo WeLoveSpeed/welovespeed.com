@@ -32,6 +32,8 @@ tickets:
   waiting-list: false
   price: "220+"
   price_currency: "EUR"
+infos:
+  display: true
 
 # Compression du code HTML en production
 compress_html:
