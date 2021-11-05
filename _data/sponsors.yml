@@ -517,3 +517,6 @@
     - name: Stickermule
       logo: /assets/images/thanks/stickermule.svg
       url: https://mule.to/p2cy
+    - name: Solocal
+      logo: /assets/images/thanks/solocal.svg
+      url: https://www.solocal.com/
