@@ -33,6 +33,10 @@ Le prix oscille entre 60 € (achat anticipé) et 90 € (dernière minute).
 
 Attention il y a 2 gares à Lyon. La gare de **Lyon Perrache** vous permettra de gagner 10 minutes sur votre voyage.
 
+### En avion 🛬
+
+L’aéroport international de St-Exupéry ([LYS](https://www.lyonaeroports.com/)) est à 40 minutes en transport en commun de notre salle. Prenez le trawmay jusqu'au métro A (20 mn), puis suivez la A jusqu’à la sation Cordeliers.
+
 
 ### En transport en commun 🚋 / à pied 🚶‍♂️🚶‍♀️
 
@@ -43,7 +47,7 @@ Depuis la gare de **Lyon Part-Dieu**, prendre le bus C13 à l’arrêt Gare Part
 Dans les 2 cas, contourner le bâtiment car l’accès se fait côté parc (Place de la Bourse).
 
 
-Pour votre calcul d’itinéraire, vous pouvez utiliser [Ilevia](https://www.ilevia.fr/cms/institutionnel/se-deplacer/#itineraires) (⚠️ indiquer “Rue de la Bourse”) ou consulter le [plan de la ligne C13](https://www.tcl.fr/lignes/ligne-majeure-c13) en PDF.
+Pour votre calcul d’itinéraire, vous pouvez utiliser [TCL.fr](https://www.tcl.fr/itineraires) (⚠️ indiquer “Rue de la Bourse”) ou consulter le [plan de la ligne C13](https://www.tcl.fr/lignes/ligne-majeure-c13) en PDF.
 
 
 Utilisateur de Google Maps : viser [QR7P+PH Lyon](https://www.google.com/maps/place/Networking+day/@45.7641224,4.8360377,19z/data=!4m5!3m4!1s0x47f4eb96cac90623:0x50f1f2eed592b9d9!8m2!3d45.7642847!4d4.8365436).
