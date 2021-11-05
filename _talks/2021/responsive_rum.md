@@ -22,6 +22,7 @@ fr_FR:
 
     - les connexions.
 
+
     Rester simple et pertinent n'est cependant pas facile !
 
     Découvrez les différentes approches et la manière de les appliquer à vos solutions de suivi RUM existantes, qu'elles soient gratuites (Google Analytics), open source (Boomerang) ou commerciales.
@@ -45,6 +46,7 @@ en_US:
     - Image and CSS breakpoints
 
     - Connections
+
 
     Keeping it both simple and meaningful is however not easy!
 
