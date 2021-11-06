@@ -510,6 +510,21 @@
           url: https://medium.com/leboncoin-engineering-blog/how-we-are-improving-our-web-performance-9f850d59d810
         description: >-
           With 30 million unique visitors per month on leboncoin, our tech & product teams are committed to providing our users with the best possible experience to find the right deal. We are working on improving our webperf, and are excited to support those who make the We Love Speed conference happen.
+    - name: Octoperf
+      slug: octoperf
+      logo: /assets/images/thanks/octoperf.svg
+      fr_FR:
+        cta:
+          text: "Tester Octoperf"
+          url: https://octoperf.com
+        description: >-
+          OctoPerf est un logiciel SaaS et On-Premise dédié au test de performance. Fort de son moteur basé sur JMeter, OctoPerf propose une interface moderne permettant aux équipes d'industrialiser rapidement et simplement le processus de test de performance. La version SaaS est évaluable gratuitement en ligne.
+      en_US:
+        cta:
+          text: "Test Octoperf"
+          url: https://octoperf.com
+        description: >-
+          OctoPerf is a SaaS and On-Premise software dedicated to performance testing. Leveraging its engine based on JMeter, OctoPerf offers a modern interface allowing teams to quickly and easily industrialize the performance testing process. The SaaS version can be evaluated online for free.
   others:
     - name: SEO CAMP
       logo: /assets/images/thanks/seocamp.svg
