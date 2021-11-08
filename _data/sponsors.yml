@@ -544,3 +544,6 @@
     - name: Adeo
       logo: /assets/images/thanks/adeo.svg
       url: https://www.adeo.com/
+    - name: Sitebulb
+      logo: /assets/images/thanks/sitebulb.svg
+      url: https://sitebulb.com/?utm_source=welovespeed&utm_medium=website&utm_campaign=wls-sponsorship
