@@ -55,21 +55,26 @@ permalink: /2021/billetterie/
 
 <hr class="wrapper">
 
+{% if site.infos.diversity %}
 <section class="section">
   <div class="wrapper">
     <h2 id="diversity">Tickets Pro-Diversité</h2>
 
     <p>Les personnes ayant l'impression d'appartenir à un groupe sous-représenté dans le domaine de la technologie (cela comprend, sans s'y limiter : les personnes de couleur, les personnes LGBTQIA+, les femmes et les personnes handicapées) sont éligibles à un <i lang="en">Diversity Ticket</i> leur permettant de bénéficier d'un billet gratuit pour l'événement.</p>
 
-    <p>Merci à <a href="https://www.seo-camp.org/">l'association SEO CAMP</a>, qui finance cette initiative pour cette édition.</p>
+    <p>Merci à <a href="https://www.seo-camp.org/">l'association SEO CAMP</a>, qui finance en partie cette initiative cette année.</p>
+
+    {% if site.infos.diversity.soldout -%}
+    <p><i>Malheureusement, tous les billets pro-diversité ont déjà été distribués. Si vous ou votre entreprise souhaitez financer de nouveaux billets, n'hésitez pas à nous contacter.</i></p>
+    {%- endif -%}
+
 
     <div class="text-center">
-      <a class="button" target="_blank" href="{{ "/contact" | relative_url }}" data-text="Faire une demande de billet">
-        <span class="button-inner">Faire une demande de billet</span>
-      </a>
+      <a class="button" data-text="{% if site.infos.diversity.soldout %}Demander à être en liste d'attente pour{% else %}Demander{% endif %} un billet pro-diversité" href="{{ "/en/contact" | relative_url }}"><span class="button-inner">{% if site.infos.diversity.soldout %}Demander à être en liste d'attente pour{% else %}Demander{% endif %} un billet pro-diversité</span></a>
     </div>
   </div>
 </section>
+{% endif %}
 
 {% endif %}
 {% if site.infos.display %}

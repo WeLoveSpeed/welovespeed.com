@@ -53,6 +53,7 @@ permalink: /en/2021/register/
 </section>
 
 
+{% if site.infos.diversity %}
 <hr class="wrapper">
 
 <section class="section">
@@ -61,13 +62,18 @@ permalink: /en/2021/register/
 
     <p>If you feel like you are a member of an underrepresented group in tech — this includes, but is not limited to: people of colour, LGBTQIA+ people, women and disabled people — you are eligible for a Diversity Ticket.</p>
 
-    <p>Thanks to the <a href="https://www.seo-camp.org/">SEO CAMP Association</a>, which funds these tickets this year.</p>
+    <p>Thanks to the <a href="https://www.seo-camp.org/">SEO CAMP Association</a>, which funds some of these tickets this year.</p>
+
+    {% if site.infos.diversity.soldout -%}
+    <p><i>Unfortunately, all the diversity tickets have already been distributed. If you or your company would like to fund a new tickets, please contact us.</i></p>
+    {%- endif -%}
 
     <p class="text-center">
-      <a class="button" data-text="Request a Diversity Ticket" href="{{ "/en/contact" | relative_url }}"><span class="button-inner">Request a Diversity Ticket</span></a>
+      <a class="button" data-text="{% if site.infos.diversity.soldout %}Write to be in line for{% else %}Request{% endif %} a Diversity Ticket" href="{{ "/en/contact" | relative_url }}"><span class="button-inner">{% if site.infos.diversity.soldout %}Write to be in line for{% else %}Request{% endif %} a Diversity Ticket</span></a>
     </p>
   </div>
 </section>
+{% endif %}
 
 {% endif %}
 {% if site.infos.display %}
