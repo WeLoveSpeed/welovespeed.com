@@ -66,7 +66,7 @@ Les conférences ne seront pas sous-titrées en direct (vélotypie) ni signées.
 
 ## Alimentation <span aria-hidden>🥘</span>
 
-Chaque billet pour We Love Speed inclut les prestations d’accueil, pendant les pauses et lors du déjeuner. Un large choix de mets permettra notamment aux végétariens et végans de trouver leur bonheur. Nous invitons les allergiques aux gluten à nous contacter pour des préparations sur-mesure.
+Chaque billet pour We Love Speed inclut les prestations d’accueil, pendant les pauses et lors du déjeuner. Un large choix de mets permettra notamment aux végétariens et végans de trouver leur bonheur. Nous invitons les allergiques au gluten à nous contacter pour des préparations sur-mesure.
 
 ## Pourquoi Lyon ? <span aria-hidden>💡</span>
 

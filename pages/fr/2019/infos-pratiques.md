@@ -61,7 +61,7 @@ Si vous êtes en mesure de prendre en charge cet investissement, ou si vous avez
 
 Chaque billet pour We Love Speed inclut les prestations d’accueil, pendant les pauses et lors du déjeuner. Un large choix de mets permettra notamment aux végétariens et végans de trouver son bonheur.
 
-Nous invitons les allergiques aux gluten à nous contacter pour des préparations sur-mesure.
+Nous invitons les allergiques au gluten à nous contacter pour des préparations sur-mesure.
 
 ## Pourquoi Lille ? 💡
 
