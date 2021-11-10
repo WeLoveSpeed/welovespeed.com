@@ -535,9 +535,12 @@
     - name: Solocal
       logo: /assets/images/thanks/solocal.svg
       url: https://www.solocal.com/
-    - name: Duda
-      logo: /assets/images/thanks/duda.svg
-      url: https://www.duda.co/
     - name: Mano Mano Tech Teams
       logo: /assets/images/thanks/mmtt.svg
       url: https://jobs.lever.co/manomano
+    - name: Duda
+      logo: /assets/images/thanks/duda.svg
+      url: https://www.duda.co/
+    - name: Adeo
+      logo: /assets/images/thanks/adeo.svg
+      url: https://www.adeo.com/
