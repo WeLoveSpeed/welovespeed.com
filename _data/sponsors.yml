@@ -525,6 +525,21 @@
           url: https://octoperf.com
         description: >-
           OctoPerf is a SaaS and On-Premise software dedicated to performance testing. Leveraging its engine based on JMeter, OctoPerf offers a modern interface allowing teams to quickly and easily industrialize the performance testing process. The SaaS version can be evaluated online for free.
+    - name: Contentsquare
+      slug: contentsquare
+      logo: /assets/images/thanks/contentsquare.svg
+      fr_FR:
+        cta:
+          text: "Call To Action FR"
+          url: https://contentsquare.com/
+        description: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commoda autem et incommoda in eo genere sunt, quae praeposita et reiecta diximus; Non modo carum sibi quemque, verum etiam vehementer carum esse? Duo Reges: constructio interrete. Illum mallem levares, quo optimum atque humanissimum virum.
+      en_US:
+        cta:
+          text: "Call To Action EN"
+          url: https://contentsquare.com/
+        description: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commoda autem et incommoda in eo genere sunt, quae praeposita et reiecta diximus; Non modo carum sibi quemque, verum etiam vehementer carum esse? Duo Reges: constructio interrete. Illum mallem levares, quo optimum atque humanissimum virum.
   others:
     - name: SEO CAMP
       logo: /assets/images/thanks/seocamp.svg
