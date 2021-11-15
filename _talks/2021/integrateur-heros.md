@@ -6,7 +6,7 @@ pub_date: "2021-10-26"
 speakers:
   - jp_vincent
 fr_FR:
-  title: "Performance Web : l'intégrateur, ce héro"
+  title: "Performance Web : l'intégrateur, ce héros"
   description: >-
     Intégrateur, il est temps de remonter au front !
 
