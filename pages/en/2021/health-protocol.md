@@ -14,7 +14,10 @@ _This page reflects the protocol at a certain time. It is likely to be updated u
 
 ## Protocol in Effect Since August 2021
 
-A **Health Path** is required to participate in the event: digital, mobile PDF or printed PDF formats are accepted. If you have a vaccination certificate issued out of France but not a French Health Pass, you can [apply for a conversion](https://www.demarches-simplifiees.fr/commencer/passe-sanitaire-etrangers?locale=en).
+Restrictions are in force in metropolitan France. While you are in France you will need to present a **Health Path** (_Pass Sanitaire_) for access to certain events and places.
+If you have a vaccination certificate issued out of France but not a French Health Pass, please follow the procedure issued by France Diplomacy: "[Applying for a COVID certificate if you were vaccinated abroad (procedure for non-European nationals entering France and non-European students)](https://www.diplomatie.gouv.fr/en/coming-to-france/coronavirus-advice-for-foreign-nationals-in-france/coronavirus-statements/article/applying-for-a-covid-certificate-if-you-were-vaccinated-abroad-procedure-for)".
+
+_During your stay in France, download and activate the [#TousAntiCovid](https://www.gouvernement.fr/info-coronavirus/tousanticovid) application._
 
 We ask that you **wear a mask** with a filtration rate of over 90% or a surgical mask when you travel. You can remove it when you enjoy our snacks or meals.
 
