@@ -530,16 +530,16 @@
       logo: /assets/images/thanks/contentsquare.svg
       fr_FR:
         cta:
-          text: "Call To Action FR"
-          url: https://contentsquare.com/
+          text: "Demander une Démo"
+          url: https://contentsquare.com/fr-fr/demo/
         description: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commoda autem et incommoda in eo genere sunt, quae praeposita et reiecta diximus; Non modo carum sibi quemque, verum etiam vehementer carum esse? Duo Reges: constructio interrete. Illum mallem levares, quo optimum atque humanissimum virum.
+          Contentsquare permet aux marques de créer de meilleures expériences digitales sur leurs sites web, mobile et Apps. Notre technologie collecte des milliards de mouvements de souris et d’interactions Mobile, afin d’analyser le parcours des utilisateurs, d’identifier les points de friction, de mesurer la performance des contenus (textes, images, vidéos), et de comparer l’impact des prix et la pertinence des produits.
       en_US:
         cta:
-          text: "Call To Action EN"
-          url: https://contentsquare.com/
+          text: "Get a Demo"
+          url: https://contentsquare.com/request-a-demo/
         description: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commoda autem et incommoda in eo genere sunt, quae praeposita et reiecta diximus; Non modo carum sibi quemque, verum etiam vehementer carum esse? Duo Reges: constructio interrete. Illum mallem levares, quo optimum atque humanissimum virum.
+          Contentsquare empower brands to create better digital experiences on their desktop & mobile websites, and apps. Our technology collects billions of mouse movements and mobile interactions to analyze the user journey, identify friction points, measure content performance (text, images, videos), and compare the impact of pricing and product relevance.
   others:
     - name: SEO CAMP
       logo: /assets/images/thanks/seocamp.svg
