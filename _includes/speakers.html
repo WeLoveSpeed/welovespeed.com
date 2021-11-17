@@ -13,7 +13,7 @@
     <h{% if include.h1 %}1{% else %}2{% endif %} class="text-center">
         <span class="inline-not-large">{% t Intervenant‧es %}</span><span class="inline-large">{% t Intervenants et Intervenantes %}</span>
     </h{% if include.h1 %}1{% else %}2{% endif %}>
-    <div class="grid-{{ site.data.gridsize[nbItemGrid] }} text-center">
+    <div class="grid-{{ site.data.gridsize[nbItemGrid] }} text-center randomize">
     {%- for name in visibleSpeakers -%}
       {% assign speaker = yearSpeakers[name] %}
       <figure class="person {{ name }}">

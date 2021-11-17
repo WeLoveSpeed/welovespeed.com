@@ -2,7 +2,7 @@
 {% capture nbitems %}{{staff | size}}i{% endcapture %}
 <section id="staff">
     <h2 class="text-center">{% t L'Équipe %}</h2>
-    <div class="grid-{{ site.data.gridsize[nbitems] }} text-center">
+    <div class="grid-{{ site.data.gridsize[nbitems] }} text-center randomize">
       {% for member in staff %}
         <figure class="person" role="group" aria-describedby="capt-{{member.slug}}">
           {% cloudinary avatar {{ "/assets/images/staff/" | append: member.slug | append: ".jpg" | relative_url }} class="person-avatar lozad" alt="{{member.firstname}} {{member.lastname}}" loading="lazy" %}

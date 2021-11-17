@@ -1,5 +1,15 @@
 (function () {
 
+  // Randomize collections
+  document.addEventListener('DOMContentLoaded', function(){
+    const collections = document.querySelectorAll(".randomize");
+    collections.forEach(collection => {
+      for (var i = collection.children.length; i >= 0; i--) {
+        collection.appendChild(collection.children[Math.random() * i | 0]);
+      }
+    });
+  });
+
   // Manage lang linkgs
   document.addEventListener('DOMContentLoaded', function(){
     document.querySelectorAll('a[hreflang]').forEach(function(element) {
