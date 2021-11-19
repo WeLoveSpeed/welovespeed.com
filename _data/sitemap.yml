@@ -5,12 +5,12 @@
     edition_relative: true
     in_nav: true
     in_footer: false
-  # - name: Interventions
-  #   type: page
-  #   value: interventions
-  #   edition_relative: true
-  #   in_nav: true
-  #   in_footer: true
+  - name: Interventions
+    type: page
+    value: interventions
+    edition_relative: true
+    in_nav: true
+    in_footer: true
   - name: Billetterie
     type: page
     value: billetterie
