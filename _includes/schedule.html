@@ -54,16 +54,19 @@
                         <div class="talk-summary">
                           <h2>{{ talk[include.locale].title }}</h2>
                           <p class="talk-authors">
-                            {% unless locale == include.locale %}<strong>{{ " en anglais" | t: page.locale }}</strong>{% endunless %}
+                            {% if talk.locale %}{% unless talk.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}{% endif %}
                             {%- for speakerSlug in talk.speakers -%}
                               {% assign speaker = site.data.speakers[include.year][speakerSlug] %}
-                              {% if forloop.first %} {%t par %} {{ speaker.name }}{% else %}{{ speaker.name }}{% endif %}{%- unless forloop.last -%}, {%- endunless -%}
-                            {%- endfor -%}{% if talk.length %}<br><span aria-hidden="true">🕑</span> {{talk.length}} minutes + questions{% endif %}<span class="schedule-room">{{ rooms[forloop.index0][include.locale] }}</span>
+                              {% if forloop.first %} {%t par %} {{ speaker.name }}{% else %}{{ speaker.name }}{% endif %}
+                              {% if speaker.locale %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}{% endif %}
+                              {% unless forloop.last -%}, {%- endunless -%}
+                            {%- endfor -%}{% if talk.length %}<br><span aria-hidden="true">🕑</span> {{talk.length}} minutes{% if talk.length < 30 %} + questions{% endif %}{% endif %}<span class="schedule-room">{{ rooms[forloop.index0][include.locale] }}</span>
                           </p>
                         </div>
                       </header>
                       <section class="talk-excerpt">
-                        <p>{{ talk[include.locale].description | truncatewords: 40 }}</p>
+                        {% assign localizedTalk = talk[include.locale] %}
+                        <p>{{ localizedTalk.excerpt | default:localizedTalk.description | truncatewords: 40 }}</p>
                       </section>
                     </a>
                   </td>

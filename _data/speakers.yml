@@ -1,4 +1,13 @@
 2021:
+  attendees:
+    name: ~
+    image: /assets/images/speakers/incognito.png
+    en_US:
+      bio: >-
+        You!
+    fr_FR:
+      bio: >-
+        Vous !
   ludovic_lagatie:
     name: Ludovic Lagatie
     image: /assets/images/speakers/2021/ludovic_lagatie.jpg

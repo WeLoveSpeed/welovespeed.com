@@ -8,11 +8,13 @@ speakers:
   - francois_hendriks
 fr_FR:
   title: "Faire de la webperf sans être déçu·e"
+  excerpt: >-
+    Retour d'experience sur un projet d'amélioration de performance pour un géant de e-commerce du luxe français.
   description: >-
     Retour d'experience sur un projet d'amélioration de performance pour un géant de e-commerce du luxe français.
 
 
-    **Objectif :** Faire passer le score Lighthouse en 3G de 2/100 à 70/100. Ambitieux 🧐 ? Et oui... Mais avec une équipe de choc de 3 développeurs à temps plein sur le projet 🧑🏽‍💻👩🏼‍💻!
+    Objectif : Faire passer le score Lighthouse en 3G de 2/100 à 70/100. Ambitieux 🧐 ? Et oui... Mais avec une équipe de choc de 3 développeurs à temps plein sur le projet 🧑🏽‍💻👩🏼‍💻!
 
 
     Ce talk parlera du gros travail de performance qui a été fait sur un site SSR en NextJS, notamment avec :
@@ -39,6 +41,8 @@ fr_FR:
   video: ~
 en_US:
   title: "Doing webperf without being disappointed"
+  excerpt: >-
+    Feedback on a performance optimization project for a French luxury e-commerce giant.
   description: >-
     Feedback on a performance optimization project for a French luxury e-commerce giant.
 

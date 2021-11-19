@@ -1,7 +1,7 @@
 ---
 display-order: 1
 locale: fr_FR
-length: 45
+length: 25
 pub_date: "2021-10-26"
 speakers:
   - jeremie_pereira
