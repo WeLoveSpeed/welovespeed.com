@@ -565,3 +565,6 @@
     - name: Cdiscount
       logo: /assets/images/thanks/cdiscount.svg
       url: https://www.cdiscount.com/
+    - name: "Almarena IT"
+      logo: /assets/images/thanks/almarena.svg
+      url: https://www.almarena-it.com/fr/
