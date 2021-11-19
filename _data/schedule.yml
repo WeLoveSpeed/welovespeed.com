@@ -383,15 +383,21 @@
   - type: pause
     hour: "09:00"
     values:
-      fr_FR: Accueil des participant·es
-      en_US: Attendees' welcome
+      fr_FR: "Accueil des participant·es"
+      en_US: "Attendees' welcome"
   - type: short
     hour: "09:30"
     values:
-      fr_FR: Ouverture des conférences
-      en_US: Conference Opening
+      fr_FR: "Ouverture des conférences"
+      en_US: "Conference Opening"
   - type: talks
-    hour: ""
+    hour: "09:45"
     values:
       - webperf_101
       - optimize_4k_websites
+  - type: talks
+    hour: "10:40"
+    values:
+      - lcp-deep-dive
+      - culture_leboncoin
+
