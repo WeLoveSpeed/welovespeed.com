@@ -1,13 +1,12 @@
 2021:
   attendees:
-    name: ~
-    image: /assets/images/speakers/incognito.png
+    image: /assets/images/speakers/attendees.png
     en_US:
       bio: >-
-        You!
+        Decision-makers, developers, novices or experts, you must have something to share!
     fr_FR:
       bio: >-
-        Vous !
+        Que vous soyez à un poste décisionnel ou dans une équipe de développement, novices ou expert·es, vous avez forcément quelque chose à partager !
   ludovic_lagatie:
     name: Ludovic Lagatie
     image: /assets/images/speakers/2021/ludovic_lagatie.jpg
