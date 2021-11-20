@@ -405,7 +405,7 @@
     values:
       - lcp-deep-dive
       - culture_leboncoin
-  - type: short
+  - type: pause
     hour: "11:10"
     values:
       fr_FR: Pause ☕️
@@ -445,7 +445,7 @@
     values:
       - lightning_talks
       - spartacux_manomano
-  - type: short
+  - type: pause
     hour: "15:50"
     values:
       fr_FR: Pause ☕️
