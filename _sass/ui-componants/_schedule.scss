@@ -200,23 +200,8 @@
 .room1 {
   header,
   &-header {
-    background-color: $red;
-    background-image: url("/assets/images/textures/diagonal-lines.svg");
-    box-shadow: 0 2px 8px -1px $red;
-  }
-
-  &:hover,
-  &:focus {
-    text-decoration: none;
-    border-color: dargen($red, 40);
-    box-shadow: $red 0 0 $global-gutters/2;
-  }
-}
-.room2 {
-  header,
-  &-header {
     background-color: $blue;
-    background-image: url("/assets/images/textures/tiny-checkers.svg");
+    background-image: url("/assets/images/textures/diagonal-lines.svg");
     box-shadow: 0 2px 8px -1px $blue;
   }
 
@@ -225,5 +210,20 @@
     text-decoration: none;
     border-color: dargen($blue, 40);
     box-shadow: $blue 0 0 $global-gutters/2;
+  }
+}
+.room2 {
+  header,
+  &-header {
+    background-color: $red;
+    background-image: url("/assets/images/textures/tiny-checkers.svg");
+    box-shadow: 0 2px 8px -1px $red;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border-color: dargen($red, 40);
+    box-shadow: $red 0 0 $global-gutters/2;
   }
 }
