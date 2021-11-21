@@ -8,7 +8,7 @@ speakers:
 fr_FR:
   title: "Comment améliorer la web performance d’un parc de plus de 40 000 sites ?"
   excerpt: >-
-    Comment optimiser sa performance web quand on est à la tête d'un parc de dizaines de milliers de sites pour TPE et PME ? Retour sur le challenge technique et organisationnel que Solocal et Duda ont relevé ensemble.
+    Comment optimiser sa performance web quand on est à la tête d'un parc de dizaines de milliers de sites pour TPE et PME ?
   description: >-
     L'optimisation des Web Vitals se place dans un plan plus large de la division site de Solocal, visant a considérablement améliorer la performance, le design & la qualité des contenus, dans un objectif de référencement local, des centaines de sites internet que nous produisons chaque semaine pour nos clients TPE / PME.
     
@@ -28,6 +28,8 @@ fr_FR:
   video: ~
 en_US:
   title: "How to improve the web performance of a portfolio of over 40,000 sites?"
+  excerpt: >-
+    How to optimize web performance when you are in charge of tens of thousands of websites for small and medium-sized businesses?
   description: >-
     Optimizing the Web Vitals is part of a larger plan of Solocal's website division, aiming to considerably improve the performance, design and quality of our content, in order to improve local SEO for the hundreds of websites we produce every week for our small and medium-sized business customers.
     
