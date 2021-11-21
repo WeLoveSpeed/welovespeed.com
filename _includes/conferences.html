@@ -25,7 +25,7 @@
       {% endif %}
       <article class="conference {% cycle 'odd', 'even' %}">
         <h3>
-          {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
+          {{ verbatim.title }} {% if verbatim.subtitle %}<small>{{ verbatim.subtitle }}</small>{% endif %}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
         </h3>
         {{ verbatim.description | markdownify }}
         {% if verbatim.transcript or verbatim.slides or verbatim.video or other_verbatim.transcript or other_verbatim.slides or other_verbatim.video %}

@@ -7,6 +7,8 @@ speakers:
   - hubert_sablonniere
 fr_FR:
   title: Mise en place d'un smart CDN pour distribuer des Web Components
+  excerpt: >-
+    "npm install bidule", "babel truc" et autres "webpack machin". Et si on essayait autre chose ?
   description: >-
     Dans le cadre de la bibliothèque de composants Web sur laquelle je travaille, nous avons d'abord publié un paquet sur npm.
 
@@ -26,6 +28,8 @@ fr_FR:
   video: ~
 en_US:
   title: Implementation of a smart CDN to distribute Web Components
+  excerpt: >-
+    "npm install foo", "babel bar" and other "webpack baz". What if we tried something else?
   description: >-
     For the web components library I'm working on, we first released a package on npm.
     

@@ -7,6 +7,8 @@ speakers:
   - nicolas_audemar
 fr_FR:
   title: "Oui, Booster ses Core Web Vitals améliore sa visibilité sur Google"
+  excerpt: >-
+    Quel est l'impact des Core Web Vitals sur le classement des sites ? C'est ce que nous avons étudié chez SISTRIX, et nous vous partagerons nos résultats.
   description: >-
     Suite à l'annonce de Google de son update spécial performance web ([en savoir plus](https://www.sistrix.fr/blog/google-deploie-la-mise-a-jour-page-experience/)) SISTRIX a engagé des mesures pour suivre les performances d'un échantillon représentatifs de centaines de milliers de sites.
 
@@ -17,6 +19,8 @@ fr_FR:
   video: ~
 en_US:
   title: Yes, boosting your Core Web Vitals improves your visibility on Google
+  excerpt: >-
+    What is the impact of Core Web Vitals on SERPs ranking? We have studied this at SISTRIX, and we will share our results with you!
   description: >-
     Following Google's announcement of its special web performance update SISTRIX engaged in measurements to track the performance of a representative sample of hundreds of thousands of sites.
 

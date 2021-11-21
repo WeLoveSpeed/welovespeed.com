@@ -66,7 +66,7 @@
                       </header>
                       <section class="talk-excerpt">
                         {% assign localizedTalk = talk[include.locale] %}
-                        <p>{{ localizedTalk.excerpt | default:localizedTalk.description | truncatewords: 40 }}</p>
+                        <p>{{ localizedTalk.excerpt | default:localizedTalk.description | truncatewords: 40 }} <span class="underlined">{% t En savoir plus %}</span</p>
                       </section>
                     </a>
                   </td>

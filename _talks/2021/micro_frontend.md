@@ -8,6 +8,8 @@ speakers:
   - bertrand_laot
 fr_FR:
   title: "L’architecture Micro-Front, un levier pour la webperf ?"
+  excerpt: >-
+    Retour d'expérience sur l'utilisation de l'architecture Micro-Front chez Leroy Merlin. Time to Market, performance, résilience, nous vous dirons tout !
   description: >-
     L’architecture micro-front est de plus en plus mise en avant dans les grandes entreprises, mais on ne trouve que très peu de feedback sur les problématiques de webperf (multiplication des appels aux APIs, duplication de code, augmentation du nombre de ressources, etc.).
 
@@ -20,6 +22,8 @@ fr_FR:
   video: ~
 en_US:
   title: "Micro-Front architecture, a driver for web performance?"
+  excerpt: >-
+    A feedback on the use of the Micro-Front architecture at Leroy Merlin. Time to Market, performance, resilience, we'll tell you everything!
   description: >-
     Micro-front architecture is increasingly being promoted in large companies, but there is very little feedback on webperf issues (multiplication of API calls, code duplication, increased number of resources, etc.).
 
