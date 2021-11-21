@@ -379,7 +379,7 @@
       - fr_FR: Salle blanche (Ampère)
         en_US: White Hall (Ampère)
       - fr_FR: Salle rouge (Garnier)
-        en_US: Red Hall ( Garnie)
+        en_US: Red Hall ( Garnier)
   - type: pause
     hour: "09:00"
     values:
