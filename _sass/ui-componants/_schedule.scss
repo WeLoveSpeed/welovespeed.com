@@ -89,10 +89,14 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
-  height: 260px;
+  height: 300px;
   margin-bottom: 5px;
   text-decoration: none;
   font-style: normal;
+
+  @include media("<=medium") {
+    height: auto;
+  }
 
   header {
     grid-row: 1;
