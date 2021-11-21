@@ -152,6 +152,13 @@
     @include media("<=medium") {
       margin-left: 60px;
     }
+
+    &.speakers-2 {
+      @include media("<=medium") {
+        margin-left: 80px;
+      }
+    }
+
     color: white;
   }
 

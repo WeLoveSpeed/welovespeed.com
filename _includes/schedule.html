@@ -50,7 +50,7 @@
                             {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" loading="lazy" %}
                           </figure>
                         {%- endfor -%}
-                        <div class="talk-summary">
+                        <div class="talk-summary speakers-{{ talk.speakers | size }}">
                           <h2>{{ talk[include.locale].title }}</h2>
                           <p class="talk-authors">
                             {% if talk.locale %}{% unless talk.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}{% endif %}
