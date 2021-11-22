@@ -38,7 +38,7 @@ Attention il y a 2 gares à Lyon. La gare de **Lyon Perrache** vous permettra de
 
 ### En avion <span aria-hidden>🛬</span>
 
-L’aéroport international de St-Exupéry ([LYS](https://www.lyonaeroports.com/)) est à 40 minutes en transport en commun de notre salle. Prenez le trawmay jusqu'au métro A (20 mn), puis suivez la A jusqu’à la sation Cordeliers.
+L’aéroport international de St-Exupéry ([LYS](https://www.lyonaeroports.com/)) est à 40 minutes en transport en commun de notre salle. Prenez le trawmay jusqu'au métro A (20 mn), puis suivez la A jusqu’à la station Cordeliers.
 
 ### En transport en commun <span aria-hidden>🚋</span> / à pied <span aria-hidden>🚶‍♂️🚶‍♀️</span>
 
