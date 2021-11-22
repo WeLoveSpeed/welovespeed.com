@@ -41,7 +41,7 @@
                           {% assign locale = line.locale | default: talk.locale %}
                       {% endif %}
                   {%- endfor -%}
-                  {% capture talkUrl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}#{{ talk.slug }}{% endcapture %}
+                  {% capture talkUrl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}/#{{ talk.slug }}{% endcapture %}
                   <td scope="col" {% unless rowspan == 1 %}rowspan="{{ rowspan }}"{% endunless %}>
                     <a href="{{ talkUrl }}" class="talk room{{ forloop.index }}" id="{{ talk.slug }}">
                       <header>
