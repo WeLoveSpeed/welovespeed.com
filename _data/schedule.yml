@@ -468,8 +468,8 @@
   - type: pause
     hour: "17:50"
     values:
-      fr_FR: Clôture de We Love Speed 2019
-      en_US: We Love Speed 2019 Ending
+      fr_FR: Clôture de We Love Speed 2021
+      en_US: We Love Speed 2021 Ending
   - type: short
     hour: "18:00"
     values:
