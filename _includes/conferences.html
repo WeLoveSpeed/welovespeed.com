@@ -25,7 +25,7 @@
       {% endif %}
       <article class="conference {% cycle 'odd', 'even' %}">
         <h3>
-          {{ verbatim.title }}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
+          {{ verbatim.title }} {% if verbatim.subtitle %}<small>{{ verbatim.subtitle }}</small>{% endif %}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
         </h3>
         {{ verbatim.description | markdownify }}
         {% if verbatim.transcript or verbatim.slides or verbatim.video or other_verbatim.transcript or other_verbatim.slides or other_verbatim.video %}
@@ -66,12 +66,13 @@
             <section class="conference-speaker text-sm">
               <figure class="conference-speaker-pic" role="group">
                 {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" loading="lazy" %}
-                <figcaption class="sr-only">{{ speaker.name }}</figcaption>
+                {% capture youString %}{{ "Vous !" | t: page.locale }}{% endcapture %}
+                <figcaption class="sr-only">{{ speaker.name | default: youString }}</figcaption>
               </figure>
               <h3 class="conference-speaker-name">
                 {% assign speakerCount = conference.speakers | size %}
                   <span class="text-xs">{% t Présenté %}{% if conference.locale %}{% unless conference.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}{% elsif speaker.locale %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}{% endif %} {%t par %}</span><br>
-                <em>{{ speaker.name }}</em> {% include person-links.html urls=speaker.urls %}
+                <em>{{ speaker.name | default: youString }}</em> {% include person-links.html urls=speaker.urls %}
               </h3>
               <p class="conference-speaker-description">
                 {{ speakatim.bio | markdownify }}

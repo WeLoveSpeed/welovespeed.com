@@ -25,10 +25,10 @@ permalink: /en/2021/
       <a class="button" data-text="{% t Voir sur Youtube %}" href="https://youtu.be/6aupyVi_QMU" title="{% t Voir sur Youtube %}">
         <span class="button-inner">{% t Voir sur Youtube %}</span>
       </a>
+      {% endcomment %}
       <a class="button" data-text="{% t Voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t Voir le programme %}">
         <span class="button-inner">{% t Voir le programme %}</span>
       </a>
-      {% endcomment %}
       <a class="button" data-text="{% t Conférences %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="{% t Conférences %}">
         <span class="button-inner">{% t Conférences %}</span>
       </a>

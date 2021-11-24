@@ -6,7 +6,10 @@ pub_date: "2021-10-26"
 speakers:
   - ludovic_lefebvre
 fr_FR:
-  title: "Optimisation du chemin critique ou « Comment accélérer votre performance ? »"
+  title: "Optimisation du chemin critique"
+  subtitle: / « Comment accélérer votre performance ? »
+  excerpt: >-
+    Quand se déclenche le premier rendu d’une page ? Comment identifier et optimiser les blocages ? Comment anticiper les problèmes de rendu ? Exemples, techniques et outils pour mieux maitriser le chemin critique.
   description: >-
     Souvent présent dans différents outils d’optimisation Web, le chemin critique est une notion mal comprise ou ignorée. Quand se déclenche le premier rendu d’une page ? Comment identifier et optimiser les blocages ? Voici les questions auxquelles je souhaite répondre.
 
@@ -14,7 +17,7 @@ fr_FR:
     S’intéresser au chemin critique, c’est plonger dans le fonctionnement des navigateurs et la construction de la page HTML. Vouloir l’optimiser, c’est connaître des techniques très différentes d’agencement et de priorisation sur les ressources essentielles à l’affichage du premier pixel. Le chemin critique, c’est le goulot d'étranglement de l’application.
 
 
-    Pour cette raison, améliorer le chemin critique, c’est anticiper  de nombreux problèmes de performance (FP, LCP, Speed index, FID).
+    Pour cette raison, améliorer le chemin critique, c’est anticiper de nombreux problèmes de performance (FP, LCP, Speed index, FID).
 
 
     Mon objectif est de présenter à l’aide d’exemples concrets et chiffrés, les techniques les plus efficaces que j’ai pu expérimenter pour réduire le nombre et la taille des ressources critiques : politiques de cache, minification et priorisation des js et css, gestion des fonts… 
@@ -23,7 +26,10 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: Critical path optimization or "How to accelerate your performance?"
+  title: Critical path optimization
+  subtitle: / "How to accelerate your performance?"
+  exceprt: >-
+    When does the first rendering of a page occur? How to identify and optimize blockages? How to anticipate rendering problems? Examples, techniques and tools to better master the critical path.
   description: >-
     Often present in various Web optimization tools, the critical path is a concept that is poorly understood or ignored. When does the first rendering of a page occur? How to identify and optimize blockages? These are the questions I want to answer.
 

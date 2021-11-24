@@ -7,6 +7,8 @@ speakers:
   - aymeric_bouillat
 fr_FR:
   title: "Serveurs Web et webperf sont dans un bateau"
+  excerpt: >-
+    Améliorer son temps de réponse serveur, c'est un des basiques de la performance web. Trucs et astuces pour un meilleur TTFB.
   description: >-
     Et si nous parlions de configuration des serveurs Web (Apache/Nginx) et des éléments qui peuvent impacter certains KPI (ex: TTFB) ? Ayant effectuer un grand nombre de migrations SEO, j'ai souvent rencontré plusieurs problématiques en terme de redirections 301 :
 
@@ -23,6 +25,8 @@ fr_FR:
   video: ~
 en_US:
   title: "Web Servers and Webperf in the Same Boat"
+  excerpt: >-
+    Improving your server response time is one of the basics of web performance. Tips and tricks for a better TTFB.
   description: >-
     Let's talk about web server configuration (Apache/Nginx) and elements that can impact some KPIs (e.g. TTFB)? Having done a lot of SEO migrations, I often encountered several issues in terms of 301 redirects:
 

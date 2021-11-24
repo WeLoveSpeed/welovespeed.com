@@ -373,3 +373,105 @@
     values:
       fr_FR: Conclusion
       en_US: Conclusion
+2021:
+  - type: headers
+    values:
+      - fr_FR: Salle blanche (Ampère)
+        en_US: White Hall (Ampère)
+      - fr_FR: Salle rouge (Garnier)
+        en_US: Red Hall ( Garnier)
+  - type: pause
+    hour: "09:00"
+    values:
+      fr_FR: "Accueil des participant·es 🥐"
+      en_US: "Attendees' welcome 🥐"
+  - type: short
+    hour: "09:30"
+    values:
+      fr_FR: "Ouverture des conférences"
+      en_US: "Conference Opening"
+  - type: talks
+    hour: "09:40"
+    values:
+      - webperf_101
+      - optimize_4k_websites
+  - type: short
+    hour: "10:35"
+    values:
+      fr_FR: Changement de salle
+      en_US: Change of room
+  - type: talks
+    hour: "10:40"
+    values:
+      - lcp-deep-dive
+      - culture_leboncoin
+  - type: pause
+    hour: "11:10"
+    values:
+      fr_FR: Pause ☕️
+      en_US: Break ☕️
+  - type: talks
+    hour: "11:40"
+    values:
+      - integrateur-heros
+      - webperf_sans_etre_decue
+  - type: pause
+    hour: "12:30"
+    values:
+      fr_FR: Pause Déjeuner 🍱
+      en_US: Lunch Break 🍱
+  - type: talks
+    hour: "13:45"
+    values:
+      - smart_cdn
+      - sistrix_cwv
+  - type: short
+    hour: "14:20"
+    values:
+      fr_FR: Changement de salle
+      en_US: Change of room
+  - type: talks
+    hour: "14:25"
+    values:
+      - serveurs-et-webperf
+      - micro_frontend
+  - type: short
+    hour: "15:15"
+    values:
+      fr_FR: Changement de salle
+      en_US: Change of room
+  - type: talks
+    hour: "15:20"
+    values:
+      - lightning_talks
+      - spartacux_manomano
+  - type: pause
+    hour: "15:50"
+    values:
+      fr_FR: Pause ☕️
+      en_US: Break ☕️
+  - type: talks
+    hour: "16:25"
+    values:
+      - plus-rapide-que-les-spa
+      - optimiser-le-chemin-critique
+  - type: short
+    hour: "17:15"
+    values:
+      fr_FR: Changement de salle
+      en_US: Change of room
+  - type: talks
+    hour: "17:20"
+    values:
+      - responsive_rum
+      - collaborer-seo-dev
+  - type: pause
+    hour: "17:50"
+    values:
+      fr_FR: Clôture de We Love Speed 2021
+      en_US: We Love Speed 2021 Ending
+  - type: short
+    hour: "18:00"
+    values:
+      fr_FR: C'est fini !
+      en_US: That's all folks!

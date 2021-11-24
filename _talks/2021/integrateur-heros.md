@@ -7,6 +7,8 @@ speakers:
   - jp_vincent
 fr_FR:
   title: "Performance Web : l'intégrateur, ce héros"
+  excerpt: >-
+    Pour qu'un site s'affiche vite et reste fluide, l'intégrateur reste le maître d'orchestre. Passons en revue les pièges d'intégrations classiques, puis voyons comment déployer des optimisations.
   description: >-
     Intégrateur, il est temps de remonter au front !
 
@@ -19,6 +21,8 @@ fr_FR:
   video: ~
 en_US:
   title: "Web Performance: be a hero and leverage HTML/CSS"
+  excerpt: >-
+    In order for a site to be fast and fluid, the HTTL/CSS developer is the game master. Let's review the classic integration pitfalls, and how to deploy optimizations.
   description: >-
     HTML/CSS devs, roll up your sleeves!
 

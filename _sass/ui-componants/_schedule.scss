@@ -89,10 +89,14 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
-  height: 260px;
+  height: 300px;
   margin-bottom: 5px;
   text-decoration: none;
   font-style: normal;
+
+  @include media("<=medium") {
+    height: auto;
+  }
 
   header {
     grid-row: 1;
@@ -152,6 +156,13 @@
     @include media("<=medium") {
       margin-left: 60px;
     }
+
+    &.speakers-2 {
+      @include media("<=medium") {
+        margin-left: 80px;
+      }
+    }
+
     color: white;
   }
 
@@ -200,21 +211,6 @@
 .room1 {
   header,
   &-header {
-    background-color: $red;
-    background-image: url("/assets/images/textures/diagonal-lines.svg");
-    box-shadow: 0 2px 8px -1px $red;
-  }
-
-  &:hover,
-  &:focus {
-    text-decoration: none;
-    border-color: dargen($red, 40);
-    box-shadow: $red 0 0 $global-gutters/2;
-  }
-}
-.room2 {
-  header,
-  &-header {
     background-color: $blue;
     background-image: url("/assets/images/textures/tiny-checkers.svg");
     box-shadow: 0 2px 8px -1px $blue;
@@ -225,5 +221,20 @@
     text-decoration: none;
     border-color: dargen($blue, 40);
     box-shadow: $blue 0 0 $global-gutters/2;
+  }
+}
+.room2 {
+  header,
+  &-header {
+    background-color: $red;
+    background-image: url("/assets/images/textures/diagonal-lines.svg");
+    box-shadow: 0 2px 8px -1px $red;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border-color: dargen($red, 40);
+    box-shadow: $red 0 0 $global-gutters/2;
   }
 }

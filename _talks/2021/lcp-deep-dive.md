@@ -7,6 +7,8 @@ speakers:
   - yoav_weiss
 fr_FR:
   title: "LCP – ce que vous ne savez (peut-être) pas"
+  excerpt:
+    Vous connaissez le LCP mais le connaissez-vous vraiment ? Analysons ensemble l'histoire et le fonctionnement de cet indicateur en perpétuelle évolution.
   description: >-
     Le Largest Contentful Paint (ou LCP) est la mesure de performance de chargement visuelle qui fait partie des Core Web Vitals. Le LCP mesure le temps que votre page web prend à charger l’image ou l'élément texte le plus grand et à le montrer à l'utilisateur.
 
@@ -19,6 +21,8 @@ fr_FR:
   video: ~
 en_US:
   title: "LCP – Deep Dive"
+  excerpt:
+    You know the LCP but… do you? Let's discuss the history and the way this constantly evolving metric works.
   description: >-
     Largest Contentful Paint (or LCP) is the visual loading performance metric that is part of the Core Web Vitals. LCP measures the time it takes for your web page to load the largest image or text element and show it to the user.
 

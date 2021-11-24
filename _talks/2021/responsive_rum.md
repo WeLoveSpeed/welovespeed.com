@@ -7,6 +7,8 @@ speakers:
   - tim_vereecke
 fr_FR:
   title: "Responsive RUM"
+  excerpt: >-
+    Une bonne analyse de la performance implique de bien catégoriser les mesures qui sont collectées par type de matériels. Tour d'horizon des approches.
   description: >-
     Catégoriser les types d'appareils entre ordinateur de bureau, mobile et tablette ne fonctionne plus en 2021. Cette approche est trop simpliste, dénuée de sens et casse probablement votre analyse de performance actuelle sur un site web responsive moderne.
 
@@ -30,6 +32,8 @@ fr_FR:
   video: ~
 en_US:
   title: "Responsive RUM"
+  excerpt: >-
+    A successful performance analysis requires the proper categorization of the collected measurements by device type. Overview of the available techniques.
   description: >-
     Categorizing device types by desktop, mobile and tablet no longer works in 2021.
 
