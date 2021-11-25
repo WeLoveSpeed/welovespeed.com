@@ -568,6 +568,6 @@
     - name: "Almarena IT"
       logo: /assets/images/thanks/almarena.svg
       url: http://www.almarena.fr/
-    - name: Mozilla
-      logo: /assets/images/thanks/mozilla.svg
-      url: https://www.mozilla.org/
+    - name: Mozilla Firefox
+      logo: /assets/images/thanks/firefox.svg
+      url: https://www.mozilla.org/fr/firefox/new/
