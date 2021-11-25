@@ -6,7 +6,7 @@ pub_date: "2021-10-26"
 speakers:
   - aymeric_bouillat
 fr_FR:
-  title: "Serveur Web et Webperf vu par un SEO"
+  title: "Serveur Web et Webperf vus par un SEO"
   excerpt: >-
     Améliorer son temps de réponse serveur, c’est un des basiques de la performance web. Trucs et astuces pour un meilleur TTFB, vu par un référenceur.
   description: >-
