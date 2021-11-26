@@ -27,4 +27,4 @@ Une signalétique est mise en place, omniprésente et mise à jour pour veiller 
 
 ## Référentiel des protocoles de prestataires
 
-- [Protocole du Palais de la Bourse de Lyon](https://www.lyonpalaisbourse.com/wp-content/uploads/2021/08/2021_08_19_Protocole-sanitaire-Palais-de-la-bourse.pdf)
+- [Protocole du Palais de la Bourse de Lyon](https://www.lyonpalaisbourse.com/wp-content/uploads/2021/10/2021_10_25_Protocole-sanitaire-Palais-de-la-bourse.pdf)
