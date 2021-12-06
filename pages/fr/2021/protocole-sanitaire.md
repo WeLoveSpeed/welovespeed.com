@@ -25,6 +25,8 @@ Les inscriptions préalables à l’événement permettront de **tracer** les pa
 
 Une signalétique est mise en place, omniprésente et mise à jour pour veiller au strict respect des **gestes barrière** (notamment la **distanciation physique**) et invite à installer l’application "TousAntiCovid".
 
+Nous aérerons les pièces entre chaque intervention.
+
 ## Référentiel des protocoles de prestataires
 
 - [Protocole du Palais de la Bourse de Lyon](https://www.lyonpalaisbourse.com/wp-content/uploads/2021/11/2021_11_29_Protocole-sanitaire-Palais-de-la-Bourse-Lyon.pdf)
