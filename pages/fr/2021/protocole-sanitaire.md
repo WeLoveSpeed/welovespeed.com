@@ -12,12 +12,12 @@ Toute l'équipe de **{{ site.title }}** est ravie de vous accueillir dans les me
 
 _Cette page reflète le protocole à un certain moment. Elle est susceptible d’être mise à jour jusqu'à survenue de l'événement pour s'adapter au contexte sanitaire. Un doute, une question ? N'hésitez pas à lire les protocoles détaillés de nos prestataires._
 
-## Protocole en vigueur depuis Août 2021
+## Protocole en vigueur
 
-Un **Pass Sanitaire** est requis pour participer à l'événement : les formats numériques, PDF sur mobile ou PDF imprimés sont acceptés. Si vous disposez d'un certificat de vaccination remis dans un pays étranger mais pas d'un Pass Sanitaire français, vous pouvez [faire une demande de conversion](https://www.demarches-simplifiees.fr/commencer/passe-sanitaire-etrangers?locale=fr).
+Un **Pass Sanitaire** est requis pour participer à l'événement : les formats numériques, PDF sur mobile ou PDF imprimés sont acceptés. Si vous disposez d'un certificat de vaccination remis dans un pays étranger mais pas d'un Pass Sanitaire français, vous pouvez [faire une demande de conversion](https://www.demarches-simplifiees.fr/commencer/passe-sanitaire-etrangers?locale=fr). À défaut, un test PCR ou antigéniques de moins de 24 heures.
 
 
-Nous vous demandons de porter un **masque** grand public avec filtration supérieure à 90% ou un masque chirurgical lors de vos déplacements. Vous pouvez l'enlever lorsque vous dégustez vos collations ou repas.
+Il est obligatoire de porter un **masque** grand public avec filtration supérieure à 90% ou un masque chirurgical lors de vos déplacements. Vous pouvez l'enlever lorsque vous dégustez vos collations ou repas.
 
 Du **gel hydroalcoolique** est mis à votre disposition. Vous avez l'obligation de l'utiliser à votre arrivée pour vous laver les mains.
 
