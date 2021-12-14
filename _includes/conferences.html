@@ -28,8 +28,16 @@
           {{ verbatim.title }} {% if verbatim.subtitle %}<small>{{ verbatim.subtitle }}</small>{% endif %}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
         </h3>
         {{ verbatim.description | markdownify }}
-        {% if verbatim.transcript or verbatim.slides or verbatim.video or other_verbatim.transcript or other_verbatim.slides or other_verbatim.video %}
+        {% if verbatim.cta or verbatim.transcript or verbatim.slides or verbatim.video or other_verbatim.cta or other_verbatim.transcript or other_verbatim.slides or other_verbatim.video %}
           <p class="text-center">
+          {% if verbatim.cta %}
+            <a class="button" data-text="{{ verbatim.cta.name }}" href="{{ verbatim.cta.url }}" title="{{ verbatim.cta.name }}"><span class="button-inner">{{ verbatim.cta.name }}</span></a>
+          {% else %}
+            {% if other_verbatim.cta %}
+              {% capture text_button %}{{ other_verbatim.cta.name }} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+              <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.cta.url }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+            {% endif %}
+          {% endif %}
           {% if verbatim.transcript %}
             <a class="button" data-text="{% t lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t lire la version textuelle %}"><span class="button-inner">{% t lire la version textuelle %}</span></a>
           {% else %}

@@ -8,13 +8,25 @@ speakers:
 fr_FR:
   title: "Interventions éclairs ⚡️"
   description: >-
-    Une succession d'interventions de moins de 5 minutes pour aborder très rapidement de nombreux sujets relatifs à la performance web.
+    Une succession d'interventions de moins de 5 minutes pour aborder très rapidement de nombreux sujets relatifs à la performance web. Vous n'avez jamais pris la parole en public mais souhaitez partager une anecdote, une expérience, une petite technique utile en rapport avec la Web Performance ? Proposez un sujet !
+
+
+    Nous déciderons des 3 ou 4 interventions qui passeront le jour-même, tous·tes ensemble, lors d'un vote à main levée après lecture des propositions.
   slides: ~
   video: ~
+  cta:
+    name: J'ai un sujet à proposer !
+    url: https://forms.gle/LtEhgarSDFnnKcNS7
 en_US:
   title: "Lightning Talks"
   description: >-
-    A succession of interventions of less than 5 minutes to address very quickly many topics related to web performance.
+    A succession of short talks (less than 5 minutes) to quickly address many topics related to web performance. You never spoke in public but want to share an anecdote, an experience, a useful technique related to Web Performance? Propose a talk!
+
+
+    We will choose the 3 or 4 speeches that will be presented that day, all together, by a show of hands after reading the proposals.
   slides: ~
   video: ~
+  cta:
+    name: I have a talk to propose!
+    url: https://forms.gle/LtEhgarSDFnnKcNS7
 ---
