@@ -16,7 +16,7 @@ fr_FR:
 
     Durant cette intervention, nous fournirons des explications des mesures et études réalisés, et prendrons des exemples pour montrer ce qui a été affecté à la hausse ou à la baisse sur les sites.
   slides: ~
-  video: ~
+  video: https://youtu.be/vcxpXALkMYA
 en_US:
   title: Yes, boosting your Core Web Vitals improves your visibility on Google
   excerpt: >-
@@ -28,5 +28,5 @@ en_US:
 
     During this presentation, we will provide explanations of the measurements and studies conducted, and take examples to show what went up or down at the sites.
   slides: ~
-  video: ~
+  video: https://youtu.be/vcxpXALkMYA
 ---

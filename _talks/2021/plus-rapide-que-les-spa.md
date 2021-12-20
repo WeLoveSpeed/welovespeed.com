@@ -15,7 +15,7 @@ fr_FR:
 
     À l'aide de sites existants utilisant des Single Page Apps, nous verrons que la promesse de la deuxième page hyper rapide n'est pas aussi simple qu'il n'y paraît. Puis, si l'on décide d'utiliser une architecture Multi Page Apps, comment coder les moments d'interactivité au sein d'un même écran ? Nous regarderons comment répondre aux interactions utilisateurs et charger du contenu dynamiquement sans avoir besoin de plusieurs centaines de Ko de JavaScript.
   slides: ~
-  video: ~
+  video: https://youtu.be/Px3NTHZb0S0
 en_US:
   title: "Faster Than SPAs?"
   excerpt: >-
@@ -26,5 +26,5 @@ en_US:
 
     Looking at existing sites using Single Page Apps, we'll see that the promise of the super fast second page is not as simple as it seems. Then, if we decide to go with a Multi Page Apps architecture, how do we code the moments of interactivity within the same screen? We will look at how to respond to user interaction and load content dynamically without needing several hundred KB of JavaScript.
   slides: ~
-  video: ~
+  video: https://youtu.be/Px3NTHZb0S0
 ---

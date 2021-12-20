@@ -38,7 +38,7 @@ fr_FR:
 
     Si vous aussi vous avez peur d’être déçu sur vos améliorations de performance, ce talk vous donnera de précieux conseils pour savourer au maximum tous vos efforts.
   slides: ~
-  video: ~
+  video: https://youtu.be/DJoTIASs44k
 en_US:
   title: "Doing webperf without being disappointed"
   excerpt: >-
@@ -71,5 +71,5 @@ en_US:
 
     If you too are worried about being disappointed with your performance improvements, this talk will give you valuable tips on how to make the most of your efforts.
   slides: ~
-  video: ~
+  video: https://youtu.be/DJoTIASs44k
 ---

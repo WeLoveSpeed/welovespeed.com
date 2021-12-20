@@ -25,7 +25,7 @@ fr_FR:
  
     3. Perspectives d'évolutions de la plateforme Duda pour l'amélioration continue de la web performance, et retour d'expérience sur sa gestion, dans une production industrielle de sites pour Solocal.
   slides: ~
-  video: ~
+  video: https://youtu.be/OYWiobnE4tM
 en_US:
   title: "How to improve the web performance of a portfolio of over 40,000 sites?"
   excerpt: >-
@@ -46,5 +46,5 @@ en_US:
  
     3. Perspective for the evolution of the Duda platform in order to continuously improve web performance, and feedback on its management, in the context of Solocal's mass production of sites.
   slides: ~
-  video: ~
+  video: https://youtu.be/OYWiobnE4tM
 ---

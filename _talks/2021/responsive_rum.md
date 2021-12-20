@@ -29,7 +29,7 @@ fr_FR:
 
     Découvrez les différentes approches et la manière de les appliquer à vos solutions de suivi RUM existantes, qu'elles soient gratuites (Google Analytics), open source (Boomerang) ou commerciales.
   slides: ~
-  video: ~
+  video: https://youtu.be/RDb1ZHsqSwc
 en_US:
   title: "Responsive RUM"
   excerpt: >-
@@ -56,5 +56,5 @@ en_US:
 
     Learn about the different approaches and how to apply this to your existing RUM monitoring solutions: be it free (Google Analytics), open source (Boomerang) or commercial.
   slides: ~
-  video: ~
+  video: https://youtu.be/RDb1ZHsqSwc
 ---
