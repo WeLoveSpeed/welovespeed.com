@@ -11,7 +11,7 @@ fr_FR:
     Retour d'expérience sur la refonte de ManoMano. Repartir de zéro pour en faire une référence en termes de performance, tel est notre défi !
   description: >-
     Mars 2020, premier confinement, les magasins sont fermés, les gens bricolent… Conséquence : explosion de la fréquentation du site de ManoMano. Gonflés par plusieurs réflexions précédant la crise, nous prenons la décision de repartir de zéro pour faire du site ManoMano une référence en termes de performance. Je vous partagerai comment nous avons choisi et mis en place la nouvelle stack technique en un temps record, et pourquoi allier dev expérience et performance peut s’avérer complexe.
-  slides: ~
+  slides: https://docs.google.com/presentation/d/1LvYvV4kL8eps3db4F0hls4eaUKyxqFXLKfVASi-3Lvs/edit
   video: https://youtu.be/4APSAHSRQ0I
 en_US:
   title: "SPArtacUX, the project that brought web performance to the heart of ManoMano UX"
