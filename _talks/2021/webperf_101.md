@@ -19,6 +19,6 @@ en_US:
     WebPerf is good, but knowing all the intricacies of our page creation is better! Let's study how the web works for a better understanding of today's issues.
   description: >-
     WebPerf is good, but knowing all the intricacies of our page creation is better. During 45 minutes, we will travel through all the steps of the creation of a site to better understand the impacts of our pages' resources through the network, on the browser and on the devices of our users. We will learn the meaning of web performance metrics, and discover some tools that will allow us to become autonomous on the subject.
-  slides: ~
-  video: https://youtu.be/aqMKPU9Ta8A
+  slides: https://slides.com/doc_roms/web-performance
+  video: ~
 ---
