@@ -17,7 +17,7 @@ fr_FR:
 
 
     Dans cette présentation, nous couvrirons l’histoire du LCP, pourquoi cette mesure a été choisie comme représentante du chargement visuel, sa définition, comment elle a évolué jusqu'à aujourd'hui, et comment elle continue d'évoluer.
-  slides: ~
+  slides: https://docs.google.com/presentation/d/1wbU2NWfr5XtWalMY_OTXUqhfOQx-J1hwYPLhIX7XTr8/edit?usp=sharing
   video: https://youtu.be/t-lgOjRFshA
 en_US:
   title: "LCP – Deep Dive"
