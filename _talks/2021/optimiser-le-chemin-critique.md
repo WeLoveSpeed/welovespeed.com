@@ -24,7 +24,7 @@ fr_FR:
 
     Outre le diagnostique, je parlerai des outils du marché de monitoring disponibles les plus adaptés.
   slides: ~
-  video: ~
+  video: https://youtu.be/3mQJBjOUPd8
 en_US:
   title: Critical path optimization
   subtitle: / "How to accelerate your performance?"
@@ -44,5 +44,5 @@ en_US:
 
     In addition to the diagnosis, I will talk about the most adapted monitoring tools available on the market.
   slides: ~
-  video: ~
+  video: https://youtu.be/3mQJBjOUPd8
 ---
