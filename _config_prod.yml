@@ -25,7 +25,7 @@ sponsoring:
   fr_FR: '/assets/docs/2021/sponsoring_fr.pdf'
   en_US: '/assets/docs/2021/sponsoring_en.pdf'
 tickets:
-  selling: true
+  selling: false
   # diversity_id: 437
   weezevent: true
   coupons-only: false
@@ -35,7 +35,7 @@ tickets:
 infos:
   display: true
   diversity:
-    soldout: false
+    soldout: true
 
 # Compression du code HTML en production
 compress_html:

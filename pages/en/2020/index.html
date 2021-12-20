@@ -21,40 +21,19 @@ permalink: /en/2020/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="{% t Voir sur Youtube %}" href="https://youtu.be/6aupyVi_QMU" title="{% t Voir sur Youtube %}">
-        <span class="button-inner">{% t Voir sur Youtube %}</span>
+      <a class="button" data-text="slides and videos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="slides et videos">
+        <span class="button-inner">slides and videos</span>
       </a>
-      <a class="button" data-text="{% t Voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t Voir le programme %}">
-        <span class="button-inner">{% t Voir le programme %}</span>
+      <a class="button" data-text="audience feedback" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="audience feedback">
+        <span class="button-inner">audience feedback</span>
       </a>
-      <a class="button" data-text="{% t Conférences %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="{% t Conférences %}">
-        <span class="button-inner">{% t Conférences %}</span>
+      <a class="button" data-text="pictures ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="pictures ({{ site.data.editions[page.year].pictures.title }})">
+        <span class="button-inner">pictures ({{ site.data.editions[page.year].pictures.title }})</span>
       </a>
-      {% if site.current_edition == page.year and site.cfp_open %}
-      <a class="button" data-text="{% t Proposer un sujet %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/cfp" title="{% t Proposer un sujet %}">
-        <span class="button-inner">{% t Proposer un sujet %}</span>
-      </a>
-      {% endif %}
-      {% if site.current_edition == page.year and site.tickets.selling %}
-      <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t Réserver votre place %}">
-        <span class="button-inner">{% t Réserver votre place %}</span>
-      </a>
-      {% if site.infos.display %}
-      <br/>
-      <a class="button" data-text="{% t Infos pratiques %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/" title="{% t Infos pratiques %}">
-        <span class="button-inner">{% t Infos pratiques %}</span>
-      </a>
-      {% endif %}
-      {% endif %}
-      {% if site.current_edition == page.year and site.tickets.waiting-list %}
-      <a class="button" data-text="{% t S'incrire en liste d'attente %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/#register" title="{% t S'incrire en liste d'attente %}">
-        <span class="button-inner">{% t S'incrire en liste d'attente %}</span>
-      </a>
-      {% endif %}
       {% if site.current_edition != page.year %}
-      <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
-        <span class="button-inner">{% t Voir l'édition courante %}</span>
-      </a>
+        <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
+          <span class="button-inner">{% t Voir l'édition courante %}</span>
+        </a>
       {% endif %}
     </p>
   </div>

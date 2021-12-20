@@ -96,9 +96,11 @@
             <span class="button-inner">{% t Réserver votre place %}</span>
           </a>
           {% endif %}
+          {% comment %}
           <a class="button" data-text="{% t Voir sur le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/#{{ conference.slug }}" title="{% t Voir sur le programme %}">
             <span class="button-inner">{% t Voir sur le programme %}</span>
           </a>
+          {% endcomment %}
       </p>
     </div>
   </section>

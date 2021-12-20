@@ -5,24 +5,30 @@
     edition_relative: true
     in_nav: true
     in_footer: false
+  - name: Interventions
+    type: page
+    value: interventions
+    edition_relative: true
+    in_nav: true
+    in_footer: true
   - name: Programme
     type: page
     value: programme
     edition_relative: true
-    in_nav: true
-    in_footer: true
+    in_nav: false
+    in_footer: false
   - name: Billetterie
     type: page
     value: billetterie
     edition_relative: true
-    in_nav: true
-    in_footer: true
+    in_nav: false
+    in_footer: false
   - name: Infos pratiques
     type: page
     value: infos-pratiques
     edition_relative: true
-    in_nav: true
-    in_footer: true
+    in_nav: false
+    in_footer: false
   - name: Sponsors
     type: page
     value: merci
@@ -86,6 +92,12 @@
     edition_relative: true
     in_nav: true
     in_footer: true
+  - name: Programme
+    type: page
+    value: programme
+    edition_relative: true
+    in_nav: false
+    in_footer: false
   - name: Billetterie
     type: page
     value: billetterie
@@ -98,12 +110,6 @@
     edition_relative: true
     in_nav: false
     in_footer: false
-  - name: Code de Conduite
-    type: page
-    value: code-de-conduite
-    edition_relative: true
-    in_nav: false
-    in_footer: true
   - name: Sponsors
     type: page
     value: merci
@@ -116,6 +122,11 @@
     edition_relative: false
     in_nav: false
     in_footer: false
+  - name: Témoignages
+    type: page
+    value: temoignages
+    in_nav: false
+    in_footer: true
   - type: separator
     in_nav: true
     in_footer: false
@@ -129,7 +140,7 @@
     type: page
     value: newsletter
     edition_relative: false
-    in_nav: true
+    in_nav: false
     in_footer: true
   - name: Mentions légales
     type: page
@@ -137,10 +148,11 @@
     edition_relative: false
     in_nav: false
     in_footer: true
-  - name: Témoignages
+  - name: Code de Conduite
     type: page
-    value: temoignages
-    in_nav: true
+    value: code-de-conduite
+    edition_relative: true
+    in_nav: false
     in_footer: true
 2019:
   - name: Accueil
@@ -155,6 +167,12 @@
     edition_relative: true
     in_nav: true
     in_footer: true
+  - name: Programme
+    type: page
+    value: programme
+    edition_relative: true
+    in_nav: false
+    in_footer: false
   - name: Billetterie
     type: page
     value: billetterie
@@ -167,12 +185,6 @@
     edition_relative: true
     in_nav: false
     in_footer: false
-  - name: Code de Conduite
-    type: page
-    value: code-de-conduite
-    edition_relative: true
-    in_nav: false
-    in_footer: true
   - name: Sponsors
     type: page
     value: merci
@@ -185,6 +197,11 @@
     edition_relative: false
     in_nav: false
     in_footer: false
+  - name: Témoignages
+    type: page
+    value: temoignages
+    in_nav: false
+    in_footer: true
   - type: separator
     in_nav: true
     in_footer: false
@@ -198,7 +215,7 @@
     type: page
     value: newsletter
     edition_relative: false
-    in_nav: true
+    in_nav: false
     in_footer: true
   - name: Mentions légales
     type: page
@@ -206,10 +223,11 @@
     edition_relative: false
     in_nav: false
     in_footer: true
-  - name: Témoignages
+  - name: Code de Conduite
     type: page
-    value: temoignages
-    in_nav: true
+    value: code-de-conduite
+    edition_relative: true
+    in_nav: false
     in_footer: true
 2018:
   - name: Accueil
@@ -224,18 +242,24 @@
     edition_relative: true
     in_nav: true
     in_footer: true
+  - name: Programme
+    type: page
+    value: programme
+    edition_relative: true
+    in_nav: false
+    in_footer: false
+  - name: Billetterie
+    type: page
+    value: billetterie
+    edition_relative: true
+    in_nav: false
+    in_footer: false
   - name: Infos pratiques
     type: page
     value: infos-pratiques
     edition_relative: true
-    in_nav: true
-    in_footer: true
-  - name: Code de Conduite
-    type: page
-    value: code-de-conduite
-    edition_relative: true
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Sponsors
     type: page
     value: merci
@@ -248,11 +272,25 @@
     edition_relative: false
     in_nav: false
     in_footer: false
+  - name: Témoignages
+    type: page
+    value: temoignages
+    in_nav: false
+    in_footer: true
+  - type: separator
+    in_nav: true
+    in_footer: false
   - name: Contact
     type: page
     value: contact
     edition_relative: false
     in_nav: true
+    in_footer: true
+  - name: Newsletter
+    type: page
+    value: newsletter
+    edition_relative: false
+    in_nav: false
     in_footer: true
   - name: Mentions légales
     type: page
@@ -260,8 +298,9 @@
     edition_relative: false
     in_nav: false
     in_footer: true
-  - name: Témoignages
+  - name: Code de Conduite
     type: page
-    value: temoignages
-    in_nav: true
+    value: code-de-conduite
+    edition_relative: true
+    in_nav: false
     in_footer: true
