@@ -18,7 +18,7 @@ fr_FR:
 
     Le tout sans toucher ni au backend ni au JS.
   slides: ~
-  video: ~
+  video: https://youtu.be/k4KWz7D4P-k
 en_US:
   title: "Web Performance: be a hero and leverage HTML/CSS"
   excerpt: >-
@@ -32,5 +32,5 @@ en_US:
 
     All this without touching the backend or the JS.
   slides: ~
-  video: ~
+  video: https://youtu.be/k4KWz7D4P-k
 ---
