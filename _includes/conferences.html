@@ -39,18 +39,18 @@
             {% endif %}
           {% endif %}
           {% if verbatim.transcript %}
-            <a class="button" data-text="{% t lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t lire la version textuelle %}"><span class="button-inner">{% t lire la version textuelle %}</span></a>
+            <a class="button" data-text="{% t Lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t Lire la version textuelle %}"><span class="button-inner">{% t Lire la version textuelle %}</span></a>
           {% else %}
             {% if other_verbatim.transcript %}
-              {% capture text_button %}{% t lire la version textuelle %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+              {% capture text_button %}{% t Lire la version textuelle %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
               <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.transcript }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
             {% endif %}
           {% endif %}
           {% if verbatim.slides %}
-            <a class="button" data-text="{% t consulter le support %}" href="{{ verbatim.slides }}" title="{% t consulter le support %}"><span class="button-inner">{% t consulter le support %}</span></a>
+            <a class="button" data-text="{% t Consulter le support %}" href="{{ verbatim.slides }}" title="{% t Consulter le support %}"><span class="button-inner">{% t Consulter le support %}</span></a>
           {% else %}
             {% if other_verbatim.slides %}
-              {% capture text_button %}{% t consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+              {% capture text_button %}{% t Consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
               <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.slides }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
             {% endif %}
           {% endif %}

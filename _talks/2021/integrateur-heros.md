@@ -19,6 +19,7 @@ fr_FR:
     Le tout sans toucher ni au backend ni au JS.
   slides: /assets/docs/2021/integrateur-heros.pdf
   video: https://youtu.be/k4KWz7D4P-k
+  transcript: https://www.24joursdeweb.fr/2021/performance-web-lintegrateur-ce-heros/
 en_US:
   title: "Web Performance: be a hero and leverage HTML/CSS"
   excerpt: >-
