@@ -16,8 +16,8 @@ fr_FR:
 
 
     Retour sur 18 mois d’outillage, d’améliorations et d’apprentissage de la webperf au sein des équipes Produit / Tech / UX du groupe leboncoin. Nous vous proposons aujourd’hui de vous partager nos réussites, nos échecs, tout ce qui a pu nous aider pour développer notre culture webperfs et nous l’espérons, la vôtre…
-  slides: ~
-  video: ~
+  slides: /assets/docs/2021/culture_leboncoin.pdf
+  video: https://youtu.be/s5EkoUqpfKM
 en_US:
   title: Building a webperf culture at leboncoin
   subtitle: (it's more than just tech!)
