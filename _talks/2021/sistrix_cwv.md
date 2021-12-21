@@ -15,7 +15,7 @@ fr_FR:
     Après 1 mois de suivi, il n'y eu presque aucun changement. Puis à la fin officielle du déploiement, nous avons découvert que les sites ayant des CWV médiocres ont perdu 3,7 points de pourcentage de moins que la moyenne. Ceux qui en ont de bons ont bondi d'un point ([en savoir plus](https://www.sistrix.fr/blog/mise-a-jour-de-lexperience-des-pages-les-core-web-vitals-sont-un-facteur-de-classement-mesurable/)). 
 
     Durant cette intervention, nous fournirons des explications des mesures et études réalisés, et prendrons des exemples pour montrer ce qui a été affecté à la hausse ou à la baisse sur les sites.
-  slides: ~
+  slides: https://es.slideshare.net/NicolasAUDEMAR/limpact-des-core-web-vitals-sur-le-seo-we-love-speed-2021-palais-de-la-bourse-lyon
   video: https://youtu.be/vcxpXALkMYA
 en_US:
   title: Yes, boosting your Core Web Vitals improves your visibility on Google
@@ -28,5 +28,5 @@ en_US:
 
     During this presentation, we will provide explanations of the measurements and studies conducted, and take examples to show what went up or down at the sites.
   slides: ~
-  video: https://youtu.be/vcxpXALkMYA
+  video: ~
 ---
