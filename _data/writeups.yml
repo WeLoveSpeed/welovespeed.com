@@ -1,5 +1,11 @@
 - year: 2021
   writeups:
+    - url: http://meetups.pixelastic.com/2021/12/16/we-love-speed-2021/
+      title: "We Love Speed 2021 (detailed notes)"
+      authors: ["Tim Carry"]
+      locale: en_US
+      extract: >-
+        I'm really glad I could attend physically this event. It has been too long since I could go to conferences because of the COVID situation. Having a full day of webperf peeps sharing their discoveries, and seeing how far the webperf field went in the past years has been really exciting.
     - url: https://engineering.contentsquare.com/2021/we-love-speed-2021/
       title: "We Love Speed 2021 Conference Recap"
       authors: ["Tim Carry"]
