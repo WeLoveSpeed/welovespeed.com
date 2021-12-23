@@ -1,3 +1,25 @@
+- year: 2021
+  writeups:
+    - url: https://engineering.contentsquare.com/2021/we-love-speed-2021/
+      title: "We Love Speed 2021 Conference Recap"
+      authors: ["Tim Carry"]
+      locale: en_US
+      extract: >-
+        Webperf is no longer a niche field for engineers obsessed with shaving off a few milliseconds here and there. It now has a proven and direct impact on SEO and revenue, as well as objective ways of being quantified. Conferences like We Love Speed clearly show that webperf best practices are becoming as ubiquitous as code reviews or automated deployments in quality oriented teams.
+      from:
+        name: Contentsquare
+        url: https://contentsquare.com/
+- year: 2020
+  writeups:
+    - url: https://contentsquare.com/fr-fr/blog/we-love-speed-organisation-projet-performance-web/
+      title: "We Love Speed : pourquoi vous devriez vous intéresser à la webperf"
+      authors: ["Wendy Carré"]
+      locale: fr_FR
+      extract: >-
+        We Love Speed rassemble chaque année les professionnels du web, les experts de la performance web (ou webperf) de différentes industries (eCommerce, bien sûr, mais aussi la Presse, par exemple) pour échanger et discuter sur les enjeux de la webperf, les best practices et les tendances.
+      from:
+        name: Contentsquare
+        url: https://contentsquare.com/
 - year: 2019
   writeups:
     - url: https://blog.clever-age.com/fr/2019/11/05/we-love-speed-2019-clever-age/
