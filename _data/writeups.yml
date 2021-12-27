@@ -6,6 +6,24 @@
       locale: en_US
       extract: >-
         I'm really glad I could attend physically this event. It has been too long since I could go to conferences because of the COVID situation. Having a full day of webperf peeps sharing their discoveries, and seeing how far the webperf field went in the past years has been really exciting.
+    - url: https://www.front-commerce.com/fr/conference-performances-web-we-love-speed/
+      title: "Nos conférences performances web préférées de We Love Speed 2021"
+      authors: ["Damien Pobel"]
+      locale: fr_FR
+      extract: >-
+        Il convient de féliciter les organisateurs pour cet événement particulièrement réussi : l’organisation était parfaite, le lieu superbe et les conférences toutes très intéressantes et enrichissantes ! Certaines sortent tout de même du lot, voici donc un rapide résumé de nos conférences préférées de cette édition 2021.
+      from:
+        name: Front-Commerce
+        url: https://www.front-commerce.com/
+    - url: https://www.front-commerce.com/conference-web-performance-we-love-speed/
+      title: "Our favorite web performance conferences of We Love Speed 2021"
+      authors: ["Damien Pobel"]
+      locale: en_US
+      extract: >-
+        We should congratulate the organizers for this particularly successful event: the organization was perfect, the venue superb and the conferences all very interesting and enriching! Some of them stand out, so here is a quick summary of our favorite conferences of this 2021 edition.
+      from:
+        name: Front-Commerce
+        url: https://www.front-commerce.com/
     - url: https://engineering.contentsquare.com/2021/we-love-speed-2021/
       title: "We Love Speed 2021 Conference Recap"
       authors: ["Tim Carry"]
