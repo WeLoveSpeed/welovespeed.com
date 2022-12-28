@@ -27,13 +27,6 @@
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
-  - firstname: Boris
-    lastname: Schapira
-    slug: bsc2
-    name_link: https://twitter.com/boostmarks
-    links:
-      - label: Contentsquare
-        url: https://www.contentsquare.com/
   - firstname: Martine
     lastname: Constantinidis
     slug: martine
@@ -54,13 +47,27 @@
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
-  - firstname: Pierre
-    lastname: Ammeloot
-    slug: pierre
-    name_link: https://twitter.com/Pierre_A
+  - firstname: Aymeric
+    lastname: Bouillat
+    slug: aymeric
+    name_link: https://twitter.com/aymerictwit
     links:
       - label: Site
-        url: https://pierre.ammeloot.fr/
+        url: https://www.yapasdequoi.com/
+  - firstname: Joanne
+    lastname: Badiane
+    slug: joanne
+  - firstname: Sébastien
+    lastname: Allemand
+    slug: sebastien
+    name_link: https://twitter.com//allema_s
+    links:
+      - label: Site
+        url: https://sebastienallemand.fr/
+  - firstname: Jérémie
+    lastname: Pereira
+    slug: jeremie
+    name_link: https://www.linkedin.com/in/jeremiepereira/
 2021:
   - firstname: Émilie
     lastname: Wilhelm
