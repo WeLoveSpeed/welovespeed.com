@@ -20,7 +20,7 @@ cfp_open: false
 lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
-current_edition: 2021
+current_edition: 2023
 sponsoring:
   fr_FR: '/assets/docs/2023/sponsoring_fr.pdf'
   en_US: '/assets/docs/2023/sponsoring_en.pdf'
