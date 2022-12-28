@@ -5,7 +5,7 @@
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
-  X-Lille: "La WebPerf, saque eud’din !"
+  X-Paris: "Fluctuat nec mergitur"
   Referrer-Policy: strict-origin-when-cross-origin
   Content-Security-Policy: default-src 'self' ; img-src 'self' res.cloudinary.com analytics.schapira.dev ; script-src 'self' widget.weezevent.com www.weezevent.com analytics.schapira.dev www.google.com www.gstatic.com 'sha256-5Bn9J6SYY6nZL3+ZzEgpwvEWuSqOc3Ce5lV86AAO64w=' 'sha256-ZDjCdTstFUpLDovBdF6MXbSPB35alPr6sy4CYtyHSA4=' 'sha256-YjIPXUwDiVVDRjWsV/No3+mB0Tjt2iEgm38Mp7NofiY=' ; connect-src 'self' analytics.schapira.dev widget.weezevent.com www.weezevent.com www.google.com www.gstatic.com res.cloudinary.com ; style-src 'self' 'unsafe-inline'; object-src 'self'; font-src 'self' ; frame-ancestors 'none' ; frame-src https: ; manifest-src 'self' ; base-uri 'none' ;
 
