@@ -8,9 +8,9 @@ speakers:
 fr_FR:
   title: Navigateur, <i lang="en">metrics</i> et outils
   excerpt: >-
-    La webPerf, c'est bien, mais en connaissant toutes les subtilités de la création de notre page c'est mieux ! Étudions ensemble comment le web fonctionne pour une meilleure compréhension des enjeux d'aujourd'hui.
+    La Web Perf, c'est bien, mais en connaissant toutes les subtilités de la création de notre page c'est mieux ! Étudions ensemble comment le web fonctionne pour une meilleure compréhension des enjeux d'aujourd'hui.
   description: >-
-    La webPerf, c'est bien, mais en connaissant toutes les subtilités de la création de notre page c'est mieux \o/. Pendant 45 minutes, nous voyagerons à travers toutes les étapes de la création d'un site pour mieux comprendre les impacts des ressources de nos pages à travers le réseau, sur le navigateur et les périphériques de nos utilisateurs et utilisatrices. Nous apprendrons la significations des métriques de la performance web, et découvrirons certains outils nous permettant de devenir autonome sur le sujet.
+    La Web Perf, c'est bien, mais en connaissant toutes les subtilités de la création de notre page c'est mieux \o/. Pendant 45 minutes, nous voyagerons à travers toutes les étapes de la création d'un site pour mieux comprendre les impacts des ressources de nos pages à travers le réseau, sur le navigateur et les périphériques de nos utilisateurs et utilisatrices. Nous apprendrons la significations des métriques de la performance web, et découvrirons certains outils nous permettant de devenir autonome sur le sujet.
   slides: ~
   video: https://youtu.be/aqMKPU9Ta8A
 en_US:
