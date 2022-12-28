@@ -571,3 +571,50 @@
     - name: Mozilla Firefox
       logo: /assets/images/thanks/firefox.svg
       url: https://www.mozilla.org/fr/firefox/new/
+2023:
+  gold:
+    - name: Fasterize
+      slug: fstrz
+      logo: /assets/images/thanks/fasterize.svg
+      fr_FR:
+        cta:
+          text: "Nous recrutons !"
+          url: https://www.welcometothejungle.com/fr/companies/fasterize/jobs
+        description: >-
+          Fasterize est une solution SaaS qui accélère automatiquement le chargement des sites web. Notre moteur d’optimisation, rapide à mettre en place, agit en temps réel (tel un proxy) sur les performances brutes des pages, mais aussi sur la perception de vitesse des utilisateurs.
+      en_US:
+        cta:
+          text: "Fasterize your website"
+          url: https://www.fasterize.com/en/
+        description: >-
+          Fasterize is a SaaS solution that automatically speeds up the loading of websites. Fasterize's optimization engine acts in real time (like a proxy) on the raw page performance, but also on the users' perception of speed. Quick to set up.
+    - name: Braincracking
+      slug: braincracking
+      logo: /assets/images/thanks/braincracking.svg
+      fr_FR:
+        cta:
+          text: "En savoir plus"
+          url: http://braincracking.org/
+        description: >-
+          Avec 10 ans d’expérience en audits Webperf indépendants et en formation d’équipes de développeurs, Jean-Pierre Vincent vous aide à démarrer vos projets webperf ou vous accompagne.
+      en_US:
+        cta:
+          text: "Learn More"
+          url: http://braincracking.org/
+        description: >-
+          With 10 years of experience in independent webperf audits and in training teams of developers, Jean-Pierre Vincent helps you start your webperf projects or accompanies you along the way.
+    - name: Google
+      slug: google
+      logo: /assets/images/thanks/google.svg
+      fr_FR:
+        cta:
+          text: "En savoir plus sur les Core Web Vitals"
+          url: https://web.dev/learn-web-vitals/
+        description: >-
+          En terme d'expérience utilisateur, la vitesse est cruciale. Chaque seconde compte, la lenteur n'est pas seulement frustrante, elle a un impact négatif sur les performances commerciales. Téléchargez notre nouveau PlayBook Mobile Speed pour comprendre pourquoi la vitesse est importante, comment la mesurer, comment accélérer votre site et maintenir vos performances !
+      en_US:
+        cta:
+          text: "Learn more about Core Web Vitals"
+          url: https://web.dev/learn-web-vitals/
+        description: >-
+          When it comes to user experience, speed matters. And delays caused by mobile speed aren’t just frustrating, they can also have a negative impact on business results. Download our new Mobile Site Speed Playbook to explore why speed matters, what it is and how to measure it, and then how to go about speeding up and staying fast.

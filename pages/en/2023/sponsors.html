@@ -1,0 +1,34 @@
+---
+title: "Our sponsors"
+description: "They chose to support us out of love for UX and Web performance."
+i18n-key: 2023-sponsors
+permalink: /en/2023/thanks/
+---
+
+{% assign year = page.year | default: site.current_edition %}
+<section class="section">
+  <div class="wrapper">
+    <h1 class="text-center">Our Gold sponsors</h1>
+    <p>
+      E-merchants, solution providers, service providers, they have chosen to
+      support us for the love of UX and Web performance. Without them, there
+      would be no event. Thank you very much!
+    </p>
+  </div>
+</section>
+
+{% include sponsors.html locale=page.locale shorturl=true year=year %}
+
+<section id="sponsoring-kit" class="section">
+  <div class="wrapper">
+    <p class="text-center">
+      <a class="button" data-text="download our sponsorship kit (509KB)" hreflang="fr" href="{{ site.sponsoring[page.locale] | relative_url }}"><span class="button-inner">download our sponsorship kit (509&nbsp;KB)</span></a>
+    </p>
+  </div>
+</section>
+
+{% include banners/banner-lyon-palais.html locale=page.locale %}
+
+{% include sponsors-descriptions.html locale=page.locale year=year %}
+
+{% include banners/banner-lyon-palais.html locale=page.locale %}

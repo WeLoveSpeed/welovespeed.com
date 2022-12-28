@@ -1,3 +1,66 @@
+2023:
+  - firstname: Émilie
+    lastname: Wilhelm
+    slug: emilie
+    name_link: https://twitter.com/EmilieWilhelm
+    links:
+      - label: Fasterize
+        url: https://www.fasterize.com/
+  - firstname: Jean-Pierre
+    lastname: Vincent
+    slug: jp
+    name_link: https://twitter.com/theystolemynick
+    links:
+      - label: BrainCracking
+        url: http://braincracking.org/
+  - firstname: Audrey
+    lastname: Schoonwater
+    slug: audrey
+    name_link: https://twitter.com/witamine
+    links:
+      - label: Witamine
+        url: https://www.witamine.com/
+  - firstname: Stéphane
+    lastname: Rios
+    slug: stephane
+    name_link: https://twitter.com/stefounet
+    links:
+      - label: Fasterize
+        url: https://www.fasterize.com/
+  - firstname: Boris
+    lastname: Schapira
+    slug: bsc2
+    name_link: https://twitter.com/boostmarks
+    links:
+      - label: Contentsquare
+        url: https://www.contentsquare.com/
+  - firstname: Martine
+    lastname: Constantinidis
+    slug: martine
+    links:
+      - label: AWE, data minded B2B
+        url: https://www.awe.fr/
+  - firstname: Olivier
+    lastname: Perrin
+    slug: olivier
+    name_link: https://twitter.com/AlmarenaIt
+    links:
+      - label: Almarena IT
+        url: https://www.almarena-it.com/
+  - firstname: Shadine
+    lastname: Derbal
+    slug: shadined
+    name_link: https://www.linkedin.com/in/shadine-derbal/
+    links:
+      - label: Fasterize
+        url: https://www.fasterize.com/
+  - firstname: Pierre
+    lastname: Ammeloot
+    slug: pierre
+    name_link: https://twitter.com/Pierre_A
+    links:
+      - label: Site
+        url: https://pierre.ammeloot.fr/
 2021:
   - firstname: Émilie
     lastname: Wilhelm

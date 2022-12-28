@@ -161,9 +161,19 @@ defaults:
       year: 2021
   -
     scope:
+      path: "pages/en/2023"
+    values:
+      year: 2023
+  -
+    scope:
       path: "pages/fr/2021"
     values:
       year: 2021
+  -
+    scope:
+      path: "pages/fr/2023"
+    values:
+      year: 2023
   -
     scope:
       path: "_talks/2018"
@@ -184,6 +194,11 @@ defaults:
       path: "_talks/2021"
     values:
       year: 2021
+  -
+    scope:
+      path: "_talks/2023"
+    values:
+      year: 2023
 microtypo:
   median: true
 
