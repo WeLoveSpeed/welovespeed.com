@@ -22,20 +22,20 @@ lazyload:
 
 current_edition: 2021
 sponsoring:
-  fr_FR: '/assets/docs/2021/sponsoring_fr.pdf'
-  en_US: '/assets/docs/2021/sponsoring_en.pdf'
+  fr_FR: '/assets/docs/2023/sponsoring_fr.pdf'
+  en_US: '/assets/docs/2023/sponsoring_en.pdf'
 tickets:
   selling: false
   # diversity_id: 437
-  weezevent: true
+  weezevent: false
   coupons-only: false
   waiting-list: false
   price: "220+"
   price_currency: "EUR"
 infos:
-  display: true
+  display: false
   diversity:
-    soldout: true
+    soldout: false
 
 # Compression du code HTML en production
 compress_html:

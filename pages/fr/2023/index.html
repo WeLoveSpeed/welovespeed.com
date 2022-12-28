@@ -21,15 +21,15 @@ permalink: /2023/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="présentations et vidéos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="présentations et vidéos">
+      {%- comment -%}<a class="button" data-text="présentations et vidéos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="présentations et vidéos">
         <span class="button-inner">présentations et vidéos</span>
-      </a>
-      <a class="button" data-text="témoignages" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="témoignages">
+      </a>{%- endcomment -%}
+      {%- comment -%}<a class="button" data-text="témoignages" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="témoignages">
         <span class="button-inner">témoignages</span>
-      </a>
-      <a class="button" data-text="photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
+      </a>{%- endcomment -%}
+      {%- comment -%}<a class="button" data-text="photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
         <span class="button-inner">photos ({{ site.data.editions[page.year].pictures.title }})</span>
-      </a>
+      </a>{%- endcomment -%}
       {% if site.current_edition != page.year %}
         <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
           <span class="button-inner">{% t Voir l'édition courante %}</span>
