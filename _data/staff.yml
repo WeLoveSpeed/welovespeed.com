@@ -57,6 +57,10 @@
   - firstname: Joanne
     lastname: Badiane
     slug: joanne
+    name_link: https://www.linkedin.com/in/joanne-badiane-20028b79/
+    links:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/joanne-badiane-20028b79/
   - firstname: Sébastien
     lastname: Allemand
     slug: sebastien
@@ -68,6 +72,9 @@
     lastname: Pereira
     slug: jeremie
     name_link: https://www.linkedin.com/in/jeremiepereira/
+    links:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/jeremiepereira/
 2021:
   - firstname: Émilie
     lastname: Wilhelm
