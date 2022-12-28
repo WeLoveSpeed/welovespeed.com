@@ -11,7 +11,7 @@
 
 # Redirect to 2021
 /en/ /en/2021 302
-/ /2021 302
+/ /2023 302
 
 /code-de-conduite/ /2021/code-de-conduite/ 302
 /code-of-conduct/ /en/2021/code-of-conduct/ 302

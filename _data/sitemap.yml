@@ -77,8 +77,8 @@
     type: page
     value: protocole-sanitaire
     edition_relative: true
-    in_nav: true
-    in_footer: true
+    in_nav: false
+    in_footer: false
 2021:
   - name: Accueil
     type: root_anchor
