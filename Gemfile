@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.2'
+ruby '3.0.0'
 
 gem 'i18n'
 gem 'jekyll'
@@ -19,3 +19,5 @@ group :test do
   gem 'html-proofer', '~> 3.4'
   gem 'rake', '~> 12.0'
 end
+
+gem "webrick", "~> 1.7"
