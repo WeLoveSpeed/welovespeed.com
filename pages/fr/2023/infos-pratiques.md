@@ -1,0 +1,33 @@
+---
+title: Infos pratiques
+description: "Toutes les infos à propos de l'événement"
+i18n-key: informations
+permalink: /2023/infos-pratiques/
+layout: page
+---
+
+# {{ page.title }}
+
+## Quand ? <span aria-hidden>🕗</span>
+
+Une journée complète, le 10 mai 2023. L’accueil se fera avec des viennoiseries, avant de démarrer les présentations.
+
+## Où ? <span aria-hidden>🗺️</span>
+
+À l'Espace Saint-Martin, un espace de conférence en plein cœur de Paris.
+
+<address>
+  Espace Saint-Martin<br>
+  199 bis, rue Saint-Martin<br>
+  75003 Paris
+</address>
+
+{% include google-map.html embed_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.7302475062634!2d2.3502335155496312!3d48.86335407928791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1c2824899f%3A0xf34018feef603ba1!2sEspace%20Saint-Martin!5e0!3m2!1sfr!2sfr!4v1673360445523!5m2!1sfr!2sfr" link="https://goo.gl/maps/T7HabeG5wwHz9FeR6" %}
+
+## Accessibilité <span aria-hidden>♿️</span>
+
+L'Espace Saint-Martin est entièrement accessible aux personnes à mobilité réduite.
+
+Vous pouvez consulter ici [le registre d'accessibilité](https://www.espacesaintmartin.com/images/contenus_pages/Fiches%20synthese%20R-V_registre.pdf).
+
+Vous pouvez consulter ici [l'attestation d'accessibilité aux personnes handicapées](https://www.espacesaintmartin.com/images/contenus_pages/ATTHAND.pdf).
