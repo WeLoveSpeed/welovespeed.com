@@ -31,6 +31,7 @@ tickets:
   waiting-list: false
   price: "250"
   price_currency: "EUR"
+nlOnTop: false
 infos:
   display: true
   diversity:

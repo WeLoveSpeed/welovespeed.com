@@ -57,6 +57,7 @@ permalink: /2023/
   {% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}
 {% endif %}
 
+{% if site.nlOnTop %}
   <hr class="wrapper">
 
   <section class="section">
@@ -68,6 +69,7 @@ permalink: /2023/
       {% include newsletter-form.html context="main" %}
     </div>
   </section>
+{% endif %}
 
 {% include banners/banner-anthony-delanoix-eiffel-unsplash.html locale=page.locale %}
 
