@@ -21,6 +21,9 @@ permalink: /en/2023/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
+      {%- if site.cfp_open -%}<a class="button" target="_blank" data-text="Call For Proposals" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="Call For Proposals">
+        <span class="button-inner">Call For Proposals</span>
+      </a>{%- endif -%}
       {%- comment -%}<a class="button" data-text="slides and videos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="slides et videos">
         <span class="button-inner">slides and videos</span>
       </a>{%- endcomment -%}
