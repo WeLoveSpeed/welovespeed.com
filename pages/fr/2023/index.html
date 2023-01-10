@@ -22,17 +22,17 @@ permalink: /2023/
   <div class="wrapper">
     <p class="text-center">
       {%- if site.cfp_open -%}<a class="button" target="_blank"  data-text="appel à propositions" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="appel à propositions">
-        <span class="button-inner">appel à propositions</span>
+        <span class="button-inner">Appel à propositions</span>
       </a>{%- endif -%}
       {%- comment -%}
-      <a class="button" data-text="présentations et vidéos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="présentations et vidéos">
-        <span class="button-inner">présentations et vidéos</span>
+      <a class="button" data-text="Présentations et vidéos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="présentations et vidéos">
+        <span class="button-inner">Présentations et vidéos</span>
       </a>
-      <a class="button" data-text="témoignages" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="témoignages">
-        <span class="button-inner">témoignages</span>
+      <a class="button" data-text="Témoignages" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="témoignages">
+        <span class="button-inner">Témoignages</span>
       </a>
-      <a class="button" data-text="photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
-        <span class="button-inner">photos ({{ site.data.editions[page.year].pictures.title }})</span>
+      <a class="button" data-text="Photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
+        <span class="button-inner">Photos ({{ site.data.editions[page.year].pictures.title }})</span>
       </a>
       {%- endcomment -%}
       {% if site.current_edition != page.year %}
@@ -93,7 +93,7 @@ permalink: /2023/
 <section id="sponsors" class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="télécharger notre dossier sponsor (560&nbsp;Ko)" href="{{ site.sponsoring[page.locale] | relative_url }}"><span class="button-inner">télécharger notre dossier sponsor (560&nbsp;Ko)</span></a>
+      <a class="button" data-text="Télécharger notre dossier sponsor (560&nbsp;Ko)" href="{{ site.sponsoring[page.locale] | relative_url }}"><span class="button-inner">Télécharger notre dossier sponsor (560&nbsp;Ko)</span></a>
     </p>
   </div>
 </section>

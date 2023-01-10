@@ -24,18 +24,18 @@ permalink: /en/2023/
       {%- if site.cfp_open -%}<a class="button" target="_blank" data-text="Call For Proposals" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="Call For Proposals">
         <span class="button-inner">Call For Proposals</span>
       </a>{%- endif -%}
-      {%- comment -%}<a class="button" data-text="slides and videos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="slides et videos">
-        <span class="button-inner">slides and videos</span>
+      {%- comment -%}<a class="button" data-text="Slides and videos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="slides et videos">
+        <span class="button-inner">Slides and videos</span>
       </a>{%- endcomment -%}
-      {%- comment -%}<a class="button" data-text="audience feedback" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="audience feedback">
-        <span class="button-inner">audience feedback</span>
+      {%- comment -%}<a class="button" data-text="Audience feedback" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="audience feedback">
+        <span class="button-inner">Audience feedback</span>
       </a>{%- endcomment -%}
-      {%- comment -%}<a class="button" data-text="pictures ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="pictures ({{ site.data.editions[page.year].pictures.title }})">
-        <span class="button-inner">pictures ({{ site.data.editions[page.year].pictures.title }})</span>
+      {%- comment -%}<a class="button" data-text="Pictures ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="pictures ({{ site.data.editions[page.year].pictures.title }})">
+        <span class="button-inner">Pictures ({{ site.data.editions[page.year].pictures.title }})</span>
       </a>{%- endcomment -%}
       {% if site.current_edition != page.year %}
-        <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
-          <span class="button-inner">{% t Voir l'édition courante %}</span>
+        <a class="button" data-text="{% t See the current edition %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
+          <span class="button-inner">{% t See the current edition %}</span>
         </a>
       {% endif %}
     </p>
@@ -91,7 +91,7 @@ permalink: /en/2023/
 <section id="sponsors" class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="download our sponsorship kit (509&nbsp;KB)" hreflang="fr" href="{{ site.sponsoring[page.locale] | relative_url }}"><span class="button-inner">download our sponsorship kit (509&nbsp;KB)</span></a>
+      <a class="button" data-text="Download our Sponsorship Kit (509&nbsp;KB)" hreflang="en" href="{{ site.sponsoring[page.locale] | relative_url }}"><span class="button-inner">Download our Sponsorship Kit (509&nbsp;KB)</span></a>
     </p>
   </div>
 </section>
