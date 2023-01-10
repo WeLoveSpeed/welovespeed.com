@@ -21,8 +21,8 @@
     type: page
     value: billetterie
     edition_relative: true
-    in_nav: false
-    in_footer: false
+    in_nav: true
+    in_footer: true
   - name: Infos pratiques
     type: page
     value: infos-pratiques
@@ -78,7 +78,7 @@
     value: protocole-sanitaire
     edition_relative: true
     in_nav: false
-    in_footer: false
+    in_footer: true
 2021:
   - name: Accueil
     type: root_anchor

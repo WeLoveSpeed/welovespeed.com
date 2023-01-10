@@ -34,9 +34,15 @@ permalink: /en/2023/
         <span class="button-inner">Pictures ({{ site.data.editions[page.year].pictures.title }})</span>
       </a>{%- endcomment -%}
       {% if site.current_edition != page.year %}
-        <a class="button" data-text="{% t See the current edition %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
-          <span class="button-inner">{% t See the current edition %}</span>
+        <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
+          <span class="button-inner">{% t Voir l'édition courante %}</span>
         </a>
+      {% else %}
+      {% if site.tickets.selling %}
+        <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/{{ "billetterie" | t: page.locale }}" title="{% t Réserver votre place %}">
+          <span class="button-inner">{% t Réserver votre place %}</span>
+        </a>
+      {% endif %}
       {% endif %}
     </p>
   </div>
@@ -77,6 +83,7 @@ permalink: /en/2023/
   </div>
 </section>
 
+{% if site.infos.display %}
 {% include banners/banner-alex-harmuth-cafe-unsplash.html locale=page.locale %}
 
 <section class="section" id="location">
@@ -110,6 +117,7 @@ permalink: /en/2023/
     </p>
   </div>
 </section>
+{% endif %}
 
 {% include banners/banner-alex-harmuth-cafe-unsplash.html locale=page.locale %}
 

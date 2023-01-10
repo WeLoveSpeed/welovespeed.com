@@ -25,16 +25,16 @@ sponsoring:
   fr_FR: '/assets/docs/2023/sponsoring_fr.pdf'
   en_US: '/assets/docs/2023/sponsoring_en.pdf'
 tickets:
-  selling: false
-  # diversity_id: 437
-  weezevent: false
+  selling: true
+  weezevent: true
   coupons-only: false
   waiting-list: false
-  price: "220+"
+  price: "250"
   price_currency: "EUR"
 infos:
-  display: false
+  display: true
   diversity:
+    active: false
     soldout: false
 
 # Compression du code HTML en production
@@ -50,7 +50,9 @@ robots: index,follow
 # Services configuration
 
 weezevent:
-    mini-site-url: https://www.weezevent.com/we-love-speed-2021
+    mini-site-url: https://my.weezevent.com/we-love-speed-2023
+    base_url: https://widget.weezevent.com/ticket/E931463/?code=24576
+    dataId: 931463
 
 newsletter:
   url: "https://welovespeed.us18.list-manage.com/subscribe/post?u=871757160e8496642288193e3&amp;id=1695ce944b"

@@ -6,7 +6,14 @@ permalink: /en/2023/informations/
 layout: page
 ---
 
-# {{ page.title }}
+# Welcome to Espace Saint-Martin
+
+<figure role="group" aria-labelledby="fig1">
+  {% cloudinary /assets/images/2023/location/3_large.jpg alt="An auditorium with about 300 seats, photographed from the back left. We can guess a giant screen overhanging a large scenic space." %}
+  <figcaption id="fig1" class="text-xs text-center">
+    The Auditorium and its wide stage area.
+  </figcaption>
+</figure>
 
 ## When <span aria-hidden>🕗</span>
 

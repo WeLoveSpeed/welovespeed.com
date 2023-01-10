@@ -12,10 +12,10 @@ permalink: /2023/billetterie/
     <a title="Billetterie en ligne"
       href="{{ site.weezevent.mini-site-url }}"
       class="weezevent-widget-integration"
-      data-src="https://widget.weezevent.com/ticket/E761376/?code=2444&locale=fr-FR&width_auto=1&color_primary=cd2f2b"
+      data-src="{{ site.weezevent.base_url }}&locale=fr-FR&width_auto=1&color_primary=cd2f2b"
       data-width="650"
       data-height="600"
-      data-id="761376"
+      data-id="{{ site.weezevent.dataId }}"
       data-resize="1"
       data-width_auto="1"
       data-noscroll="0"
@@ -55,7 +55,7 @@ permalink: /2023/billetterie/
 
 <hr class="wrapper">
 
-{% if site.infos.diversity %}
+{% if site.infos.diversity.active %}
 <section class="section">
   <div class="wrapper">
     <h2 id="diversity">Tickets Pro-Diversité</h2>

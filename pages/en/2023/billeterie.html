@@ -12,10 +12,10 @@ permalink: /en/2023/register/
     <a title="Online ticketing"
       href="{{ site.weezevent.mini-site-url }}"
       class="weezevent-widget-integration"
-      data-src="https://widget.weezevent.com/ticket/E761376/?code=2444&locale=en-GB&width_auto=1&color_primary=cd2f2b"
+      data-src="{{ site.weezevent.base_url }}&locale=fr-FR&width_auto=1&color_primary=cd2f2b"
       data-width="650"
       data-height="600"
-      data-id="761376"
+      data-id="{{ site.weezevent.dataId }}"
       data-resize="1"
       data-width_auto="1"
       data-noscroll="0"
@@ -53,7 +53,7 @@ permalink: /en/2023/register/
 </section>
 
 
-{% if site.infos.diversity %}
+{% if site.infos.diversity.active %}
 <hr class="wrapper">
 
 <section class="section">
@@ -81,12 +81,12 @@ permalink: /en/2023/register/
 
 <section class="section">
   <div class="wrapper">
-    <h2>How to get to the Palais de la Bourse in Lyon?</h2>
+    <h2>Where is We Love Speed taking place this year?</h2>
     <section>
-      <p>We have solutions! Follow the tips we've prepared for a trouble-free trip.</p>
+      <p>Every year, We Love Speed takes place in one of the most beautiful cities in France.</p>
     </section>
     <p class="text-center">
-      <a class="button" data-text="Come to Lyon" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Come to Lyon</span></a>
+      <a class="button" data-text="Learn more about the venue" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Learn more about the venue</span></a>
     </p>
   </div>
 </section>
