@@ -11,7 +11,7 @@ layout: page
 <figure role="group" aria-labelledby="fig1">
   {% cloudinary /assets/images/2023/location/3_large.jpg alt="Un auditorium d'environ 300 fauteils, pris en photo depuis son arrière gauche. On y devine un écran géant surplombant un large espace scénique." %}
   <figcaption id="fig1" class="text-xs text-center">
-  Le grand auditorium et son large espace scénique.
+    Le grand auditorium et son large espace scénique.
   </figcaption>
 </figure>
 
