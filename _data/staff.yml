@@ -71,10 +71,10 @@
   - firstname: Jérémie
     lastname: Pereira
     slug: jeremie
-    name_link: https://www.linkedin.com/in/jeremiepereira/
+    name_link: https://twitter.com/jeremieP
     links:
-      - label: LinkedIn
-        url: https://www.linkedin.com/in/jeremiepereira/
+      - label: Leboncoin
+        url: https://www.leboncoin.fr
 2021:
   - firstname: Émilie
     lastname: Wilhelm
