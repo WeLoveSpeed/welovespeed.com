@@ -140,7 +140,7 @@ permalink: /2023/
 <section id="sponsors" class="section">
   <div class="wrapper">
     <p class="text-center">
-      <a class="button" data-text="Télécharger notre dossier sponsor (560&nbsp;Ko)" target="_blank" href="{{ site.sponsoring[page.locale] | relative_url }}"><span class="button-inner">Télécharger notre dossier sponsor (560&nbsp;Ko)</span></a>
+      <a class="button" data-text="Télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})" target="_blank" href="{{ site.sponsoring[page.locale].url | relative_url }}"><span class="button-inner">Télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})</span></a>
     </p>
   </div>
 </section>

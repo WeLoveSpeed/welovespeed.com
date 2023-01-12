@@ -24,10 +24,10 @@ permalink: /en/2020/thanks/
     <p class="text-center">
       <a
         class="button"
-        data-text="download our sponsorship kit (1.4&nbsp;MB)"
-        href="{{ site.sponsoring[page.locale] | relative_url }}"
+        data-text="download our sponsorship kit ({{ site.sponsoring[page.locale].size }})"
+        href="{{ site.sponsoring[page.locale].url | relative_url }}"
         ><span class="button-inner"
-          >download our sponsorship kit (1.4&nbsp;MB)</span
+          >download our sponsorship kit ({{ site.sponsoring[page.locale].size }})</span
         ></a
       >
     </p>

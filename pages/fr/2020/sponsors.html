@@ -24,10 +24,10 @@ permalink: /2020/merci/
     <p class="text-center">
       <a
         class="button"
-        data-text="télécharger notre dossier sponsor (1.2&nbsp;Mo)"
-        href="{{ site.sponsoring[page.locale] | relative_url }}"
+        data-text="télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})"
+        href="{{ site.sponsoring[page.locale].url | relative_url }}"
         ><span class="button-inner"
-          >télécharger notre dossier sponsor (1.2&nbsp;Mo)</span
+          >télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})</span
         ></a
       >
     </p>

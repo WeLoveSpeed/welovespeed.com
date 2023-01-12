@@ -22,8 +22,12 @@ lazyload:
 
 current_edition: 2023
 sponsoring:
-  fr_FR: '/assets/docs/2023/sponsoring_fr.pdf'
-  en_US: '/assets/docs/2023/sponsoring_en.pdf'
+  fr_FR:
+    url: '/assets/docs/2023/sponsoring_fr.pdf'
+    size: '496 Ko'
+  en_US:
+    url: '/assets/docs/2023/sponsoring_en.pdf'
+    size: '14KB'
 tickets:
   selling: true
   weezevent: true
