@@ -32,6 +32,23 @@ At the Espace Saint-Martin, a conference space in the heart of Paris.
 
 {% include google-map.html embed_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.7302475062634!2d2.3502335155496312!3d48.86335407928791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1c2824899f%3A0xf34018feef603ba1!2sEspace%20Saint-Martin!5e0!3m2!1sfr!2sfr!4v1673360445523!5m2!1sfr!2sfr" link="https://goo.gl/maps/T7HabeG5wwHz9FeR6" %}
 
+## Public transportation
+
+Use the RATP website for [itinerary simulation](https://www.ratp.fr/en/itineraires).
+
+### Underground (M & RER) <span aria-hidden>🚋</span>
+
+These lines lead to the Espace Saint-Martin:
+
+- **RER A**, **RER B**, **RER D**, **M1**, **M7**, **M14** : "Châtelet" stop, "Les Halles" exit
+- **M3** : "Arts et Métiers" or "Réaumur" stops, "Sébastopol" exit
+- **M4** : "Étienne Marcel" or "Réaumur" stops, "Sébastopol" exit
+- **M11** : "Rambuteau" stop, "Grenier Saint-Lazare" exit
+
+### Bus <span aria-hidden>🚌</span>
+
+There is a bus stop for lines 29, 38, 75 & 47 called "Grenier Saint-Lazare / Quartier de l'horloge", you can walk from there.
+
 ## Accessibility <span aria-hidden>♿️</span>
 
 The Espace Saint-Martin is fully accessible to people with reduced mobility.
