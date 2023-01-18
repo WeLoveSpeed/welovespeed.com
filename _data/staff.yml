@@ -75,6 +75,13 @@
     links:
       - label: Leboncoin
         url: https://www.leboncoin.fr
+  - firstname: Grégory
+    lastname: Faure
+    slug: gregory
+    name_link: https://www.linkedin.com/in/gregory-faure/
+    links:
+      - label: Almarena IT
+        url: https://www.almarena-it.com/
 2021:
   - firstname: Émilie
     lastname: Wilhelm
