@@ -630,3 +630,7 @@
 
 
           Born out of experience on hundreds of projects, Theodo shares best practices with their clients to help them optimize the performance of their apps.
+  others:
+    - name: redirection.io
+      logo: /assets/images/thanks/redirection-io.svg
+      url: https://redirection.io/
