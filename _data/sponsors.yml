@@ -645,6 +645,21 @@
           url: https://medium.com/leboncoin-engineering-blog/how-we-are-improving-our-web-performance-9f850d59d810
         description: >-
           With 30 million unique visitors per month on leboncoin, our tech & product teams are committed to providing our users with the best possible experience to find the right deal. We are working on improving our webperf, and are excited to support those who make the We Love Speed conference happen.
+    - name: Scaleflex
+      slug: scaleflex
+      logo: /assets/images/thanks/scaleflex.png
+      fr_FR:
+        cta:
+          text: "Découvrez Scaleflex"
+          url: https://www.scaleflex.com/en/home
+        description: >-
+          Scaleflex est une entreprise B2B SaaS qui développe des solutions de gestion des actifs numériques et d'accélération des médias. Notre mission est de charger, stocker, organiser, optimiser, publier et distribuer tous types d'assets médias (images, vidéos, fichiers statiques tels que les fichiers JS et CSS, etc.) afin d'accélérer les applications web et mobiles.
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://www.scaleflex.com/en/home
+        description: >-
+          Scaleflex is a B2B SaaS company that develops digital asset management and media acceleration solutions. Our mission is to upload, store, organize, optimize, publish and distribute all types of media assets (images, videos, static files such as JS and CSS files, etc.) to accelerate web and mobile applications.
   others:
     - name: redirection.io
       logo: /assets/images/thanks/redirection-io.svg
