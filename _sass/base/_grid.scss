@@ -7,7 +7,7 @@
     auto-fill,
     minmax(var(--grid-item-min-width), 1fr)
   );
-  grid-gap: $global-gutters $global-gutters;
+  grid-gap: $global-gutters ($global-gutters + 1rem);
   justify-items: stretch;
   align-items: center;
 
