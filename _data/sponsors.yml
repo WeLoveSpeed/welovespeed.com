@@ -630,6 +630,21 @@
 
 
           Born out of experience on hundreds of projects, Theodo shares best practices with their clients to help them optimize the performance of their apps.
+    - name: Le Bon Coin
+      slug: leboncoin
+      logo: /assets/images/thanks/lbc.svg
+      fr_FR:
+        cta:
+          text: "En savoir plus sur notre webperf"
+          url: https://medium.com/leboncoin-engineering-blog/how-we-are-improving-our-web-performance-9f850d59d810
+        description: >-
+          Avec 30 millions de visiteurs uniques par mois sur leboncoin, nos équipes tech & produit ont à cœur d'offrir à nos utilisateurs la meilleure expérience possible pour dénicher la bonne affaire. Nous travaillons sur l'amélioration de notre webperf, et sommes ravis de soutenir celles et ceux qui font vivre la conférence We Love Speed.
+      en_US:
+        cta:
+          text: "Learn more about our webperf"
+          url: https://medium.com/leboncoin-engineering-blog/how-we-are-improving-our-web-performance-9f850d59d810
+        description: >-
+          With 30 million unique visitors per month on leboncoin, our tech & product teams are committed to providing our users with the best possible experience to find the right deal. We are working on improving our webperf, and are excited to support those who make the We Love Speed conference happen.
   others:
     - name: redirection.io
       logo: /assets/images/thanks/redirection-io.svg
