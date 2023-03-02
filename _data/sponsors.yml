@@ -664,3 +664,9 @@
     - name: redirection.io
       logo: /assets/images/thanks/redirection-io.svg
       url: https://redirection.io/
+    - name: "Almarena IT"
+      logo: /assets/images/thanks/almarena.svg
+      url: http://www.almarena.fr/
+    - name: "Splunk"
+      logo: /assets/images/thanks/splunk.svg
+      url: http://www.almarena.fr/
