@@ -679,3 +679,6 @@
     - name: "Splunk"
       logo: /assets/images/thanks/splunk.svg
       url: https://www.splunk.com/
+    - name: Stickermule
+      logo: /assets/images/thanks/stickermule.svg
+      url: https://www.stickermule.com/fr/stickers-personnalises
