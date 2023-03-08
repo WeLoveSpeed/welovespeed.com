@@ -660,6 +660,15 @@
           url: https://www.scaleflex.com/en/home
         description: >-
           Scaleflex is a B2B SaaS company that develops digital asset management and media acceleration solutions. Our mission is to upload, store, organize, optimize, publish and distribute all types of media assets (images, videos, static files such as JS and CSS files, etc.) to accelerate web and mobile applications.
+    - name: Google
+      slug: google
+      logo: /assets/images/thanks/google.svg
+      fr_FR:
+        cta:
+          text: "En savoir plus sur les Core Web Vitals"
+          url: https://web.dev/learn-web-vitals/
+        description: >-
+          En terme d'expérience utilisateur, la vitesse est cruciale. Chaque seconde compte, la lenteur n'est pas seulement frustrante, elle a un impact négatif sur les performances commerciales. Téléchargez notre nouveau PlayBook Mobile Speed pour comprendre pourquoi la vitesse est importante, comment la mesurer, comment accélérer votre site et maintenir vos performances !
   others:
     - name: redirection.io
       logo: /assets/images/thanks/redirection-io.svg
