@@ -3,7 +3,7 @@
   {% for social in site.data.social %}
     {% unless social.name =="pictures" %}
     <li>
-      <a href="{{social.url}}" title="{{social.title}}">
+      <a href="{{social.url}}" rel="me nofollow" title="{{social.title}}">
         <svg width="1em" role="img" aria-label="{{social.name}}" viewBox="0 0 448 512">
           <use xlink:href="{{ symbols-url | append: social.name | relative_url }}"/>
         </svg>
@@ -11,7 +11,7 @@
     </li>
     {% else %}
     <li>
-      <a href="{{ site.data.editions[page.year].pictures.url }}" title="{{ site.data.editions[page.year].pictures.title }}">
+      <a href="{{ site.data.editions[page.year].pictures.url }}" rel="me nofollow" title="{{ site.data.editions[page.year].pictures.title }}">
         <svg width="1em" role="img" aria-label="{{social.name}}" viewBox="0 0 448 512">
           <use xlink:href="{{ symbols-url | append: social.name | relative_url }}"/>
         </svg>
