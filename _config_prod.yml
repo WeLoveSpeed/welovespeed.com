@@ -10,7 +10,12 @@ domain: 'welovespeed.com'
 mail: contact@welovespeed.com
 main_color: cd2f2b
 social:
-  twitter: "_welovespeed"
+  twitter:
+    url: https://twitter.com/_welovespeed
+    nick: "@_welovespeed"
+  mastodon:
+    url: https://hachyderm.io/@welovespeed
+    nick: "@welovespeed@hachyderm.io"
 repository: welovespeed/welovespeed.com
 baseurl: ""
 destination: _site/
