@@ -1,4 +1,8 @@
 <script src="{{ "/assets/js/lozad.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
-{% if page.i18n-key == 'contact' %}<script src="{{ "/assets/js/contact.js" | relative_url }}"></script>{% endif %}
-<script src="{{ "/assets/js/analytics.js" | relative_url }}"></script>
+{% if page.i18n-key == 'contact' -%}
+  <script src="{{ "/assets/js/contact.js" | relative_url }}"></script>
+{%- endif %}
+{% if site.matomo -%}
+  <script src="{{ "/assets/js/analytics.js" | relative_url }}"></script>
+{%- endif %}
