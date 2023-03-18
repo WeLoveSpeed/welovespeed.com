@@ -1,0 +1,11 @@
+{
+  "name": "welovespeed.com",
+  "version": "3.0.0",
+  "description": "Site internet de la conférence We Love Speed",
+  "type": "module",
+  "devDependencies": {
+    "canvas": "^2.11.0",
+    "image-clipper": "^0.4.4",
+    "puppeteer": "^19.7.5"
+  }
+}
