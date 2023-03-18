@@ -1,3 +1,348 @@
+2023:
+  andy_davies:
+    name: Andy Davies
+    image: /assets/images/speakers/2023/andy_davies.jpg
+    urls:
+      - name: web
+        title: Personnal Website
+        url: https://andydavies.me
+    en_US:
+      alt: >-
+        Andy's mugshot
+      bio: >-
+        Andy is a Web Performance Consultant at SpeedCurve, where he helps customers to measure and improve the speed of their sites.
+        He stumbled into web performance in 2008 while launching an online education service and quickly ran into the challenge of delivering rich content to schools over congested networks.
+
+
+        Since 2012 he's focused on web performance full time and has worked with a wide variety of organisations from retailers and publishers to financial services and FMCG brands.
+    fr_FR:
+      alt: >-
+        Portrait d'Andy
+      bio: >-
+        Andy est consultant en performance web chez SpeedCurve, où il aide les clients à mesurer et à améliorer la vitesse de leurs sites.
+        Il est tombé dans la performance web en 2008 en lançant un service d'éducation en ligne et a rapidement été confronté au défi de fournir un contenu riche aux écoles sur des réseaux encombrés.
+
+
+        Depuis 2012, il se consacre à plein temps à la performance web et a travaillé avec une grande variété d'organisations, des détaillants aux éditeurs en passant par les services financiers et les marques de produits de grande consommation.
+  yoav_weiss:
+    name: Yoav Weiss
+    image: /assets/images/speakers/2023/yoav_weiss.jpg
+    urls:
+      - name: twitter
+        title: "@yoavweiss (Twitter)"
+        url: https://twitter.com/yoavweiss
+    en_US:
+      alt: >-
+        Yoav's mugshot
+      bio: >-
+        Yoav Weiss has been working on mobile web performance for longer than he cares to admit, on the server side as well as in browsers. He now works as part of Google’s Chrome team, helping to fix web performance once and for all.
+
+        He takes image bloat on the web as a personal insult, which is why he joined the Responsive Images Community Group and implemented the various responsive images features in Blink and WebKit. That was his gateway drug into the wonderfully complex world of browsers and standards.
+
+        When he’s not writing code or web standard proposals, he’s probably biking around the French countryside, wandering the Alps, or playing board games with his family.
+    fr_FR:
+      alt: >-
+        Photo de Yoav
+      bio: >-
+        Yoav Weiss travaille sur les performances du web mobile depuis plus longtemps qu'il ne veut bien l'admettre, tant du côté des serveurs que des navigateurs. Il fait désormais partie de l'équipe chargée de la plateforme web de Chrome, où il contribue à améliorer les performances du web une fois pour toutes.
+
+
+        Il considère le gonflement des images sur le web comme une insulte personnelle, c'est pourquoi il a rejoint le Responsive Images Community Group et mis en œuvre les diverses fonctionnalités d'images <i lang="en">responsive</i> dans Blink et WebKit. Ce fut sa porte d'entrée dans le monde merveilleusement complexe des navigateurs et des normes.
+
+
+        Lorsqu'il n'écrit pas de code, il est probablement en train de gratter sa basse, de tondre la pelouse dans la campagne française ou de jouer à des jeux de société avec sa famille.
+  christophe_bredeche:
+    name: Christophe Bredeche
+    image: /assets/images/speakers/2023/christophe_bredeche.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/christophe-bredeche-17a06210/
+    en_US:
+      alt: >-
+        Christophe's mugshot
+      bio: >-
+        Digital enthusiast since last century, worked on several digital domains from online gaming,  video contents, advertising and online shopping.
+    fr_FR:
+      alt: >-
+        Portrait de Christophe
+      bio: >-
+        Passionné par le numérique depuis le siècle dernier, il a travaillé sur plusieurs domaines numériques tels que les jeux en ligne, les contenus vidéo, la publicité et les achats en ligne.
+  stephane_rios:
+    name: Stéphane Rios
+    image: /assets/images/speakers/2023/stephane_rios.jpg
+    urls:
+      - name: web
+        title: Fasterize
+        url: https://www.fasterize.com
+    en_US:
+      alt: >-
+        Stéphane's mugshot
+      bio: >-
+        For 10 years, Stéphane RIOS was CTO of RueDuCommerce.com, leader and pioneer of French eCommerce. Obsessed with the excess byte and time wasting, he managed large technical teams while remaining a geek passionate about Lean, dev and highly available and performing web architectures.
+
+
+        He then created Fasterize, a startup that accelerates hundreds of ecommerce sites with its innovative cloud-based solutions. More recently, he launched his new toy, the EdgeSEO!
+
+
+        Webperf Expert, he has co-organized the Webperf Paris meetup and the We Love Speed event and regularly speaks on webperf and SEO topics.
+    fr_FR:
+      alt: >-
+        Portrait de Stéphane
+      bio: >-
+        Pendant 10 ans, Stéphane RIOS a été CTO de RueDuCommerce.com, leader et pionnier du eCommerce français. Obsédé de l'octet en trop et du gaspillage de temps, il a géré des équipes techniques conséquentes tout en restant un geek passionné de Lean, de dév et d'architectures Web hautement disponibles et performantes.
+
+
+        Il a ensuite créé Fasterize, startup qui grâce à ses solutions innovantes dans le <span lang="en">cloud</span> accélère aujourd'hui plusieurs centaines de sites ecommerce. Plus récemment, il a lancé son nouveau joujou, le EdgeSEO !
+
+
+        Expert de la webperf, il a co-organisé notamment le meetup Webperf Paris et l'événement <span lang="en">We Love Speed</span> et intervient régulièrement en tant que <span lang="en">speaker</span> sur les sujets Webperf et SEO.
+  tim_vereecke:
+    name: Tim Vereecke
+    image: /assets/images/speakers/2023/tim_vereecke.jpg
+    urls:
+      - name: twitter
+        title: "@TimVereecke (Twitter)"
+        url: https://twitter.com/TimVereecke
+    en_US:
+      alt: >-
+        Tim's mugshot
+      bio: >-
+        Tim Vereecke loves speeding up websites and likes to understand the technical and business aspects of WebPerf since 15+ years.
+
+        He is a Web Performance Architect at Akamai and also runs scalemates.com: the largest (and fastest!) scale modeling website on the planet.
+    fr_FR:
+      alt: >-
+        Portrait de Tim
+      bio: >-
+        Tim Vereecke adore accélérer les sites web et aime comprendre les aspects techniques et commerciaux de la WebPerf depuis plus de 15 ans.
+
+        Il est architecte des performances web chez Akamai et dirige également scalemates.com : le plus grand (et le plus rapide !) site web de modélisation à l'échelle de la planète.
+  mel_ada:
+    name: Mel Ada
+    image: /assets/images/speakers/2023/mel_ada.jpg
+    urls: ~
+    en_US:
+      alt: >-
+        Mel's mugshot
+      bio: >-
+        TODO
+    fr_FR:
+      alt: >-
+        Portrait de Mel
+      bio: >-
+        TODO
+  ludovic_lefebvre:
+    name: Ludovic Lefebvre
+    image: /assets/images/speakers/2023/ludovic_lefebvre.jpg
+    urls:
+      - name: twitter
+        title: "@Crafty33 (Twitter)"
+        url: https://twitter.com/Crafty33
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/ludovic-lefebvre-7611a08/
+    en_US:
+      bio: >-
+        As a web performance enthusiast for more than 15 years, I have acquired a solid experience as a "perf coaching" team manager at Cdiscount for several years. Today, as Product Owner of an innovative web performance and security solution, my mission is to provide innovative solutions to ensure a quality user experience and enhanced security.
+
+
+        Outside of my job, I am also passionate about mind mapping and electronic music composition.
+    fr_FR:
+      bio: >-
+        En tant que passionné de la performance web depuis plus de 15 ans, j'ai acquis une solide expérience en tant que responsable de l'équipe "coaching perf" chez Cdiscount pendant plusieurs années. Aujourd'hui, en tant que Product Owner d'une solution innovante de sécurité et de performance web, ma mission est de fournir des solutions innovantes pour garantir une expérience utilisateur de qualité et une sécurité renforcée.
+
+
+        En dehors de mon travail, je suis également passionné par le <span lang="en">mind mapping</span> et la composition de musique électronique.
+  jp_vincent:
+    name: Jean-Pierre Vincent
+    image: /assets/images/speakers/2023/jp_vincent.jpg
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/jeanpierrevincent/
+    en_US:
+      alt: >-
+        Jean-Pierre's mugshot
+      bio: >-
+        Jean-Pierre Vincent - Independent Technical Expert and trainer on Web and JavaScript Performance. For more than 7 years, Jean-Pierre accompanies his clients in their webperf strategy or train their teams. He is also the co-organizer of the [Paris Webperf meetups](https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/).
+    fr_FR:
+      alt: >-
+        Portrait de Jean-Pierre
+      bio: >-
+        Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis plus de 7 ans, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes. Il est aussi le co-organisateur des [meetups Webperf parisiens](https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/).
+  philip_tellis:
+    name: Philip Tellis
+    image: /assets/images/speakers/2023/philip_tellis.jpg
+    urls:
+      - name: youtube
+        title: Youtube
+        url: https://www.google.com/search?q=youtube+philip+tellis
+      - name: twitter
+        title: "@bluesmoon (Twitter)"
+        url: https://twitter.com/bluesmoon
+    en_US:
+      alt: >-
+        Philip's mugshot
+      bio: >-
+        TODO
+    fr_FR:
+      alt: >-
+        Portrait de Philip
+      bio: >-
+        TODO
+  kevin_raynel:
+    name: Kévin Raynel
+    image: /assets/images/speakers/2023/kevin_raynel.jpg
+    urls:
+      - name: twitter
+        title: "@kraynl (Twitter)"
+        url: https://twitter.com/kraynl
+      - name: linkedin
+        title: LinkedIn
+        url: https://fr.linkedin.com/in/kevin-raynel-91a75120
+    en_US:
+      alt: >-
+        Kevin's mugshot
+      bio: >-
+        Passionate about performance and scalability, Kevin has been working in web development for over 10 years.
+
+        Now an architect and member of Theodo's tactical team, he advises the group's clients on their design or optimization needs and assists the teams in the development of public or specialized sites.
+    fr_FR:
+      alt: >-
+        Portrait de Kévin
+      bio: >-
+        Passionné de performance et de scalabilité, Kevin travaille depuis plus de 10 ans dans le développement web.
+
+        Aujourd'hui architecte et membre de l'équipe tactique de Theodo, il conseille les clients du groupe sur leurs besoins de conception ou d'optimisation et accompagne les équipes dans le développement de sites grands publics ou spécialisés.
+  varuna_srivastava:
+    name: Varuna Srivastava
+    image: /assets/images/speakers/2023/varuna_srivastava.jpg
+    urls: ~
+    en_US:
+      alt: >-
+        Varuna's mugshot
+      bio: >-
+        TODO
+    fr_FR:
+      alt: >-
+        Portrait de Varuna
+      bio: >-
+        TODO
+  barry_pollard:
+    name: Barry Pollard
+    image: /assets/images/speakers/2023/barry_pollard.jpg
+    urls: ~
+    en_US:
+      alt: >-
+        Barry's mugshot
+      bio: >-
+        Barry Pollard is a Web Performance Developer Advocate in the Google Chrome team, working on Core Web Vitals and the Chrome User Experience Report (CrUX). He is one of the maintainers of the HTTP Archive and it's annual Web Almanac publication. He's also the author of HTTP/2 in Action from Manning Publications.
+    fr_FR:
+      alt: >-
+        Portrait de Barry
+      bio: >-
+        Barry Pollard est un développeur spécialisé dans les performances Web au sein de l'équipe Google Chrome. Il travaille sur les <span lang="en">Core Web Vitals</span> et sur le <span lang="en">Chrome User Experience Report (CrUX)</span>. Il est l'un des responsables de la maintenance de HTTP Archive et de la publication annuelle du Web Almanac. Il est également l'auteur de "<span lang="en">HTTP/2 in Action</span>", publié par Manning Publications.
+  thomas_perronneau:
+    name: Thomas Perronneau
+    image: /assets/images/speakers/2023/thomas_perronneau.jpg
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/thomas-perronneau-84108b155/
+    en_US:
+      alt: >-
+        Thomas's mugshot
+      bio: >-
+        E-commerce project manager / Product Owner for 2 years at France-Boissons / Heineken France Group
+    fr_FR:
+      alt: >-
+        Portrait de Thomas
+      bio: >-
+        Chef de projet e-commerce / Product Owner depuis 2 ans chez France-Boissons / Groupe Heineken France
+  robin_marx:
+    name: Robin Marx
+    image: /assets/images/speakers/2023/robin_marx.jpg
+    urls:
+      - name: twitter
+        title: "@programmingart (Twitter)"
+        url: https://twitter.com/programmingart
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/rmarx/
+    en_US:
+      alt: >-
+        Robin's mugshot
+      bio: >-
+        Robin Marx is a Web Performance Expert at Akamai Technologies. He focuses on the performance and workings of modern Web protocols like HTTP/2, HTTP/3 and QUIC and has been a contributor in the IETF QUIC working group for multiple years.
+
+
+        Robin often talks about web performance at international conferences, making the complex situations more insightful to the wider public. On the weekends, he likes to hit other people with longswords.
+    fr_FR:
+      alt: >-
+        Portrait de Robin
+      bio: >-
+        Robin Marx est expert en performances web chez Akamai Technologies. Il étudie les performances et le fonctionnement des protocoles web modernes tels que HTTP/2, HTTP/3 et QUIC et contribue depuis plusieurs années au groupe de travail QUIC de l'IETF.
+
+
+        Robin parle souvent des performances du web lors de conférences internationales, rendant ainsi les situations complexes plus compréhensibles pour le grand public. Le week-end, il aime frapper d'autres personnes avec des épées longues.
+  boris_schapira:
+    name: Boris Schapira
+    image: /assets/images/speakers/2023/boris_schapira.jpg
+    urls:
+      - name: mastodon
+        title: "@Boostmarks (Fedivers)"
+        url: https://hachyderm.io/@boostmarks
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/borisschapira/
+    en_US:
+      alt: >-
+        Boris's mugshot
+      bio: >-
+        Boris is a Solution Expert at Contentsquare. After having spent several years helping development teams adopt Web Performance best practices, he is now in contact with Marketing and Strategy teams and shows them, with data, why Web Quality serves their objectives.
+    fr_FR:
+      alt: >-
+        Portrait de Boris
+      bio: >-
+        Boris est Solution Expert chez Contentsquare. Après avoir passé plusieurs années à aider des équipes de développement à adopter des bonnes pratiques de Web Performance, il est désormais au contact des équipes Marketing et Stratégie et leur montre, données à l'appui, pourquoi la Qualité Web sert leurs objectifs.
+  bertrand_keller:
+    name: Bertrand Keller
+    image: /assets/images/speakers/2023/bertrand_keller.png
+    urls:
+      - name: twitter
+        title: "@bertrandkeller (Twitter)"
+        url: https://mobile.twitter.com/bertrandkeller
+    en_US:
+      alt: >-
+        Bertrand's avatar
+      bio: >-
+        Master HTML developer, CSS engineer... we don't really know how to name our job. But I know interfaces and how a browser works.
+
+
+        Accessibility management is multidisciplinary. It must start with accessibility because it is the discipline that considers users in their human diversity.
+    fr_FR:
+      alt: >-
+        Avatar de Bertrand
+      bio: >-
+        Maître Intégrateur HTML, ingénieur CSS… on ne sait pas trop quel métier nous donner. Mais je connais les interfaces et comment fonctionne un navigateur.
+
+
+        Le pilotage de l'accessibilité est multidisciplinaire. C'est par l'accessibilité qu'il doit démarrer car c'est la discipline qui considère les usagers dans leur diversité humaine.
+  philippe_yonnet:
+    name: Philippe Yonnet
+    image: /assets/images/speakers/2023/philippe_yonnet.jpeg
+    urls: ~
+    en_US:
+      alt: >-
+        Philippe's mugshot
+      bio: >-
+        Philippe Yonnet is the founder and president of the search marketing agency Neper. He is a recognized SEO expert and an experienced speaker. He has accompanied many large accounts for twenty years in the implementation of their SEO strategy. First president of the French SEO Camp association, he is also at the origin of the Search Y international conferences. Philippe Yonnet is also a jury member of the European Search Awards and the SEO by SEO Camp Awards.
+    fr_FR:
+      alt: >-
+        Portrait de Philippe
+      bio: >-
+        Philippe Yonnet est le fondateur et président de l'agence de <span lang="en">Search Marketing Neper</span>. C'est un expert reconnu en SEO et un conférencier expérimenté. Il a accompagné de nombreux grands comptes depuis vingt ans dans l'implémentation de leur stratégie SEO. Premier président de l'association SEO Camp, il est également à l'origine des conférences internationales <span lang="en">Search Y</span>. Philippe Yonnet est également membre du Jury des <span lang="en">European Search Awards</span> et des <span lang="en">Awards SEO by SEO Camp</span>.
 2021:
   attendees:
     image: /assets/images/speakers/attendees.png
@@ -35,7 +380,7 @@
         In love with the web for the past 15 years, I am front-end advocate at Leroy Merlin (ADEO Group). I lead a community of front-end developers around the issues of web quality, including web performance and accessibility.
     fr_FR:
       bio: >-
-        Amoureux du web depuis une quinzaine d'année, je suis front-end developer advocate chez Leroy Merlin (groupe ADEO). J'anime une communauté de développeurs front-end autour des enjeux de la qualité web, notamment la web performance et l'accessibilité.
+        Amoureux du web depuis une quinzaine d'année, je suis <span lang="en">front-end developer advocate</span> chez Leroy Merlin (groupe ADEO). J'anime une communauté de développeurs <span lang="en">front-end</span> autour des enjeux de la qualité web, notamment la web performance et l'accessibilité.
   jeremy_wyler:
     locale: fr_FR
     name: Jeremy Wyler
@@ -128,7 +473,7 @@
         Josselin has been a front-end developer at ManoMano for 3 years. He actively participated in the redesign of the website via the Spartacux project, especially in the implementation of the new front stack with performance and developer experience as key targets.
     fr_FR:
       bio: >-
-        Josselin est dévelopeur front-end chez ManoMano depuis 3 ans. Il a activement participé à la refonte du site web via le projet Spartacux, notament à la mise en place de la nouvelle stack front avec pour objectifs clés la performance et l'expérience dévelopeur.
+        Josselin est dévelopeur <span lang="en">front-end</span> chez ManoMano depuis 3 ans. Il a activement participé à la refonte du site web via le projet Spartacux, notament à la mise en place de la nouvelle stack front avec pour objectifs clés la performance et l'expérience dévelopeur.
   nicolas_audemar:
     name: Nicolas Audemar
     image: /assets/images/speakers/2021/nicolas_audemar.jpg
@@ -280,7 +625,7 @@
     image: /assets/images/speakers/2021/hubert_sablonniere.jpg
     urls:
       - name: twitter
-        title: "@todo(Twitter)"
+        title: "@hsablonniere (Twitter)"
         url: https://twitter.com/hsablonniere
     en_US:
       bio: >-
@@ -509,7 +854,7 @@
         Matt Hobbs is Head of Frontend Development at the Government Digital Service. An experienced frontend developer, he is passionate about using his skills to build accessible and performant user interfaces. Matt makes a point of keeping on top of the latest technology and tools, is interested in all aspects of interface development, and is a keen advocate for best practice.
     fr_FR:
       bio: >-
-        Matt est Responsable du développement Front-End au Service Numérique Gouvernemental du Royaume-Uni. Développeur Front expérimenté, il est passionné par l'utilisation de ses compétences pour créer des interfaces utilisateur accessibles et performantes. Matt se fait un point d'honneur de rester à la pointe de la technologie et des outils les plus récents, s'intéresse à tous les aspects du développement d'interfaces et est un ardent défenseur des bonnes pratiques Web.
+        Matt est Responsable du développement <span lang="en">front-end</span> au Service Numérique Gouvernemental du Royaume-Uni. Développeur Front expérimenté, il est passionné par l'utilisation de ses compétences pour créer des interfaces utilisateur accessibles et performantes. Matt se fait un point d'honneur de rester à la pointe de la technologie et des outils les plus récents, s'intéresse à tous les aspects du développement d'interfaces et est un ardent défenseur des bonnes pratiques Web.
   estelle:
     name: Estelle Weyl
     image: /assets/images/speakers/2019/estelle.jpg
@@ -535,7 +880,7 @@
         As a webperf expert at Fasterize, I am one of the developers of the optimization engine at the heart of the solution. I mainly work on Front-End optimizations.
     fr_FR:
       bio: >-
-        Expert webperf chez Fasterize, je suis un des développeurs du moteur d'optimisation au cœur de la solution. Je travaille essentiellement sur des optimisations Front-End.
+        Expert webperf chez Fasterize, je suis un des développeurs du moteur d'optimisation au cœur de la solution. Je travaille essentiellement sur des optimisations <span lang="en">front-end</span>.
   antoine:
     name: Antoine Kahn-Dubois
     image: /assets/images/speakers/2019/antoine.jpg
@@ -918,7 +1263,7 @@
       alt: >-
         Portrait de Nicolas
       bio: >-
-        Nicolas est cofondateur et consultant senior chez [Clever Age](https://www.clever-age.com/fr/content/nos-references-webperf/). Il aide les entreprises à concevoir la bonne architecture technique, avec les bon choix de technologies et solutions, pour couvrir leurs besoins numériques. Il apporte de plus une expertise technique front-end : performance web, RWD, PWA, etc. S'appuyant sur plus de 20 ans d'expérience, il préconise une utilisation pragmatique des technologies Web, en définissant et en appliquant de bonnes pratiques techniques et méthodologiques.
+        Nicolas est cofondateur et consultant senior chez [Clever Age](https://www.clever-age.com/fr/content/nos-references-webperf/). Il aide les entreprises à concevoir la bonne architecture technique, avec les bon choix de technologies et solutions, pour couvrir leurs besoins numériques. Il apporte de plus une expertise technique <span lang="en">front-end</span> : performance web, <abbr lang="en" title="Responsive Web Design">RWD</abbr>, <abbr lang="en" title="Progressive Web App">PWA</abbr>, etc. S'appuyant sur plus de 20 ans d'expérience, il préconise une utilisation pragmatique des technologies Web, en définissant et en appliquant de bonnes pratiques techniques et méthodologiques.
   thomas:
     name: Thomas Zilliox
     urls:
@@ -988,7 +1333,6 @@
 
 
         Obsessed with the byte in excess, waste of time and energy, Stéphane Rios hoisted RueDuCommerce at the top of performing sites before launching the [Fasterize](https://www.fasterize.com) adventure. He has managed large technical teams while remaining a geek having passion for Web development and architecture.
-
     fr_FR:
       alt: >-
         Portrait de Stéphane

@@ -24,10 +24,10 @@ permalink: /2023/
       {%- if site.cfp_open -%}<a class="button" target="_blank"  data-text="Appel à propositions" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="appel à propositions">
         <span class="button-inner">Appel à propositions</span>
       </a>{%- endif -%}
-      {%- comment -%}
-      <a class="button" data-text="Présentations et vidéos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="présentations et vidéos">
-        <span class="button-inner">Présentations et vidéos</span>
+      <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Voir le programme">
+        <span class="button-inner">Voir le programme</span>
       </a>
+      {%- comment -%}
       <a class="button" data-text="Témoignages" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="témoignages">
         <span class="button-inner">Témoignages</span>
       </a>
