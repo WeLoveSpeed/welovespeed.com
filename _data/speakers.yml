@@ -175,22 +175,25 @@
     name: Philip Tellis
     image: /assets/images/speakers/2023/philip_tellis.jpg
     urls:
-      - name: youtube
-        title: Youtube
-        url: https://www.google.com/search?q=youtube+philip+tellis
+      - name: web
+        title: Personnal website
+        url: https://tech.bluesmoon.info/
       - name: twitter
         title: "@bluesmoon (Twitter)"
         url: https://twitter.com/bluesmoon
+      - name: mastodon
+        title: "@bluesmoon@phpc.social (Mastodon)"
+        url: https://phpc.social/@bluesmoon
     en_US:
       alt: >-
         Philip's mugshot
       bio: >-
-        TODO
+        Philip Tellis leads the mPulse Data Science team at Akamai. He is the author of the boomerang JavaScript library for collecting RUM data and now spends most of his time distilling the data that's been collected into interesting stories. Philip wears many hats (both literally and figuratively) and is comfortable with interfaces ranging from CSS to POSIX. His current interest in human behaviour is outside this comfort zone.
     fr_FR:
       alt: >-
         Portrait de Philip
       bio: >-
-        TODO
+        Philip Tellis dirige l'équipe mPulse Data Science chez Akamai. Il est l'auteur de la bibliothèque JavaScript boomerang pour la collecte de données RUM et passe désormais le plus clair de son temps à distiller les données collectées pour en faire des histoires intéressantes. Philip porte de nombreuses casquettes (au sens propre comme au sens figuré) et est à l'aise avec des interfaces allant de CSS à POSIX. Son intérêt actuel pour le comportement humain se situe en dehors de cette zone de confort.
   kevin_raynel:
     name: Kévin Raynel
     image: /assets/images/speakers/2023/kevin_raynel.jpg
@@ -291,7 +294,7 @@
     image: /assets/images/speakers/2023/boris_schapira.jpg
     urls:
       - name: mastodon
-        title: "@Boostmarks (Fedivers)"
+        title: "@boostmarks@hachyderm.io (Mastodon)"
         url: https://hachyderm.io/@boostmarks
       - name: linkedin
         title: "LinkedIn"
