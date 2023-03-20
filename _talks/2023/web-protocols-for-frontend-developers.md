@@ -1,6 +1,6 @@
 ---
 display-order: 1
-locale: fr_FR
+locale: en_US
 length: 45
 pub_date: "2023-03-15"
 speakers:
