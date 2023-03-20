@@ -79,7 +79,7 @@
               </figure>
               <h3 class="conference-speaker-name">
                 {% assign speakerCount = conference.speakers | size %}
-                  <span class="text-xs">{% t Présenté %}{% if conference.locale %}{% unless conference.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}{% elsif speaker.locale %}{% unless speaker.locale == include.locale %}{{ " en anglais" | t: page.locale }}{% endunless %}{% endif %} {%t par %}</span><br>
+                  <span class="text-xs">{% t Présenté %}{% if conference.locale %}{% unless conference.locale == include.locale %}<b>{{ " en anglais" | t: page.locale }}</b>{% endunless %}{% elsif speaker.locale %}{% unless speaker.locale == include.locale %}<b>{{ " en anglais" | t: page.locale }}</b>{% endunless %}{% endif %} {%t par %}</span><br>
                 <em>{{ speaker.name | default: youString }}</em> {% include person-links.html urls=speaker.urls %}
               </h3>
               <p class="conference-speaker-description">
