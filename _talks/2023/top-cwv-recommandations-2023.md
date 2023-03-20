@@ -16,7 +16,7 @@ fr_FR:
     Nous avons travaillé à l'identification des 9 recommandations clés (3 par Core Web Vital) qui, selon nous, auront le plus d'impact et que nous recommandons aux sites d'examiner en premier. 
     
     
-    Cette présentation expliquera ce qu'elles sont et pourquoi elles sont les meilleures recommandations pour 2023.
+    Cette présentation expliquera ce qu'elles sont et pourquoi nous considérons qu'elles sont les meilleures recommandations en 2023.
   slides: ~
   video: ~
 en_US:
@@ -30,7 +30,7 @@ en_US:
     We've been working on identifying the 9 key recommendations (3 per Core Web Vital), which we think will have the most impact and which we recommend sites look at first. 
     
     
-    This talk will explain what they are, and why they out top 2023 recommendations.
+    This talk will explain what they are, and why they are our top recommendations for 2023.
   slides: ~
   video: ~
 ---
