@@ -18,7 +18,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "Measure or die: how to do a quick diagnosis?"
+  title: "Measure or Die: How to Do a Quick Diagnosis?"
   subtitle: ~
   excerpt: >-
     Not everyone has time to wait for the perfect tool. Let's learn to diagnose with the tools we have at hand.

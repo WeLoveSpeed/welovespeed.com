@@ -26,7 +26,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "Accessibility and WebPerf, not so different"
+  title: "Accessibility and Webperf, Not So Different"
   subtitle: ~
   excerpt: >-
     Learning how to code accessible websites can help you understand how to make them fast.

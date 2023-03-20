@@ -20,7 +20,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "Top Core Web Vitals recommendations for 2023"
+  title: "Top Core Web Vitals Recommendations for 2023"
   subtitle: ~
   excerpt: >-
     The 9 key recommendations to optimise your Core Web Vitals in 2023

@@ -21,7 +21,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "How to turn a crisis into a victory thanks to web performance?"
+  title: "How to Turn a Crisis Into a Victory Thanks to Web Performance?"
   subtitle: ~
   excerpt: >-
     Feedback on the web performance of the e-commerce site of the leader of the French distribution in the Hospitality industry.

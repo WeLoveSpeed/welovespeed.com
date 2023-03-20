@@ -46,7 +46,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "How to become a Web Performance Sherlock Holmes"
+  title: "How to Become a Web Performance Sherlock Holmes"
   subtitle: ~
   excerpt: >-
     Let's use Sir Arthur Conan Doyle's diagnostic techniques to solve the mysteries of web performance.

@@ -21,7 +21,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "The top 10 webperf mistakes"
+  title: "The Top 10 Webperf Mistakes"
   subtitle: "(do not do this at home)"
   excerpt: >-
     Through geeky inside jokes and popularization, this talk aims at deconstructing frequent mistakes while bringing solutions to avoid them.
