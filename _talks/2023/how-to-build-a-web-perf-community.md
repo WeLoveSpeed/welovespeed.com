@@ -5,6 +5,8 @@ length: 45
 pub_date: "2023-03-15"
 speakers:
   - christophe_bredeche
+  - jonathan_blois
+  - alexandre_cantais
 fr_FR:
   title: "Comment construire une communauté Web Perf dans son organisation ?"
   subtitle: ~

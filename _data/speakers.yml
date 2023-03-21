@@ -68,6 +68,40 @@
         Portrait de Christophe
       bio: >-
         Passionné par le numérique depuis le siècle dernier, il a travaillé sur plusieurs domaines numériques tels que les jeux en ligne, les contenus vidéo, la publicité et les achats en ligne.
+  jonathan_blois:
+    name: Jonathan Blois
+    image: /assets/images/speakers/2023/jonathan_blois.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/jonathan-blois-59b7a069/
+    en_US:
+      alt: >-
+        Jonathan's mugshot
+      bio: >-
+        Curious and passionate about ideas, design, creation and code, looking for epic quests in user experience, amazing visual odysseys, fantastic adventures in graphic design, incredible plots in code.
+    fr_FR:
+      alt: >-
+        Portrait de Jonathan
+      bio: >-
+        Curieux passionné par l’idée, la conception, la création et le code, à la recherche de quêtes épiques dans l’expérience utilisateur, de formidables odyssées visuelles, d’aventures fantastiques dans la création graphique, d’incroyables intrigues au cœur du code.
+  alexandre_cantais:
+    name: Christophe Bredeche
+    image: /assets/images/speakers/2023/alexandre_cantais.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/alexandre-cantais-82b89b41/
+    en_US:
+      alt: >-
+        Alexadre's mugshot
+      bio: >-
+        Design and development engineer
+    fr_FR:
+      alt: >-
+        Portrait d'Alexandre
+      bio: >-
+        Ingénieur d'études et développement
   stephane_rios:
     name: Stéphane Rios
     image: /assets/images/speakers/2023/stephane_rios.jpg
