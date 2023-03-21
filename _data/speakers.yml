@@ -369,7 +369,13 @@
   philippe_yonnet:
     name: Philippe Yonnet
     image: /assets/images/speakers/2023/philippe_yonnet.jpeg
-    urls: ~
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/philippe-yonnet/
+      - name: twitter
+        title: "@Cariboo_seo (Twitter)"
+        url: https://twitter.com/Cariboo_seo
     en_US:
       alt: >-
         Philippe's mugshot
