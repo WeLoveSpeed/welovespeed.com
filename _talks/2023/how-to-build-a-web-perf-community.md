@@ -14,6 +14,7 @@ fr_FR:
   description: >-
     Nous proposons de partager notre retour d'expérience sur la mise en place de notre Communauté WebPerf au sein de la Redoute.
 
+
     Le plan global est le suivant :
 
     - Pourquoi construire une communauté WebPerf 
@@ -35,6 +36,7 @@ en_US:
   excerpt: ~
   description: >-
     We propose to share our feedback on the implementation of our WebPerf Community within La Redoute.
+    
 
     The overall plan is as follows:
 
