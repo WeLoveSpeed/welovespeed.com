@@ -14,8 +14,8 @@ social:
     url: https://twitter.com/_welovespeed
     nick: "@_welovespeed"
   mastodon:
-    url: https://hachyderm.io/@welovespeed
-    nick: "@welovespeed@hachyderm.io"
+    url: https://piaille.fr/@welovespeed
+    nick: "@welovespeed@piaille.fr"
 repository: welovespeed/welovespeed.com
 baseurl: ""
 destination: _site/
