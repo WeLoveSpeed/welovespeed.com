@@ -11,7 +11,7 @@ fr_FR:
   excerpt: >-
     Référencement et performance web, qu'en est-il ?
   description: >-
-    Nous traiterons d'abord de l'impact des temps de téléchargement du code sur les comportements de crawl et d'exploration, en tordant le cou à certaines idées reçues (comme l'objectif de temps de moyen à 500 ms ou 200ms).
+    Nous traiterons d'abord de l'impact des temps de téléchargement du code sur les comportements de crawl et d'exploration, en tordant le cou à certaines idées reçues (comme l'objectif de temps de moyen à 500 ms ou 200 ms).
     
     Puis nous traiterons de l'impact de mauvais temps de rendition en CSR sur l'exploration et l'indexation, et nous expliquerons les points d'attention quand on est à la limite (attention à la charge CPU, aux ressources consommées etc...).
     
