@@ -25,7 +25,7 @@ en_US:
   excerpt: >-
     The 9 key recommendations to optimise your Core Web Vitals in 2023
   description: >-
-    The Google Core Web Vitals (CWV) team understand the amount of web performance recommendations is overwhelming and many don't know where to start.
+    The Google Core Web Vitals (CWV) team understands the amount of web performance recommendations is overwhelming and many don't know where to start.
     
     We've been working on identifying the 9 key recommendations (3 per Core Web Vital), which we think will have the most impact and which we recommend sites look at first. 
     
