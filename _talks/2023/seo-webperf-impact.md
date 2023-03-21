@@ -9,7 +9,7 @@ fr_FR:
   title: "Quel est le véritable impact des problèmes de web performance sur le SEO ?"
   subtitle: ~
   excerpt: >-
-    Référencement et performance web, qu'en est-il ?
+    Pourquoi la performance web est-elle vraiment importante pour le référencement (et ce n'est pas nécessairement ce que vous pensez) ?
   description: >-
     Nous traiterons d'abord de l'impact des temps de téléchargement du code sur les comportements de crawl et d'exploration, en tordant le cou à certaines idées reçues (comme l'objectif de temps de moyen à 500 ms ou 200 ms).
     
@@ -19,10 +19,10 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "Accessibility and WebPerf, not so different"
+  title: "SEO and Web Performance, what's the deal?"
   subtitle: ~
   excerpt: >-
-    SEO and Web Performance, what's the deal?
+    Why is Web Performance truely important for SEO (and it's not necessarily what you think)
   description: >-
     We will first discuss the impact of code download times on crawling and crawling behavior, and we will challenge some of the conventional wisdom (such as the 500ms or 200ms average time target).
     
