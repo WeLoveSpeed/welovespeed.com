@@ -8,7 +8,7 @@ speakers:
 fr_FR:
   title: '<span lang="en">Why does frontend performance matter?</span>'
   description: >-
-    L'idée de cette intervention est de vous donner mon opinion sur l'importance de la Performance Web et son énorme impact sur les utilisateurs·ices de services gouvernementaux. Je me concentrerai sur le site Web du Gouvernement du Royaume-Uni ([GOV.UK](https://www.gov.uk/)). Je présenterai d'abord un historique du Service Numérique Gouvernemental et de [GOV.UK](https://www.gov.uk/) avant de m'intéresser à qui sont les utilisateurs·ices et les connexions / appareils qu'iels utilisent. L'accent sera mis sur ce qui se passe quand la performance web d'un site gouvernemental de ce type est médiocre et l'impact que cela peut avoir sur les personnes qui dépendent des services essentiels que ces sites proposent. Nous aborderons ce que nous avons fait, ce que nous faisons et de ce que nous planifions pour l'avenir en ce qui concerne la Performance Web, pour l'ensemble des sites du gouvernement.
+    L'idée de cette intervention est de vous donner mon opinion sur l'importance de la Performance Web et son énorme impact sur les utilisateurs·ices de services gouvernementaux. Je me concentrerai sur le site Web du Gouvernement du Royaume-Uni (<a href="https://www.gov.uk/" target="_blank" rel="nofollow">GOV.UK</a>). Je présenterai d'abord un historique du Service Numérique Gouvernemental et de <a href="https://www.gov.uk/" target="_blank" rel="nofollow">GOV.UK</a> avant de m'intéresser à qui sont les utilisateurs·ices et les connexions / appareils qu'iels utilisent. L'accent sera mis sur ce qui se passe quand la performance web d'un site gouvernemental de ce type est médiocre et l'impact que cela peut avoir sur les personnes qui dépendent des services essentiels que ces sites proposent. Nous aborderons ce que nous avons fait, ce que nous faisons et de ce que nous planifions pour l'avenir en ce qui concerne la Performance Web, pour l'ensemble des sites du gouvernement.
 
 
     Cette intervention s'adresse à toute personne intéressée par la Performance Web, qui aimerait connaître le point de vue du Gouvernement à ce sujet. C'est un secteur où il n'y a pas de concurrence et où si un·e utilisateur·ice ne peut pas trouver rapidement et facilement l'information dont iel a besoin, il n'y a pas d'alternative.
@@ -17,7 +17,7 @@ fr_FR:
 en_US:
   title: "Why does frontend performance matter?"
   description: >-
-    A talk giving my opinion on why frontend performance matters and it's huge impact on users from the perspective of government services. The talk focuses on the UK central government's website, [GOV.UK](https://www.gov.uk/). It contains details on the history of Government Digital Service and [GOV.UK](https://www.gov.uk/), who our users are and the devices that they use. 
+    A talk giving my opinion on why frontend performance matters and it's huge impact on users from the perspective of government services. The talk focuses on the UK central government's website, <a href="https://www.gov.uk/" target="_blank" rel="nofollow">GOV.UK</a>. It contains details on the history of Government Digital Service and <a href="https://www.gov.uk/" target="_blank" rel="nofollow">GOV.UK</a>, who our users are and the devices that they use. 
 
 
     There's a focus on what happens if web performance is poor for government services and what this means for users who rely on them. It also covers what we've done in the past, are currently doing and our plans for the future of frontend web performance across government.
