@@ -274,7 +274,16 @@
   barry_pollard:
     name: Barry Pollard
     image: /assets/images/speakers/2023/barry_pollard.jpg
-    urls: ~
+    urls:
+      - name: web
+        title: Barry's site
+        url: https://www.tunetheweb.com
+      - name: twitter
+        title: "@tunetheweb (Twitter)"
+        url: https://twitter.com/tunetheweb
+      - name: mastodon
+        title: "@tunetheweb@webperf.social (Mastodon)"
+        url: https://webperf.social/@tunetheweb
     en_US:
       alt: >-
         Barry's mugshot
