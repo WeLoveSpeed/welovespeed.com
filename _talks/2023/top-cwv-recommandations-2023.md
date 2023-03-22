@@ -6,10 +6,10 @@ pub_date: "2023-03-15"
 speakers:
   - barry_pollard
 fr_FR:
-  title: "Dompter l'Impact en Webperf des Scripts Tiers"
+  title: "Web Vitals : 9 recommendations pour être au top en 2023"
   subtitle: ~
   excerpt: >-
-    Les 9 recommandations clés pour optimiser votre Core Web Vitals en 2023
+    Les 9 recommandations clés pour optimiser vos Core Web Vitals en 2023
   description: >-
     L'équipe des Google Core Web Vitals (CWV) est consciente que la quantité de recommandations en matière de performances web est écrasante et que beaucoup ne savent pas par où commencer.
     
