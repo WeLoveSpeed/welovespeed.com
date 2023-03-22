@@ -1,7 +1,7 @@
 ---
 display-order: 3
 locale: fr_FR
-length: 45
+length: 25
 pub_date: "2023-03-15"
 speakers:
   - christophe_bredeche
