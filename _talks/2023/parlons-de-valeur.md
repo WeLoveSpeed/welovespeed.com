@@ -18,7 +18,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "Let's talk about value"
+  title: "Let's Talk About Value"
   subtitle: ~
   excerpt: >-
     The best practices of web performance are consensual and widely accepted, but how can we value them from a business point of view?

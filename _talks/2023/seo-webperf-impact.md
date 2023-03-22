@@ -19,7 +19,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "SEO and Web Performance, what's the deal?"
+  title: "SEO and Web Performance, What’s the Deal?"
   subtitle: ~
   excerpt: >-
     Why is Web Performance truely important for SEO (and it's not necessarily what you think)
