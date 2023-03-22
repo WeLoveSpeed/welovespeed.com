@@ -155,17 +155,20 @@
   mel_ada:
     name: Mel Ada
     image: /assets/images/speakers/2023/mel_ada.jpg
-    urls: ~
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/mel-ada/
     en_US:
       alt: >-
         Mel's mugshot
       bio: >-
-        TODO
+        Mel co-organizes the NY Web Performance Meetup and recently co-authored <a href="https://almanac.httparchive.org/en/2022/performance"  target="_blank" rel="nofollow">the Web Performance Chapter of Web Almanac 2022</a>. She is currently a Senior Software Engineer II on Etsy’s Web Performance team and a Google Developer Expert in Core Web Vitals.
     fr_FR:
       alt: >-
         Portrait de Mel
       bio: >-
-        TODO
+        Mel co-organise le NY Web Performance Meetup et a récemment co-rédigé <a href="https://almanac.httparchive.org/en/2022/performance" target="_blank" rel="nofollow">le chapitre sur les performances Web de Web Almanac 2022</a>. Elle est actuellement Ingénieure Logiciel Senior II au sein de l'équipe de Performance Web d'Etsy et Experte Développeuse Google sur les Core Web Vitals.
   ludovic_lefebvre:
     name: Ludovic Lefebvre
     image: /assets/images/speakers/2023/ludovic_lefebvre.jpg
@@ -199,12 +202,12 @@
       alt: >-
         Jean-Pierre's mugshot
       bio: >-
-        Jean-Pierre Vincent - Independent Technical Expert and trainer on Web and JavaScript Performance. For more than 7 years, Jean-Pierre accompanies his clients in their webperf strategy or train their teams. He is also the co-organizer of the [Paris Webperf meetups](https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/).
+        Jean-Pierre Vincent - Independent Technical Expert and trainer on Web and JavaScript Performance. For more than 7 years, Jean-Pierre accompanies his clients in their webperf strategy or train their teams. He is also the co-organizer of the <a href="https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/" target="_blank" rel="nofollow">Paris Webperf meetups</a>.
     fr_FR:
       alt: >-
         Portrait de Jean-Pierre
       bio: >-
-        Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis plus de 7 ans, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes. Il est aussi le co-organisateur des [meetups Webperf parisiens](https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/).
+        Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis plus de 7 ans, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes. Il est aussi le co-organisateur des <a href="https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/" target="_blank" rel="nofollow">meetups Webperf parisiens</a>.
   philip_tellis:
     name: Philip Tellis
     image: /assets/images/speakers/2023/philip_tellis.jpg
@@ -438,11 +441,11 @@
     en_US:
       title: SEO Manager - Solocal
       bio: >-
-        Jérémy Wyler is SEO manager at Solocal. He leads the local SEO strategy for the group's website offering, with nearly 40,000 clients to his credit. Jérémy and his SEO team conduct semantic studies and audits for each of Solocal's mid- and high-end websites. Jérémy also develops internal SEO tools for [the automation of semantic and competitive analysis](https://www.jeremywyler.fr/).
+        Jérémy Wyler is SEO manager at Solocal. He leads the local SEO strategy for the group's website offering, with nearly 40,000 clients to his credit. Jérémy and his SEO team conduct semantic studies and audits for each of Solocal's mid- and high-end websites. Jérémy also develops internal SEO tools for <a href="https://www.jeremywyler.fr/" target="_blank" rel="nofollow">the automation of semantic and competitive analysis</a>.
     fr_FR:
       title: Responsable SEO - Solocal
       bio: >-
-        Jérémy Wyler est responsable SEO chez Solocal. Il dirige la stratégie de référencement local pour l'offre de site internet du groupe, comptant près de 40 000 clients à son actif. Jérémy et son équipe de SEO, réalisent études sémantiques et audit pour chacun des sites des offres milieu et haut de gamme proposée par Solocal. Jérémy s'occupe par ailleurs du développement d'outils SEO interne pour [l’automatisation des analyses sémantiques et concurrentielles](https://www.jeremywyler.fr/).
+        Jérémy Wyler est responsable SEO chez Solocal. Il dirige la stratégie de référencement local pour l'offre de site internet du groupe, comptant près de 40 000 clients à son actif. Jérémy et son équipe de SEO, réalisent études sémantiques et audit pour chacun des sites des offres milieu et haut de gamme proposée par Solocal. Jérémy s'occupe par ailleurs du développement d'outils SEO interne pour <a href="https://www.jeremywyler.fr/" target="_blank" rel="nofollow">l’automatisation des analyses sémantiques et concurrentielles</a>.
   amir_glatt:
     locale: en_US
     name: Amir Glatt
@@ -494,10 +497,10 @@
         url: https://twitter.com/TimVereecke
     en_US:
       bio: >-
-        Tim loves speeding up websites. Works as a web performance architect @Akamai, also runs [scalemates.com](https://www.scalemates.com/) and [frustrationindex.com](https://www.frustrationindex.com/).
+        Tim loves speeding up websites. Works as a web performance architect @Akamai, also runs <a href="https://www.scalemates.com/" target="_blank" rel="nofollow">scalemates.com</a> and <a href="https://www.frustrationindex.com/" target="_blank" rel="nofollow">frustrationindex.com</a>.
     fr_FR:
       bio: >-
-        Tim aime accélérer les sites web. Il travaille en tant qu'architecte des performances web chez Akamai, et dirige également [scalemates.com](https://www.scalemates.com/) et [frustrationindex.com](https://www.frustrationindex.com/).
+        Tim aime accélérer les sites web. Il travaille en tant qu'architecte des performances web chez Akamai, et dirige également <a href="https://www.scalemates.com/" target="_blank" rel="nofollow">scalemates.com</a> et <a href="https://www.frustrationindex.com/" target="_blank" rel="nofollow">frustrationindex.com</a>.
   josselin_buils:
     name: Josselin Buils
     image: /assets/images/speakers/2021/josselin_buils_square.jpg
@@ -603,10 +606,10 @@
         url: https://twitter.com/doc_roms
     en_US:
       bio: >-
-        Passionate about ecology, good-tech, ethics and computer performance, I am a representative of the responsible digital collective, a collective of [GreenIt.fr](https://www.greenit.fr/). I try to promote the evolution of digital technology by making it responsible: for a greener, more "efficient", more "ethical", more "accessible" digital world.
+        Passionate about ecology, good-tech, ethics and computer performance, I am a representative of the responsible digital collective, a collective of <a href="https://www.greenit.fr/" target="_blank" rel="nofollow">GreenIt.fr</a>. I try to promote the evolution of digital technology by making it responsible: for a greener, more "efficient", more "ethical", more "accessible" digital world.
     fr_FR:
       bio: >-
-        Passionné d'écologie, de <i lang="en">good-tech</i>, d'éthique et de performance informatique, je suis représentant du collectif numérique responsable, collectif de [GreenIt.fr](https://www.greenit.fr/). J'essaye de promouvoir l'évolution du numérique en le rendant responsable : pour un numérique plus "<i lang="en">green</i>", plus "performant", plus "éthique", plus "accessible".
+        Passionné d'écologie, de <i lang="en">good-tech</i>, d'éthique et de performance informatique, je suis représentant du collectif numérique responsable, collectif de <a href="https://www.greenit.fr/" target="_blank" rel="nofollow">GreenIt.fr</a>. J'essaye de promouvoir l'évolution du numérique en le rendant responsable : pour un numérique plus "<i lang="en">green</i>", plus "performant", plus "éthique", plus "accessible".
   ludovic_lefebvre:
     name: Ludovic Lefebvre
     image: /assets/images/speakers/2021/ludovic_lefebvre.jpg
@@ -657,12 +660,12 @@
       bio: >-
         Web developer for 10 years, I joined Fabernovel 4 years ago as a Tech Lead.
 
-        Fond of web performance, I work to raise awareness and bootstrap this topic on our customer projects. To this end, I contributed to the development of [the open-source tool Heart](https://heart.fabernovel.com/), that automates the analysis of web pages through various online services (Lighthouse, Dareboost…).
+        Fond of web performance, I work to raise awareness and bootstrap this topic on our customer projects. To this end, I contributed to the development of <a href="https://heart.fabernovel.com/" target="_blank" rel="nofollow">the open-source tool Heart</a>, that automates the analysis of web pages through various online services (Lighthouse, Dareboost…).
     fr_FR:
       bio: >-
         Développeur web depuis 10 ans, j'ai posé il y a 4 ans mes bagages chez Fabernovel en tant que Tech Lead.
 
-        Féru de performance web, je m'emploi à sensibiliser et mettre en place ce sujet sur nos projets client. A cet effet, j'ai contribué à élaborer [l'outil open-source Heart](https://heart.fabernovel.com/), qui permet d'automatiser les analyses de pages web via différents services en ligne (Lighthouse, Dareboost…).
+        Féru de performance web, je m'emploi à sensibiliser et mettre en place ce sujet sur nos projets client. A cet effet, j'ai contribué à élaborer <a href="https://heart.fabernovel.com/" target="_blank" rel="nofollow">l'outil open-source Heart</a>, qui permet d'automatiser les analyses de pages web via différents services en ligne (Lighthouse, Dareboost…).
   hubert_sablonniere:
     name: Hubert Sablonnière
     image: /assets/images/speakers/2021/hubert_sablonniere.jpg
@@ -949,10 +952,10 @@
         url: https://github.com/malchata
     en_US:
       bio: >-
-        Jeremy Wagner is a web performance consultant from The United States working for [Siteimprove](https://siteimprove.com/). He writes and speaks often on performance and works to make the web faster for everyone, everywhere.
+        Jeremy Wagner is a web performance consultant from The United States working for <a href="https://siteimprove.com/" target="_blank" rel="nofollow">Siteimprove</a>. He writes and speaks often on performance and works to make the web faster for everyone, everywhere.
     fr_FR:
       bio: >-
-        Jeremy Wagner est un consultant en Performance Web américain, travaillant pour [Siteimprove](https://siteimprove.com/). Il écrit et parle souvent sur la Performance et travaille à rendre le web plus rapide pour tout le monde, en tous lieux.
+        Jeremy Wagner est un consultant en Performance Web américain, travaillant pour <a href="https://siteimprove.com/" target="_blank" rel="nofollow">Siteimprove</a>. Il écrit et parle souvent sur la Performance et travaille à rendre le web plus rapide pour tout le monde, en tous lieux.
   ryan:
     name: Ryan Townsend
     image: /assets/images/speakers/2019/ryan.jpg
@@ -999,10 +1002,10 @@
         url: https://www.linkedin.com/in/benoit-jacquemont-657aba9
     fr_FR:
       bio: >-
-        Benoit Jacquemont est tombé dans le web en 2000 après avoir une première expérience sur des logiciels d'encaissements. De Java à PHP, de Oracle à MySQL et des applications de gestions aux sites de eCommerce, il roule sa bosse sur les projets, toujours à forte composante OpenSource, au sein du groupe Smile. Il en devient le CTO en 2009 alors que l'entreprise compte près de 450 salariés. En janvier 2013, il co-fonde [Akeneo](https://www.akeneo.com/fr/) avec Frédéric de Gombert, Nicolas Dupont et Yoav Kutner. L'aventure startup commence alors pour lui, en tant que CTO d'[Akeneo](https://www.akeneo.com/fr/).
+        Benoit Jacquemont est tombé dans le web en 2000 après avoir une première expérience sur des logiciels d'encaissements. De Java à PHP, de Oracle à MySQL et des applications de gestions aux sites de eCommerce, il roule sa bosse sur les projets, toujours à forte composante OpenSource, au sein du groupe Smile. Il en devient le CTO en 2009 alors que l'entreprise compte près de 450 salariés. En janvier 2013, il co-fonde <a href="https://www.akeneo.com/fr/" target="_blank" rel="nofollow">Akeneo</a> avec Frédéric de Gombert, Nicolas Dupont et Yoav Kutner. L'aventure startup commence alors pour lui, en tant que CTO d'<a href="https://www.akeneo.com/fr/" target="_blank" rel="nofollow">Akeneo</a>.
     en_US:
       bio: >-
-        Benoit Jacquemont dived into the web in 2000 after having a first experience on payment software. From Java to PHP, from Oracle to MySQL and from management applications to eCommerce sites, he worked on various projects, always with a strong OpenSource dimension, within the Smile group. He became the CTO in 2009 when the company had nearly 450 employees. In January 2013, he co-founded [Akeneo](https://www.akeneo.com/) with Frédéric de Gombert, Nicolas Dupont and Yoav Kutner. The startup adventure then began for him, as [Akeneo](https://www.akeneo.com/)'s CTO.
+        Benoit Jacquemont dived into the web in 2000 after having a first experience on payment software. From Java to PHP, from Oracle to MySQL and from management applications to eCommerce sites, he worked on various projects, always with a strong OpenSource dimension, within the Smile group. He became the CTO in 2009 when the company had nearly 450 employees. In January 2013, he co-founded <a href="https://www.akeneo.com/" target="_blank" rel="nofollow">Akeneo</a> with Frédéric de Gombert, Nicolas Dupont and Yoav Kutner. The startup adventure then began for him, as <a href="https://www.akeneo.com/" target="_blank" rel="nofollow">Akeneo</a>'s CTO.
   antonio:
     name: Antonio Gomes Rodrigues
     image: /assets/images/speakers/2019/antonio2.jpg
@@ -1078,10 +1081,10 @@
         url: https://www.linkedin.com/in/lo%C3%AFc-troquet-19623312/
     en_US:
       bio: >-
-        Head of the architecture department at [www.pagesjaunes.fr](https://www.pagesjaunes.fr). Specialist in the development of high visibility web applications. Certified ScrumMaster. Specializations: Java, Spring, Continuous Delivery, Webperf, Security, Git, Maven, Scrum, Kanban, Lean, Management 3.0
+        Head of the architecture department at <a href="https://www.pagesjaunes.fr" target="_blank" rel="nofollow">www.pagesjaunes.fr</a>. Specialist in the development of high visibility web applications. Certified ScrumMaster. Specializations: Java, Spring, Continuous Delivery, Webperf, Security, Git, Maven, Scrum, Kanban, Lean, Management 3.0
     fr_FR:
       bio: >-
-        Responsable du pôle architecture [www.pagesjaunes.fr](https://www.pagesjaunes.fr). Spécialiste des développements d'applications web à forte visibilité. ScrumMaster certifié. Spécialisations : Java, Spring, Continuous Delivery, Webperf, Sécurité, Git, Maven, Scrum, Kanban, Lean, Management 3.0
+        Responsable du pôle architecture <a href="https://www.pagesjaunes.fr" target="_blank" rel="nofollow">www.pagesjaunes.fr</a>. Spécialiste des développements d'applications web à forte visibilité. ScrumMaster certifié. Spécialisations : Java, Spring, Continuous Delivery, Webperf, Sécurité, Git, Maven, Scrum, Kanban, Lean, Management 3.0
   peter:
     name: Peter Hedenskog
     image: /assets/images/speakers/2019/peter.jpg
@@ -1094,10 +1097,10 @@
         url: https://www.linkedin.com/in/peterhedenskog/
     en_US:
       bio: >-
-        Peter works in the performance team of the Wikimedia Foundation where he measure the performance of Wikipedia using synthetic testing and RUM. Before he joined the foundation he worked as a web performance consultant helping some of the biggest Swedish brands. Peter also created the popular open source web performance tool [sitespeed.io](https://www.sitespeed.io/).
+        Peter works in the performance team of the Wikimedia Foundation where he measure the performance of Wikipedia using synthetic testing and RUM. Before he joined the foundation he worked as a web performance consultant helping some of the biggest Swedish brands. Peter also created the popular open source web performance tool <a href="https://www.sitespeed.io/" target="_blank" rel="nofollow">sitespeed.io</a>.
     fr_FR:
       bio: >-
-        Peter travaille dans l'équipe Performance de la Wikimedia Foundation où il mesure la performance de Wikipédia à l'aide de tests synthétiques et de RUM. Avant de rejoindre la fondation, il a travaillé comme consultant en Performance Web pour les plus grandes marques suédoises. Peter a également créé le populaire outil de Performance Web open source [sitespeed.io](https://www.sitespeed.io/).
+        Peter travaille dans l'équipe Performance de la Wikimedia Foundation où il mesure la performance de Wikipédia à l'aide de tests synthétiques et de RUM. Avant de rejoindre la fondation, il a travaillé comme consultant en Performance Web pour les plus grandes marques suédoises. Peter a également créé le populaire outil de Performance Web open source <a href="https://www.sitespeed.io/" target="_blank" rel="nofollow">sitespeed.io</a>.
   gilles:
     name: Gilles Dubuc
     image: /assets/images/speakers/2019/gilles3.jpg
@@ -1157,12 +1160,12 @@
       alt: >-
         Rick is smiling.
       bio: >-
-        Web transparency advocate at Google and steward of [@HTTPArchive](https://twitter.com/HTTPArchive) data. Coauthor of [@UsingWPT](https://twitter.com/UsingWPT).
+        Web transparency advocate at Google and steward of <a href="https://twitter.com/HTTPArchive" target="_blank" rel="nofollow">@HTTPArchive</a> data. Coauthor of <a href="https://twitter.com/UsingWPT" target="_blank" rel="nofollow">@UsingWPT</a>.
     fr_FR:
       alt: >-
         Rick, souriant.
       bio: >-
-        Défenseur de la transparence sur le Web chez Google et intendant des données de [@HTTPArchive](https://twitter.com/HTTPArchive). Co-auteur de [@UsingWPT](https://twitter.com/UsingWPT).
+        Défenseur de la transparence sur le Web chez Google et intendant des données de <a href="https://twitter.com/HTTPArchive" target="_blank" rel="nofollow">@HTTPArchive</a>. Co-auteur de <a href="https://twitter.com/UsingWPT" target="_blank" rel="nofollow">@UsingWPT</a>.
   stephanie:
     name: Stéphanie Walter
     image: /assets/images/speakers/2018/walterstephanie.jpg
@@ -1190,12 +1193,12 @@
       alt: >-
         Dimitri's mugshot
       bio: >-
-        CTO at [LesFurets.com](https://www.lesfurets.com/), a French comparison site that enables users to compare rates, warranties and services for automobile, health, two-wheeler, home and loan insurance.
+        CTO at <a href="https://www.lesfurets.com/" target="_blank" rel="nofollow">LesFurets.com</a>, a French comparison site that enables users to compare rates, warranties and services for automobile, health, two-wheeler, home and loan insurance.
     fr_FR:
       alt: >-
         Portrait de Dimitrie
       bio: >-
-        CTO chez [LesFurets.com](https://www.lesfurets.com/), un site de comparaison français qui permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
+        CTO chez <a href="https://www.lesfurets.com/" target="_blank" rel="nofollow">LesFurets.com</a>, un site de comparaison français qui permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
   ouestfrance:
     name: Vincent Robert
     image: /assets/images/speakers/2018/vincent.jpg
@@ -1203,12 +1206,12 @@
       alt: >-
         Vincent's mugshot
       bio: >-
-        CTO at Ouest-France Multimédia, a subsidiary of [Ouest-France](https://www.ouest-france.fr/) dedicated to providing services and managing Ouest-France's classifieds organized by sector: automotive, real estate, employment.
+        CTO at Ouest-France Multimédia, a subsidiary of <a href="https://www.ouest-france.fr/" target="_blank" rel="nofollow">Ouest-France</a> dedicated to providing services and managing Ouest-France's classifieds organized by sector: automotive, real estate, employment.
     fr_FR:
       alt: >-
         Portrait de Vincent
       bio: >-
-        DSI de Ouest-France Multimédia, une filiale de [Ouest-France](https://www.ouest-france.fr/) dédiée aux sites de petites annonces de journal organisés par secteur : automobile, immobilier, emploi.
+        DSI de Ouest-France Multimédia, une filiale de <a href="https://www.ouest-france.fr/" target="_blank" rel="nofollow">Ouest-France</a> dédiée aux sites de petites annonces de journal organisés par secteur : automobile, immobilier, emploi.
   rdc:
     name: Aniss Boumrigua
     image: /assets/images/speakers/2018/aniss.jpg
@@ -1216,12 +1219,12 @@
       alt: >-
         Aniss' mugshot
       bio: >-
-        IT Manager at [Rue du Commerce](https://www.rueducommerce.fr/).
+        IT Manager at <a href="https://www.rueducommerce.fr/" target="_blank" rel="nofollow">Rue du Commerce</a>.
     fr_FR:
       alt: >-
         Portrait d'Aniss
       bio: >-
-        IT Manager chez [Rue du Commerce](https://www.rueducommerce.fr/).
+        IT Manager chez <a href="https://www.rueducommerce.fr/" target="_blank" rel="nofollow">Rue du Commerce</a>.
   cdiscount:
     name: Aurélien Lajoie
     urls:
@@ -1233,12 +1236,12 @@
       alt: >-
         Aurélien's mugshot
       bio: >-
-        Director of Architecture at [Cdiscount](https://www.cdiscount.com/).
+        Director of Architecture at <a href="https://www.cdiscount.com/" target="_blank" rel="nofollow">Cdiscount</a>.
     fr_FR:
       alt: >-
         Portrait d'Aurélien
       bio: >-
-        Directeur de l’architecture chez [Cdiscount](https://www.cdiscount.com/).
+        Directeur de l’architecture chez <a href="https://www.cdiscount.com/" target="_blank" rel="nofollow">Cdiscount</a>.
   lequipe:
     name: Francois Boury
     image: /assets/images/speakers/2018/francois.jpg
@@ -1246,12 +1249,12 @@
       alt: >-
         François's mugshot
       bio: >-
-        Internet CTO at [L'Équipe.fr](https://www.lequipe.fr/), the leading French sports information site.
+        Internet CTO at <a href="https://www.lequipe.fr/" target="_blank" rel="nofollow">L'Équipe.fr</a>, the leading French sports information site.
     fr_FR:
       alt: >-
         Logo l'Équipe
       bio: >-
-        Directeur Technique Internet de [L'Équipe.fr](https://www.lequipe.fr/), le premier site d'informations sportives français.
+        Directeur Technique Internet de <a href="https://www.lequipe.fr/" target="_blank" rel="nofollow">L'Équipe.fr</a>, le premier site d'informations sportives français.
   philip:
     name: Philip Tellis
     image: /assets/images/speakers/2018/bluesmoon.jpg
@@ -1266,30 +1269,30 @@
       alt: >-
         Philip's mugshot
       bio: >-
-        Philip Tellis is a geek who likes to make the computer do his work for him. As Principal RUM Distiller at [Akamai](https://www.akamai.com/), he analyses the impact of various design decisions on web application performance, scalability and security. He is the lead developer of [boomerang](https://soasta.github.io/boomerang/) – a JavaScript based web performance testing tool.
+        Philip Tellis is a geek who likes to make the computer do his work for him. As Principal RUM Distiller at <a href="https://www.akamai.com/" target="_blank" rel="nofollow">Akamai</a>, he analyses the impact of various design decisions on web application performance, scalability and security. He is the lead developer of <a href="https://soasta.github.io/boomerang/" target="_blank" rel="nofollow">boomerang</a> – a JavaScript based web performance testing tool.
 
 
         In his spare time, Philip enjoys cycling, reading, cooking and learning spoken languages.
 
 
-        Philip has spoken at several conferences around the world, including Velocity, Fluent, JSConf, Paris Web, IPC, Webinale, FOSSDEM, FOSS.IN, FREED.IN, Ubuntulive, Linux Symposium, OpenSource Bridge, PHP Quebec, ConFoo, WebDU, and Midwest.IO. He also writes for Smashing Magazine, [blogs](http://tech.bluesmoon.info/) and is [@bluesmoon](https://twitter.com/bluesmoon) on Twitter.
+        Philip has spoken at several conferences around the world, including Velocity, Fluent, JSConf, Paris Web, IPC, Webinale, FOSSDEM, FOSS.IN, FREED.IN, Ubuntulive, Linux Symposium, OpenSource Bridge, PHP Quebec, ConFoo, WebDU, and Midwest.IO. He also writes for Smashing Magazine, <a href="http://tech.bluesmoon.info/" target="_blank" rel="nofollow">blogs</a> and is <a href="https://twitter.com/bluesmoon" target="_blank" rel="nofollow">@bluesmoon</a> on Twitter.
 
 
-        You can watch some of Philip’s past talks [on Youtube](https://www.google.com/search?q=youtube+philip+tellis).
+        You can watch some of Philip’s past talks <a href="https://www.google.com/search?q=youtube+philip+tellis" target="_blank" rel="nofollow">on Youtube</a>.
     fr_FR:
       alt: >-
         Portrait de Philip
       bio: >-
-        Philip Tellis est un geek qui aime faire travailler l'ordinateur à sa place. En tant que Principal RUM Distiller chez [Akamai](https://www.akamai.com/), il analyse l’impact de diverses décisions de conception sur les performances, l’évolutivité et la sécurité des applications web. Il est le développeur principal de [boomerang](https://soasta.github.io/boomerang/) - un outil de mesure de performance web basé sur JavaScript.
+        Philip Tellis est un geek qui aime faire travailler l'ordinateur à sa place. En tant que Principal RUM Distiller chez <a href="https://www.akamai.com/" target="_blank" rel="nofollow">Akamai</a>, il analyse l’impact de diverses décisions de conception sur les performances, l’évolutivité et la sécurité des applications web. Il est le développeur principal de <a href="https://soasta.github.io/boomerang/" target="_blank" rel="nofollow">boomerang</a> - un outil de mesure de performance web basé sur JavaScript.
 
 
         Philip aime faire du vélo, lire, cuisiner et apprendre à parler de nouvelles langues.
 
 
-        Philip est intervenu lors de plusieurs conférences à travers le monde, comme Velocity, Fluent, JSConf, Paris Web, IPC, Webinale, FOSSDEM, FOSS.IN, FREED.IN, Ubuntulive, Linux Symposium, OpenSource Bridge, PHP Québec, ConFoo, WebDU, et Midwest.IO. Il écrit également pour Smashing Magazine, [son blog](http://tech.bluesmoon.info/) et sur Twitter, sous le pseudonyme [@bluesmoon](https://twitter.com/bluesmoon).
+        Philip est intervenu lors de plusieurs conférences à travers le monde, comme Velocity, Fluent, JSConf, Paris Web, IPC, Webinale, FOSSDEM, FOSS.IN, FREED.IN, Ubuntulive, Linux Symposium, OpenSource Bridge, PHP Québec, ConFoo, WebDU, et Midwest.IO. Il écrit également pour Smashing Magazine, <a href="http://tech.bluesmoon.info/" target="_blank" rel="nofollow">son blog</a> et sur Twitter, sous le pseudonyme <a href="https://twitter.com/bluesmoon" target="_blank" rel="nofollow">@bluesmoon</a>.
 
 
-        Vous pouvez regarder certaines des conférences que Philip a déjà donné [sur Youtube](https://www.google.com/search?q=youtube+philip+tellis).
+        Vous pouvez regarder certaines des conférences que Philip a déjà donné <a href="https://www.google.com/search?q=youtube+philip+tellis" target="_blank" rel="nofollow">sur Youtube</a>.
   nicolas:
     name: Nicolas Hoizey
     image: /assets/images/speakers/2018/nhoizey.jpg
@@ -1301,12 +1304,12 @@
       alt: >-
         Nicolas's mugshot
       bio: >-
-        Nicolas is a co-founder and senior consultant at [Clever Age](https://www.clever-age.com/en/). He helps companies design the right technical architecture to cover their digital needs. He also brings front-end technical expertise about web performance, RWD, PWA, etc. Drawing on over 20 years of Web experience, he advocates a pragmatic use of Web technologies, defining and applying good technical and methodological practices.
+        Nicolas is a co-founder and senior consultant at <a href="https://www.clever-age.com/en/" target="_blank" rel="nofollow">Clever Age</a>. He helps companies design the right technical architecture to cover their digital needs. He also brings front-end technical expertise about web performance, RWD, PWA, etc. Drawing on over 20 years of Web experience, he advocates a pragmatic use of Web technologies, defining and applying good technical and methodological practices.
     fr_FR:
       alt: >-
         Portrait de Nicolas
       bio: >-
-        Nicolas est cofondateur et consultant senior chez [Clever Age](https://www.clever-age.com/fr/content/nos-references-webperf/). Il aide les entreprises à concevoir la bonne architecture technique, avec les bon choix de technologies et solutions, pour couvrir leurs besoins numériques. Il apporte de plus une expertise technique <span lang="en">front-end</span> : performance web, <abbr lang="en" title="Responsive Web Design">RWD</abbr>, <abbr lang="en" title="Progressive Web App">PWA</abbr>, etc. S'appuyant sur plus de 20 ans d'expérience, il préconise une utilisation pragmatique des technologies Web, en définissant et en appliquant de bonnes pratiques techniques et méthodologiques.
+        Nicolas est cofondateur et consultant senior chez <a href="https://www.clever-age.com/fr/content/nos-references-webperf/" target="_blank" rel="nofollow">Clever Age</a>. Il aide les entreprises à concevoir la bonne architecture technique, avec les bon choix de technologies et solutions, pour couvrir leurs besoins numériques. Il apporte de plus une expertise technique <span lang="en">front-end</span> : performance web, <abbr lang="en" title="Responsive Web Design">RWD</abbr>, <abbr lang="en" title="Progressive Web App">PWA</abbr>, etc. S'appuyant sur plus de 20 ans d'expérience, il préconise une utilisation pragmatique des technologies Web, en définissant et en appliquant de bonnes pratiques techniques et méthodologiques.
   thomas:
     name: Thomas Zilliox
     urls:
@@ -1318,12 +1321,12 @@
       alt: >-
         Thomas's mugshot
       bio: >-
-        Thomas - Freelance CSS Expert. Thomas helps technical teams produce maintainable styles. Web developer, teacher, trainer, lecturer, speaker, he multiplies his hats to share his passion for the web. His last challenge was the writing of "[Départ immédiat pour : Flexbox](https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox)" with _le Train de 13h37_.
+        Thomas - Freelance CSS Expert. Thomas helps technical teams produce maintainable styles. Web developer, teacher, trainer, lecturer, speaker, he multiplies his hats to share his passion for the web. His last challenge was the writing of "<a href="https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox" target="_blank" rel="nofollow">Départ immédiat pour : Flexbox</a>" with _le Train de 13h37_.
     fr_FR:
       alt: >-
         Portrait de Thomas
       bio: >-
-        Thomas – Expert CSS Freelance. Thomas aide les équipes technique à produire des styles maintenables. Intégrateur, développeur, enseignant, formateur, conférencier, il multiplie les casquettes pour partager sa passion du web. Son dernier challenge a été l’écriture de "[Départ immédiat pour : Flexbox](https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox)" avec _le Train de 13h37_.
+        Thomas – Expert CSS Freelance. Thomas aide les équipes technique à produire des styles maintenables. Intégrateur, développeur, enseignant, formateur, conférencier, il multiplie les casquettes pour partager sa passion du web. Son dernier challenge a été l’écriture de "<a href="https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox" target="_blank" rel="nofollow">Départ immédiat pour : Flexbox</a>" avec _le Train de 13h37_.
   jp:
     name: Jean-Pierre Vincent
     image: /assets/images/staff/jp.jpg
@@ -1335,12 +1338,12 @@
       alt: >-
         Jean-Pierre's mugshot
       bio: >-
-        Jean-Pierre Vincent - Independent Technical Expert and trainer on Web and JavaScript Performance. For more than 7 years, Jean-Pierre accompanies his clients in their webperf strategy or train their teams. He is also the co-organizer of the [Paris Webperf meetups](https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/).
+        Jean-Pierre Vincent - Independent Technical Expert and trainer on Web and JavaScript Performance. For more than 7 years, Jean-Pierre accompanies his clients in their webperf strategy or train their teams. He is also the co-organizer of the <a href="https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/" target="_blank" rel="nofollow">Paris Webperf meetups</a>.
     fr_FR:
       alt: >-
         Portrait de Jean-Pierre
       bio: >-
-        Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis plus de 7 ans, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes. Il est aussi le co-organisateur des [meetups Webperf parisiens](https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/).
+        Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis plus de 7 ans, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes. Il est aussi le co-organisateur des <a href="https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/" target="_blank" rel="nofollow">meetups Webperf parisiens</a>.
   damien:
     name: Damien Jubeau
     image: /assets/images/speakers/2018/damien.jpg
@@ -1352,12 +1355,12 @@
       alt: >-
         Damien's mugshot
       bio: >-
-        CEO and co-funder of [Dareboost](https://www.dareboost.com/), a SaaS dedicated to web performance. Manager-friendly, Dareboost allows your team to unite around a common goal: a faster website.
+        CEO and co-funder of <a href="https://www.dareboost.com/" target="_blank" rel="nofollow">Dareboost</a>, a SaaS dedicated to web performance. Manager-friendly, Dareboost allows your team to unite around a common goal: a faster website.
     fr_FR:
       alt: >-
         Portrait de Damien
       bio: >-
-        CEO et cofondateur de [Dareboost](https://www.dareboost.com/), solution SaaS de gestion de la performance web, pour réunir les équipes web autour d'un objectif commun : un site plus rapide et une qualité web accrue.
+        CEO et cofondateur de <a href="https://www.dareboost.com/" target="_blank" rel="nofollow">Dareboost</a>, solution SaaS de gestion de la performance web, pour réunir les équipes web autour d'un objectif commun : un site plus rapide et une qualité web accrue.
   stephane:
     name: Stéphane Rios
     image: /assets/images/staff/stephane.jpg
@@ -1375,7 +1378,7 @@
         He has supported the growth of a website that has seen its traffic double every year. Member of the Executive Committee, he actively participated in the success of one of the few eCommerce pure players that become profitable.
 
 
-        Obsessed with the byte in excess, waste of time and energy, Stéphane Rios hoisted RueDuCommerce at the top of performing sites before launching the [Fasterize](https://www.fasterize.com) adventure. He has managed large technical teams while remaining a geek having passion for Web development and architecture.
+        Obsessed with the byte in excess, waste of time and energy, Stéphane Rios hoisted RueDuCommerce at the top of performing sites before launching the <a href="https://www.fasterize.com" target="_blank" rel="nofollow">Fasterize</a> adventure. He has managed large technical teams while remaining a geek having passion for Web development and architecture.
     fr_FR:
       alt: >-
         Portrait de Stéphane
@@ -1385,7 +1388,7 @@
 
         Il a accompagné et soutenu la croissance d'un site Web qui a vu chaque année son trafic doubler. Membre du Comité de Direction, il a activement participé au succès de l'un des rares pure-players du eCommerce devenu profitable.
 
-        Obsédé de l'octet en trop, du gaspillage de temps et d'énergie, Stéphane RIOS a hissé RueDuCommerce en tête des classements des sites performants avant de se lancer dans l'aventure [Fasterize](https://www.fasterize.com). Il a géré des équipes techniques conséquentes tout en restant un geek passionné de développement et d'architectures Web hautement disponibles et performantes.
+        Obsédé de l'octet en trop, du gaspillage de temps et d'énergie, Stéphane RIOS a hissé RueDuCommerce en tête des classements des sites performants avant de se lancer dans l'aventure <a href="https://www.fasterize.com" target="_blank" rel="nofollow">Fasterize</a>. Il a géré des équipes techniques conséquentes tout en restant un geek passionné de développement et d'architectures Web hautement disponibles et performantes.
   jonas:
     name: Jonas Badalic
     image: /assets/images/speakers/2018/jonas.jpg
@@ -1397,10 +1400,10 @@
       alt: >-
         Jonas' mugshot
       bio: >-
-        Building all sorts of things [@Algolia](https://www.algolia.com/) with performance and end-user experience in mind. Always trying to find edge cases and exceptions to rules. Doubt everything, do what works best for you and your users.
+        Building all sorts of things <a href="https://www.algolia.com/" target="_blank" rel="nofollow">@Algolia</a> with performance and end-user experience in mind. Always trying to find edge cases and exceptions to rules. Doubt everything, do what works best for you and your users.
 
     fr_FR:
       alt: >-
         Portrait de Jonas
       bio: >-
-        Construit toutes sortes de choses chez [Algolia](https://www.algolia.com/), en gardant toujours à l'esprit la performance web et l'expérience utilisateur. Toujours à la recherche de cas limites et d'exceptions. Un crédo : "Doute de tout, fait ce qui fonctionne le mieux pour toi et tes utilisateurs".
+        Construit toutes sortes de choses chez <a href="https://www.algolia.com/" target="_blank" rel="nofollow">Algolia</a>, en gardant toujours à l'esprit la performance web et l'expérience utilisateur. Toujours à la recherche de cas limites et d'exceptions. Un crédo : "Doute de tout, fait ce qui fonctionne le mieux pour toi et tes utilisateurs".
