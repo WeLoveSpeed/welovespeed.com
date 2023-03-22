@@ -19,7 +19,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "Soft navigations are hard!"
+  title: "Soft navigations are Hard!"
   subtitle: ~
   excerpt: >-
     Are Single Page Apps faster? Let's discuss new technologies in the web browser that allow us to measure performance metrics for SPAs.
