@@ -7,7 +7,7 @@ class="newsletter-form validate" target="_blank" rel="noopener noreferrer" noval
   <fieldset>
     <label for="mce-NAME-{{ include.context }}">{% t Votre nom %}</label>
     {% if include.compact %}<div class="form-row">{% endif %}
-    <input type="name" value="" placeholder="Marty McFly" name="NAME" class="name" id="mce-NAME-{{ include.context }}" required>
+    <input type="text" value="" placeholder="Marty McFly" name="NAME" class="name" id="mce-NAME-{{ include.context }}" required>
     {% if include.compact %}<button class="button-reset" type="submit" name="Subscribe" id="mc-embedded-subscribe">{% t s'abonner %}</button>
     </div>{% endif %}
   </fieldset>
