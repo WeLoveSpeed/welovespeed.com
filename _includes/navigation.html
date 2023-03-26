@@ -18,10 +18,10 @@
       {% unless link.type == "separator" %}
       <li>{% include link.html link=link %}</li>
       {% else %}
-        <hr>
+      <li aria-hidden><hr></li>
       {% endunless %}
     {% endfor%}
-    <hr>
+    <li aria-hidden><hr></li>
     {% if page.translation %}
       {% assign hreflang = page.translation.locale | slice: 0,2 %}
       <li><a hreflang="{{ hreflang }}" href="{{ page.translation.url | relative_url }}"><small>{% t (see in english) %}</small></a></li>
