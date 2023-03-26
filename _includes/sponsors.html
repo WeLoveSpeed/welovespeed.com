@@ -2,7 +2,6 @@
 <section id="sponsors-logo" class="section">
 
   <div class="wrapper">
-    <a class="sr-only" href="{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ "programme" | t: include.locale }}{% endunless %}#conferences" >{% t Aller directement aux descriptions des sponsors %}</a>
     <div class="grid-2 text-center randomize">
       {% for sponsor in site.data.sponsors[include.year].gold %}
           {% capture sponsor-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year|default: site.current_edition }}/{{ "merci" | t: include.locale }}/{% endunless %}#{{sponsor.slug}}{% endcapture %}
