@@ -72,7 +72,7 @@
               {% assign speakatim = speaker.fr_FR %}
             {% endif %}
             <section class="conference-speaker text-sm">
-              <figure class="conference-speaker-pic" role="group">
+              <figure class="conference-speaker-pic">
                 {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" loading="lazy" %}
                 {% capture youString %}{{ "Vous !" | t: page.locale }}{% endcapture %}
                 <figcaption class="sr-only">{{ speaker.name | default: youString }}</figcaption>

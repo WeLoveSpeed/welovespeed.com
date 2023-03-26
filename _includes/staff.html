@@ -4,7 +4,7 @@
     <h2 class="text-center">{% t L'Équipe %}</h2>
     <div class="grid-{{ site.data.gridsize[nbitems] }} text-center randomize">
       {% for member in staff %}
-        <figure class="person" role="group" aria-describedby="capt-{{member.slug}}">
+        <figure class="person" aria-describedby="capt-{{member.slug}}">
           {% cloudinary avatar {{ "/assets/images/staff/" | append: member.slug | append: ".jpg" | relative_url }} class="person-avatar lozad" alt="{{member.firstname}} {{member.lastname}}" loading="lazy" %}
           <figcaption id="capt-{{member.slug}}" class="person-name text-xs">
             {% if member.name_link %}<a title="{{member.firstname}} {{member.lastname}}" href="{{member.name_link}}">{{member.firstname}} <span class="sr-only">{{member.lastname}}</span></a>{% else %}{{member.firstname}} <span class="sr-only">{{member.lastname}}</span>{% endif %}<br>
