@@ -682,3 +682,9 @@
     - name: Stickermule
       logo: /assets/images/thanks/stickermule.svg
       url: https://www.stickermule.com/fr/stickers-personnalises
+    - name: Globalis Media Systems
+      logo: /assets/images/thanks/globalis.png
+      url: https://www.globalis-ms.com/
+    - name: Algolia
+      logo: /assets/images/thanks/algolia.svg
+      url: https://www.algolia.com/
