@@ -45,9 +45,6 @@ fr_FR:
 
 
     > Le bruit fausse de 14 % mon vrai TTFB.
-
-
-    Plus de détails et de graphiques <a href="https://calendar.perfplanet.com/2022/noise-canceling-rum" target="_blank" hreflang="en" rel="nofollow">sur Perf Calendar (en anglais)</a>.
   slides: ~
   video: ~
 en_US:
@@ -90,9 +87,6 @@ en_US:
 
 
     > Noise skews my actual Time To First Byte by 14%.
-
-
-    More details and graphs <a href="https://calendar.perfplanet.com/2022/noise-canceling-rum" target="_blank" rel="nofollow">on Perf Calendar</a>.
   slides: ~
   video: ~
 ---
