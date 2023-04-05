@@ -33,6 +33,15 @@
       from:
         name: Contentsquare
         url: https://contentsquare.com/
+    - url: https://blog.clever-age.com/fr/2022/02/01/we-love-speed-2021-a-lyon/
+      title: "We Love Speed 2021 à Lyon"
+      authors: ["Nicolas Hoizey"]
+      locale: fr_FR
+      extract: >-
+        Cette édition avait donc lieu à Lyon, au sein du très beau Palais de la Bourse. Voici ce que nous avons retenu des quelques conférences auxquelles nous avons pu assister.
+      from:
+        name: Clever Age
+        url: https://www.clever-age.com/
 - year: 2020
   writeups:
     - url: https://contentsquare.com/fr-fr/blog/we-love-speed-organisation-projet-performance-web/
