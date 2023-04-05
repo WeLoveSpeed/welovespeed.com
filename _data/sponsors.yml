@@ -669,6 +669,27 @@
           url: https://web.dev/learn-web-vitals/
         description: >-
           En terme d'expérience utilisateur, la vitesse est cruciale. Chaque seconde compte, la lenteur n'est pas seulement frustrante, elle a un impact négatif sur les performances commerciales. Téléchargez notre nouveau PlayBook Mobile Speed pour comprendre pourquoi la vitesse est importante, comment la mesurer, comment accélérer votre site et maintenir vos performances !
+    - name: Ekino
+      slug: ekino
+      logo: /assets/images/thanks/ekino.svg
+      fr_FR:
+        cta:
+          text: "Envie d'échanger ?"
+          url: https://www.ekino.com/
+        description: >-
+          À l’origine, simple division technique d’un grand groupe réunissant une vingtaine d’ingénieurs, ekino est devenue en moins de 10 ans un Groupe international de 600 personnes présentes dans 6 pays regroupant tous les métiers du digital (ingénieurs, designers, data scientists, et consultants techniques). Nous avons grandi, changé, évolué, mais nous n’avons jamais perdu de vue les valeurs qui nous habitent depuis le début. Plaisir, Transmission, Excellence, Empathie, Intégrité et engagement sont autant de valeurs que nous mettons en œuvre au quotidien.
+
+
+          Chez ekino, nous avons la chance de collaborer avec des équipes incroyables, passionnées, humaines, tolérantes, attentives aux autres, exigeantes, et intègres. Merci à eux de faire d’ekino une entreprise à part.
+      en_US:
+        cta:
+          text: "Come and talk to us"
+          url: https://www.ekino.com/en/
+        description: >-
+          From a simple technical division of a large group with about 20 engineers, ekino has grown in less than 10 years into an international group with 600 people in 6 countries, covering all the digital trades (engineering, design, data science, and technical consulting). We have grown, changed, evolved, but we have never lost sight of the values that have been with us since the beginning. Fun, Transmission, Excellence, Empathy, Integrity and Commitment are the principles we put into practice every day.
+
+
+          At ekino, we are fortunate to collaborate with incredible, passionate, human, tolerant, attentive to others, demanding, and honest teams. Thank you to them for making ekino a company like no other.
   others:
     - name: redirection.io
       logo: /assets/images/thanks/redirection-io.svg
