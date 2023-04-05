@@ -257,20 +257,6 @@
         Passionné de performance et de scalabilité, Kevin travaille depuis plus de 10 ans dans le développement web.
 
         Aujourd'hui architecte et membre de l'équipe tactique de Theodo, il conseille les clients du groupe sur leurs besoins de conception ou d'optimisation et accompagne les équipes dans le développement de sites grands publics ou spécialisés.
-  varuna_srivastava:
-    name: Varuna Srivastava
-    image: /assets/images/speakers/2023/varuna_srivastava.jpg
-    urls: ~
-    en_US:
-      alt: >-
-        Varuna's mugshot
-      bio: >-
-        TODO
-    fr_FR:
-      alt: >-
-        Portrait de Varuna
-      bio: >-
-        TODO
   barry_pollard:
     name: Barry Pollard
     image: /assets/images/speakers/2023/barry_pollard.jpg
