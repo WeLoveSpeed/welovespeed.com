@@ -654,6 +654,36 @@
           url: https://web.dev/learn-web-vitals/
         description: >-
           En terme d'expérience utilisateur, la vitesse est cruciale. Chaque seconde compte, la lenteur n'est pas seulement frustrante, elle a un impact négatif sur les performances commerciales. Téléchargez notre nouveau PlayBook Mobile Speed pour comprendre pourquoi la vitesse est importante, comment la mesurer, comment accélérer votre site et maintenir vos performances !
+    - name: Scaleflex
+      slug: scaleflex
+      logo: /assets/images/thanks/scaleflex.png
+      fr_FR:
+        cta:
+          text: "Découvrez Scaleflex"
+          url: https://www.scaleflex.com/en/home
+        description: >-
+          Scaleflex est une entreprise B2B SaaS qui développe des solutions de gestion des actifs numériques et d'accélération des médias. Notre mission est de charger, stocker, organiser, optimiser, publier et distribuer tous types d'assets médias (images, vidéos, fichiers statiques tels que les fichiers JS et CSS, etc.) afin d'accélérer les applications web et mobiles.
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://www.scaleflex.com/en/home
+        description: >-
+          Scaleflex is a B2B SaaS company that develops digital asset management and media acceleration solutions. Our mission is to upload, store, organize, optimize, publish and distribute all types of media assets (images, videos, static files such as JS and CSS files, etc.) to accelerate web and mobile applications.
+    - name: Quadran
+      slug: quadran
+      logo: /assets/images/thanks/quadran.svg
+      fr_FR:
+        cta:
+          text: "Découvrez Quadran"
+          url: https://www.quadran.eu/
+        description: >-
+          Quadran vous accompagne dans vos projets digitaux. Architecture des SI, Performance web, Référrencement web, Transformation digitale, Agile & DevOps,Développement Logiciel
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://www.quadran.eu/
+        description: >-
+          Quadran accompanies you in your digital projects. IT Architecture, Web Performance, SEO, Digital Transformation, Agile & DevOps, Software Development
   others:
     - name: redirection.io
       logo: /assets/images/thanks/redirection-io.svg
@@ -682,6 +712,3 @@
     - name: Ekino
       logo: /assets/images/thanks/ekino.svg
       url: https://www.ekino.com/
-    - name: Scaleflex
-      logo: /assets/images/thanks/scaleflex.png
-      url: https://www.scaleflex.com/
