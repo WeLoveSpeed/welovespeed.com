@@ -650,10 +650,16 @@
       logo: /assets/images/thanks/google.svg
       fr_FR:
         cta:
-          text: "En savoir plus sur les Core Web Vitals"
-          url: https://web.dev/learn-web-vitals/
+          text: "Découvrir web.dev"
+          url: https://web.dev/
         description: >-
-          En terme d'expérience utilisateur, la vitesse est cruciale. Chaque seconde compte, la lenteur n'est pas seulement frustrante, elle a un impact négatif sur les performances commerciales. Téléchargez notre nouveau PlayBook Mobile Speed pour comprendre pourquoi la vitesse est importante, comment la mesurer, comment accélérer votre site et maintenir vos performances !
+          Google est un acteur clé de l’écosystème web, innovant continuellement pour optimiser la Performance Web en introduisant des outils et des frameworks tels que les rapports d’expérience utilisateur Chrome, Lighthouse et PageSpeed Insights, permettant à tous de créer des sites web plus rapides, réactifs et conviviaux. web.dev est une mine d’informations, de recommandations et de bonnes pratiques pour guider les développeurs dans la création de sites web rapides, sécurisés et accessibles.
+      en_US:
+        cta:
+          text: "Visit web.dev"
+          url: https://web.dev/
+        description: >-
+          Google is a key player in the web ecosystem, continuously innovating to optimize performance, introducing tools and frameworks such as Chrome User Experience reports, Lighthouse, and PageSpeed Insights that empower everyone to build faster, more responsive, and user-friendly websites. web.dev offers a wealth of information, recommendations, and best practices to guide developers in creating websites that are fast, secure and accessible.
     - name: Scaleflex
       slug: scaleflex
       logo: /assets/images/thanks/scaleflex.png
