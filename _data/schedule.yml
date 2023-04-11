@@ -475,3 +475,25 @@
     values:
       fr_FR: C'est fini !
       en_US: That's all folks!
+2023:
+  - type: headers
+    values:
+      - fr_FR: Auditorium 1er étage
+        en_US: Auditorium 2nd floor
+      - fr_FR: Philae 4e étage
+        en_US: Philae 5th floor
+  - type: pause
+    hour: "08:55"
+    values:
+      fr_FR: Accueil des participant·es
+      en_US: Attendees' welcome
+  - type: short
+    hour: "09:20"
+    values:
+      fr_FR: Ouverture des conférences
+      en_US: Conference Opening
+  - type: talks
+    hour: ""
+    values:
+      - taming-3p-speed-impact
+      - parlons-de-valeur
