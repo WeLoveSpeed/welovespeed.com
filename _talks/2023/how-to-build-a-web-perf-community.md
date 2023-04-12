@@ -10,7 +10,7 @@ speakers:
 fr_FR:
   title: "Comment construire une communauté Web Perf dans son organisation ?"
   subtitle: ~
-  excerpt: ~
+  excerpt: "Pourquoi, qui, avec quoi, comment et pour quels résultats construire une communauté autour de la Web Performance ? Le retour d'expérience de La Redoute."
   description: >-
     Nous proposons de partager notre retour d'expérience sur la mise en place de notre Communauté WebPerf au sein de la Redoute.
 
@@ -33,7 +33,7 @@ fr_FR:
 en_US:
   title: "How to Build a Web Perf Community in Your Organization?"
   subtitle: ~
-  excerpt: ~
+  excerpt: "Why, who, with what, how and for what results should you build a community around Web Performance? La Redoute's experience."
   description: >-
     We propose to share our feedback on the implementation of our WebPerf Community within La Redoute.
     

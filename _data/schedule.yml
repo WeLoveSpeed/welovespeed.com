@@ -227,8 +227,8 @@
   - type: pause
     hour: "14:35"
     values:
-      fr_FR: Pause
-      en_US: Break
+      fr_FR: Pause ☕ 🍵
+      en_US: Break ☕ 🍵
   - type: talks
     hour: "14:40"
     values:
@@ -488,12 +488,97 @@
       fr_FR: Accueil des participant·es
       en_US: Attendees' welcome
   - type: short
-    hour: "09:20"
+    hour: "09:30"
     values:
       fr_FR: Ouverture des conférences
       en_US: Conference Opening
   - type: talks
-    hour: ""
+    hour: "09:40"
     values:
       - taming-3p-speed-impact
       - parlons-de-valeur
+  - type: short
+    hour: "10:25"
+    values:
+      fr_FR: Déplacements
+      en_US: Moving between talks
+  - type: talks
+    hour: "10:35"
+    values:
+      - soft-navigations-are-hard
+      - diagnostics-rapides
+  - type: pause
+    hour: "11:10"
+    values:
+      fr_FR: Pause (30 min)
+      en_US: Break (30 min)
+  - type: short
+    hour: "11:40"
+    values:
+      fr_FR: "C'est l'heure de reprendre"
+      en_US: "Time to start again!"
+  - type: talks
+    hour: "11:50"
+    values:
+      - web-protocols-for-frontend-developers
+      - understanding-cognitive-biais-in-performance-measurement
+  - type: pause
+    hour: "12:40"
+    values:
+      fr_FR: Pause Déjeuner 🍱 et Ateliers 🧰 (~2 heures)
+      en_US: Lunch Break 🍱 and Workshops 🧰 (~2 hours)
+  - type: short
+    hour: "14:35"
+    values:
+      fr_FR: "C'est l'heure de reprendre"
+      en_US: "Time to start again!"
+  - type: talks
+    hour: "14:45"
+    values:
+      - top-cwv-recommandations-2023
+      - how-to-prioritize-web-performance-optimizations
+  - type: pause
+    hour: "15:20"
+    values:
+      fr_FR: Pause (30 min)
+      en_US: Break (30 min)
+  - type: short
+    hour: "15:50"
+    values:
+      fr_FR: "C'est l'heure de reprendre"
+      en_US: "Time to start again!"
+  - type: talks
+    hour: "16:00"
+    values:
+      - frameworks-tips-ttfb
+      - rex-chr
+  - type: short
+    hour: "16:30"
+    values:
+      fr_FR: Déplacements
+      en_US: Moving between talks
+  - type: talks
+    hour: "16:40"
+    values:
+      - accessibilite-et-webperf
+      - seo-webperf-impact
+  - type: short
+    hour: "17:10"
+    values:
+      fr_FR: Déplacements
+      en_US: Moving between talks
+  - type: talks
+    hour: "17:20"
+    values:
+      - top-10-perles
+      - how-to-build-a-web-perf-community
+  - type: short
+    hour: "17:50"
+    values:
+      fr_FR: Clôture
+      en_US: Closing
+  - type: pause
+    hour: "18:00"
+    values:
+      fr_FR: Et voilà, c'est fini ! À l'année prochaine !
+      en_US: And that's it! See you next year!

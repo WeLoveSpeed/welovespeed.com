@@ -8,7 +8,7 @@ speakers:
 fr_FR:
   title: "Comment prioriser vos optimisation ?"
   subtitle: ~
-  excerpt: ~
+  excerpt: "Apprenez à estimer l'impact en fonction des objectifs de votre organisation."
   description: >-
     Vous vous êtes renseigné sur les performances web, vous avez audité votre site pour trouver des pistes d'optimisation et vous avez une liste d'optimisations plus longue que backlog. Et maintenant, que faire ? Apprenez à estimer l'impact en fonction des objectifs de votre organisation. 
     
@@ -19,7 +19,7 @@ fr_FR:
 en_US:
   title: "How to Prioritize Web Performance Optimizations"
   subtitle: ~
-  excerpt: ~
+  excerpt: "Learn how to estimate impact according to your organization’s goals."
   description: >-
     You’ve read up on web performance, audited your site for ways to improve, and have a list of optimizations longer than your existing backlog. Now what? Learn how to estimate impact according to your organization’s goals. 
     
