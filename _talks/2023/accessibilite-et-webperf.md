@@ -9,7 +9,7 @@ fr_FR:
   title: "Accessibilité et WebPerf ? C'est quoi le rapport ?"
   subtitle: ~
   excerpt: >-
-    Apprendre à coder des sites web accessibles peut vous aider à comprendre comment les rendre plus rapides.
+    Un manque d'accessibilité est révélateur de problèmes techniques, de conception, d'organisation et de culture web. Apprendre à coder des sites web accessibles peut vous aider à comprendre comment les rendre plus rapides.
   description: >-
     > Connaître l'accessibilité pour bien coder et non savoir bien coder pour faire de l'accessibilité. 
 
@@ -29,7 +29,7 @@ en_US:
   title: "Accessibility and Webperf, Not So Different"
   subtitle: ~
   excerpt: >-
-    Learning how to code accessible websites can help you understand how to make them fast.
+    A lack of accessibility is indicative of a lack of technical knowledge, design, governance and web culture. Learn how to code accessible websites to better understand how to make them faster.
   description: >-
     > Knowing accessibility to code well. Don't learn to code well to do accessibility.
 
