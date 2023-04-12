@@ -675,21 +675,21 @@
           url: https://www.scaleflex.com/en/home
         description: >-
           Scaleflex is a B2B SaaS company that develops digital asset management and media acceleration solutions. Our mission is to upload, store, organize, optimize, publish and distribute all types of media assets (images, videos, static files such as JS and CSS files, etc.) to accelerate web and mobile applications.
-    - name: Quadran
+    - name: appYuser
       slug: quadran
-      logo: /assets/images/thanks/quadran.svg
+      logo: /assets/images/thanks/appyuser.png
       fr_FR:
         cta:
-          text: "Découvrez Quadran"
-          url: https://www.quadran.eu/
+          text: "Mesurez et boostez l'expérience digitale de tous vos visiteurs"
+          url: https://www.appyuser.com/
         description: >-
-          Quadran vous accompagne dans vos projets digitaux. Architecture des SI, Performance web, Référrencement web, Transformation digitale, Agile & DevOps,Développement Logiciel
+          Mesurez et surveillez vos performances web, le ressenti réel et le niveau de satisfaction de tous vos internautes. Evaluez les impacts business, marketing et environnementaux. Identifiez rapidement les axes d'amélioration les plus efficaces.
       en_US:
         cta:
-          text: "See our Website"
-          url: https://www.quadran.eu/
+          text: "Measure and boost the digital experience of all your visitors"
+          url: https://www.appyuser.com/
         description: >-
-          Quadran accompanies you in your digital projects. IT Architecture, Web Performance, SEO, Digital Transformation, Agile & DevOps, Software Development
+          Measure and monitor your web performance, the real experience and satisfaction level of all your users. Evaluate the business, marketing and environmental impacts. Quickly identify the most effective areas for improvement.
   others:
     - name: redirection.io
       logo: /assets/images/thanks/redirection-io.svg
