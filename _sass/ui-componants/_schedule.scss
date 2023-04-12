@@ -18,6 +18,10 @@
 
   border-spacing: 5px;
 
+  &-container {
+    table-layout: fixed;
+  }
+
   &-header {
     display: table-cell;
     background: $default-bg;
@@ -32,6 +36,7 @@
     &:nth-of-type(2),
     &:nth-of-type(3) {
       color: $white;
+      width: 50%;
     }
   }
 
