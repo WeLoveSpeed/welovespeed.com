@@ -345,14 +345,14 @@
         Boris est Solution Expert chez Contentsquare. Après avoir passé plusieurs années à aider des équipes de développement à adopter des bonnes pratiques de Web Performance, il est désormais au contact des équipes Marketing et Stratégie et leur montre, données à l'appui, pourquoi la Qualité Web sert leurs objectifs.
   bertrand_keller:
     name: Bertrand Keller
-    image: /assets/images/speakers/2023/bertrand_keller.png
+    image: /assets/images/speakers/2023/bertrand_keller.jpg
     urls:
       - name: twitter
         title: "@bertrandkeller (Twitter)"
         url: https://mobile.twitter.com/bertrandkeller
     en_US:
       alt: >-
-        Bertrand's avatar
+        Bertrand's mugshot
       bio: >-
         Master HTML developer, CSS engineer... we don't really know how to name our job. But I know interfaces and how a browser works.
 
@@ -360,7 +360,7 @@
         Accessibility management is multidisciplinary. It must start with accessibility because it is the discipline that considers users in their human diversity.
     fr_FR:
       alt: >-
-        Avatar de Bertrand
+        Portrait de Bertrand
       bio: >-
         Maître Intégrateur HTML, ingénieur CSS… on ne sait pas trop quel métier nous donner. Mais je connais les interfaces et comment fonctionne un navigateur.
 
