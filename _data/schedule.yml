@@ -227,8 +227,8 @@
   - type: pause
     hour: "14:35"
     values:
-      fr_FR: Pause
-      en_US: Break
+      fr_FR: Pause ☕ 🍵
+      en_US: Break ☕ 🍵
   - type: talks
     hour: "14:40"
     values:
@@ -475,3 +475,120 @@
     values:
       fr_FR: C'est fini !
       en_US: That's all folks!
+2023:
+  - type: headers
+    values:
+      - fr_FR: Auditorium 1er étage
+        en_US: Auditorium 2nd floor
+      - fr_FR: Philae 4e étage
+        en_US: Philae 5th floor
+  - type: pause
+    hour: "08:55"
+    values:
+      fr_FR: Accueil des participant·es
+      en_US: Attendees' welcome
+  - type: short
+    hour: "09:30"
+    values:
+      fr_FR: Ouverture des conférences
+      en_US: Conference Opening
+  - type: talks
+    hour: "09:40"
+    values:
+      - taming-3p-speed-impact
+      - parlons-de-valeur
+  - type: short
+    hour: "10:25"
+    values:
+      fr_FR: Déplacements
+      en_US: Moving between talks
+  - type: talks
+    hour: "10:35"
+    values:
+      - how-to-prioritize-web-performance-optimizations
+      - diagnostics-rapides
+  - type: pause
+    hour: "11:10"
+    values:
+      fr_FR: Pause café et Ateliers 🧰 (30 min)
+      en_US: Break and Workshops 🧰 (30 min)
+  - type: short
+    hour: "11:40"
+    values:
+      fr_FR: "C'est l'heure de reprendre"
+      en_US: "Time to start again!"
+  - type: talks
+    hour: "11:50"
+    values:
+      - web-protocols-for-frontend-developers
+      - understanding-cognitive-biais-in-performance-measurement
+  - type: pause
+    hour: "12:40"
+    values:
+      fr_FR: Pause Déjeuner 🍱 et Ateliers 🧰 (1 heure)
+      en_US: Lunch Break 🍱 and Workshops 🧰 (1 hour)
+  - type: short
+    hour: "13:30"
+    values:
+      fr_FR: "C'est l'heure de reprendre"
+      en_US: "Time to start again!"
+  - type: talks
+    hour: "13:40"
+    values:
+      - devenir-sherlock-holmes
+      - noise-canceling-rum
+  - type: short
+    hour: "14:30"
+    values:
+      fr_FR: Déplacements
+      en_US: Moving between talks
+  - type: talks
+    hour: "14:40"
+    values:
+      - top-cwv-recommandations-2023
+      - frameworks-tips-ttfb
+  - type: pause
+    hour: "15:15"
+    values:
+      fr_FR: Pause café et Ateliers 🧰 (30 min)
+      en_US: Break and Workshops 🧰 (30 min)
+  - type: short
+    hour: "15:45"
+    values:
+      fr_FR: Déplacements
+      en_US: Moving between talks
+  - type: talks
+    hour: "15:55"
+    values:
+      - soft-navigations-are-hard
+      - rex-chr
+  - type: short
+    hour: "16:25"
+    values:
+      fr_FR: Déplacements
+      en_US: Moving between talks
+  - type: talks
+    hour: "16:35"
+    values:
+      - accessibilite-et-webperf
+      - seo-webperf-impact
+  - type: short
+    hour: "17:05"
+    values:
+      fr_FR: Déplacements
+      en_US: Moving between talks
+  - type: talks
+    hour: "17:15"
+    values:
+      - top-10-perles
+      - how-to-build-a-web-perf-community
+  - type: short
+    hour: "17:45"
+    values:
+      fr_FR: Clôture (Auditorium 1er)
+      en_US: Closing (Auditorium 1st floor)
+  - type: pause
+    hour: "18:05"
+    values:
+      fr_FR: Et voilà, c'est fini ! À l'année prochaine !
+      en_US: And that's it! See you next year!

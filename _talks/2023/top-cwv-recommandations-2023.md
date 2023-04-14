@@ -9,7 +9,7 @@ fr_FR:
   title: "Web Vitals : 9 recommendations pour être au top en 2023"
   subtitle: ~
   excerpt: >-
-    Les 9 recommandations clés pour optimiser vos Core Web Vitals en 2023
+    Les 9 recommandations clés pour optimiser vos Core Web Vitals en 2023, par l'équipe des Google Core Web Vitals de Google.
   description: >-
     L'équipe des Google Core Web Vitals (CWV) est consciente que la quantité de recommandations en matière de performances web est écrasante et que beaucoup ne savent pas par où commencer.
     
@@ -23,7 +23,7 @@ en_US:
   title: "Top Core Web Vitals Recommendations for 2023"
   subtitle: ~
   excerpt: >-
-    The 9 key recommendations to optimise your Core Web Vitals in 2023
+    The 9 key recommendations to optimise your Core Web Vitals in 2023 by the Google Core Web Vitals team.
   description: >-
     The Google Core Web Vitals (CWV) team understands the amount of web performance recommendations is overwhelming and many don't know where to start.
     

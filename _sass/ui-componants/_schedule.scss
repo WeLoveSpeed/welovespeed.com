@@ -18,6 +18,10 @@
 
   border-spacing: 5px;
 
+  &-container {
+    table-layout: fixed;
+  }
+
   &-header {
     display: table-cell;
     background: $default-bg;
@@ -32,6 +36,7 @@
     &:nth-of-type(2),
     &:nth-of-type(3) {
       color: $white;
+      width: 50%;
     }
   }
 
@@ -103,6 +108,11 @@
     padding: $global-gutters/2;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    min-height: 10rem;
+
+    @include media("<=medium") {
+      min-height: initial;
+    }
 
     h2 {
       font-size: 0.8em;
@@ -130,6 +140,32 @@
         &:nth-of-type(2) {
           z-index: 8;
           transform: translate(30px, 30px);
+        }
+      }
+
+      &-3 {
+        width: 50px;
+
+        &:nth-of-type(2) {
+          transform: translate(30px, 30px);
+        }
+
+        &:nth-of-type(3) {
+          transform: translate(0, 60px);
+        }
+      }
+
+      @include media("<=medium") {
+        &-3 {
+          width: 30px;
+
+          &:nth-of-type(2) {
+            transform: translate(20px, 15px);
+          }
+
+          &:nth-of-type(3) {
+            transform: translate(0, 35px);
+          }
         }
       }
 
