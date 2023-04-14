@@ -585,6 +585,11 @@
   - type: short
     hour: "17:45"
     values:
+      fr_FR: Direction l'auditorium au 1er
+      en_US: Back to the auditorium, on 1st floor
+  - type: short
+    hour: "17:55"
+    values:
       fr_FR: Clôture (Auditorium 1er)
       en_US: Closing (Auditorium 1st floor)
   - type: pause
