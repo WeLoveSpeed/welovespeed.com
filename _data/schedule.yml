@@ -505,7 +505,7 @@
   - type: talks
     hour: "10:35"
     values:
-      - soft-navigations-are-hard
+      - how-to-prioritize-web-performance-optimizations
       - diagnostics-rapides
   - type: pause
     hour: "11:10"
@@ -560,7 +560,7 @@
   - type: talks
     hour: "15:55"
     values:
-      - how-to-prioritize-web-performance-optimizations
+      - soft-navigations-are-hard
       - rex-chr
   - type: short
     hour: "16:25"
