@@ -590,7 +590,7 @@
   - type: short
     hour: "17:55"
     values:
-      fr_FR: Clôture (Auditorium 1er)
+      fr_FR: Clôture (Auditorium 1er étage)
       en_US: Closing (Auditorium 1st floor)
   - type: pause
     hour: "18:05"
