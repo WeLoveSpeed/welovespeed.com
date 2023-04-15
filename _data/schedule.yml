@@ -585,7 +585,7 @@
   - type: short
     hour: "17:45"
     values:
-      fr_FR: Direction l'auditorium au 1er
+      fr_FR: Direction l'auditorium au 1er étage
       en_US: Back to the auditorium, on 1st floor
   - type: short
     hour: "17:55"
