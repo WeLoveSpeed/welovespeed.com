@@ -290,46 +290,46 @@
 .room2 {
   header,
   &-header {
-    background-color: $red;
+    background-color: $darkred;
     background-image: url("/assets/images/textures/diagonal-lines.svg");
-    box-shadow: 0 2px 8px -1px $red;
+    box-shadow: 0 2px 8px -1px $darkred;
   }
 
   &:hover,
   &:focus {
     text-decoration: none;
-    border-color: dargen($red, 40);
-    box-shadow: $red 0 0 $global-gutters/2;
+    border-color: dargen($darkred, 40);
+    box-shadow: $darkred 0 0 $global-gutters/2;
   }
 }
 
 .room3 {
   header,
   &-header {
-    background-color: $blue;
-    background-image: url("/assets/images/textures/tiny-checkers.svg");
-    box-shadow: 0 2px 8px -1px $blue;
+    background-color: $purple;
+    background-image: url("/assets/images/textures/windows.svg");
+    box-shadow: 0 2px 8px -1px $purple;
   }
 
   &:hover,
   &:focus {
     text-decoration: none;
-    border-color: dargen($blue, 40);
-    box-shadow: $blue 0 0 $global-gutters/2;
+    border-color: dargen($purple, 40);
+    box-shadow: $purple 0 0 $global-gutters/2;
   }
 }
 .room4 {
   header,
   &-header {
-    background-color: $red;
-    background-image: url("/assets/images/textures/diagonal-lines.svg");
-    box-shadow: 0 2px 8px -1px $red;
+    background-color: $darkgreen;
+    background-image: url("/assets/images/textures/windows.svg");
+    box-shadow: 0 2px 8px -1px $darkgreen;
   }
 
   &:hover,
   &:focus {
     text-decoration: none;
-    border-color: dargen($red, 40);
-    box-shadow: $red 0 0 $global-gutters/2;
+    border-color: dargen($darkgreen, 40);
+    box-shadow: $darkgreen 0 0 $global-gutters/2;
   }
 }

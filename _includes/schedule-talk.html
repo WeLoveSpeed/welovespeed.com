@@ -2,11 +2,12 @@
   {% if item.slug == include.value %}
       {% assign talk = item %}
       {% assign locale = include.locale | default: talk.locale %}
+      {% assign nb = include.nb | default: 0 %}
   {% endif %}
 {%- endfor -%}
 {% capture talkUrl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}/#{{ talk.slug }}{% endcapture %}
 <td scope="col" class="schedule-talk">
-  <a href="{{ talkUrl }}" class="talk room{{ forloop.index }}" id="{{ talk.slug }}">
+  <a href="{{ talkUrl }}" class="talk room{{ forloop.index | plus: nb }}" id="{{ talk.slug }}">
     <header>
       {%- for speakerSlug in talk.speakers -%}
         {% assign speaker = site.data.speakers[include.year][speakerSlug] %}
