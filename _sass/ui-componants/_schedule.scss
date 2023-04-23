@@ -59,7 +59,7 @@
       text-align: center;
     }
     background-color: $pastel-orange;
-    background-image: url("/assets/images/textures/waves.svg");
+    background-image: url("/assets/images/textures/waves2.svg");
   }
 
   &-room {
@@ -68,7 +68,7 @@
 
   &-pause {
     background-color: $pastel-green;
-    background-image: url("/assets/images/textures/windows.svg");
+    background-image: url("/assets/images/textures/windows2.svg");
     td {
       padding: 1.5rem 1rem;
     }
@@ -276,7 +276,7 @@
   header,
   &-header {
     background-color: $blue;
-    background-image: url("/assets/images/textures/tiny-checkers.svg");
+    background-image: url("/assets/images/textures/tiny-checkers2.svg");
     box-shadow: 0 2px 8px -1px $blue;
   }
 
@@ -291,7 +291,7 @@
   header,
   &-header {
     background-color: $darkred;
-    background-image: url("/assets/images/textures/diagonal-lines.svg");
+    background-image: url("/assets/images/textures/diagonal-lines2.svg");
     box-shadow: 0 2px 8px -1px $darkred;
   }
 
@@ -307,7 +307,7 @@
   header,
   &-header {
     background-color: $purple;
-    background-image: url("/assets/images/textures/windows.svg");
+    background-image: url("/assets/images/textures/windows2.svg");
     box-shadow: 0 2px 8px -1px $purple;
   }
 
@@ -322,7 +322,7 @@
   header,
   &-header {
     background-color: $darkgreen;
-    background-image: url("/assets/images/textures/windows.svg");
+    background-image: url("/assets/images/textures/windows2.svg");
     box-shadow: 0 2px 8px -1px $darkgreen;
   }
 
