@@ -6,14 +6,14 @@
       {% t Programme %}
     </h1>
     <table summary="{{ "Programme heure par heure" | t:include.locale }}" class="schedule-container">
-      <caption class="sr-only">Conférences de We Love Speed 2019, le 20 septembre</caption>
+      <caption class="sr-only">Conférences de We Love Speed {{ include.year }}</caption>
       <tbody class="schedule-body">
           {%- for line in site.data.schedule[include.year] -%}
           {% case line.type %}
             {% when 'headers' %}
-              <tr class="schedule-headers">
+              {% assign rooms = line.values %}
+              <tr class="schedule-headers rooms-{{ rooms | size }}">
                 <th scope="col" class="schedule-header schedule-hour">{{ "Heure" | t:include.locale }}</th>
-                {% assign rooms = line.values %}
                 {%- for room in rooms -%}
                   <th scope="col" class="schedule-header room{{ forloop.index }}-header">{{ room[include.locale] }}</th>
                 {%- endfor -%}
@@ -28,48 +28,31 @@
                 <td scope="col" class="schedule-hour">{{ line.hour }}</td>
                 <td scope="col" colspan="{{ rooms | size }}">{{ line.values[include.locale] | raw }}</td>
               </tr>
+            {% when 'pause-talk-talk' %}
+              <tr class="schedule-pause">
+                <td scope="col" class="schedule-hour">{{ line.hour }}</td>
+                <td scope="col" colspan="2">{{ line.values[0][include.locale] | raw }}</td>
+                {%- for value in line.values -%}
+                  {%- if forloop.first -%}
+                    {% continue %}
+                  {%- else -%}
+                    {% include schedule-talk.html
+                      value=value
+                      locale=include.locale
+                      year=include.year
+                    %}
+                  {%- endif -%}
+                {%- endfor -%}
+              </tr>
             {% when 'talks' %}
               <tr class="schedule-talks">
                 <td scope="col" class="schedule-hour">{{ line.hour }}</td>
-                {% assign rowspan = 1 %}
                 {%- for value in line.values -%}
-                  {%- for item in site.talks -%}
-                      {% if item.slug == value %}
-                          {% assign talk = item %}
-                          {% assign rowspan = value.span | default: 1 %}
-                          {% assign locale = line.locale | default: talk.locale %}
-                      {% endif %}
-                  {%- endfor -%}
-                  {% capture talkUrl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}/#{{ talk.slug }}{% endcapture %}
-                  <td scope="col" {% unless rowspan == 1 %}rowspan="{{ rowspan }}"{% endunless %}>
-                    <a href="{{ talkUrl }}" class="talk room{{ forloop.index }}" id="{{ talk.slug }}">
-                      <header>
-                        {%- for speakerSlug in talk.speakers -%}
-                          {% assign speaker = site.data.speakers[include.year][speakerSlug] %}
-                          <figure class="person person-{{ talk.speakers | size }} {{ speaker.slug }}">
-                            {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" loading="lazy" %}
-                          </figure>
-                        {%- endfor -%}
-                        <div class="talk-summary speakers-{{ talk.speakers | size }}">
-                          <h2>{{ talk[include.locale].title }}</h2>
-                          <p class="talk-authors">
-                            {% if talk.locale %}{% unless talk.locale == include.locale %}<strong>{{ " en anglais" | t: page.locale }}</strong>{% endunless %}{% endif %}
-                            {%- for speakerSlug in talk.speakers -%}
-                              {%- capture youString %}{{ "Vous !" | t: page.locale }}{% endcapture -%}
-                              {% assign speaker = site.data.speakers[include.year][speakerSlug] %}
-                              {% if forloop.first %} {%t par %} {{ speaker.name | default: youString }}{% else %}{{ speaker.name | default: youString }}{% endif %}
-                              {% if speaker.locale %}{% unless speaker.locale == include.locale %}<strong>{{ " en anglais" | t: page.locale }}</strong>{% endunless %}{% endif %}
-                              {% unless forloop.last -%}, {%- endunless -%}
-                            {%- endfor -%}{% if talk.length %}<br><span aria-hidden="true">🕑</span> {{talk.length}} minutes{% if talk.length < 30 %} + questions{% endif %}{% endif %}<span class="schedule-room">{{ rooms[forloop.index0][include.locale] }}</span>
-                          </p>
-                        </div>
-                      </header>
-                      <section class="talk-excerpt">
-                        {% assign localizedTalk = talk[include.locale] %}
-                        <p>{{ localizedTalk.excerpt | default:localizedTalk.description | truncatewords: 40 }} <span class="underlined">{% t En savoir plus %}</span</p>
-                      </section>
-                    </a>
-                  </td>
+                  {% include schedule-talk.html
+                    value=value
+                    locale=include.locale
+                    year=include.year
+                  %}
                 {%- endfor -%}
               </tr>
             {% else %}

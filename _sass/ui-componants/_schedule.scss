@@ -34,10 +34,23 @@
     }
 
     &:nth-of-type(2),
-    &:nth-of-type(3) {
+    &:nth-of-type(3),
+    &:nth-of-type(4),
+    &:nth-of-type(5) {
       color: $white;
-      width: 50%;
     }
+  }
+
+  &-headers.rooms-2 th {
+    width: 50%;
+  }
+
+  &-headers.rooms-4 th {
+    width: 25%;
+  }
+
+  &-headers th:first-of-type {
+    width: auto;
   }
 
   &-short,
@@ -64,17 +77,18 @@
   @include media("<=medium") {
     &-headers,
     &-talks,
+    &-talks td,
     &-short,
     &-pause,
-    &-talks td {
+    &-pause td {
       display: block;
     }
-    &-short,
-    &-pause {
-      td {
-        display: inline-block;
-      }
-    }
+    // &-short,
+    // &-pause {
+    //   td {
+    //     display: inline-block;
+    //   }
+    // }
 
     &-room {
       display: inline;
@@ -98,6 +112,7 @@
   margin-bottom: 5px;
   text-decoration: none;
   font-style: normal;
+  background-color: white;
 
   @include media("<=medium") {
     height: auto;
@@ -115,13 +130,13 @@
     }
 
     h2 {
-      font-size: 0.8em;
+      font-size: 1.3rem;
     }
 
     .person {
       position: absolute;
-      width: 90px;
-      height: 90px;
+      width: 4rem;
+      height: 6rem;
       overflow: hidden;
       z-index: 9;
 
@@ -135,23 +150,24 @@
       }
 
       &-2 {
-        width: 45px;
+        width: 4rem;
 
         &:nth-of-type(2) {
           z-index: 8;
-          transform: translate(30px, 30px);
+          transform: translate(3rem, 3rem);
         }
       }
 
       &-3 {
-        width: 50px;
+        width: 4rem;
 
         &:nth-of-type(2) {
-          transform: translate(30px, 30px);
+          transform: translate(0rem, 4.5rem);
+
         }
 
         &:nth-of-type(3) {
-          transform: translate(0, 60px);
+          transform: translate(0, 9rem);
         }
       }
 
@@ -188,15 +204,14 @@
   }
 
   &-summary {
-    margin-left: 100px;
-    @include media("<=medium") {
-      margin-left: 60px;
+    margin-left: 5rem;
+
+    &.speakers-0{
+      margin-left: 0;
     }
 
-    &.speakers-2 {
-      @include media("<=medium") {
-        margin-left: 80px;
-      }
+    @include media("<=medium") {
+      margin-left: 6rem;
     }
 
     color: white;
@@ -211,15 +226,20 @@
   &-authors {
     margin: 0;
     margin-top: 4px;
-    font-size: 0.7em;
+    font-size: 1.2rem;
   }
 
   &-excerpt {
     margin-top: 10px;
     padding: 10px;
     color: $blackred;
-    font-size: 16px;
+    font-size: 12px;
     grid-row: 2;
+
+    @include media("<=medium") {
+      font-size: 16px;
+    }
+
     p {
       margin: 0;
     }
@@ -260,6 +280,37 @@
   }
 }
 .room2 {
+  header,
+  &-header {
+    background-color: $red;
+    background-image: url("/assets/images/textures/diagonal-lines.svg");
+    box-shadow: 0 2px 8px -1px $red;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border-color: dargen($red, 40);
+    box-shadow: $red 0 0 $global-gutters/2;
+  }
+}
+
+.room3 {
+  header,
+  &-header {
+    background-color: $blue;
+    background-image: url("/assets/images/textures/tiny-checkers.svg");
+    box-shadow: 0 2px 8px -1px $blue;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border-color: dargen($blue, 40);
+    box-shadow: $blue 0 0 $global-gutters/2;
+  }
+}
+.room4 {
   header,
   &-header {
     background-color: $red;
