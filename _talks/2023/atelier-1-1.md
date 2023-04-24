@@ -4,21 +4,21 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "BrainCracking, Jean-Pierre Vincent"
+  title: "[BRAINCRACKING] Déboguer la performance"
   subtitle: ~
   excerpt: >-
-    Déboguer la performance
+    Jean-Pierre Vincent vous fait manipuler simplement des outils d’experts que sont WebPagetest et Chrome dev tools, pour trouver les problèmes de performance d'une page.
   description: >-
-    Manipulations simples des outils d'experts que sont WebPagetest et Chrome dev tools, pour trouver les problèmes de performance d'une page.
+    Jean-Pierre Vincent vous fait manipuler simplement des outils d’experts que sont WebPagetest et Chrome dev tools, pour trouver les problèmes de performance d'une page.
   slides: ~
   video: ~
 en_US:
-  title: "Workshop 1.1"
+  title: "[BRAINCRACKING] Debugging Web Performance (FR)"
   subtitle: ~
   excerpt: >-
-    (in FR) debogging performance
+    (FR) debogging performance
   description: >-
-    Long description EN
+    (FR) debogging performance
   slides: ~
   video: ~
 ---
