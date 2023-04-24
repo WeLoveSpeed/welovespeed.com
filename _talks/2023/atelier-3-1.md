@@ -4,10 +4,10 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Scaleflex, Laura Berger"
+  title: "[SCALEFLEX] Sobriété numérique et Webperf : less is more"
   subtitle: ~
   excerpt: >-
-    Sobriété numérique et Webperf : less is more
+    Laura Berger abordera l'impact des images dans un projet webperf
   description: >-
     ce workshop abordera l'impact des images dans un projet webperf:
       - comment repérer le problème
@@ -16,12 +16,12 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "Workshop 2.1"
+  title: "[SCALEFLEX] (FR)"
   subtitle: ~
   excerpt: >-
-    Short description EN
+    Impact of images in a webperf project
   description: >-
-    Long description EN
+    Impact of images in a webperf project
   slides: ~
   video: ~
 ---
