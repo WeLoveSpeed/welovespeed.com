@@ -4,20 +4,26 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Ekino, Omar Berrabeh"
+  title: "Theodo, Francois Hendriks"
   subtitle: ~
   excerpt: >-
-    Créer sa première application resumable avec Qwik
+    Codons notre propre système de synthetic monitoring !
   description: >-
-    Je propose d'organiser un atelier technique pour créer une première application resumable avec Qwik. 
-    Le plan du hands-on inclura la configuration de l'application, la création du premier composant, le lazyloading d'un micro-code, la construction d'une application SPA, l'envoi de données et l'implémentation de l'authentification.
+    Les solutions de monitoring synthetic comme Speedcurve ou Checkly sont absolument nécessaires pour suivre dans la durée les performances de votre site web. Pour des petites structures, ces outils sont sonvent trop limités ou trop chers.
+    Mettons en place notre propre solution à base de:
+      - Mesures avec Lighthouse CI
+    - Historisation avec google sheets
+    - Visualisation de data avec Looker Studio
+    - Orchestration avec Github Actions
+    - Et en bonus, alerting sur slack...
+    Le tout sur tous les sites que vous voulez !
   slides: ~
   video: ~
 en_US:
-  title: "Ekino, Omar Berrabeh (FR)"
+  title: "Theodo, Francois Hendriks (FR)"
   subtitle: ~
   excerpt: >-
-    Create your resumable application with Qwik
+    Workshop proposed by Theodo
   description: >-
     Long description EN
   slides: ~
