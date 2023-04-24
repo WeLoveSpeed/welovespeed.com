@@ -4,12 +4,12 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "BrainCracking, JP Vincent — Déboguer la performance"
+  title: "BrainCracking, Jean-Pierre Vincent"
   subtitle: ~
   excerpt: >-
-    Manipulations simples des outils d'experts que sont WebPagetest et Chrome dev tools, pour trouver les problèmes de performance d'une page.
+    Déboguer la performance
   description: >-
-    Short description FR
+    Manipulations simples des outils d'experts que sont WebPagetest et Chrome dev tools, pour trouver les problèmes de performance d'une page.
   slides: ~
   video: ~
 en_US:
