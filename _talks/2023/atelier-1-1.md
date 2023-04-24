@@ -4,19 +4,19 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Atelier 1.1"
+  title: "BrainCracking, JP Vincent — Déboguer la performance"
   subtitle: ~
   excerpt: >-
-    Short description FR
+    Manipulations simples des outils d'experts que sont WebPagetest et Chrome dev tools, pour trouver les problèmes de performance d'une page.
   description: >-
-    Long description FR
+    Short description FR
   slides: ~
   video: ~
 en_US:
   title: "Workshop 1.1"
   subtitle: ~
   excerpt: >-
-    Short description EN
+    (in FR) debogging performance
   description: >-
     Long description EN
   slides: ~
