@@ -523,7 +523,7 @@
         en_US: Coffee Break
         span: 2
       - atelier-1-1
-      - atelier-2-1
+      - atelier-1-2
   - type: short
     hour: "11:40"
     values:
@@ -545,16 +545,16 @@
       - fr_FR: Pause Déjeuner 🍱
         en_US: Lunch Break 🍱
         span: 2
-      - atelier-3-1
-      - atelier-4-1
+      - atelier-2-1
+      - atelier-2-2
   - type: pause-talk-talk
     hour: "13:10"
     values:
       - fr_FR: Pause Déjeuner 🍱
         en_US: Lunch Break 🍱
         span: 2
-      - atelier-1-2
-      - atelier-2-2
+      - atelier-3-1
+      - atelier-3-2
   - type: short
     hour: "13:30"
     values:
@@ -581,7 +581,7 @@
       - fr_FR: Pause Café (30 min)
         en_US: Coffee Break (30 min)
         span: 2
-      - atelier-3-2
+      - atelier-4-1
       - atelier-4-2
   - type: short
     hour: "15:45"
