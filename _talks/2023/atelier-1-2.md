@@ -4,21 +4,21 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Dynatrace"
+  title: "[DYNATRACE]"
   subtitle: ~
   excerpt: >-
-    Short description FR
+    Atelier découverte proposé par Dynatrace
   description: >-
-    Long description FR
+    Atelier découverte proposé par Dynatrace
   slides: ~
   video: ~
 en_US:
-  title: "Dynatrace (FR)"
+  title: "[DYNATRACE] (FR)"
   subtitle: ~
   excerpt: >-
-    Short description EN
+    Workshop proposed by Dynatrace
   description: >-
-    Long description EN
+    Workshop proposed by Dynatrace
   slides: ~
   video: ~
 ---
