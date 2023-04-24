@@ -4,22 +4,20 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Scaleflex, Laura Berger"
+  title: "Ekino, Omar Berrabeh"
   subtitle: ~
   excerpt: >-
-    Sobriété numérique et Webperf : less is more
+    Créer sa première application resumable avec Qwik
   description: >-
-    ce workshop abordera l'impact des images dans un projet webperf:
-    - comment repérer le problème
-    - quand commencer à s'en soucier
-    - expliquer les différentes optimisation possibles, benefices SEO, UX
+    Je propose d'organiser un atelier technique pour créer une première application resumable avec Qwik. 
+    Le plan du hands-on inclura la configuration de l'application, la création du premier composant, le lazyloading d'un micro-code, la construction d'une application SPA, l'envoi de données et l'implémentation de l'authentification.
   slides: ~
   video: ~
 en_US:
-  title: "Workshop 2.1"
+  title: "Ekino, Omar Berrabeh (FR)"
   subtitle: ~
   excerpt: >-
-    Short description EN
+    Create your resumable application with Qwik
   description: >-
     Long description EN
   slides: ~
