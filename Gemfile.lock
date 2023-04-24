@@ -82,7 +82,7 @@ GEM
     octopress-autoprefixer (2.0.1)
       autoprefixer-rails
       jekyll (~> 3.0)
-    parallel (1.22.1)
+    parallel (1.23.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.1)
