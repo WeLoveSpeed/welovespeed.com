@@ -10,9 +10,9 @@ fr_FR:
     Sobriété numérique et Webperf : less is more
   description: >-
     ce workshop abordera l'impact des images dans un projet webperf:
-    - comment repérer le problème
-    - quand commencer à s'en soucier
-    - expliquer les différentes optimisation possibles, benefices SEO, UX
+      - comment repérer le problème
+      - quand commencer à s'en soucier
+      - expliquer les différentes optimisation possibles, benefices SEO, UX
   slides: ~
   video: ~
 en_US:
