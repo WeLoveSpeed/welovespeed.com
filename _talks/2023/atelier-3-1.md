@@ -4,16 +4,19 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Atelier 3.1"
+  title: "Scaleflex, Laura Berger"
   subtitle: ~
   excerpt: >-
-    Short description FR
+    Sobriété numérique et Webperf : less is more
   description: >-
-    Long description FR
+    ce workshop abordera l'impact des images dans un projet webperf:
+    - comment repérer le problème
+    - quand commencer à s'en soucier
+    - expliquer les différentes optimisation possibles, benefices SEO, UX
   slides: ~
   video: ~
 en_US:
-  title: "Workshop 3.1"
+  title: "Workshop 2.1"
   subtitle: ~
   excerpt: >-
     Short description EN
