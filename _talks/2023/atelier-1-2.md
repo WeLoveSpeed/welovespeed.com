@@ -4,7 +4,7 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Atelier 1.2"
+  title: "Dynatrace"
   subtitle: ~
   excerpt: >-
     Short description FR
@@ -13,7 +13,7 @@ fr_FR:
   slides: ~
   video: ~
 en_US:
-  title: "Workshop 1.2"
+  title: "Dynatrace (FR)"
   subtitle: ~
   excerpt: >-
     Short description EN
