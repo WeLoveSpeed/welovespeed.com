@@ -4,21 +4,21 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Quadran"
+  title: "[QUADRAN]"
   subtitle: ~
   excerpt: >-
     Atelier découverte proposé par Quadran
   description: >-
-    Long description FR
+    Atelier découverte proposé par Quadran
   slides: ~
   video: ~
 en_US:
-  title: "Quadran (FR)"
+  title: "[QUADRAN] (FR)"
   subtitle: ~
   excerpt: >-
     Workshop sponsored by Quadran
   description: >-
-    Long description EN
+    Workshop sponsored by Quadran
   slides: ~
   video: ~
 ---
