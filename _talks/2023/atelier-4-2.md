@@ -4,19 +4,26 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Atelier 4.2"
+  title: "Theodo, Francois Hendriks"
   subtitle: ~
   excerpt: >-
-    Short description FR
+    Codons notre propre système de synthetic monitoring !
   description: >-
-    Long description FR
+    Les solutions de monitoring synthetic comme Speedcurve ou Checkly sont absolument nécessaires pour suivre dans la durée les performances de votre site web. Pour des petites structures, ces outils sont sonvent trop limités ou trop chers.
+    Mettons en place notre propre solution à base de:
+      - Mesures avec Lighthouse CI
+    - Historisation avec google sheets
+    - Visualisation de data avec Looker Studio
+    - Orchestration avec Github Actions
+    - Et en bonus, alerting sur slack...
+    Le tout sur tous les sites que vous voulez !
   slides: ~
   video: ~
 en_US:
-  title: "Workshop 4.2"
+  title: "Theodo, Francois Hendriks (FR)"
   subtitle: ~
   excerpt: >-
-    Short description EN
+    Workshop proposed by Theodo
   description: >-
     Long description EN
   slides: ~
