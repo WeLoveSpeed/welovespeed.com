@@ -4,22 +4,22 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Ekino, Omar Berrabeh"
+  title: "[EKINO] Créer sa première application resumable avec Qwik"
   subtitle: ~
   excerpt: >-
-    Créer sa première application resumable avec Qwik
+    Omar BERRABEH, Ingénieur Expert chez Ekino, vous propose un atelier technique pour créer une première application resumable avec Qwik.
   description: >-
     Je propose d'organiser un atelier technique pour créer une première application resumable avec Qwik. 
     Le plan du hands-on inclura la configuration de l'application, la création du premier composant, le lazyloading d'un micro-code, la construction d'une application SPA, l'envoi de données et l'implémentation de l'authentification.
   slides: ~
   video: ~
 en_US:
-  title: "Ekino, Omar Berrabeh (FR)"
+  title: "[EKINO] Create your resumable application with Qwik (FR)"
   subtitle: ~
   excerpt: >-
-    Create your resumable application with Qwik
+    Omar BERRABEH, Expert engineer for Ekino organizes this technical workshow : create your resumable application with Qwik
   description: >-
-    Long description EN
+    Create your resumable application with Qwik
   slides: ~
   video: ~
 ---
