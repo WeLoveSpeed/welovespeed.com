@@ -7,7 +7,7 @@ fr_FR:
   title: "[THEODO] Codons notre propre système de synthetic monitoring !"
   subtitle: ~
   excerpt: >-
-    Francois Hendriks de Théodo vous propose des solutions peu chères et évolutives pour remplacer Speedcurve ou Checkly
+    Francois Hendriks, Senior Architect chez Theodo vous propose des solutions peu chères et évolutives pour remplacer Speedcurve ou Checkly.
   description: >-
     Les solutions de monitoring synthetic comme Speedcurve ou Checkly sont absolument nécessaires pour suivre dans la durée les performances de votre site web. Pour des petites structures, ces outils sont sonvent trop limités ou trop chers.
     Mettons en place notre propre solution à base de:
