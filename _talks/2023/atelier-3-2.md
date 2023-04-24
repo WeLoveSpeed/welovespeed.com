@@ -4,21 +4,21 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "Fasterize"
+  title: "[FASTERIZE] La clinique de la performance"
   subtitle: ~
   excerpt: >-
     La clinique de la performance, par Fasterize
   description: >-
-    Long description FR
+    La clinique de la performance, par Fasterize
   slides: ~
   video: ~
 en_US:
-  title: "Fasterize (FR)"
+  title: "[FASTERIZE] Web Performance Clinic (FR)"
   subtitle: ~
   excerpt: >-
     Web Performance Clinic
   description: >-
-    Long description EN
+    Web Performance Clinic
   slides: ~
   video: ~
 ---
