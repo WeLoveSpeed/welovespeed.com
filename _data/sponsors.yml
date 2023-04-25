@@ -731,3 +731,6 @@
     - name: Algolia
       logo: /assets/images/thanks/algolia.svg
       url: https://www.algolia.com/
+    - name: JDN
+      logo: /assets/images/thanks/jdn.svg
+      url: https://www.journaldunet.com/
