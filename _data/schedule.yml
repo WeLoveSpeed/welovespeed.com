@@ -519,8 +519,8 @@
   - type: pause-talk-talk
     hour: "11:15"
     values:
-      - fr_FR: Pause Café
-        en_US: Coffee Break
+      - fr_FR: Pause Café et Ateliers 🧰
+        en_US: Coffee Break and Workshops 🧰
         span: 2
       - atelier-1-1
       - atelier-1-2
@@ -542,16 +542,16 @@
   - type: pause-talk-talk
     hour: "12:45"
     values:
-      - fr_FR: Pause Déjeuner 🍱
-        en_US: Lunch Break 🍱
+      - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
+        en_US: Lunch Break 🍱 and Workshops 🧰
         span: 2
       - atelier-2-1
       - atelier-2-2
   - type: pause-talk-talk
     hour: "13:10"
     values:
-      - fr_FR: Pause Déjeuner 🍱
-        en_US: Lunch Break 🍱
+      - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
+        en_US: Lunch Break 🍱 and Workshops 🧰
         span: 2
       - atelier-3-1
       - atelier-3-2
@@ -578,8 +578,8 @@
   - type: pause-talk-talk
     hour: "15:15"
     values:
-      - fr_FR: Pause Café (30 min)
-        en_US: Coffee Break (30 min)
+      - fr_FR: Pause Café et Ateliers 🧰
+        en_US: Coffee Break and Workshops 🧰
         span: 2
       - atelier-4-1
       - atelier-4-2
