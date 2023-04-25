@@ -728,3 +728,6 @@
     - name: Ekino
       logo: /assets/images/thanks/ekino.svg
       url: https://www.ekino.com/
+    - name: Algolia
+      logo: /assets/images/thanks/algolia.svg
+      url: https://www.algolia.com/
