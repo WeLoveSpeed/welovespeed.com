@@ -12,6 +12,9 @@ fr_FR:
     Atelier découverte proposé par Dynatrace
   slides: ~
   video: ~
+  cta:
+    url: ~
+    name: S'inscrire
 en_US:
   title: "[DYNATRACE] (FR)"
   subtitle: ~
@@ -21,4 +24,7 @@ en_US:
     Workshop proposed by Dynatrace
   slides: ~
   video: ~
+  cta:
+    url: ~
+    name: Register
 ---

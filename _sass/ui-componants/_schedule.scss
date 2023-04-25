@@ -113,6 +113,7 @@
   text-decoration: none;
   font-style: normal;
   background-color: white;
+  text-align: left;
 
   @include media("<=medium") {
     height: auto;

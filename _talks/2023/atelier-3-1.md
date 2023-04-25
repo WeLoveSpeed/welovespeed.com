@@ -10,11 +10,16 @@ fr_FR:
     Laura Berger, de Scaleflex abordera l'impact écologique des images dans un projet webperf.
   description: >-
     Ce workshop abordera l'impact des images dans un projet webperf:
+
+
       - comment repérer le problème
       - quand commencer à s'en soucier
       - expliquer les différentes optimisation possibles, benefices SEO, UX
   slides: ~
   video: ~
+  cta:
+    url: ~
+    name: S'inscrire
 en_US:
   title: "[SCALEFLEX] (FR)"
   subtitle: ~
@@ -24,4 +29,7 @@ en_US:
     Impact of images in a webperf project
   slides: ~
   video: ~
+  cta:
+    url: ~
+    name: Register
 ---
