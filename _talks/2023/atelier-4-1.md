@@ -13,6 +13,9 @@ fr_FR:
     In this workshop we'll show how to add speculation rules to a web page and show they render faster.
   slides: ~
   video: ~
+  cta:
+    url: ~
+    name: S'inscrire
 en_US:
   title: "[GOOGLE] Using the Speculation Rules API to improve navigations (EN)"
   subtitle: ~
@@ -23,4 +26,7 @@ en_US:
     In this workshop we'll show how to add speculation rules to a web page and show they render faster.
   slides: ~
   video: ~
+  cta:
+    url: ~
+    name: Register
 ---

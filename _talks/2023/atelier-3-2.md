@@ -12,6 +12,9 @@ fr_FR:
     La clinique de la performance, par Fasterize
   slides: ~
   video: ~
+  cta:
+    url: ~
+    name: S'inscrire
 en_US:
   title: "[FASTERIZE] Web Performance Clinic (FR)"
   subtitle: ~
@@ -21,4 +24,7 @@ en_US:
     Web Performance Clinic
   slides: ~
   video: ~
+  cta:
+    url: ~
+    name: Register
 ---

@@ -12,6 +12,9 @@ fr_FR:
     Atelier découverte proposé par Quadran
   slides: ~
   video: ~
+  cta:
+    url: ~
+    name: S'inscrire
 en_US:
   title: "[QUADRAN] (FR)"
   subtitle: ~
@@ -21,4 +24,7 @@ en_US:
     Workshop sponsored by Quadran
   slides: ~
   video: ~
+  cta:
+    url: ~
+    name: Register
 ---
