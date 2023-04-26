@@ -10,7 +10,7 @@ group :jekyll_plugins do
   gem 'jekyll-github-metadata'
   gem 'liquid-md5'
   gem 'jekyll-microtypo'
-  gem 'jekyll-paginate-v2', '~> 1.8', '>= 1.8.1'
+  gem 'jekyll-paginate-v2', '~> 3.0'
   gem 'jekyll-sitemap'
   gem 'octopress-autoprefixer'
 end
