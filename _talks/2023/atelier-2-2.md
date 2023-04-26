@@ -12,7 +12,7 @@ fr_FR:
     Au cours de cet atelier, nous mettrons en lumière les synergies existantes d’optimisation de l’expérience digitale et de réduction de l’impact environnemental par phase projet. 
     Avec à la clé des bénéfices démultipliés pour vos conversions et votre image de marque…
     En participant à cet atelier, vous profiterez aussi d’un aperçu en avant-première du fonctionnement de notre nouvel outil appYplanet, première solution sur le marché permettant de mesurer l’impact environnemental réel de vos sites web, basé sur notre technologie de Real User Monitoring… 
-    Pensez à venir avec vos URL à tester… Mieux encore : créez dès maintenant (votre compte freemium appYuser)[https://appyuser.quadran.eu/performance/#/createAccount] et déployez notre solution sur votre site et nous vous ferons un retour personnalisé durant l’atelier !
+    Pensez à venir avec vos URL à tester… Mieux encore : créez dès maintenant [https://appyuser.quadran.eu/performance/#/createAccount](votre compte freemium appYuser) et déployez notre solution sur votre site et nous vous ferons un retour personnalisé durant l’atelier !
   slides: ~
   video: ~
   cta:
