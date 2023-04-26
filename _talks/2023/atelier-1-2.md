@@ -7,16 +7,16 @@ fr_FR:
   title: "[DYNATRACE] L’Art de la webObservabilty avec OpenTelemetry"
   subtitle: ~
   excerpt: >-
-    Depuis plus de 3 ans la communauté OpenSource travaille sur un standard de l’observabilité nommé OpenTelemetry. Ce standard permet à n’importe quelle organisation d’utiliser un libraire agnostique pour produire des données d’observabilité.
+    Depuis 3 ans la communauté OpenSource travaille sur OpenTelemetry, un standard permettant d’utiliser une librairie agnostique pour produire des données d’observabilité.
   description: >-
     L’observabilité n’est pas une science mais un art, où chacun doit comprendre notre application avant de produire les données permettant de suivre le comportement de notre application et de nos utilisateurs.
     Lors de cette présentation nous aborderons :  
 
-    - Les différents composants d’openTelemetry, 
-    - Comment instrumenter notre code client, 
-    - Comment visualiser les données d’openTelemetry dans Dynatrace. 
-    - Comment instrumenter notre code client, 
-    - Comment visualiser les données d’openTelemetry dans Dynatrace.
+      - Les différents composants d’openTelemetry, 
+      - Comment instrumenter notre code client, 
+      - Comment visualiser les données d’openTelemetry dans Dynatrace. 
+      - Comment instrumenter notre code client, 
+      - Comment visualiser les données d’openTelemetry dans Dynatrace.
   slides: ~
   video: ~
   cta:
