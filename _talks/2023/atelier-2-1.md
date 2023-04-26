@@ -23,7 +23,7 @@ fr_FR:
   slides: ~
   video: ~
   cta:
-    url: ~
+    url: https://docs.google.com/forms/d/1ZeL0hQOnZCrfilSrezIFJyP3y-AtUtvp7YHzQ0flijw/edit
     name: S'inscrire
 en_US:
   title: "[THEODO] Coding your own synthetic monitoring solution (FR)"
@@ -35,6 +35,6 @@ en_US:
   slides: ~
   video: ~
   cta:
-    url: ~
+    url: https://docs.google.com/forms/d/1ZeL0hQOnZCrfilSrezIFJyP3y-AtUtvp7YHzQ0flijw/edit
     name: Register
 ---
