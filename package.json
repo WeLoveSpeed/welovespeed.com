@@ -6,6 +6,6 @@
   "devDependencies": {
     "canvas": "^2.11.0",
     "image-clipper": "^0.4.4",
-    "puppeteer": "^19.7.5"
+    "puppeteer": "^19.11.1"
   }
 }
