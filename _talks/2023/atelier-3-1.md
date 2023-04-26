@@ -18,7 +18,7 @@ fr_FR:
   slides: ~
   video: ~
   cta:
-    url: ~
+    url: https://docs.google.com/forms/d/e/1FAIpQLSe1mwhNIyOcvBRbC3Z4AcNH66dsAYYBi40tx-gTGG6gWe8BJQ/viewform?usp=sf_link
     name: S'inscrire
 en_US:
   title: "[SCALEFLEX] (FR)"
@@ -30,6 +30,6 @@ en_US:
   slides: ~
   video: ~
   cta:
-    url: ~
+    url: https://docs.google.com/forms/d/e/1FAIpQLSe1mwhNIyOcvBRbC3Z4AcNH66dsAYYBi40tx-gTGG6gWe8BJQ/viewform?usp=sf_link
     name: Register
 ---
