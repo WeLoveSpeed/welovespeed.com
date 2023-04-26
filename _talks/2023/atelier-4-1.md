@@ -14,7 +14,7 @@ fr_FR:
   slides: ~
   video: ~
   cta:
-    url: ~
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdzYe9JcIi3eGxdjWDHclmCF8tqVXUTxk2obiutNugtpliWww/viewform?usp=sf_link
     name: S'inscrire
 en_US:
   title: "[GOOGLE] Using the Speculation Rules API to improve navigations (EN)"
@@ -27,6 +27,6 @@ en_US:
   slides: ~
   video: ~
   cta:
-    url: ~
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdzYe9JcIi3eGxdjWDHclmCF8tqVXUTxk2obiutNugtpliWww/viewform?usp=sf_link
     name: Register
 ---
