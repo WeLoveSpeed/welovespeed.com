@@ -4,10 +4,10 @@ locale: fr_FR
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
-  title: "[appYuser] Optimiser votre expérience digitale / Réduire votre impact environnemental : comment gagner (facilement) sur les deux tableaux ?"
+  title: "[appYuser] Améliorer les performances web et écologiques de vos sites web : même combat !"
   subtitle: ~
   excerpt: >-
-    Améliorer les performances web et écologiques de vos sites web : même combat ! 
+    Optimiser votre expérience digitale / Réduire votre impact environnemental : comment gagner (facilement) sur les deux tableaux ?
   description: >-
     Au cours de cet atelier, nous mettrons en lumière les synergies existantes d’optimisation de l’expérience digitale et de réduction de l’impact environnemental par phase projet. 
     Avec à la clé des bénéfices démultipliés pour vos conversions et votre image de marque…
