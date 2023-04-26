@@ -14,7 +14,7 @@ fr_FR:
   slides: ~
   video: ~
   cta:
-    url: ~
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdFaZkGRs0xEyvZ454-Zi1TPUvfZlXPTtVAv4-FlevtZeAJNA/viewform?usp=sf_link
     name: S'inscrire
 en_US:
   title: "[EKINO] Create your resumable application with Qwik (FR)"
@@ -26,6 +26,6 @@ en_US:
   slides: ~
   video: ~
   cta:
-    url: ~
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdFaZkGRs0xEyvZ454-Zi1TPUvfZlXPTtVAv4-FlevtZeAJNA/viewform?usp=sf_link
     name: Register
 ---
