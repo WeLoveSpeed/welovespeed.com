@@ -13,7 +13,7 @@ fr_FR:
   slides: ~
   video: ~
   cta:
-    url: ~
+    url: https://docs.google.com/forms/d/e/1FAIpQLScNPlKvqo9mEfy8ObXFq3RRMi82LfybYqkXYDp-2lWDZZl63g/viewform?usp=sf_link
     name: S'inscrire
 en_US:
   title: "[FASTERIZE] Web Performance Clinic (FR)"
@@ -25,6 +25,6 @@ en_US:
   slides: ~
   video: ~
   cta:
-    url: ~
+    url: https://docs.google.com/forms/d/e/1FAIpQLScNPlKvqo9mEfy8ObXFq3RRMi82LfybYqkXYDp-2lWDZZl63g/viewform?usp=sf_link
     name: Register
 ---
