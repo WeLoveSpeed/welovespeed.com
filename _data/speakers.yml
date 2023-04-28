@@ -257,6 +257,23 @@
         Passionné de performance et de scalabilité, Kevin travaille depuis plus de 10 ans dans le développement web.
 
         Aujourd'hui architecte et membre de l'équipe tactique de Theodo, il conseille les clients du groupe sur leurs besoins de conception ou d'optimisation et accompagne les équipes dans le développement de sites grands publics ou spécialisés.
+  martin_guillier:
+    name: Martin Guillier
+    image: /assets/images/speakers/2023/martin_guillier.jpg
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/martin-guillier/
+    en_US:
+      alt: >-
+        Martin's mugshot
+      bio: >-
+        Martin is Engineering Manager at Theodo since 2021.
+    fr_FR:
+      alt: >-
+        Portrait de Martin
+      bio: >-
+        Martin est Engineering Manager chez Theodo depuis 2021.
   barry_pollard:
     name: Barry Pollard
     image: /assets/images/speakers/2023/barry_pollard.jpg

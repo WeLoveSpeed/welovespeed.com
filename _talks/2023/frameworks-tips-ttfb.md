@@ -6,6 +6,7 @@ questions: true
 pub_date: "2023-03-15"
 speakers:
   - kevin_raynel
+  - martin_guillier
 fr_FR:
   title: "Lazy Hydrate, Never Hydrate, Resumable JS"
   subtitle: ": les astuces des frameworks pour réduire le Total Blocking Time"
