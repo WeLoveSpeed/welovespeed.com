@@ -2,6 +2,7 @@
 display-order: 2
 locale: fr_FR
 length: 25
+questions: true
 pub_date: "2023-03-15"
 speakers:
   - yoav_weiss

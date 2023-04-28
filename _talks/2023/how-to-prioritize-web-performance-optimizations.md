@@ -2,6 +2,7 @@
 display-order: 1
 locale: en_US
 length: 25
+questions: true
 pub_date: "2023-03-15"
 speakers:
   - mel_ada

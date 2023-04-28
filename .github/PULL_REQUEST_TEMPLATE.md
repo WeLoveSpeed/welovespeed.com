@@ -11,4 +11,4 @@ Fixes #
 
 ### Qui devrait être prévenu de cette demande ?
 
-@weblovespeed/staff
+@welovespeed/staff

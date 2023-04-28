@@ -66,6 +66,8 @@ weezevent:
     base_url: https://widget.weezevent.com/ticket/E931463/?code=24576
     dataId: 931463
 
+appyuser: 7135870c152d8c2f73b35ab582eb7e5a
+
 newsletter:
   url: "https://welovespeed.us18.list-manage.com/subscribe/post?u=871757160e8496642288193e3&amp;id=1695ce944b"
   honeypot: "b_871757160e8496642288193e3_1695ce944b"

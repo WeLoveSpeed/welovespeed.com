@@ -6,3 +6,7 @@
 {% if site.matomo -%}
   <script src="{{ "/assets/js/analytics.js" | relative_url }}"></script>
 {%- endif %}
+{% if site.appyuser -%}
+  <script src="https://tracker.quadran.eu/qa-combined.js" type="text/javascript"></script>
+  <script type="text/javascript">QWATracker.activate("{{ site.appyuser }}");</script>
+{%- endif %}

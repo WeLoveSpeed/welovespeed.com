@@ -6,11 +6,11 @@ URL finale : https://www.welovespeed.com/.
 
 ## Pré-requis
 
-Le site est généré à l'aide de [Jekyll](http://jekyllrb.com/) et nécessite Ruby 2.4.3 (voir `.ruby-version`)
+Le site est généré à l'aide de [Jekyll](https://jekyllrb.com/) et nécessite Ruby 2.4.3 (voir `.ruby-version`)
 
-Nous vous recommandons de gérer l'installation de Ruby via [rbenv](http://rbenv.org/).
+Nous vous recommandons de gérer l'installation de Ruby via [rbenv](https://github.com/rbenv/rbenv).
 
-Sous Mac OS X, vous pouvez utiliser [Homebrew](http://brew.sh/) pour cela
+Sous Mac OS X, vous pouvez utiliser [Homebrew](https://brew.sh/) pour cela
 ```bash
 $ brew install rbenv ruby-build
 ```
@@ -70,16 +70,16 @@ Si vous modifiez un des fichiers `_config_*.yml`, il faut couper et relancer.
 
 Le site est maintenant accessible en local à l'adresse http://127.0.0.1:4000/ (dev).
 
-Pour plus d'information sur l'utilisation de Jekyll, reportez-vous à la [documentation officielle](http://jekyllrb.com/docs/home/).
+Pour plus d'information sur l'utilisation de Jekyll, reportez-vous à la [documentation officielle](https://jekyllrb.com/docs/).
 
 
 ## Contribution
 
-Pour toute demande, merci de [créer une issue](https://github.com/sudweb/2018/issues/new) sur GitHub.
+Pour toute demande, merci de [créer une issue](https://github.com/WeLoveSpeed/welovespeed.com/issues/new) sur GitHub.
 
-Si vous souhaitez nous aider, vous pouvez [copier](https://help.github.com/articles/fork-a-repo/) le dépôt, faire vos modifications dans une nouvelle branche et [faire une demande de fusion](https://github.com/sudweb/2018/pulls).
+Si vous souhaitez nous aider, vous pouvez [copier](https://github.com/WeLoveSpeed/welovespeed.com/fork) le dépôt, faire vos modifications dans une nouvelle branche et [faire une demande de fusion](https://github.com/WeLoveSpeed/welovespeed.com/pulls).
 
-Toute modification doit faire l'objet d'une [pull request](https://github.com/sudweb/2018/pulls) et doit passer les tests avant de pouvoir être fusionnée.
+Toute modification doit faire l'objet d'une [pull request](https://github.com/WeLoveSpeed/welovespeed.com/pulls) et doit passer les tests avant de pouvoir être fusionnée.
 
 ### Comment sont organisés les contenus ?
 

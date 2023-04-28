@@ -482,6 +482,10 @@
         en_US: Auditorium 2nd floor
       - fr_FR: Philae 4e étage
         en_US: Philae 5th floor
+      - fr_FR: Denderah 3e étage
+        en_US: Denderah 4th floor
+      - fr_FR: Louxor 3e étage
+        en_US: Louxor 4th floor
   - type: pause
     hour: "08:55"
     values:
@@ -507,11 +511,19 @@
     values:
       - how-to-prioritize-web-performance-optimizations
       - diagnostics-rapides
-  - type: pause
+  - type: short
     hour: "11:10"
     values:
-      fr_FR: Pause café et Ateliers 🧰 (30 min)
-      en_US: Break and Workshops 🧰 (30 min)
+      fr_FR: Déplacements
+      en_US: Moving between talks
+  - type: pause-talk-talk
+    hour: "11:15"
+    values:
+      - fr_FR: Pause Café et Ateliers 🧰
+        en_US: Coffee Break and Workshops 🧰
+        span: 2
+      - atelier-1-1
+      - atelier-1-2
   - type: short
     hour: "11:40"
     values:
@@ -522,11 +534,27 @@
     values:
       - web-protocols-for-frontend-developers
       - understanding-cognitive-biais-in-performance-measurement
-  - type: pause
+  - type: short
     hour: "12:40"
     values:
-      fr_FR: Pause Déjeuner 🍱 et Ateliers 🧰 (1 heure)
-      en_US: Lunch Break 🍱 and Workshops 🧰 (1 hour)
+      fr_FR: Déplacements
+      en_US: Moving between talks
+  - type: pause-talk-talk
+    hour: "12:45"
+    values:
+      - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
+        en_US: Lunch Break 🍱 and Workshops 🧰
+        span: 2
+      - atelier-2-1
+      - atelier-2-2
+  - type: pause-talk-talk
+    hour: "13:10"
+    values:
+      - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
+        en_US: Lunch Break 🍱 and Workshops 🧰
+        span: 2
+      - atelier-3-1
+      - atelier-3-2
   - type: short
     hour: "13:30"
     values:
@@ -547,11 +575,14 @@
     values:
       - top-cwv-recommandations-2023
       - frameworks-tips-ttfb
-  - type: pause
+  - type: pause-talk-talk
     hour: "15:15"
     values:
-      fr_FR: Pause café et Ateliers 🧰 (30 min)
-      en_US: Break and Workshops 🧰 (30 min)
+      - fr_FR: Pause Café et Ateliers 🧰
+        en_US: Coffee Break and Workshops 🧰
+        span: 2
+      - atelier-4-1
+      - atelier-4-2
   - type: short
     hour: "15:45"
     values:
