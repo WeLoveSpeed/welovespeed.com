@@ -27,5 +27,5 @@
       <li><a hreflang="{{ hreflang }}" href="{{ page.translation.url | relative_url }}"><small>{% t (see in english) %}</small></a></li>
     {% endif %}
   </ul>
-  {% include social-links.html %}
+  {% include social-links.html year=include.year %}
 </nav>

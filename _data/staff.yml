@@ -230,11 +230,13 @@
     slug: ss
     links:
       - label: Fasterize
+        url: https://www.fasterize.com/
   - firstname: Anne-Marie
     lastname: Sicard
     slug: ams
     links:
       - label: Fasterize
+        url: https://www.fasterize.com/
 2018:
   - firstname: Boris
     lastname: Schapira

@@ -6,6 +6,8 @@ require 'net/http'
 require 'rubygems'
 require 'time'
 require 'yaml'
+require "html-proofer"
+
 
 namespace :postbuild do
 
@@ -14,12 +16,36 @@ namespace :postbuild do
   namespace :test do
     desc 'Test if generated website is valid (do not test external links)'
     task :kiss do
-      sh 'htmlproofer ./_site --disable-external --ignore-urls "#,https://www.weezevent.com/?c=sys_widget,/en/legal-mentions/,/2023/cfp,/en/2023/cfp" --ignore-empty-alt true‹'
+      config = {
+        disable_external: true,
+        log_level: 'info',
+        allow_hash_href: true,
+        ignore_empty_alt: true,
+        enforce_https: false,
+        ignore_urls: [
+          "https://www.weezevent.com/?c=sys_widget",
+          "/en/legal-mentions/",
+          "/2023/cfp,/en/2023/cfp"
+          ]
+        }
+      HTMLProofer.check_directory("./_site", config).run
     end
 
     desc 'Test if generated website is valid (test external links)'
     task :external do
-      sh 'htmlproofer ./_site --ignore-urls "#,https://www.weezevent.com/?c=sys_widget" --ignore-empty-alt true'
+      config = {
+        disable_external: false,
+        log_level: 'info',
+        allow_hash_href: true,
+        ignore_empty_alt: true,
+        enforce_https: false,
+        ignore_urls: [
+          "https://www.weezevent.com/?c=sys_widget",
+          "/en/legal-mentions/",
+          "/2023/cfp,/en/2023/cfp"
+          ]
+        }
+      HTMLProofer.check_directory("./_site", config).run
     end
   end
 end

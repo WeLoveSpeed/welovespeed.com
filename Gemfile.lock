@@ -71,7 +71,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mini_portile2 (2.8.1)
+    mini_portile2 (2.8.2)
     nokogiri (1.14.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -107,7 +107,7 @@ GEM
       ethon (>= 0.9.0)
     webrick (1.8.1)
     yell (2.2.2)
-    zeitwerk (2.6.7)
+    zeitwerk (2.6.8)
 
 PLATFORMS
   ruby
