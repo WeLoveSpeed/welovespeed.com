@@ -13,6 +13,13 @@
     links:
       - label: BrainCracking
         url: http://braincracking.org/
+  - firstname: Boris
+    lastname: Schapira
+    slug: bsc
+    name_link: https://twitter.com/boostmarks
+    links:
+      - label: Contentsquare
+        url: https://www.contentsquare.com/
   - firstname: Audrey
     lastname: Schoonwater
     slug: audrey
@@ -27,12 +34,6 @@
     links:
       - label: Fasterize
         url: https://www.fasterize.com/
-  - firstname: Martine
-    lastname: Constantinidis
-    slug: martine
-    links:
-      - label: Infopro Digital
-        url: https://fr.linkedin.com/in/martineconstantinidis
   - firstname: Olivier
     lastname: Perrin
     slug: olivier
