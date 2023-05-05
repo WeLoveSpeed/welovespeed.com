@@ -722,3 +722,6 @@
     - name: JDN
       logo: /assets/images/thanks/jdn.svg
       url: https://www.journaldunet.com/
+    - name: Baleen
+      logo: /assets/images/thanks/baleen.svg
+      url: https://baleen.cloud/
