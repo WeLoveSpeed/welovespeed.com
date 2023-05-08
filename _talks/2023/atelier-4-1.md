@@ -1,6 +1,6 @@
 ---
 display-order: 99
-locale: en_GB
+locale: en_US
 length: 20
 pub_date: "2023-03-15"
 fr_FR:
