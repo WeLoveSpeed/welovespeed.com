@@ -29,6 +29,7 @@ lazyload:
 current_edition: 2023
 cfp_open: false
 sponsoring:
+  show: false
   fr_FR:
     url: '/assets/docs/2023/sponsoring_fr.pdf'
     size: '495 Ko'

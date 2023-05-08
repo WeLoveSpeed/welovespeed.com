@@ -19,13 +19,15 @@ permalink: /en/2023/thanks/
 
 {% include sponsors.html locale=page.locale shorturl=true year=year %}
 
-<section id="sponsoring-kit" class="section">
-  <div class="wrapper">
-    <p class="text-center">
-      <a class="button" data-text="Download our Sponsorship Kit ({{ site.sponsoring[page.locale].size }})" href="{{ site.sponsoring[page.locale].url | relative_url }}"><span class="button-inner">Download our Sponsorship Kit ({{ site.sponsoring[page.locale].size }})</span></a>
-    </p>
-  </div>
-</section>
+{% if site.current_edition == year and site.sponsoring.show %}
+  <section id="sponsors" class="section">
+    <div class="wrapper">
+      <p class="text-center">
+        <a class="button" data-text="Download our Sponsorship Kit ({{ site.sponsoring[page.locale].size }})" href="{{ site.sponsoring[page.locale].url | relative_url }}"><span class="button-inner">Download our Sponsorship Kit ({{ site.sponsoring[page.locale].size }})</span></a>
+      </p>
+    </div>
+  </section>
+{% endif %}
 
 {% include banners/banner-anthony-delanoix-eiffel-unsplash.html locale=page.locale %}
 
