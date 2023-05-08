@@ -91,16 +91,17 @@
       {%- endif -%}
 
       <p class="text-center">
-          {% if site.current_edition == page.year and site.tickets.selling %}
+          {% if site.current_edition == page.year && site.tickets.selling %}
           <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t Réserver votre place %}">
             <span class="button-inner">{% t Réserver votre place %}</span>
           </a>
           {% endif %}
-          {% comment %}
+
+          {% if site.current_edition == page.year %}
           <a class="button" data-text="{% t Voir sur le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/#{{ conference.slug }}" title="{% t Voir sur le programme %}">
             <span class="button-inner">{% t Voir sur le programme %}</span>
           </a>
-          {% endcomment %}
+          {% endif %}
       </p>
     </div>
   </section>
