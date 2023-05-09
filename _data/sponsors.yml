@@ -565,7 +565,7 @@
       url: https://www.cdiscount.com/
     - name: "Almarena IT"
       logo: /assets/images/thanks/almarena.svg
-      url: http://www.almarena.fr/
+      url: https://almarena-it.com/
     - name: Mozilla Firefox
       logo: /assets/images/thanks/firefox.svg
       url: https://www.mozilla.org/fr/firefox/new/
@@ -697,7 +697,7 @@
       url: https://redirection.io/
     - name: "Almarena IT"
       logo: /assets/images/thanks/almarena.svg
-      url: http://www.almarena.fr/
+      url: https://almarena-it.com/
     - name: "Splunk"
       logo: /assets/images/thanks/splunk.svg
       url: https://www.splunk.com/
