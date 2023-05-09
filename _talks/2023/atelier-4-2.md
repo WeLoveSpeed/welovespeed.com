@@ -15,7 +15,7 @@ fr_FR:
   video: ~
   cta:
     url: https://docs.google.com/forms/d/e/1FAIpQLSdFaZkGRs0xEyvZ454-Zi1TPUvfZlXPTtVAv4-FlevtZeAJNA/viewform?usp=sf_link
-    name: S'inscrire
+    name: S'inscrire à l'atelier
 en_US:
   title: "[EKINO] Create your resumable application with Qwik (FR)"
   subtitle: ~

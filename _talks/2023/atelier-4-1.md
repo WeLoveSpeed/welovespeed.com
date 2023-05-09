@@ -15,7 +15,7 @@ fr_FR:
   video: ~
   cta:
     url: https://docs.google.com/forms/d/e/1FAIpQLSdzYe9JcIi3eGxdjWDHclmCF8tqVXUTxk2obiutNugtpliWww/viewform?usp=sf_link
-    name: S'inscrire
+    name: S'inscrire à l'atelier
 en_US:
   title: "[GOOGLE] Using the Speculation Rules API to improve navigations (EN)"
   subtitle: ~

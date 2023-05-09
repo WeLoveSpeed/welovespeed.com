@@ -24,7 +24,7 @@ fr_FR:
   video: ~
   cta:
     url: https://docs.google.com/forms/d/1ZeL0hQOnZCrfilSrezIFJyP3y-AtUtvp7YHzQ0flijw/edit
-    name: S'inscrire
+    name: S'inscrire à l'atelier
 en_US:
   title: "[THEODO] Coding your own synthetic monitoring solution (FR)"
   subtitle: ~

@@ -17,7 +17,7 @@ fr_FR:
   video: ~
   cta:
     url: https://docs.google.com/forms/d/e/1FAIpQLScbkXrRQlY3VBeQyv5oo2ZoOruDQCIKLDmP5ZIMPV2G14G9cw/viewform
-    name: S'inscrire
+    name: S'inscrire à l'atelier
 en_US:
   title: "[appYuser] (FR) Optimize your digital experience and reduce your environmental footprint"
   subtitle: ~
