@@ -14,7 +14,7 @@ fr_FR:
   video: ~
   cta:
     url: https://docs.google.com/forms/d/e/1FAIpQLSceodEzOs83MvLNkbdd5gCjgPXDLbX3eBECtZDMi477Czs1lw/viewform?usp=sf_link
-    name: S'inscrire
+    name: S'inscrire à l'atelier
 en_US:
   title: "[BRAINCRACKING] Debugging Web Performance (FR)"
   subtitle: ~
