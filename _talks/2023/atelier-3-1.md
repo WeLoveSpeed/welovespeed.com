@@ -19,7 +19,7 @@ fr_FR:
   video: ~
   cta:
     url: https://docs.google.com/forms/d/e/1FAIpQLSe1mwhNIyOcvBRbC3Z4AcNH66dsAYYBi40tx-gTGG6gWe8BJQ/viewform?usp=sf_link
-    name: S'inscrire
+    name: S'inscrire à l'atelier
 en_US:
   title: "[SCALEFLEX] (FR)"
   subtitle: ~
