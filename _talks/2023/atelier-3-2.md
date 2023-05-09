@@ -15,7 +15,7 @@ fr_FR:
   video: ~
   cta:
     url: https://docs.google.com/forms/d/e/1FAIpQLScNPlKvqo9mEfy8ObXFq3RRMi82LfybYqkXYDp-2lWDZZl63g/viewform?usp=sf_link
-    name: S'inscrire
+    name: S'inscrire à l'atelier
 en_US:
   title: "[FASTERIZE] Web Performance Clinic (FR)"
   subtitle: ~
