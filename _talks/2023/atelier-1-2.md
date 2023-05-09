@@ -21,7 +21,7 @@ fr_FR:
   video: ~
   cta:
     url: https://docs.google.com/forms/d/e/1FAIpQLScL3ine8kQua5HAQ5mRIm88CHD-1oyA27-ZVZrz05XWF3lBaQ/viewform?usp=sf_link
-    name: S'inscrire
+    name: S'inscrire à l'atelier
 en_US:
   title: "[DYNATRACE] (FR)"
   subtitle: ~
