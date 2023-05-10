@@ -37,7 +37,7 @@ sponsoring:
     url: '/assets/docs/2023/sponsoring_en.pdf'
     size: '675KB'
 tickets:
-  selling: true
+  selling: false
   weezevent: true
   coupons-only: false
   waiting-list: false
