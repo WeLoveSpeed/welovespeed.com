@@ -36,11 +36,13 @@
                   {%- if forloop.first -%}
                     {% continue %}
                   {%- else -%}
+                    {% assign roomIndex = forloop.index | plus: 1 %}
                     {% include schedule-talk.html
                       value=value
                       locale=include.locale
                       year=include.year
                       nb=1
+                      roomIndex=roomIndex
                     %}
                   {%- endif -%}
                 {%- endfor -%}
