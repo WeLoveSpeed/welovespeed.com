@@ -36,7 +36,7 @@
                   {%- if forloop.first -%}
                     {% continue %}
                   {%- else -%}
-                    {% assign roomIndex = forloop.index | plus: 1 %}
+                    {% assign roomIndex = forloop.index %}
                     {% include schedule-talk.html
                       value=value
                       locale=include.locale
