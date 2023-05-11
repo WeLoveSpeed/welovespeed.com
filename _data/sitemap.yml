@@ -16,7 +16,7 @@
     value: programme
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Billetterie
     type: page
     value: billetterie
