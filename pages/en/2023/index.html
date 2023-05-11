@@ -12,7 +12,7 @@ permalink: /en/2023/
       <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
       <div class="home-main-title-baseline">
         {{ site.data.editions[page.year].tagline[page.locale] }}<br/>
-        <small>The French event for web performance enthusiasts, soon in Paris!</small>
+        <small>Thank you for coming, videos and slides are coming very soon!</small>
       </div>
     </h1>
   </div>
@@ -24,9 +24,16 @@ permalink: /en/2023/
       {%- if site.cfp_open -%}<a class="button" target="_blank" data-text="Call For Proposals" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="Call For Proposals">
         <span class="button-inner">Call For Proposals</span>
       </a>{%- endif -%}
-      <a class="button" data-text="Line-Up" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="Line-Up">
-        <span class="button-inner">Line-Up</span>
+      {% if site.current_edition == year and site.infos.interventions %}
+      <a class="button" data-text="Line-up" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Line-up">
+        <span class="button-inner">Line-up</span>
       </a>
+      {% endif %}
+      {% if site.current_edition == year and site.infos.schedule %}
+      <a class="button" data-text="Schedule" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="Schedule">
+        <span class="button-inner">Schedule</span>
+      </a>
+      {% endif %}
       {%- comment -%}<a class="button" data-text="Audience feedback" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="audience feedback">
         <span class="button-inner">Audience feedback</span>
       </a>{%- endcomment -%}

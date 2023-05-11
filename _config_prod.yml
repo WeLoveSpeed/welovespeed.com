@@ -37,7 +37,7 @@ sponsoring:
     url: '/assets/docs/2023/sponsoring_en.pdf'
     size: '675KB'
 tickets:
-  selling: true
+  selling: false
   weezevent: true
   coupons-only: false
   waiting-list: false
@@ -49,6 +49,8 @@ infos:
   diversity:
     active: false
     soldout: false
+  interventions: true
+  schedule: false
 
 # Compression du code HTML en production
 compress_html:
