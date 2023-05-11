@@ -15,7 +15,7 @@ fr_FR:
 
 
     J'ai désormais accès à davantage de données. Et j'ai très envie de partager avec vous ce que j'ai appris sur la valeur de notre travail et pourquoi il devrait être crucial d'inscrire ces réflexions dans toutes les structure Digital/Marketing.
-  slides: ~
+  slides: https://boris.schapira.dev/wls2023
   video: ~
 en_US:
   title: "Let's Talk About Value"
