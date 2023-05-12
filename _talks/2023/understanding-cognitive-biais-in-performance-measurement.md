@@ -45,6 +45,6 @@ en_US:
 
 
     In this talk, we'll go into different biases that may affect user perception as well as our ability to measure that perception, and ways in which to identify if our data exhibits these patterns.
-  slides: ~
+  slides: https://speakerdeck.com/bluesmoon/we-love-speed-understanding-cognitive-biases-in-performance-measurement
   video: ~
 ---
