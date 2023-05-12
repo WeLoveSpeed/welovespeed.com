@@ -13,9 +13,7 @@ fr_FR:
     Le plan du hands-on inclura la configuration de l'application, la création du premier composant, le lazyloading d'un micro-code, la construction d'une application SPA, l'envoi de données et l'implémentation de l'authentification.
   slides: ~
   video: ~
-  cta:
-    url: https://docs.google.com/forms/d/e/1FAIpQLSdFaZkGRs0xEyvZ454-Zi1TPUvfZlXPTtVAv4-FlevtZeAJNA/viewform?usp=sf_link
-    name: S'inscrire à l'atelier
+  cta: ~
 en_US:
   title: "[EKINO] Create your resumable application with Qwik (FR)"
   subtitle: ~

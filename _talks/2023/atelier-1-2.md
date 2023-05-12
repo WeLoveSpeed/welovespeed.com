@@ -19,9 +19,7 @@ fr_FR:
       - Comment visualiser les données d’openTelemetry dans Dynatrace.
   slides: ~
   video: ~
-  cta:
-    url: https://docs.google.com/forms/d/e/1FAIpQLScL3ine8kQua5HAQ5mRIm88CHD-1oyA27-ZVZrz05XWF3lBaQ/viewform?usp=sf_link
-    name: S'inscrire à l'atelier
+  cta: ~
 en_US:
   title: "[DYNATRACE] (FR)"
   subtitle: ~
@@ -31,7 +29,5 @@ en_US:
     Workshop proposed by Dynatrace
   slides: ~
   video: ~
-  cta:
-    url: https://docs.google.com/forms/d/e/1FAIpQLScL3ine8kQua5HAQ5mRIm88CHD-1oyA27-ZVZrz05XWF3lBaQ/viewform?usp=sf_link
-    name: Register
+  cta: ~
 ---

@@ -17,9 +17,7 @@ fr_FR:
       - expliquer les différentes optimisation possibles, benefices SEO, UX
   slides: ~
   video: ~
-  cta:
-    url: https://docs.google.com/forms/d/e/1FAIpQLSe1mwhNIyOcvBRbC3Z4AcNH66dsAYYBi40tx-gTGG6gWe8BJQ/viewform?usp=sf_link
-    name: S'inscrire à l'atelier
+  cta: ~
 en_US:
   title: "[SCALEFLEX] (FR)"
   subtitle: ~

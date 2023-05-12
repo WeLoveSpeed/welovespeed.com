@@ -22,9 +22,7 @@ fr_FR:
     Le tout sur tous les sites que vous voulez !
   slides: ~
   video: ~
-  cta:
-    url: https://docs.google.com/forms/d/1ZeL0hQOnZCrfilSrezIFJyP3y-AtUtvp7YHzQ0flijw/edit
-    name: S'inscrire à l'atelier
+  cta: ~
 en_US:
   title: "[THEODO] Coding your own synthetic monitoring solution (FR)"
   subtitle: ~

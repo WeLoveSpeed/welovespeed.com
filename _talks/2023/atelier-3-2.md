@@ -13,9 +13,7 @@ fr_FR:
     Nous vous aiderons à identifier vos problématiques webperf et à comprendre les mesures à prendre pour améliorer la vitesse de chargement de votre site.
   slides: ~
   video: ~
-  cta:
-    url: https://docs.google.com/forms/d/e/1FAIpQLScNPlKvqo9mEfy8ObXFq3RRMi82LfybYqkXYDp-2lWDZZl63g/viewform?usp=sf_link
-    name: S'inscrire à l'atelier
+  cta: ~
 en_US:
   title: "[FASTERIZE] Web Performance Clinic (FR)"
   subtitle: ~
@@ -25,7 +23,5 @@ en_US:
     Web Performance Clinic
   slides: ~
   video: ~
-  cta:
-    url: https://docs.google.com/forms/d/e/1FAIpQLScNPlKvqo9mEfy8ObXFq3RRMi82LfybYqkXYDp-2lWDZZl63g/viewform?usp=sf_link
-    name: Register
+  cta: ~
 ---

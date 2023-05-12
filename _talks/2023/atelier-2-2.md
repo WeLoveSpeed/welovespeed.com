@@ -15,9 +15,7 @@ fr_FR:
     Pensez à venir avec vos URL à tester… Mieux encore : créez dès maintenant <a href="https://appyuser.quadran.eu/performance/#/createAccount"   target="_blank" rel="nofollow">votre compte freemium appYuser</a> et déployez notre solution sur votre site et nous vous ferons un retour personnalisé durant l’atelier !
   slides: ~
   video: ~
-  cta:
-    url: https://docs.google.com/forms/d/e/1FAIpQLScbkXrRQlY3VBeQyv5oo2ZoOruDQCIKLDmP5ZIMPV2G14G9cw/viewform
-    name: S'inscrire à l'atelier
+  cta: ~
 en_US:
   title: "[appYuser] (FR) Optimize your digital experience and reduce your environmental footprint"
   subtitle: ~
@@ -27,7 +25,5 @@ en_US:
     Workshop sponsored by Quadran
   slides: ~
   video: ~
-  cta:
-    url: https://docs.google.com/forms/d/e/1FAIpQLScbkXrRQlY3VBeQyv5oo2ZoOruDQCIKLDmP5ZIMPV2G14G9cw/viewform
-    name: Register
+  cta: ~
 ---
