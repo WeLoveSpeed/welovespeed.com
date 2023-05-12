@@ -31,6 +31,6 @@ en_US:
     
     
     This talk will explain what they are, and why they are our top recommendations for 2023.
-  slides: ~
+  slides: https://docs.google.com/presentation/d/1zArZeaPAsF8uUVzebvQwIIbi6e1-Tly9bKzWP4te39o/edit#slide=id.p
   video: ~
 ---
