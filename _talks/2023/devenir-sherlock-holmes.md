@@ -44,8 +44,8 @@ fr_FR:
 
     Si vous avez besoin de concevoir un plan d’optimisation, ou si vous surveillez la performance de votre site au quotidien à l'affut de la moindre régression, cette présentation est faite pour vous.
   slides:
-    name: ~
-    url: ~
+    name: Voir les slides 🕵️
+    url: https://speakerdeck.com/ludovic33fr/wls-2023-final
   video:
     name: ~
     url: ~
@@ -88,7 +88,7 @@ en_US:
 
     If you need to design an optimization plan, or if you monitor your site's performance on a daily basis for the slightest regression, this presentation is for you.
   slides:
-    name: ~
+    name: Check the slides 🕵️ (fr)
     url: ~
   video:
     name: ~
