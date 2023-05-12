@@ -52,7 +52,7 @@ button {
 
 blockquote,
 address {
-  padding: $global-gutters/2 0 $global-gutters/2 $global-gutters;
+  padding: $half-gutters 0 $half-gutters $global-gutters;
   border-left: .25em solid $blockquote-border-color;
   font-style: italic;
   p {
@@ -65,7 +65,7 @@ address {
 }
 
 dd {
-  margin: $global-gutters/2 0 $global-gutters;
+  margin: $half-gutters 0 $global-gutters;
   padding-left: $global-gutters;
   border-left: 1px solid $blockquote-border-color;
   font-style: italic;

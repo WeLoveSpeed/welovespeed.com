@@ -12,7 +12,7 @@
     text-align: center;
     padding: 5px 1rem;
     td {
-      padding: 0 $global-gutters/2;
+      padding: 0 $half-gutters;
     }
   }
 
@@ -104,7 +104,7 @@
 
 .talk {
   border: 1px solid #ddd;
-  border-radius: $global-gutters/2;
+  border-radius: $half-gutters;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
@@ -121,7 +121,7 @@
 
   header {
     grid-row: 1;
-    padding: $global-gutters/2;
+    padding: $half-gutters;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     min-height: 10rem;
@@ -285,7 +285,7 @@
   &:focus {
     text-decoration: none;
     border-color: dargen($blue, 40);
-    box-shadow: $blue 0 0 $global-gutters/2;
+    box-shadow: $blue 0 0 $half-gutters;
   }
 }
 .room2 {
@@ -300,7 +300,7 @@
   &:focus {
     text-decoration: none;
     border-color: dargen($darkred, 40);
-    box-shadow: $darkred 0 0 $global-gutters/2;
+    box-shadow: $darkred 0 0 $half-gutters;
   }
 }
 
@@ -316,7 +316,7 @@
   &:focus {
     text-decoration: none;
     border-color: dargen($purple, 40);
-    box-shadow: $purple 0 0 $global-gutters/2;
+    box-shadow: $purple 0 0 $half-gutters;
   }
 }
 .room4 {
@@ -331,6 +331,6 @@
   &:focus {
     text-decoration: none;
     border-color: dargen($darkgreen, 40);
-    box-shadow: $darkgreen 0 0 $global-gutters/2;
+    box-shadow: $darkgreen 0 0 $half-gutters;
   }
 }

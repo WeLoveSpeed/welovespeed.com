@@ -21,7 +21,7 @@
 }
 
 @for $i from 1 through 10 {
-  $x: ($wrapper-max-width / $i) - $global-gutters - 1;
+  $x: calc($wrapper-max-width / $i) - $global-gutters - 1;
 
   @include media(">#{$x}") {
     .grid-#{$i} {
