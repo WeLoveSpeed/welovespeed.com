@@ -34,6 +34,6 @@ en_US:
 
 
     In this talk, we will discuss new technologies in the web browser that allow us to measure performance metrics for Single Page Apps in the same way as for Multipage Apps. We'll look at their functionality, how they work, and how you can use them to improve the performance of your SPA.
-  slides: ~
+  slides: https://docs.google.com/presentation/d/1X57zHaxYaLW26QX13JiF5RcmhL2le2VBkTTGmAd4G5I/edit#slide=id.p
   video: ~
 ---
