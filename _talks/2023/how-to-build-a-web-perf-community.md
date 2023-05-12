@@ -29,8 +29,12 @@ fr_FR:
     - Quels résultats obtenus après un an de mise en place
 
     - Nos prochaines étapes / challenges
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "How to Build a Web Perf Community in Your Organization?"
   subtitle: ~
@@ -52,6 +56,10 @@ en_US:
     - What results were obtained after one year of implementation
 
     - Our next steps / challenges
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 ---

@@ -20,8 +20,12 @@ fr_FR:
       - Orchestration avec Github Actions
       - Et en bonus, alerting sur slack...
     Le tout sur tous les sites que vous voulez !
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 en_US:
   title: "[THEODO] Coding your own synthetic monitoring solution (FR)"
@@ -30,8 +34,12 @@ en_US:
     Workshop proposed by Theodo
   description: >-
     Workshop proposed by Theodo
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta:
     url: https://docs.google.com/forms/d/1ZeL0hQOnZCrfilSrezIFJyP3y-AtUtvp7YHzQ0flijw/edit
     name: Register

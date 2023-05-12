@@ -28,8 +28,11 @@ fr_FR:
     Rester simple et pertinent n'est cependant pas facile !
 
     Découvrez les différentes approches et la manière de les appliquer à vos solutions de suivi RUM existantes, qu'elles soient gratuites (Google Analytics), open source (Boomerang) ou commerciales.
-  slides: ~
-  video: https://youtu.be/RDb1ZHsqSwc
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/RDb1ZHsqSwc
 en_US:
   title: "Responsive RUM"
   excerpt: >-
@@ -55,6 +58,9 @@ en_US:
     Keeping it both simple and meaningful is however not easy!
 
     Learn about the different approaches and how to apply this to your existing RUM monitoring solutions: be it free (Google Analytics), open source (Boomerang) or commercial.
-  slides: ~
-  video: https://youtu.be/RDb1ZHsqSwc
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/RDb1ZHsqSwc
 ---

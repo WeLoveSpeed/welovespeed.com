@@ -37,8 +37,11 @@ fr_FR:
     - les limitations imposées par TCP sur HTTP/2
 
     - les challenges quant à la mise en place de HTTP/3
-  slides: ~
-  video: https://youtu.be/J8Sl9Lr5Mk8
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/J8Sl9Lr5Mk8
 en_US:
   title: "HTTP/3: it's a transport issue!"
   description: >-
@@ -71,6 +74,9 @@ en_US:
     - limitations imposed by TCP over HTTP/2
 
     - the challenges regarding the implementation of HTTP/3
-  slides: https://speakerdeck.com/bitone/3
-  video: ~
+  slides:
+    name: ~ https://speakerdeck.com/bitone/3
+  video:
+    name: ~
+    url: ~
 ---

@@ -18,8 +18,11 @@ fr_FR:
 
 
     Nous vous proposons un retour d’expérience et vous expliquerons les concepts que nous avons mis en place pour faire de l’architecture micro-front un allié de la webperf.
-  slides: /assets/docs/2021/micro_frontend.pdf
-  video: https://youtu.be/jzbZESyuIhA
+  slides:
+    name: ~ /assets/docs/2021/micro_frontend.pdf
+  video:
+    name: ~
+    url: https://youtu.be/jzbZESyuIhA
 en_US:
   title: "Micro-Front architecture, a driver for web performance?"
   excerpt: >-
@@ -32,6 +35,9 @@ en_US:
 
 
     We offer you a feedback and will explain the concepts we implemented to make the micro-front architecture an ally of webperf.
-  slides: ~
-  video: ~
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: ~
 ---

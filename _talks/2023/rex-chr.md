@@ -19,8 +19,12 @@ fr_FR:
 
 
     Nous suivrons ensemble les différentes étapes de notre projet : des prémices d'une crise à un atout essentiel pour nos clients !
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "How to Turn a Crisis Into a Victory Thanks to Web Performance?"
   subtitle: ~
@@ -34,6 +38,10 @@ en_US:
     
 
     We will follow together the different steps of our project: from the beginnings of a crisis to an essential asset for our customers!
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 ---

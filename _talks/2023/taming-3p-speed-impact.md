@@ -31,8 +31,12 @@ fr_FR:
 
 
     Nous explorerons comment orchestrer vos tags pour en réduire les impacts, puis couvriront comment débogguer et garder ces tags sous contrôle.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Taming the Speed Impact of 3rd-Party Tags"
   subtitle: ~
@@ -59,6 +63,10 @@ en_US:
 
 
     The talk with explore how to choreograph tags to reduce their impact, and then cover approaches for monitoring and debugging tag performance.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 ---

@@ -15,8 +15,11 @@ fr_FR:
     - PWAA? -  Progressive Web Assembly Apps - how to make it real?
     - the most common issues and fixes based on PWAs’ performance tests,
     - how to keep a progressive style? Tips and tricks for your CSS and assets.
-  slides: ~
-  video: https://youtu.be/S62FdEMYtxg
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/S62FdEMYtxg
 en_US:
   title: "Supercharge the speed of your app with these PWAs' secrets!"
   description: >-
@@ -27,6 +30,9 @@ en_US:
     - PWAA? -  Progressive Web Assembly Apps - how to make it real?
     - the most common issues and fixes ba~ed on PWAs’ performance tests,
     - how to keep a progressive style? Tips and tricks for your CSS and assets.
-  slides: ~
-  video: https://youtu.be/S62FdEMYtxg
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/S62FdEMYtxg
 ---

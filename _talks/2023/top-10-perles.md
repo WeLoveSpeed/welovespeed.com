@@ -19,8 +19,12 @@ fr_FR:
     Toutes ces actions étaient bien sûr motivées par l'envie d'améliorer les perfs, mais les choses ne se sont pas passées comme prévu. Bref, appliquer les bonnes pratiques bêtement ne suffit pas, il faut une véritable intelligence (pas artificielle) pour optimiser un site.
     
     Entre inside jokes geek et vulgarisation, ce talk vise à décortiquer des erreurs fréquentes tout en apportant des solutions pour les éviter.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "The Top 10 Webperf Mistakes"
   subtitle: "(do not do this at home)"
@@ -32,6 +36,10 @@ en_US:
     In more than 10 years spent optimizing sites, Stéphane Rios, founder and CEO of Fasterize, has seen a lot. And as it doesn't only happen to others, he testifies about the pitfalls in which many sites have fallen and still fall: images, lazyload, sprites, defer, preload / preconnect, inlining, etc. ... everything goes!
 
     All these actions were of course motivated by the desire to improve performance, but things did not go as planned. In short, applying good practices stupidly is not enough, you need a real intelligence (not artificial) to optimize a site.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 ---

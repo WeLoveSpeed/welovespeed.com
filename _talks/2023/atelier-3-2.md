@@ -11,8 +11,12 @@ fr_FR:
   description: >-
     Asseyez-vous à une table avec un de nos experts Webperf et décortiquons ensemble les performances de votre site. Cette Webperf Clinic est l’occasion rêvée de bénéficier d’un diagnostic webperf rapide, mais de qualité.
     Nous vous aiderons à identifier vos problématiques webperf et à comprendre les mesures à prendre pour améliorer la vitesse de chargement de votre site.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 en_US:
   title: "[FASTERIZE] Web Performance Clinic (FR)"
@@ -21,7 +25,11 @@ en_US:
     Web Performance Clinic
   description: >-
     Web Performance Clinic
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 ---

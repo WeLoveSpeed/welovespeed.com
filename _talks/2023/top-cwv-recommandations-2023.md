@@ -17,8 +17,12 @@ fr_FR:
     
     
     Cette présentation expliquera ce qu'elles sont et pourquoi nous considérons qu'elles sont les meilleures recommandations en 2023.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Top Core Web Vitals Recommendations for 2023"
   subtitle: ~
@@ -31,6 +35,10 @@ en_US:
     
     
     This talk will explain what they are, and why they are our top recommendations for 2023.
-  slides: https://docs.google.com/presentation/d/1zArZeaPAsF8uUVzebvQwIIbi6e1-Tly9bKzWP4te39o/edit#slide=id.p
-  video: ~
+  slides:
+    name: ~
+    url: https://docs.google.com/presentation/d/1zArZeaPAsF8uUVzebvQwIIbi6e1-Tly9bKzWP4te39o/edit#slide=id.p
+  video:
+    name: ~
+    url: ~
 ---

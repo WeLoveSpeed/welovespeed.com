@@ -24,8 +24,12 @@ fr_FR:
 
 
     Dans cet exposé, nous aborderons les différents biais qui peuvent affecter la perception de l'utilisateur ainsi que notre capacité à mesurer cette perception, et les moyens d'identifier si nos données présentent ces schémas.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Understanding Cognitive Biases in Performance Measurement"
   subtitle: ~
@@ -45,6 +49,10 @@ en_US:
 
 
     In this talk, we'll go into different biases that may affect user perception as well as our ability to measure that perception, and ways in which to identify if our data exhibits these patterns.
-  slides: https://speakerdeck.com/bluesmoon/we-love-speed-understanding-cognitive-biases-in-performance-measurement
-  video: ~
+  slides:
+    name: ~
+    url: https://speakerdeck.com/bluesmoon/we-love-speed-understanding-cognitive-biases-in-performance-measurement
+  video:
+    name: ~
+    url: ~
 ---

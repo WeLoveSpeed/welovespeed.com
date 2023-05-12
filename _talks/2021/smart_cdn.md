@@ -24,8 +24,11 @@ fr_FR:
     Nous expliquerons comment nous construisons les fichiers et comment nous les exposons.
 
     Ça sera l'occasion d'analyser les enjeux de performance et mesurer concrètement les impacts de différentes techniques d'optimisation.
-  slides: ~
-  video: https://youtu.be/5tz5AqRbez8
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/5tz5AqRbez8
 en_US:
   title: Implementation of a smart CDN to distribute Web Components
   excerpt: >-
@@ -45,6 +48,9 @@ en_US:
     We will explain how we build the files and how we expose them.
 
     It will be an opportunity to analyze the performance stakes and to measure concretely the impacts of different optimization techniques.
-  slides: ~
-  video: https://youtu.be/5tz5AqRbez8
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/5tz5AqRbez8
 ---

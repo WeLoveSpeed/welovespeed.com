@@ -12,8 +12,11 @@ fr_FR:
 
 
     Nous explorerons ce qu'il advient de la performance et de l'accessibilité lorsque les périphériques sont inondés de plus de JavaScript qu'ils ne peuvent le gérer. Nous nous plongerons également dans de nouvelles techniques permettant d'adapter la livraison des scripts en fonction des capacités du matériel et de la qualité de la connexion réseau. Lorsque vous sortirez de cette session, vous serez équipé·e de nouvelles connaissances pour rendre vos sites aussi rapides qu'ils sont beaux.
-  slides: ~
-  video: ~
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Responsible JavaScript"
   description: >-
@@ -21,6 +24,9 @@ en_US:
 
 
     In this talk, we'll explore what happens to performance and accessibility when devices are inundated with more JavaScript than they can handle. We'll also dive into some novel techniques you can use to tailor delivery of scripts with respect to a person's device capabilities and network connection quality. When you walk out of this session, you'll be equipped with new knowledge to make your sites as fast as they are beautiful.
-  slides: https://speaking.jeremy.codes/sN2UQZ/responsible-javascript
-  video: https://youtu.be/p43uiQ9VZDY
+  slides:
+    name: ~ https://speaking.jeremy.codes/sN2UQZ/responsible-javascript
+  video:
+    name: ~
+    url: https://youtu.be/p43uiQ9VZDY
 ---

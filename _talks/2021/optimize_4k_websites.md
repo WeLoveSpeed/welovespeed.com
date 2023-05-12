@@ -24,8 +24,11 @@ fr_FR:
     2. Les challenges que nous avons rencontrés chez Solocal lors de la migration de notre parc, alors hébergé et géré en interne sur des socles technologiques non adaptés à ces nouveaux enjeux.
  
     3. Perspectives d'évolutions de la plateforme Duda pour l'amélioration continue de la web performance, et retour d'expérience sur sa gestion, dans une production industrielle de sites pour Solocal.
-  slides: /assets/docs/2021/optimize_4k_websites.pdf
-  video: https://youtu.be/OYWiobnE4tM
+  slides:
+    name: ~ /assets/docs/2021/optimize_4k_websites.pdf
+  video:
+    name: ~
+    url: https://youtu.be/OYWiobnE4tM
 en_US:
   title: "How to improve the web performance of a portfolio of over 40,000 sites?"
   excerpt: >-
@@ -45,6 +48,9 @@ en_US:
     2. The challenges we encountered at Solocal during the migration of our sites, which were previously hosted and operated in-house on technological platforms that were not adapted to these new challenges.
  
     3. Perspective for the evolution of the Duda platform in order to continuously improve web performance, and feedback on its management, in the context of Solocal's mass production of sites.
-  slides: ~
-  video: https://youtu.be/OYWiobnE4tM
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/OYWiobnE4tM
 ---

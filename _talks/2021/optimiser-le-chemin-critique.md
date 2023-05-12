@@ -23,8 +23,11 @@ fr_FR:
     Mon objectif est de présenter à l’aide d’exemples concrets et chiffrés, les techniques les plus efficaces que j’ai pu expérimenter pour réduire le nombre et la taille des ressources critiques : politiques de cache, minification et priorisation des js et css, gestion des fonts… 
 
     Outre le diagnostique, je parlerai des outils du marché de monitoring disponibles les plus adaptés.
-  slides: ~
-  video: https://youtu.be/3mQJBjOUPd8
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/3mQJBjOUPd8
 en_US:
   title: Critical path optimization
   subtitle: / "How to accelerate your performance?"
@@ -43,6 +46,9 @@ en_US:
     My goal is to present, with concrete and quantified examples, the most efficient techniques I could experiment to reduce the number and size of critical resources: caching policies, js and css minification and prioritization, font management... 
 
     In addition to the diagnosis, I will talk about the most adapted monitoring tools available on the market.
-  slides: ~
-  video: https://youtu.be/3mQJBjOUPd8
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/3mQJBjOUPd8
 ---

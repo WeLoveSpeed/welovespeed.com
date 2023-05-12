@@ -18,6 +18,9 @@ en_US:
     
     
     The <a href="https://developers.google.com/web/tools/chrome-user-experience-report/ "Chrome User Experience Report"" target="_blank" rel="nofollow">Chrome UX Report</a> is a one-of-a-kind dataset that makes these kinds of insights available, so that you can put your performance into perspective. In this talk we will explore how it works and how you can leverage it to better understand the user experience on the web.
-  slides: https://docs.google.com/presentation/d/1i8LwMikng5JslJBi7rn7hRTBzlKSUrqvgqh9hdNQl1k/edit
-  video: https://youtu.be/mjQYYMNAaRw
+  slides:
+    name: ~ https://docs.google.com/presentation/d/1i8LwMikng5JslJBi7rn7hRTBzlKSUrqvgqh9hdNQl1k/edit
+  video:
+    name: ~
+    url: https://youtu.be/mjQYYMNAaRw
 ---

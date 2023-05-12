@@ -17,8 +17,11 @@ fr_FR:
     Sauf que… héberger correctement ces ressources, c'est aussi complexe que bien héberger ses images, ses vidéos, ou n'importe quel autre ressource statique. En apparence aussi simple que de déposer un fichier sur son serveur, la réalité peut vite tourner au cauchemar quand on cherche à fournir la meilleure ressource en fonction du contexte.
 
     Repartons de ce que Google Fonts fait correctement (fournir des polices) et tâchons de comprendre toutes les petites optimisations qui permettront de vraiment booster votre front ! Une enquête pas à pas, consacrée à la dernière délaissée de la performance Web : la typographie.
-  slides: https://talks.m4dz.net/fonts-perf/en/
-  video: https://youtu.be/QHpdk-o68JE
+  slides:
+    name: ~ https://talks.m4dz.net/fonts-perf/en/
+  video:
+    name: ~
+    url: https://youtu.be/QHpdk-o68JE
 en_US:
   title: 'CDN and Performances: Cover the Fonts'
   description: >-
@@ -31,6 +34,9 @@ en_US:
     Wait... hosting fonts properly is as complex as hosting your images, videos, or any other static resource. Simple in appearance as uploading a file to your server, reality can quickly turn into a nightmare when you try to provide the best resource regarding of the context.
 
     Let's start from what Google Fonts does right (aka providing fonts) and let's try to understand all the little tricks that will really boost your frontend! A step-by-step investigation, dedicated to the latest neglected area of Web performance: typography.
-  slides: https://talks.m4dz.net/fonts-perf/en/
-  video: https://youtu.be/t2n2z5UmFyo
+  slides:
+    name: ~ https://talks.m4dz.net/fonts-perf/en/
+  video:
+    name: ~
+    url: https://youtu.be/t2n2z5UmFyo
 ---

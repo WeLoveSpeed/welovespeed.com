@@ -18,8 +18,12 @@ fr_FR:
 
 
     En combinant les principes de base de la mise en réseau, l'histoire des protocoles et des conseils pratiques, vous apprendrez ce qui se passe sous le capot et comment le régler vous-même.
-  slides: ~
-  video: ~
+  slides:
+    name: "Consulter le support (en) ⚔️"
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Web Protocols for Frontend Developers"
   subtitle: ~
@@ -33,6 +37,10 @@ en_US:
 
 
     Combining networking 101, protocol history, and especially practical tips, you'll learn what's happening under the hood and how to tune it yourself.
-  slides: ~
-  video: ~
+  slides:
+    name: "Check the slides ⚔️"
+    url: /assets/docs/2023/WebProtocolsForFrontendDevelopers_RobinMarx_WeLoveSpeed2023.pdf
+  video:
+    name: ~
+    url: ~
 ---

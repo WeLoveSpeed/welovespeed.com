@@ -17,8 +17,11 @@ fr_FR:
 
 
     Dans cette présentation, nous couvrirons l’histoire du LCP, pourquoi cette mesure a été choisie comme représentante du chargement visuel, sa définition, comment elle a évolué jusqu'à aujourd'hui, et comment elle continue d'évoluer.
-  slides: https://docs.google.com/presentation/d/1wbU2NWfr5XtWalMY_OTXUqhfOQx-J1hwYPLhIX7XTr8/edit?usp=sharing
-  video: https://youtu.be/t-lgOjRFshA
+  slides:
+    name: ~ https://docs.google.com/presentation/d/1wbU2NWfr5XtWalMY_OTXUqhfOQx-J1hwYPLhIX7XTr8/edit?usp=sharing
+  video:
+    name: ~
+    url: https://youtu.be/t-lgOjRFshA
 en_US:
   title: "LCP – Deep Dive"
   excerpt:
@@ -31,6 +34,9 @@ en_US:
 
 
     In this presentation, we will cover the history of LCP, why this metric was chosen as a representative of visual loading, its definition, how it has evolved to the present day, and how it continues to evolve.
-  slides: ~
-  video: https://youtu.be/t-lgOjRFshA
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: https://youtu.be/t-lgOjRFshA
 ---

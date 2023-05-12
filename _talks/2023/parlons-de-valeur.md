@@ -15,8 +15,12 @@ fr_FR:
 
 
     J'ai désormais accès à davantage de données. Et j'ai très envie de partager avec vous ce que j'ai appris sur la valeur de notre travail et pourquoi il devrait être crucial d'inscrire ces réflexions dans toutes les structure Digital/Marketing.
-  slides: https://boris.schapira.dev/wls2023
-  video: ~
+  slides:
+    name: ~
+    url: https://boris.schapira.dev/wls2023
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Let's Talk About Value"
   subtitle: ~
@@ -27,6 +31,10 @@ en_US:
 
 
     I now have access to more data. And I'm eager to share with you what I've learned about the value of our work and why it should be crucial to embed these thoughts in all digital/marketing structures.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 ---

@@ -11,7 +11,9 @@ fr_FR:
     
     
     J’aborderai l’approche et les outils mis en place, les barrières que nous avons surmontées et les excellents résultats que nous avons obtenus et maintenus.
-  video: https://youtu.be/uLMFByvMX6k
+  video:
+    name: ~
+    url: https://youtu.be/uLMFByvMX6k
 en_US:
   title: "Web Performance as a Core Value"
   description: >-

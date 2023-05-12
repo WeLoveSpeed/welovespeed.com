@@ -11,8 +11,12 @@ fr_FR:
   description: >-
     The Speculation Rules API is a new way for pages to improve next page navigations by telling the browser to prefetch or prerender certain URLs. This leads to faster, or even instant, page URLs.
     In this workshop we'll show how to add speculation rules to a web page and show they render faster.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 en_US:
   title: "[GOOGLE] Using the Speculation Rules API to improve navigations (EN)"
@@ -22,7 +26,11 @@ en_US:
   description: >-
     The Speculation Rules API is a new way for pages to improve next page navigations by telling the browser to prefetch or prerender certain URLs. This leads to faster, or even instant, page URLs.
     In this workshop we'll show how to add speculation rules to a web page and show they render faster.
-  slides: https://docs.google.com/presentation/d/1HdoEHxWyp6DVAQrTvTjjPPTmu9ImoENkiPutjjuJXeo/edit#slide=id.g24096d9a786_0_0
-  video: ~
+  slides:
+    name: ~
+    url: https://docs.google.com/presentation/d/1HdoEHxWyp6DVAQrTvTjjPPTmu9ImoENkiPutjjuJXeo/edit#slide=id.g24096d9a786_0_0
+  video:
+    name: ~
+    url: ~
   cta: ~
 ---

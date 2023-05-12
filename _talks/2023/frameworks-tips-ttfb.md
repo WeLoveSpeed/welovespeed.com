@@ -23,8 +23,12 @@ fr_FR:
 
 
     Je vous propose de répondre à ces questions au travers d’exemples concrets tirés de 6 mois d’accompagnement d’un site e-commerce à grande fréquentation (top 10 français), avec comme résultat une amélioration de 25% de leur TBT et 20 points de gagnés sur leur score de performance Lighthouse.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Lazy Hydrate, Never Hydrate, Resumable JS"
   subtitle: ": frameworks' techniques to reduce Total Blocking Time"
@@ -41,6 +45,10 @@ en_US:
 
 
     Let's answer these questions through concrete examples taken from 6 months of support of a high traffic e-commerce site (French top 10), with as a result a 25% improvement of their TBT and 20 points gained on their Lighthouse performance score.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 ---

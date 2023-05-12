@@ -12,8 +12,11 @@ fr_FR:
 
 
     Cette intervention s'adresse à toute personne intéressée par la Performance Web, qui aimerait connaître le point de vue du Gouvernement à ce sujet. C'est un secteur où il n'y a pas de concurrence et où si un·e utilisateur·ice ne peut pas trouver rapidement et facilement l'information dont iel a besoin, il n'y a pas d'alternative.
-  slides: https://docs.google.com/presentation/d/1t6rCx26c9UsXf8Bp3pMMy3f0iAEm3L885vgO_XnmtAg/edit#slide=id.g57858d1abe_0_0
-  video: ~
+  slides:
+    name: ~ https://docs.google.com/presentation/d/1t6rCx26c9UsXf8Bp3pMMy3f0iAEm3L885vgO_XnmtAg/edit#slide=id.g57858d1abe_0_0
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Why does frontend performance matter?"
   description: >-
@@ -25,6 +28,9 @@ en_US:
 
     The target audience is anyone interested in web performance, and who would like a government perspective on the subject. It's a sector where there is no competition. If a user can't find the information they need quickly and easily, there really are no alternative.
 
-  slides: https://docs.google.com/presentation/d/1hVBrqg-7oWj8-V9xvAcoEMtmRsZefNySxEGW7fAkWzw/edit
-  video: https://youtu.be/wBcbTsQ9BgA
+  slides:
+    name: ~ https://docs.google.com/presentation/d/1hVBrqg-7oWj8-V9xvAcoEMtmRsZefNySxEGW7fAkWzw/edit
+  video:
+    name: ~
+    url: https://youtu.be/wBcbTsQ9BgA
 ---

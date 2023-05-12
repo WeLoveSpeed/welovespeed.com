@@ -15,8 +15,12 @@ fr_FR:
     
     
     Dans mon exposé, je ferai référence aux résultats des recherches que j'ai menées pour rédiger <a href="https://almanac.httparchive.org/en/2022/performance" target="_blank" rel="nofollow">le chapitre sur les performances Web de Web Almanac 2022</a>.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "How to Prioritize Web Performance Optimizations"
   subtitle: ~
@@ -26,6 +30,10 @@ en_US:
     
     
     In my talk I will reference my research findings from writing <a href="https://almanac.httparchive.org/en/2022/performance"  target="_blank" rel="nofollow">the Web Performance Chapter of Web Almanac 2022</a>.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 ---

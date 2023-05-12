@@ -12,7 +12,9 @@ fr_FR:
 
     À l’aide d’exemples tirés de mes projets, découvrez comment travailler la performance également au niveau de la perception utilisateur.
   transcript: https://stephaniewalter.design/fr/blog/lux-au-service-de-la-performance-de-vos-interfaces-conference-welovespeed-2018/
-  video: https://youtu.be/YZn2UKSDMGM
+  video:
+    name: ~
+    url: https://youtu.be/YZn2UKSDMGM
 en_US:
   title: "Lightning fast UX: faking performance when there’s no code left to optimize"
   description: >-

@@ -45,8 +45,12 @@ fr_FR:
 
 
     > Le bruit fausse de 14 % mon vrai TTFB.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Noise Canceling RUM"
   subtitle: ~
@@ -87,6 +91,10 @@ en_US:
 
 
     > Noise skews my actual Time To First Byte by 14%.
-  slides: https://speakerdeck.com/timvereecke/noise-canceling-rum-we-love-speed-2023
-  video: ~
+  slides:
+    name: ~
+    url: https://speakerdeck.com/timvereecke/noise-canceling-rum-we-love-speed-2023
+  video:
+    name: ~
+    url: ~
 ---

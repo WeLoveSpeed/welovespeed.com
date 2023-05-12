@@ -13,8 +13,12 @@ fr_FR:
     Avec à la clé des bénéfices démultipliés pour vos conversions et votre image de marque…
     En participant à cet atelier, vous profiterez aussi d’un aperçu en avant-première du fonctionnement de notre nouvel outil appYplanet, première solution sur le marché permettant de mesurer l’impact environnemental réel de vos sites web, basé sur notre technologie de Real User Monitoring… 
     Pensez à venir avec vos URL à tester… Mieux encore : créez dès maintenant <a href="https://appyuser.quadran.eu/performance/#/createAccount"   target="_blank" rel="nofollow">votre compte freemium appYuser</a> et déployez notre solution sur votre site et nous vous ferons un retour personnalisé durant l’atelier !
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 en_US:
   title: "[appYuser] (FR) Optimize your digital experience and reduce your environmental footprint"
@@ -23,7 +27,11 @@ en_US:
     Workshop sponsored by Quadran
   description: >-
     Workshop sponsored by Quadran
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 ---

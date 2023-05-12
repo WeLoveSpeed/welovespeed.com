@@ -17,8 +17,12 @@ fr_FR:
       - Comment visualiser les données d’openTelemetry dans Dynatrace. 
       - Comment instrumenter notre code client, 
       - Comment visualiser les données d’openTelemetry dans Dynatrace.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 en_US:
   title: "[DYNATRACE] (FR)"
@@ -27,7 +31,11 @@ en_US:
     Workshop proposed by Dynatrace
   description: >-
     Workshop proposed by Dynatrace
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 ---

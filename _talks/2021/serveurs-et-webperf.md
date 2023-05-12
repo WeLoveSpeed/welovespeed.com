@@ -14,8 +14,11 @@ fr_FR:
     
     
     Durant cette intervention, je vous parlerai d'optimisations pouvant faciliter le temps de réponse du serveur sur Apache/Nginx , d'en-têtes HTTP orientées SEO, et des avantages / inconvénients de certains modules liés à la Webperf sur Apache/Nginx.
-  slides: ~
-  video: ~
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Web server and Webperf seen by an SEO"
   excerpt: >-
@@ -25,6 +28,9 @@ en_US:
     
     
     During this presentation, I will talk about optimizations that can ease the server response time on Apache/Nginx, SEO oriented HTTP headers, and the advantages / disadvantages of some modules related to the Webperf on Apache/Nginx.
-  slides: ~
-  video: ~
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: ~
 ---

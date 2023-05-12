@@ -10,8 +10,12 @@ fr_FR:
     Jean-Pierre Vincent, vous fait manipuler simplement des outils d’experts que sont WebPagetest et Chrome dev tools, pour trouver les problèmes de performance d'une page.
   description: >-
     Jean-Pierre Vincent expert Webperf de longue date et orateur, prolonge la conférence en vous faisant manipuler simplement des outils d’experts que sont WebPagetest et Chrome dev tools, pour trouver les problèmes de performance d'une page.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 en_US:
   title: "[BRAINCRACKING] Debugging Web Performance (FR)"
@@ -20,7 +24,11 @@ en_US:
     (FR) debogging performance
   description: >-
     (FR) debogging performance
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 ---

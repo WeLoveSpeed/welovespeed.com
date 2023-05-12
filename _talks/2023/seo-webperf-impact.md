@@ -17,8 +17,12 @@ fr_FR:
     Puis nous traiterons de l'impact de mauvais temps de rendition en CSR sur l'exploration et l'indexation, et nous expliquerons les points d'attention quand on est à la limite (attention à la charge CPU, aux ressources consommées etc...).
     
     Enfin nous verrons quel est le véritable impact de mauvais Core Web Vitals sur les classements (dans la pratique : c'est un nudge de la part de Google. Les indicateurs "Page Expérience" ne servent qu'à départager les ex aequo dans les classements).
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "SEO and Web Performance, What’s the Deal?"
   subtitle: ~
@@ -30,6 +34,10 @@ en_US:
     Then we will discuss the impact of bad rendition times in CSR on crawling and indexing, and we will explain the points to watch out for when we are at the limit (attention to the CPU load, to the resources consumed etc...).
     
     Finally we will see what is the real impact of bad Core Web Vitals on rankings (in practice: it is a nudge from Google. The "Page Experience" indicators are only used to break the tie in the rankings).
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 ---

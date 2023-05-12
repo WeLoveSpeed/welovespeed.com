@@ -28,7 +28,7 @@
           {{ verbatim.title }} {% if verbatim.subtitle %}<small>{{ verbatim.subtitle }}</small>{% endif %}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
         </h3>
         {{ verbatim.description | markdownify }}
-        {% if verbatim.cta or verbatim.transcript or verbatim.slides or verbatim.video or other_verbatim.cta or other_verbatim.transcript or other_verbatim.slides or other_verbatim.video %}
+        {% if verbatim.cta or verbatim.transcript or verbatim.slides.url or verbatim.video.url or other_verbatim.cta or other_verbatim.transcript or other_verbatim.slides.url or other_verbatim.video.url %}
           <p class="text-center">
           {% if verbatim.cta %}
             <a class="button" data-text="{{ verbatim.cta.name }}" href="{{ verbatim.cta.url }}" title="{{ verbatim.cta.name }}"><span class="button-inner">{{ verbatim.cta.name }}</span></a>
@@ -46,20 +46,26 @@
               <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.transcript }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
             {% endif %}
           {% endif %}
-          {% if verbatim.slides %}
-            <a class="button" data-text="{% t Consulter le support %}" href="{{ verbatim.slides }}" title="{% t Consulter le support %}"><span class="button-inner">{% t Consulter le support %}</span></a>
+          {% if verbatim.slides.url %}
+            {% capture defaultLabel %}{{ "Consulter le support" | t: include.locale }}{% endcapture %}
+            {% assign label = verbatim.slides.name | default: defaultLabel %}
+            <a class="button" data-text="{{ label }}" href="{{ verbatim.slides.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
           {% else %}
-            {% if other_verbatim.slides %}
-              {% capture text_button %}{% t Consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-              <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.slides }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+            {% if other_verbatim.slides.url %}
+              {% capture defaultLabel %}{% t Consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+              {% capture label %}{{ verbatim.slides.name | default: defaultLabel }}{% endcapture %}
+              <a class="button" data-text="{{ label }}" href="{{ other_verbatim.slides.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
             {% endif %}
           {% endif %}
-          {% if verbatim.video %}
-            <a class="button" data-text="{% t Voir la vidéo %}" href="{{ verbatim.video }}" title="{% t Voir la vidéo %}"><span class="button-inner">{% t Voir la vidéo %}</span></a>
-          {% else %}
-            {% if other_verbatim.video %}
-              {% capture text_button %}{% t Voir la vidéo %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-              <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.video }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+          {% if verbatim.video.url %}
+            {% capture defaultLabel %}{{ "Voir la vidéo" | t: include.locale }}{% endcapture %}
+            {% assign label = verbatim.video.name | default: defaultLabel %}
+            <a class="button" data-text="{{ label }}" href="{{ verbatim.video.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
+            {% else %}
+            {% if other_verbatim.video.url %}
+              {% capture defaultLabel %}{% t Voir la vidéo %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+              {% capture label %}{{ other_verbatim.video.name | default: defaultLabel }}{% endcapture %}
+              <a class="button" data-text="{{ label }}" href="{{ other_verbatim.video.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
             {% endif %}
           {% endif %}
           </p>

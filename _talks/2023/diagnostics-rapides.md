@@ -16,8 +16,12 @@ fr_FR:
     
     
     Développeurs Frontends ? Regardons les détails et manipulons ces deux outils d'experts. Bonus pour les applications JS lourdes : les outils et méthodes pour alléger le frontend.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Measure or Die: How to Do a Quick Diagnosis?"
   subtitle: ~
@@ -28,6 +32,10 @@ en_US:
     
     
     Frontend developers? Let's look at the details and manipulate these two expert tools. Bonus for heavy JS applications: tools and methods to lighten the frontend.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 ---

@@ -15,8 +15,12 @@ fr_FR:
       - comment repérer le problème
       - quand commencer à s'en soucier
       - expliquer les différentes optimisation possibles, benefices SEO, UX
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta: ~
 en_US:
   title: "[SCALEFLEX] (FR)"
@@ -25,8 +29,12 @@ en_US:
     Impact of images in a webperf project
   description: >-
     Impact of images in a webperf project
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
   cta:
     url: https://docs.google.com/forms/d/e/1FAIpQLSe1mwhNIyOcvBRbC3Z4AcNH66dsAYYBi40tx-gTGG6gWe8BJQ/viewform?usp=sf_link
     name: Register

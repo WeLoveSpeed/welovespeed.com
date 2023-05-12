@@ -23,8 +23,12 @@ fr_FR:
 
 
     Faisons un pas de côté pour voir la webperf sous un autre angle et voir ce que l'accessibilité pourrait lui apporter.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Accessibility and Webperf, Not So Different"
   subtitle: ~
@@ -43,6 +47,10 @@ en_US:
 
 
     Let's take a step aside to see the webperf from another angle and see what accessibility could bring to it.
-  slides: ~
-  video: ~
+  slides:
+    name: ~
+    url: ~
+  video:
+    name: ~
+    url: ~
 ---

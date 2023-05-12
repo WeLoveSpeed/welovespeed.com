@@ -12,8 +12,11 @@ fr_FR:
 
 
     Nous déciderons des 3 ou 4 interventions qui passeront le jour-même, tous·tes ensemble, lors d'un vote à main levée après lecture des propositions.
-  slides: ~
-  video: ~
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: ~
 en_US:
   title: "Lightning Talks"
   description: >-
@@ -21,6 +24,9 @@ en_US:
 
 
     We will choose the 3 or 4 speeches that will be presented that day, all together, by a show of hands after reading the proposals.
-  slides: ~
-  video: ~
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: ~
 ---

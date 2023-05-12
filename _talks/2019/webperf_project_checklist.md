@@ -27,8 +27,11 @@ fr_FR:
     - La phase de maturité (sensibiliser les équipes plus largement, déterminer les relais de l'acculturation) ;
 
     - Et bien sûr, la fin (quand peut-on dire qu'un projet d'optimisation est terminé ?).
-  slides: https://www.welovespeed.com/assets/docs/2019/wls_oui.sncf.pdf
-  video: https://youtu.be/cvG23lSfBAA
+  slides:
+    name: ~ https://www.welovespeed.com/assets/docs/2019/wls_oui.sncf.pdf
+  video:
+    name: ~
+    url: https://youtu.be/cvG23lSfBAA
 en_US:
   title: "Webperf optimization project: what are we getting into?"
   description: >-
@@ -50,6 +53,9 @@ en_US:
     - The maturity phase (sensitize teams more broadly, determine the relays of acculturation);
 
     - And of course, the end (when can we say that an optimization project is finished?).
-  slides: ~
-  video: ~
+  slides:
+    name: ~ ~
+  video:
+    name: ~
+    url: ~
 ---
