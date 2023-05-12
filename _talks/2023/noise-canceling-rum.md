@@ -87,6 +87,6 @@ en_US:
 
 
     > Noise skews my actual Time To First Byte by 14%.
-  slides: ~
+  slides: https://speakerdeck.com/timvereecke/noise-canceling-rum-we-love-speed-2023
   video: ~
 ---
