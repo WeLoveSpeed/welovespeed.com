@@ -50,7 +50,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/vfl-C1FZSwE
 en_US:
   title: "Noise Canceling RUM"
   subtitle: ~
@@ -96,5 +96,5 @@ en_US:
     url: https://speakerdeck.com/timvereecke/noise-canceling-rum-we-love-speed-2023
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/vfl-C1FZSwE
 ---
