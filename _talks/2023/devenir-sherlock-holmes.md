@@ -48,7 +48,7 @@ fr_FR:
     url: https://speakerdeck.com/ludovic33fr/wls-2023-final
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/q65w_luvB3A
 en_US:
   title: "How to Become a Web Performance Sherlock Holmes"
   subtitle: ~
@@ -92,5 +92,5 @@ en_US:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/q65w_luvB3A
 ---
