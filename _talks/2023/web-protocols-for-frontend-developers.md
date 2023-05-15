@@ -23,7 +23,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/0kKdMqIhvZs
 en_US:
   title: "Web Protocols for Frontend Developers"
   subtitle: ~
@@ -42,5 +42,5 @@ en_US:
     url: /assets/docs/2023/WebProtocolsForFrontendDevelopers_RobinMarx_WeLoveSpeed2023.pdf
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/0kKdMqIhvZs
 ---
