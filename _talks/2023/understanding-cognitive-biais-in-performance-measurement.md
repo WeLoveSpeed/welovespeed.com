@@ -29,7 +29,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/6KwW5v5rce4
 en_US:
   title: "Understanding Cognitive Biases in Performance Measurement"
   subtitle: ~
@@ -54,5 +54,5 @@ en_US:
     url: https://speakerdeck.com/bluesmoon/we-love-speed-understanding-cognitive-biases-in-performance-measurement
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/6KwW5v5rce4
 ---
