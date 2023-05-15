@@ -28,7 +28,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/_llRQk3-yXg
 en_US:
   title: "Accessibility and Webperf, Not So Different"
   subtitle: ~
@@ -52,5 +52,5 @@ en_US:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/_llRQk3-yXg
 ---
