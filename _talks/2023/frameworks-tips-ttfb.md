@@ -28,7 +28,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/2b48sOTD4dc
 en_US:
   title: "Lazy Hydrate, Never Hydrate, Resumable JS"
   subtitle: ": frameworks' techniques to reduce Total Blocking Time"
@@ -50,5 +50,5 @@ en_US:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/2b48sOTD4dc
 ---
