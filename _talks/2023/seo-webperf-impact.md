@@ -22,7 +22,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/uWqQCOX52i4
 en_US:
   title: "SEO and Web Performance, What’s the Deal?"
   subtitle: ~
@@ -39,5 +39,5 @@ en_US:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/uWqQCOX52i4
 ---
