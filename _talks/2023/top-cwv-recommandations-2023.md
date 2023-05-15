@@ -22,7 +22,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/fJrKeh-Np8c
 en_US:
   title: "Top Core Web Vitals Recommendations for 2023"
   subtitle: ~
@@ -40,5 +40,5 @@ en_US:
     url: https://docs.google.com/presentation/d/1zArZeaPAsF8uUVzebvQwIIbi6e1-Tly9bKzWP4te39o/edit#slide=id.p
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/fJrKeh-Np8c
 ---
