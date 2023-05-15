@@ -36,7 +36,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/q3M4he-QxCA
 en_US:
   title: "Taming the Speed Impact of 3rd-Party Tags"
   subtitle: ~
@@ -68,5 +68,5 @@ en_US:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/q3M4he-QxCA
 ---
