@@ -21,7 +21,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/r-go-1z7XYw
 en_US:
   title: "Measure or Die: How to Do a Quick Diagnosis?"
   subtitle: ~
@@ -37,5 +37,5 @@ en_US:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/r-go-1z7XYw
 ---
