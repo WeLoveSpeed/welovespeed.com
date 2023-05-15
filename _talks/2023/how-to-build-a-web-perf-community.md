@@ -34,7 +34,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/aGi-vxC6ttA
 en_US:
   title: "How to Build a Web Perf Community in Your Organization?"
   subtitle: ~
@@ -61,5 +61,5 @@ en_US:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/aGi-vxC6ttA
 ---
