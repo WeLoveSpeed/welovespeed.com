@@ -24,7 +24,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/pQLRoABCnqg
 en_US:
   title: "Soft Navigations Are Hard!"
   subtitle: ~
@@ -43,5 +43,5 @@ en_US:
     url: https://docs.google.com/presentation/d/1X57zHaxYaLW26QX13JiF5RcmhL2le2VBkTTGmAd4G5I/edit#slide=id.p
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/pQLRoABCnqg
 ---
