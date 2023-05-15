@@ -32,7 +32,7 @@ en_US:
     In my talk I will reference my research findings from writing <a href="https://almanac.httparchive.org/en/2022/performance"  target="_blank" rel="nofollow">the Web Performance Chapter of Web Almanac 2022</a>.
   slides:
     name: ~
-    url: ~
+    url: /assets/docs/2023/melissa-ada-prioritizing-web-werformance-pptimizations.pdf
   video:
     name: ~
     url: ~
