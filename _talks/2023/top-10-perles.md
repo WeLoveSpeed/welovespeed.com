@@ -24,7 +24,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/axLYhr8Cl3c
 en_US:
   title: "The Top 10 Webperf Mistakes"
   subtitle: "(do not do this at home)"
@@ -41,5 +41,5 @@ en_US:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/axLYhr8Cl3c
 ---
