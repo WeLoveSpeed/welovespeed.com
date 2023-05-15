@@ -20,7 +20,7 @@ fr_FR:
     url: https://boris.schapira.dev/wls2023
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/wh0zCqZRuSs
 en_US:
   title: "Let's Talk About Value"
   subtitle: ~
@@ -36,5 +36,5 @@ en_US:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/wh0zCqZRuSs
 ---
