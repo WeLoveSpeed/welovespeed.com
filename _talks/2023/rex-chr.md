@@ -24,7 +24,7 @@ fr_FR:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/XPoUCe71klQ
 en_US:
   title: "How to Turn a Crisis Into a Victory Thanks to Web Performance?"
   subtitle: ~
@@ -43,5 +43,5 @@ en_US:
     url: ~
   video:
     name: ~
-    url: ~
+    url: https://youtu.be/XPoUCe71klQ
 ---
