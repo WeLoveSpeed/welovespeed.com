@@ -31,7 +31,7 @@ fr_FR:
     - Nos prochaines étapes / challenges
   slides:
     name: ~
-    url: ~
+    url: /assets/docs/2023/la-redoute-communaute.pdf
   video:
     name: ~
     url: https://youtu.be/aGi-vxC6ttA

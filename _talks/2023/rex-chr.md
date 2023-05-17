@@ -21,7 +21,7 @@ fr_FR:
     Nous suivrons ensemble les différentes étapes de notre projet : des prémices d'une crise à un atout essentiel pour nos clients !
   slides:
     name: ~
-    url: ~
+    url: /assets/docs/2023/thomas-perronneau-feedback.pdf
   video:
     name: ~
     url: https://youtu.be/XPoUCe71klQ

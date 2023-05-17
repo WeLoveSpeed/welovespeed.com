@@ -18,8 +18,8 @@ fr_FR:
     
     Enfin nous verrons quel est le véritable impact de mauvais Core Web Vitals sur les classements (dans la pratique : c'est un nudge de la part de Google. Les indicateurs "Page Expérience" ne servent qu'à départager les ex aequo dans les classements).
   slides:
-    name: ~
-    url: ~
+    name: 
+    url: /assets/docs/2023/philippe-yonnet-seo.pdf
   video:
     name: ~
     url: https://youtu.be/uWqQCOX52i4
