@@ -1,9 +1,13 @@
 ul.social-links {
-  display: flex; margin: 1em 0;
-  flex-flow: row wrap; justify-content: space-between; align-items: center;
+  display: flex;
+  margin: 1em 0;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 
   a {
-    font-size: 1.5em; color: $default-color;
+    font-size: 1.5em;
+    color: $default-color;
     border: transparent;
 
     &:hover,

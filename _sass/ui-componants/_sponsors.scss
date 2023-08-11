@@ -5,7 +5,7 @@ figure.company {
 .company {
   padding: 20px 0 20px 0;
 
-  @include media('>=xlarge') {
+  @include media(">=xlarge") {
     padding-left: 0;
   }
 
@@ -14,12 +14,12 @@ figure.company {
   }
   &-logo {
     max-width: 20em;
-    margin: .5em auto 1.6em auto;
+    margin: 0.5em auto 1.6em auto;
   }
   &-name {
     line-height: 1.25;
   }
   &-description {
-    margin: .5em 0;
+    margin: 0.5em 0;
   }
 }

@@ -4,55 +4,52 @@
 
 // Layout
 
-$wrapper-width              : 90%;
-$wrapper-max-width          : 96rem;
-$global-gutters             : 2rem;
-$half-gutters               : calc($global-gutters / 2);
-
+$wrapper-width: 90%;
+$wrapper-max-width: 96rem;
+$global-gutters: 2rem;
+$half-gutters: calc($global-gutters / 2);
 
 // Z-indexes
 
-$zindex-nav-trigger-area    : 15;
-$zindex-nav-trigger         : 16;
-$zindex-page-nav            : 20;
-
+$zindex-nav-trigger-area: 15;
+$zindex-nav-trigger: 16;
+$zindex-page-nav: 20;
 
 // Responsive
 
-$media-ratio              : (
-  'xsmall'                : 1.7,
-  'small'                 : 1.8,
-  'medium'                : 1.9,
-  'large'                 : 2,
-  'xlarge'                : 2.1,
-  'xxlarge'               : 2.2
+$media-ratio: (
+  "xsmall": 1.7,
+  "small": 1.8,
+  "medium": 1.9,
+  "large": 2,
+  "xlarge": 2.1,
+  "xxlarge": 2.2,
 );
 
-$breakpoints              : (
-  'small'                 : 480px,
-  'medium'                : 720px,
-  'large'                 : 960px,
-  'xlarge'                : 1200px,
-  'xxlarge'               : 1440px
+$breakpoints: (
+  "small": 480px,
+  "medium": 720px,
+  "large": 960px,
+  "xlarge": 1200px,
+  "xxlarge": 1440px,
 );
 
-$media-expressions        : (
-  'HDPIscreen'            : '(min-resolution: 2dppx)'
+$media-expressions: (
+  "HDPIscreen": "(min-resolution: 2dppx)",
 );
-
 
 // Typo
 
-$default-font-size          : 1em;
-$default-line-height        : 1.6;
+$default-font-size: 1em;
+$default-line-height: 1.6;
 
 // $font-weight-light          : 100;
-$font-weight-normal         : 400;
-$font-weight-bold           : 700;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
 
-$default-font-family        : 'Spectral', serif;
-$default-font-weight        : $font-weight-normal;
-$default-font-style         : normal;
+$default-font-family: "Spectral", serif;
+$default-font-weight: $font-weight-normal;
+$default-font-style: normal;
 
 // $logo-font-family           : "Oraqle", cursive;
 // $logo-font-weight           : normal;
@@ -62,66 +59,80 @@ $default-font-style         : normal;
 // $main-title-font-weight     : $font-weight-light;
 // $main-title-font-style      : normal;
 
-$title-font-family          : 'Rubik', sans-serif;
-$title-font-weight          : $font-weight-normal;
-$title-font-style           : normal;
-$title-line-height          : 1.2;
+$title-font-family: "Rubik", sans-serif;
+$title-font-weight: $font-weight-normal;
+$title-font-style: normal;
+$title-line-height: 1.2;
 
-$nav-font-family            : $title-font-family;
-$nav-font-weight            : $title-font-weight;
-$nav-font-style             : normal;
+$nav-font-family: $title-font-family;
+$nav-font-weight: $title-font-weight;
+$nav-font-style: normal;
 
-$input-font-family          : $default-font-family;
-$input-font-weight          : $font-weight-normal;
-$input-font-style           : italic;
+$input-font-family: $default-font-family;
+$input-font-weight: $font-weight-normal;
+$input-font-style: italic;
 
-$button-font-family         : $title-font-family;
-$button-font-weight         : $title-font-weight;
-$button-font-style          : normal;
+$button-font-family: $title-font-family;
+$button-font-weight: $title-font-weight;
+$button-font-style: normal;
 
-
-$font-sizes                 : ((
-    'class'             : 'xxl',
-    'size'              : 1.75em
-  ),(
-    'class'             : 'xl',
-    'size'              : 1.5em
-  ),(
-    'class'             : 'lg',
-    'size'              : 1.25em
-  ),(
-    'class'             : 'sm',
-    'size'              : .875em
-  ),(
-    'class'             : 'xs',
-    'size'              : .75em
-));
-
+$font-sizes: (
+  (
+    "class": "xxl",
+    "size": 1.75em,
+  ),
+  (
+    "class": "xl",
+    "size": 1.5em,
+  ),
+  (
+    "class": "lg",
+    "size": 1.25em,
+  ),
+  (
+    "class": "sm",
+    "size": 0.875em,
+  ),
+  (
+    "class": "xs",
+    "size": 0.75em,
+  )
+);
 
 // Forms and buttons
 
-$label-font-size            : .875em;
+$label-font-size: 0.875em;
 
-$input-vmargin              : .125em;
-$input-hmargin              : 0;
-$input-vpadding             : .25em;
-$input-hpadding             : .5em;
+$input-vmargin: 0.125em;
+$input-hmargin: 0;
+$input-vpadding: 0.25em;
+$input-hpadding: 0.5em;
 
-$btn-hmargin                : .5em;
-$btn-hpadding               : 1.5em;
-
+$btn-hmargin: 0.5em;
+$btn-hpadding: 1.5em;
 
 // Transitions
 
-$enable-transitions         : true;
+$enable-transitions: true;
 
-$default-duration           : .25s;
-$default-timing-function    : ceaser(easeInOutQuart);
+$default-duration: 0.25s;
+$default-timing-function: ceaser(easeInOutQuart);
 
-$nav-toggle-duration        : .5s;
-$nav-toggle-timing-function : ceaser(easeOutCubic);
-
+$nav-toggle-duration: 0.5s;
+$nav-toggle-timing-function: ceaser(easeOutCubic);
 
 // Banners slugs
 
-$banners                  : ('banner-pexels-409701', 'banner-grand-hotel', 'banner-sainte-catherine', 'banner-grand-theatre', 'banner-cocktail', 'banner-corbusier', 'banner-roundtable', 'banner-lyon-restaurants', 'banner-lyon-palais-tony', 'banner-anthony-delanoix-eiffel-unsplash', 'banner-alex-harmuth-cafe-unsplash');
+$banners: (
+  "banner-pexels-409701",
+  "banner-grand-hotel",
+  "banner-sainte-catherine",
+  "banner-grand-theatre",
+  "banner-cocktail",
+  "banner-corbusier",
+  "banner-roundtable",
+  "banner-lyon-restaurants",
+  "banner-lyon-palais-tony",
+  "banner-anthony-delanoix-eiffel-unsplash",
+  "banner-alex-harmuth-cafe-unsplash"
+);

@@ -1,13 +1,13 @@
-[class*=' banner-'],
-[class^='banner-'] {
+[class*=" banner-"],
+[class^="banner-"] {
   position: relative;
   padding: 30% 0;
   background: center / cover no-repeat;
 
-  @include media('>large') {
+  @include media(">large") {
     padding: 20% 0;
   }
-  @include media('>xlarge') {
+  @include media(">xlarge") {
     padding: 15% 0;
     background-attachment: fixed;
   }
@@ -15,42 +15,45 @@
   &.page-top {
     padding: 20% 0;
 
-    @include media('>medium') {
+    @include media(">medium") {
       padding: 10% 0;
     }
-    @include media('>large') {
+    @include media(">large") {
       padding: 5% 0;
     }
   }
 }
 
 @each $slug in $banners {
-  .banner-#{$slug}[data-loaded='true'] {
+  .banner-#{$slug}[data-loaded="true"] {
     background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_768/https://welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
 
-    @include media('height>768px') {
+    @include media("height>768px") {
       background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1080/https://welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
     }
 
-    @include media('height>1080px') {
+    @include media("height>1080px") {
       background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1260/https://welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
     }
 
-    @include media('HDPIscreen', 'height>384px') {
+    @include media("HDPIscreen", "height>384px") {
       background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1080/https://welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
     }
 
-    @include media('HDPIscreen', 'height>630px') {
+    @include media("HDPIscreen", "height>630px") {
       background-image: url(https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,h_1260/https://welovespeed.netlify.com/assets/images/banners/#{$slug}.jpg);
     }
   }
 }
 
 .photo-credits {
-  position: absolute; right: 0; bottom: 0;
-  margin: 0; padding: 0 .5em;
-  background-color: rgba($black, .5);
-  font-size: .625em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0 0.5em;
+  background-color: rgba($black, 0.5);
+  font-size: 0.625em;
 
   &,
   a {

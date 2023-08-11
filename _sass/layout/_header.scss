@@ -1,21 +1,23 @@
 .home {
-
   &-header {
     margin: 20% 0 2em;
 
-    @include media('>medium') {
+    @include media(">medium") {
       margin: 15% 0 2em;
     }
-    @include media('>large') {
+    @include media(">large") {
       margin: 10% 0 2em;
     }
-    @include media('>xlarge') {
+    @include media(">xlarge") {
       margin: 8% 0 2em;
     }
   }
 
   &-main-title {
-    font: $title-font-style $title-font-weight calc(1em/$default-line-height) $title-font-family; text-align: center; color: inherit;
+    font: $title-font-style $title-font-weight calc(1em / $default-line-height)
+      $title-font-family;
+    text-align: center;
+    color: inherit;
 
     // &-logo {
     //   width: 100%; height: auto;
@@ -34,23 +36,22 @@
       margin-top: 1em;
       font-size: 4.5vw;
 
-      @include media('>=large') {
+      @include media(">=large") {
         font-size: 3em;
       }
     }
   }
 
   &-sub-title {
-    @include media('>medium') {
-      margin-left: 15%; margin-right: 15%;
+    @include media(">medium") {
+      margin-left: 15%;
+      margin-right: 15%;
     }
   }
 }
 
 .page {
-
   &-main-title {
-
     &-logo {
       width: 25%;
     }
@@ -58,9 +59,10 @@
     &-baseline {
       float: right;
       margin: 0;
-      font-size: 1em; color: $focus-color;
+      font-size: 1em;
+      color: $focus-color;
 
-      @include media('>=large') {
+      @include media(">=large") {
         font-size: 1.6em;
       }
     }
@@ -69,16 +71,16 @@
   &-header {
     margin: 100px 0 2em;
 
-    @include media('>small') {
+    @include media(">small") {
       margin: 100px 0 2em;
     }
-    @include media('>medium') {
+    @include media(">medium") {
       margin: 100px 0 2em;
     }
-    @include media('>large') {
+    @include media(">large") {
       margin: 100px 0 2em;
     }
-    @include media('>xlarge') {
+    @include media(">xlarge") {
       margin: 100px 0 2em;
     }
   }

@@ -1,4 +1,4 @@
-[aria-hidden='true'] {
+[aria-hidden="true"] {
   speak: none;
 }
 
@@ -12,7 +12,11 @@
   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
   */
   position: absolute;
-  width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
   border: 0;
   white-space: nowrap; /* 1 */
   clip: rect(0 0 0 0);
@@ -28,7 +32,10 @@
     &:active,
     &:focus {
       position: static;
-      width: auto; height: auto; margin: 0; overflow: visible;
+      width: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
       white-space: inherit;
       clip: auto;
       -webkit-clip-path: none;

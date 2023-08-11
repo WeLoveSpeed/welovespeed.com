@@ -4,96 +4,91 @@
 
 // Colors definitions
 
-$black                            : #000000;
-$softgrey                         : #ABB4BE;
-$white                            : #FFFFFF;
-$darkgreen                        : #192112;
-$red                              : #e62827;
-$darkred                          : darken($red, 20);
-$blackred                         : darken($red, 40);
-$softred                          : lighten($red, 40);
-$softwhite                        : lighten($red, 47);
+$black: #000000;
+$softgrey: #abb4be;
+$white: #ffffff;
+$darkgreen: #192112;
+$red: #e62827;
+$darkred: darken($red, 20);
+$blackred: darken($red, 40);
+$softred: lighten($red, 40);
+$softwhite: lighten($red, 47);
 
-$green                            : #6A7C2C;
-$blue                             : #135F72;
-$orange                           : #f3973e;
-$purple                           : #733AB0;
-$darkgreen                           : #1F5601;
+$green: #6a7c2c;
+$blue: #135f72;
+$orange: #f3973e;
+$purple: #733ab0;
+$darkgreen: #1f5601;
 
-$devtools-dns-lookup              : #409688;
-$devtools-initial-connection      : $orange;
-$devtools-ssl                     : $purple;
-$devtools-waiting                 : #5dc954;
-$devtools-content-download        : #3da9f5;
-$devtools-dcl                     : #dcdcff;
-$devtools-fl                      : #ffc7c6;
+$devtools-dns-lookup: #409688;
+$devtools-initial-connection: $orange;
+$devtools-ssl: $purple;
+$devtools-waiting: #5dc954;
+$devtools-content-download: #3da9f5;
+$devtools-dcl: #dcdcff;
+$devtools-fl: #ffc7c6;
 
-
-
-$pastel-green                     : lighten($green, 50%);
-$pastel-blue                      : lighten($blue, 50%);
-$pastel-orange                    : lighten($orange, 35%);
-$pastel-red                       : lighten($red, 40%);;
-$pastel-yellow                    : #fcfccd;
-
+$pastel-green: lighten($green, 50%);
+$pastel-blue: lighten($blue, 50%);
+$pastel-orange: lighten($orange, 35%);
+$pastel-red: lighten($red, 40%);
+$pastel-yellow: #fcfccd;
 
 // Semantics
 
-$regular                          : $darkred;
-$inactive                         : $softgrey;
-$info                             : $blue;
-$valid                            : $green;
-$warning                          : $orange;
-$alert                            : $red;
+$regular: $darkred;
+$inactive: $softgrey;
+$info: $blue;
+$valid: $green;
+$warning: $orange;
+$alert: $red;
 
 // Colors applications
 
-$default-color                    : $darkred;
-$default-bg                       : $softwhite;
-$focus-color                      : $red;
+$default-color: $darkred;
+$default-bg: $softwhite;
+$focus-color: $red;
 
-$link-color                       : $focus-color;
+$link-color: $focus-color;
 
-$title-color                      : $default-color;
+$title-color: $default-color;
 
-$selection-color                  : $white;
-$selection-bg                     : $red;
+$selection-color: $white;
+$selection-bg: $red;
 
-$hr-color                         : lighten($softgrey, 20%);
+$hr-color: lighten($softgrey, 20%);
 
-$blockquote-border-color          : lighten($red, 35%);
-
+$blockquote-border-color: lighten($red, 35%);
 
 // Forms
 
-$label-color                      : $focus-color;
+$label-color: $focus-color;
 
-$input-color                      : $default-color;
-$input-bg                         : transparent;
-$input-border-color               : lighten($red, 35%);
-$input-focus-color                : $black;
-$input-focus-bg                   : transparent;
-$input-focus-border-color         : $black;
-
+$input-color: $default-color;
+$input-bg: transparent;
+$input-border-color: lighten($red, 35%);
+$input-focus-color: $black;
+$input-focus-bg: transparent;
+$input-focus-border-color: $black;
 
 // Buttons:
 
-$btn-bg                           : $red;
-$btn-color                        : $white;
+$btn-bg: $red;
+$btn-color: $white;
 
-$btn-hover-bg                     : lighten($red, 65%);
-$btn-hover-border-color           : $red;
-$btn-hover-color                  : $darkred;
+$btn-hover-bg: lighten($red, 65%);
+$btn-hover-border-color: $red;
+$btn-hover-color: $darkred;
 
 // Navigation
 
-$nav-bg                           : $white;
-$nav-color                        : $link-color;
+$nav-bg: $white;
+$nav-color: $link-color;
 
-$nav-trigger-btn-bg               : $softwhite;
-$nav-trigger-btn-color            : $focus-color;
-$nav-trigger-btn-hover-bg         : $nav-trigger-btn-bg;
-$nav-trigger-btn-hover-color      : $focus-color;
-$nav-trigger-btn-active-bg        : transparent;
-$nav-trigger-btn-active-color     : $nav-trigger-btn-color;
-$nav-trigger-area-bg              : rgba($white, .9);
+$nav-trigger-btn-bg: $softwhite;
+$nav-trigger-btn-color: $focus-color;
+$nav-trigger-btn-hover-bg: $nav-trigger-btn-bg;
+$nav-trigger-btn-hover-color: $focus-color;
+$nav-trigger-btn-active-bg: transparent;
+$nav-trigger-btn-active-color: $nav-trigger-btn-color;
+$nav-trigger-area-bg: rgba($white, 0.9);

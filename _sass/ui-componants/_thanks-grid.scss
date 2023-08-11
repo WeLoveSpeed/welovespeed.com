@@ -6,16 +6,19 @@
 }
 
 .thanks-grid {
-  display: grid; box-sizing: border-box;
-  grid-template-columns: repeat(10, 1fr); grid-auto-flow: row;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-flow: row;
   border-width: 1px 0 0 1px;
   & > * {
     position: relative;
-    overflow: hidden; box-sizing: border-box;
+    overflow: hidden;
+    box-sizing: border-box;
     border-width: 0 1px 1px 0;
     &::before {
       display: block;
-      content: '';
+      content: "";
     }
   }
   & > i::before {
@@ -26,8 +29,13 @@
   // Thanks to @boostmarks's The Noun Project pro account
 
   .logo {
-    position: absolute; top: 0; right: 0; bottom: 0; left: 0;
-    display: block; margin: $half-gutters;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    margin: $half-gutters;
     background: center / contain no-repeat;
   }
   .M30701219O7771 {
@@ -45,7 +53,7 @@
       padding: 400% 0 0;
     }
     grid-area: 1 / 6 / span 20 / -1;
-    background-color: rgba(204, 210, 56, .3);
+    background-color: rgba(204, 210, 56, 0.3);
     .logo {
       background-image: url(../images/merci/mediapart.svg);
     }
