@@ -12,6 +12,21 @@
       from:
         name: Bedrock Streaming
         url: https://bedrockstreaming.com/
+    - url: https://ouidou.fr/2023/05/26/retour-sur-la-conference-we-love-speed-2023-2/
+      title: "Retour sur la conférence We Love Speed 2023"
+      authors: ["Martin Catty"]
+      locale: fr_FR
+      extract: >-
+        On en retiendra que la web performance nécessite des piqûres de rappel fréquentes sur des notions qui peuvent sembler acquises. Elle demande également un peu de subtilité pour des comportements qui peuvent parfois s’avérer contre-intuitifs.
+
+
+        Enfin, la web performance doit se construire avec les équipes de dév et pas à leur détriment ni après coup.
+
+
+        On saluera également pour cette conférence une organisation soignée et jamais mise en défaut. Merci aux organisateurs !
+      from:
+        name: Ouidou
+        url: https://ouidou.fr/
 - year: 2021
   writeups:
     - url: http://meetups.pixelastic.com/2021/12/16/we-love-speed-2021/
