@@ -1,7 +1,7 @@
 ---
 display-order: 4
 locale: en_US
-pub_date: '2018-07-01'
+pub_date: "2018-07-01"
 speakers:
   - philip
 fr_FR:

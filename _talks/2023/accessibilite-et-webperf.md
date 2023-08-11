@@ -15,7 +15,7 @@ fr_FR:
 
 
     L'accessibilité, une simple surcouche théorique pour avoir un code conforme ? Pas tout à fait.
-  
+
     La plupart des audits accessibilité affichent des scores de conformité au RGAA (qui est un référentiel peu exigeant) très faibles. Ces audits sont le révélateur de problèmes techniques mais aussi de conception, d'organisation et surtout d'un manque de culture web.
 
 
@@ -39,7 +39,7 @@ en_US:
 
 
     Is accessibility a simple theoretical overlay to have a compliant code? Not quite.
-  
+
     Most accessibility audits show very low scores of compliance with the <abbr title="Référentiel général d’amélioration de l’accessibilité" lang="fr">RGAA</abbr> (which is a not very demanding standard). These audits reveal technical problems but also design and organization problems and especially a lack of web culture.
 
 

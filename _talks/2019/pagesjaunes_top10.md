@@ -2,7 +2,7 @@
 display-order: 13
 locale: fr_FR
 length: 25
-pub_date: '2019-07-01'
+pub_date: "2019-07-01"
 speakers:
   - loic
 fr_FR:

@@ -1,15 +1,15 @@
 ---
 display-order: 11
 locale: fr_FR
-pub_date: '2018-07-01'
+pub_date: "2018-07-01"
 speakers:
   - rdc
 fr_FR:
   title: "Comment faire de la Performance Web un enjeu majeur pour l’entreprise ?"
   description: >-
     Difficile pour une entreprise d’investir dans la webperf alors que le sujet peut paraitre technique et que le gain n'est ni évident ni garanti. À travers mon expérience chez Rue Du Commerce, je vous expliquerai comment en quelques mois, grâce à un projet initialement purement IT, nous avons engagé l’ensemble de la société à suivre la webperf comme un indicateur important.
-    
-    
+
+
     J’aborderai l’approche et les outils mis en place, les barrières que nous avons surmontées et les excellents résultats que nous avons obtenus et maintenus.
   video:
     name: ~

@@ -35,7 +35,7 @@ en_US:
 
 
     The objective of this talk is to highlight the importance of web performance on a large e-commerce platform. How can we go from a major crisis to a real commercial lever through web performance?
-    
+
 
     We will follow together the different steps of our project: from the beginnings of a crisis to an essential asset for our customers!
   slides:

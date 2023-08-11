@@ -2,7 +2,7 @@
 display-order: 10
 locale: fr_FR
 length: 35
-pub_date: '2019-07-01'
+pub_date: "2019-07-01"
 speakers:
   - benoit
 fr_FR:

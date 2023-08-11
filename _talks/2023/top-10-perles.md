@@ -17,7 +17,7 @@ fr_FR:
     En plus de 10 années passées à optimiser des sites, Stéphane Rios, fondateur et CEO de Fasterize, en a vu passer des vertes et des pas mûres. Et comme ça n'arrive pas qu'aux autres, il témoigne à propos des chausse-trapes dans lesquels bien des sites sont tombés et tombent encore : images, lazyload, sprites, defer, preload / preconnect, inlining, etc ... tout y passe !
 
     Toutes ces actions étaient bien sûr motivées par l'envie d'améliorer les perfs, mais les choses ne se sont pas passées comme prévu. Bref, appliquer les bonnes pratiques bêtement ne suffit pas, il faut une véritable intelligence (pas artificielle) pour optimiser un site.
-    
+
     Entre inside jokes geek et vulgarisation, ce talk vise à décortiquer des erreurs fréquentes tout en apportant des solutions pour les éviter.
   slides:
     name: ~

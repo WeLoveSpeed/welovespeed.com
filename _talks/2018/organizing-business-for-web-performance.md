@@ -1,7 +1,7 @@
 ---
 display-order: 3
 locale: fr_FR
-pub_date: '2018-07-01'
+pub_date: "2018-07-01"
 speakers:
   - lesfurets
   - ouestfrance

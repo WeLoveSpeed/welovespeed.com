@@ -35,14 +35,14 @@ en_US:
     "npm install foo", "babel bar" and other "webpack baz". What if we tried something else?
   description: >-
     For the web components library I'm working on, we first released a package on npm.
-    
+
     This choice forces the users of our components to go through the jungle of Node.js-based tools, with its "npm install thingy", its "babel thingy" and other "webpack thingy".
-    
+
     The time when you just had to add a script tag by hand that points to a CDN is long gone.
 
 
     To ease the use of our components, we have created a "smart CDN" to expose our components.
-    
+
     In this session, I'll show you how we set up this system.
 
     We will explain how we build the files and how we expose them.

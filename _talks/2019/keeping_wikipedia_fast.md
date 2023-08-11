@@ -21,8 +21,8 @@ en_US:
   title: "Keeping Wikipedia Fast"
   description: >-
     The performance team at the Wikimedia Foundation is responsible for measuring the performance of Wikipedia. That is easy right? Setup monitoring and you are ready to go? In theory it is easy, but in practice we have had some problems. 
-    
-    
+
+
     In this talk, we will look at how we do performance testing at the Wikimedia Foundation using synthetic monitoring tools and how it works together with our real user measurements. We will talk about the setup, some case studies where we found regressions and go through the learnings we got from our mistakes.
   slides:
     name: ~ https://speakerdeck.com/soulislove/keeping-wikipedia-fast-welovespeed

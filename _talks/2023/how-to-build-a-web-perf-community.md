@@ -41,7 +41,7 @@ en_US:
   excerpt: "Why, who, with what, how and for what results should you build a community around Web Performance? La Redoute's experience."
   description: >-
     We propose to share our feedback on the implementation of our WebPerf Community within La Redoute.
-    
+
 
     The overall plan is as follows:
 

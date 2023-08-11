@@ -1,7 +1,7 @@
 ---
 display-order: 10
 locale: en_US
-pub_date: '2018-07-01'
+pub_date: "2018-07-01"
 speakers:
   - jonas
 fr_FR:

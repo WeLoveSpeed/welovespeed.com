@@ -2,7 +2,7 @@
 display-order: 5
 locale: fr_FR
 length: 25
-pub_date: '2018-06-01'
+pub_date: "2018-06-01"
 speakers:
   - antoine
 fr_FR:

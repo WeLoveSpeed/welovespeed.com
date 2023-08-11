@@ -6,7 +6,7 @@ pub_date: "2020-12-05"
 speakers:
   - m4dz
 fr_FR:
-  title: 'CDN et performances : ouvrez, c’est la police !'
+  title: "CDN et performances : ouvrez, c’est la police !"
   description: >-
     Héberger ses fontes ? Pas si simple.
 
@@ -23,7 +23,7 @@ fr_FR:
     name: ~
     url: https://youtu.be/QHpdk-o68JE
 en_US:
-  title: 'CDN and Performances: Cover the Fonts'
+  title: "CDN and Performances: Cover the Fonts"
   description: >-
     Hosting fonts? Good luck!
 

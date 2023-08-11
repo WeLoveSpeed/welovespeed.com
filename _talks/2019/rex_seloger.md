@@ -2,7 +2,7 @@
 display-order: 11
 locale: fr_FR
 length: 35
-pub_date: '2018-06-01'
+pub_date: "2018-06-01"
 speakers:
   - antonio
 fr_FR:
@@ -63,7 +63,7 @@ en_US:
 
     Then, in a second phase, why and how we carried out the migration:
 
-   
+
     - Why abandon a custom solution?
 
     - What are the impacts on our projects?
