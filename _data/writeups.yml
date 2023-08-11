@@ -2,7 +2,8 @@
   writeups:
     - url: https://tech.bedrockstreaming.com/2023/08/11/we-love-speed-2023.html#webperf-at-bedrock
       title: "Bedrock at We Love Speed 2023"
-      authors: ["Etienne Doyon", "Alexandre Gory", "Maxime Blanc", "Florent Dubost"]
+      authors:
+        ["Etienne Doyon", "Alexandre Gory", "Maxime Blanc", "Florent Dubost"]
       locale: en_US
       extract: >-
         Bedrock’s technical teams have long been aware of the importance of web performance. Since we set up our first full JS frontend in 2015, we have been implementing best practices (SSR, lazy loading, prefetching, code spitting, image optimization, etc.) and we try to carry out regular optimization projects.
@@ -27,6 +28,15 @@
       from:
         name: Ouidou
         url: https://ouidou.fr/
+    - url: https://medium.com/manomano-tech/personal-wrap-up-of-we-love-speed-2023-conference-144d73ab0542
+      title: "Personal wrap-up of We Love Speed 2023 conference"
+      authors: ["Stephane Biancotto"]
+      locale: en_US
+      extract: >-
+        Overall, it was a fulfilling and intense day with excellent organization and a seamless experience. I would like to express my gratitude to ManoMano for providing me with the opportunity to attend the conference.
+      from:
+        name: ManoMano Tech Team
+        url: https://medium.com/manomano-tech
 - year: 2021
   writeups:
     - url: http://meetups.pixelastic.com/2021/12/16/we-love-speed-2021/
