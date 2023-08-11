@@ -1,3 +1,17 @@
+- year 2023
+  writeups:
+    - url: https://tech.bedrockstreaming.com/2023/08/11/we-love-speed-2023.html#webperf-at-bedrock
+      title: "Bedrock at We Love Speed 2023"
+      authors: ["Etienne Doyon", "Alexandre Gory", "Maxime Blanc", "Florent Dubost"]
+      locale: en_US
+      extract: >-
+        Bedrock’s technical teams have long been aware of the importance of web performance. Since we set up our first full JS frontend in 2015, we have been implementing best practices (SSR, lazy loading, prefetching, code spitting, image optimization, etc.) and we try to carry out regular optimization projects.
+
+
+        But we know that we still have a lot to do in this area, particularly in terms of long-term monitoring and company-wide concern.
+      from:
+        name: Bedrock Streaming
+        url: https://bedrockstreaming.com/
 - year: 2021
   writeups:
     - url: http://meetups.pixelastic.com/2021/12/16/we-love-speed-2021/
