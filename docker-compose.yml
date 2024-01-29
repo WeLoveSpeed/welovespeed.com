@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  bundle:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www
+      - bundler_gems:/usr/local/bundle
+    entrypoint: bundle
+    command: exec rake build:serve
+    ports:
+      - 4000:4000
+
+volumes:
+  bundler_gems:
