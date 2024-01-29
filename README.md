@@ -6,7 +6,7 @@ URL finale : https://www.welovespeed.com/.
 
 ## Pré-requis
 
-Le site est généré à l'aide de [Jekyll](https://jekyllrb.com/) et nécessite Ruby 2.4.3 (voir `.ruby-version`)
+Le site est généré à l'aide de [Jekyll](https://jekyllrb.com/) et nécessite Ruby 3.3.0 (voir `.ruby-version`).
 
 Nous vous recommandons de gérer l'installation de Ruby via [rbenv](https://github.com/rbenv/rbenv).
 
