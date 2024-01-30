@@ -4,9 +4,11 @@ Site internet de la conférence 'We ❤️ Speed', dont la première édition au
 
 URL finale : https://www.welovespeed.com/.
 
-## Pré-requis
+## Installation classique
 
-Le site est généré à l'aide de [Jekyll](https://jekyllrb.com/) et nécessite Ruby 2.4.3 (voir `.ruby-version`)
+### Pré-requis
+
+Le site est généré à l'aide de [Jekyll](https://jekyllrb.com/) et nécessite Ruby 3.3.0 (voir `.ruby-version`).
 
 Nous vous recommandons de gérer l'installation de Ruby via [rbenv](https://github.com/rbenv/rbenv).
 
@@ -27,7 +29,7 @@ $ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 $ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
 
-## Installation
+### Installation
 
 Si vous n'avez pas déjà cloné le dépot :
 ```bash
@@ -46,7 +48,7 @@ Pour installer la bonne version de Ruby avec rbenv :
 $ rbenv install
 ```
 
-## Travailler en local
+### Travailler en local
 
 Pour travailler sur le site et surveiller les modifications :
 
@@ -72,6 +74,39 @@ Le site est maintenant accessible en local à l'adresse http://127.0.0.1:4000/ (
 
 Pour plus d'information sur l'utilisation de Jekyll, reportez-vous à la [documentation officielle](https://jekyllrb.com/docs/).
 
+## Installation Docker
+
+### Pré-requis
+
+Vous devez avoir [Docker](https://www.docker.com/) >= 24 & [Docker Compose](https://docs.docker.com/compose/) >= 2.23 installé sur votre machine.
+
+### Installation
+
+```bash
+$ docker-compose run bundle install
+```
+
+### Travailler en local
+
+Pour travailler sur le site et surveiller les modifications :
+
+```bash
+$ docker-compose up -d bundle
+```
+
+Le site est maintenant accessible en local à l'adresse http://127.0.0.1:4000/ (dev).
+
+Pour builder pour l'environnement d'intégration
+
+```bash
+$ docker-compose run bundle exec rake build:integ
+```
+
+Pour builder pour la Production
+
+```bash
+$ docker-compose run bundle exec rake build:prod
+```
 
 ## Contribution
 
