@@ -43,46 +43,7 @@ layout: default
       </p>
     </header>
 
-    <div class="text-center">
-      {% if verbatim.cta %}
-        <a class="button" data-text="{{ verbatim.cta.name }}" href="{{ verbatim.cta.url }}" title="{{ verbatim.cta.name }}"><span class="button-inner">{{ verbatim.cta.name }}</span></a>
-      {% else %}
-        {% if other_verbatim.cta %}
-          {% capture text_button %}{{ other_verbatim.cta.name }} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-          <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.cta.url }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
-        {% endif %}
-      {% endif %}
-      {% if verbatim.transcript %}
-        <a class="button" data-text="{% t Lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t Lire la version textuelle %}"><span class="button-inner">{% t Lire la version textuelle %}</span></a>
-      {% else %}
-        {% if other_verbatim.transcript %}
-          {% capture text_button %}{% t Lire la version textuelle %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-          <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.transcript }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
-        {% endif %}
-      {% endif %}
-      {% if verbatim.slides.url %}
-        {% capture defaultLabel %}{{ "Consulter le support" | t: include.locale }}{% endcapture %}
-        {% assign label = verbatim.slides.name | default: defaultLabel %}
-        <a class="button" data-text="{{ label }}" href="{{ verbatim.slides.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
-      {% else %}
-        {% if other_verbatim.slides.url %}
-          {% capture defaultLabel %}{% t Consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-          {% capture label %}{{ verbatim.slides.name | default: defaultLabel }}{% endcapture %}
-          <a class="button" data-text="{{ label }}" href="{{ other_verbatim.slides.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
-        {% endif %}
-      {% endif %}
-      {% if verbatim.video.url %}
-        {% capture defaultLabel %}{{ "Voir la vidéo" | t: include.locale }}{% endcapture %}
-        {% assign label = verbatim.video.name | default: defaultLabel %}
-        <a class="button" data-text="{{ label }}" href="{{ verbatim.video.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
-        {% else %}
-        {% if other_verbatim.video.url %}
-          {% capture defaultLabel %}{% t Voir la vidéo %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-          {% capture label %}{{ other_verbatim.video.name | default: defaultLabel }}{% endcapture %}
-          <a class="button" data-text="{{ label }}" href="{{ other_verbatim.video.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
-        {% endif %}
-      {% endif %}
-    </div>
+    {% include conference_buttons.html verbatim=verbatim other_verbatim=other_verbatim locale=include.locale %}
 
     {{ verbatim.description | markdownify }}
 
