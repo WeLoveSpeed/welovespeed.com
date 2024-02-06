@@ -1,30 +1,54 @@
 .conference {
-  padding: 2rem;
-  box-shadow: 0 0 0.5em 0 rgba(230, 40, 39, 0.15);
-  &-speaker {
+  @media (min-width: 30rem) {
     padding: 2rem;
+    box-shadow: 0 0 0.5em 0 rgba(230, 40, 39, 0.15);
+  }
+
+  @media (min-width: 40rem) {
+    padding: 4rem;
+  }
+
+
+  &-speakers {
+    padding-top: 1rem;
+  }
+
+  &-speaker {
+    display: grid;
+    grid-template-columns: 5em auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "Pic Name"
+      "Description Description";
+    gap: 1em;
+
+    & + & {
+      margin-top: 2rem;
+    }
 
     p {
       margin: 0;
     }
 
     &-pic {
-      max-width: 6em;
-      float: left;
-      margin: 0.5em 1em 0.5em 0;
+      grid-area: Pic;
       overflow: hidden;
       border-radius: 50%;
     }
     &-name {
-      line-height: 1.25;
+      grid-area: Name;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 0;
       position: relative;
-      display: inline-block;
+      line-height: 1.25;
       sup {
         vertical-align: bottom;
       }
     }
     &-description {
-      margin: 0.5em 0;
+      grid-area: Description;
+      margin: 0.5em 0 0 0;
     }
 
     .person-links li {

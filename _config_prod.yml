@@ -118,7 +118,7 @@ pagination:
 
 collections:
   talks:
-    output: false
+    output: true
     order: date asc
     permalink: /talks/:path/
     sitemap: false
@@ -143,6 +143,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  -
+    scope:
+      type: "talks"
+    values:
+      layout: talk
   -
     scope:
       path: "pages/fr/2018"

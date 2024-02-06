@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+{%- assign year = page.pub_date | date: "%Y" | plus: 0 -%}
+
+{%- capture speakers -%}
+  {%- for name in page.speakers -%}
+    <a href="#{{ name }}">{{- site.data.speakers[year][name].name -}}</a>
+    {%- if forloop.last == false %}|{% endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- capture array_to_sentence_word -%}
+  {{- "et" | t: page.locale -}}
+{%- endcapture -%}
+
+{%- if page.locale == "en_US" and page.en_US -%}
+  {%- assign verbatim = page.en_US -%}
+  {%- assign other_verbatim = page.fr_FR -%}
+{%- else %}
+  {%- assign verbatim = page.fr_FR -%}
+  {%- assign other_verbatim = page.en_US -%}
+{%- endif -%}
+
+{%- capture interventionsUrl -%}
+  {%- if site.current_edition < year or site.infos.interventions -%}
+    /{{ year }}/{{ "interventions" | t: page.locale }}/
+  {%- else if site.infos.schedule -%}
+    /{{ year }}/{{ "programme" | t: page.locale }}/
+  {%- else -%}
+    /{{ year }}/
+  {%- endif -%}
+{%- endcapture -%}
+
+<section class="section">
+  <div class="wrapper">
+    <header class="text-center">
+      <h1>{{ verbatim.title }} {% if verbatim.subtitle %}<br><small>{{ verbatim.subtitle }}</small>{% endif %}</h1>
+      <p>
+        par {{ speakers | split: '|' | array_to_sentence_string: array_to_sentence_word }},
+        édition <a href="{{ interventionsUrl }}#{{ page.slug }}">{{ year }}</a>
+      </p>
+    </header>
+
+    <div class="text-center">
+      {% if verbatim.cta %}
+        <a class="button" data-text="{{ verbatim.cta.name }}" href="{{ verbatim.cta.url }}" title="{{ verbatim.cta.name }}"><span class="button-inner">{{ verbatim.cta.name }}</span></a>
+      {% else %}
+        {% if other_verbatim.cta %}
+          {% capture text_button %}{{ other_verbatim.cta.name }} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+          <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.cta.url }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+        {% endif %}
+      {% endif %}
+      {% if verbatim.transcript %}
+        <a class="button" data-text="{% t Lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t Lire la version textuelle %}"><span class="button-inner">{% t Lire la version textuelle %}</span></a>
+      {% else %}
+        {% if other_verbatim.transcript %}
+          {% capture text_button %}{% t Lire la version textuelle %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+          <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.transcript }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+        {% endif %}
+      {% endif %}
+      {% if verbatim.slides.url %}
+        {% capture defaultLabel %}{{ "Consulter le support" | t: include.locale }}{% endcapture %}
+        {% assign label = verbatim.slides.name | default: defaultLabel %}
+        <a class="button" data-text="{{ label }}" href="{{ verbatim.slides.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
+      {% else %}
+        {% if other_verbatim.slides.url %}
+          {% capture defaultLabel %}{% t Consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+          {% capture label %}{{ verbatim.slides.name | default: defaultLabel }}{% endcapture %}
+          <a class="button" data-text="{{ label }}" href="{{ other_verbatim.slides.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
+        {% endif %}
+      {% endif %}
+      {% if verbatim.video.url %}
+        {% capture defaultLabel %}{{ "Voir la vidéo" | t: include.locale }}{% endcapture %}
+        {% assign label = verbatim.video.name | default: defaultLabel %}
+        <a class="button" data-text="{{ label }}" href="{{ verbatim.video.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
+        {% else %}
+        {% if other_verbatim.video.url %}
+          {% capture defaultLabel %}{% t Voir la vidéo %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+          {% capture label %}{{ other_verbatim.video.name | default: defaultLabel }}{% endcapture %}
+          <a class="button" data-text="{{ label }}" href="{{ other_verbatim.video.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
+        {% endif %}
+      {% endif %}
+    </div>
+
+    {{ verbatim.description | markdownify }}
+
+    <hr />
+
+    {% include speaker_bios.html conference=page year=year locale=page.locale withAnchors=true %}
+  </div>
+</section>
+
+<hr class="wrapper" />

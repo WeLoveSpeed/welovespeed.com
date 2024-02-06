@@ -119,3 +119,7 @@ button svg {
   text-decoration: none;
   pointer-events: none;
 }
+
+*[id] {
+  scroll-margin-top: 75px;
+}

@@ -25,7 +25,7 @@
       {% endif %}
       <article class="conference {% cycle 'odd', 'even' %}">
         <h3>
-          {{ verbatim.title }} {% if verbatim.subtitle %}<small>{{ verbatim.subtitle }}</small>{% endif %}&nbsp;<a href="#{{ conference.slug }}" class="text-xs">#</a>
+          <a href="{{ conference.url }}">{{ verbatim.title }}</a> {% if verbatim.subtitle %}<small>{{ verbatim.subtitle }}</small>{% endif %}
         </h3>
         {{ verbatim.description | markdownify }}
         {% if verbatim.cta or verbatim.transcript or verbatim.slides.url or verbatim.video.url or other_verbatim.cta or other_verbatim.transcript or other_verbatim.slides.url or other_verbatim.video.url %}
@@ -70,29 +70,8 @@
           {% endif %}
           </p>
         {% endif %}
-          {% for name in conference.speakers %}
-            {% assign speaker = site.data.speakers[include.year][name] %}
-            {% if include.locale == "en_US" and speaker.en_US %}
-              {% assign speakatim = speaker.en_US %}
-            {% else %}
-              {% assign speakatim = speaker.fr_FR %}
-            {% endif %}
-            <section class="conference-speaker text-sm">
-              <figure class="conference-speaker-pic">
-                {% cloudinary avatar {{ speaker.image | relative_url }} class="person-avatar" alt="" loading="lazy" %}
-                {% capture youString %}{{ "Vous !" | t: page.locale }}{% endcapture %}
-                <figcaption class="sr-only">{{ speaker.name | default: youString }}</figcaption>
-              </figure>
-              <h3 class="conference-speaker-name">
-                {% assign speakerCount = conference.speakers | size %}
-                  <span class="text-xs">{% t Présenté %}{% if conference.locale %}{% unless conference.locale == include.locale %}<b>{{ " en anglais" | t: page.locale }}</b>{% endunless %}{% elsif speaker.locale %}{% unless speaker.locale == include.locale %}<b>{{ " en anglais" | t: page.locale }}</b>{% endunless %}{% endif %} {%t par %}</span><br>
-                <em>{{ speaker.name | default: youString }}</em> {% include person-links.html urls=speaker.urls %}
-              </h3>
-              <p class="conference-speaker-description">
-                {{ speakatim.bio | markdownify }}
-              </p>
-            </section>
-          {%- endfor -%}
+
+        {% include speaker_bios.html conference=conference year=include.year locale=include.locale withAnchors=false %}
       </article>
       {%- endif -%}
 
