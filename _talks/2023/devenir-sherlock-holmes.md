@@ -23,23 +23,19 @@ fr_FR:
 
 
     Sujets abordés :
-
+    
     - Présentation de la méthode de Sherlock : observation, déduction, abduction, évaluation, vérification et communication  
 
     - Application concrète à la web performance :  
 
-      - Observation : Bonne pratique des outils d’observabilité, contextualisation des incidents, analyses statistiques des contributeurs des Web Core Vitals.  
-      
-      - Déduction : bonnes connaissances du cycle de rendu et de ces conséquences  
-
+      - Observation : Bonne pratique des outils d’observabilité, contextualisation des incidents, analyses statistiques des contributeurs des Web Core Vitals.
+      - Déduction : bonnes connaissances du cycle de rendu et de ces conséquences
       - …  
 
     - Présentation de plusieurs cas pratiques :  
 
-      - Dégradation LCP sur un segment particulier de l’audience  
-
-      - Identification des interactions utilisateurs  
-      
+      - Dégradation LCP sur un segment particulier de l’audience
+      - Identification des interactions utilisateurs
       - …  
 
     Si vous avez besoin de concevoir un plan d’optimisation, ou si vous surveillez la performance de votre site au quotidien à l'affut de la moindre régression, cette présentation est faite pour vous.
@@ -72,17 +68,13 @@ en_US:
     - Concrete application to web performance:  
 
       - Observation: good practice of observability tools, contextualization of incidents, statistical analysis of Web Core Vitals contributors.
-
       - Deduction: good knowledge of the rendering cycle and its consequences
-
       - ...
 
     - Presentation of several practical cases:
 
       - LCP degradation on a particular segment of the audience 
-
       - Identification of user interactions
-      
       - ...
 
 

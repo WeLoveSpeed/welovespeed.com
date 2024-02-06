@@ -180,3 +180,16 @@ button.btn--link-like {
 .line-through {
   text-decoration: line-through;
 }
+
+li > p:first-child {
+  margin-top: 0;
+}
+
+li > p:has(+ ul) {
+  margin-bottom: 0;
+}
+
+li > ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
