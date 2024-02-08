@@ -7,7 +7,7 @@ pub_date: "2023-03-15"
 speakers:
   - mel_ada
 fr_FR:
-  title: "Comment prioriser vos optimisation ?"
+  title: "Comment prioriser vos optimisations ?"
   subtitle: ~
   excerpt: "Une liste d'optimisations plus longue que votre backlog existant ? Priorisez en estimant l'impact en fonction des objectifs de votre organisation."
   description: >-

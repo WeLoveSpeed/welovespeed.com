@@ -3,6 +3,12 @@
   tagline:
     fr_FR: "10 mai 2023, Paris"
     en_US: "May 10, 2023 - Paris, France"
+  date:
+    fr_FR: "10 mai 2023"
+    en_US: "May 10, 2023"
+  location:
+    fr_FR: "Espace Saint-Martin, Paris"
+    en_US: "Espace Saint-Martin, Paris, France"
   pictures:
     title: Flickr
     url: https://www.flickr.com/photos/165201814@N05

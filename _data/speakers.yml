@@ -6,9 +6,12 @@
       - name: web
         title: Personnal Website
         url: https://andydavies.me
+    company: SpeedCurve
     en_US:
       alt: >-
         Andy's mugshot
+      bio_short: >-
+        Web Performance Consultant
       bio: >-
         Andy is a Web Performance Consultant at SpeedCurve, where he helps customers to measure and improve the speed of their sites.
         He stumbled into web performance in 2008 while launching an online education service and quickly ran into the challenge of delivering rich content to schools over congested networks.
@@ -18,6 +21,8 @@
     fr_FR:
       alt: >-
         Portrait d'Andy
+      bio_short: >-
+        Consultant Web Performance
       bio: >-
         Andy est consultant en performance web chez SpeedCurve, où il aide les clients à mesurer et à améliorer la vitesse de leurs sites.
         Il est tombé dans la performance web en 2008 en lançant un service d'éducation en ligne et a rapidement été confronté au défi de fournir un contenu riche aux écoles sur des réseaux encombrés.
@@ -31,9 +36,12 @@
       - name: twitter
         title: "@yoavweiss (Twitter)"
         url: https://twitter.com/yoavweiss
+    company: Google
     en_US:
       alt: >-
         Yoav's mugshot
+      bio_short: >-
+        Software Engineer &ndash; Chrome
       bio: >-
         Yoav Weiss has been working on mobile web performance for longer than he cares to admit, on the server side as well as in browsers. He now works as part of Google’s Chrome team, helping to fix web performance once and for all.
 
@@ -45,6 +53,8 @@
     fr_FR:
       alt: >-
         Photo de Yoav
+      bio_short: >-
+        Software Engineer &ndash; Chrome
       bio: >-
         Yoav Weiss travaille sur les performances du web mobile depuis plus longtemps qu'il ne veut bien l'admettre, tant du côté des serveurs que des navigateurs. Il fait désormais partie de l'équipe chargée de la plateforme web de Chrome, où il contribue à améliorer les performances du web une fois pour toutes.
 
@@ -60,14 +70,17 @@
       - name: linkedin
         title: "LinkedIn"
         url: https://www.linkedin.com/in/christophe-bredeche-17a06210/
+    company: La Redoute
     en_US:
       alt: >-
         Christophe's mugshot
+      bio_short: IT Director Digital Platform
       bio: >-
         Digital enthusiast since last century, worked on several digital domains from online gaming,  video contents, advertising and online shopping.
     fr_FR:
       alt: >-
         Portrait de Christophe
+      bio_short: IT Director Digital Platform
       bio: >-
         Passionné par le numérique depuis le siècle dernier, il a travaillé sur plusieurs domaines numériques tels que les jeux en ligne, les contenus vidéo, la publicité et les achats en ligne.
   jonathan_blois:
@@ -77,14 +90,17 @@
       - name: linkedin
         title: "LinkedIn"
         url: https://www.linkedin.com/in/jonathan-blois-59b7a069/
+    company: La Redoute
     en_US:
       alt: >-
         Jonathan's mugshot
+      bio_short: Front-End Developer
       bio: >-
         Curious and passionate about ideas, design, creation and code, looking for epic quests in user experience, amazing visual odysseys, fantastic adventures in graphic design, incredible plots in code.
     fr_FR:
       alt: >-
         Portrait de Jonathan
+      bio_short: Développeur Front-End
       bio: >-
         Curieux passionné par l’idée, la conception, la création et le code, à la recherche de quêtes épiques dans l’expérience utilisateur, de formidables odyssées visuelles, d’aventures fantastiques dans la création graphique, d’incroyables intrigues au cœur du code.
   alexandre_cantais:
@@ -94,14 +110,17 @@
       - name: linkedin
         title: "LinkedIn"
         url: https://www.linkedin.com/in/alexandre-cantais-82b89b41/
+    company: La Redoute
     en_US:
       alt: >-
-        Alexadre's mugshot
+        Alexandre's mugshot
+      bio_short: Front-End Web Developer
       bio: >-
         Design and development engineer
     fr_FR:
       alt: >-
         Portrait d'Alexandre
+      bio_short: Développeur Front-End
       bio: >-
         Ingénieur d'études et développement
   stephane_rios:
@@ -111,9 +130,12 @@
       - name: web
         title: Fasterize
         url: https://www.fasterize.com
+    company:
+      - Fasterize
     en_US:
       alt: >-
         Stéphane's mugshot
+      bio_short: CEO
       bio: >-
         For 10 years, Stéphane RIOS was CTO of RueDuCommerce.com, leader and pioneer of French eCommerce. Obsessed with the excess byte and time wasting, he managed large technical teams while remaining a geek passionate about Lean, dev and highly available and performing web architectures.
 
@@ -125,6 +147,7 @@
     fr_FR:
       alt: >-
         Portrait de Stéphane
+      bio_short: CEO
       bio: >-
         Pendant 10 ans, Stéphane RIOS a été CTO de RueDuCommerce.com, leader et pionnier du eCommerce français. Obsédé de l'octet en trop et du gaspillage de temps, il a géré des équipes techniques conséquentes tout en restant un geek passionné de Lean, de dév et d'architectures Web hautement disponibles et performantes.
 
@@ -140,9 +163,11 @@
       - name: twitter
         title: "@TimVereecke (Twitter)"
         url: https://twitter.com/TimVereecke
+    company: Akamai
     en_US:
       alt: >-
         Tim's mugshot
+      bio_short: Web Performance Architect
       bio: >-
         Tim Vereecke loves speeding up websites and likes to understand the technical and business aspects of WebPerf since 15+ years.
 
@@ -150,6 +175,7 @@
     fr_FR:
       alt: >-
         Portrait de Tim
+      bio_short: Web Performance Architect
       bio: >-
         Tim Vereecke adore accélérer les sites web et aime comprendre les aspects techniques et commerciaux de la WebPerf depuis plus de 15 ans.
 
@@ -161,14 +187,17 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/mel-ada/
+    company: Etsy
     en_US:
       alt: >-
         Mel's mugshot
+      bio_short: 'Senior Software Engineer II'
       bio: >-
         Mel co-organizes the NY Web Performance Meetup and recently co-authored <a href="https://almanac.httparchive.org/en/2022/performance"  target="_blank" rel="nofollow">the Web Performance Chapter of Web Almanac 2022</a>. She is currently a Senior Software Engineer II on Etsy’s Web Performance team and a Google Developer Expert in Core Web Vitals.
     fr_FR:
       alt: >-
         Portrait de Mel
+      bio_short: 'Senior Software Engineer II'
       bio: >-
         Mel co-organise le NY Web Performance Meetup et a récemment co-rédigé <a href="https://almanac.httparchive.org/en/2022/performance" target="_blank" rel="nofollow">le chapitre sur les performances Web de Web Almanac 2022</a>. Elle est actuellement Ingénieure Logiciel Senior II au sein de l'équipe de Performance Web d'Etsy et Experte Développeuse Google sur les Core Web Vitals.
   ludovic_lefebvre:
@@ -181,13 +210,18 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/ludovic-lefebvre-7611a08/
+    company: Peaksys, Cdiscount
     en_US:
+      alt: Ludovic's mugshot
+      bio_short: Product Owner
       bio: >-
         As a web performance enthusiast for more than 15 years, I have acquired a solid experience as a "perf coaching" team manager at Peaksys, technical subsidiary of Cdiscount, for several years. Today, as Product Owner of an innovative web performance and security solution, my mission is to provide innovative solutions to ensure a quality user experience and enhanced security.
 
 
         Outside of my job, I am also passionate about mind mapping and electronic music composition.
     fr_FR:
+      alt: Portrait de Ludovic
+      bio_short: Product Owner
       bio: >-
         En tant que passionné de la performance web depuis plus de 15 ans, j'ai acquis une solide expérience en tant que responsable de l'équipe "coaching perf" chez Peaksys, filiale Tech de Cdiscount, pendant plusieurs années. Aujourd'hui, en tant que Product Owner d'une solution innovante de sécurité et de performance web, ma mission est de fournir des solutions innovantes pour garantir une expérience utilisateur de qualité et une sécurité renforcée.
 
@@ -200,19 +234,23 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/jeanpierrevincent/
+    company: BrainCracking
     en_US:
       alt: >-
         Jean-Pierre's mugshot
+      bio_short: Web Performance Expert
       bio: >-
         Jean-Pierre Vincent - Independent Technical Expert and trainer on Web and JavaScript Performance. Since 2010, Jean-Pierre accompanies his clients in their webperf strategy or train their teams. He is also the co-organizer of the <a href="https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/" target="_blank" rel="nofollow">Paris Webperf meetups</a>.
     fr_FR:
       alt: >-
         Portrait de Jean-Pierre
+      bio_short: Expert Web Performance
       bio: >-
         Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis 2010, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes. Il est aussi le co-organisateur des <a href="https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/" target="_blank" rel="nofollow">meetups Webperf parisiens</a>.
   philip_tellis:
     name: Philip Tellis
     image: /assets/images/speakers/2023/philip_tellis.jpg
+    company: Akamai
     urls:
       - name: web
         title: Personnal website
@@ -226,11 +264,15 @@
     en_US:
       alt: >-
         Philip's mugshot
+      bio_short: >-
+        Principal Architect & RUM Distiller
       bio: >-
         Philip Tellis leads the mPulse Data Science team at Akamai. He is the author of the boomerang JavaScript library for collecting RUM data and now spends most of his time distilling the data that's been collected into interesting stories. Philip wears many hats (both literally and figuratively) and is comfortable with interfaces ranging from CSS to POSIX. His current interest in human behaviour is outside this comfort zone.
     fr_FR:
       alt: >-
         Portrait de Philip
+      bio_short: >-
+        Principal Architect & RUM Distiller
       bio: >-
         Philip Tellis dirige l'équipe mPulse Data Science chez Akamai. Il est l'auteur de la bibliothèque JavaScript boomerang pour la collecte de données RUM et passe désormais le plus clair de son temps à distiller les données collectées pour en faire des histoires intéressantes. Philip porte de nombreuses casquettes (au sens propre comme au sens figuré) et est à l'aise avec des interfaces allant de CSS à POSIX. Son intérêt actuel pour le comportement humain se situe en dehors de cette zone de confort.
   kevin_raynel:
@@ -242,10 +284,12 @@
         url: https://twitter.com/kraynl
       - name: linkedin
         title: LinkedIn
-        url: https://fr.linkedin.com/in/kevin-raynel-91a75120
+        url: https://fr.linkedin.com/in/kevin-raynel-91a75120/
+    company: Theodo
     en_US:
       alt: >-
         Kevin's mugshot
+      bio_short: Architect, Web Developer, Coach
       bio: >-
         Passionate about performance and scalability, Kevin has been working in web development for over 10 years.
 
@@ -253,6 +297,7 @@
     fr_FR:
       alt: >-
         Portrait de Kévin
+      bio_short: Architect, Web Developer, Coach
       bio: >-
         Passionné de performance et de scalabilité, Kevin travaille depuis plus de 10 ans dans le développement web.
 
@@ -264,14 +309,17 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/martin-guillier/
+    company: Theodo
     en_US:
       alt: >-
         Martin's mugshot
+      bio_short: Engineering Manager
       bio: >-
         Martin is Engineering Manager and leader of the Performance offer at Theodo. Curious by nature, he is interested in new technologies and the improvements they bring.
     fr_FR:
       alt: >-
         Portrait de Martin
+      bio_short: Engineering Manager
       bio: >-
         Martin est Engineering Manager et leader de l'offre Performance chez Theodo. Curieux de nature, il s'intéresse aux nouvelles technologies et aux améliorations qu'elles permettent.
   barry_pollard:
@@ -287,14 +335,17 @@
       - name: mastodon
         title: "@tunetheweb@webperf.social (Mastodon)"
         url: https://webperf.social/@tunetheweb
+    company: Google Chrome
     en_US:
       alt: >-
         Barry's mugshot
+      bio_short: Web Performance Developer Advocate
       bio: >-
         Barry Pollard is a Web Performance Developer Advocate in the Google Chrome team, working on Core Web Vitals and the Chrome User Experience Report (CrUX). He is one of the maintainers of the HTTP Archive and it's annual Web Almanac publication. He's also the author of HTTP/2 in Action from Manning Publications.
     fr_FR:
       alt: >-
         Portrait de Barry
+      bio_short: Web Performance Developer Advocate
       bio: >-
         Barry Pollard est un développeur spécialisé dans les performances Web au sein de l'équipe Google Chrome. Il travaille sur les <span lang="en">Core Web Vitals</span> et sur le <span lang="en">Chrome User Experience Report (CrUX)</span>. Il est l'un des responsables de la maintenance de HTTP Archive et de la publication annuelle du Web Almanac. Il est également l'auteur de "<span lang="en">HTTP/2 in Action</span>", publié par Manning Publications.
   thomas_perronneau:
@@ -304,14 +355,17 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/thomas-perronneau-84108b155/
+    company: France Boissons
     en_US:
       alt: >-
         Thomas's mugshot
+      bio_short: E-commerce project manager
       bio: >-
         E-commerce project manager / Product Owner for 2 years at France-Boissons / Heineken France Group
     fr_FR:
       alt: >-
         Portrait de Thomas
+      bio_short: E-commerce project manager
       bio: >-
         Chef de projet e-commerce / Product Owner depuis 2 ans chez France-Boissons / Groupe Heineken France
   robin_marx:
@@ -324,9 +378,11 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/rmarx/
+    company: Akamai
     en_US:
       alt: >-
         Robin's mugshot
+      bio_short: Web Protocol & Performance Expert
       bio: >-
         Robin Marx is a Web Performance Expert at Akamai Technologies. He focuses on the performance and workings of modern Web protocols like HTTP/2, HTTP/3 and QUIC and has been a contributor in the IETF QUIC working group for multiple years.
 
@@ -335,6 +391,7 @@
     fr_FR:
       alt: >-
         Portrait de Robin
+      bio_short: Web Protocol & Performance Expert
       bio: >-
         Robin Marx est expert en performances web chez Akamai Technologies. Il étudie les performances et le fonctionnement des protocoles web modernes tels que HTTP/2, HTTP/3 et QUIC et contribue depuis plusieurs années au groupe de travail QUIC de l'IETF.
 
@@ -350,14 +407,17 @@
       - name: linkedin
         title: "LinkedIn"
         url: https://www.linkedin.com/in/borisschapira/
+    company: Contentsquare
     en_US:
       alt: >-
         Boris's mugshot
+      bio_short: Web Quality Solution Expert
       bio: >-
         Boris is a Solution Expert at Contentsquare. After having spent several years helping development teams adopt Web Performance best practices, he is now in contact with Marketing and Strategy teams and shows them, with data, why Web Quality serves their objectives.
     fr_FR:
       alt: >-
         Portrait de Boris
+      bio_short: Web Quality Solution Expert
       bio: >-
         Boris est Solution Expert chez Contentsquare. Après avoir passé plusieurs années à aider des équipes de développement à adopter des bonnes pratiques de Web Performance, il est désormais au contact des équipes Marketing et Stratégie et leur montre, données à l'appui, pourquoi la Qualité Web sert leurs objectifs.
   bertrand_keller:
@@ -367,9 +427,11 @@
       - name: twitter
         title: "@bertrandkeller (Twitter)"
         url: https://mobile.twitter.com/bertrandkeller
+    company: Koena
     en_US:
       alt: >-
         Bertrand's mugshot
+      bio_short: Expert Accessibilité
       bio: >-
         Master HTML developer, CSS engineer... we don't really know how to name our job. But I know interfaces and how a browser works.
 
@@ -378,6 +440,7 @@
     fr_FR:
       alt: >-
         Portrait de Bertrand
+      bio_short: Expert Accessibilité
       bio: >-
         Maître Intégrateur HTML, ingénieur CSS… on ne sait pas trop quel métier nous donner. Mais je connais les interfaces et comment fonctionne un navigateur.
 
@@ -393,14 +456,17 @@
       - name: twitter
         title: "@Cariboo_seo (Twitter)"
         url: https://twitter.com/Cariboo_seo
+    company: Groupe Neper & Know-y
     en_US:
       alt: >-
         Philippe's mugshot
+      bio_short: Président
       bio: >-
         Philippe Yonnet is the founder and president of the search marketing agency Neper. He is a recognized SEO expert and an experienced speaker. He has accompanied many large accounts for twenty years in the implementation of their SEO strategy. First president of the French SEO Camp association, he is also at the origin of the Search Y international conferences. Philippe Yonnet is also a jury member of the European Search Awards and the SEO by SEO Camp Awards.
     fr_FR:
       alt: >-
         Portrait de Philippe
+      bio_short: Président
       bio: >-
         Philippe Yonnet est le fondateur et président de l'agence de <span lang="en">Search Marketing Neper</span>. C'est un expert reconnu en SEO et un conférencier expérimenté. Il a accompagné de nombreux grands comptes depuis vingt ans dans l'implémentation de leur stratégie SEO. Premier président de l'association SEO Camp, il est également à l'origine des conférences internationales <span lang="en">Search Y</span>. Philippe Yonnet est également membre du Jury des <span lang="en">European Search Awards</span> et des <span lang="en">Awards SEO by SEO Camp</span>.
 2021:
@@ -419,10 +485,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/ludovic-lagatie/
+    company: Leroy Merlin
     en_US:
+      bio_short: Tech Lead
       bio: >-
         Freelance for more than 15 years as a Tech Lead and Application Architect, I support large companies in the development of their e-commerce site. My main motivation is to find technical solutions to continuously improve application performance and web performance.
     fr_FR:
+      bio_short: Tech Lead
       bio: >-
         Freelance depuis plus de 15 ans en tant que Tech Lead et Architecte applicatif, j’accompagne les grandes enseignes dans le développement de leur site e-commerce. Ma principale motivation est la recherche de solution technique pour améliorer continuellement la performance applicative et la webperf.
   bertrand_laot:
@@ -435,10 +504,13 @@
       - name: twitter
         title: "@josselinbuils (Twitter)"
         url: https://twitter.com/BertrandLaot
+    company: Leroy Merlin
     en_US:
+      bio_short: Front-end Developer Advocate
       bio: >-
         In love with the web for the past 15 years, I am front-end advocate at Leroy Merlin (ADEO Group). I lead a community of front-end developers around the issues of web quality, including web performance and accessibility.
     fr_FR:
+      bio_short: Front-end developer advocate
       bio: >-
         Amoureux du web depuis une quinzaine d'année, je suis <span lang="en">front-end developer advocate</span> chez Leroy Merlin (groupe ADEO). J'anime une communauté de développeurs <span lang="en">front-end</span> autour des enjeux de la qualité web, notamment la web performance et l'accessibilité.
   jeremy_wyler:
@@ -452,12 +524,13 @@
       - name: twitter
         title: "@jay_wyler (Twitter)"
         url: https://twitter.com/jay_wyler
+    company: Solocal
     en_US:
-      title: SEO Manager - Solocal
+      bio_short: SEO Manager
       bio: >-
         Jérémy Wyler is SEO manager at Solocal. He leads the local SEO strategy for the group's website offering, with nearly 40,000 clients to his credit. Jérémy and his SEO team conduct semantic studies and audits for each of Solocal's mid- and high-end websites. Jérémy also develops internal SEO tools for <a href="https://www.jeremywyler.fr/" target="_blank" rel="nofollow">the automation of semantic and competitive analysis</a>.
     fr_FR:
-      title: Responsable SEO - Solocal
+      bio_short: Responsable SEO
       bio: >-
         Jérémy Wyler est responsable SEO chez Solocal. Il dirige la stratégie de référencement local pour l'offre de site internet du groupe, comptant près de 40 000 clients à son actif. Jérémy et son équipe de SEO, réalisent études sémantiques et audit pour chacun des sites des offres milieu et haut de gamme proposée par Solocal. Jérémy s'occupe par ailleurs du développement d'outils SEO interne pour <a href="https://www.jeremywyler.fr/" target="_blank" rel="nofollow">l’automatisation des analyses sémantiques et concurrentielles</a>.
   amir_glatt:
@@ -468,25 +541,29 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/amirglatt/
+    company: Duda
     en_US:
-      title: Co-founder & CTO of Duda
+      bio_short: Co-founder & CTO
       bio: >-
         Co-founder and CTO of Duda, Amir Glatt has over 20 years of experience in product management, software architecture expertise and managing large development teams. Starting as Duda's only developer and engineer, Amir is the original mind behind the company's unique platform. In 2010, he left California and returned to Tel Aviv to open and oversee the company's new research and development facility. Under Amir's leadership, this team has grown to include over 80 highly skilled engineers and product managers.
     fr_FR:
-      title: Co-fondateur et CTO - Duda
+      bio_short: Co-fondateur et CTO
       bio: >-
         Co-fondateur et CTO de Duda, Amir Glatt a plus de 20 ans d'expérience dans la gestion de produits, l'expertise en architecture logicielle et la gestion de grandes équipes de développement. Ayant commencé en tant que seul développeur et ingénieur de Duda, Amir est l'esprit original derrière la plate-forme, seule en son genre, de l'entreprise. En 2010, il quitte la Californie et revient à Tel-Aviv pour ouvrir et superviser le nouveau bureau de recherche et développement de l'entreprise. Sous la direction d'Amir, cette équipe s'est agrandie pour compter aujourd'hui plus de 80 ingénieurs et chefs de produits hautement qualifiés.
   mathilde_duboille:
     name: Mathilde Duboille
     image: /assets/images/speakers/2021/mathilde_duboille.jpg
+    company: Theodo
     urls:
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/mathilde-duboille-b6474a148/
     en_US:
+      bio_short: Web Developer
       bio: >-
         Web developer for more than 2 years and active member of the performance and front-end dev community within Theodo.
     fr_FR:
+      bio_short: Développeuse Web
       bio: >-
         Développeuse web depuis plus de 2 ans et membre active de la communauté performance et dev front au sein de Theodo.
   francois_hendriks:
@@ -496,10 +573,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/francois-hendriks-b83696122/
+    company: Theodo
     en_US:
+      bio_short: Tech Lead
       bio: >-
         Francois has been working for more than two years at Theodo as a Tech Lead. Convinced that our development tools should be written in fast languages such as Go or Rust, he regularly does audits or performance missions involving both the front and back ends.
     fr_FR:
+      bio_short: Tech Lead
       bio: >-
         Francois travaille depuis plus de deux ans chez Theodo en tant que Tech Lead. Convaincu que nos outils de développement devraient être écrits dans des langages rapides comme Go ou Rust, il fait régulièrement des audits ou des missions de performance touchant au front comme au back.
   tim_vereecke:
@@ -509,10 +589,13 @@
       - name: twitter
         title: "@TimVereecke (Twitter)"
         url: https://twitter.com/TimVereecke
+    company: Akamai
     en_US:
+      bio_short: Web Performance Architect
       bio: >-
         Tim loves speeding up websites. Works as a web performance architect @Akamai, also runs <a href="https://www.scalemates.com/" target="_blank" rel="nofollow">scalemates.com</a> and <a href="https://www.frustrationindex.com/" target="_blank" rel="nofollow">frustrationindex.com</a>.
     fr_FR:
+      bio_short: Web Performance Architect
       bio: >-
         Tim aime accélérer les sites web. Il travaille en tant qu'architecte des performances web chez Akamai, et dirige également <a href="https://www.scalemates.com/" target="_blank" rel="nofollow">scalemates.com</a> et <a href="https://www.frustrationindex.com/" target="_blank" rel="nofollow">frustrationindex.com</a>.
   josselin_buils:
@@ -528,10 +611,13 @@
       - name: github
         title: Github
         url: https://github.com/josselinbuils
+    company: ManoMano
     en_US:
+      bio_short: Senior Frontend Developer
       bio: >-
         Josselin has been a front-end developer at ManoMano for 3 years. He actively participated in the redesign of the website via the Spartacux project, especially in the implementation of the new front stack with performance and developer experience as key targets.
     fr_FR:
+      bio_short: Senior Frontend Developer
       bio: >-
         Josselin est dévelopeur <span lang="en">front-end</span> chez ManoMano depuis 3 ans. Il a activement participé à la refonte du site web via le projet Spartacux, notament à la mise en place de la nouvelle stack front avec pour objectifs clés la performance et l'expérience dévelopeur.
   nicolas_audemar:
@@ -544,12 +630,15 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/nicolasaudemar/
+    company: SISTRIX
     en_US:
+      bio_short: Country Manager France
       bio: >-
         Nicolas, SEO expert and manager of SISTRIX France since its launch, has an intense passion for everything related to this discipline. Nicolas is attentive to the smallest details and knows how to decipher Google's guidelines with virtuosity. He is always on the lookout for new information on the problems of website editors, which he freely shares with his clients so that they can optimize them themselves.
 
         Traveling between Paris, Toulouse and Barcelona where he lives, Nicolas knows how to find the means that will make your KPIs explode as well as your number of quality leads!
     fr_FR:
+      bio_short: Country Manager France
       bio: >-
         Nicolas, expert en référencement et responsable de SISTRIX France depuis son lancement, a une passion intense pour tout ce qui touche à cette discipline. Nicolas est attentif aux moindres détails et sait décrypter les directives de Google avec virtuosité. Il est toujours à l'affût de nouvelles informations sur les problématiques des éditeurs de sites qu'il partage librement avec ses clients afin qu'ils puissent les optimiser eux-mêmes.
 
@@ -565,9 +654,11 @@
         title: LinkedIn
         url: https://www.linkedin.com/in/anthonyricaud/
     en_US:
+      bio_short: Web Performance & Architect Consultant
       bio: >-
         As a performance and web architecture consultant, Anthony helps teams improve their web projects. With a broad understanding of web protocols and browsers, he enjoys designing simple but fast web architectures.
     fr_FR:
+      bio_short: Consultant en performance et architecture web
       bio: >-
         Consultant en performance et architecture web, Anthony accompagne les équipes pour améliorer leurs projets web. Avec une large compréhension des protocoles Web et des navigateurs, il aime concevoir des architectures Web simples mais rapides.
   yoav_weiss:
@@ -577,7 +668,9 @@
       - name: twitter
         title: "@yoavweiss (Twitter)"
         url: https://twitter.com/yoavweiss
+    company: Google Chrome
     en_US:
+      bio_short: Developer Advocate
       bio: >-
         Yoav Weiss has been working on mobile web performance for longer than he cares to admit, on the server side as well as in browsers. He now works as part of Chrome's web platform team, helping to fix web performance once and for all.
 
@@ -587,6 +680,7 @@
 
         When he’s not writing code, he’s probably slapping his bass, mowing the lawn in the French countryside, or playing board games with his family.
     fr_FR:
+      bio_short: Developer Advocate
       bio: >-
         Yoav Weiss travaille sur les performances du web mobile depuis plus longtemps qu'il ne veut bien l'admettre, tant du côté des serveurs que des navigateurs. Il fait désormais partie de l'équipe chargée de la plateforme web de Chrome, où il contribue à améliorer les performances du web une fois pour toutes.
 
@@ -605,10 +699,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/jeanpierrevincent/
+    company: BrainCracking
     en_US:
+      bio_short: Independent expert, Web Performance trainer.
       bio: >-
         Independent expert, Web Performance trainer.
     fr_FR:
+      bio_short: Expert indépendant, formateur Web Performance.
       bio: >-
         Expert indépendant, formateur Web Performance.
   romuald_priol:
@@ -618,10 +715,13 @@
       - name: twitter
         title: "@doc_roms (Twitter)"
         url: https://twitter.com/doc_roms
+    company: Collectif GreenIT
     en_US:
+      bio_short: Expert Numérique Responsable
       bio: >-
         Passionate about ecology, good-tech, ethics and computer performance, I am a representative of the responsible digital collective, a collective of <a href="https://www.greenit.fr/" target="_blank" rel="nofollow">GreenIt.fr</a>. I try to promote the evolution of digital technology by making it responsible: for a greener, more "efficient", more "ethical", more "accessible" digital world.
     fr_FR:
+      bio_short: Expert Numérique Responsable
       bio: >-
         Passionné d'écologie, de <i lang="en">good-tech</i>, d'éthique et de performance informatique, je suis représentant du collectif numérique responsable, collectif de <a href="https://www.greenit.fr/" target="_blank" rel="nofollow">GreenIt.fr</a>. J'essaye de promouvoir l'évolution du numérique en le rendant responsable : pour un numérique plus "<i lang="en">green</i>", plus "performant", plus "éthique", plus "accessible".
   ludovic_lefebvre:
@@ -634,13 +734,16 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/ludovic-lefebvre-7611a08/
+    company: Cdiscount
     en_US:
+      bio_short: APM Team Leader
       bio: >-
         I'm the person who triggers 10,000 requests/second without breaking a sweat, a performance crazy programmer and competitor.
 
 
         I started the web performance adventure in 2008 at Cdiscount, going from load testing to back end and front end optimization. Today, I'm in charge of the "coaching perf" team and my mission is to bring support and innovative solutions to web issues. In my free time, I am passionate about mind mapping and electronic music composition.
     fr_FR:
+      bio_short: APM Team Leader
       bio: >-
         Je suis la personne qui déclenche 10 000 requêtes/seconde sans transpirer, un programmeur fou de performance et compétiteur.
 
@@ -653,12 +756,15 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/valentine-jahan-321a5017/
+    company: Fabernovel
     en_US:
+      bio_short: Senior SEO Specialist
       bio: >-
         Valentine is a Senior SEO Specialist at FABERNOVEL since February 2019. With 8 years of experience in SEO, she provides strategic SEO advice and recommendations to both big accounts and start-ups.
 
         She works on all aspects of SEO (technical, structure, content, netlinking) and mobile, and has recently developed an interest in web performance. She has been responsible for major B2C accounts in the beauty and insurance sectors, but also in B2B. Previously, she worked at SENDINBLUE as an SEO Manager, RESONEO and PUBLICIS.Sapient.
     fr_FR:
+      bio_short: Senior SEO Specialist
       bio: >-
         Valentine est Senior SEO Specialist chez FABERNOVEL depuis février 2019. Avec 8 ans d’expérience en SEO, elle formule conseils et recommandations stratégiques SEO auprès de clients grands comptes et start-ups.
 
@@ -670,12 +776,15 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/bgatellier/
+    company: Fabernovel
     en_US:
+      bio_short: Agile Web Developer
       bio: >-
         Web developer for 10 years, I joined Fabernovel 4 years ago as a Tech Lead.
 
         Fond of web performance, I work to raise awareness and bootstrap this topic on our customer projects. To this end, I contributed to the development of <a href="https://heart.fabernovel.com/" target="_blank" rel="nofollow">the open-source tool Heart</a>, that automates the analysis of web pages through various online services (Lighthouse, Dareboost…).
     fr_FR:
+      bio_short: Agile Web Developer
       bio: >-
         Développeur web depuis 10 ans, j'ai posé il y a 4 ans mes bagages chez Fabernovel en tant que Tech Lead.
 
@@ -688,9 +797,11 @@
         title: "@hsablonniere (Twitter)"
         url: https://twitter.com/hsablonniere
     en_US:
+      bio_short: Passionate about the Web
       bio: >-
         Hubert is passionate about the Web. He is always looking for new ideas and tricks to improve the experience of users and developers.
     fr_FR:
+      bio_short: Passionné par le Web
       bio: >-
         Hubert est passionné par le Web. Il est toujours à la recherche de nouvelles idées et autres bidouilles pour améliorer l'expérience des utilisateurs et des développeurs.
   aymeric_bouillat:
@@ -700,13 +811,16 @@
       - name: twitter
         title: "@aymerictwit (Twitter)"
         url: https://twitter.com/aymerictwit
+    company: Havas Market France
     en_US:
+      bio_short: Technical SEO Consultant
       bio: >-
         Former Webmaster graduated from the Ecole des Gobelins, I turn to SEO in 2010. After working for Netbooster, Résonéo and SEOHackers, where I helped various clients develop their SEO strategy, I joined Havas Market (Havas Group's Performance Collective) in 2019 as a senior SEO consultant and technical referent. I also provide SEO training (Gobelins school, Coding Academy, Oreegami school, SEOHighLevel).
 
 
         Specialist in migrations and redesigns of websites, I attach particular importance to issues related to the mobile first index, as well as to web performance.
     fr_FR:
+      bio_short: Consultant SEO technique
       bio: >-
         Ancien Webmaster diplômé de l’Ecole des Gobelins, je me tourne vers le SEO en 2010. Après être passé par les agences Netbooster, Résonéo puis SEOHackers, où j'ai accompagné différents clients dans le développement de leur stratégie SEO, je rejoins Havas Market (Collectif Performance du Groupe Havas) en 2019 en tant que consultant SEO Senior et référent technique. Je dispense également des formations SEO (école des Gobelins, Coding Academy, école Oreegami,SEOHighLevel).
 
@@ -722,10 +836,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/jeremiepereira/
+    company: Leboncoin
     en_US:
+      bio_short: Front-end Developer
       bio: >-
         Passionate about the web for 15 years, I am a frontend lead developer at leboncoin, which I joined 9 years ago. I actively participated in the responsive redesign of the site, the total redesign of the frontend stack and I am now passionate about performance, accessibility or developer experience.
     fr_FR:
+      bio_short: Développeur front
       bio: >-
         Passionné du web depuis 15 ans, je suis lead développeur frontend chez leboncoin, que j’ai rejoint il y a 9 ans maintenant. J’ai activement participé à la refonte responsive du site, à la refonte totale de la stack frontend et me passionne aujourd’hui pour les sujets de performances, d’accessibilité ou de developer experience.
   xavier_bouteiller:
@@ -738,10 +855,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/xavierbouteiller
+    company: Leboncoin
     en_US:
+      bio_short: Product Owner
       bio: >-
         After several experiences in e-commerce sites and marketplaces in various fields (home, fashion ...), I joined leboncoin in 2020, as Product Owner. Having always contributed to product evolutions in relation with acquisition issues, it is quite natural that I became passionate about SEO and webperfs.
     fr_FR:
+      bio_short: Product Owner
       bio: >-
         Après plusieurs expériences au sein de sites e-commerce et marketplace dans différents domaines (maison, mode…), j’ai rejoint leboncoin en 2020, en tant que Product Owner. Ayant toujours contribué à apporter des évolutions produits en lien avec des enjeux d’acquisition, c’est tout naturellement que je me suis passionné pour le SEO et les webperfs.
 2020:
@@ -755,13 +875,16 @@
       - name: linkedin
         title: LinkedIn
         url: https://linkedin.com/in/martawpl
+    company: Networked Energy Services (NES) Corporation
     en_US:
+      bio_short: Frontend Engineer
       bio: >-
         Marta is a Google Developer Expert in Angular and Web Technologies from Poland.
         She is an international speaker, blogger, enthusiast of Angular, PWA, hybrid apps who loves exploring new web features and following hottest trends in tech.
         Marta is passionate about sharing knowledge in the community and spreading her love for tech.
         Currently, she satisfies herself as an organizer in Women Techmakers Warsaw and Google Developers Group Warsaw and PWA Fire co-creator.
     fr_FR:
+      bio_short: Frontend Engineer
       bio: >-
         Marta is a Google Developer Expert in Angular and Web Technologies from Poland.
         She is an international speaker, blogger, enthusiast of Angular, PWA, hybrid apps who loves exploring new web features and following hottest trends in tech.
@@ -774,12 +897,15 @@
       - name: twitter
         title: "@MonsieurPerf (Twitter)"
         url: https://twitter.com/MonsieurPerf
+    company: Wikimedia Foundation
     en_US:
+      bio_short: Engineering Manager (Web Performance)
       bio: >-
         Après plus d’une dizaine d’années d’expérience en tant que développeur Full Stack, Gilles Dubuc a rejoint la Fondation Wikimedia en 2014.
         Il est l'un des membres fondateurs de l’équipe Performance au sein de la fondation, créée en 2015 - équipe qu'il dirige à présent.
         Le but de cette équipe est de rendre Wikipedia et les autres projets Wikimedia les sites web les plus performants possibles.
     fr_FR:
+      bio_short: Engineering Manager (Web Performance)
       bio: >-
         Après plus d’une dizaine d’années d’expérience en tant que développeur Full Stack, Gilles Dubuc a rejoint la Fondation Wikimedia en 2014.
         Il est l'un des membres fondateurs de l’équipe Performance au sein de la fondation, créée en 2015 - équipe qu'il dirige à présent.
@@ -797,10 +923,13 @@
       - name: web
         title: "Blog"
         url: https://boris.schapira.dev
+    company: Contentsquare
     en_US:
+      bio_short: Customer Success Manager
       bio: >-
         Boris is a Web professional who is interested in Web Performance and, more broadly, in all aspects of Web Quality. He is the husband of a dragonfly and the father of two hobbits, and currently Customer Success Manager at Contentsquare, in charge of Dareboost.
     fr_FR:
+      bio_short: Customer Success Manager
       bio: >-
         Boris est un professionnel du Web qui s'intéresse à la performance du Web et, plus largement, à tous les aspects de la Qualité Web. Il est le mari d'une libellule et le père de deux hobbits, et actuellement Customer Success Manager chez Contentsquare, en charge de Dareboost.
   henri:
@@ -811,11 +940,13 @@
         title: "@henrihelvetica (Twitter)"
         url: https://twitter.com/henrihelvetica
     en_US:
+      bio_short: Freelance developer
       bio: >-
         Henri is a freelance developer who has turned his interests to a passionate mix of site performance engineering and pinches of user experience.
         When not reading the deluge of daily research docs and case studies, or auditing sites in devtools, Henri can be found contributing back to the community: Toronto Web Performance Group meetup + Jamstack Toronto organizer, curating conference content or volunteering his time for lunch and learns at various bootcamps.
         Otherwise, Henri is focusing on running the fastest 5k possible (surprise surprise), encouraging a healthy lifestyle via #devsWhoRun.
     fr_FR:
+      bio_short: Freelance developer
       bio: >-
         Henri is a freelance developer who has turned his interests to a passionate mix of site performance engineering and pinches of user experience.
         When not reading the deluge of daily research docs and case studies, or auditing sites in devtools, Henri can be found contributing back to the community: Toronto Web Performance Group meetup + Jamstack Toronto organizer, curating conference content or volunteering his time for lunch and learns at various bootcamps.
@@ -833,10 +964,13 @@
       - name: github
         title: "GitHub"
         url: https://github.com/m4dz/
+    company: alwaysdata
     en_US:
+      bio_short: Tech Evangelist
       bio: >-
         m4dz is a "curious pet". Tech Evangelist at alwaysdata, a Cloud Hosting Provider, he has made security and privacy one of his challenges for the Web. All the technologies are under his radar, to make all the digital players aware of our realities. Chronic optimist, his favourite book will always remain "Alice in Wonderland".
     fr_FR:
+      bio_short: Tech Evangelist
       bio: >-
         m4dz est un « animal curieux ». Chargé d'évangelisation technique chez alwaysdata, plate-forme Cloud publique et dédiée, il a fait de la sécurité et de la vie privée l'un de ses enjeux pour le Web. Toutes les technos y passent, pour sensibiliser les différents acteurs du numérique à nos réalités. Optimiste chronique, son livre préféré restera toujours « Alice au Pays des Merveilles ».
   myriam:
@@ -846,11 +980,14 @@
       - name: web
         title: "Pragm.co"
         url: https://www.pragm.co/fr/blog/team/myriam-jessier-seo/
+    company: Freelance
     en_US:
+      bio_short: Digital Marketing Consultant
       bio: >-
         Myriam used to be a digital nomad (with a mortgage) but she is currently headquartered on her sofa in Montreal.
         She has more than a decade of experience in search engine optimization. Sometimes, she likes nerding out on performance optimization.
     fr_FR:
+      bio_short: Digital Marketing Consultant
       bio: >-
         Myriam était une nomade mais depuis quelques temps, elle passe le plus clair de son temps sur son canapé à Montréal.
         Après plus d'une décennie à se spécialiser en référencement naturel, elle aime parfois geeker sur l'optimisation de la performance des sites web.
@@ -864,13 +1001,16 @@
       - name: linkedin
         title: "LinkedIn"
         url: https://www.linkedin.com/in/stephaniewalterpro/
+    company: Maltem Consulting Group
     en_US:
+      bio_short: Lead UX Design Consultant
       bio: >-
         Designer d’expérience utilisateur, spécialisée en interfaces métier et optimisation mobile, actuellement située à Luxembourg.
         Je mets mes 10 ans d’expertise au service de mes clients en tant que consultante dans différentes industries (assurance, transport, voyage, banques, automobile, etc.)
         Je place les utilisatrices et utilisateurs au coeur de mon processus de conception et fais le lien entre leurs besoins et les contraintes métier de mes clientes et clients.
         Passionnée par mon travail, je partage mon savoir sur mon blog, dans des conférence à travers le monde et des cours que je donne dans différentes filières.
     fr_FR:
+      bio_short: Lead UX Design Consultant
       bio: >-
         Designer d’expérience utilisateur, spécialisée en interfaces métier et optimisation mobile, actuellement située à Luxembourg.
         Je mets mes 10 ans d’expertise au service de mes clients en tant que consultante dans différentes industries (assurance, transport, voyage, banques, automobile, etc.)
@@ -886,14 +1026,16 @@
         url: https://twitter.com/doc_roms
       - name: linkedin
         title: LinkedIn
-        url: https://www.linkedin.com/in/romuald-p/
+        url: https://www.linkedin.com/in/romuald-priol/
     en_US:
+      bio_short: Expert Performance et Architecture web et mobile
       bio: >-
-        Driven by a passion for computers and new technologies, I was drawn to the world of the Web where I learned to master the different PHP Frameworks ( Zend, Symfony, Phalcon...) and JavaScript (View.Js...). I then took a close look at the industry's best practices (accessibility, SEO, etc...), before turning my attention to another world, mobile development (Windows Phone, FirefoxOs, Android) in both native and hybrid solutions (Xamarin, PhoneGap, Unity, Ionic, etc.) and Windows development (C# / XAML).
+        Driven by a passion for computers and new technologies, I was drawn to the world of the Web where I learned to master the different PHP Frameworks ( Zend, Symfony, Phalcon...) and JavaScript (Vue.Js...). I then took a close look at the industry's best practices (accessibility, SEO, etc...), before turning my attention to another world, mobile development (Windows Phone, FirefoxOs, Android) in both native and hybrid solutions (Xamarin, PhoneGap, Unity, Ionic, etc.) and Windows development (C# / XAML).
 
 
         Thanks to these different areas of expertise, I grasped the performance and architecture issues of many projects, and to take a serious look at responsible design by taking into account the eco-design of web and native applications and all the aspects of responsible digital design.
     fr_FR:
+      bio_short: Expert Performance et Architecture web et mobile
       bio: >-
         La programmation informatique est avant tout une passion, tout comme le sont les nouvelles technologies. Orienté dans un premier temps dans le monde du Web, j'ai rapidement appris à maitriser les différents Frameworks PHP ( Zend, Symfony, Phalcon...) et JavaScript (Vue.Js...), je me suis intéressé de près aux bonnes pratiques du secteur (accessibilité, SEO, etc...), avant de détourner mon regard vers un autre monde, celui de la mobilité, (Windows Phone, FirefoxOs, Android) en natif et en hybride via différentes solutions (Xamarin, PhoneGap, Unity, Ionic..) et du développement Windows (C# / XAML).
 
@@ -909,10 +1051,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/matt-r-hobbs/
+    company: UK Government Digital Service
     en_US:
+      bio_short: 'Head of Frontend Development'
       bio: >-
         Matt Hobbs is Head of Frontend Development at the Government Digital Service. An experienced frontend developer, he is passionate about using his skills to build accessible and performant user interfaces. Matt makes a point of keeping on top of the latest technology and tools, is interested in all aspects of interface development, and is a keen advocate for best practice.
     fr_FR:
+      bio_short: 'Head of Frontend Development'
       bio: >-
         Matt est Responsable du développement <span lang="en">front-end</span> au Service Numérique Gouvernemental du Royaume-Uni. Développeur Front expérimenté, il est passionné par l'utilisation de ses compétences pour créer des interfaces utilisateur accessibles et performantes. Matt se fait un point d'honneur de rester à la pointe de la technologie et des outils les plus récents, s'intéresse à tous les aspects du développement d'interfaces et est un ardent défenseur des bonnes pratiques Web.
   estelle:
@@ -923,9 +1068,11 @@
         title: "@estellevw (Twitter)"
         url: https://twitter.com/estellevw
     en_US:
+      bio_short: Experte, Formatrice, Autrice et créatrice de la conférence PerfMatters
       bio: >-
         Estelle is a consulting web developer, trainer, author and speaker, currently writing for MDN Web Docs on accessibility, performance and CSS. She speaks and leads workshops on web development all over the world. Her books have been translated into over 14 languages. She’s been coding CSS, HTML, and JavaScript since 1999.
     fr_FR:
+      bio_short: Experte, Formatrice, Autrice et créatrice de la conférence PerfMatters
       bio: >-
         Estelle est consultante, formatrice, auteure et conférencière. Elle organise la conférence #Perfmatters. Elle documente les technologies Web pour MDN concernant l'accessibilité, les performances et CSS. Elle parle et anime des ateliers sur le développement Web dans le monde entier et ses livres ont été traduits dans plus de 14 langues. Elle code en CSS, HTML et JavaScript depuis 1999.
   anthony:
@@ -935,10 +1082,13 @@
       - name: twitter
         title: "@AnthoBarre (Twitter)"
         url: https://twitter.com/AnthoBarre
+    company: Fasterize
     en_US:
+      bio_short: Expert webperf
       bio: >-
         As a webperf expert at Fasterize, I am one of the developers of the optimization engine at the heart of the solution. I mainly work on Front-End optimizations.
     fr_FR:
+      bio_short: Expert webperf
       bio: >-
         Expert webperf chez Fasterize, je suis un des développeurs du moteur d'optimisation au cœur de la solution. Je travaille essentiellement sur des optimisations <span lang="en">front-end</span>.
   antoine:
@@ -948,10 +1098,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/antoine-kahn-dubois-3236b88b/
+    company: Theodo
     en_US:
+      bio_short: Frontend Developer
       bio: >-
         Antoine is an agile developer who has been working for four years at Theodo, and is passionate about performance, JavaScript & Python. He is convinced that reducing JavaScript bundle sizes is the way to save the world.
     fr_FR:
+      bio_short: Développeur Front-End Agile
       bio: >-
         Antoine est un développeur agile depuis quatre ans chez Theodo, passionné de performances, JavaScript et Python. Il est convaincu que nous pouvons sauver le monde en réduisant la taille de nos bundles JavaScript.
   jeremy:
@@ -964,10 +1117,13 @@
       - name: github
         title: "@malchata (Github)"
         url: https://github.com/malchata
+    company: SiteImprove
     en_US:
+      bio_short: Performance Consultant, Author, Speaker
       bio: >-
         Jeremy Wagner is a web performance consultant from The United States working for <a href="https://siteimprove.com/" target="_blank" rel="nofollow">Siteimprove</a>. He writes and speaks often on performance and works to make the web faster for everyone, everywhere.
     fr_FR:
+      bio_short: Performance Consultant, Author, Speaker
       bio: >-
         Jeremy Wagner est un consultant en Performance Web américain, travaillant pour <a href="https://siteimprove.com/" target="_blank" rel="nofollow">Siteimprove</a>. Il écrit et parle souvent sur la Performance et travaille à rendre le web plus rapide pour tout le monde, en tous lieux.
   ryan:
@@ -977,7 +1133,9 @@
       - name: twitter
         title: "@ryantownsend (Twitter)"
         url: https://twitter.com/ryantownsend
+    company: Shift Commerce
     en_US:
+      bio_short: CTO
       bio: >-
         With over 15 years experience developing for the web, and an undying passion for web performance, Ryan Townsend is the CTO of Shift Commerce – a SaaS e-commerce platform for ambitious retailers.
 
@@ -987,6 +1145,7 @@
 
         Outside of the office, you’ll usually find him picking up heavy objects in the gym or falling off his mountain bike down the side of a hill.
     fr_FR:
+      bio_short: CTO
       bio: >-
         Avec plus de 15 ans d'expérience dans le développement web, et une passion inébranlable pour la WebPerf, Ryan Townsend est le directeur technique de Shift Commerce - une plateforme e-commerce SaaS pour les détaillants ambitieux.
 
@@ -998,15 +1157,19 @@
   raphael:
     name: Raphaël Dardeau
     image: /assets/images/speakers/2019/raphael.jpg
+    company: L'Équipe
     en_US:
+      bio_short: Web Developments Manager
       bio: >-
         Web Development Manager at L'Équipe, French first sports news website
     fr_FR:
+      bio_short: Responsable des Développements Web
       bio: >-
         Responsable des développements web à L'Équipe, premier site d’informations sportives français.
   benoit:
     name: Benoit Jacquemont
     image: /assets/images/speakers/2019/benoitj.jpg
+    company: Akeneo
     urls:
       - name: twitter
         title: "@bjacquemont (Twitter)"
@@ -1015,9 +1178,11 @@
         title: LinkedIn
         url: https://www.linkedin.com/in/benoit-jacquemont-657aba9
     fr_FR:
+      bio_short: Co-founder & CTO
       bio: >-
         Benoit Jacquemont est tombé dans le web en 2000 après avoir une première expérience sur des logiciels d'encaissements. De Java à PHP, de Oracle à MySQL et des applications de gestions aux sites de eCommerce, il roule sa bosse sur les projets, toujours à forte composante OpenSource, au sein du groupe Smile. Il en devient le CTO en 2009 alors que l'entreprise compte près de 450 salariés. En janvier 2013, il co-fonde <a href="https://www.akeneo.com/fr/" target="_blank" rel="nofollow">Akeneo</a> avec Frédéric de Gombert, Nicolas Dupont et Yoav Kutner. L'aventure startup commence alors pour lui, en tant que CTO d'<a href="https://www.akeneo.com/fr/" target="_blank" rel="nofollow">Akeneo</a>.
     en_US:
+      bio_short: Co-fondateur et CTO
       bio: >-
         Benoit Jacquemont dived into the web in 2000 after having a first experience on payment software. From Java to PHP, from Oracle to MySQL and from management applications to eCommerce sites, he worked on various projects, always with a strong OpenSource dimension, within the Smile group. He became the CTO in 2009 when the company had nearly 450 employees. In January 2013, he co-founded <a href="https://www.akeneo.com/" target="_blank" rel="nofollow">Akeneo</a> with Frédéric de Gombert, Nicolas Dupont and Yoav Kutner. The startup adventure then began for him, as <a href="https://www.akeneo.com/" target="_blank" rel="nofollow">Akeneo</a>'s CTO.
   antonio:
@@ -1027,7 +1192,9 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/antoniogomesrodrigues/
+    company: SeLoger.com
     en_US:
+      bio_short: Performance Manager
       bio: >-
         Antonio Gomes Rodrigues is an expert in the field of application performance for over 10 years. His missions led him to work:
 
@@ -1043,6 +1210,7 @@
 
         He is currently Performance Manager at SeLoger, contributor and <abbr title="Project Management Committee">PMC</abbr> member of the JMeter project within the Apache Software Foundation - ASF.
     fr_FR:
+      bio_short: Responsable Performance
       bio: >-
         Antonio Gomes Rodrigues est expert dans le domaine des performances applicatives depuis plus de 10 ans. Ses missions l’ont amené à travailler :
 
@@ -1064,10 +1232,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/quentinmathieu
+    company: OUI.sncf
     en_US:
+      bio_short: Quality of Experience Expert
       bio: >-
         Expert <abbr title="Quality of Experience">QOE</abbr> at OUI.sncf, strives to master the IT for the benefit of the user experience.
     fr_FR:
+      bio_short: Expert Quality of Experience
       bio: >-
         Expert <abbr title="Quality of Experience">QOE</abbr> pour OUI.sncf, œuvre pour la maîtrise du SI au service de l'expérience utilisateur.
   mathilde:
@@ -1077,10 +1248,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/mathilde-lassort/
+    company: OUI.sncf
     en_US:
+      bio_short: Product Strategist
       bio: >-
         Product Strategist at OUI.sncf, I support teams in product strategy.
     fr_FR:
+      bio_short: Product Strategist
       bio: >-
         Product Strategist chez OUI.sncf, j'accompagne les équipes dans la stratégie produit.
   loic:
@@ -1093,10 +1267,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/lo%C3%AFc-troquet-19623312/
+    company: PagesJaunes.fr
     en_US:
+      bio_short: Responsable du Pôle Architecture
       bio: >-
         Head of the architecture department at <a href="https://www.pagesjaunes.fr" target="_blank" rel="nofollow">www.pagesjaunes.fr</a>. Specialist in the development of high visibility web applications. Certified ScrumMaster. Specializations: Java, Spring, Continuous Delivery, Webperf, Security, Git, Maven, Scrum, Kanban, Lean, Management 3.0
     fr_FR:
+      bio_short: Responsable du Pôle Architecture
       bio: >-
         Responsable du pôle architecture <a href="https://www.pagesjaunes.fr" target="_blank" rel="nofollow">www.pagesjaunes.fr</a>. Spécialiste des développements d'applications web à forte visibilité. ScrumMaster certifié. Spécialisations : Java, Spring, Continuous Delivery, Webperf, Sécurité, Git, Maven, Scrum, Kanban, Lean, Management 3.0
   peter:
@@ -1109,10 +1286,13 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/peterhedenskog/
+    company: Wikimedia Foundation, Sitespeed.io
     en_US:
+      bio_short: Performance Consultant
       bio: >-
         Peter works in the performance team of the Wikimedia Foundation where he measure the performance of Wikipedia using synthetic testing and RUM. Before he joined the foundation he worked as a web performance consultant helping some of the biggest Swedish brands. Peter also created the popular open source web performance tool <a href="https://www.sitespeed.io/" target="_blank" rel="nofollow">sitespeed.io</a>.
     fr_FR:
+      bio_short: Performance Consultant
       bio: >-
         Peter travaille dans l'équipe Performance de la Wikimedia Foundation où il mesure la performance de Wikipédia à l'aide de tests synthétiques et de RUM. Avant de rejoindre la fondation, il a travaillé comme consultant en Performance Web pour les plus grandes marques suédoises. Peter a également créé le populaire outil de Performance Web open source <a href="https://www.sitespeed.io/" target="_blank" rel="nofollow">sitespeed.io</a>.
   gilles:
@@ -1131,10 +1311,13 @@
       - name: cc
         title: "Photo by Myleen Hollero CC-BY-SA 4.0"
         url: https://creativecommons.org/licenses/by-sa/4.0/deed
+    company: Fondation Wikimedia
     en_US:
+      bio_short: Performance Engineer
       bio: >-
         After more than 10 years as a full stack engineer, Gilles Dubuc joined the Wikimedia Foundation in 2014. He is one of the founding members of the Foundation's performance team, created in 2015 - which he's now the engineer manager of. The goal of the Wikimedia Performance Team is to make Wikipedia and its sister projects the fastest websites possible.
     fr_FR:
+      bio_short: Performance Engineer
       bio: >-
         Après plus d’une dizaine d'années d’expérience en tant que développeur Full Stack, Gilles Dubuc a rejoint la Fondation Wikimedia en 2014.
 
@@ -1150,13 +1333,16 @@
       - name: linkedin
         title: LinkedIn
         url: https://www.linkedin.com/in/nicolas-hoffmann-b22aaa43/
+    company: ProtonMail
     en_US:
+      bio_short: Front-End Developer
       bio: >-
         Nicolas is a soldier who has been pacificaly moving up to the front(-end) over more than 15 years. He’s been working in a Swiss web agency for about 10 years, and he’s currently working as a quark on UI and CSS among other things… at ProtonMail.
 
 
         Head of the OpenWeb group, speaker at events such as Paris-Web, Codeurs en Seine, Sud Web… He’s also the editor of the micro-framework CSS Röcssti, Opquast certified Quality Expert, editor of scripts available via the Van11y project -- with some ARIA inside --, and he published more than 50 articles about CSS conception, security, Web quality… He’s sometimes kindly nicknamed "the Web quality Swiss-German", due to his great score at the Opquast certification. And maybe you won’t believe it, but  he considers this nickname as a compliment!
     fr_FR:
+      bio_short: Front-End Developer
       bio: >-
         Nicolas est un soldat monté pacifiquement au front (-end) depuis plus de 15 ans, qui a bossé en web agency en Suisse pendant une dizaine d'année, et qui travaille actuellement entre autres sur l'UI et CSS en tant que quark… chez ProtonMail.
 
@@ -1170,14 +1356,17 @@
       - name: twitter
         title: "@rick_viscomi (Twitter)"
         url: https://twitter.com/rick_viscomi
+    company: Google
     en_US:
       alt: >-
         Rick is smiling.
+      bio_short: Developer Advocate
       bio: >-
         Web transparency advocate at Google and steward of <a href="https://twitter.com/HTTPArchive" target="_blank" rel="nofollow">@HTTPArchive</a> data. Coauthor of <a href="https://twitter.com/UsingWPT" target="_blank" rel="nofollow">@UsingWPT</a>.
     fr_FR:
       alt: >-
         Rick, souriant.
+      bio_short: Developer Advocate
       bio: >-
         Défenseur de la transparence sur le Web chez Google et intendant des données de <a href="https://twitter.com/HTTPArchive" target="_blank" rel="nofollow">@HTTPArchive</a>. Co-auteur de <a href="https://twitter.com/UsingWPT" target="_blank" rel="nofollow">@UsingWPT</a>.
   stephanie:
@@ -1193,50 +1382,61 @@
     en_US:
       alt: >-
         Stéphanie's mugshot
+      bio_short: UX & UI Designer
       bio: >-
         Stéphanie is a UX and UI Designer with almost a decade of experience. She focuses on building a great user experience for mobile apps and responsive web sites. She’s passionate about her work and likes to share her knowledge with other people on blogs, at conferences and with the students she teaches to.
     fr_FR:
       alt: >-
         Portrait de Stéphanie
+      bio_short: UX et UI Designer
       bio: >-
         Stéphanie – UX et UI Designer. Avec près de 10 ans d’expérience dans le design centré utilisateur, elle est spécialisée dans le design d’applications mobiles et le responsive, l’ergonomie et la création d’interfaces simples et agréables à utiliser. Elle partage sa passion pour son travail à travers ses articles, ses cours à l’université et les conférences qu’elle donne dans le monde entier.
   lesfurets:
     name: Dimitri Baeli
     image: /assets/images/speakers/2018/dimitri.jpg
+    company: LesFurets.com
     en_US:
       alt: >-
         Dimitri's mugshot
+      bio_short: CTO
       bio: >-
         CTO at <a href="https://www.lesfurets.com/" target="_blank" rel="nofollow">LesFurets.com</a>, a French comparison site that enables users to compare rates, warranties and services for automobile, health, two-wheeler, home and loan insurance.
     fr_FR:
       alt: >-
         Portrait de Dimitrie
+      bio_short: CTO
       bio: >-
         CTO chez <a href="https://www.lesfurets.com/" target="_blank" rel="nofollow">LesFurets.com</a>, un site de comparaison français qui permet de comparer les tarifs, les garanties et les services d'assurance automobile, santé, deux roues, habitation et emprunteur.
   ouestfrance:
     name: Vincent Robert
     image: /assets/images/speakers/2018/vincent.jpg
+    company: Ouest-France Multimedia
     en_US:
       alt: >-
         Vincent's mugshot
+      bio_short: DSI
       bio: >-
         CTO at Ouest-France Multimédia, a subsidiary of <a href="https://www.ouest-france.fr/" target="_blank" rel="nofollow">Ouest-France</a> dedicated to providing services and managing Ouest-France's classifieds organized by sector: automotive, real estate, employment.
     fr_FR:
       alt: >-
         Portrait de Vincent
+      bio_short: DSI
       bio: >-
         DSI de Ouest-France Multimédia, une filiale de <a href="https://www.ouest-france.fr/" target="_blank" rel="nofollow">Ouest-France</a> dédiée aux sites de petites annonces de journal organisés par secteur : automobile, immobilier, emploi.
   rdc:
     name: Aniss Boumrigua
     image: /assets/images/speakers/2018/aniss.jpg
+    company: Rue du Commerce
     en_US:
       alt: >-
         Aniss' mugshot
+      bio_short: IT Manager
       bio: >-
         IT Manager at <a href="https://www.rueducommerce.fr/" target="_blank" rel="nofollow">Rue du Commerce</a>.
     fr_FR:
       alt: >-
         Portrait d'Aniss
+      bio_short: IT Manager
       bio: >-
         IT Manager chez <a href="https://www.rueducommerce.fr/" target="_blank" rel="nofollow">Rue du Commerce</a>.
   cdiscount:
@@ -1246,14 +1446,17 @@
         title: Github
         url: https://github.com/utix
     image: /assets/images/speakers/2018/aurelien.jpg
+    company: Cdiscount
     en_US:
       alt: >-
         Aurélien's mugshot
+      bio_short: Directeur de l'architecture
       bio: >-
         Director of Architecture at <a href="https://www.cdiscount.com/" target="_blank" rel="nofollow">Cdiscount</a>.
     fr_FR:
       alt: >-
         Portrait d'Aurélien
+      bio_short: Directeur de l'architecture
       bio: >-
         Directeur de l’architecture chez <a href="https://www.cdiscount.com/" target="_blank" rel="nofollow">Cdiscount</a>.
   lequipe:
@@ -1262,11 +1465,13 @@
     en_US:
       alt: >-
         François's mugshot
+      bio_short: Directeur technique Internet
       bio: >-
         Internet CTO at <a href="https://www.lequipe.fr/" target="_blank" rel="nofollow">L'Équipe.fr</a>, the leading French sports information site.
     fr_FR:
       alt: >-
         Logo l'Équipe
+      bio_short: Directeur technique Internet
       bio: >-
         Directeur Technique Internet de <a href="https://www.lequipe.fr/" target="_blank" rel="nofollow">L'Équipe.fr</a>, le premier site d'informations sportives français.
   philip:
@@ -1279,9 +1484,11 @@
       - name: twitter
         title: "@bluesmoon (Twitter)"
         url: https://twitter.com/bluesmoon
+    company: Akamai
     en_US:
       alt: >-
         Philip's mugshot
+      bio_short: Principal RUM Distiller
       bio: >-
         Philip Tellis is a geek who likes to make the computer do his work for him. As Principal RUM Distiller at <a href="https://www.akamai.com/" target="_blank" rel="nofollow">Akamai</a>, he analyses the impact of various design decisions on web application performance, scalability and security. He is the lead developer of <a href="https://soasta.github.io/boomerang/" target="_blank" rel="nofollow">boomerang</a> – a JavaScript based web performance testing tool.
 
@@ -1296,6 +1503,7 @@
     fr_FR:
       alt: >-
         Portrait de Philip
+      bio_short: Principal RUM Distiller
       bio: >-
         Philip Tellis est un geek qui aime faire travailler l'ordinateur à sa place. En tant que Principal RUM Distiller chez <a href="https://www.akamai.com/" target="_blank" rel="nofollow">Akamai</a>, il analyse l’impact de diverses décisions de conception sur les performances, l’évolutivité et la sécurité des applications web. Il est le développeur principal de <a href="https://soasta.github.io/boomerang/" target="_blank" rel="nofollow">boomerang</a> - un outil de mesure de performance web basé sur JavaScript.
 
@@ -1314,14 +1522,17 @@
       - name: twitter
         title: "@nhoizey (Twitter)"
         url: https://twitter.com/nhoizey
+    company: Clever Age
     en_US:
       alt: >-
         Nicolas's mugshot
+      bio_short: Cofondateur, Consultant Senior
       bio: >-
         Nicolas is a co-founder and senior consultant at <a href="https://www.clever-age.com/en/" target="_blank" rel="nofollow">Clever Age</a>. He helps companies design the right technical architecture to cover their digital needs. He also brings front-end technical expertise about web performance, RWD, PWA, etc. Drawing on over 20 years of Web experience, he advocates a pragmatic use of Web technologies, defining and applying good technical and methodological practices.
     fr_FR:
       alt: >-
         Portrait de Nicolas
+      bio_short: Cofondateur, Consultant Senior
       bio: >-
         Nicolas est cofondateur et consultant senior chez <a href="https://www.clever-age.com/fr/content/nos-references-webperf/" target="_blank" rel="nofollow">Clever Age</a>. Il aide les entreprises à concevoir la bonne architecture technique, avec les bon choix de technologies et solutions, pour couvrir leurs besoins numériques. Il apporte de plus une expertise technique <span lang="en">front-end</span> : performance web, <abbr lang="en" title="Responsive Web Design">RWD</abbr>, <abbr lang="en" title="Progressive Web App">PWA</abbr>, etc. S'appuyant sur plus de 20 ans d'expérience, il préconise une utilisation pragmatique des technologies Web, en définissant et en appliquant de bonnes pratiques techniques et méthodologiques.
   thomas:
@@ -1334,11 +1545,13 @@
     en_US:
       alt: >-
         Thomas's mugshot
+      bio_short: Expert CSS Freelance
       bio: >-
         Thomas - Freelance CSS Expert. Thomas helps technical teams produce maintainable styles. Web developer, teacher, trainer, lecturer, speaker, he multiplies his hats to share his passion for the web. His last challenge was the writing of "<a href="https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox" target="_blank" rel="nofollow">Départ immédiat pour : Flexbox</a>" with _le Train de 13h37_.
     fr_FR:
       alt: >-
         Portrait de Thomas
+      bio_short: Expert CSS Freelance
       bio: >-
         Thomas – Expert CSS Freelance. Thomas aide les équipes technique à produire des styles maintenables. Intégrateur, développeur, enseignant, formateur, conférencier, il multiplie les casquettes pour partager sa passion du web. Son dernier challenge a été l’écriture de "<a href="https://boutique.letrainde13h37.fr/products/flexbox-thomas-zilliox" target="_blank" rel="nofollow">Départ immédiat pour : Flexbox</a>" avec _le Train de 13h37_.
   jp:
@@ -1351,11 +1564,13 @@
     en_US:
       alt: >-
         Jean-Pierre's mugshot
+      bio_short: Expert Technique webperf
       bio: >-
         Jean-Pierre Vincent - Independent Technical Expert and trainer on Web and JavaScript Performance. For more than 7 years, Jean-Pierre accompanies his clients in their webperf strategy or train their teams. He is also the co-organizer of the <a href="https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/" target="_blank" rel="nofollow">Paris Webperf meetups</a>.
     fr_FR:
       alt: >-
         Portrait de Jean-Pierre
+      bio_short: Expert Technique webperf
       bio: >-
         Jean-Pierre Vincent – Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis plus de 7 ans, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes. Il est aussi le co-organisateur des <a href="https://www.meetup.com/fr-FR/Paris-Webperf-Meetup/events/past/" target="_blank" rel="nofollow">meetups Webperf parisiens</a>.
   damien:
@@ -1365,14 +1580,17 @@
       - name: web
         title: Dareboost
         url: https://www.dareboost.com
+    company: Dareboost
     en_US:
       alt: >-
         Damien's mugshot
+      bio_short: CEO & Co-Founder
       bio: >-
         CEO and co-funder of <a href="https://www.dareboost.com/" target="_blank" rel="nofollow">Dareboost</a>, a SaaS dedicated to web performance. Manager-friendly, Dareboost allows your team to unite around a common goal: a faster website.
     fr_FR:
       alt: >-
         Portrait de Damien
+      bio_short: CEO & Co-Founder
       bio: >-
         CEO et cofondateur de <a href="https://www.dareboost.com/" target="_blank" rel="nofollow">Dareboost</a>, solution SaaS de gestion de la performance web, pour réunir les équipes web autour d'un objectif commun : un site plus rapide et une qualité web accrue.
   stephane:
@@ -1382,9 +1600,11 @@
       - name: web
         title: Fasterize
         url: https://www.fasterize.com
+    company: Fasterize
     en_US:
       alt: >-
         Stéphane's mugshot
+      bio_short: CEO
       bio: >-
         For 10 years, Stephane Rios was CTO of RueDuCommerce.com, leader of French eCommerce.
 
@@ -1396,6 +1616,7 @@
     fr_FR:
       alt: >-
         Portrait de Stéphane
+      bio_short: CEO
       bio: >-
         Pendant 10 ans, Stéphane RIOS a été directeur technique (CTO) de RueDuCommerce.com, leader du eCommerce français.
 
@@ -1410,14 +1631,17 @@
       - name: twitter
         title: "@JonasBadalic (Twitter)"
         url: https://twitter.com/JonasBadalic
+    company: Algolia
     en_US:
       alt: >-
         Jonas' mugshot
+      bio_short: Front-End Developer
       bio: >-
         Building all sorts of things <a href="https://www.algolia.com/" target="_blank" rel="nofollow">@Algolia</a> with performance and end-user experience in mind. Always trying to find edge cases and exceptions to rules. Doubt everything, do what works best for you and your users.
 
     fr_FR:
       alt: >-
         Portrait de Jonas
+      bio_short: Front-End Developer
       bio: >-
         Construit toutes sortes de choses chez <a href="https://www.algolia.com/" target="_blank" rel="nofollow">Algolia</a>, en gardant toujours à l'esprit la performance web et l'expérience utilisateur. Toujours à la recherche de cas limites et d'exceptions. Un crédo : "Doute de tout, fait ce qui fonctionne le mieux pour toi et tes utilisateurs".

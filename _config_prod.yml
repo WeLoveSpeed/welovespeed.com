@@ -37,7 +37,7 @@ sponsoring:
     url: '/assets/docs/2023/sponsoring_en.pdf'
     size: '675KB'
 tickets:
-  selling: false
+  selling: false # pensez à regénérer les bannières de conférence avant mise en prod
   weezevent: true
   coupons-only: false
   waiting-list: false
@@ -50,7 +50,7 @@ infos:
     active: false
     soldout: false
   interventions: true
-  schedule: false
+  schedule: false # pensez à regénérer les bannières de conférence avant mise en prod
 
 # Compression du code HTML en production
 compress_html:
@@ -218,6 +218,12 @@ defaults:
       path: "_talks/2023"
     values:
       year: 2023
+  -
+    scope:
+      path: "admin"
+      type: pages
+    values:
+      layout: admin
 microtypo:
   median: true
 
