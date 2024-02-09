@@ -64,6 +64,13 @@ layout: admin
       </select>
     </fieldset>
 
+    <fieldset class="form-row">
+      <input id="scale" type="checkbox" name="scale">
+      <label for="scale">
+        Pleine taille
+      </label>
+    </fieldset>
+
     <div class="actions">
       <button type="submit" class="button">
         <span class="button-inner">Générer</span>
@@ -219,6 +226,14 @@ layout: admin
     margin-top: 2rem;
   }
 
+  .form-row {
+    gap: 1rem;
+  }
+
+  input[type="checkbox"] {
+    width: auto;
+  }
+
   .form .actions {
     margin-top: 2rem;
   }
@@ -260,7 +275,18 @@ layout: admin
     max-height: 626px;
     padding: 4rem var(--outer-padding) var(--outer-padding);
     background: #fff;
-    transform: translate(-50%, -50%) scale(0.5, 0.5);
+    translate: -50% -50%;
+    scale: 0.5 0.5;
+  }
+
+  .result-container:has(.full-size) {
+    height: auto;
+  }
+
+  .full-size .cover {
+    position: static;
+    translate: none;
+    scale: 1 1;
   }
 
   .cover header:has(.tag) {

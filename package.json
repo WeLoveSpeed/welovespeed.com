@@ -4,9 +4,12 @@
   "description": "Site internet de la conférence We Love Speed",
   "type": "module",
   "scripts": {
-    "generate:logo_newsletter": "node assets/images/thanks/_export_nl.mjs"
+    "generate:logo_newsletter": "node assets/images/thanks/_export_nl.mjs",
+    "generate:talks_social": "node assets/images/social/_export_talks_social.mjs"
   },
   "devDependencies": {
-    "puppeteer": "^21.9.0"
+    "playwright": "^1.41.2",
+    "puppeteer": "^21.9.0",
+    "static-server": "^2.2.1"
   }
 }

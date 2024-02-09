@@ -95,6 +95,7 @@ Vous devez avoir [Docker](https://www.docker.com/) >= 24 & [Docker Compose](http
 
 ```bash
 $ docker-compose run bundle install
+$ docker-compose run npm install
 ```
 
 ### Travailler en local
@@ -180,9 +181,24 @@ $ bundle exec rake postbuild:test:kiss
 
 - Pour transformer des logos SVG en PNG
 
+Mettez votre SVG dans le dossier `/assets/images/thanks`.
+
+Puis lancez les commandes :
+
 ```sh
-npm install
-npm run generate:logo_newsletter
+$ npm install
+$ npm run generate:logo_newsletter
+```
+
+- Pour générer les cover images des talks
+
+```sh
+# La première fois uniquement
+$ npm install
+$ npx install playwright
+# A chaque fois que vous voulez en générer des nouvelles
+$ bundle exec rake build:prod
+$ npm generate:talks_social
 ```
 
 ## Licence
