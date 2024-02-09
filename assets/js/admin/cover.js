@@ -1,4 +1,4 @@
-"use strict";
+import { Liquid } from "/assets/js/vendor/liquid.browser.esm.min.js";
 
 // https://dev.to/jankapunkt/make-text-fit-it-s-parent-size-using-javascript-m40
 function isOverflown({ clientHeight, scrollHeight }) {
@@ -37,10 +37,6 @@ function getConferenceInfo(conferenceId, locale) {
 }
 
 async function render(templateString, properties) {
-  console.log(templateString, properties);
-  const { Liquid } = await import(
-    "https://cdn.jsdelivr.net/npm/liquidjs@10.10.0/dist/liquid.browser.esm.min.js"
-  );
   const engine = new Liquid();
   const template = engine.parse(templateString);
   return await engine.render(template, properties);
@@ -90,4 +86,4 @@ talkCoverForm.addEventListener("change", () => {
 });
 
 initFormWithSearchParams(talkCoverForm);
-displayCover(talkCoverForm)
+displayCover(talkCoverForm);
