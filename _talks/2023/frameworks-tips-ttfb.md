@@ -9,7 +9,7 @@ speakers:
   - martin_guillier
 fr_FR:
   title: "Lazy Hydrate, Never Hydrate, Resumable JS"
-  subtitle: ": les astuces des frameworks pour réduire le Total Blocking Time"
+  subtitle: "les astuces des frameworks pour réduire le Total Blocking Time"
   excerpt: >-
     Comment éviter que le Total Blocking Time (TBT) ne souffre pendant la phase de réhydratation qui suit le Server-Side Rendering (SSR) ?
   description: >-
@@ -31,7 +31,7 @@ fr_FR:
     url: https://youtu.be/2b48sOTD4dc
 en_US:
   title: "Lazy Hydrate, Never Hydrate, Resumable JS"
-  subtitle: ": frameworks' techniques to reduce Total Blocking Time"
+  subtitle: "frameworks' techniques to reduce Total Blocking Time"
   excerpt: >-
     How to prevent Total Blocking Time (TBT) from suffering during the post Server-Side Rendering (SSR) rehydration phase?
   description: >-

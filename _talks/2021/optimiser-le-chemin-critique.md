@@ -7,7 +7,7 @@ speakers:
   - ludovic_lefebvre
 fr_FR:
   title: "Optimisation du chemin critique"
-  subtitle: / « Comment accélérer votre performance ? »
+  subtitle: « Comment accélérer votre performance ? »
   excerpt: >-
     Quand se déclenche le premier rendu d’une page ? Comment identifier et optimiser les blocages ? Comment anticiper les problèmes de rendu ? Exemples, techniques et outils pour mieux maitriser le chemin critique.
   description: >-
@@ -30,7 +30,7 @@ fr_FR:
     url: https://youtu.be/3mQJBjOUPd8
 en_US:
   title: Critical path optimization
-  subtitle: / "How to accelerate your performance?"
+  subtitle: "How to accelerate your performance?"
   exceprt: >-
     When does the first rendering of a page occur? How to identify and optimize blockages? How to anticipate rendering problems? Examples, techniques and tools to better master the critical path.
   description: >-

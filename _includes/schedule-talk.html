@@ -6,9 +6,8 @@
   {% endif %}
 {%- endfor -%}
 {% assign roomIndex = include.roomIndex | default: forloop.index0 %}
-{% capture talkUrl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}/#{{ talk.slug }}{% endcapture %}
 <td scope="col" class="schedule-talk">
-  <a href="{{ talkUrl }}" class="talk room{{ forloop.index | plus: nb }}" id="{{ talk.slug }}">
+  <a href="{{ talk.url }}" class="talk room{{ forloop.index | plus: nb }}" id="{{ talk.slug }}">
     <header>
       {%- for speakerSlug in talk.speakers -%}
         {% assign speaker = site.data.speakers[include.year][speakerSlug] %}

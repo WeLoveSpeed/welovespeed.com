@@ -114,6 +114,7 @@
   font-style: normal;
   background-color: white;
   text-align: left;
+  scroll-margin-top: 9rem;
 
   @include media("<=medium") {
     height: auto;

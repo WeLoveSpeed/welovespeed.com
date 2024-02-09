@@ -33,9 +33,11 @@ layout: default
   {%- endif -%}
 {%- endcapture -%}
 
+{% assign seo_title = verbatim.title %}
+
 <section class="section">
   <div class="wrapper">
-    <header class="text-center">
+    <header class="conference-header text-left">
       <h1>{{ verbatim.title }} {% if verbatim.subtitle %}<br><small>{{ verbatim.subtitle }}</small>{% endif %}</h1>
       <p>
         par {{ speakers | split: '|' | array_to_sentence_string: array_to_sentence_word }},
@@ -43,13 +45,31 @@ layout: default
       </p>
     </header>
 
-    {% include conference_buttons.html verbatim=verbatim other_verbatim=other_verbatim locale=include.locale %}
+    {% if site.current_edition == year %}
+      {% if site.tickets.selling or site.infos.schedule %}
+        <p class="text-left actions">
+          {% if site.current_edition == page.year and site.tickets.selling %}
+          <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t Réserver votre place %}">
+            <span class="button-inner">{% t Réserver votre place %}</span>
+          </a>
+          {% endif %}
+
+          {% if site.current_edition == page.year and site.infos.schedule %}
+          <a class="button" data-text="{% t Voir sur le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/#{{ page.slug }}" title="{% t Voir sur le programme %}">
+            <span class="button-inner">{% t Voir sur le programme %}</span>
+          </a>
+          {% endif %}
+        </p>
+      {% endif %}
+    {% endif %}
+
+    {% include conference_buttons.html verbatim=verbatim other_verbatim=other_verbatim year=year locale=page.locale %}
 
     {{ verbatim.description | markdownify }}
 
     <hr />
 
-    {% include speaker_bios.html conference=page year=year locale=page.locale withAnchors=true %}
+    {% include speaker_bios.html conference=page year=year locale=page.locale withAnchors=true appearance="large" %}
   </div>
 </section>
 

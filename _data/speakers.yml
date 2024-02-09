@@ -701,11 +701,11 @@
         url: https://www.linkedin.com/in/jeanpierrevincent/
     company: BrainCracking
     en_US:
-      bio_short: Independent expert, Web Performance trainer.
+      bio_short: Independent expert, Web Performance trainer
       bio: >-
         Independent expert, Web Performance trainer.
     fr_FR:
-      bio_short: Expert indépendant, formateur Web Performance.
+      bio_short: Expert indépendant, formateur Web Performance
       bio: >-
         Expert indépendant, formateur Web Performance.
   romuald_priol:
@@ -1462,6 +1462,7 @@
   lequipe:
     name: Francois Boury
     image: /assets/images/speakers/2018/francois.jpg
+    company: L'Équipe
     en_US:
       alt: >-
         François's mugshot

@@ -8,9 +8,44 @@
     padding: 4rem;
   }
 
+  &-title {
+    margin-bottom: 1rem;
+  }
+
+  &-subtitle {
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &-excerpt p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &-excerpt p:first-child {
+    margin-top: 0;
+  }
+
+  &-actions {
+    margin: 3rem 0 0 0;
+  }
 
   &-speakers {
-    padding-top: 1rem;
+    display: grid;
+    gap: 2rem 4rem;
+    width: fit-content;
+    margin: 2rem 0;
+
+    @media (min-width: 50rem) {
+      grid-template-columns: auto auto;
+    }
+
+    &--large {
+      @media (min-width: 50rem) {
+        grid-template-columns: auto;
+        row-gap: 4rem;
+      }
+    }
   }
 
   &-speaker {
@@ -21,8 +56,9 @@
       "Description Description";
     gap: 1em;
 
-    & + & {
-      margin-top: 2rem;
+    &--small {
+      grid-template-rows: auto;
+      grid-template-areas: "Pic Name";
     }
 
     p {
@@ -54,5 +90,16 @@
     .person-links li {
       display: inline;
     }
+  }
+}
+
+
+.conference-header {
+  h1 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 0;
   }
 }

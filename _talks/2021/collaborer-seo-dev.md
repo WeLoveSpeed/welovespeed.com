@@ -8,7 +8,7 @@ speakers:
   - bastien_gatellier
 fr_FR:
   title: "Collaborer autour de la webperf"
-  subtitle: "/ une approche SEO & Dev"
+  subtitle: "une approche SEO & Dev"
   excerpt: >-
     La Performance Web permet de réunir différentes expertises autour de projets commun. Retour d'expérience sur un projet transverse ambitieux chez Fabernovel.
   description: >-
@@ -20,7 +20,7 @@ fr_FR:
     url: https://youtu.be/ae6eij-pLQo
 en_US:
   title: "Partnering around web performance"
-  subtitle: "/ an SEO & Dev approach"
+  subtitle: "an SEO & Dev approach"
   excerpt: >-
     Web Performance brings together different expertises around common projects. Flashback on an ambitious transverse project at Fabernovel.
   description: >-

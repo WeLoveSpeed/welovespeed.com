@@ -16,7 +16,7 @@ fr_FR:
 
     Durant cette intervention, nous fournirons des explications des mesures et études réalisés, et prendrons des exemples pour montrer ce qui a été affecté à la hausse ou à la baisse sur les sites.
   slides:
-    name: ~ https://es.slideshare.net/NicolasAUDEMAR/limpact-des-core-web-vitals-sur-le-seo-we-love-speed-2021-palais-de-la-bourse-lyon
+    name: https://es.slideshare.net/NicolasAUDEMAR/limpact-des-core-web-vitals-sur-le-seo-we-love-speed-2021-palais-de-la-bourse-lyon
   video:
     name: ~
     url: https://youtu.be/vcxpXALkMYA
@@ -31,7 +31,8 @@ en_US:
 
     During this presentation, we will provide explanations of the measurements and studies conducted, and take examples to show what went up or down at the sites.
   slides:
-    name: ~ ~
+    name: ~
+    url: ~
   video:
     name: ~
     url: ~

@@ -5,12 +5,13 @@ module Jekyll
     @@siteSpeakers = nil
 
     def to_site_data(site, locale)
+
       {
-        current_edition: {
+        current_edition: site.data['editions'].key?(site['current_edition']) ? {
           year: site['current_edition'],
           date: site.data['editions'][site['current_edition']]['date'][locale],
           location: site.data['editions'][site['current_edition']]['location'][locale],
-        },
+        } : nil,
         tickets: site['tickets'],
         infos: site['infos'],
         schedule: to_schedule_data(site),
@@ -19,6 +20,10 @@ module Jekyll
 
     def to_schedule_data(site)
       data = Hash.new
+
+      if (!site.data['schedule'].key?(site['current_edition']))
+        return data
+      end
 
       for entry in site.data['schedule'][site['current_edition']]
         entry['values'].each_with_index do | value, index |

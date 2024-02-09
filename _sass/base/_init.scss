@@ -2,6 +2,10 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   background: $default-bg;
 }
@@ -121,5 +125,9 @@ button svg {
 }
 
 *[id] {
-  scroll-margin-top: 75px;
+  scroll-margin-top: 9rem;
+
+  @media (min-width: 50rem) {
+    scroll-margin-top: 2rem;
+  }
 }

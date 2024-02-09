@@ -9,7 +9,7 @@ fr_FR:
   title: "Réduire le bruit du RUM"
   subtitle: ~
   excerpt: >-
-    Les données RUM peuvent être bruyants. Les Navigations Humaines Visibles (HVN) sont un nouveau concept qui s'attaque à ce risque !
+    Les données RUM peuvent être bruyantes. Les Navigations Humaines Visibles (HVN) sont un nouveau concept qui s'attaque à ce risque !
   description: >-
     Le bruit parasite du Real User Monitoring (RUM) peut gâcher votre journée !
 
