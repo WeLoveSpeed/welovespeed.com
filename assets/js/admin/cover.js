@@ -46,7 +46,11 @@ function initFormWithSearchParams(form) {
   const searchParams = new URLSearchParams(window.location.search);
   for (let key of searchParams.keys()) {
     const input = form.querySelector(`[name="${key}"]`);
-    input.value = searchParams.get(key);
+    if (input.getAttribute('type') === 'checkbox') {
+      input.checked = true;
+    } else {
+      input.value = searchParams.get(key);
+    }
   }
 }
 
@@ -54,8 +58,12 @@ async function displayCover(form) {
   const formData = new FormData(form);
   const conferenceId = formData.get("conference");
   const locale = formData.get("locale");
+  const scale = formData.get('scale')
 
   const resultContainer = document.querySelector("#result");
+  if (scale === 'on') {
+    resultContainer.classList.add('full-size')
+  }
   resultContainer.innerHTML = await render(
     document
       .querySelector("#talkCover")
@@ -78,6 +86,8 @@ async function displayCover(form) {
       });
     })
   );
+
+  window.dispatchEvent(new CustomEvent('cover-ready'))
 }
 
 const talkCoverForm = document.querySelector("#talk_cover");

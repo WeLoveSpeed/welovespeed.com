@@ -13,5 +13,13 @@ services:
     ports:
       - 4000:4000
 
+  npm:
+    image: mcr.microsoft.com/playwright:v1.41.1-jammy
+    volumes:
+      - .:/usr/app
+    working_dir: /usr/app
+    ipc: host
+    entrypoint: npm
+
 volumes:
   bundler_gems:
