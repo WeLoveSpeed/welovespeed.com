@@ -1,11 +1,12 @@
 // cd into the "thanks folder"
 // and execute "node _export_nl.mjs"
 
-import { access } from "node:fs/promises";
-import { join } from "node:path";
+import path, { join } from "node:path";
+import {mkdir} from 'node:fs/promises'
 import { chromium } from "playwright";
 import * as url from "url";
 import StaticServer from 'static-server'
+import sharp from 'sharp'
 
 /* On utilise StaticServer plutôt que le serveur de Jekyll en dev
  * parce que celui de Jekyll n'est pas fiable (des assets manquants sans raison) */
@@ -91,7 +92,7 @@ async function screenshotConferenceCover(page, locale, conference) {
   const imagePath = join(
     __dirname,
     locale === "fr_FR" ? "fr" : "en",
-    `${conference}.png`
+    `${conference}.jpg`
   );
 
   const searchParams = new URLSearchParams({
@@ -111,9 +112,10 @@ async function screenshotConferenceCover(page, locale, conference) {
     });
   });
 
-  await page.locator("#result .cover").screenshot({
-    path: imagePath,
-  });
+  const buffer = await page.locator("#result .cover").screenshot();
+
+  await mkdir(path.dirname(imagePath), {recursive: true})
+  await sharp(buffer).jpeg({quality: 85}).toFile(imagePath);
 
   await page.close();
 }
@@ -129,7 +131,7 @@ await Promise.allSettled(
         try {
           await pushToRenderQueue(
             () => screenshotConferenceCover(conferencePage, locale, conference),
-            { timeout: 10000 }
+            { timeout: 20000 }
           );
 
           console.log("OK", locale, conference);

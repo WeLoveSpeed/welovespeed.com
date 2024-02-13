@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="{{ lang }}" dir="ltr">
     {% comment %} Social Image computation {% endcomment %}
-    {% if shortKey=="home" %}
+    {% if page.seo_image %}
+      {% assign socialImage = page.seo_image | replace: ":slug", page.slug %}
+    {% elsif shortKey=="home" %}
       {% capture socialTitle %}{{ site.seo_title }} - {{ site.description }}{% endcapture %}
       {% capture socialImage %}https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,w_960/https://welovespeed.netlify.com/assets/images/cd-social-{{ page.locale | slice: 0,2 }}-{{ page.year }}.png{% endcapture %}
     {% else %}

@@ -11,5 +11,8 @@
     "playwright": "^1.41.2",
     "puppeteer": "^21.9.0",
     "static-server": "^2.2.1"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2"
   }
 }

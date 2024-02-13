@@ -221,60 +221,70 @@ defaults:
     values:
       year: 2018
       permalink: /en/2018/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2018/:slug.png
   -
     scope:
       path: "_talks/en/2019"
     values:
       year: 2019
       permalink: /en/2019/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2019/:slug.png
   -
     scope:
       path: "_talks/en/2020"
     values:
       year: 2020
       permalink: /en/2020/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2020/:slug.png
   -
     scope:
       path: "_talks/en/2021"
     values:
       year: 2021
       permalink: /en/2021/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2021/:slug.png
   -
     scope:
       path: "_talks/en/2023"
     values:
       year: 2023
       permalink: /en/2023/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2023/:slug/
   -
     scope:
       path: "_talks/fr/2018"
     values:
       year: 2018
       permalink: /2018/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2018/:slug.png
   -
     scope:
       path: "_talks/fr/2019"
     values:
       year: 2019
       permalink: /2019/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2019/:slug.png
   -
     scope:
       path: "_talks/fr/2020"
     values:
       year: 2020
       permalink: /2020/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2020/:slug.png
   -
     scope:
       path: "_talks/fr/2021"
     values:
       year: 2021
       permalink: /2021/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2021/:slug.png
   -
     scope:
       path: "_talks/fr/2023"
     values:
       year: 2023
       permalink: /2023/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2023/:slug.png
   -
     scope:
       path: "admin"
