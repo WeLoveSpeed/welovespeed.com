@@ -60,3 +60,16 @@
     z-index: 10;
   }
 }
+
+.person-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  vertical-align: text-bottom;
+
+  &-avatar {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 1.5em;
+  }
+}

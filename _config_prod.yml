@@ -104,6 +104,12 @@ cloudinary:
       fallback_max_width: 220
       steps: 2
       sizes: "110px"
+    thumbnail:
+      min_width: 33
+      max_width: 66
+      fallback_max_width: 33
+      steps: 2
+      sizes: "33px"
 
 permalink: "/blog/:year-:month-:day-:slug/"
 

@@ -6,7 +6,18 @@ layout: default
 
 {%- capture speakers -%}
   {%- for name in page.speakers -%}
-    <a href="#{{ name }}">{{- site.data.speakers[year][name].name -}}</a>
+    {% assign speaker = site.data.speakers[year][name] %}
+
+    {%- if speaker.image -%}
+      {%- assign avatarSource = speaker.image | relative_url -%}
+    {%- else -%}
+      {%- assign avatarSource = "/assets/images/speakers/incognito.png" | relative_url -%}
+    {%- endif -%}
+
+    <a href="#{{ name }}" class="person-inline">
+      {% cloudinary thumbnail {{ avatarSource }} class="person-inline-avatar" alt="" width="26" height="26" %}
+      {{- speaker.name -}}
+    </a>
     {%- if forloop.last == false %}|{% endif -%}
   {%- endfor -%}
 {%- endcapture -%}

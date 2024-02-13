@@ -27,12 +27,12 @@
           <em><a href="{{ conference.url }}#{{ name }}">{{ speaker.name | default: youString }}</a></em>
           {% include person-links.html urls=speaker.urls %}
         </span>
-        {% if include.appearance == 'small' and speakatim.bio_short or speaker.company %}
-        <span class="text-xs">
-          {{- speakatim.bio_short -}}
-          {%- if speakatim.bio_short and speaker.company %}, {% endif -%}
-          {{- speaker.company -}}
-        </span>
+        {% if speakatim.bio_short or speaker.company %}
+          <span class="text-xs">
+            {{- speakatim.bio_short -}}
+            {%- if speakatim.bio_short and speaker.company %}, {% endif -%}
+            {{- speaker.company -}}
+          </span>
         {% endif %}
       </h3>
 
