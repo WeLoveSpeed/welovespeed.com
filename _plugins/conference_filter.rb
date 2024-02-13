@@ -5,7 +5,6 @@ module Jekyll
     @@siteSpeakers = nil
 
     def to_site_data(site, locale)
-
       {
         current_edition: site.data['editions'].key?(site['current_edition']) ? {
           year: site['current_edition'],
@@ -53,23 +52,20 @@ module Jekyll
 
 
     def to_conference_data(conference, locale)
-      verbatim = conference[locale]
-      other_verbatim = conference[locale == 'fr_FR' ? 'en_US' : 'fr_FR']
-
-      if (verbatim.key?('video') && verbatim['video'].key?('url') && verbatim['video']['url'])
-        video = verbatim['video']['url']
-      elsif (other_verbatim.key?('video') && other_verbatim['video'].key?('url') && other_verbatim['video']['url'])
-        video = other_verbatim['video']['url']
+      if (conference && conference['video'] && conference['video']['url'])
+        video = conference['video']['url']
+      elsif (conference && conference['translation'] && conference['translation']['video'] && conference['translation']['video']['url'])
+        video = conference['translation']['video']['url']
       else
         video = nil
       end
 
       return {
         'id': conference['id'],
-        'title': microtypo(verbatim['title'], locale),
-        'subtitle': microtypo(verbatim['subtitle'], locale),
+        'title': microtypo(conference['title'], locale),
+        'subtitle': microtypo(conference['subtitle'], locale),
         'year': conference['year'],
-        'workshop': verbatim.key?('cta'),
+        'workshop': conference.key?('cta'),
         'speakers': to_speakers_data(conference['speakers'], conference['year'], locale),
         'video': video,
       }

@@ -12,55 +12,49 @@
     <div class="wrapper">
       {% capture pubDateUnix %}{{ conference.pub_date | date: '%s' }}{% endcapture %}
       {% if pubDateUnix <= nowUnix %}
+        <span class="sr-only" id="{{ conference.slug }}"></span>
+        {% for name in conference.speakers %}<span class="sr-only" id="{{name}}" aria-hidden></span>{% endfor %}
 
-      <span class="sr-only" id="{{ conference.slug }}"></span>
-      {% for name in conference.speakers %}<span class="sr-only" id="{{name}}" aria-hidden></span>{% endfor %}
+        {% assign verbatim = conference %}
+        {% assign other_verbatim = conference.translation %}
 
-      {% if include.locale == "en_US" and conference.en_US %}
-        {% assign verbatim = conference.en_US %}
-        {% assign other_verbatim = conference.fr_FR %}
-      {% else %}
-        {% assign verbatim = conference.fr_FR %}
-        {% assign other_verbatim = conference.en_US %}
-      {% endif %}
+        <article class="conference {% cycle 'odd', 'even' %}">
+          <h3 class="conference-title">
+            <a href="{{ conference.url }}">{{ verbatim.title }}</a>
+          </h3>
+          {% if verbatim.subtitle %}
+            <p class="conference-subtitle">
+              {{- verbatim.subtitle -}}
+            </p>
+          {% endif %}
 
-      <article class="conference {% cycle 'odd', 'even' %}">
-        <h3 class="conference-title">
-          <a href="{{ conference.url }}">{{ verbatim.title }}</a>
-        </h3>
-        {% if verbatim.subtitle %}
-          <p class="conference-subtitle">
-            {{- verbatim.subtitle -}}
-          </p>
+          <div class="conference-excerpt">
+            {{ verbatim.excerpt | markdownify }}
+          </div>
+
+          {% include speaker_bios.html conference=conference year=include.year locale=include.locale withAnchors=false appearance="small" %}
+
+          {% include conference_buttons.html verbatim=verbatim other_verbatim=other_verbatim year=include.year locale=include.locale %}
+        </article>
+
+        {% if site.current_edition == page.year %}
+          {% if site.tickets.selling or site.infos.schedule %}
+            <p class="text-center">
+              {% if site.current_edition == page.year and site.tickets.selling %}
+                <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t Réserver votre place %}">
+                  <span class="button-inner">{% t Réserver votre place %}</span>
+                </a>
+              {% endif %}
+
+              {% if site.current_edition == page.year and site.infos.schedule %}
+                <a class="button" data-text="{% t Voir sur le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/#{{ conference.slug }}" title="{% t Voir sur le programme %}">
+                  <span class="button-inner">{% t Voir sur le programme %}</span>
+                </a>
+              {% endif %}
+            </p>
+          {% endif %}
         {% endif %}
-
-        <div class="conference-excerpt">
-          {{ verbatim.excerpt | markdownify }}
-        </div>
-
-        {% include speaker_bios.html conference=conference year=include.year locale=include.locale withAnchors=false appearance="small" %}
-
-        {% include conference_buttons.html verbatim=verbatim other_verbatim=other_verbatim year=include.year locale=include.locale %}
-      </article>
-      {%- endif -%}
-
-      {% if site.current_edition == page.year %}
-        {% if site.tickets.selling or site.infos.schedule %}
-          <p class="text-center">
-            {% if site.current_edition == page.year and site.tickets.selling %}
-              <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t Réserver votre place %}">
-                <span class="button-inner">{% t Réserver votre place %}</span>
-              </a>
-            {% endif %}
-
-            {% if site.current_edition == page.year and site.infos.schedule %}
-              <a class="button" data-text="{% t Voir sur le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/#{{ conference.slug }}" title="{% t Voir sur le programme %}">
-                <span class="button-inner">{% t Voir sur le programme %}</span>
-              </a>
-            {% endif %}
-          </p>
-        {% endif %}
-      {% endif %}
+    {%- endif -%}
     </div>
   </section>
   {% include banners/banner-anthony-delanoix-eiffel-unsplash.html locale=page.locale %}

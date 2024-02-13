@@ -2,7 +2,7 @@
 layout: admin
 ---
 
-{% assign conferencesSorted = site.talks | sort: "display-order" | sort: "year" %}
+{% assign conferencesSorted = site.talks | where: "locale", "fr_FR" | sort: "display-order" | sort: "year" %}
 
 {% assign siteData = site | to_site_data: 'fr_FR' | jsonify | strip_html | escape %}
 {% assign siteDataEn = site | to_site_data: 'en_US' | jsonify | strip_html | escape %}
@@ -46,7 +46,7 @@ layout: admin
               data-conference="{{ conference | to_conference_data:"fr_FR" | jsonify | strip_html | escape | escape_once }}"
               data-conference-en="{{ conference | to_conference_data:"en_US" | jsonify | strip_html | escape | escape_once }}"
             >
-              {{ conference.year }} - {{ speakers | split: '|' | array_to_sentence_string: 'et' }} - {{conference.fr_FR.title}}
+              {{ conference.year }} - {{ speakers | split: '|' | array_to_sentence_string: 'et' }} - {{ conference.title }}
             </option>
 
           {% if forloop.last %}

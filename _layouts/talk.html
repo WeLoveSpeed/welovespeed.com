@@ -26,13 +26,8 @@ layout: default
   {{- "et" | t: page.locale -}}
 {%- endcapture -%}
 
-{%- if page.locale == "en_US" and page.en_US -%}
-  {%- assign verbatim = page.en_US -%}
-  {%- assign other_verbatim = page.fr_FR -%}
-{%- else %}
-  {%- assign verbatim = page.fr_FR -%}
-  {%- assign other_verbatim = page.en_US -%}
-{%- endif -%}
+{%- assign verbatim = page -%}
+{%- assign other_verbatim = page.translation %}
 
 {%- capture interventionsUrl -%}
   {%- if site.current_edition < year or site.infos.interventions -%}
@@ -74,7 +69,7 @@ layout: default
       {% endif %}
     {% endif %}
 
-    {% include conference_buttons.html verbatim=verbatim other_verbatim=other_verbatim year=year locale=page.locale %}
+    {% include conference_buttons.html verbatim=verbatim other_verbatim=other_verbatim year=year locale=page.talk_locale %}
 
     {{ verbatim.description | markdownify }}
 

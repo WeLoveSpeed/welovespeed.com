@@ -39,7 +39,7 @@ permalink: /2019/
   </div>
 </section>
 
-{%- assign conferences = site.talks | where: "year", page.year | sort: "display-order" -%}
+{%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}
 {% assign nbconf = conferences | size %}
 {% if nbconf > 0 %}
   <hr class="wrapper">
