@@ -28,5 +28,5 @@ slides:
   url: ~
 video:
   name: ~
-  url: https://youtu.be/2b48sOTD4dc
+  url: ~
 ---

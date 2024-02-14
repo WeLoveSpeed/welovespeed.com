@@ -1,4 +1,5 @@
 {% if include.conference.speakers.size > 0 %}
+{% assign conference = include.conference %}
 <section class="conference-speakers conference-speakers--{{ include.appearance | default: 'large' }} text-sm">
   {% for name in include.conference.speakers %}
     {% assign speaker = site.data.speakers[include.year][name] %}
@@ -22,7 +23,7 @@
 
       <h3 class="conference-speaker-name">
         {% assign speakerCount = conference.speakers | size %}
-        <span class="text-xs">{% t Présenté %}{% if conference.locale %}{% unless conference.locale == include.locale %}<b>{{ " en anglais" | t: page.locale }}</b>{% endunless %}{% elsif speaker.locale %}{% unless speaker.locale == include.locale %}<b>{{ " en anglais" | t: page.locale }}</b>{% endunless %}{% endif %} {%t par %}</span>
+        <span class="text-xs">{% t Présenté %}{% if conference.talk_locale %}{% unless conference.talk_locale == include.locale %}<b>{{ " en anglais" | t: page.locale }}</b>{% endunless %}{% elsif speaker.locale %}{% unless speaker.locale == include.locale %}<b>{{ " en anglais" | t: page.locale }}</b>{% endunless %}{% endif %} {%t par %}</span>
         <span>
           <em><a href="{{ conference.url }}#{{ name }}">{{ speaker.name | default: youString }}</a></em>
           {% include person-links.html urls=speaker.urls %}
