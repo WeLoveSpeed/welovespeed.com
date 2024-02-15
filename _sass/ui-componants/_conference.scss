@@ -1,3 +1,6 @@
+@use "../scss/colors" as *;
+@use "../helpers/a11y" as a11y;
+
 .conference {
   @media (min-width: 30rem) {
     padding: 2rem;
@@ -100,6 +103,7 @@
 
 .conference-header {
   h1 {
+    margin-top: 0;
     margin-bottom: 0;
   }
 

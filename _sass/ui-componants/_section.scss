@@ -1,4 +1,8 @@
+@use "../scss/colors" as *;
+@use "../vendors/include-media/include-media" as *;
+
 .section {
+  position: relative;
   margin: 10% 0;
 
   @include media(">medium") {

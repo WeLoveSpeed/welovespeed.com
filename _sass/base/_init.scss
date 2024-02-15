@@ -2,6 +2,10 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@use "../scss/colors" as *;
+@use "../scss/config" as *;
+@use "../scss/mixins" as *;
+
 :root {
   scroll-behavior: smooth;
 }

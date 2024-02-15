@@ -1,3 +1,7 @@
+@use "../scss/colors" as *;
+@use "../scss/config" as *;
+@use "../scss/abstracts" as *;
+
 .person {
   position: relative;
 
@@ -25,6 +29,7 @@
   &-avatar {
     max-width: 5em;
     border-radius: 5em;
+    background-color: $hr-color;
   }
   &-links {
     @extend %ul-reset;
@@ -71,5 +76,6 @@
     width: 1.5em;
     height: 1.5em;
     border-radius: 1.5em;
+    background-color: $hr-color;
   }
 }

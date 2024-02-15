@@ -1,3 +1,7 @@
+@use "../scss/colors" as *;
+@use "../scss/config" as *;
+@use "../vendors/include-media/include-media" as *;
+
 .home {
   &-header {
     margin: 20% 0 2em;

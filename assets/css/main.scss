@@ -22,60 +22,52 @@
 @charset "UTF-8";
 
 // Config, variables and mixins
-@import
-  "vendors/ceaser/ceaser",
-  "scss/colors",
-  "scss/config",
-  "scss/mixins";
+@use "vendors/ceaser/ceaser";
+@use "scss/colors";
+@use "scss/config";
+@use "scss/mixins";
 
 // Reset
-@import
-  "vendors/normalize/normalize",
-  "base/fonts",
-  "base/init",
-  "scss/abstracts";
+@use "vendors/normalize/normalize";
+@use "base/fonts";
+@use "base/init";
+@use "scss/abstracts";
 
 // Vendors
-@import
-  "vendors/include-media/include-media",
-  "vendors/recaptcha/recaptcha";
+@use "vendors/include-media/include-media";
+@use "vendors/recaptcha/recaptcha";
 
 // Base
-@import
-  "base/animations",
-  "base/grid",
-  "base/typo",
-  "base/buttons",
-  "base/forms";
+@use "base/animations";
+@use "base/grid";
+@use "base/typo";
+@use "base/buttons";
+@use "base/forms";
 
 // Main layout
-@import
-  "layout/layout",
-  "layout/header",
-  "layout/navigation",
-  "layout/footer";
+@use "layout/layout";
+@use "layout/header";
+@use "layout/navigation";
+@use "layout/footer";
 
 // UI componants – Alpha order
-@import
-  "ui-componants/actions",
-  "ui-componants/banners",
-  "ui-componants/conference",
-  "ui-componants/thanks-grid",
-  "ui-componants/lozad",
-  "ui-componants/person",
-  "ui-componants/pagination",
-  "ui-componants/schedule",
-  "ui-componants/section",
-  "ui-componants/social",
-  "ui-componants/sponsors";
+@use "ui-componants/actions";
+@use "ui-componants/banners";
+@use "ui-componants/conference";
+@use "ui-componants/thanks-grid";
+@use "ui-componants/lozad";
+@use "ui-componants/person";
+@use "ui-componants/pagination";
+@use "ui-componants/schedule";
+@use "ui-componants/section";
+@use "ui-componants/social";
+@use "ui-componants/sponsors";
 
 // Helpers
-@import
-  "helpers/helpers",
-  "helpers/a11y",
-  "helpers/i18n",
-  "helpers/responsive";
+@use "helpers/helpers";
+@use "helpers/a11y";
+@use "helpers/i18n";
+@use "helpers/responsive";
 
 // For debug
-@import
-  "debug/debug";
+@use "debug/debug";

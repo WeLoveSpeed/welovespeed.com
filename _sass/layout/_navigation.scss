@@ -1,3 +1,9 @@
+@use "../scss/abstracts" as *;
+@use "../scss/colors" as *;
+@use "../scss/config" as *;
+@use "../scss/mixins" as *;
+@use "../vendors/include-media/include-media" as *;
+
 $nav-menu-height: 45px;
 $nav-menu-width-active: $nav-menu-height;
 $nav-menu-width-inactive: 1.8 * $nav-menu-height;

@@ -1,3 +1,7 @@
+@use "../scss/colors" as *;
+@use "../scss/config" as *;
+@use "../vendors/include-media/include-media" as *;
+
 @function url-encode-rgb($string) {
   @if type-of($string) == "color" {
     $hex: str-slice(ie-hex-str($string), 4);
