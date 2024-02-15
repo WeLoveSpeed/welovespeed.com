@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 5
 talk_locale: en_US
 i18n-key: 2023-talk-how-to-prioritize-web-performance-optimizations
 length: 25

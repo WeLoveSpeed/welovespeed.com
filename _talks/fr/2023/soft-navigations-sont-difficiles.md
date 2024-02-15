@@ -1,5 +1,5 @@
 ---
-display-order: 2
+display-order: 15
 talk_locale: fr_FR
 i18n-key: 2023-talk-soft-navigations-are-hard
 length: 25

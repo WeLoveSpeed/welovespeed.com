@@ -1,5 +1,5 @@
 ---
-display-order: 3
+display-order: 16
 talk_locale: fr_FR
 i18n-key: 2023-talk-how-to-build-a-web-perf-community
 length: 25

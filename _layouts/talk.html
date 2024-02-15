@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{%- assign year = page.pub_date | date: "%Y" | plus: 0 -%}
+{%- assign year = page.year -%}
 
 {%- capture speakers -%}
   {%- for name in page.speakers -%}
@@ -46,8 +46,10 @@ layout: default
     <header class="conference-header text-left">
       <h1>{{ verbatim.title }} {% if verbatim.subtitle %}<br><small>{{ verbatim.subtitle }}</small>{% endif %}</h1>
       <p>
-        par {{ speakers | split: '|' | array_to_sentence_string: array_to_sentence_word }},
-        édition <a href="{{ interventionsUrl }}#{{ page.slug }}">{{ year }}</a>
+        {% if page.speakers.size > 0 %}
+          par {{ speakers | split: '|' | array_to_sentence_string: array_to_sentence_word }},
+        {% endif %}
+        édition <a href="{{ page.baseurl | default:site.baseurl }}{{ interventionsUrl }}#{{ page.slug }}">{{ year }}</a>
       </p>
     </header>
 
@@ -76,6 +78,34 @@ layout: default
     <hr />
 
     {% include speaker_bios.html conference=page year=year locale=page.locale withAnchors=true appearance="large" %}
+
+    {% if page.previous_talk or page.next_talk %}
+      {% capture symbols-url %}/assets/svg/symbol-defs.svg?{{site.time | date: '%Y%m%d%H%M%S'}}#{% endcapture %}
+      <nav class="conference-navigation">
+        {% if page.previous_talk %}
+          <a href="{{ page.previous_talk.url }}" class="conference-navigation-prev">
+            <svg width="1em" role="img" viewBox="0 0 448 512" aria-hidden="true">
+              <use xlink:href="{{ symbols-url | append: 'arrow-left' | relative_url }}"/>
+            </svg>
+            <span class="conference-navigation-name">
+              <small>{% t Conférence précédente %}</small>
+              <span class="conference-navigation-title">{{ page.previous_talk.title }}</span>
+            </span>
+          </a>
+        {% endif %}
+        {% if page.next_talk %}
+          <a href="{{ page.next_talk.url }}" class="conference-navigation-next">
+            <span class="conference-navigation-name">
+              <small>{% t Conférence suivante %}</small>
+              <span class="conference-navigation-title">{{ page.next_talk.title }}</span>
+            </span>
+            <svg width="1em" role="img" viewBox="0 0 448 512" aria-hidden="true">
+              <use xlink:href="{{ symbols-url | append: 'arrow-right' | relative_url }}"/>
+            </svg>
+          </a>
+        {% endif %}
+      </nav>
+    {% endif %}
   </div>
 </section>
 

@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 12
 talk_locale: en_US
 i18n-key: 2023-talk-top-cwv-recommandations-2023
 length: 25

@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 7
 talk_locale: fr_FR
 i18n-key: 2023-talk-lets-talk-about-value
 length: 45

@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 4
 talk_locale: fr_FR
 i18n-key: 2023-talk-lazy-hydrate-never-hydrate-resumable-js
 length: 25

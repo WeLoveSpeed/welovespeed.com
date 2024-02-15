@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 6
 talk_locale: en_US
 i18n-key: 2023-talk-noise-canceling-rum
 length: 45

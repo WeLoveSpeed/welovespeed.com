@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 10
 talk_locale: en_US
 i18n-key: 2023-talk-taming-third-party-speed-impact
 length: 45

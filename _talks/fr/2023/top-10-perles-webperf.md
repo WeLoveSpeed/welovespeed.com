@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 11
 talk_locale: fr_FR
 i18n-key: 2023-talk-top-10-webperf-mistakes
 length: 25

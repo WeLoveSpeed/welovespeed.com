@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 3
 talk_locale: fr_FR
 i18n-key: 2023-talk-measure-or-die-quick-diagnosis
 length: 25

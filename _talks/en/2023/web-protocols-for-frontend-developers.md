@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 14
 talk_locale: en_US
 i18n-key: 2023-talk-web-protocols-for-frontend-developers
 length: 45

@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 8
 talk_locale: fr_FR
 i18n-key: 2023-talk-feedback-turn-a-crisis-into-web-performance-victory
 length: 25

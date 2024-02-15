@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 2
 talk_locale: fr_FR
 i18n-key: 2023-talk-how-to-become-web-performance-sherlock-holmes
 length: 45

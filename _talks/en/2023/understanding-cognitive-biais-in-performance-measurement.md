@@ -1,5 +1,5 @@
 ---
-display-order: 1
+display-order: 13
 talk_locale: en_US
 i18n-key: 2023-talk-understanding-cognitive-biais-in-performance-measurement
 length: 45
