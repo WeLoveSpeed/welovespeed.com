@@ -1,3 +1,14 @@
+2024:
+  com_city: ""
+  tagline:
+    fr_FR: ""
+    en_US: ""
+  date:
+    fr_FR: "Bientôt"
+    en_US: "Soon"
+  pictures:
+    title: Flickr
+    url: https://www.flickr.com/photos/165201814@N05
 2023:
   com_city: "Paris"
   tagline:

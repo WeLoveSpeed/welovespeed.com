@@ -2,16 +2,18 @@
 {% capture nbitems %}{{staff | size}}i{% endcapture %}
 <section id="staff">
     <h2 class="text-center">{% t L'Équipe %}</h2>
-    <div class="grid-{{ site.data.gridsize[nbitems] }} text-center randomize">
+    <div class="person-grid text-center randomize">
       {% for member in staff %}
         <figure class="person" aria-describedby="capt-{{member.slug}}">
           {% cloudinary avatar {{ "/assets/images/staff/" | append: member.slug | append: ".jpg" | relative_url }} class="person-avatar lozad" alt="{{member.firstname}} {{member.lastname}}" loading="lazy" %}
           <figcaption id="capt-{{member.slug}}" class="person-name text-xs">
             {% if member.name_link %}<a title="{{member.firstname}} {{member.lastname}}" href="{{member.name_link}}">{{member.firstname}} <span class="sr-only">{{member.lastname}}</span></a>{% else %}{{member.firstname}} <span class="sr-only">{{member.lastname}}</span>{% endif %}<br>
-            ({% for link in member.links %}
-              {% unless forloop.first %}·{% endunless %}
-              <a href="{{ link.url }}">{{ link.label }}</a>
+            {% if member.links != nil and member.links.size > 0 %}
+              ({% for link in member.links %}
+                {% unless forloop.first %}·{% endunless %}
+                <a href="{{ link.url }}">{{ link.label }}</a>
               {% endfor%})
+            {% endif %}
           </figcaption>
         </figure>
       {% endfor%}

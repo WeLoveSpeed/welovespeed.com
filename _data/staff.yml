@@ -1,3 +1,92 @@
+2024:
+  - firstname: Émilie
+    lastname: Wilhelm
+    slug: emilie
+    name_link: https://twitter.com/EmilieWilhelm
+    links:
+      - label: Fasterize
+        url: https://www.fasterize.com/
+  - firstname: Jean-Pierre
+    lastname: Vincent
+    slug: jp
+    name_link: https://twitter.com/theystolemynick
+    links:
+      - label: BrainCracking
+        url: http://braincracking.org/
+  - firstname: Audrey
+    lastname: Schoonwater
+    slug: audrey
+    name_link: https://twitter.com/witamine
+    links:
+      - label: Witamine
+        url: https://www.witamine.com/
+  - firstname: Stéphane
+    lastname: Rios
+    slug: stephane
+    name_link: https://twitter.com/stefounet
+    links:
+      - label: Fasterize
+        url: https://www.fasterize.com/
+  - firstname: Shadine
+    lastname: Derbal
+    slug: shadined
+    name_link: https://www.linkedin.com/in/shadine-derbal/
+    links:
+      - label: Fasterize
+        url: https://www.fasterize.com/
+  - firstname: Aymeric
+    lastname: Bouillat
+    slug: aymeric
+    name_link: https://twitter.com/aymerictwit
+    links:
+      - label: Site
+        url: https://www.yapasdequoi.com/
+  - firstname: Joanne
+    lastname: Badiane
+    slug: joanne
+    name_link: https://www.linkedin.com/in/joanne-badiane-20028b79/
+    links:
+      - label: Scaleflex
+        url: https://www.scaleflex.com/
+  - firstname: Marylise
+    lastname: Chamonard
+    slug: marylise
+    name_link: https://www.linkedin.com/in/marylise-chamonard/
+    links:
+      - label: Agence Web Performance
+        url: https://agencewebperformance.fr/
+  - firstname: Julien
+    lastname: Pradet
+    slug: julien
+    name_link: https://twitter.com/julienpradet
+    links:
+      - label: Site
+        url: https://www.julienpradet.fr/
+  - firstname: Stéphane
+    lastname: Biancotto
+    slug: stephane_b
+    name_link:  https://www.linkedin.com/in/stephane-biancotto/
+    links: ~
+  - firstname: Martin
+    lastname: Guillier
+    slug: martin
+    name_link:  https://www.linkedin.com/in/martin-guillier/
+    links:
+      - label: Theodo
+        url: https://www.theodo.fr/
+  - firstname: Matthieu
+    lastname: Leroux-Huet
+    slug: matthieu
+    name_link: https://www.linkedin.com/in/lrxmatt/
+    links:
+      - label: Black Scale
+  - firstname: Morgan
+    lastname: Jerabek
+    slug: morgan
+    name_link: https://www.linkedin.com/in/morganjerabek/
+    links:
+      - label: Neuron Partners
+        url: https://www.neuron-partners.fr/
 2023:
   - firstname: Émilie
     lastname: Wilhelm

@@ -2,17 +2,19 @@
 title: Accueil
 description: >-
   Une journée de conférences dédiées à la performance web. Métriques, UX, optimisations du code et des images. Venez rencontrer les experts !
-i18n-key: 2023-home
-permalink: /2023/
+i18n-key: 2024-home
+permalink: /2024/
 ---
 {% assign year = page.year | default: site.current_edition %}
 <header class="home-header">
   <div class="wrapper">
     <h1 class="home-main-title">
-      <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
+      <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" width="950" height="224" />
       <div class="home-main-title-baseline">
-        {{ site.data.editions[page.year].tagline[page.locale] }}<br>
-        <small>Merci à toutes les personnes qui en ont fait un succès !</small>
+        {% if site.data.editions[page.year].tagline[page.locale].size > 0%}
+          {{ site.data.editions[page.year].tagline[page.locale] }}<br>
+        {% endif %}
+        <small>L’événement français des mordus de web performance revient en 2024 !</small>
       </div>
     </h1>
   </div>
@@ -20,33 +22,33 @@ permalink: /2023/
 
 <section class="section">
   <div class="wrapper">
-    <p class="actions text-center">
+    <p class="text-center">
       {%- if site.cfp_open -%}<a class="button" target="_blank"  data-text="Appel à propositions" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="appel à propositions">
         <span class="button-inner">Appel à propositions</span>
       </a>{%- endif -%}
-      {% if site.current_edition == year %}
-        {% if site.infos.interventions %}
-          <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Voir le programme">
-            <span class="button-inner">Voir le programme</span>
-          </a>
-        {% endif %}
-      {% else %}
-        <a class="button" data-text="Présentations et vidéos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Voir le programme">
-          <span class="button-inner">Présentations et vidéos</span>
-        </a>
+      {% if site.current_edition == year and site.infos.interventions %}
+      <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Voir le programme">
+        <span class="button-inner">Voir le programme</span>
+      </a>
       {% endif %}
       {% if site.current_edition == year and site.infos.schedule %}
       <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="Voir le programme">
         <span class="button-inner">Voir le programme</span>
       </a>
       {% endif %}
+      {%- comment -%}
       <a class="button" data-text="Témoignages" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="témoignages">
         <span class="button-inner">Témoignages</span>
       </a>
       <a class="button" data-text="Photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
         <span class="button-inner">Photos ({{ site.data.editions[page.year].pictures.title }})</span>
       </a>
+      {%- endcomment -%}
       {% if site.current_edition != page.year %}
+        <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
+          <span class="button-inner">{% t Voir l'édition courante %}</span>
+        </a>
+      {% else %}
         <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
           <span class="button-inner">{% t Voir l'édition courante %}</span>
         </a>
@@ -87,8 +89,8 @@ permalink: /2023/
 <section class="section">
   <div class="wrapper">
     <h2 class="text-center">À propos de We Love Speed</h2>
-    <p>Créé en 2018 par et pour la communauté, la conférence à but non-lucratif {{ site.title }} est née de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnel·les du web, de l’e-commerce et expert·es de la webperf, cet événement est fait pour vous&nbsp;!</p>
-    <p>Nous attendons près de 250 participants dont des profils décideurs, développeurs, passionnés ou experts en performance web comme chaque année. Mais en 2023, nous souhaitons contribuer encore un peu plus à la démocratisation de la web performance.</p>
+    <p>Créée en 2018 par et pour la communauté, la conférence à but non-lucratif {{ site.title }} est née de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnel·les du web, de l’e-commerce et expert·es de la webperf, cet événement est fait pour vous&nbsp;!</p>
+    <p>Nous attendons près de 250 participants dont des profils décideurs, développeurs, passionnés ou experts en performance web comme chaque année. Mais en 2024, nous souhaitons contribuer encore un peu plus à la démocratisation de la web performance.</p>
     <p>C’est pourquoi nous visons, pour cette édition, un public plus hétéroclite, incluant des profils tels que des Chief Digital Officer, e-commerce, marketing ou encore SEO. Nous sélectionnerons donc des conférences adaptées à toutes les sensibilités. Il y en aura pour tous les goûts !</p>
     <p class="text-center">
       <a class="button" target="_blank" data-text="{% t Voir les vidéos des années précédentes %}" href="https://www.youtube.com/welovespeed" title="{% t Voir les vidéos des années précédentes %}">
@@ -136,19 +138,26 @@ permalink: /2023/
 
 {% include banners/banner-alex-harmuth-cafe-unsplash.html locale=page.locale %}
 
-<section class="section" id="conferences">
+<section class="section" id="sponsors">
   <div class="wrapper">
     <h2 class="text-center">Ils nous soutiennent !</h2>
-    <p>E-commerçants, éditeurs de solutions, prestataires de services, ils nous souteniennent par amour de l'UX et de la performance Web. Sans eux, point d'événement. Merci beaucoup !</p>
+    <p>E-commerçants, éditeurs de solutions, prestataires de services, ils nous soutiennent par amour de l'UX et de la performance Web. Sans eux, point d'événement. Merci beaucoup !</p>
+
     <p class="text-center">
-      <a class="button" data-text="Voir plus" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/{{page.year}}/{{ "merci" | t: page.locale }}/"><span class="button-inner">Voir plus</span></a>
+      {% assign goldCount = site.data.sponsors[page.year].gold.size %}
+      {% assign othersCount = site.data.sponsors[page.year].others.size %}
+      {% if goldCount > 0 or othersCount > 0 %}
+        <a class="button" data-text="Voir plus" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/{{page.year}}/{{ "merci" | t: page.locale }}/"><span class="button-inner">Voir plus</span></a>
+      {% else %}
+        <a class="button" data-text="Nous contacter pour faire partie des sponsors" href="/contact/"><span class="button-inner">Nous contacter pour faire partie des sponsors</span></a>
+      {% endif %}
     </p>
   </div>
 </section>
 
 {% include sponsors.html locale=page.locale shorturl=false year=year  hideOthers=false %}
 
-{% if site.current_edition == year and site.sponsoring.show %}
+{% if site.current_edition == year and site.sponsoring.show and site.sponsoring[page.locale] %}
   <section id="sponsors" class="section">
     <div class="wrapper">
       <p class="text-center">

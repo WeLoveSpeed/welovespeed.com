@@ -9,7 +9,7 @@ module Jekyll
         current_edition: site.data['editions'].key?(site['current_edition']) ? {
           year: site['current_edition'],
           date: site.data['editions'][site['current_edition']]['date'][locale],
-          location: site.data['editions'][site['current_edition']]['location'][locale],
+          location: site.data['editions'][site['current_edition']]['location'] != nil ? site.data['editions'][site['current_edition']]['location'][locale] : nil,
         } : nil,
         tickets: site['tickets'],
         infos: site['infos'],

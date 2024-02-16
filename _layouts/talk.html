@@ -30,7 +30,7 @@ layout: default
 {%- assign other_verbatim = page.translation %}
 
 {%- capture interventionsUrl -%}
-  {%- if site.current_edition < year or site.infos.interventions -%}
+  {%- if site.current_edition > year or site.infos.interventions -%}
     /{{ year }}/{{ "interventions" | t: page.locale }}/
   {%- else if site.infos.schedule -%}
     /{{ year }}/{{ "programme" | t: page.locale }}/

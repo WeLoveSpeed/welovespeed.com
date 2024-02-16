@@ -1,7 +1,11 @@
 .actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 2rem;
+  gap: 1rem 2rem;
+}
+
+.actions.text-center {
+  justify-content: center;
 }
 
 .actions .button {

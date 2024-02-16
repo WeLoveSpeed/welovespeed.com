@@ -1,0 +1,171 @@
+---
+title: Home
+description: >-
+  A day of conferences dedicated to web performance. Metrics, UX, code and image optimizations. Come and meet the experts!
+i18n-key: 2024-home
+permalink: /en/2024/
+---
+{% assign year = page.year | default: site.current_edition %}
+<header class="home-header">
+  <div class="wrapper">
+    <h1 class="home-main-title">
+      <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" width="950" height="224"/>
+      <div class="home-main-title-baseline">
+        {% if site.data.editions[page.year].tagline[page.locale].size > 0%}
+          {{ site.data.editions[page.year].tagline[page.locale] }}<br/>
+        {% endif %}
+        <small>The French event for web performance enthusiasts is coming soon!</small>
+      </div>
+    </h1>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrapper">
+    <p class="text-center">
+      {%- if site.cfp_open -%}<a class="button" target="_blank" data-text="Call For Proposals" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="Call For Proposals">
+        <span class="button-inner">Call For Proposals</span>
+      </a>{%- endif -%}
+      {% if site.current_edition == year and site.infos.interventions %}
+      <a class="button" data-text="Line-up" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Line-up">
+        <span class="button-inner">Line-up</span>
+      </a>
+      {% endif %}
+      {% if site.current_edition == year and site.infos.schedule %}
+      <a class="button" data-text="Schedule" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="Schedule">
+        <span class="button-inner">Schedule</span>
+      </a>
+      {% endif %}
+      {%- comment -%}<a class="button" data-text="Audience feedback" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="audience feedback">
+        <span class="button-inner">Audience feedback</span>
+      </a>{%- endcomment -%}
+      {%- comment -%}<a class="button" data-text="Pictures ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="pictures ({{ site.data.editions[page.year].pictures.title }})">
+        <span class="button-inner">Pictures ({{ site.data.editions[page.year].pictures.title }})</span>
+      </a>{%- endcomment -%}
+      {% if site.current_edition != page.year %}
+        <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
+          <span class="button-inner">{% t Voir l'édition courante %}</span>
+        </a>
+      {% else %}
+      {% if site.tickets.selling %}
+        <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/{{ "billetterie" | t: page.locale }}" title="{% t Réserver votre place %}">
+          <span class="button-inner">{% t Réserver votre place %}</span>
+        </a>
+      {% endif %}
+      {% endif %}
+    </p>
+  </div>
+</section>
+
+{%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}
+{% assign nbconf = conferences | size %}
+{% if nbconf > 0 %}
+  <hr class="wrapper">
+  {% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}
+{% endif %}
+
+{% if site.nlOnTop %}
+  <hr class="wrapper">
+
+  <section class="section">
+    <div class="wrapper">
+      <h2 class="text-center">Stay in the loop!</h2>
+      <p>
+        Subscribe our newsletter to receive information about the event.
+      </p>
+      {% include newsletter-form.html context="main" %}
+    </div>
+  </section>
+{% endif %}
+
+{% include banners/banner-anthony-delanoix-eiffel-unsplash.html locale=page.locale %}
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="text-center">About We Love Speed</h2>
+    <p>Created in 2018 by and for the webperf community, the "{{ site.title }}" not-for-profit conference is born from the desire to share as widely as possible knowledge and experience about webperf. Web professionals, e-commerce and webperf experts, this event is for you!</p>
+    <p>We expect up to 250 participants, including executives, developers, enthusiasts and experts in web performance, as every year. But in 2024, we want to contribute even more to the democratization of web performance.</p>
+    <p>Therefore, for this edition, we aim at a more heterogeneous audience, including profiles such as Chief Digital Officer, e-commerce, marketing or SEO. We will select conferences adapted to all sensibilities. There will be something for everyone!</p>
+    <p class="text-center">
+      <a class="button" target="_blank" data-text="{% t Voir les interventions de l'année dernière %}" href="/en/2020/speakers/" title="{% t Voir les interventions de l'année dernière %}">
+        <span class="button-inner">{% t Voir les vidéos de l'année dernière %}</span>
+      </a>
+    </p>
+  </div>
+</section>
+
+{% if site.infos.display %}
+{% include banners/banner-alex-harmuth-cafe-unsplash.html locale=page.locale %}
+
+<section class="section" id="location">
+  <div class="wrapper">
+    <h2 class="text-center">The venue</h2>
+    <p>
+      See you at the Espace Saint-Martin, in the <strong></strong>center of Paris</strong>.
+    </p>
+    <div class="grid-3">
+      <figure aria-labelledby="fig1">
+        <a href="/assets/images/2023/location/1.png" target="_blank">{% cloudinary /assets/images/2023/location/1.png alt="A conference room pictured from the back. Several hundred purple plastic chairs face a large screen." %}</a>
+        <figcaption id="fig1" class="text-xs text-center">
+          The atypical architecture of the covert of the Philae room.
+        </figcaption>
+      </figure>
+      <figure aria-labelledby="fig2">
+        <a href="/assets/images/2023/location/2.png" target="_blank">{% cloudinary /assets/images/2023/location/2.png alt="A spacious, bright white reception area." %}</a>
+        <figcaption id="fig2" class="text-xs text-center">
+          The gallery is a very bright space, ideal for receptions.
+        </figcaption>
+      </figure>
+      <figure aria-labelledby="fig3">
+        <a href="/assets/images/2023/location/3.png" target="_blank">{% cloudinary /assets/images/2023/location/3.png alt="An auditorium with about 300 seats, photographed from the back left. We can guess a giant screen overhanging a large scenic space." %}</a>
+        <figcaption id="fig3" class="text-xs text-center">
+          The Auditorium and its wide stage area.
+        </figcaption>
+      </figure>
+    </div>
+    <p class="text-center">
+      <a class="button" data-text="Learn more about the venue" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/{{page.year}}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Learn more about the venue</span></a>
+    </p>
+  </div>
+</section>
+{% endif %}
+
+{% include banners/banner-alex-harmuth-cafe-unsplash.html locale=page.locale %}
+
+<section class="section" id="conferences">
+  <div class="wrapper">
+    <h2 class="text-center">They support us!</h2>
+    <p>E-merchants, solution providers, service providers, they support us for the love of UX and Web performance. Without them, there would be no event. Thank you very much!</p>
+
+    <p class="text-center">
+      {% assign goldCount = site.data.sponsors[page.year].gold.size %}
+      {% assign othersCount = site.data.sponsors[page.year].others.size %}
+      {% if goldCount > 0 or othersCount > 0 %}
+        <a class="button" data-text="Read More" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/{{page.year}}/{{ "merci" | t: page.locale }}/"><span class="button-inner">Read More</span></a>
+      {% else %}
+        <a class="button" data-text="Contact us to be among our sponsors" href="/en/contact/"><span class="button-inner">Contact us to be among our sponsors</span></a>
+      {% endif %}
+    </p>
+  </div>
+</section>
+
+{% include sponsors.html locale=page.locale shorturl=false year=year hideOthers=false %}
+
+{% if site.current_edition == year and site.sponsoring.show and site.sponsoring[page.locale] %}
+  <section id="sponsors" class="section">
+    <div class="wrapper">
+      <p class="text-center">
+        <a class="button" data-text="Download our Sponsorship Kit ({{ site.sponsoring[page.locale].size }})" href="{{ site.sponsoring[page.locale].url | relative_url }}"><span class="button-inner">Download our Sponsorship Kit ({{ site.sponsoring[page.locale].size }})</span></a>
+      </p>
+    </div>
+  </section>
+{% endif %}
+
+{% include banners/banner-cocktail.html locale=page.locale %}
+
+<section id="staff" class="section">
+  <div class="wrapper">
+    {% include staff.html year=year %}
+  </div>
+</section>
+
