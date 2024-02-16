@@ -56,12 +56,30 @@
 
 .page {
   &-main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+    padding-left: 100px;
+    text-align: right;
+
+    @include media(">=large") {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+    }
+
+    @include media(">=xlarge") {
+      padding-left: 0;
+    }
+
     &-logo {
-      width: 25%;
+      width: 100%;
+      max-width: 9em;
     }
 
     &-baseline {
-      float: right;
       margin: 0;
       font-size: 1em;
       color: $focus-color;
@@ -73,19 +91,6 @@
   }
 
   &-header {
-    margin: 100px 0 2em;
-
-    @include media(">small") {
-      margin: 100px 0 2em;
-    }
-    @include media(">medium") {
-      margin: 100px 0 2em;
-    }
-    @include media(">large") {
-      margin: 100px 0 2em;
-    }
-    @include media(">xlarge") {
-      margin: 100px 0 2em;
-    }
+    margin: 2em 0;
   }
 }
