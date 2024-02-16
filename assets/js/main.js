@@ -5,7 +5,9 @@
     const collections = document.querySelectorAll(".randomize");
     collections.forEach(collection => {
       for (var i = collection.children.length; i >= 0; i--) {
-        collection.appendChild(collection.children[Math.random() * i | 0]);
+        collection.appendChild(
+          collection.children[Math.floor(Math.random() * i) || 0]
+        );
       }
     });
   });
