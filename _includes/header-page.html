@@ -1,7 +1,7 @@
 <header class="page-header">
   <div class="wrapper">
     <div class="page-main-title h-like">
-      <a href="{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ include.link.anchor }}" title="{% t Accueil %}">
+      <a class="page-main-title-link" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ include.link.anchor }}" title="{% t Accueil %}">
         <img src="/assets/svg/wls-inline
           {%- if page.year == 2020 -%}
             -lazy-loaded

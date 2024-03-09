@@ -74,6 +74,14 @@
       padding-left: 0;
     }
 
+    &-link {
+      flex: 1;
+
+      @include media("<large") {
+        width: 100%;
+      }
+    }
+
     &-logo {
       width: 100%;
       max-width: 9em;
