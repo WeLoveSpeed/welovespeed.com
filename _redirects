@@ -1,4 +1,5 @@
 # Permanent
+
 /sponsors/ /2024/merci/ 302
 /merci/ /2024/merci/ 302
 /en/sponsors/ /en/2024/thanks/ 302
@@ -6,10 +7,12 @@
 /slack https://join.slack.com/t/welovespeed/shared_invite/zt-5l09qo37-lNRBmfud5YTQL8EytnMyrw 302
 
 # Temporary
+
 /en/blog/ /blog 302
 /en/legal-mentions/ /mentions-legales/ 302
 
-# Redirect to 2021
+# Redirect to 2024
+
 /en/ /en/2024 302
 / /2024 302
 
@@ -19,6 +22,10 @@
 /protocole-sanitaire/ /2023/protocole-sanitaire/ 302
 /health-protocol/ /en/2023/health-protocol/ 302
 
+/2023/infos-pratiques/ /2024/infos-pratiques/ 302
+/en/2023/informations/ /en/2024/informations/ 302
+
 # cfp
+
 /2023/cfp https://forms.gle/LrrVhnTfkvZFYLDc6
 /en/2023/cfp https://forms.gle/LrrVhnTfkvZFYLDc6

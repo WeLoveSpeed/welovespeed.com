@@ -45,7 +45,7 @@ tickets:
   price_currency: "EUR"
 nlOnTop: true
 infos:
-  display: false
+  display: true
   diversity:
     active: false
     soldout: false
