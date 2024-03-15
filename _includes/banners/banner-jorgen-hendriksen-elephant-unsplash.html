@@ -1,0 +1,16 @@
+{% if include.page_top %}
+  {% assign slug = "banner-jorgen-hendriksen-elephant-unsplash page-top" %}
+{% else %}
+  {% assign slug = "banner-jorgen-hendriksen-elephant-unsplash" %}
+{% endif %}
+{% include banners/_generic.html
+  slug=slug
+  locale=include.locale
+  source_title="Personnes marchant sur le trottoir près des statues d’éléphants"
+  source_url="https://unsplash.com/fr/photos/personnes-marchant-sur-le-trottoir-pres-des-statues-delephants-8jGtaL9Kc6U"
+  source_author="Jorgen Hendriksen"
+  source_rights_url="https://unsplash.com/fr/licence"
+  source_rights_title="Licence Unsplash"
+  source_rights_shortname="Unsplash"
+  no_lazy=include.no_lazy
+%}

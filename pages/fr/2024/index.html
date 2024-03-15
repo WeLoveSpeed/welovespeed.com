@@ -14,7 +14,7 @@ permalink: /2024/
         {% if site.data.editions[page.year].tagline[page.locale].size > 0%}
           {{ site.data.editions[page.year].tagline[page.locale] }}<br>
         {% endif %}
-        <small>L’événement français des mordus de web performance revient en 2024 !</small>
+        <small>L’événement français des mordus de web performance revient !</small>
       </div>
     </h1>
   </div>
@@ -23,9 +23,11 @@ permalink: /2024/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      {%- if site.cfp_open -%}<a class="button" target="_blank"  data-text="Appel à propositions" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="appel à propositions">
-        <span class="button-inner">Appel à propositions</span>
-      </a>{%- endif -%}
+      {%- if site.cfp_open -%}
+        <a class="button" target="_blank"  data-text="Appel à propositions" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="appel à propositions">
+          <span class="button-inner">Appel à propositions</span>
+        </a>
+      {%- endif -%}
       {% if site.current_edition == year and site.infos.interventions %}
       <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Voir le programme">
         <span class="button-inner">Voir le programme</span>
@@ -49,15 +51,11 @@ permalink: /2024/
           <span class="button-inner">{% t Voir l'édition courante %}</span>
         </a>
       {% else %}
-        <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
-          <span class="button-inner">{% t Voir l'édition courante %}</span>
-        </a>
-      {% else %}
-      {% if site.tickets.selling %}
-        <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/{{ "billetterie" | t: page.locale }}" title="{% t Réserver votre place %}">
-          <span class="button-inner">{% t Réserver votre place %}</span>
-        </a>
-      {% endif %}
+        {% if site.tickets.selling %}
+          <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/{{ "billetterie" | t: page.locale }}" title="{% t Réserver votre place %}">
+            <span class="button-inner">{% t Réserver votre place %}</span>
+          </a>
+        {% endif %}
       {% endif %}
     </p>
   </div>
@@ -84,13 +82,13 @@ permalink: /2024/
   </section>
 {% endif %}
 
-{% include banners/banner-anthony-delanoix-eiffel-unsplash.html locale=page.locale %}
+{% include banners/banner-dat-vo-social-unsplash.html locale=page.locale %}
 
 <section class="section">
   <div class="wrapper">
     <h2 class="text-center">À propos de We Love Speed</h2>
     <p>Créée en 2018 par et pour la communauté, la conférence à but non-lucratif {{ site.title }} est née de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnel·les du web, de l’e-commerce et expert·es de la webperf, cet événement est fait pour vous&nbsp;!</p>
-    <p>Nous attendons près de 250 participants dont des profils décideurs, développeurs, passionnés ou experts en performance web comme chaque année. Mais en 2024, nous souhaitons contribuer encore un peu plus à la démocratisation de la web performance.</p>
+    <p>Nous attendons près de 160 participants dont des profils décideurs, développeurs, passionnés ou experts en performance web comme chaque année. Mais en 2024, nous souhaitons contribuer encore un peu plus à la démocratisation de la web performance.</p>
     <p>C’est pourquoi nous visons, pour cette édition, un public plus hétéroclite, incluant des profils tels que des Chief Digital Officer, e-commerce, marketing ou encore SEO. Nous sélectionnerons donc des conférences adaptées à toutes les sensibilités. Il y en aura pour tous les goûts !</p>
     <p class="text-center">
       <a class="button" target="_blank" data-text="{% t Voir les vidéos des années précédentes %}" href="https://www.youtube.com/welovespeed" title="{% t Voir les vidéos des années précédentes %}">
@@ -101,34 +99,14 @@ permalink: /2024/
 </section>
 
 {% if site.infos.display %}
-{% include banners/banner-alex-harmuth-cafe-unsplash.html locale=page.locale %}
+{% include banners/banner-dat-vo-social-unsplash.html locale=page.locale %}
 
 <section class="section" id="location">
   <div class="wrapper">
     <h2 class="text-center">Le lieu de l’événement</h2>
-    <p>
+    <p class="text-center">
        Rendez-vous à EXPONANTES, au <strong>nord de Nantes</strong>.
     </p>
-    <div class="grid-3">
-      <figure aria-labelledby="fig1">
-        <a href="/assets/images/2023/location/1.png" target="_blank">{% cloudinary /assets/images/2023/location/1.png alt="Une salle de conférence prise en photo depuis l'arrière. Plusieurs centaines de chaises en plastique mauve font face à un grand écran." %}</a>
-        <figcaption id="fig1" class="text-xs text-center">
-          La sous-verrière à l’architecture atypique de la salle Philae.
-        </figcaption>
-      </figure>
-      <figure aria-labelledby="fig2">
-        <a href="/assets/images/2023/location/2.png" target="_blank">{% cloudinary /assets/images/2023/location/2.png alt="Un spacieux espace de réception blanc et brillant." %}</a>
-        <figcaption id="fig2" class="text-xs text-center">
-          La galerie est espace très clair, idéal pour les réceptions.
-        </figcaption>
-      </figure>
-      <figure aria-labelledby="fig3">
-        <a href="/assets/images/2023/location/3.png" target="_blank">{% cloudinary /assets/images/2023/location/3.png alt="Un auditorium d'environ 300 fauteils, pris en photo depuis son arrière gauche. On y devine un écran géant surplombant un large espace scénique." %}</a>
-        <figcaption id="fig3" class="text-xs text-center">
-          Le grand auditorium et son large espace scénique.
-        </figcaption>
-      </figure>
-    </div>
     <p class="text-center">
       <a class="button" data-text="Informations Pratiques" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/2023/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Informations Pratiques</span></a>
     </p>
@@ -136,7 +114,7 @@ permalink: /2024/
 </section>
 {% endif %}
 
-{% include banners/banner-alex-harmuth-cafe-unsplash.html locale=page.locale %}
+{% include banners/banner-dat-vo-social-unsplash.html locale=page.locale %}
 
 <section class="section" id="sponsors">
   <div class="wrapper">

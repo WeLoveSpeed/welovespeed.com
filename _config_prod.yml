@@ -37,11 +37,11 @@ sponsoring:
   #   url: '/assets/docs/2023/sponsoring_en.pdf'
   #   size: '675KB'
 tickets:
-  selling: false # pensez à regénérer les bannières de conférence avant mise en prod
+  selling: true # pensez à regénérer les bannières de conférence avant mise en prod
   weezevent: true
   coupons-only: false
   waiting-list: false
-  price: "250"
+  price: "200"
   price_currency: "EUR"
 nlOnTop: true
 infos:
@@ -65,9 +65,9 @@ robots: index,follow
 # Services configuration
 
 weezevent:
-    mini-site-url: https://my.weezevent.com/we-love-speed-2023
-    base_url: https://widget.weezevent.com/ticket/E931463/?code=24576
-    dataId: 931463
+    mini-site-url: https://my.weezevent.com/we-love-speed-2024
+    base_url: https://widget.weezevent.com/ticket/E1115910/?code=55656
+    dataId: 1115910
 
 appyuser: 7135870c152d8c2f73b35ab582eb7e5a
 
