@@ -99,7 +99,7 @@ layout: admin
 <template id="talkCover">
   <section class="cover">
     <header>
-      <img class="logo" src="/assets/svg/wls-inline.svg" width="900" height="210" />
+      <img class="logo" alt="WeLoveSpeed" src="/assets/svg/wls-inline.svg" width="900" height="210" />
       {% if conference.video %}
         <div class="cover-info cover-info--small">
           <p class="tag">
@@ -162,7 +162,7 @@ layout: admin
       <div class="speakers">
         {% for speaker in conference.speakers %}
           <div class="person">
-            <img class="avatar" src="{{ speaker.image }}" width="100" height="100" />
+            <img class="avatar" alt="speaker" src="{{ speaker.image }}" width="100" height="100" />
             <p class="person-name">
               {{ speaker.name }}<br>
               <small>
@@ -181,7 +181,7 @@ layout: admin
           <div class="avatar-list">
             {% for speaker in conference.speakers %}
               <div class="avatar-list-item">
-                <img class="avatar" src="{{ speaker.image }}" width="100" height="100" />
+                <img class="avatar" alt="speaker" src="{{ speaker.image }}" width="100" height="100" />
               </div>
             {% endfor %}
           </div>

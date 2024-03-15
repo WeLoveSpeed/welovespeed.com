@@ -2,7 +2,7 @@
 title: Informations
 description: "Practical informations regarding the event"
 i18n-key: informations
-permalink: /en/2023/informations/
+permalink: /en/2024/informations/
 layout: page
 ---
 

@@ -11,7 +11,11 @@
             {% if member.links != nil and member.links.size > 0 %}
               ({% for link in member.links %}
                 {% unless forloop.first %}·{% endunless %}
-                <a href="{{ link.url }}">{{ link.label }}</a>
+                {% if link.url %}
+                  <a href="{{ link.url }}">{{ link.label }}</a>
+                {% else %}
+                  {{ link.label }}
+                {% endif %}
               {% endfor%})
             {% endif %}
           </figcaption>

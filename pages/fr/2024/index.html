@@ -108,7 +108,7 @@ permalink: /2024/
        Rendez-vous à EXPONANTES, au <strong>nord de Nantes</strong>.
     </p>
     <p class="text-center">
-      <a class="button" data-text="Informations Pratiques" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/2023/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Informations Pratiques</span></a>
+      <a class="button" data-text="Informations Pratiques" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/{{page.year}}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Informations Pratiques</span></a>
     </p>
   </div>
 </section>
@@ -135,7 +135,7 @@ permalink: /2024/
 
 {% include sponsors.html locale=page.locale shorturl=false year=year  hideOthers=false %}
 
-{% if site.current_edition == year and site.sponsoring.show and site.sponsoring[page.locale] %}
+{% if site.current_edition == year and site.sponsoring.show and site.sponsoring.up_to_date and site.sponsoring[page.locale] %}
   <section id="sponsors" class="section">
     <div class="wrapper">
       <p class="text-center">

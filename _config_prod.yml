@@ -30,12 +30,13 @@ current_edition: 2024
 cfp_open: false
 sponsoring:
   show: true
-  # fr_FR:
-  #   url: '/assets/docs/2023/sponsoring_fr.pdf'
-  #   size: '495 Ko'
-  # en_US:
-  #   url: '/assets/docs/2023/sponsoring_en.pdf'
-  #   size: '675KB'
+  up_to_date: false
+  fr_FR:
+    url: '/assets/docs/2023/sponsoring_fr.pdf'
+    size: '495 Ko'
+  en_US:
+    url: '/assets/docs/2023/sponsoring_en.pdf'
+    size: '675KB'
 tickets:
   selling: true # pensez à regénérer les bannières de conférence avant mise en prod
   weezevent: true

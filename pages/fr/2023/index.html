@@ -98,42 +98,6 @@ permalink: /2023/
   </div>
 </section>
 
-{% if site.infos.display %}
-{% include banners/banner-alex-harmuth-cafe-unsplash.html locale=page.locale %}
-
-<section class="section" id="location">
-  <div class="wrapper">
-    <h2 class="text-center">Le lieu de l’événement</h2>
-    <p>
-       Rendez-vous à l'Espace Saint-Martin, en plein <strong>centre de Paris</strong>.
-    </p>
-    <div class="grid-3">
-      <figure aria-labelledby="fig1">
-        <a href="/assets/images/2023/location/1.png" target="_blank">{% cloudinary /assets/images/2023/location/1.png alt="Une salle de conférence prise en photo depuis l'arrière. Plusieurs centaines de chaises en plastique mauve font face à un grand écran." %}</a>
-        <figcaption id="fig1" class="text-xs text-center">
-          La sous-verrière à l’architecture atypique de la salle Philae.
-        </figcaption>
-      </figure>
-      <figure aria-labelledby="fig2">
-        <a href="/assets/images/2023/location/2.png" target="_blank">{% cloudinary /assets/images/2023/location/2.png alt="Un spacieux espace de réception blanc et brillant." %}</a>
-        <figcaption id="fig2" class="text-xs text-center">
-          La galerie est espace très clair, idéal pour les réceptions.
-        </figcaption>
-      </figure>
-      <figure aria-labelledby="fig3">
-        <a href="/assets/images/2023/location/3.png" target="_blank">{% cloudinary /assets/images/2023/location/3.png alt="Un auditorium d'environ 300 fauteils, pris en photo depuis son arrière gauche. On y devine un écran géant surplombant un large espace scénique." %}</a>
-        <figcaption id="fig3" class="text-xs text-center">
-          Le grand auditorium et son large espace scénique.
-        </figcaption>
-      </figure>
-    </div>
-    <p class="text-center">
-      <a class="button" data-text="Informations Pratiques" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/2023/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Informations Pratiques</span></a>
-    </p>
-  </div>
-</section>
-{% endif %}
-
 {% include banners/banner-alex-harmuth-cafe-unsplash.html locale=page.locale %}
 
 <section class="section" id="conferences">

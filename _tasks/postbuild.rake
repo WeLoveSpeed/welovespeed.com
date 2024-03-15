@@ -26,8 +26,11 @@ namespace :postbuild do
           "https://www.weezevent.com/?c=sys_widget",
           "/en/legal-mentions/",
           "/2023/cfp,/en/2023/cfp"
-          ]
-        }
+        ],
+        ignore_files: [
+          "./_site/admin/talks/index.html"
+        ]
+      }
       HTMLProofer.check_directory("./_site", config).run
     end
 
@@ -42,9 +45,13 @@ namespace :postbuild do
         ignore_urls: [
           "https://www.weezevent.com/?c=sys_widget",
           "/en/legal-mentions/",
-          "/2023/cfp,/en/2023/cfp"
-          ]
-        }
+          "/2023/cfp,/en/2023/cfp",
+          "/admin/talks/"
+        ],
+        ignore_files: [
+          "./_site/admin/talks/index.html"
+        ]
+      }
       HTMLProofer.check_directory("./_site", config).run
     end
   end
