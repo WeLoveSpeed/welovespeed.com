@@ -100,8 +100,8 @@ cloudinary:
       steps: 3
       sizes: "100px"
     avatar:
-      min_width: 60
-      max_width: 110
+      min_width: 115 # for some reason, cloudinary refuses to create 110px images ¯\_(ツ)_/¯
+      max_width: 220
       fallback_max_width: 220
       steps: 2
       sizes: "110px"
