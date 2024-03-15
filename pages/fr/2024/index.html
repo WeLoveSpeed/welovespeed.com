@@ -1,0 +1,154 @@
+---
+title: Accueil
+description: >-
+  Une journée de conférences dédiées à la performance web. Métriques, UX, optimisations du code et des images. Venez rencontrer les experts !
+i18n-key: 2024-home
+permalink: /2024/
+---
+{% assign year = page.year | default: site.current_edition %}
+<header class="home-header">
+  <div class="wrapper">
+    <h1 class="home-main-title">
+      <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" width="950" height="224" />
+      <div class="home-main-title-baseline">
+        {% if site.data.editions[page.year].tagline[page.locale].size > 0%}
+          {{ site.data.editions[page.year].tagline[page.locale] }}<br>
+        {% endif %}
+        <small>L’événement français des mordus de web performance revient !</small>
+      </div>
+    </h1>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrapper">
+    <p class="text-center">
+      {%- if site.cfp_open -%}
+        <a class="button" target="_blank"  data-text="Appel à propositions" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="appel à propositions">
+          <span class="button-inner">Appel à propositions</span>
+        </a>
+      {%- endif -%}
+      {% if site.current_edition == year and site.infos.interventions %}
+      <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Voir le programme">
+        <span class="button-inner">Voir le programme</span>
+      </a>
+      {% endif %}
+      {% if site.current_edition == year and site.infos.schedule %}
+      <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="Voir le programme">
+        <span class="button-inner">Voir le programme</span>
+      </a>
+      {% endif %}
+      {%- comment -%}
+      <a class="button" data-text="Témoignages" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="témoignages">
+        <span class="button-inner">Témoignages</span>
+      </a>
+      <a class="button" data-text="Photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
+        <span class="button-inner">Photos ({{ site.data.editions[page.year].pictures.title }})</span>
+      </a>
+      {%- endcomment -%}
+      {% if site.current_edition != page.year %}
+        <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
+          <span class="button-inner">{% t Voir l'édition courante %}</span>
+        </a>
+      {% else %}
+        {% if site.tickets.selling %}
+          <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/{{ "billetterie" | t: page.locale }}" title="{% t Réserver votre place %}">
+            <span class="button-inner">{% t Réserver votre place %}</span>
+          </a>
+        {% endif %}
+      {% endif %}
+    </p>
+  </div>
+</section>
+
+{%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}
+{% assign nbconf = conferences | size %}
+{% if nbconf > 0 %}
+  <hr class="wrapper">
+  {% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}
+{% endif %}
+
+{% if site.nlOnTop %}
+  <hr class="wrapper">
+
+  <section class="section">
+    <div class="wrapper">
+      <h2 class="text-center">Ne ratez rien !</h2>
+      <p>
+        Abonnez-vous à notre liste d'envoi pour recevoir des informations sur l'événement par courriel.
+      </p>
+      {% include newsletter-form.html context="main" %}
+    </div>
+  </section>
+{% endif %}
+
+{% include banners/banner-dat-vo-social-unsplash.html locale=page.locale %}
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="text-center">À propos de We Love Speed</h2>
+    <p>Créée en 2018 par et pour la communauté, la conférence à but non-lucratif {{ site.title }} est née de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnel·les du web, de l’e-commerce et expert·es de la webperf, cet événement est fait pour vous&nbsp;!</p>
+    <p>Nous attendons près de 160 participants dont des profils décideurs, développeurs, passionnés ou experts en performance web comme chaque année. Mais en 2024, nous souhaitons contribuer encore un peu plus à la démocratisation de la web performance.</p>
+    <p>C’est pourquoi nous visons, pour cette édition, un public plus hétéroclite, incluant des profils tels que des Chief Digital Officer, e-commerce, marketing ou encore SEO. Nous sélectionnerons donc des conférences adaptées à toutes les sensibilités. Il y en aura pour tous les goûts !</p>
+    <p class="text-center">
+      <a class="button" target="_blank" data-text="{% t Voir les vidéos des années précédentes %}" href="https://www.youtube.com/welovespeed" title="{% t Voir les vidéos des années précédentes %}">
+        <span class="button-inner">{% t Voir les vidéos des années précédentes %}</span>
+      </a>
+    </p>
+  </div>
+</section>
+
+{% if site.infos.display %}
+{% include banners/banner-dat-vo-social-unsplash.html locale=page.locale %}
+
+<section class="section" id="location">
+  <div class="wrapper">
+    <h2 class="text-center">Le lieu de l’événement</h2>
+    <p class="text-center">
+       Rendez-vous à EXPONANTES, au <strong>nord de Nantes</strong>.
+    </p>
+    <p class="text-center">
+      <a class="button" data-text="Informations Pratiques" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/2023/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Informations Pratiques</span></a>
+    </p>
+  </div>
+</section>
+{% endif %}
+
+{% include banners/banner-dat-vo-social-unsplash.html locale=page.locale %}
+
+<section class="section" id="sponsors">
+  <div class="wrapper">
+    <h2 class="text-center">Ils nous soutiennent !</h2>
+    <p>E-commerçants, éditeurs de solutions, prestataires de services, ils nous soutiennent par amour de l'UX et de la performance Web. Sans eux, point d'événement. Merci beaucoup !</p>
+
+    <p class="text-center">
+      {% assign goldCount = site.data.sponsors[page.year].gold.size %}
+      {% assign othersCount = site.data.sponsors[page.year].others.size %}
+      {% if goldCount > 0 or othersCount > 0 %}
+        <a class="button" data-text="Voir plus" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/{{page.year}}/{{ "merci" | t: page.locale }}/"><span class="button-inner">Voir plus</span></a>
+      {% else %}
+        <a class="button" data-text="Nous contacter pour faire partie des sponsors" href="/contact/"><span class="button-inner">Nous contacter pour faire partie des sponsors</span></a>
+      {% endif %}
+    </p>
+  </div>
+</section>
+
+{% include sponsors.html locale=page.locale shorturl=false year=year  hideOthers=false %}
+
+{% if site.current_edition == year and site.sponsoring.show and site.sponsoring[page.locale] %}
+  <section id="sponsors" class="section">
+    <div class="wrapper">
+      <p class="text-center">
+        <a class="button" data-text="Télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})" target="_blank" href="{{ site.sponsoring[page.locale].url | relative_url }}"><span class="button-inner">Télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})</span></a>
+      </p>
+    </div>
+  </section>
+{% endif %}
+
+{% include banners/banner-cocktail.html locale=page.locale %}
+
+<section id="staff" class="section">
+  <div class="wrapper">
+    {% include staff.html year=year %}
+  </div>
+</section>

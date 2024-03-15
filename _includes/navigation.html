@@ -21,7 +21,9 @@
       <li aria-hidden><hr></li>
       {% endunless %}
     {% endfor%}
-    <li aria-hidden><hr></li>
+    {% if nav_links.size > 0 %}
+      <li aria-hidden><hr></li>
+    {% endif %}
     {% if page.translation %}
       {% assign hreflang = page.translation.locale | slice: 0,2 %}
       <li><a hreflang="{{ hreflang }}" href="{{ page.translation.url | relative_url }}"><small>{% t (see in english) %}</small></a></li>

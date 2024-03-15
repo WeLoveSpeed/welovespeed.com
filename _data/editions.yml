@@ -1,8 +1,25 @@
+2024:
+  com_city: "Nantes"
+  tagline:
+    fr_FR: "17 septembre 2024, Nantes"
+    en_US: "September 17, 2024 – Nantes, France"
+  date:
+    fr_FR: "17 septembre 2024"
+    en_US: "September 17, 2024"
+  pictures:
+    title: Flickr
+    url: https://www.flickr.com/photos/165201814@N05
 2023:
   com_city: "Paris"
   tagline:
     fr_FR: "10 mai 2023, Paris"
-    en_US: "May 10, 2023 - Paris, France"
+    en_US: "May 10, 2023 – Paris, France"
+  date:
+    fr_FR: "10 mai 2023"
+    en_US: "May 10, 2023"
+  location:
+    fr_FR: "Espace Saint-Martin, Paris"
+    en_US: "Espace Saint-Martin, Paris, France"
   pictures:
     title: Flickr
     url: https://www.flickr.com/photos/165201814@N05
@@ -10,7 +27,7 @@
   com_city: "Lyon"
   tagline:
     fr_FR: "16 décembre 2021, Lyon"
-    en_US: "December 16, 2021 - Lyon, France"
+    en_US: "December 16, 2021 – Lyon, France"
   pictures:
     title: Flickr
     url: https://www.flickr.com/photos/165201814@N05

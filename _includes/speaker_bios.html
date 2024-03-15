@@ -1,0 +1,48 @@
+{% if include.conference.speakers.size > 0 %}
+{% assign conference = include.conference %}
+<section class="conference-speakers conference-speakers--{{ include.appearance | default: 'large' }} text-sm">
+  {% for name in include.conference.speakers %}
+    {% assign speaker = site.data.speakers[include.year][name] %}
+    {% if include.locale == "en_US" and speaker.en_US %}
+      {% assign speakatim = speaker.en_US %}
+    {% else %}
+      {% assign speakatim = speaker.fr_FR %}
+    {% endif %}
+  <article class="conference-speaker  conference-speaker--{{ include.appearance | default: 'large' }}"{% if include.withAnchors %} id="{{ name }}"{% endif %}>
+      {% if speaker.image %}
+        {% assign avatarSource = speaker.image | relative_url %}
+      {% else %}
+        {% assign avatarSource = "/assets/images/speakers/incognito.png" | relative_url %}
+      {% endif %}
+
+      <figure class="conference-speaker-pic">
+        {% cloudinary avatar {{ avatarSource }} class="person-avatar" alt="" loading="lazy" %}
+        {% capture youString %}{{ "Vous !" | t: include.locale }}{% endcapture %}
+        <figcaption class="sr-only">{{ speaker.name | default: youString }}</figcaption>
+      </figure>
+
+      <h3 class="conference-speaker-name">
+        {% assign speakerCount = conference.speakers | size %}
+        <span class="text-xs">{% t Présenté %}{% if conference.talk_locale %}{% unless conference.talk_locale == include.locale %}<b>{{ " en anglais" | t: page.locale }}</b>{% endunless %}{% elsif speaker.locale %}{% unless speaker.locale == include.locale %}<b>{{ " en anglais" | t: page.locale }}</b>{% endunless %}{% endif %} {%t par %}</span>
+        <span>
+          <em><a href="{{ conference.url }}#{{ name }}">{{ speaker.name | default: youString }}</a></em>
+          {% include person-links.html urls=speaker.urls %}
+        </span>
+        {% if speakatim.bio_short or speaker.company %}
+          <span class="text-xs">
+            {{- speakatim.bio_short -}}
+            {%- if speakatim.bio_short and speaker.company %}, {% endif -%}
+            {{- speaker.company -}}
+          </span>
+        {% endif %}
+      </h3>
+
+      {% if include.appearance != 'small' %}
+        <div class="conference-speaker-description">
+          {{ speakatim.bio | markdownify }}
+        </div>
+      {% endif %}
+    </article>
+  {%- endfor -%}
+</section>
+{% endif %}

@@ -10,7 +10,12 @@
         <nav aria-labelledby="footerTitle2">
           <ul>
             {%- for edition in site.data.editions -%}
-            <li><a href="{{ page.baseurl | default:site.baseurl }}/{{ edition[0] }}/">{{ edition[0] }}, {{ edition[1].com_city }}</a></li>
+            <li><a href="{{ page.baseurl | default:site.baseurl }}/{{ edition[0] }}/">
+              {{- edition[0] -}}
+              {%- if edition[1].com_city.size > 0 -%}
+                , {{ edition[1].com_city }}
+              {%- endif -%}
+            </a></li>
             {%- endfor -%}
           </ul>
         </nav>

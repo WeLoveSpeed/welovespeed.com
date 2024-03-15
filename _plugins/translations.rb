@@ -40,6 +40,24 @@ module Jekyll
         end
         translations[name].push(post)
       end
+
+      site.collections['talks'].docs.each do |talk|
+        name = talk.data['i18n-key']
+        locale = talk.data['locale']
+        next unless name
+
+        if translations.key?(name)
+          translations[name].each do |translation|
+            if translation.data['locale'] != locale
+              talk.data['translation'] = translation
+              translation.data['translation'] = talk
+            end
+          end
+        else
+          translations[name] = []
+        end
+        translations[name].push(talk)
+      end
     end
   end
 end

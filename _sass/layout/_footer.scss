@@ -1,3 +1,7 @@
+@use "../scss/config" as *;
+@use "../scss/mixins" as *;
+@use "../scss/abstracts" as *;
+
 .page-footer {
   margin: 5% 0 0;
 

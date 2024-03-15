@@ -499,8 +499,8 @@
   - type: talks
     hour: "09:40"
     values:
-      - taming-3p-speed-impact
-      - parlons-de-valeur
+      - 2023-talk-taming-third-party-speed-impact
+      - 2023-talk-lets-talk-about-value
   - type: short
     hour: "10:25"
     values:
@@ -509,8 +509,8 @@
   - type: talks
     hour: "10:35"
     values:
-      - how-to-prioritize-web-performance-optimizations
-      - diagnostics-rapides
+      - 2023-talk-how-to-prioritize-web-performance-optimizations
+      - 2023-talk-measure-or-die-quick-diagnosis
   - type: short
     hour: "11:10"
     values:
@@ -522,8 +522,8 @@
       - fr_FR: Pause Café et Ateliers 🧰
         en_US: Coffee Break and Workshops 🧰
         span: 2
-      - atelier-1-1
-      - atelier-1-2
+      - 2023-talk-atelier-1-1-braincracking-debugging-web-performance
+      - 2023-talk-atelier-1-2-dynatrace
   - type: short
     hour: "11:40"
     values:
@@ -532,8 +532,8 @@
   - type: talks
     hour: "11:50"
     values:
-      - web-protocols-for-frontend-developers
-      - understanding-cognitive-biais-in-performance-measurement
+      - 2023-talk-web-protocols-for-frontend-developers
+      - 2023-talk-understanding-cognitive-biais-in-performance-measurement
   - type: short
     hour: "12:40"
     values:
@@ -545,16 +545,16 @@
       - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
         en_US: Lunch Break 🍱 and Workshops 🧰
         span: 2
-      - atelier-2-1
-      - atelier-2-2
+      - 2023-talk-atelier-2-1-theodo-coding-your-own-synthetic-monitoring-solution
+      - 2023-talk-atelier-2-2-appyuser-optimize-digital-experience-reduce-environmental-footprint
   - type: pause-talk-talk
     hour: "13:10"
     values:
       - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
         en_US: Lunch Break 🍱 and Workshops 🧰
         span: 2
-      - atelier-3-1
-      - atelier-3-2
+      - 2023-talk-atelier-3-1-scaleflex-images-impact-webperf
+      - 2023-talk-atelier-3-2-fasterize-web-performance-clinic
   - type: short
     hour: "13:30"
     values:
@@ -563,8 +563,8 @@
   - type: talks
     hour: "13:40"
     values:
-      - devenir-sherlock-holmes
-      - noise-canceling-rum
+      - 2023-talk-how-to-become-web-performance-sherlock-holmes
+      - 2023-talk-noise-canceling-rum
   - type: short
     hour: "14:30"
     values:
@@ -573,16 +573,16 @@
   - type: talks
     hour: "14:40"
     values:
-      - top-cwv-recommandations-2023
-      - frameworks-tips-ttfb
+      - 2023-talk-top-cwv-recommandations-2023
+      - 2023-talk-lazy-hydrate-never-hydrate-resumable-js
   - type: pause-talk-talk
     hour: "15:15"
     values:
       - fr_FR: Pause Café et Ateliers 🧰
         en_US: Coffee Break and Workshops 🧰
         span: 2
-      - atelier-4-1
-      - atelier-4-2
+      - 2023-talk-atelier-4-1-google-speculation-rules-api
+      - 2023-talk-atelier-4-2-ekino-create-resumable-application-with-qwik
   - type: short
     hour: "15:45"
     values:
@@ -591,8 +591,8 @@
   - type: talks
     hour: "15:55"
     values:
-      - soft-navigations-are-hard
-      - rex-chr
+      - 2023-talk-soft-navigations-are-hard
+      - 2023-talk-feedback-turn-a-crisis-into-web-performance-victory
   - type: short
     hour: "16:25"
     values:
@@ -601,8 +601,8 @@
   - type: talks
     hour: "16:35"
     values:
-      - accessibilite-et-webperf
-      - seo-webperf-impact
+      - 2023-talk-accessibilite-et-webperf
+      - 2023-talk-seo-webperf-impact
   - type: short
     hour: "17:05"
     values:
@@ -611,8 +611,8 @@
   - type: talks
     hour: "17:15"
     values:
-      - top-10-perles
-      - how-to-build-a-web-perf-community
+      - 2023-talk-top-10-webperf-mistakes
+      - 2023-talk-how-to-build-a-web-perf-community
   - type: short
     hour: "17:45"
     values:

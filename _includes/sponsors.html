@@ -1,15 +1,18 @@
-{% assign othersCount = site.data.sponsors[include.year].others|size %}
+{% assign goldCount = site.data.sponsors[include.year].gold.size %}
+{% assign othersCount = site.data.sponsors[include.year].others.size %}
 <section id="sponsors-logo" class="section">
 
   <div class="wrapper">
-    <div class="grid-2 text-center randomize">
-      {% for sponsor in site.data.sponsors[include.year].gold %}
-          {% capture sponsor-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year|default: site.current_edition }}/{{ "merci" | t: include.locale }}/{% endunless %}#{{sponsor.slug}}{% endcapture %}
-          <figure>
-            <a title="{{ "En savoir plus sur %s" | t: include.locale | replace:"%s",sponsor.name }}" target="_blank" href="{{ sponsor-url }}" rel="sponsored"><img src="{{ sponsor.logo }}" alt="{{sponsor.name}}" loading="lazy"/></a>
-          </figure>
-      {%- endfor -%}
-    </div>
+    {% if goldCount > 0 %}
+      <div class="grid-2 text-center randomize">
+        {% for sponsor in site.data.sponsors[include.year].gold %}
+            {% capture sponsor-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year|default: site.current_edition }}/{{ "merci" | t: include.locale }}/{% endunless %}#{{sponsor.slug}}{% endcapture %}
+            <figure>
+              <a title="{{ "En savoir plus sur %s" | t: include.locale | replace:"%s",sponsor.name }}" target="_blank" href="{{ sponsor-url }}" rel="sponsored"><img src="{{ sponsor.logo }}" alt="{{sponsor.name}}" loading="lazy"/></a>
+            </figure>
+        {%- endfor -%}
+      </div>
+    {% endif %}
     {% unless include.hideOthers %}
       {% if othersCount > 0 %}
       <hr>

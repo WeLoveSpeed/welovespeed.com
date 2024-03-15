@@ -1,0 +1,456 @@
+---
+layout: admin
+---
+
+{% assign conferencesSorted = site.talks | where: "locale", "fr_FR" | sort: "display-order" | sort: "year" %}
+
+{% assign siteData = site | to_site_data: 'fr_FR' | jsonify | strip_html | escape %}
+{% assign siteDataEn = site | to_site_data: 'en_US' | jsonify | strip_html | escape %}
+
+<div class="wrapper">
+  <form
+    id="talk_cover"
+    class="form"
+    method="GET"
+    data-site="{{ siteData }}"
+    data-site-en="{{ siteDataEn }}"
+  >
+    <fieldset>
+      <label>Conférence :</label>
+      <select name="conference" autofocus>
+        {% for conference in conferencesSorted %}
+          {%- assign year = conference.year -%}
+
+          {% if forloop.first %}
+            {% assign previousYear = year %}
+            <optgroup label="{{ year }}">
+          {% elsif year != previousYear %}
+            {% assign previousYear = year %}
+            </optgroup>
+            <optgroup label="{{ year }}">
+          {% endif %}
+
+            {%- capture speakers -%}
+              {%- for name in conference.speakers -%}
+                {{- site.data.speakers[year][name].name -}}
+                {%- if forloop.last == false %}|{% endif -%}
+              {%- endfor -%}
+            {%- endcapture -%}
+
+            {%- capture array_to_sentence_word -%}
+              {{- "et" | t: conference.locale -}}
+            {%- endcapture -%}
+
+            <option
+              value="{{ conference.id }}"
+              data-conference="{{ conference | to_conference_data:"fr_FR" | jsonify | strip_html | escape | escape_once }}"
+              data-conference-en="{{ conference | to_conference_data:"en_US" | jsonify | strip_html | escape | escape_once }}"
+            >
+              {{ conference.year }} - {{ speakers | split: '|' | array_to_sentence_string: 'et' }} - {{ conference.title }}
+            </option>
+
+          {% if forloop.last %}
+            </optgroup>
+          {% endif %}
+        {% endfor %}
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <label for="locale">Locale</label>
+      <select id="locale" name="locale">
+        <option>fr_FR</option>
+        <option>en_US</option>
+      </select>
+    </fieldset>
+
+    <fieldset class="form-row">
+      <input id="scale" type="checkbox" name="scale">
+      <label for="scale">
+        Pleine taille
+      </label>
+    </fieldset>
+
+    <div class="actions">
+      <button type="submit" class="button">
+        <span class="button-inner">Générer</span>
+      </button>
+    </div>
+  </form>
+</div>
+
+<div class="result-container">
+  <div id="result"></div>
+</div>
+
+<div class="tutorial wrapper">
+  <p>Si vous voulez récupérer cette image, vous pouvez suivre la démarche suivante :</p>
+
+  <ol>
+    <li>Click droit sur la bannière</li>
+    <li>Choisir "Inspect element"</li>
+    <li>Click droit sur <code>{{ '<section class="cover">' | escape }}</code> dans le panneau "Elements" des DevTools</li>
+    <li>Choisir "Capture node screenshot"</li>
+  </ol>
+</div>
+
+{% comment %} Le bloc raw est là pour ignorer les tags liquids qui seront interprétés en JS et non au niveau de Jekyll. {% endcomment %}
+{% raw %}
+<template id="talkCover">
+  <section class="cover">
+    <header>
+      <img class="logo" src="/assets/svg/wls-inline.svg" width="900" height="210" />
+      {% if conference.video %}
+        <div class="cover-info cover-info--small">
+          <p class="tag">
+            {% if locale == 'fr_FR' -%}
+              Video replay disponible !
+            {%- else -%}
+              Replay Video Available!
+            {%- endif %}
+            <span style="margin-left: 1.5rem">❤</span>
+          </p>
+        </div>
+      {% elsif conference.year == site.current_edition.year %}
+        {% if site.tickets.selling %}
+          <div class="cover-info">
+            <p class="tag">
+              {% if locale == 'fr_FR' -%}
+                Les billets sont disponibles&nbsp;!
+              {%- else -%}
+                Tickets are available!
+              {%- endif %}
+              <span style="margin-left: 1.5rem">❤</span>
+            </p>
+            <p class="tag-subtitle">
+              {{ site.current_edition.location }}<br>
+              {{ site.current_edition.date }}
+            </p>
+          </div>
+        {% elsif site.infos.schedule %}
+          <div class="cover-info">
+            <p class="tag">
+              {{ site.schedule[conference.id].room }}
+              &ndash;
+              {{ site.schedule[conference.id].hour }}
+            </p>
+            <p class="tag-subtitle">
+              {{ site.current_edition.location }}<br>
+              {{ site.current_edition.date }}
+            </p>
+          </div>
+        {% endif %}
+      {% endif %}
+    </header>
+
+    <div class="title">
+      {% if conference.workshop %}
+        <p class="tag">
+          {% if locale == 'fr_FR' -%}
+            Atelier partenaire
+          {%- else -%}
+            Sponsored workshop
+          {%- endif %}
+        </p>
+      {% endif %}
+      <h1 data-fit-text>
+        <span>{{ conference.title }}</span>
+      </h1>
+    </div>
+
+    {% if conference.speakers.size == 1 %}
+      <div class="speakers">
+        {% for speaker in conference.speakers %}
+          <div class="person">
+            <img class="avatar" src="{{ speaker.image }}" width="100" height="100" />
+            <p class="person-name">
+              {{ speaker.name }}<br>
+              <small>
+                {{ speaker.bio_short }}
+                {%- if speaker.company -%}
+                  , {{ speaker.company }}
+                {%- endif -%}
+              </small>
+            </p>
+          </div>
+        {% endfor %}
+      </div>
+    {% elsif conference.speakers.size > 1 %}
+      <div class="speakers speakers--multiple" style="--number-of-speakers: {{ conference.speakers.size }}">
+        <div class="person">
+          <div class="avatar-list">
+            {% for speaker in conference.speakers %}
+              <div class="avatar-list-item">
+                <img class="avatar" src="{{ speaker.image }}" width="100" height="100" />
+              </div>
+            {% endfor %}
+          </div>
+          <div class="person-name">
+            {% for speaker in conference.speakers %}
+              {%- if forloop.first == false -%}
+                {% if forloop.last %}
+                  {% if locale == 'fr_FR' -%}
+                    et
+                  {%- else -%}
+                    and
+                  {%- endif %}
+                {% else -%}
+                  ,
+                {% endif -%}
+              {%- endif -%}
+              {{- speaker.name -}}
+            {% endfor %}
+            {% if conference.speakers.size <= 3 %}
+              <br>
+              <small>{{ conference.speakers | map: "company" | uniq | join: " / " }}</small>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    <footer class="footer">
+      welovespeed.com/{{ conference.year }}/
+    </footer>
+  </section>
+</template>
+{% endraw %}
+
+<style>
+  :root {
+    /* block the font-size to make sure the generated screenshot is always the same */
+    font-size: 10px;
+  }
+
+  .form fieldset + fieldset {
+    margin-top: 2rem;
+  }
+
+  .form-row {
+    gap: 1rem;
+  }
+
+  input[type="checkbox"] {
+    width: auto;
+  }
+
+  .form .actions {
+    margin-top: 2rem;
+  }
+
+  .form .actions .button {
+    margin-left: 0;
+  }
+
+  .result-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 1em 2em 5em 2em;
+    background: #f4f4f4;
+    font-size: 32px;
+    height: 300px;
+  }
+
+  .result-container * {
+    box-sizing: border-box;
+  }
+
+  .cover {
+    --outer-padding: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: grid;
+    grid-template-rows: 1fr auto auto;
+    width: 1200px;
+    min-width: 1200px;
+    max-width: 1200px;
+    height: 626px;
+    min-height: 626px;
+    max-height: 626px;
+    padding: 4rem var(--outer-padding) var(--outer-padding);
+    background: #fff;
+    translate: -50% -50%;
+    scale: 0.5 0.5;
+  }
+
+  .result-container:has(.full-size) {
+    height: auto;
+  }
+
+  .full-size .cover {
+    position: static;
+    translate: none;
+    scale: 1 1;
+  }
+
+  .cover header:has(.tag) {
+    margin-top: 0.5rem;
+  }
+
+  .cover header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .logo {
+    display: block;
+    width: auto;
+    height: 100px;
+    margin-right: auto;
+  }
+
+  .cover-info {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-inline-end: calc(-1 * var(--outer-padding));
+  }
+
+  .cover-info > * {
+    padding-right: var(--outer-padding);
+  }
+
+  .cover-info .tag {
+    width: 100%;
+    margin: 0;
+    text-align: right;
+  }
+
+  .tag {
+    width: fit-content;
+    padding: 1.1rem var(--outer-padding) 0.9rem var(--outer-padding);
+    background-color: #e22d2e;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.2em;
+    /* letter-spacing: 0.04em; */
+    /* text-transform: uppercase; */
+  }
+  .tag-subtitle {
+    margin: 1rem 0 0 0;
+    font-size: 1em;
+    text-align: right;
+  }
+
+  .title .tag {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-left: calc(-1 * var(--outer-padding));
+  }
+
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 225px;
+    margin: 4rem 0 0 0;
+
+    text-align: left;
+    text-wrap: balance;
+  }
+
+  .title:has(.tag) h1 {
+    height: 225px;
+  }
+
+  .cover:has(.speakers--multiple) h1 {
+    height: 155px;
+  }
+
+  .cover:has(.cover-info) h1 {
+    height: 155px;
+    margin-top: 2rem;
+  }
+  .cover:has(.cover-info--small) h1 {
+    height: 205px;
+  }
+
+  .speakers {
+    display: flex;
+    justify-content: start;
+    /* remove border from avatar */
+    margin: calc(3rem - 0.25em) 0 0 0;
+    padding: 0;
+    gap: 4rem;
+    color: #260c0e;
+    list-style: none;
+  }
+
+  .person {
+    display: grid;
+    grid-template-columns: clamp(150px, calc(150px + (150px - 0.5em) * (var(--number-of-speakers, 1) - 1)), 40%) 1fr;
+    width: 100%;
+    gap: 3rem;
+    min-height: 150px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .avatar {
+    align-self: center;
+    width: 150px;
+    min-width: 150px;
+    height: 150px;
+    min-height: 150px;
+    border-radius: 50%;
+    outline: 0.25em solid white;
+    overflow: hidden;
+  }
+  .avatar-list {
+    display: flex;
+    width: 100%;
+  }
+
+  .avatar-list-item {
+    position: relative;
+    flex: 1;
+    height: 100%;
+  }
+  .avatar-list-item:first-child {
+    flex: 0 0 auto;
+    width: 150px;
+  }
+  .avatar-list-item .avatar {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    right: 0;
+  }
+
+  .person-name {
+    align-self: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+  }
+
+  .person-name:has(small) {
+    margin-bottom: -0.25rem;
+  }
+
+  .person-name small {
+    display: block;
+    text-wrap: balance;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 1.5rem;
+    text-align: right;
+    font-size: 1em;
+    line-height: 1;
+    opacity: 0.7;
+  }
+</style>
+
+<script src="/assets/js/admin/cover.js" type="module"></script>

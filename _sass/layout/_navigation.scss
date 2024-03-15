@@ -1,3 +1,9 @@
+@use "../scss/abstracts" as *;
+@use "../scss/colors" as *;
+@use "../scss/config" as *;
+@use "../scss/mixins" as *;
+@use "../vendors/include-media/include-media" as *;
+
 $nav-menu-height: 45px;
 $nav-menu-width-active: $nav-menu-height;
 $nav-menu-width-inactive: 1.8 * $nav-menu-height;
@@ -13,9 +19,13 @@ $load-third-length: (
   ) * 0.9;
 
 .nav-trigger {
-  position: absolute;
-  top: 0;
+  position: sticky;
+  z-index: 1;
+  top: 0.5em;
   left: 0;
+  display: block;
+  height: 0;
+  margin: 3.2rem 0.5em -3.2rem 0.5em;
 
   &::after {
     position: fixed;
@@ -34,9 +44,7 @@ $load-third-length: (
   }
 
   &-button {
-    position: fixed;
-    top: 0.5em;
-    left: 0.5em;
+    position: relative;
     z-index: $zindex-nav-trigger;
     display: block;
     padding: $nav-menu-bar-height;
@@ -44,10 +52,10 @@ $load-third-length: (
     color: $nav-trigger-btn-color;
     background-color: $nav-trigger-btn-bg;
     font-size: 0.875em;
-    color: $nav-trigger-btn-color;
-    transition-duration: $nav-toggle-duration;
     width: $nav-menu-width-inactive;
     height: $nav-menu-height;
+    @include transition();
+    transition-duration: $nav-toggle-duration;
 
     & > * {
       display: block;
@@ -144,7 +152,7 @@ $load-third-length: (
       background-color: $nav-trigger-btn-active-bg;
       color: $nav-trigger-btn-active-color;
       width: $nav-menu-width-active;
-      left: calc(
+      margin-left: calc(
         0.5em + #{calc(($nav-menu-width-inactive - $nav-menu-width-active) / 3)}
       );
 

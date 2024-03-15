@@ -1,3 +1,5 @@
+@use "../vendors/ceaser/ceaser" as *;
+
 /* ==========================================================================
    CONFIG
    ========================================================================== */
@@ -134,5 +136,7 @@ $banners: (
   "banner-lyon-restaurants",
   "banner-lyon-palais-tony",
   "banner-anthony-delanoix-eiffel-unsplash",
-  "banner-alex-harmuth-cafe-unsplash"
+  "banner-alex-harmuth-cafe-unsplash",
+  "banner-dat-vo-social-unsplash",
+  "banner-jorgen-hendriksen-elephant-unsplash"
 );

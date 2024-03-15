@@ -26,31 +26,31 @@ lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
 
-current_edition: 2023
+current_edition: 2024
 cfp_open: false
 sponsoring:
-  show: false
-  fr_FR:
-    url: '/assets/docs/2023/sponsoring_fr.pdf'
-    size: '495 Ko'
-  en_US:
-    url: '/assets/docs/2023/sponsoring_en.pdf'
-    size: '675KB'
+  show: true
+  # fr_FR:
+  #   url: '/assets/docs/2023/sponsoring_fr.pdf'
+  #   size: '495 Ko'
+  # en_US:
+  #   url: '/assets/docs/2023/sponsoring_en.pdf'
+  #   size: '675KB'
 tickets:
-  selling: false
+  selling: true # pensez à regénérer les bannières de conférence avant mise en prod
   weezevent: true
   coupons-only: false
   waiting-list: false
-  price: "250"
+  price: "200"
   price_currency: "EUR"
-nlOnTop: false
+nlOnTop: true
 infos:
   display: true
   diversity:
     active: false
     soldout: false
-  interventions: true
-  schedule: false
+  interventions: false
+  schedule: false # pensez à regénérer les bannières de conférence avant mise en prod
 
 # Compression du code HTML en production
 compress_html:
@@ -65,9 +65,9 @@ robots: index,follow
 # Services configuration
 
 weezevent:
-    mini-site-url: https://my.weezevent.com/we-love-speed-2023
-    base_url: https://widget.weezevent.com/ticket/E931463/?code=24576
-    dataId: 931463
+    mini-site-url: https://my.weezevent.com/we-love-speed-2024
+    base_url: https://widget.weezevent.com/ticket/E1115910/?code=55656
+    dataId: 1115910
 
 appyuser: 7135870c152d8c2f73b35ab582eb7e5a
 
@@ -104,6 +104,12 @@ cloudinary:
       fallback_max_width: 220
       steps: 2
       sizes: "110px"
+    thumbnail:
+      min_width: 33
+      max_width: 66
+      fallback_max_width: 33
+      steps: 2
+      sizes: "33px"
 
 permalink: "/blog/:year-:month-:day-:slug/"
 
@@ -118,9 +124,8 @@ pagination:
 
 collections:
   talks:
-    output: false
+    output: true
     order: date asc
-    permalink: /talks/:path/
     sitemap: false
 
 defaults:
@@ -143,6 +148,23 @@ defaults:
       type: "posts"
     values:
       layout: post
+  -
+    scope:
+      path: "_talks/fr"
+      type: "talks"
+    values:
+      permalink: /:year/talks/:slug/
+      layout: talk
+      locale: fr_FR
+  -
+    scope:
+      path: "_talks/en"
+      type: "talks"
+    values:
+      permalink: /en/:year/talks/:slug/
+      baseurl: "/en"
+      locale: en_US
+      layout: talk
   -
     scope:
       path: "pages/fr/2018"
@@ -180,14 +202,14 @@ defaults:
       year: 2021
   -
     scope:
-      path: "pages/en/2023"
-    values:
-      year: 2023
-  -
-    scope:
       path: "pages/fr/2021"
     values:
       year: 2021
+  -
+    scope:
+      path: "pages/en/2023"
+    values:
+      year: 2023
   -
     scope:
       path: "pages/fr/2023"
@@ -195,29 +217,104 @@ defaults:
       year: 2023
   -
     scope:
-      path: "_talks/2018"
+      path: "pages/en/2024"
+    values:
+      year: 2024
+  -
+    scope:
+      path: "pages/fr/2024"
+    values:
+      year: 2024
+  -
+    scope:
+      path: "_talks/en/2018"
     values:
       year: 2018
+      permalink: /en/2018/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2018/:slug.jpg
   -
     scope:
-      path: "_talks/2019"
+      path: "_talks/en/2019"
     values:
       year: 2019
+      permalink: /en/2019/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2019/:slug.jpg
   -
     scope:
-      path: "_talks/2020"
+      path: "_talks/en/2020"
     values:
       year: 2020
+      permalink: /en/2020/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2020/:slug.jpg
   -
     scope:
-      path: "_talks/2021"
+      path: "_talks/en/2021"
     values:
       year: 2021
+      permalink: /en/2021/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2021/:slug.jpg
   -
     scope:
-      path: "_talks/2023"
+      path: "_talks/en/2023"
     values:
       year: 2023
+      permalink: /en/2023/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2023/:slug.jpg
+  -
+    scope:
+      path: "_talks/en/2024"
+    values:
+      year: 2024
+      permalink: /en/2024/talks/:slug/
+      seo_image: /assets/images/social/en/talks/2024/:slug.jpg
+  -
+    scope:
+      path: "_talks/fr/2018"
+    values:
+      year: 2018
+      permalink: /2018/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2018/:slug.jpg
+  -
+    scope:
+      path: "_talks/fr/2019"
+    values:
+      year: 2019
+      permalink: /2019/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2019/:slug.jpg
+  -
+    scope:
+      path: "_talks/fr/2020"
+    values:
+      year: 2020
+      permalink: /2020/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2020/:slug.jpg
+  -
+    scope:
+      path: "_talks/fr/2021"
+    values:
+      year: 2021
+      permalink: /2021/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2021/:slug.jpg
+  -
+    scope:
+      path: "_talks/fr/2023"
+    values:
+      year: 2023
+      permalink: /2023/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2023/:slug.jpg
+  -
+    scope:
+      path: "_talks/fr/2024"
+    values:
+      year: 2024
+      permalink: /2024/talks/:slug/
+      seo_image: /assets/images/social/fr/talks/2024/:slug.jpg
+  -
+    scope:
+      path: "admin"
+      type: pages
+    values:
+      layout: admin
 microtypo:
   median: true
 

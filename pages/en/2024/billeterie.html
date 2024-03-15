@@ -1,0 +1,97 @@
+---
+title: Register
+description: "Book your ticket"
+i18n-key: 2024-register
+permalink: /en/2024/register/
+---
+
+{% if site.tickets.selling %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Purchase a ticket</h2>
+    <a title="Online ticketing"
+      href="{{ site.weezevent.mini-site-url }}"
+      class="weezevent-widget-integration"
+      data-src="{{ site.weezevent.base_url }}&locale=en-GB&width_auto=1&color_primary=cd2f2b"
+      data-width="650"
+      data-height="600"
+      data-id="{{ site.weezevent.dataId }}"
+      data-resize="1"
+      data-width_auto="1"
+      data-noscroll="0"
+      data-use-container="yes"
+      data-type="neo"
+      target="_blank">Billetterie Weezevent</a>
+    <script type="text/javascript" src="https://widget.weezevent.com/weez.js"></script>
+  </div>
+</section>
+{% endif %}
+{% if site.tickets.selling %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <div class="grid-2">
+      <section>
+        <h2>Tickets</h2>
+        <p>
+          Prices for previous (physical) editions were around 200€ and included the budget for the venue and the meals.<br>
+          This year, the price is up to you ! It can be free if you want, but giving to our organization will allow to pay for the 2020 small expenses (insurance, bank, speaker hardware for remote, Saas …) and to have some cash to book the 2023 venue. If you or your company can afford it, please help us !
+        </p>
+      </section>
+      <section>
+        <h2>Payment</h2>
+        <p>
+          You can register and pay for your tickets by <strong>credit card</strong>, online.<br>
+          Within three weeks of the event, you can also <strong>book</strong> your tickets <strong>online</strong> and pay within two weeks by <strong>bank transfer</strong>.<br>
+          If you need it, the Weezevent platform will provide you with an <strong>invoice</strong>.<br>
+          All purchases are <strong>firm and final</strong>.
+        </p>
+      </section>
+    </div>
+  </div>
+</section>
+
+
+{% if site.infos.diversity.active %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <h2 id="diversity">Diversity Tickets</h2>
+
+    <p>If you feel like you are a member of an underrepresented group in tech — this includes, but is not limited to: people of colour, LGBTQIA+ people, women and disabled people — you are eligible for a Diversity Ticket.</p>
+
+    <p>Thanks to the <a href="https://www.seo-camp.org/">SEO CAMP Association</a> and <a href="https://sitebulb.com/?utm_source=welovespeed&utm_medium=website&utm_campaign=wls-sponsorship">Sitebulb</a>, which fund some of these tickets this year.</p>
+
+    {% if site.infos.diversity.soldout -%}
+    <p><i>Unfortunately, all the diversity tickets have already been distributed. If you or your company would like to fund a new tickets, please contact us.</i></p>
+    {%- endif -%}
+
+    <p class="text-center">
+      <a class="button" data-text="{% if site.infos.diversity.soldout %}Write to be in line for{% else %}Request{% endif %} a Diversity Ticket" href="{{ "/en/contact" | relative_url }}"><span class="button-inner">{% if site.infos.diversity.soldout %}Write to be in line for{% else %}Request{% endif %} a Diversity Ticket</span></a>
+    </p>
+  </div>
+</section>
+{% endif %}
+
+{% endif %}
+{% if site.infos.display %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <h2>Where is We Love Speed taking place this year?</h2>
+    <section>
+      <p>Every year, We Love Speed takes place in one of the most beautiful cities in France.</p>
+    </section>
+    <p class="text-center">
+      <a class="button" data-text="Learn more about the venue" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Learn more about the venue</span></a>
+    </p>
+  </div>
+</section>
+{% endif %}
+
+<hr class="wrapper">
+
+{% include banners/banner-cocktail.html locale=page.locale %}

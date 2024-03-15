@@ -1,14 +1,45 @@
+@use "../scss/colors" as *;
+@use "../scss/config" as *;
+@use "../scss/abstracts" as *;
+
 .person {
   position: relative;
+
+  &-grid {
+    $maxNumberOfColumns: 4;
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(14rem, 1fr)
+    );
+    gap: $global-gutters $global-gutters;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (min-width: 50rem) {
+      $columnMaxWidth: calc(($wrapper-max-width - 3 * $global-gutters) / 4);
+      max-width: $wrapper-max-width;
+      grid-template-columns: repeat(
+        auto-fill,
+        minmax($columnMaxWidth, 1fr)
+      );
+    }
+  }
+
   &-avatar {
     max-width: 5em;
-    border-radius: 50%;
+    border-radius: 5em;
+    background-color: $hr-color;
   }
   &-links {
     @extend %ul-reset;
     font-size: 0;
     font-size: 0;
     display: inline-block;
+
+    &-container {
+      top: -0.3em;
+    }
 
     li {
       font-size: 20px;
@@ -32,5 +63,19 @@
 
   &:hover {
     z-index: 10;
+  }
+}
+
+.person-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  vertical-align: text-bottom;
+
+  &-avatar {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 1.5em;
+    background-color: $hr-color;
   }
 }

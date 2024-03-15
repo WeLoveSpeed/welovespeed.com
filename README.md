@@ -13,15 +13,19 @@ Le site est généré à l'aide de [Jekyll](https://jekyllrb.com/) et nécessite
 Nous vous recommandons de gérer l'installation de Ruby via [rbenv](https://github.com/rbenv/rbenv).
 
 Sous Mac OS X, vous pouvez utiliser [Homebrew](https://brew.sh/) pour cela
+
 ```bash
 $ brew install rbenv ruby-build
 ```
 
 Sous GNU/Linux, certaines librairies sont nécessaires (à adapter à votre gestionnaire de paquets) :
+
 ```bash
 sudo apt-get install -y libreadline-dev build-essential
 ```
+
 Puis pour rbenv et ruby-build, préférer une installation par git :
+
 ```bash
 $ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 $ cd ~/.rbenv && src/configure && make -C src
@@ -32,18 +36,25 @@ $ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 ### Installation
 
 Si vous n'avez pas déjà cloné le dépot :
+
 ```bash
 $ git clone https://github.com/WeLoveSpeed/welovespeed.com.git && cd welovespeed.com
 ```
+
 Si bundler n'est pas installé
+
 ```bash
 $ gem install bundler
 ```
+
 Pour installer toutes les dépendances du projet :
+
 ```bash
 $ bundle install;
 ```
+
 Pour installer la bonne version de Ruby avec rbenv :
+
 ```bash
 $ rbenv install
 ```
@@ -84,6 +95,7 @@ Vous devez avoir [Docker](https://www.docker.com/) >= 24 & [Docker Compose](http
 
 ```bash
 $ docker-compose run bundle install
+$ docker-compose run npm install
 ```
 
 ### Travailler en local
@@ -122,16 +134,16 @@ Les pages sont dans le dossier [pages](pages), mais certains contenus ne sont pa
 
 Par exemple, les en-têtes de page sont dans :
 
-- [_includes/header-home.html](_includes/header-home.html) pour la page d'accueil ;
-- [_includes/header-page.html](_includes/header-page.html) pour les autres pages.
+- [\_includes/header-home.html](_includes/header-home.html) pour la page d'accueil ;
+- [\_includes/header-page.html](_includes/header-page.html) pour les autres pages.
 
-D'autres morceaux de contenus se trouvent dans [_includes](_includes), car ils servent à plusieurs endroits dans le site, comme le bloc d'affichage des intervenants situés dans [_includes/speakers.html](_includes/speakers.html).
+D'autres morceaux de contenus se trouvent dans [\_includes](_includes), car ils servent à plusieurs endroits dans le site, comme le bloc d'affichage des intervenants situés dans [\_includes/speakers.html](_includes/speakers.html).
 
-Les définitions des talks sont dans [_talks](_talks).
+Les définitions des talks sont dans [\_talks](_talks).
 
 #### Données et navigation
 
-Certaines données-clées sont réunies dans [_data](_data) : les informations sur les [sponsors](_data/sponsors.yml), le [staff](_data/staff.yml), les [speakers](_data/speakers.yml)…
+Certaines données-clées sont réunies dans [\_data](_data) : les informations sur les [sponsors](_data/sponsors.yml), le [staff](_data/staff.yml), les [speakers](_data/speakers.yml)…
 
 C'est aussi là qu'on trouve le fichier qui définit [quels éléments apparaissent dans la navigation ou le pied de page](_data/sitemap.yml).
 
@@ -151,7 +163,7 @@ ou :
 {{ "Lorem ipsum sit dolor amet" | t: page.locale }}
 ```
 
-C'est que la chaine `"Lorem ipsum sit dolor amet"` est traduite dans [_data/translations.yml](_data/translations.yml). À chaque chaine française (fr_FR) est associée un équivalent anglais (en_US). On pourrait imaginer d'autres langues mais ce n'est pas prévu pour l'instant.
+C'est que la chaine `"Lorem ipsum sit dolor amet"` est traduite dans [\_data/translations.yml](_data/translations.yml). À chaque chaine française (fr_FR) est associée un équivalent anglais (en_US). On pourrait imaginer d'autres langues mais ce n'est pas prévu pour l'instant.
 
 **Et pour le visiteur ?**
 
@@ -163,6 +175,30 @@ Avant de soumettre votre pull-request, vérifiez que les tests passent après le
 
 ```bash
 $ bundle exec rake postbuild:test:kiss
+```
+
+## Commandes utiles
+
+- Pour transformer des logos SVG en PNG
+
+Mettez votre SVG dans le dossier `/assets/images/thanks`.
+
+Puis lancez les commandes :
+
+```sh
+$ npm install
+$ npm run generate:logo_newsletter
+```
+
+- Pour générer les cover images des talks
+
+```sh
+# La première fois uniquement
+$ npm install
+$ npx install playwright
+# A chaque fois que vous voulez en générer des nouvelles
+$ bundle exec rake build:prod
+$ npm generate:talks_social
 ```
 
 ## Licence

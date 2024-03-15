@@ -5,7 +5,9 @@
     const collections = document.querySelectorAll(".randomize");
     collections.forEach(collection => {
       for (var i = collection.children.length; i >= 0; i--) {
-        collection.appendChild(collection.children[Math.random() * i | 0]);
+        collection.appendChild(
+          collection.children[Math.floor(Math.random() * i) || 0]
+        );
       }
     });
   });
@@ -124,35 +126,36 @@
   };
 
   // Smooth scroll ----------------------------------------------------------------------
-  function loadScript(url, callback) {
-    var script = document.createElement('script'),
-      loaded = false;
+  if(!window.CSS.supports('scroll-behavior', 'smooth')) {
+    function loadScript(url, callback) {
+      var script = document.createElement('script'),
+        loaded = false;
 
-    script.setAttribute('src', url);
-    script.onreadystatechange = script.onload = function () {
-      if (!loaded && callback) {
-        callback();
-        loaded = true;
-      }
-    };
+      script.setAttribute('src', url);
+      script.onreadystatechange = script.onload = function () {
+        if (!loaded && callback) {
+          callback();
+          loaded = true;
+        }
+      };
 
-    document.head.appendChild(script);
+      document.head.appendChild(script);
+    }
+
+    function initSmoothScroll() {
+      loadScript(
+        '/assets/js/vendor/smooth-scroll.min.js',
+        function () {
+          var scroll = new SmoothScroll("a[href^='#']:not([role='button'])", {
+            speed: 1000,
+            easing: 'easeInOutQuint'
+          });
+        }
+      );
+    }
+
+    document.addEventListener('DOMContentLoaded', initSmoothScroll);
   }
-
-  function initSmoothScroll() {
-    loadScript(
-      '/assets/js/vendor/smooth-scroll.min.js',
-      function () {
-        var scroll = new SmoothScroll("a[href^='#']:not([role='button'])", {
-          speed: 1000,
-          easing: 'easeInOutQuint'
-        });
-      }
-    );
-  }
-
-  document.addEventListener('DOMContentLoaded', initSmoothScroll);
-
 
   // Oh! --------------------------------------------------------------------------------
   console.log("      IIIIII777777                  777777777777      \n      IIIIII777777                  777777777777      \n      IIIIII777777                  777777777777      \nIIIIII??????777777777777      777777$$$$$$ZZZZZZZZZZZZ\nIIIIII??????777777777777      777777$$$$$$ZZZZZZZZZZZZ\nIIIIII??????777777777777      777777$$$$$$ZZZZZZZZZZZZ\nIIIIII777777$$$$$$$$$$$$777777$$$$$$ZZZZZZZZZZZZZZZZZZ\nIIIIII777777$$$$$$$$$$$$777777$$$$$$ZZZZZZZZZZZZZZZZZZ\nIIIIII777777$$$$$$$$$$$$777777$$$$$$ZZZZZZZZZZZZZZZZZZ\n777777777777$$$$$$$$$$$$$$$$$$ZZZZZZZZZZZZZZZZZZZZZZZZ\n777777777777$$$$$$$$$$$$$$$$$$ZZZZZZZZZZZZZZZZZZZZZZZZ\n777777777777$$$$$$$$$$$$$$$$$$ZZZZZZZZZZZZZZZZZZZZZZZZ\n      $$$$$$$$$$$$$$$$$$$$$$$$ZZZZZZZZZZZZZZZZZZ      \n      $$$$$$$$$$$$$$$$$$$$$$$$ZZZZZZZZZZZZZZZZZZ      \n      $$$$$$$$$$$$$$$$$$$$$$$$ZZZZZZZZZZZZZZZZZZ      \n            $$$$$$$$$$$$ZZZZZZZZZZZZZZZZZZ            \n            $$$$$$$$$$$$ZZZZZZZZZZZZZZZZZZ            \n            $$$$$$$$$$$$ZZZZZZZZZZZZZZZZZZ            \n                  $$$$$$ZZZZZZZZZZZZ                  \n                  $$$$$$ZZZZZZZZZZZZ                  \n                  $$$$$$ZZZZZZZZZZZZ                  \n                        ZZZZZZ                        \n                        ZZZZZZ                        \n                        ZZZZZZ                        ");

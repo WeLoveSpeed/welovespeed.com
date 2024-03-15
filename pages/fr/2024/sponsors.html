@@ -1,0 +1,44 @@
+---
+title: "Nos sponsors"
+description: "Ils ont choisi de nous soutenir par amour de l'UX et de la performance Web."
+i18n-key: 2024-sponsors
+permalink: /2024/merci/
+---
+
+{% assign year = page.year | default: site.current_edition %}
+<section class="section">
+  <div class="wrapper">
+    <h1 class="text-center">Nos sponsors Gold</h1>
+    <p>
+      E-commerçants, éditeurs de solutions, prestataires de services, ils ont
+      choisi de nous soutenir par amour de l'UX et de la performance Web. Sans
+      eux, point d'événement. Merci beaucoup !
+    </p>
+  </div>
+</section>
+
+{% if site.data.sponsors[page.year].gold.size > 0 or site.data.sponsors[include.year].others.size > 0 %}
+  {% include sponsors.html locale=page.locale shorturl=true year=year %}
+{% endif %}
+
+{% if site.current_edition == year and site.sponsoring.show %}
+  <section id="sponsors" class="section">
+    <div class="wrapper">
+      <p class="text-center">
+        {% if site.sponsoring[page.locale] %}
+          <a class="button" data-text="Télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})" target="_blank" href="{{ site.sponsoring[page.locale].url | relative_url }}"><span class="button-inner">Télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})</span></a>
+        {% else %}
+          <a class="button" data-text="Nous contacter pour faire partie des sponsors" href="/contact/"><span class="button-inner">Nous contacter pour faire partie des sponsors</span></a>
+        {% endif %}
+      </p>
+    </div>
+  </section>
+{% endif %}
+
+{% if site.data.sponsors[page.year].gold.size > 0 or site.data.sponsors[include.year].others.size > 0 %}
+  {% include banners/banner-dat-vo-social-unsplash.html locale=page.locale %}
+
+  {% include sponsors-descriptions.html locale=page.locale year=year %}
+{% endif %}
+
+{% include banners/banner-dat-vo-social-unsplash.html locale=page.locale %}

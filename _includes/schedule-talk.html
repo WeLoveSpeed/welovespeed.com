@@ -1,14 +1,13 @@
 {%- for item in site.talks -%}
-  {% if item.slug == include.value %}
+  {% if item['i18n-key'] == include.value and item.locale == include.locale %}
       {% assign talk = item %}
-      {% assign locale = include.locale | default: talk.locale %}
+      {% assign locale = talk.locale %}
       {% assign nb = include.nb | default: 0 %}
   {% endif %}
 {%- endfor -%}
 {% assign roomIndex = include.roomIndex | default: forloop.index0 %}
-{% capture talkUrl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year }}/{{ "interventions" | t: include.locale }}/#{{ talk.slug }}{% endcapture %}
 <td scope="col" class="schedule-talk">
-  <a href="{{ talkUrl }}" class="talk room{{ forloop.index | plus: nb }}" id="{{ talk.slug }}">
+  <a href="{{ talk.url }}" class="talk room{{ forloop.index | plus: nb }}" id="{{ talk.slug }}">
     <header>
       {%- for speakerSlug in talk.speakers -%}
         {% assign speaker = site.data.speakers[include.year][speakerSlug] %}
@@ -17,9 +16,9 @@
         </figure>
       {%- endfor -%}
       <div class="talk-summary speakers-{{ talk.speakers | size }}">
-        <h2>{{ talk[include.locale].title }}</h2>
+        <h2>{{ talk.title }}</h2>
         <p class="talk-authors">
-          {% if talk.locale %}{% unless talk.locale == include.locale %}<strong>{{ " en anglais" | t: page.locale }}</strong>{% endunless %}{% endif %}
+          {% if talk.talk_locale %}{% unless talk.talk_locale == include.locale %}<strong>{{ " en anglais" | t: page.locale }}</strong>{% endunless %}{% endif %}
           {%- for speakerSlug in talk.speakers -%}
             {%- capture youString %}{{ "Vous !" | t: page.locale }}{% endcapture -%}
             {% assign speaker = site.data.speakers[include.year][speakerSlug] %}

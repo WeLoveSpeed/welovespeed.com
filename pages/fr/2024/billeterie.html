@@ -1,0 +1,98 @@
+---
+title: Billetterie
+description: "Réservez votre place"
+i18n-key: 2024-register
+permalink: /2024/billetterie/
+---
+
+{% if site.tickets.selling %}
+<section class="section" id="register">
+  <div class="wrapper">
+    <h2>Acheter un billet</h2>
+    <a title="Billetterie en ligne"
+      href="{{ site.weezevent.mini-site-url }}"
+      class="weezevent-widget-integration"
+      data-src="{{ site.weezevent.base_url }}&locale=fr-FR&width_auto=1&color_primary=cd2f2b"
+      data-width="650"
+      data-height="600"
+      data-id="{{ site.weezevent.dataId }}"
+      data-resize="1"
+      data-width_auto="1"
+      data-noscroll="0"
+      data-use-container="yes"
+      data-type="neo"
+      target="_blank">Billetterie Weezevent</a>
+    <script type="text/javascript" src="https://widget.weezevent.com/weez.js"></script>
+  </div>
+</section>
+{% endif %}
+{% if site.tickets.selling %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <div class="grid-2">
+      <section>
+        <h2>Billets</h2>
+        <p>
+          Les billets sont vendus <strong>dans la limite des places disponibles</strong> et donnent accès à la conférence, aux repas et collations entre 8h30 et 18h.<br>
+          Le transport et l’hébergement <strong>ne sont pas inclus</strong>.<br>
+          Besoin d'un <strong>tarif particulier</strong> lié à une situation particulière (études, chômage, partenariat…)&nbsp;? N’hésitez pas, <a href="{{ page.baseurl | default:site.baseurl }}/{{ "contact" | t: page.locale }}/">contactez-nous</a>.
+        </p>
+      </section>
+      <section>
+        <h2>Moyens de paiement</h2>
+        <p>
+          Vous pouvez régler vos places par <strong>carte bancaire</strong> lors de l’inscription en ligne.<br>
+          À moins de trois semaines de l'événement, vous pourrez également <strong>réserver vos places</strong> en ligne puis de les régler sous quinze jours <strong>par virement bancaire</strong>.<br>
+          Si vous en avez besoin, la plate-forme Weezevent vous fournira une <strong>facture</strong>.<br>
+          Tout achat d'un billet est <strong>ferme et définitif</strong>.
+        </p>
+      </section>
+    </div>
+  </div>
+</section>
+
+<hr class="wrapper">
+
+{% if site.infos.diversity.active %}
+<section class="section">
+  <div class="wrapper">
+    <h2 id="diversity">Tickets Pro-Diversité</h2>
+
+    <p>Les personnes ayant l'impression d'appartenir à un groupe sous-représenté dans le domaine de la technologie (cela comprend, sans s'y limiter : les personnes racisées, les personnes LGBTQIA+, les femmes et les personnes handicapées) sont éligibles à un <i lang="en">Diversity Ticket</i> leur permettant de bénéficier d'un billet gratuit pour l'événement.</p>
+
+    <p>Merci à <a href="https://www.seo-camp.org/">l'association SEO CAMP</a> et à <a href="https://sitebulb.com/?utm_source=welovespeed&utm_medium=website&utm_campaign=wls-sponsorship">Sitebulb</a>, qui financent en partie cette initiative cette année.</p>
+
+    {% if site.infos.diversity.soldout -%}
+    <p><i>Malheureusement, tous les billets pro-diversité ont déjà été distribués. Si vous ou votre entreprise souhaitez financer de nouveaux billets, n'hésitez pas à nous contacter.</i></p>
+    {%- endif -%}
+
+
+    <div class="text-center">
+      <a class="button" data-text="{% if site.infos.diversity.soldout %}Demander à être en liste d'attente pour{% else %}Demander{% endif %} un billet pro-diversité" href="{{ "/en/contact" | relative_url }}"><span class="button-inner">{% if site.infos.diversity.soldout %}Demander à être en liste d'attente pour{% else %}Demander{% endif %} un billet pro-diversité</span></a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% endif %}
+{% if site.infos.display %}
+<hr class="wrapper">
+
+<section class="section">
+  <div class="wrapper">
+    <h2>Comment venir à Nantes&nbsp;?</h2>
+    <section>
+      <p>Chaque année, We Love Speed se déroule dans l'une des plus belles villes de France.</p>
+    </section>
+    <p class="text-center">
+      <a class="button" data-text="Venir à Nantes" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Venir à Nantes</span></a>
+    </p>
+  </div>
+</section>
+{% endif %}
+
+<hr class="wrapper">
+
+{% include banners/banner-cocktail.html locale=page.locale %}

@@ -2,7 +2,7 @@
   speak: none;
 }
 
-.sr-only {
+@mixin sr-only {
   /*
   * Hide only visually, but have it available for screen readers:
   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
@@ -42,4 +42,8 @@
       clip-path: none;
     }
   }
+}
+
+.sr-only {
+  @include sr-only;
 }

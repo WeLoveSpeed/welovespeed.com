@@ -1,3 +1,8 @@
+@use "../scss/colors" as *;
+@use "../scss/config" as *;
+@use "../scss/mixins" as *;
+@use "../vendors/include-media/include-media" as *;
+
 .button {
   position: relative;
   display: inline-block;
@@ -11,7 +16,7 @@
     $button-font-family;
   text-align: center;
   text-decoration: none;
-  vertical-align: baseline;
+  vertical-align: middle;
 
   &,
   &-inner,

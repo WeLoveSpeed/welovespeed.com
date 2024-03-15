@@ -1,3 +1,6 @@
+@use "../scss/config" as *;
+@use "../vendors/include-media/include-media" as *;
+
 .wrapper {
   width: $wrapper-width;
   max-width: $wrapper-max-width;

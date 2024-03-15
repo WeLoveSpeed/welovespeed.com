@@ -1,11 +1,11 @@
 <header class="page-header">
   <div class="wrapper">
     <div class="page-main-title h-like">
-      <a href="{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ include.link.anchor }}" title="{% t Accueil %}">
+      <a class="page-main-title-link" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ include.link.anchor }}" title="{% t Accueil %}">
         <img src="/assets/svg/wls-inline
           {%- if page.year == 2020 -%}
             -lazy-loaded
-          {%- endif -%}.svg" class="page-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
+          {%- endif -%}.svg" class="page-main-title-logo" alt="{{ site.seo_title }}" width="950" height="224"/>
       </a>
       <p class="page-main-title-baseline">
           {{ site.data.editions[page.year].tagline[page.locale] }}
@@ -14,4 +14,4 @@
   </div>
 </header>
 
-{% unless page.hide_banner %}{% include banners/banner-anthony-delanoix-eiffel-unsplash.html locale=page.locale page_top=true no_lazy=true %}{% endunless %}
+{% unless page.hide_banner %}{% include banners/banner-dat-vo-social-unsplash.html locale=page.locale page_top=true no_lazy=true %}{% endunless %}

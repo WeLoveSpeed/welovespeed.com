@@ -5,7 +5,7 @@ i18n-key: 2021-interventions
 permalink: /2021/interventions/
 ---
 
-{%- assign conferences = site.talks | where: "year", page.year | sort: "display-order" -%}
+{%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}
 {% include speakers.html conferences=conferences locale=page.locale shorturl=true h1=true year=page.year %}
 
 <hr class="wrapper">

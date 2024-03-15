@@ -12,7 +12,7 @@ permalink: /2023/
       <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" loading="lazy"/>
       <div class="home-main-title-baseline">
         {{ site.data.editions[page.year].tagline[page.locale] }}<br>
-        <small>Merci d'être venu·es, les vidéos et slides arrivent très bientôt !</small>
+        <small>Merci à toutes les personnes qui en ont fait un succès !</small>
       </div>
     </h1>
   </div>
@@ -20,28 +20,32 @@ permalink: /2023/
 
 <section class="section">
   <div class="wrapper">
-    <p class="text-center">
+    <p class="actions text-center">
       {%- if site.cfp_open -%}<a class="button" target="_blank"  data-text="Appel à propositions" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="appel à propositions">
         <span class="button-inner">Appel à propositions</span>
       </a>{%- endif -%}
-      {% if site.current_edition == year and site.infos.interventions %}
-      <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Voir le programme">
-        <span class="button-inner">Voir le programme</span>
-      </a>
+      {% if site.current_edition == year %}
+        {% if site.infos.interventions %}
+          <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Voir le programme">
+            <span class="button-inner">Voir le programme</span>
+          </a>
+        {% endif %}
+      {% else %}
+        <a class="button" data-text="Présentations et vidéos" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Voir le programme">
+          <span class="button-inner">Présentations et vidéos</span>
+        </a>
       {% endif %}
       {% if site.current_edition == year and site.infos.schedule %}
       <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="Voir le programme">
         <span class="button-inner">Voir le programme</span>
       </a>
       {% endif %}
-      {%- comment -%}
       <a class="button" data-text="Témoignages" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="témoignages">
         <span class="button-inner">Témoignages</span>
       </a>
       <a class="button" data-text="Photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
         <span class="button-inner">Photos ({{ site.data.editions[page.year].pictures.title }})</span>
       </a>
-      {%- endcomment -%}
       {% if site.current_edition != page.year %}
         <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
           <span class="button-inner">{% t Voir l'édition courante %}</span>
@@ -57,7 +61,7 @@ permalink: /2023/
   </div>
 </section>
 
-{%- assign conferences = site.talks | where: "year", page.year | sort: "display-order" -%}
+{%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}
 {% assign nbconf = conferences | size %}
 {% if nbconf > 0 %}
   <hr class="wrapper">

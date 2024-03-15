@@ -2,6 +2,14 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@use "../scss/colors" as *;
+@use "../scss/config" as *;
+@use "../scss/mixins" as *;
+
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   background: $default-bg;
 }
@@ -118,4 +126,12 @@ a svg,
 button svg {
   text-decoration: none;
   pointer-events: none;
+}
+
+*[id] {
+  scroll-margin-top: 9rem;
+
+  @media (min-width: 50rem) {
+    scroll-margin-top: 2rem;
+  }
 }

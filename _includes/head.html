@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="{{ lang }}" dir="ltr">
     {% comment %} Social Image computation {% endcomment %}
-    {% if shortKey=="home" %}
+    {% if page.seo_image %}
+      {% assign socialImage = page.seo_image | replace: ":slug", page.slug %}
+    {% elsif shortKey=="home" %}
       {% capture socialTitle %}{{ site.seo_title }} - {{ site.description }}{% endcapture %}
       {% capture socialImage %}https://res.cloudinary.com/we-love-speed/image/fetch/c_limit,f_auto,q_auto,w_960/https://welovespeed.netlify.com/assets/images/cd-social-{{ page.locale | slice: 0,2 }}-{{ page.year }}.png{% endcapture %}
     {% else %}
@@ -11,6 +13,7 @@
       {% capture socialImage %}https://res.cloudinary.com/{{ site.cloudinary.cloud_name }}/image/fetch/e_blur:200,c_crop,ar_1200:600,b_white/w_1200/b_rgb:{{ site.main_color }},o_50/w_1000,c_fit,l_text:Source%20Sans%20Pro_100:{{ imgtitle }},x_2,y_-98,co_black,o_80/w_1000,c_fit,l_text:Source%20Sans%20Pro_100:{{ imgtitle }},y_-100,co_white/c_fit,x_2,y_152,w_600,l_wls-inline,e_colorize,co_black/c_fit,y_150,w_600,l_wls-inline,e_colorize,co_white/{{ socialImage }}{% endcapture %}
     {% endif %}
     {% comment %} End Social Image computation {% endcomment %}
+    {% assign seoDescription = page.seo_description | default: page.excerpt | default: page.description | strip_html | truncate: 150, "…" %}
     <head>
         <meta charset="utf-8">
 
@@ -24,7 +27,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="{{ page.robots |default: site.robots }}">
         <title>{{ socialTitle }}</title>
-        <meta name="description" content="{{ page.description }}">
+        <meta name="description" content="{{ seoDescription }}">
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
@@ -47,7 +50,7 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:domain" content="{{ site.domain }}">
         <meta name="twitter:title" content="{{ socialTitle }}">
-        <meta name="twitter:description" content="{{ page.description }}">
+        <meta name="twitter:description" content="{{ seoDescription }}">
         <meta name="twitter:image" content="{{ socialImage }}">
         <meta name="twitter:creator" content="{{ site.social.twitter.nick }}">
         <meta name="twitter:site" content="{{ site.seo_title }}">
@@ -59,6 +62,12 @@
         {% if page.translation %}
             {% assign lang = page.translation.locale | slice: 0,2 %}
             <link rel="alternate" hreflang="{{ lang }}" href="{{ page.translation.url | relative_url }}"/>
+        {% endif %}
+        {% if page.previous_talk %}
+          <link rel="prev" href="{{ page.previous_talk.url }}" />
+        {% endif %}
+        {% if page.next_talk %}
+          <link rel="next" href="{{ page.next_talk.url }}" />
         {% endif %}
         {% capture css_url %}/assets/css/main.css?{{ site.time|date: "%Y%m%d%H%M%S" }}{% endcapture %}
         <link rel="stylesheet" href="{{ css_url | relative_url }}">
