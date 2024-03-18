@@ -27,7 +27,7 @@ lazyload:
 
 
 current_edition: 2024
-cfp_open: false
+cfp_open: true
 sponsoring:
   show: true
   up_to_date: false
