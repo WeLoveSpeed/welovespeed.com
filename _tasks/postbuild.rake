@@ -25,7 +25,8 @@ namespace :postbuild do
         ignore_urls: [
           "https://www.weezevent.com/?c=sys_widget",
           "/en/legal-mentions/",
-          "/2024/cfp,/en/2024/cfp"
+          "/2024/cfp",
+          "/en/2024/cfp"
         ],
         ignore_files: [
           "./_site/admin/talks/index.html"
@@ -45,7 +46,8 @@ namespace :postbuild do
         ignore_urls: [
           "https://www.weezevent.com/?c=sys_widget",
           "/en/legal-mentions/",
-          "/2024/cfp,/en/2024/cfp",
+          "/2024/cfp",
+          "/en/2024/cfp",
           "/admin/talks/"
         ],
         ignore_files: [
