@@ -21,9 +21,6 @@ permalink: /en/2023/
 <section class="section">
   <div class="wrapper">
     <p class="text-center">
-      {%- if site.cfp_open -%}<a class="button" target="_blank" data-text="Call For Proposals" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="Call For Proposals">
-        <span class="button-inner">Call For Proposals</span>
-      </a>{%- endif -%}
       {% if site.current_edition == year and site.infos.interventions %}
       <a class="button" data-text="Line-up" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Line-up">
         <span class="button-inner">Line-up</span>
