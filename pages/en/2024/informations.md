@@ -14,30 +14,58 @@ layout: page
 
 ## When <span aria-hidden>🕗</span>
 
-A full day, September 17, 2023. The welcome will be with pastries, before starting the presentations.
+17 September 2024
 
 ## Where <span aria-hidden>🗺️</span>
 
-At EXPONANTES, a conference space in the north of Nantes.
-
 <address>
-  Parc des Expositions<br>
+  <strong>EXPONANTES</strong>
+  Exhibition Center<br>
+  Hall XXL (<a href="http://www.exponantes.fr/visite_virtuelle/pdf/exponantes-3d.pdf" target="_blank" rel="noopener">Park map</a>)
   Route de Saint-Joseph de Porterie<br>
   44300 Nantes
+  France
 </address>
 
 {% include google-map.html embed_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.817478358819!2d-1.5341946231019588!3d47.259272271160086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805ee45dccfd941%3A0x69e579d3f9f7882b!2sParc%20des%20Expositions%20de%20la%20Beaujoire!5e0!3m2!1sfr!2sfr!4v1710003473011!5m2!1sfr!2sfr" link="https://maps.app.goo.gl/PL8zaazB1REcKnE19" %}
 
-More information coming soon.
+## How do I get there?
 
-## Food <span aria-hidden>🥘</span>
+### By public transport
 
-Each We Love Speed ticket includes breakfast, coffee breaks and lunch. The large variety of meals includes vegetarian and vegan options.
+#### **Tram**
 
-Should you be gluten-intolerant, you may contact us so we can prepare bespoke meals.
+Line 1 direct from the town center towards Beaujoire, get off at Beaujoire or Ranzay terminus Beaujoire station gives access to the main entrance to the exhibition center. The exhibition center is right in front of you as you get off the tram.
 
-## Why Nantes ? <span aria-hidden>🥘</span>
+Ranzay station gives access to entrance 2 of the park. The exhibition center is on your right as you get off the tramway (pedestrian path that crosses over the ring road).
 
-- To decentralize the French Web, physically, so that all Web-related events do not take place in Paris. Last year we set camp at Paris, but we've set foot in Bordeaux, Lille, Lyon. This year, we wanted to get closer to the west. Who knows where we’ll be next year?
-- Nantes has an international aiport, is easy to acesss from nearby country by train at only 2h from Paris.
-- People are nice and friendly, and the food is excellent!
+[Download the tramway timetable (FR, 3.9 MB)](https://naolib.fr/fr/fiche-horaires-ligne-1) and map: <a href="https://naolib.fr/en">https://naolib.fr/en (EN)</a>
+
+#### **Bus**
+
+* Line 75 to Beaujoire - Line 80 to Batignolles
+* Chronobus C6, Beaujoire stop
+
+### By Train
+
+Nantes is 2 hours by train from Paris.
+
+When you arrive at Nantes station, take the "Gare Nord" exit. The tramway station is opposite the station.
+
+### By plane
+
+The airport is 25 minutes away. You can reach the city center by shuttle bus.
+
+### By car
+
+EXPONANTES has 5,000 parking spaces in the immediate vicinity of the exhibition center. So you won't have any trouble parking.
+
+## Checkroom
+
+A free checkroom is available. You can leave your personal belongings there in complete safety so that you can fully enjoy the experience without taking on too much.
+
+## Food
+
+Each ticket for We Love Speed includes hospitality services during breaks and lunch. You'll be welcomed with pastries, before the presentations begin.
+
+Vegetarians and vegans in particular will find a wide choice of dishes. We invite those with gluten allergies to contact us for tailor-made preparations.
