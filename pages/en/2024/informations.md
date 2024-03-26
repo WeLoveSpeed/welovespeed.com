@@ -6,7 +6,7 @@ permalink: /en/2024/informations/
 layout: page
 ---
 
-# Welcome to EXPONANTES
+# Practical info
 
 <figure>
   {% cloudinary /assets/images/2024/location/expo_nantes.jpg alt="An auditorium with about 300 seats, photographed from the back left. We can guess a giant screen overhanging a large scenic space." %}
