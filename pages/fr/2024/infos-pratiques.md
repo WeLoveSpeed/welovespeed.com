@@ -22,7 +22,7 @@ Le 17 septembre 2024.
 
 <address>
   Parc des Expositions<br>
-  Hall XXL (<a href="https://www.exponantes.com/system/page_attachments/384/attachments/original_expn-plan-hd01.pdf" target="_blank" rel="noopener">Plan du parc</a><br>
+  Hall XXL (<a href="https://www.exponantes.com/system/page_attachments/384/attachments/original_expn-plan-hd01.pdf" target="_blank" rel="noopener">Plan du parc</a>)<br>
   Route de Saint-Joseph de Porterie<br>
   44300 Nantes
 </address>
