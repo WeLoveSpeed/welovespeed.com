@@ -12,16 +12,16 @@ layout: page
   {% cloudinary /assets/images/2024/location/expo_nantes.jpg alt="An auditorium with about 300 seats, photographed from the back left. We can guess a giant screen overhanging a large scenic space." %}
 </figure>
 
-## When <span aria-hidden>🕗</span>
+## When?
 
 17 September 2024
 
-## Where <span aria-hidden>🗺️</span>
+## Where?
 
 <address>
-  <strong>EXPONANTES</strong>
+  <strong>EXPONANTES</strong><br>
   Exhibition Center<br>
-  Hall XXL (<a href="http://www.exponantes.fr/visite_virtuelle/pdf/exponantes-3d.pdf" target="_blank" rel="noopener">Park map</a>)
+  Hall XXL (<a href="http://www.exponantes.fr/visite_virtuelle/pdf/exponantes-3d.pdf" target="_blank" rel="noopener">Park map</a>)<br>
   Route de Saint-Joseph de Porterie<br>
   44300 Nantes
   France

@@ -12,11 +12,11 @@ layout: page
   {% cloudinary /assets/images/2024/location/expo_nantes.jpg alt="Vue extérieur d'un grand bâtiment vitré entouré de verdure. A l'intérieur on entre aperçoit une rangée de chaises qui laissent deviner un espace conférence." %}
 </figure>
 
-## Quand ? <span aria-hidden>🕗</span>
+## Quand ?
 
 Le 17 septembre 2024.
 
-## Où ? <span aria-hidden>🗺️</span>
+## Où ?
 
 À EXPONANTES
 
