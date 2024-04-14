@@ -116,7 +116,7 @@ cloudinary:
       max_width: 600
       fallback_max_width: 300
       steps: 2
-      aspect_ratio: 3:2
+      aspect_ratio: "3:2"
       crop: fill
       attributes:
         width: 300px
