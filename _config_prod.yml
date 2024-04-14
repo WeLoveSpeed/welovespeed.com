@@ -111,6 +111,16 @@ cloudinary:
       fallback_max_width: 33
       steps: 2
       sizes: "33px"
+    venue_preview:
+      min_width: 300
+      max_width: 600
+      fallback_max_width: 300
+      steps: 2
+      aspect_ratio: 1.5
+      crop: fill
+      attributes:
+        width: 300px
+        height: 200px
 
 permalink: "/blog/:year-:month-:day-:slug/"
 

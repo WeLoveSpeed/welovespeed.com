@@ -9,7 +9,7 @@ layout: page
 # Practical info
 
 <figure>
-  {% cloudinary /assets/images/2024/location/expo_nantes.jpg alt="An auditorium with about 300 seats, photographed from the back left. We can guess a giant screen overhanging a large scenic space." %}
+  {% cloudinary /assets/images/2024/location/exponantes_canopee.jpg alt="External view of a large building surrounded by trees." %}
 </figure>
 
 ## When?
