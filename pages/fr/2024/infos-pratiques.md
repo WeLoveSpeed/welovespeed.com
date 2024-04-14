@@ -9,7 +9,7 @@ layout: page
 # Infos pratiques
 
 <figure>
-  {% cloudinary /assets/images/2024/location/expo_nantes.jpg alt="Vue extérieur d'un grand bâtiment vitré entouré de verdure. A l'intérieur on entre aperçoit une rangée de chaises qui laissent deviner un espace conférence." %}
+  {% cloudinary /assets/images/2024/location/exponantes_canopee.jpg alt="Vue extérieur d'un grand bâtiment vitré entouré de verdure." %}
 </figure>
 
 ## Quand ?
