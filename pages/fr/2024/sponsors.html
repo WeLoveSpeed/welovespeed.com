@@ -25,7 +25,7 @@ permalink: /2024/merci/
   <section id="sponsors" class="section">
     <div class="wrapper">
       <p class="text-center">
-        {% if site.sponsoring[page.locale] and site.sponsoring.up_to_date %}
+        {% if site.sponsoring[page.locale] and site.sponsoring[page.locale].up_to_date %}
           <a class="button" data-text="Télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})" target="_blank" href="{{ site.sponsoring[page.locale].url | relative_url }}"><span class="button-inner">Télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})</span></a>
         {% else %}
           <a class="button" data-text="Nous contacter pour faire partie des sponsors" href="/contact/"><span class="button-inner">Nous contacter pour faire partie des sponsors</span></a>
@@ -37,7 +37,6 @@ permalink: /2024/merci/
 
 {% if site.data.sponsors[page.year].gold.size > 0 or site.data.sponsors[include.year].others.size > 0 %}
   {% include banners/banner-elephant-nantes.html locale=page.locale %}
-
   {% include sponsors-descriptions.html locale=page.locale year=year %}
 {% endif %}
 

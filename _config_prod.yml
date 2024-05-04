@@ -30,11 +30,12 @@ current_edition: 2024
 cfp_open: true
 sponsoring:
   show: true
-  up_to_date: false
   fr_FR:
-    url: '/assets/docs/2023/sponsoring_fr.pdf'
-    size: '495 Ko'
+    up_to_date: true
+    url: '/assets/docs/2024/sponsoring_fr.pdf'
+    size: '1,5 Mo'
   en_US:
+    up_to_date: false
     url: '/assets/docs/2023/sponsoring_en.pdf'
     size: '675KB'
 tickets:

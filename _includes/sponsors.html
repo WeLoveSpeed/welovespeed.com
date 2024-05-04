@@ -1,5 +1,7 @@
 {% assign goldCount = site.data.sponsors[include.year].gold.size %}
 {% assign othersCount = site.data.sponsors[include.year].others.size %}
+
+{% if goldCount > 0 or othersCount > 0 %}
 <section id="sponsors-logo" class="section">
 
   <div class="wrapper">
@@ -28,3 +30,4 @@
     {% endunless %}
   </div>
 </section>
+{% endif %}
