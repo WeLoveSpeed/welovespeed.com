@@ -8,7 +8,7 @@
     "generate:talks_social": "node assets/images/social/_export_talks_social.mjs"
   },
   "devDependencies": {
-    "playwright": "^1.41.2",
+    "playwright": "^1.44.0",
     "puppeteer": "^21.9.0",
     "static-server": "^2.2.1"
   },
