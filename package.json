@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "playwright": "^1.41.2",
-    "puppeteer": "^21.9.0",
+    "puppeteer": "^22.8.1",
     "static-server": "^2.2.1"
   },
   "dependencies": {
