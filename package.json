@@ -13,6 +13,6 @@
     "static-server": "^2.2.1"
   },
   "dependencies": {
-    "sharp": "^0.33.2"
+    "sharp": "^0.33.4"
   }
 }
