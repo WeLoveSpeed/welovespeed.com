@@ -35,9 +35,9 @@ sponsoring:
     url: '/assets/docs/2024/sponsoring_fr.pdf'
     size: '1,5 Mo'
   en_US:
-    up_to_date: false
-    url: '/assets/docs/2023/sponsoring_en.pdf'
-    size: '675KB'
+    up_to_date: true
+    url: '/assets/docs/2024/sponsoring_en.pdf'
+    size: '1.5MB'
 tickets:
   selling: true # pensez à regénérer les bannières de conférence avant mise en prod
   weezevent: true
