@@ -26,7 +26,7 @@ permalink: /2024/merci/
     <div class="wrapper">
       <p class="text-center">
         {% if site.sponsoring[page.locale] and site.sponsoring[page.locale].up_to_date %}
-          <a class="button" data-text="Télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})" target="_blank" href="{{ site.sponsoring[page.locale].url | relative_url }}"><span class="button-inner">Télécharger notre dossier sponsor ({{ site.sponsoring[page.locale].size }})</span></a>
+          <a class="button" data-text="Afficher notre dossier sponsor" target="_blank" href="{{ site.sponsoring[page.locale].url }}"><span class="button-inner">Afficher notre dossier sponsor</span></a>
         {% else %}
           <a class="button" data-text="Nous contacter pour faire partie des sponsors" href="/contact/"><span class="button-inner">Nous contacter pour faire partie des sponsors</span></a>
         {% endif %}

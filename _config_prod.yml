@@ -32,11 +32,11 @@ sponsoring:
   show: true
   fr_FR:
     up_to_date: true
-    url: '/assets/docs/2024/sponsoring_fr.pdf'
+    url: 'https://docs.google.com/presentation/d/1ZlUBB1bLQdpPg31CIt3E8wrhViNJ9BUkCNKO2v-AeYo/view'
     size: '1,5 Mo'
   en_US:
     up_to_date: true
-    url: '/assets/docs/2024/sponsoring_en.pdf'
+    url: 'https://docs.google.com/presentation/d/1uGA8Ru-gvgK7JVF1mn7YYOhBHqGxbowL0RigB3bsgT8/view'
     size: '1.5MB'
 tickets:
   selling: true # pensez à regénérer les bannières de conférence avant mise en prod
