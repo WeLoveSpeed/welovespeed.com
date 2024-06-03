@@ -8,7 +8,7 @@ permalink: /2024/merci/
 {% assign year = page.year | default: site.current_edition %}
 <section class="section">
   <div class="wrapper">
-    <h1 class="text-center">Nos sponsors Gold</h1>
+    <h1 class="text-center">Nos sponsors</h1>
     <p>
       E-commerçants, éditeurs de solutions, prestataires de services, ils ont
       choisi de nous soutenir par amour de l'UX et de la performance Web. Sans
@@ -17,8 +17,14 @@ permalink: /2024/merci/
   </div>
 </section>
 
-{% if site.data.sponsors[page.year].gold.size > 0 or site.data.sponsors[include.year].others.size > 0 %}
-  {% include sponsors.html locale=page.locale shorturl=true year=year %}
+{% assign goldCount = site.data.sponsors[page.year].gold.size %}
+{% assign othersCount = site.data.sponsors[page.year].others.size %}
+{% if goldCount > 0 or othersCount > 0 %}
+  {% if goldCount > 0 %}
+    {% include sponsors.html locale=page.locale shorturl=true year=year hideOthers=true %}
+  {% else %}
+    {% include sponsors.html locale=page.locale shorturl=true year=year hideOthers=false %}
+  {% endif %}
 {% endif %}
 
 {% if site.current_edition == year and site.sponsoring.show %}
@@ -35,7 +41,7 @@ permalink: /2024/merci/
   </section>
 {% endif %}
 
-{% if site.data.sponsors[page.year].gold.size > 0 or site.data.sponsors[include.year].others.size > 0 %}
+{% if goldCount > 0 and othersCount > 0 %}
   {% include banners/banner-elephant-nantes.html locale=page.locale %}
   {% include sponsors-descriptions.html locale=page.locale year=year %}
 {% endif %}

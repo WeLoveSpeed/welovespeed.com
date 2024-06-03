@@ -728,4 +728,10 @@
 
 2024:
   gold: ~
-  others: ~
+  others:
+    - name: Globalis Media Systems
+      logo: /assets/images/2024/thanks/globalis-ms.png
+      url: https://www.globalis-ms.com/
+    - name: Webvert
+      logo: /assets/images/2024/thanks/webvert.svg
+      url: https://www.lewebvert.fr/
