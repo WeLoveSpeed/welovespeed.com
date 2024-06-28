@@ -2,6 +2,23 @@
 @use "../scss/config" as *;
 @use "../vendors/include-media/include-media" as *;
 
+.pre-header {
+  background-color: #961211;
+  color: #fff;
+  & .wrapper{
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+  }
+  &-tagline {
+    font-weight: 600;
+    line-height: 150%;
+  }
+}
+
 .home {
   &-header {
     margin: 20% 0 2em;
