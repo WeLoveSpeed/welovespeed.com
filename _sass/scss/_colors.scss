@@ -8,8 +8,8 @@ $black: #000000;
 $softgrey: #abb4be;
 $white: #ffffff;
 $darkgreen: #192112;
-$red: #e62827;
-$darkred: darken($red, 20);
+$red: #C4171B;
+$darkred: #961211;
 $blackred: darken($red, 40);
 $softred: lighten($red, 40);
 $softwhite: lighten($red, 47);
@@ -46,7 +46,7 @@ $alert: $red;
 // Colors applications
 
 $default-color: $darkred;
-$default-bg: $softwhite;
+$default-bg: $white;
 $focus-color: $red;
 
 $link-color: $focus-color;
@@ -82,6 +82,7 @@ $btn-hover-color: $darkred;
 
 // Navigation
 
+/*
 $nav-bg: $white;
 $nav-color: $link-color;
 
@@ -92,3 +93,4 @@ $nav-trigger-btn-hover-color: $focus-color;
 $nav-trigger-btn-active-bg: transparent;
 $nav-trigger-btn-active-color: $nav-trigger-btn-color;
 $nav-trigger-area-bg: rgba($white, 0.9);
+*/

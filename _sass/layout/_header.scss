@@ -3,24 +3,30 @@
 @use "../vendors/include-media/include-media" as *;
 
 .pre-header {
-  background-color: #961211;
+  background-color: $darkred;
   color: $white;
+
   & .wrapper{
     display: flex;
     padding-top: .66em;
     padding-bottom: .66em;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 3.2rem;
     align-self: stretch;
-    flex-direction: column;
-    @include media(">medium") {
-      flex-direction: row;
+    flex-direction: row;
+  }
+
+  @include media(">=large") {
+    & .wrapper{
+      justify-content: space-between;
     }
   }
+
   &-tagline {
     font-weight: 600;
     line-height: 150%;
+    text-align: center;
   }
 }
 
@@ -45,19 +51,6 @@
     text-align: center;
     color: inherit;
 
-    // &-logo {
-    //   width: 100%; height: auto;
-    //   font: $logo-font-style $logo-font-weight 1.6rem/1 $logo-font-family;
-
-    //   image {
-    //     position: fixed;
-    //   }
-
-    //   text {
-    //     fill: url(#pic);
-    //   }
-    // }
-
   }
 
   &-sub-title {
@@ -72,10 +65,8 @@
   &-main-title {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    gap: 0.5rem;
-    padding-left: 100px;
-    text-align: right;
+    align-items: center;
+    gap: 1.6rem;
 
     @include media(">=large") {
       flex-direction: row;
@@ -84,26 +75,25 @@
       text-align: left;
     }
 
-    @include media(">=xlarge") {
-      padding-left: 0;
-    }
-
-    &-link {
-      flex: 1;
-
-      @include media("<large") {
-        width: 100%;
-      }
-    }
-
     &-logo {
       width: 100%;
-      max-width: 9em;
+      max-width: 19rem;
     }
-
   }
 
   &-header {
-    margin: 2em 0;
+    margin: 1.9rem 0;
+    &-buttons {
+      display: flex;
+      column-gap: 2.4rem;
+      align-items: center;
+    }
   }
+}
+
+.lang-switch {
+  text-decoration: none;
+  font-weight: 500;
+  text-decoration: none;
+  color: $black;
 }

@@ -3,7 +3,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Billetterie
     type: page
@@ -66,7 +66,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Interventions
     type: page
@@ -141,7 +141,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Interventions
     type: page
@@ -222,7 +222,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Interventions
     type: page
@@ -297,7 +297,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Interventions
     type: page
@@ -372,7 +372,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Interventions
     type: page
