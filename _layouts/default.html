@@ -8,7 +8,6 @@ layout: microtypo
 {% capture shortKey %}{{ page.i18n-key | slice: 0,4}}{% endcapture %}
 {% include head.html year=year %}
 <body>
-  {% include navigation.html year=year %}
   {% unless shortKey=="home" %}
     {% include header-page.html year=year %}
   {% endunless %}

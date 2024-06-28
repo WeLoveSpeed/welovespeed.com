@@ -21,13 +21,7 @@ html {
 }
 
 body {
-  font-size: map-get($media-ratio, "xsmall") * $default-font-size;
-
-  @each $breakpoint, $value in $breakpoints {
-    @include media(">#{$breakpoint}") {
-      font-size: map-get($media-ratio, $breakpoint) * $default-font-size;
-    }
-  }
+  font-size: 1.8 * $default-font-size;
 }
 
 h1,

@@ -1,6 +1,7 @@
 <aside class="pre-header">
   <div class="wrapper">
-    <div class="pre-header-tagline">{{ site.data.editions[page.year].tagline[page.locale] }}</div>
+    <div class="pre-header-tagline">{% t Le seul événement français dédié à la Web Performance %}</div>
+    {% include social-links.html year=include.year %}
   </div>
 </aside>
 <header class="page-header">
@@ -12,9 +13,7 @@
             -lazy-loaded
           {%- endif -%}.svg" class="page-main-title-logo" alt="{{ site.seo_title }}" width="950" height="224"/>
       </a>
-      <p class="page-main-title-baseline">
-          {{ site.data.editions[page.year].tagline[page.locale] }}
-      </p>
+      {% include navigation.html year=year %}
     </div>
   </div>
 </header>

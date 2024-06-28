@@ -2,25 +2,45 @@
 
 ul.social-links {
   display: flex;
-  margin: 1em 0;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
 
   a {
     font-size: 1.5em;
-    color: $default-color;
-    border: transparent;
-
-    &:hover,
-    &:focus {
-      color: $focus-color;
-      border: transparent;
-    }
   }
 
   .page-nav & {
     flex-wrap: nowrap;
     font-size: 0.5em;
+  }
+}
+
+.pre-header {
+  & ul.social-links {
+    list-style-type: none;
+    line-height: 0;
+    gap: 1em;
+    margin: 0;
+    a {
+      color: $white;
+      &:hover,
+      &:focus {
+        color: $pastel-yellow;
+      }
+    }
+  }
+}
+
+.page-footer {
+  & ul.social-links {
+    margin: 1em 0;
+    a {
+      color: $default-color;
+      &:hover,
+      &:focus {
+        color: $focus-color;
+      }
+    }
   }
 }

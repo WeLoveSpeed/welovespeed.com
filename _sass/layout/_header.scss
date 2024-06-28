@@ -4,14 +4,19 @@
 
 .pre-header {
   background-color: #961211;
-  color: #fff;
+  color: $white;
   & .wrapper{
     display: flex;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: .66em;
+    padding-bottom: .66em;
     align-items: center;
-    gap: 32px;
+    justify-content: space-between;
+    gap: 3.2rem;
     align-self: stretch;
+    flex-direction: column;
+    @include media(">medium") {
+      flex-direction: row;
+    }
   }
   &-tagline {
     font-weight: 600;
@@ -53,14 +58,6 @@
     //   }
     // }
 
-    &-baseline {
-      margin-top: 1em;
-      font-size: 4.5vw;
-
-      @include media(">=large") {
-        font-size: 3em;
-      }
-    }
   }
 
   &-sub-title {
@@ -104,15 +101,6 @@
       max-width: 9em;
     }
 
-    &-baseline {
-      margin: 0;
-      font-size: 1em;
-      color: $focus-color;
-
-      @include media(">=large") {
-        font-size: 1.6em;
-      }
-    }
   }
 
   &-header {
