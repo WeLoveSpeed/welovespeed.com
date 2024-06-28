@@ -17,9 +17,10 @@
       <div class="page-header-buttons">
         {% if page.translation %}
         {% assign hreflang = page.translation.locale | slice: 0,2 %}
-          <a hreflang="{{ hreflang }}" href="{{ page.translation.url | relative_url }}" class="lang-switch">{% t Switch to EN %}</a>
+        <div class="lang-switch">
+          {% t FR %} | <a hreflang="{{ hreflang }}" href="{{ page.translation.url | relative_url }}" title="{% t Switch to EN %}">{{ hreflang }}</a>
+        </div>
         {% endif %}
-
         <a href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/tickets" class="button" data-text="{% t Acheter votre place %}" title="{% t Acheter votre place %}"><span class="button-inner">{% t Acheter votre place %}</span></a>
       </div>
     </div>

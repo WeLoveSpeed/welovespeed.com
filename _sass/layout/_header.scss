@@ -92,8 +92,12 @@
 }
 
 .lang-switch {
-  text-decoration: none;
-  font-weight: 500;
-  text-decoration: none;
-  color: $black;
+  text-transform: uppercase;
+  color: $hardgrey;
+  & a {
+    text-decoration: none;
+    font-weight: 500;
+    text-decoration: none;
+    color: $red;
+  }
 }

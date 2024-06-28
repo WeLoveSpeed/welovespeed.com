@@ -2,7 +2,6 @@
 @use "../vendors/include-media/include-media" as *;
 
 .wrapper {
-  width: $wrapper-width;
   max-width: $wrapper-max-width;
   margin: 0 auto;
   padding-left: $half-gutters;
