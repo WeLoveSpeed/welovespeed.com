@@ -6,11 +6,11 @@
 
   <div class="wrapper">
     {% if goldCount > 0 %}
-      <div class="grid-2 text-center randomize">
+      <div class="grid-2 text-center grid-gold-sponsors randomize">
         {% for sponsor in site.data.sponsors[include.year].gold %}
             {% capture sponsor-url %}{% unless include.shorturl %}{{ page.baseurl | default:site.baseurl }}/{{ include.year|default: site.current_edition }}/{{ "merci" | t: include.locale }}/{% endunless %}#{{sponsor.slug}}{% endcapture %}
             <figure>
-              <a title="{{ "En savoir plus sur %s" | t: include.locale | replace:"%s",sponsor.name }}" target="_blank" href="{{ sponsor-url }}" rel="sponsored"><img src="{{ sponsor.logo }}" alt="{{sponsor.name}}" loading="lazy"/></a>
+              <a title="{{ "En savoir plus sur %s" | t: include.locale | replace:"%s",sponsor.name }}" href="{{ sponsor-url }}"><img src="{{ sponsor.logo }}" alt="{{sponsor.name}}" loading="lazy"/></a>
             </figure>
         {%- endfor -%}
       </div>
@@ -29,7 +29,7 @@
       <div class="grid-{{ gridSize }} text-center grid-other-sponsors randomize">
         {% for sponsor in site.data.sponsors[include.year].others %}
           <figure {% if site.data.sponsors[include.year].others.size < 2 %}class="unique-thank"{% endif %}>
-            <a title="{{ "En savoir plus sur %s" | t: include.locale | replace:"%s",sponsor.name }}" target="_blank" href="{{ sponsor.url }}" rel="sponsored"><img src="{{ sponsor.logo }}" alt="{{sponsor.name}}" loading="lazy" /></a>
+            <a title="{{ "En savoir plus sur %s" | t: include.locale | replace:"%s",sponsor.name }}" target="_blank" href="{{ sponsor.url }}" rel="sponsored"><img src="{{ sponsor.logo }}" alt="{{sponsor.name}}" loading="lazy" width="150" height="60" /></a>
           </figure>
         {%- endfor -%}
       </div>
