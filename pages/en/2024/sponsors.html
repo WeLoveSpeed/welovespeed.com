@@ -17,15 +17,7 @@ permalink: /en/2024/thanks/
   </div>
 </section>
 
-{% assign goldCount = site.data.sponsors[page.year].gold.size %}
-{% assign othersCount = site.data.sponsors[page.year].others.size %}
-{% if goldCount > 0 or othersCount > 0 %}
-  {% if goldCount > 0 %}
-    {% include sponsors.html locale=page.locale shorturl=true year=year hideOthers=true %}
-  {% else %}
-    {% include sponsors.html locale=page.locale shorturl=true year=year hideOthers=false %}
-  {% endif %}
-{% endif %}
+{% include sponsors.html locale=page.locale shorturl=true year=year %}
 
 {% if site.current_edition == year and site.sponsoring.show %}
   <section id="sponsors" class="section">

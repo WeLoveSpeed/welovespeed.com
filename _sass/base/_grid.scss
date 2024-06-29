@@ -37,14 +37,34 @@
   grid-column: 1 / -1;
 }
 
+.grid-gold-sponsors {
+  --grid-item-min-width: 40rem;
+
+  @include media("<large") {
+    --grid-item-min-width: 26rem;
+  }
+}
+
 .grid-other-sponsors {
+  --grid-item-min-width: 20rem;
+
   @include media("<large") {
     --grid-item-min-width: 15rem;
+  }
+
+  @include media("<medium") {
+    --grid-item-min-width: 13rem;
   }
 
   @include media(">=large") {
     .unique-thank {
       grid-column: 2;
     }
+  }
+}
+
+.grid-gold-sponsors, .grid-other-sponsors {
+  figure {
+    margin: 0;
   }
 }
