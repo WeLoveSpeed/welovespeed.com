@@ -51,14 +51,6 @@ $default-font-family: Figtree, Figtree-fallback, system-ui, sans-serif;
 $default-font-weight: $font-weight-normal;
 $default-font-style: normal;
 
-// $logo-font-family           : "Oraqle", cursive;
-// $logo-font-weight           : normal;
-// $logo-font-style            : normal;
-
-// $main-title-font-family     : $default-font-family;
-// $main-title-font-weight     : $font-weight-light;
-// $main-title-font-style      : normal;
-
 $title-font-family: "Space Grotesk", "Space Grotesk-fallback", serif;
 $title-font-weight: $font-weight-normal;
 $title-font-style: normal;
@@ -103,13 +95,10 @@ $font-sizes: (
 
 $label-font-size: 0.875em;
 
-$input-vmargin: 0.125em;
+$input-vmargin: 0;
 $input-hmargin: 0;
-$input-vpadding: 0.25em;
-$input-hpadding: 0.5em;
-
-$btn-hmargin: 0.5em;
-$btn-hpadding: 1.5em;
+$input-vpadding: 2.4rem;
+$input-hpadding: 1.2rem;
 
 // Transitions
 

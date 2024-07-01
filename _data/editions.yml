@@ -1,15 +1,24 @@
 2024:
   com_city: "Nantes"
   banner:
-    url: "https://www.flickr.com/photos/165201814@N05/albums/72157719600000068"
+    url: "/assets/images/banners/banner-home.jpg"
     width: 2400
     height: 1600
   tagline:
     fr_FR: "L’événement français des mordus de web performance revient... à Nantes !"
     en_US: "The French event for web performance enthusiasts is back... in Nantes!"
   date:
+    day: 17
+    month:
+      fr_FR: "SEP"
+      en_US: "SEP"
+    datetime: "2024-09-17T08:30"
     fr_FR: "17 septembre 2024"
     en_US: "September 17, 2024"
+  location:
+    fr_FR: "Exponantes le Parc, Nantes"
+    en_US: "Exponantes le Parc, Nantes, France"
+    details: "Route de Saint-Joseph de Porterie<br>44300 Nantes, France"
   pictures:
     title: Flickr
     url: https://www.flickr.com/photos/165201814@N05

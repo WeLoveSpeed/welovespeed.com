@@ -6,10 +6,10 @@
 .button {
   position: relative;
   display: inline-block;
-  margin: $input-vmargin $btn-hmargin;
+  margin: 0;
   overflow: hidden;
   border: 1px solid transparent;
-  border-radius: 0.125em;
+  border-radius: 0.3rem;
   box-shadow: 0 0 0.5em 0 rgba($btn-bg, 0.5);
   background-color: $btn-bg;
   font: $button-font-style $button-font-weight 1em /#{$default-line-height}
@@ -27,7 +27,7 @@
   &-inner,
   &::after {
     display: block;
-    padding: $input-vpadding $btn-hpadding;
+    padding: $input-hpadding $input-vpadding;
   }
 
   &-inner {
@@ -47,6 +47,18 @@
     opacity: 0;
     visibility: hidden;
     speak: none;
+  }
+
+  &.invert {
+    color: $btn-color;
+    border: 1px solid $btn-hover-border-color;
+    background-color: $btn-hover-bg;
+    text-decoration: none;
+    border: 1px solid $red;
+
+    & .button-inner {
+      color: $red;
+    }
   }
 
   @include media(">=large") {

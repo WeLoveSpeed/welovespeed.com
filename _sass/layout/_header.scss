@@ -33,8 +33,9 @@
 .top {
   &-header {
     position: relative;
+    overflow: hidden;
 
-    & img {
+    & > img {
       position: absolute;
       top: 0;
       left: 0;
@@ -43,23 +44,119 @@
       object-fit: cover;
     }
 
+    & > .heart {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: auto;
+      height: 100%;
+      padding: 3.2rem 0;
+      box-sizing: border-box;
+    }
+
+    &-buttons {
+      margin: 3.6rem 0;
+      display: flex;
+      gap: 1.6rem;
+      align-items: center;
+    }
+
     & .wrapper {
       position: relative;
       z-index: 1;
-      padding: 112px 64px;
+      padding: 3.2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3.2rem;
     }
-  }
 
-  &-main-title {
-    text-align: center;
-    color: $white;
+    &-date {
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+
+    @include media(">=medium") {
+      & .wrapper {
+        position: relative;
+        z-index: 1;
+        padding: 11.2rem 6.4rem;
+        flex-direction: row;
+      }
+    }
+
+    & p {
+      color: $white;
+      line-height: 3rem;
+      margin: 0;
+    }
   }
 
   &-sub-title {
-    @include media(">medium") {
-      margin-left: 15%;
-      margin-right: 15%;
+    color: $white;
+    font-size: 28px;
+    line-height: 105%;
+    margin-bottom: 1.6rem;
+  }
+
+  &-main-title {
+    margin-top: 0;
+    max-width: 660px;
+    color: $white;
+  }
+
+  &-details {
+    position: relative;
+    & > .arrow {
+      display: none;
     }
+
+    @include media(">=medium") {
+      & > .arrow {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: -8.6rem;
+        width: 206px;
+        height: 199px;
+      }
+    }
+
+    @include media(">=large") {
+      & > .arrow {
+        right: 0;
+      }
+    }
+  }
+
+  @include media(">=medium") {
+    &-details {
+      padding-left: 3.2rem;
+      border-left: 2px solid $white;
+    }
+  }
+}
+
+.date-wrapper {
+  border: 2px solid $white;
+  color: $white;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & > .day {
+    font-size: 5.7rem;
+    line-height: 1.2;
+    padding: 0 1.8rem;
+  }
+  & > .month {
+    font-size: 2.25rem;
+    padding: 0 1.8rem;
+  }
+  & > .year {
+    border-top: 2px solid $white;
+    font-size: 2.5rem;
+    padding: 0 1.8rem;
   }
 }
 

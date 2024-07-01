@@ -8,16 +8,32 @@ hide_banner: true
 ---
 {% assign year = page.year | default: site.current_edition %}
 <header class="top-header">
-  <img src="{{ site.data.editions[page.year].banner.url }}" width="{{ site.data.editions[page.year].banner.width }}" height="{{ site.data.editions[page.year].banner.height }}" decoding="async" loading="eager" fetchpriority="high">
+  <img src="{{ site.data.editions[page.year].banner.url }}" width="{{ site.data.editions[page.year].banner.width }}px" height="{{ site.data.editions[page.year].banner.height }}px" decoding="async" loading="eager" fetchpriority="high">
   <div class="header-overlay"></div>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 541 590" width="541" height="590" class="heart"><g fill="#FFB2B4" opacity=".2"><path d="M467.1 73.8V0H319.4v73.8h-74v73.7h-73.8V73.8h-74V0H-50v73.8h-74V295h73.9v73.7h73.9v73.8h73.9v73.7h73.9V590h73.8v-73.8h74v-73.7h73.8v-73.8h73.9V295H541V73.8h-74 .1Z"/><path d="M23.8 73.8h74v73.7h-74V73.8ZM-50 147.5h74v73.8h-74v-73.8Z"/><path d="M23.8 221.2h74V295h-74v-73.8ZM97.7 295h73.9v73.7h-74l.1-73.7Zm0-221.2h73.9v73.7h-74l.1-73.7Zm73.9 73.7h73.9v73.8h-74v-73.8Z"/><path d="M245.5 147.5h73.9v73.7h-74v-73.7Zm0-73.7h73.9v73.7h-74V73.8Zm73.9 0h73.8v73.7h-73.8V73.8Zm73.8 73.7h74v73.7h-74v-73.7Zm-73.8 73.7h73.8V295h-73.8v-73.8Zm-74 73.8h74v73.8h-74V295Zm-73.8 73.8h73.9v73.7h-74v-73.7ZM23.8 0h74v73.8h-74V0ZM-50 0h73.8v73.8H-50V0Zm443.2 0h74v73.8h-74V0Zm-73.8 0h73.8v73.8h-73.8V0ZM-50.1 221.2h74V295h-74v-73.8Zm-73.9-73.7h74v73.7h-74v-73.7Zm0-73.7h74v73.7h-74V73.8Z"/><path d="M-124 221.2h74V295h-74v-73.8Zm74 73.8h73.8v73.7H-50V295Zm73.8 73.7h74v73.8h-74v-73.8Zm74 73.8h73.8v73.7h-74l.1-73.7Zm73.8 73.7h73.9V590h-74v-73.8Zm73.9-73.7h73.9v73.7h-74v-73.7Zm73.9-73.8h73.8v73.8h-73.8v-73.8Zm73.8-73.7h74v73.7h-74V295Zm74-73.8H541V295h-73.9v-73.8Zm0-73.7H541v73.7h-73.9v-73.7Zm-.1-73.7H541v73.7h-73.9V73.8Zm-73.9 0h74v73.7h-74V73.8Z"/><path d="M393.2 221.2h74V295h-74v-73.8ZM23.8 295h74v73.7h-74V295Zm73.9 73.7h73.9v73.8h-74l.1-73.8Zm147.8 0h73.9v73.8h-74v-73.8Zm73.9-73.7h73.8v73.7h-73.8V295ZM171.6 442.5h73.9v73.7h-74v-73.7Zm0-147.5h73.9v73.7h-74V295Zm147.8-147.5h73.8v73.7h-73.8v-73.7Zm-74 73.7h74V295h-74v-73.8Z"/><path d="M171.6 221.2h73.9V295h-74v-73.8Z"/><path d="M97.7 221.2h73.9V295h-74l.1-73.8Zm0-73.7h73.9v73.7h-74l.1-73.7Z"/><path d="M23.8 147.5h74v73.7h-74v-73.7Z"/></g></svg>
   <div class="wrapper">
-    <h1 class="top-main-title">
-      <div class="top-main-title-baseline">
-        {% if site.data.editions[page.year].tagline[page.locale].size > 0%}
-          {{ site.data.editions[page.year].tagline[page.locale] }}<br>
-        {% endif %}
+      <div class="top-date">
+        <time class="date-wrapper" datetime="{{ site.data.editions[page.year].date.datetime }}">
+          <span class="day">{{ site.data.editions[page.year].date.day }}</span>
+          <span class="month">{{ site.data.editions[page.year].date.month[page.locale] }}</span>
+          <span class="year">{{ page.year }}</span>
+        </time>
       </div>
-    </h1>
+      <div class="top-details">
+        <h1 class="top-main-title">
+          {% if site.data.editions[page.year].tagline[page.locale].size > 0%}
+          {{ site.data.editions[page.year].tagline[page.locale] }}<br>
+          {% endif %}
+        </h1>
+        <div class="top-header-buttons">
+          <a href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/interventions" class="button invert" data-text="{% t Voir le programme %}" title="{% t Voir le programme %}"><span class="button-inner">{% t Voir le programme %}</span></a>
+          <a href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/tickets" class="button" data-text="{% t Acheter votre place %}" title="{% t Acheter votre place %}"><span class="button-inner">{% t Acheter votre place %}</span></a>
+        </div>
+        <h2 class="top-sub-title">{{ site.data.editions[page.year].location[page.locale] }}</h2>
+        <p>{{ site.data.editions[page.year].location.details }}</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 206 199" width="206" height="199" class="arrow"><g fill="#fff" fill-rule="evenodd" clip-path="url(#a)" clip-rule="evenodd"><path d="M128.2 113.4a38 38 0 0 1-4.4 32.8 61.7 61.7 0 0 1-29 24.2A59.8 59.8 0 0 1 83 173a90 90 0 0 1-18 .3 1 1 0 0 1 0-2c5-.4 9.7-.9 14.4-1.8 4.7-1 9.2-2.3 13.5-4.4a56 56 0 0 0 25.8-22.2c4.9-8.2 7-17.7 3.9-27.2-2.5 1-5 1.7-7.6 2.1-5 1-10.1.8-15.5-1-3.7-1.2-8.6-4-11.4-7.4-2.5-3.1-3.5-6.8-1.8-10.7 3.5-7.8 10.5-9.3 18.1-7.2a40.7 40.7 0 0 1 21.3 16.2 154 154 0 0 0 6.8-3.6 45 45 0 0 0 20.3-23.4 52.8 52.8 0 0 0-10.6-54.6A80.5 80.5 0 0 0 120.6 9l.3-.2c3 .3 6.9 1.3 11 3.4a56 56 0 0 1 14 10.4A55.1 55.1 0 0 1 158.4 83a51.4 51.4 0 0 1-23 26.7c-2.4 1.3-4.8 2.6-7.3 3.7Zm-8.3-3.2c-2 .7-4 1.3-6 1.6a23 23 0 0 1-20-5.1c-1.6-1.5-2.9-3.3-2-5.4 2-4.5 6.3-5 10.7-3.7 6.8 2 14 7.6 17.3 12.6Z"/><path d="m65.6 170.8 5.8 2 6.7 2.5c5.6 2.3 11 4.8 16.5 7.3.5.2.8.8.6 1.3a1 1 0 0 1-1.3.7c-5-1-9.8-1.8-14.9-3a92 92 0 0 1-22-7.5 4 4 0 0 1-1.1-2c-.1-.8-.1-1.8.6-2.8.4-.4 1.2-1.3 2.6-2.1 4.7-2.8 16.8-8.2 19.3-9.4l5-2 1.2-.2c.6 0 1.3 0 1.8.2.3.2 0 .6.2.4v.2c-.4-.3 0 .5-.3.4-.6-.1.2.4-.2.6-.2 0 .2.1 0 .2-.2.2.3 0 .2.3-.1.2.2 0 .2.2s.2-.3.2 0v-.2s.1.2.1-.3l-.2-.3.3-.2c.7-1.3.1-.1.6-.5.1-.1 0 .2.2.1.7-.2-.1.5.3.7.2 0-.2.1 0 .3.3.2-.4 0-.2.5 0 .2-.3-.2-.4.4 0 .4.2 0-.3.6-.3.5-1.4.8-1.7 1l-4.6 2.7c-1.9 1-9.9 5-15.1 8Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M134.1.6.6 83 72 198.6 205.5 116z"/></clipPath></defs></svg>
+      </div>
+    </div>
   </div>
 </header>
 
