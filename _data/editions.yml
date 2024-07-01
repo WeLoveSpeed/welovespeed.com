@@ -1,8 +1,12 @@
 2024:
   com_city: "Nantes"
+  banner:
+    url: "https://www.flickr.com/photos/165201814@N05/albums/72157719600000068"
+    width: 2400
+    height: 1600
   tagline:
-    fr_FR: "17 septembre 2024, Nantes"
-    en_US: "September 17, 2024 – Nantes, France"
+    fr_FR: "L’événement français des mordus de web performance revient... à Nantes !"
+    en_US: "The French event for web performance enthusiasts is back... in Nantes!"
   date:
     fr_FR: "17 septembre 2024"
     en_US: "September 17, 2024"

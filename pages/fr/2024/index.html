@@ -4,17 +4,18 @@ description: >-
   Une journée de conférences dédiées à la performance web. Métriques, UX, optimisations du code et des images. Venez rencontrer les experts !
 i18n-key: 2024-home
 permalink: /2024/
+hide_banner: true
 ---
 {% assign year = page.year | default: site.current_edition %}
-<header class="home-header">
+<header class="top-header">
+  <img src="{{ site.data.editions[page.year].banner.url }}" width="{{ site.data.editions[page.year].banner.width }}" height="{{ site.data.editions[page.year].banner.height }}" decoding="async" loading="eager" fetchpriority="high">
   <div class="header-overlay"></div>
   <div class="wrapper">
-    <h1 class="home-main-title">
-      <div class="home-main-title-baseline">
+    <h1 class="top-main-title">
+      <div class="top-main-title-baseline">
         {% if site.data.editions[page.year].tagline[page.locale].size > 0%}
           {{ site.data.editions[page.year].tagline[page.locale] }}<br>
         {% endif %}
-        <small>L’événement français des mordus de web performance revient !</small>
       </div>
     </h1>
   </div>
