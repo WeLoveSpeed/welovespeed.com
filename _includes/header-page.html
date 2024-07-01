@@ -27,4 +27,6 @@
   </div>
 </header>
 
-{% unless page.hide_banner %}{% include banners/banner-elephant-nantes.html locale=page.locale page_top=true no_lazy=true %}{% endunless %}
+{% comment %}
+{% page.hide_banner %}{% include banners/banner-elephant-nantes.html locale=page.locale page_top=true no_lazy=true %}{% endunless %}
+{% endcomment %}

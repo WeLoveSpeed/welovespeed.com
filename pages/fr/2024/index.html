@@ -7,9 +7,9 @@ permalink: /2024/
 ---
 {% assign year = page.year | default: site.current_edition %}
 <header class="home-header">
+  <div class="header-overlay"></div>
   <div class="wrapper">
     <h1 class="home-main-title">
-      <img src="/assets/svg/wls-inline.svg" class="home-main-title-logo" alt="{{ site.seo_title }}" width="950" height="224" />
       <div class="home-main-title-baseline">
         {% if site.data.editions[page.year].tagline[page.locale].size > 0%}
           {{ site.data.editions[page.year].tagline[page.locale] }}<br>
