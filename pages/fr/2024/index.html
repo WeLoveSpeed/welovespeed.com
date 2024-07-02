@@ -27,7 +27,7 @@ hide_banner: true
         </h1>
         <div class="top-header-buttons">
           <a href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/interventions" class="button invert" data-text="{% t Voir le programme %}" title="{% t Voir le programme %}"><span class="button-inner">{% t Voir le programme %}</span></a>
-          <a href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/tickets" class="button" data-text="{% t Acheter votre place %}" title="{% t Acheter votre place %}"><span class="button-inner">{% t Acheter votre place %}</span></a>
+          <a href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/billetterie/" class="button" data-text="{% t Acheter votre place %}" title="{% t Acheter votre place %}"><span class="button-inner">{% t Acheter votre place %}</span></a>
         </div>
         <h2 class="top-sub-title">{{ site.data.editions[page.year].location[page.locale] }}</h2>
         <p>{{ site.data.editions[page.year].location.details }}</p>
@@ -36,6 +36,18 @@ hide_banner: true
     </div>
   </div>
 </header>
+
+<section class="section">
+  <div class="wrapper">
+    <div class="grid-2">
+
+      <div>
+        <p class="sub-title">{% t la mission de we love speed %}</p>
+        <h2>{% t Démocratiser la webperf %}</h2>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="section">
   <div class="wrapper">

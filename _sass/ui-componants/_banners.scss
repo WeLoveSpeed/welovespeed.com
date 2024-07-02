@@ -8,6 +8,7 @@
   background: center / cover no-repeat;
   height: 40vh;
   min-height: 20em;
+  background-attachment: fixed;
 }
 
 @each $slug in $banners {

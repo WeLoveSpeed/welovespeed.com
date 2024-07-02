@@ -34,6 +34,7 @@
   &-header {
     position: relative;
     overflow: hidden;
+    color: $white;
 
     & > img {
       position: absolute;
@@ -86,14 +87,12 @@
     }
 
     & p {
-      color: $white;
       line-height: 3rem;
       margin: 0;
     }
   }
 
   &-sub-title {
-    color: $white;
     font-size: 28px;
     line-height: 105%;
     margin-bottom: 1.6rem;
@@ -102,7 +101,6 @@
   &-main-title {
     margin-top: 0;
     max-width: 660px;
-    color: $white;
   }
 
   &-details {
