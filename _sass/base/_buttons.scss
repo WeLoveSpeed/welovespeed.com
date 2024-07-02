@@ -83,6 +83,17 @@
   }
 }
 
+button.button {
+  padding: $input-hpadding $input-vpadding;
+  overflow: visible;
+  &::after {
+    content: none;
+  }
+  &:hover {
+    color: $red;
+  }
+}
+
 .button-reset {
   display: inline;
   margin: 0;

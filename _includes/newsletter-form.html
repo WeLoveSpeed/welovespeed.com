@@ -1,14 +1,15 @@
 <form id="nl-form-{{ include.context }}" class="page__form js-form form" method="POST" action="{{ site.newsletter.url }}" name="mc-embedded-subscribe-form"
 class="newsletter-form validate" target="_blank" rel="noopener noreferrer" novalidate="">
+  <p>{% t Recevez toutes les informations sur l’événement par courriel : %}</p>
   <fieldset>
     <label for="mce-EMAIL-{{ include.context }}">{% t Votre email %} {% t (obligatoire) %}</label>
-    <input type="email" placeholder="gre@tsco.tt" value="" name="EMAIL" class="email" id="mce-EMAIL-{{ include.context }}" required>
+    <input type="email" placeholder="{% t Votre email %}" value="" name="EMAIL" class="email" id="mce-EMAIL-{{ include.context }}" required>
   </fieldset>
   <fieldset>
     <label for="mce-NAME-{{ include.context }}">{% t Votre nom %}</label>
     {% if include.compact %}<div class="form-row">{% endif %}
-    <input type="text" value="" placeholder="Marty McFly" name="NAME" class="name" id="mce-NAME-{{ include.context }}" required>
-    {% if include.compact %}<button class="button-reset" type="submit" name="Subscribe" id="mc-embedded-subscribe">{% t s'abonner %}</button>
+    <input type="text" value="" placeholder="{% t Votre nom %}" name="NAME" class="name" id="mce-NAME-{{ include.context }}" required>
+    {% if include.compact %}<button class="button" type="submit" name="Subscribe" id="mc-embedded-subscribe">{% t s'abonner %}</button>
     </div>{% endif %}
   </fieldset>
   <fieldset>
