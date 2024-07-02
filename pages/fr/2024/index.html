@@ -8,7 +8,7 @@ hide_banner: true
 ---
 {% assign year = page.year | default: site.current_edition %}
 <header class="top-header">
-  <img src="{{ site.data.editions[page.year].banner.url }}" width="{{ site.data.editions[page.year].banner.width }}px" height="{{ site.data.editions[page.year].banner.height }}px" decoding="async" loading="eager" fetchpriority="high">
+  <img src="{{ site.data.editions[page.year].banner.url }}" width="{{ site.data.editions[page.year].banner.width }}" height="{{ site.data.editions[page.year].banner.height }}" decoding="async" loading="eager" fetchpriority="high">
   <div class="header-overlay"></div>
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 541 590" width="541" height="590" class="heart"><g fill="#FFB2B4" opacity=".2"><path d="M467.1 73.8V0H319.4v73.8h-74v73.7h-73.8V73.8h-74V0H-50v73.8h-74V295h73.9v73.7h73.9v73.8h73.9v73.7h73.9V590h73.8v-73.8h74v-73.7h73.8v-73.8h73.9V295H541V73.8h-74 .1Z"/><path d="M23.8 73.8h74v73.7h-74V73.8ZM-50 147.5h74v73.8h-74v-73.8Z"/><path d="M23.8 221.2h74V295h-74v-73.8ZM97.7 295h73.9v73.7h-74l.1-73.7Zm0-221.2h73.9v73.7h-74l.1-73.7Zm73.9 73.7h73.9v73.8h-74v-73.8Z"/><path d="M245.5 147.5h73.9v73.7h-74v-73.7Zm0-73.7h73.9v73.7h-74V73.8Zm73.9 0h73.8v73.7h-73.8V73.8Zm73.8 73.7h74v73.7h-74v-73.7Zm-73.8 73.7h73.8V295h-73.8v-73.8Zm-74 73.8h74v73.8h-74V295Zm-73.8 73.8h73.9v73.7h-74v-73.7ZM23.8 0h74v73.8h-74V0ZM-50 0h73.8v73.8H-50V0Zm443.2 0h74v73.8h-74V0Zm-73.8 0h73.8v73.8h-73.8V0ZM-50.1 221.2h74V295h-74v-73.8Zm-73.9-73.7h74v73.7h-74v-73.7Zm0-73.7h74v73.7h-74V73.8Z"/><path d="M-124 221.2h74V295h-74v-73.8Zm74 73.8h73.8v73.7H-50V295Zm73.8 73.7h74v73.8h-74v-73.8Zm74 73.8h73.8v73.7h-74l.1-73.7Zm73.8 73.7h73.9V590h-74v-73.8Zm73.9-73.7h73.9v73.7h-74v-73.7Zm73.9-73.8h73.8v73.8h-73.8v-73.8Zm73.8-73.7h74v73.7h-74V295Zm74-73.8H541V295h-73.9v-73.8Zm0-73.7H541v73.7h-73.9v-73.7Zm-.1-73.7H541v73.7h-73.9V73.8Zm-73.9 0h74v73.7h-74V73.8Z"/><path d="M393.2 221.2h74V295h-74v-73.8ZM23.8 295h74v73.7h-74V295Zm73.9 73.7h73.9v73.8h-74l.1-73.8Zm147.8 0h73.9v73.8h-74v-73.8Zm73.9-73.7h73.8v73.7h-73.8V295ZM171.6 442.5h73.9v73.7h-74v-73.7Zm0-147.5h73.9v73.7h-74V295Zm147.8-147.5h73.8v73.7h-73.8v-73.7Zm-74 73.7h74V295h-74v-73.8Z"/><path d="M171.6 221.2h73.9V295h-74v-73.8Z"/><path d="M97.7 221.2h73.9V295h-74l.1-73.8Zm0-73.7h73.9v73.7h-74l.1-73.7Z"/><path d="M23.8 147.5h74v73.7h-74v-73.7Z"/></g></svg>
   <div class="wrapper">
@@ -26,8 +26,45 @@ hide_banner: true
           {% endif %}
         </h1>
         <div class="top-header-buttons">
-          <a href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/interventions" class="button invert" data-text="{% t Voir le programme %}" title="{% t Voir le programme %}"><span class="button-inner">{% t Voir le programme %}</span></a>
-          <a href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/billetterie/" class="button" data-text="{% t Acheter votre place %}" title="{% t Acheter votre place %}"><span class="button-inner">{% t Acheter votre place %}</span></a>
+          {% if site.current_edition == year and site.infos.interventions %}
+          <a class="button invert" href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/interventions" data-text="{% t Voir le programme %}" title="{% t Voir le programme %}">
+            <span class="button-inner">{% t Voir le programme %}</span>
+          </a>
+          {% endif %}
+          {%- if site.cfp_open -%}
+          <a class="button invert" target="_blank"  data-text="{% t Appel à propositions %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="{% t Appel à propositions %}">
+            <span class="button-inner">{% t Appel à propositions %}</span>
+          </a>
+        {%- endif -%}
+        {% if site.current_edition == year and site.infos.interventions %}
+        <a class="button" data-text="{% t Voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="{% t Voir le programme %}">
+          <span class="button-inner">{% t Voir le programme %}</span>
+        </a>
+        {% endif %}
+        {% if site.current_edition == year and site.infos.schedule %}
+        <a class="button" data-text="{% t Voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t Voir le programme %}">
+          <span class="button-inner">{% t Voir le programme %}</span>
+        </a>
+        {% endif %}
+        {%- comment -%}
+        <a class="button" data-text="{% t Témoignages %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="{% t Témoignages %}">
+          <span class="button-inner">{% t Témoignages %}</span>
+        </a>
+        <a class="button" data-text="Photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
+          <span class="button-inner">Photos ({{ site.data.editions[page.year].pictures.title }})</span>
+        </a>
+        {%- endcomment -%}
+        {% if site.current_edition != page.year %}
+          <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
+            <span class="button-inner">{% t Voir l'édition courante %}</span>
+          </a>
+        {% else %}
+          {% if site.tickets.selling %}
+            <a class="button" data-text="{% t Acheter votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/{{ "billetterie" | t: page.locale }}" title="{% t Acheter votre place %}">
+              <span class="button-inner">{% t Acheter votre place %}</span>
+            </a>
+          {% endif %}
+        {% endif %}
         </div>
         <h2 class="top-sub-title">{{ site.data.editions[page.year].location[page.locale] }}</h2>
         <p>{{ site.data.editions[page.year].location.details }}</p>
@@ -40,53 +77,14 @@ hide_banner: true
 <section class="section">
   <div class="wrapper">
     <div class="grid-2">
-
+      <div>
+        <img src="/Assets/images/{{ page.year }}/location/nantes-elephant-vertical.jpg" width="550" height="700" decoding="async" loading="lazy" class="img-rounded">
+      </div>
       <div>
         <p class="sub-title">{% t la mission de we love speed %}</p>
         <h2>{% t Démocratiser la webperf %}</h2>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrapper">
-    <p class="text-center">
-      {%- if site.cfp_open -%}
-        <a class="button" target="_blank"  data-text="Appel à propositions" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="appel à propositions">
-          <span class="button-inner">Appel à propositions</span>
-        </a>
-      {%- endif -%}
-      {% if site.current_edition == year and site.infos.interventions %}
-      <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="Voir le programme">
-        <span class="button-inner">Voir le programme</span>
-      </a>
-      {% endif %}
-      {% if site.current_edition == year and site.infos.schedule %}
-      <a class="button" data-text="Voir le programme" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="Voir le programme">
-        <span class="button-inner">Voir le programme</span>
-      </a>
-      {% endif %}
-      {%- comment -%}
-      <a class="button" data-text="Témoignages" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="témoignages">
-        <span class="button-inner">Témoignages</span>
-      </a>
-      <a class="button" data-text="Photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
-        <span class="button-inner">Photos ({{ site.data.editions[page.year].pictures.title }})</span>
-      </a>
-      {%- endcomment -%}
-      {% if site.current_edition != page.year %}
-        <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
-          <span class="button-inner">{% t Voir l'édition courante %}</span>
-        </a>
-      {% else %}
-        {% if site.tickets.selling %}
-          <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/{{ "billetterie" | t: page.locale }}" title="{% t Réserver votre place %}">
-            <span class="button-inner">{% t Réserver votre place %}</span>
-          </a>
-        {% endif %}
-      {% endif %}
-    </p>
   </div>
 </section>
 

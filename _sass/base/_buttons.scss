@@ -14,7 +14,6 @@
   background-color: $btn-bg;
   font: $button-font-style $button-font-weight 1em /#{$default-line-height}
     $button-font-family;
-  text-align: center;
   text-decoration: none;
   vertical-align: middle;
 
@@ -80,17 +79,6 @@
         visibility: visible;
       }
     }
-  }
-}
-
-button.button {
-  padding: $input-hpadding $input-vpadding;
-  overflow: visible;
-  &::after {
-    content: none;
-  }
-  &:hover {
-    color: $red;
   }
 }
 

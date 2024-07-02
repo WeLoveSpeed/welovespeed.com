@@ -56,4 +56,7 @@ form {
   justify-content: flex-start;
   align-items: center;
   column-gap: 1.6rem;
+  & button {
+    flex-shrink: 0;
+  }
 }
