@@ -76,13 +76,26 @@ hide_banner: true
 
 <section class="section">
   <div class="wrapper">
-    <div class="grid-2">
-      <div>
-        <img src="/Assets/images/{{ page.year }}/location/nantes-elephant-vertical.jpg" width="550" height="700" decoding="async" loading="lazy" class="img-rounded">
+    <div class="grid-2 cols-33-66">
+      <div class="decorative-square">
+        <img src="/assets/images/{{ page.year }}/location/nantes-elephant-vertical.jpg" width="550" height="700" decoding="async" loading="lazy" class="img-rounded">
       </div>
       <div>
         <p class="sub-title">{% t la mission de we love speed %}</p>
         <h2>{% t Démocratiser la webperf %}</h2>
+        {% for mission in site.data.content.missions %}
+          <div class="grid-2 cols-xs-auto">
+            <div>
+              <div class="icon-container">
+                {{ mission.icon }}
+              </div>
+            </div>
+            <div>
+              <h3 class="h-smallcap">{{ mission.title[page.locale] }}</h3>
+              <p>{{ mission.content[page.locale] }}</p>
+            </div>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>

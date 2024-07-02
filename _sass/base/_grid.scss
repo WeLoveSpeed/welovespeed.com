@@ -11,7 +11,7 @@
     minmax(var(--grid-item-min-width), 1fr)
   );
   grid-gap: $global-gutters ($global-gutters + 2rem);
-  justify-items: stretch;
+  justify-items: start;
   align-items: center;
 
   & > * {
@@ -63,8 +63,32 @@
   }
 }
 
-.grid-gold-sponsors, .grid-other-sponsors {
+.grid-gold-sponsors,
+.grid-other-sponsors {
   figure {
     margin: 0;
+  }
+}
+
+.cols {
+  &-33-66 {
+    @include media(">=medium") {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+  &-xs-auto {
+    grid-gap: 2.4rem;
+    grid-template-columns: 100%;
+
+    & + & {
+      margin-top: 2.4rem;
+    }
+
+    @include media(">=medium") {
+      grid-template-columns: 100px auto;
+      & + & {
+        margin-top: 3.6rem;
+      }
+    }
   }
 }

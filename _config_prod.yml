@@ -25,6 +25,7 @@ matomo: false
 lazyload:
   placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
+# Configuration de l'événement
 
 current_edition: 2024
 cfp_open: true

@@ -29,7 +29,7 @@ h2,
 .h-like {
   font-family: $title-font-family;
   font-style: $title-font-style;
-  font-weight: $title-font-weight;
+  font-weight: 700;
   line-height: $title-line-height;
   text-wrap: balance;
 }
@@ -40,7 +40,7 @@ h5,
 h6 {
   font-family: $default-font-family;
   font-style: $default-font-style;
-  font-weight: $default-font-weight;
+  font-weight: 700;
 }
 
 h1,
@@ -129,6 +129,14 @@ button.btn--link-like {
   font: inherit;
   color: $default-color;
 }
+
+.h-smallcap {
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 140%;
+  margin-bottom: .8rem;
+}
+
 .h-reset {
   margin: initial;
   padding: 0;

@@ -139,3 +139,21 @@ button svg {
     scroll-margin-top: 2rem;
   }
 }
+
+.decorative {
+  &-square {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      bottom: -33px;
+      left: -70px;
+      display: block;
+      width: 25rem;
+      height: 25rem;
+      background-color: $softred;
+      border-radius: 1.5rem;
+    }
+  }
+}
