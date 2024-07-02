@@ -1,22 +1,75 @@
 @use "../scss/config" as *;
+@use "../scss/colors" as *;
 @use "../scss/mixins" as *;
 @use "../scss/abstracts" as *;
+@use "../vendors/include-media/include-media" as *;
 
 .page-footer {
   margin: 5% 0 0;
+  background-color: $blackred;
+  color: $white;
+  padding: 8rem 0;
+
+  & .grid-4 {
+    align-items: start;
+    margin-bottom: 6.4rem;
+  }
+
+  @include media(">=large") {
+    & .grid-4 {
+      --grid-item-min-width: none;
+      grid-template-columns: calc(33% + 6.4rem) auto auto auto;
+
+      & > section:first-child {
+        padding-right: 6.4rem;
+      }
+    }
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 
   h2 {
-    margin: 0.5em 0;
-    font-weight: $font-weight-normal;
+    margin-top: 0;
+    color: $white;
+  }
+
+  &-logo {
+    width: 190px;
+    margin-bottom: 24px;
   }
 
   ul {
     @extend %ul-reset;
+    & li {
+      margin: 8px 0;
+    }
   }
 
   .newsletter-form {
     button {
       padding: 0 0.25em;
+    }
+  }
+
+  &-legal {
+    margin-top: 2rem;
+
+    & a {
+      text-decoration: underline;
+    }
+  }
+
+  @include media(">=medium") {
+    &-legal {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
   }
 }

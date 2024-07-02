@@ -52,7 +52,7 @@ $default-font-weight: $font-weight-normal;
 $default-font-style: normal;
 
 $title-font-family: "Space Grotesk", "Space Grotesk-fallback", serif;
-$title-font-weight: $font-weight-normal;
+$title-font-weight: 700;
 $title-font-style: normal;
 $title-line-height: 1.2;
 
@@ -65,7 +65,7 @@ $input-font-weight: $font-weight-normal;
 $input-font-style: italic;
 
 $button-font-family: $title-font-family;
-$button-font-weight: $title-font-weight;
+$button-font-weight: 500;
 $button-font-style: normal;
 
 $font-sizes: (

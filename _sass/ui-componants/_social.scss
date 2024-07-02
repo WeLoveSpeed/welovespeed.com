@@ -5,15 +5,9 @@ ul.social-links {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
 
-  a {
-    font-size: 1.5em;
-  }
-
-  .page-nav & {
-    flex-wrap: nowrap;
-    font-size: 0.5em;
+  & svg {
+    vertical-align: middle;
   }
 }
 
@@ -23,7 +17,12 @@ ul.social-links {
     list-style-type: none;
     line-height: 0;
     gap: 1em;
+    align-items: center;
     margin: 0;
+
+    a {
+      font-size: 1.5em;
+    }
 
     @include media(">=large") {
       display: flex;
@@ -41,13 +40,6 @@ ul.social-links {
 
 .page-footer {
   & ul.social-links {
-    margin: 1em 0;
-    a {
-      color: $default-color;
-      &:hover,
-      &:focus {
-        color: $focus-color;
-      }
-    }
+    flex-direction: column;
   }
 }
