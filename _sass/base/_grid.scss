@@ -1,4 +1,5 @@
 @use "../scss/config" as *;
+@use "../scss/colors" as *;
 @use "../vendors/include-media/include-media" as *;
 
 [class*=" grid-"],
@@ -90,5 +91,18 @@
         margin-top: 3.6rem;
       }
     }
+  }
+  &-v-split {
+    padding: 3.2rem 0;
+    border-top: 1px solid $softgrey;
+
+    &:last-child {
+      border-bottom: 1px solid $softgrey;
+    }
+  }
+  &-avatar {
+    aspect-ratio: 292/400;
+    border-radius: 15px;
+    overflow: hidden;
   }
 }

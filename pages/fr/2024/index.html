@@ -81,10 +81,11 @@ hide_banner: true
         <img src="/assets/images/{{ page.year }}/location/nantes-elephant-vertical.jpg" width="550" height="700" decoding="async" loading="lazy" class="img-rounded">
       </div>
       <div>
-        <p class="sub-title">{% t la mission de we love speed %}</p>
+        <p class="sub-title">{% t La mission de We Love Speed %}</p>
         <h2>{% t Démocratiser la webperf %}</h2>
+        <div>
         {% for mission in site.data.content.missions %}
-          <div class="grid-2 cols-xs-auto">
+          <div class="grid-2 cols-xs-auto cols-v-split">
             <div>
               <div class="icon-container">
                 {{ mission.icon }}
@@ -92,24 +93,51 @@ hide_banner: true
             </div>
             <div>
               <h3 class="h-smallcap">{{ mission.title[page.locale] }}</h3>
-              <p>{{ mission.content[page.locale] }}</p>
+              <p class="mb-0">{{ mission.content[page.locale] }}</p>
             </div>
           </div>
         {% endfor %}
+        </div>
       </div>
     </div>
   </div>
 </section>
 
+{% if site.data.speakers[page.year] %}
+{% assign speakers = site.data.speakers[page.year] %}
+{% assign nbSpeakers = speakers.size %}
+{% if nbSpeakers > 0 %}
+<section class="section speakers">
+  <img src="/assets/svg/squares-bg.svg" class="decorative-squares" alt="" decoding="async" loading="lazy">
+  <div class="wrapper">
+    <p class="sub-title light text-center">{% t Les intervenant·e·s %}</p>
+    <h2 class="text-center">{{ "Découvrez les speakers de l’édition %s" | t: include.locale | replace:"%s",page.year }}</h2>
+    <div class="grid-4">
+      {% for speaker in speakers %}
+      {% assign speaker_data = speaker[1] %}
+      <div class="cols-avatar">
+        <picture class="avatar">
+          <img src="{{ speaker_data.image }}" width="800" height="800" decoding="async" loading="lazy">
+          <figcaption>
+            <h2>{{ speaker_data.name }}</h2>
+            <p>{{ speaker_data.title }}</p>
+          </figcaption>
+        </picture>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endif %}
+
 {%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}
 {% assign nbconf = conferences | size %}
 {% if nbconf > 0 %}
-  <hr class="wrapper">
   {% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}
 {% endif %}
 
 {% if site.nlOnTop %}
-  <hr class="wrapper">
 
   <section class="section">
     <div class="wrapper">
@@ -122,24 +150,7 @@ hide_banner: true
   </section>
 {% endif %}
 
-{% include banners/banner-elephant-nantes.html locale=page.locale %}
-
-<section class="section">
-  <div class="wrapper">
-    <h2 class="text-center">À propos de We Love Speed</h2>
-    <p>Créée en 2018 par et pour la communauté, la conférence à but non-lucratif {{ site.title }} est née de l’envie de partager le plus largement possible les connaissances et expériences en matière de webperf. Professionnel·les du web, de l’e-commerce et expert·es de la webperf, cet événement est fait pour vous&nbsp;!</p>
-    <p>Nous attendons près de 160 participants dont des profils décideurs, développeurs, passionnés ou experts en performance web comme chaque année. Mais en 2024, nous souhaitons contribuer encore un peu plus à la démocratisation de la web performance.</p>
-    <p>C’est pourquoi nous visons, pour cette édition, un public plus hétéroclite, incluant des profils tels que des Chief Digital Officer, e-commerce, marketing ou encore SEO. Nous sélectionnerons donc des conférences adaptées à toutes les sensibilités. Il y en aura pour tous les goûts !</p>
-    <p class="text-center">
-      <a class="button" target="_blank" data-text="{% t Voir les vidéos des années précédentes %}" href="https://www.youtube.com/watch?v=q3M4he-QxCA&list=PLqQ-opbi5cUNHus04oKC7Pi6HIxVaMx-k" title="{% t Voir les vidéos des années précédentes %}">
-        <span class="button-inner">{% t Voir les vidéos des années précédentes %}</span>
-      </a>
-    </p>
-  </div>
-</section>
-
 {% if site.infos.display %}
-{% include banners/banner-elephant-nantes.html locale=page.locale %}
 
 <section class="section" id="location">
   <div class="wrapper">
@@ -175,8 +186,6 @@ hide_banner: true
   </div>
 </section>
 {% endif %}
-
-{% include banners/banner-elephant-nantes.html locale=page.locale %}
 
 <section class="section" id="sponsors">
   <div class="wrapper">

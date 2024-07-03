@@ -156,4 +156,13 @@ button svg {
       border-radius: 1.5rem;
     }
   }
+  &-squares {
+    position: absolute;
+    width: 1376px;
+    height: 1001px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-position: top center;
+  }
 }

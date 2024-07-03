@@ -73,15 +73,42 @@ hide_banner: true
   </div>
 </header>
 
+<section class="section">
+  <div class="wrapper">
+    <div class="grid-2 cols-33-66">
+      <div class="decorative-square">
+        <img src="/assets/images/{{ page.year }}/location/nantes-elephant-vertical.jpg" width="550" height="700" decoding="async" loading="lazy" class="img-rounded">
+      </div>
+      <div>
+        <p class="sub-title">{% t La mission de We Love Speed %}</p>
+        <h2>{% t Démocratiser la webperf %}</h2>
+        <div>
+        {% for mission in site.data.content.missions %}
+          <div class="grid-2 cols-xs-auto cols-v-split">
+            <div>
+              <div class="icon-container">
+                {{ mission.icon }}
+              </div>
+            </div>
+            <div>
+              <h3 class="h-smallcap">{{ mission.title[page.locale] }}</h3>
+              <p class="mb-0">{{ mission.content[page.locale] }}</p>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 {%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}
 {% assign nbconf = conferences | size %}
 {% if nbconf > 0 %}
-  <hr class="wrapper">
   {% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}
 {% endif %}
 
 {% if site.nlOnTop %}
-  <hr class="wrapper">
 
   <section class="section">
     <div class="wrapper">
@@ -94,24 +121,7 @@ hide_banner: true
   </section>
 {% endif %}
 
-{% include banners/banner-elephant-nantes.html locale=page.locale %}
-
-<section class="section">
-  <div class="wrapper">
-    <h2 class="text-center">About We Love Speed</h2>
-    <p>Created in 2018 by and for the webperf community, the "{{ site.title }}" not-for-profit conference is born from the desire to share as widely as possible knowledge and experience about webperf. Web professionals, e-commerce and webperf experts, this event is for you!</p>
-    <p>We expect up to 250 participants, including executives, developers, enthusiasts and experts in web performance, as every year. But in 2024, we want to contribute even more to the democratization of web performance.</p>
-    <p>Therefore, for this edition, we aim at a more heterogeneous audience, including profiles such as Chief Digital Officer, e-commerce, marketing or SEO. We will select conferences adapted to all sensibilities. There will be something for everyone!</p>
-    <p class="text-center">
-      <a class="button" target="_blank" data-text="{% t Voir les interventions de l'année dernière %}" href="https://www.youtube.com/watch?v=q3M4he-QxCA&list=PLqQ-opbi5cUNHus04oKC7Pi6HIxVaMx-k" title="{% t Voir les interventions de l'année dernière %}">
-        <span class="button-inner">{% t Voir les vidéos de l'année dernière %}</span>
-      </a>
-    </p>
-  </div>
-</section>
-
 {% if site.infos.display %}
-{% include banners/banner-elephant-nantes.html locale=page.locale %}
 
 <section class="section" id="location">
   <div class="wrapper">
@@ -147,8 +157,6 @@ hide_banner: true
   </div>
 </section>
 {% endif %}
-
-{% include banners/banner-elephant-nantes.html locale=page.locale %}
 
 <section class="section" id="conferences">
   <div class="wrapper">

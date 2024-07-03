@@ -197,6 +197,10 @@ button.btn--link-like {
   color: $inactive;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
 .line-through {
   text-decoration: line-through;
 }
@@ -227,5 +231,13 @@ li > ul {
     margin-top: 0;
     color: $black;
   }
+
+  &.light {
+    color: $white;
+    & + h2 {
+      color: $white;
+    }
+  }
+
 }
 
