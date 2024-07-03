@@ -81,6 +81,20 @@
     height: 100%;
     object-fit: cover;
   }
+  & h3 {
+    font-family: $title-font-family;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  & p {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    
+    &.company {
+      margin-top: 1.6rem;
+    }
+  }
   & > figcaption {
     box-sizing: border-box;
     position: absolute;
@@ -95,6 +109,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    row-gap: .8rem;
     color: $white;
   }
   &:hover {
