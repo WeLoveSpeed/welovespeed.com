@@ -104,6 +104,31 @@
     aspect-ratio: 292/400;
     border-radius: 15px;
     overflow: hidden;
+    height: 100%;
+    &:last-child {
+      box-sizing: border-box;
+      padding: 20px;
+      font-family: $title-font-family;
+      font-weight: 500;
+      font-size: 20px;
+      border: 1px solid currentColor;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      row-gap: 3.2rem;
+      &:hover {
+        color: $softred;
+      }
+      & svg {
+        width: 4.8rem;
+        height: 4.8rem;
+        fill: none;
+      }
+    }
   }
   &-x48 {
     grid-gap: 4.8rem;
