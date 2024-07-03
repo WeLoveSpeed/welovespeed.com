@@ -4,7 +4,7 @@
 
   {% for link in include.urls %}
     <li>
-      <a href="{{link.url}}" target="_blank" rel="nofollow" title="{{link.title}}">
+      <a href="{{link.url}}" target="_blank" rel="nofollow noopener" title="{{link.title}}">
         <svg width="1em" role="img" aria-label="{{link.name}}" viewBox="0 0 448 512">
           <use xlink:href="{{ symbols-url | append: link.name | relative_url }}"/>
         </svg>

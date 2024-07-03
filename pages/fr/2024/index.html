@@ -111,16 +111,18 @@ hide_banner: true
   <img src="/assets/svg/squares-bg.svg" class="decorative-squares" alt="" decoding="async" loading="lazy">
   <div class="wrapper">
     <p class="sub-title light text-center">{% t Les intervenant·e·s %}</p>
-    <h2 class="text-center">{{ "Découvrez les speakers de l’édition %s" | t: include.locale | replace:"%s",page.year }}</h2>
-    <div class="grid-4">
+    <h2 class="text-center">{% t Découvrez les speakers de cette édition %}</h2>
+    <div class="grid-4 cols-x48">
       {% for speaker in speakers %}
       {% assign speaker_data = speaker[1] %}
       <div class="cols-avatar">
         <picture class="avatar">
           <img src="{{ speaker_data.image }}" width="800" height="800" decoding="async" loading="lazy">
           <figcaption>
-            <h2>{{ speaker_data.name }}</h2>
-            <p>{{ speaker_data.title }}</p>
+            <h3>{{ speaker_data.name }}</h3>
+            <p>{{ speaker_data[page.locale].bio_short }}</p>
+            <p class="company">{{ speaker_data.company }}</p>
+            {% include person-links.html urls=speaker_data.urls %}
           </figcaption>
         </picture>
       </div>
