@@ -1,6 +1,6 @@
 <footer class="page-footer">
   <div class="wrapper">
-    {% if shortKey=="home" or page.i18n-key == 'contact' %}
+    {% if shortKey == "home" or page.i18n-key == 'contact' %}
       {% include staff.html year=year %}
       <hr>
     {% endif %}
@@ -19,12 +19,14 @@
         <nav aria-labelledby="footerTitle2">
           <ul>
             {%- for edition in site.data.editions -%}
-            <li><a href="{{ page.baseurl | default:site.baseurl }}/{{ edition[0] }}/">
-              {{- edition[0] -}}
-              {%- if edition[1].com_city.size > 0 -%}
-                , {{ edition[1].com_city }}
-              {%- endif -%}
-            </a></li>
+              <li>
+                <a href="{{ page.baseurl | default:site.baseurl }}/{{ edition[0] }}/">
+                  {{- edition[0] -}}
+                  {%- if edition[1].com_city.size > 0 -%}
+                    , {{ edition[1].com_city }}
+                  {%- endif -%}
+                </a>
+              </li>
             {%- endfor -%}
           </ul>
         </nav>
@@ -36,7 +38,7 @@
             {% assign footer_links = site.data.sitemap[include.year] | where: 'in_footer', true %}
             {% for link in footer_links %}
               <li>{% include link.html link=link %}</li>
-            {% endfor%}
+            {% endfor %}
           </ul>
         </nav>
       </section>
@@ -44,13 +46,16 @@
       <section>
         <h2 id="footerTitle4" class="text-lg">{% t Suivez-nous %}</h2>
         <nav aria-labelledby="footerTitle4">
-            {% include social-links-footer.html year=include.year %}
+          {% include social-links-footer.html year=include.year %}
         </nav>
       </section>
     </div>
     <hr>
     <div class="page-footer-legal">
-      <p>&copy; We Love Speed. {% t Contribué sur %} <a href="https://github.com/{{ site.repository }}">github</a> {% t et propulsé par %} <a href="https://www.netlify.com" title="Netlify: All-in-one platform for automating modern web projects">netlify</a>.</p>
+      <p>&copy; We Love Speed. {% t Contribué sur %}
+        <a href="https://github.com/{{ site.repository }}">github</a>
+        {% t et propulsé par %}
+        <a href="https://www.netlify.com" title="Netlify: All-in-one platform for automating modern web projects">netlify</a>.</p>
       <p>
         <a href="/mentions-legales/">{% t Mentions légales %}</a>
       </p>

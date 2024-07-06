@@ -7,7 +7,10 @@
 <header class="page-header">
   <div class="wrapper">
     <div class="page-main-title">
-      <a class="page-main-title-link" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ include.link.anchor }}" title="{% t Accueil %}">
+      <a
+        class="page-main-title-link"
+        href="{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ include.link.anchor }}"
+        title="{% t Accueil %}">
         <img
           src="/assets/svg/wls-inline
           {%- if page.year == 2020 -%}
@@ -21,10 +24,14 @@
       {% include navigation.html year=year %}
       <div class="page-header-buttons">
         {% if page.translation %}
-        {% assign hreflang = page.translation.locale | slice: 0,2 %}
-        <div class="lang-switch">
-          {% t FR %} | <a hreflang="{{ hreflang }}" href="{{ page.translation.url | relative_url }}" title="{% t Switch to EN %}">{{ hreflang }}</a>
-        </div>
+          {% assign hreflang = page.translation.locale | slice: 0, 2 %}
+          <div class="lang-switch">
+            {% t FR %} |
+            <a
+              hreflang="{{ hreflang }}"
+              href="{{ page.translation.url | relative_url }}"
+              title="{% t Switch to EN %}">{{ hreflang }}</a>
+          </div>
         {% endif %}
         <a
           href="{{ page.baseurl | default: site.baseurl }}/{{ site.current_edition }}/{% t billetterie %}"
@@ -39,5 +46,5 @@
 </header>
 
 {% unless page.hide_banner %}
-{% include banners/banner-elephant-nantes.html locale=page.locale page_top=true no_lazy=true %}
+  {% include banners/banner-elephant-nantes.html locale=page.locale page_top=true no_lazy=true %}
 {% endunless %}

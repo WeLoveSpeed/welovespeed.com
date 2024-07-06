@@ -17,80 +17,123 @@ hide_banner: true
     loading="eager"
     fetchpriority="high">
   <div class="header-overlay"></div>
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 541 590" width="541" height="590" class="heart"><g fill="#FFB2B4" opacity=".2"><path d="M467.1 73.8V0H319.4v73.8h-74v73.7h-73.8V73.8h-74V0H-50v73.8h-74V295h73.9v73.7h73.9v73.8h73.9v73.7h73.9V590h73.8v-73.8h74v-73.7h73.8v-73.8h73.9V295H541V73.8h-74 .1Z"/><path d="M23.8 73.8h74v73.7h-74V73.8ZM-50 147.5h74v73.8h-74v-73.8Z"/><path d="M23.8 221.2h74V295h-74v-73.8ZM97.7 295h73.9v73.7h-74l.1-73.7Zm0-221.2h73.9v73.7h-74l.1-73.7Zm73.9 73.7h73.9v73.8h-74v-73.8Z"/><path d="M245.5 147.5h73.9v73.7h-74v-73.7Zm0-73.7h73.9v73.7h-74V73.8Zm73.9 0h73.8v73.7h-73.8V73.8Zm73.8 73.7h74v73.7h-74v-73.7Zm-73.8 73.7h73.8V295h-73.8v-73.8Zm-74 73.8h74v73.8h-74V295Zm-73.8 73.8h73.9v73.7h-74v-73.7ZM23.8 0h74v73.8h-74V0ZM-50 0h73.8v73.8H-50V0Zm443.2 0h74v73.8h-74V0Zm-73.8 0h73.8v73.8h-73.8V0ZM-50.1 221.2h74V295h-74v-73.8Zm-73.9-73.7h74v73.7h-74v-73.7Zm0-73.7h74v73.7h-74V73.8Z"/><path d="M-124 221.2h74V295h-74v-73.8Zm74 73.8h73.8v73.7H-50V295Zm73.8 73.7h74v73.8h-74v-73.8Zm74 73.8h73.8v73.7h-74l.1-73.7Zm73.8 73.7h73.9V590h-74v-73.8Zm73.9-73.7h73.9v73.7h-74v-73.7Zm73.9-73.8h73.8v73.8h-73.8v-73.8Zm73.8-73.7h74v73.7h-74V295Zm74-73.8H541V295h-73.9v-73.8Zm0-73.7H541v73.7h-73.9v-73.7Zm-.1-73.7H541v73.7h-73.9V73.8Zm-73.9 0h74v73.7h-74V73.8Z"/><path d="M393.2 221.2h74V295h-74v-73.8ZM23.8 295h74v73.7h-74V295Zm73.9 73.7h73.9v73.8h-74l.1-73.8Zm147.8 0h73.9v73.8h-74v-73.8Zm73.9-73.7h73.8v73.7h-73.8V295ZM171.6 442.5h73.9v73.7h-74v-73.7Zm0-147.5h73.9v73.7h-74V295Zm147.8-147.5h73.8v73.7h-73.8v-73.7Zm-74 73.7h74V295h-74v-73.8Z"/><path d="M171.6 221.2h73.9V295h-74v-73.8Z"/><path d="M97.7 221.2h73.9V295h-74l.1-73.8Zm0-73.7h73.9v73.7h-74l.1-73.7Z"/><path d="M23.8 147.5h74v73.7h-74v-73.7Z"/></g></svg>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 541 590"
+    width="541"
+    height="590"
+    class="heart">
+    <g fill="#FFB2B4" opacity=".2"><path d="M467.1 73.8V0H319.4v73.8h-74v73.7h-73.8V73.8h-74V0H-50v73.8h-74V295h73.9v73.7h73.9v73.8h73.9v73.7h73.9V590h73.8v-73.8h74v-73.7h73.8v-73.8h73.9V295H541V73.8h-74 .1Z" /><path d="M23.8 73.8h74v73.7h-74V73.8ZM-50 147.5h74v73.8h-74v-73.8Z" /><path d="M23.8 221.2h74V295h-74v-73.8ZM97.7 295h73.9v73.7h-74l.1-73.7Zm0-221.2h73.9v73.7h-74l.1-73.7Zm73.9 73.7h73.9v73.8h-74v-73.8Z" /><path d="M245.5 147.5h73.9v73.7h-74v-73.7Zm0-73.7h73.9v73.7h-74V73.8Zm73.9 0h73.8v73.7h-73.8V73.8Zm73.8 73.7h74v73.7h-74v-73.7Zm-73.8 73.7h73.8V295h-73.8v-73.8Zm-74 73.8h74v73.8h-74V295Zm-73.8 73.8h73.9v73.7h-74v-73.7ZM23.8 0h74v73.8h-74V0ZM-50 0h73.8v73.8H-50V0Zm443.2 0h74v73.8h-74V0Zm-73.8 0h73.8v73.8h-73.8V0ZM-50.1 221.2h74V295h-74v-73.8Zm-73.9-73.7h74v73.7h-74v-73.7Zm0-73.7h74v73.7h-74V73.8Z" /><path d="M-124 221.2h74V295h-74v-73.8Zm74 73.8h73.8v73.7H-50V295Zm73.8 73.7h74v73.8h-74v-73.8Zm74 73.8h73.8v73.7h-74l.1-73.7Zm73.8 73.7h73.9V590h-74v-73.8Zm73.9-73.7h73.9v73.7h-74v-73.7Zm73.9-73.8h73.8v73.8h-73.8v-73.8Zm73.8-73.7h74v73.7h-74V295Zm74-73.8H541V295h-73.9v-73.8Zm0-73.7H541v73.7h-73.9v-73.7Zm-.1-73.7H541v73.7h-73.9V73.8Zm-73.9 0h74v73.7h-74V73.8Z" /><path d="M393.2 221.2h74V295h-74v-73.8ZM23.8 295h74v73.7h-74V295Zm73.9 73.7h73.9v73.8h-74l.1-73.8Zm147.8 0h73.9v73.8h-74v-73.8Zm73.9-73.7h73.8v73.7h-73.8V295ZM171.6 442.5h73.9v73.7h-74v-73.7Zm0-147.5h73.9v73.7h-74V295Zm147.8-147.5h73.8v73.7h-73.8v-73.7Zm-74 73.7h74V295h-74v-73.8Z" /><path d="M171.6 221.2h73.9V295h-74v-73.8Z" /><path d="M97.7 221.2h73.9V295h-74l.1-73.8Zm0-73.7h73.9v73.7h-74l.1-73.7Z" /><path d="M23.8 147.5h74v73.7h-74v-73.7Z" /></g>
+  </svg>
   <div class="wrapper">
-      <div class="top-date">
-        <time class="date-wrapper" datetime="{{ site.data.editions[page.year].date.datetime }}">
-          <span class="day">{{ site.data.editions[page.year].date.day }}</span>
-          <span class="month">{{ site.data.editions[page.year].date.month[page.locale] }}</span>
-          <span class="year">{{ page.year }}</span>
-        </time>
-      </div>
-      <div class="top-details">
-        <h1 class="top-main-title">
-          {% if site.data.editions[page.year].tagline[page.locale].size > 0%}
+    <div class="top-date">
+      <time class="date-wrapper" datetime="{{ site.data.editions[page.year].date.datetime }}">
+        <span class="day">{{ site.data.editions[page.year].date.day }}</span>
+        <span class="month">{{ site.data.editions[page.year].date.month[page.locale] }}</span>
+        <span class="year">{{ page.year }}</span>
+      </time>
+    </div>
+    <div class="top-details">
+      <h1 class="top-main-title">
+        {% if site.data.editions[page.year].tagline[page.locale].size > 0 %}
           {{ site.data.editions[page.year].tagline[page.locale] }}<br>
-          {% endif %}
-        </h1>
-        <div class="top-header-buttons">
-          {% if site.current_edition == year and site.infos.interventions %}
-          <a class="button invert" href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/interventions" data-text="{% t Voir le programme %}" title="{% t Voir le programme %}">
-            <span class="button-inner">{% t Voir le programme %}</span>
-          </a>
-          {% endif %}
-          {%- if site.cfp_open -%}
-          <a class="button invert" target="_blank"  data-text="{% t Appel à propositions %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp" title="{% t Appel à propositions %}">
+        {% endif %}
+      </h1>
+      <div class="top-header-buttons">
+        {%- if site.cfp_open -%}
+          <a
+            class="button invert"
+            target="_blank"
+            data-text="{% t Appel à propositions %}"
+            href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp"
+            title="{% t Appel à propositions %}">
             <span class="button-inner">{% t Appel à propositions %}</span>
           </a>
         {%- endif -%}
         {% if site.current_edition == year and site.infos.interventions %}
-        <a class="button" data-text="{% t Voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/" title="{% t Voir le programme %}">
-          <span class="button-inner">{% t Voir le programme %}</span>
-        </a>
+          <a
+            class="button invert"
+            href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/interventions/"
+            data-text="{% t Voir le programme %}"
+            title="{% t Voir le programme %}">
+            <span class="button-inner">{% t Voir le programme %}</span>
+          </a>
         {% endif %}
         {% if site.current_edition == year and site.infos.schedule %}
-        <a class="button" data-text="{% t Voir le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/" title="{% t Voir le programme %}">
-          <span class="button-inner">{% t Voir le programme %}</span>
-        </a>
+          <a
+            class="button"
+            data-text="{% t Voir le programme %}"
+            href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/"
+            title="{% t Voir le programme %}">
+            <span class="button-inner">{% t Voir le programme %}</span>
+          </a>
         {% endif %}
         {%- comment -%}
-        <a class="button" data-text="{% t Témoignages %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="{% t Témoignages %}">
+          <a class="button" data-text="{% t Témoignages %}" href="{{ page.baseurl | default:site.baseurl }}/{{ "temoignages" | t: page.locale }}/" title="{% t Témoignages %}">
           <span class="button-inner">{% t Témoignages %}</span>
-        </a>
-        <a class="button" data-text="Photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
+          </a>
+          <a class="button" data-text="Photos ({{ site.data.editions[page.year].pictures.title }})" href="{{ site.data.editions[page.year].pictures.url }}" title="photos ({{ site.data.editions[page.year].pictures.title }})">
           <span class="button-inner">Photos ({{ site.data.editions[page.year].pictures.title }})</span>
-        </a>
+          </a>
         {%- endcomment -%}
         {% if site.current_edition != page.year %}
-          <a class="button" data-text="{% t Voir l'édition courante %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/" title="{% t Voir l'édition courante %}">
-            <span class="button-inner">{% t Voir l'édition courante %}</span>
+          <a
+            class="button"
+            data-text="{% t "Voir l'édition courante" %}"
+            href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/"
+            title="{% t "Voir l'édition courante" %}">
+            <span class="button-inner">{% t "Voir l'édition courante" %}</span>
           </a>
         {% else %}
           {% if site.tickets.selling %}
-            <a class="button" data-text="{% t Acheter votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/{{ "billetterie" | t: page.locale }}" title="{% t Acheter votre place %}">
+            <a
+              class="button"
+              data-text="{% t Acheter votre place %}"
+              href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/{{ "billetterie" | t: page.locale }}"
+              title="{% t Acheter votre place %}">
               <span class="button-inner">{% t Acheter votre place %}</span>
             </a>
           {% endif %}
         {% endif %}
-        </div>
-        <h2 class="top-sub-title">{{ site.data.editions[page.year].location[page.locale] }}</h2>
-        <p>{{ site.data.editions[page.year].location.details }}</p>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 206 199" width="206" height="199" class="arrow"><g fill="#fff" fill-rule="evenodd" clip-path="url(#a)" clip-rule="evenodd"><path d="M128.2 113.4a38 38 0 0 1-4.4 32.8 61.7 61.7 0 0 1-29 24.2A59.8 59.8 0 0 1 83 173a90 90 0 0 1-18 .3 1 1 0 0 1 0-2c5-.4 9.7-.9 14.4-1.8 4.7-1 9.2-2.3 13.5-4.4a56 56 0 0 0 25.8-22.2c4.9-8.2 7-17.7 3.9-27.2-2.5 1-5 1.7-7.6 2.1-5 1-10.1.8-15.5-1-3.7-1.2-8.6-4-11.4-7.4-2.5-3.1-3.5-6.8-1.8-10.7 3.5-7.8 10.5-9.3 18.1-7.2a40.7 40.7 0 0 1 21.3 16.2 154 154 0 0 0 6.8-3.6 45 45 0 0 0 20.3-23.4 52.8 52.8 0 0 0-10.6-54.6A80.5 80.5 0 0 0 120.6 9l.3-.2c3 .3 6.9 1.3 11 3.4a56 56 0 0 1 14 10.4A55.1 55.1 0 0 1 158.4 83a51.4 51.4 0 0 1-23 26.7c-2.4 1.3-4.8 2.6-7.3 3.7Zm-8.3-3.2c-2 .7-4 1.3-6 1.6a23 23 0 0 1-20-5.1c-1.6-1.5-2.9-3.3-2-5.4 2-4.5 6.3-5 10.7-3.7 6.8 2 14 7.6 17.3 12.6Z"/><path d="m65.6 170.8 5.8 2 6.7 2.5c5.6 2.3 11 4.8 16.5 7.3.5.2.8.8.6 1.3a1 1 0 0 1-1.3.7c-5-1-9.8-1.8-14.9-3a92 92 0 0 1-22-7.5 4 4 0 0 1-1.1-2c-.1-.8-.1-1.8.6-2.8.4-.4 1.2-1.3 2.6-2.1 4.7-2.8 16.8-8.2 19.3-9.4l5-2 1.2-.2c.6 0 1.3 0 1.8.2.3.2 0 .6.2.4v.2c-.4-.3 0 .5-.3.4-.6-.1.2.4-.2.6-.2 0 .2.1 0 .2-.2.2.3 0 .2.3-.1.2.2 0 .2.2s.2-.3.2 0v-.2s.1.2.1-.3l-.2-.3.3-.2c.7-1.3.1-.1.6-.5.1-.1 0 .2.2.1.7-.2-.1.5.3.7.2 0-.2.1 0 .3.3.2-.4 0-.2.5 0 .2-.3-.2-.4.4 0 .4.2 0-.3.6-.3.5-1.4.8-1.7 1l-4.6 2.7c-1.9 1-9.9 5-15.1 8Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M134.1.6.6 83 72 198.6 205.5 116z"/></clipPath></defs></svg>
       </div>
+      <h2 class="top-sub-title">{{ site.data.editions[page.year].location[page.locale] }}</h2>
+      <p>{{ site.data.editions[page.year].location.details }}</p>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 206 199"
+        width="206"
+        height="199"
+        class="arrow">
+        <g
+          fill="#fff"
+          fill-rule="evenodd"
+          clip-path="url(#a)"
+          clip-rule="evenodd"><path d="M128.2 113.4a38 38 0 0 1-4.4 32.8 61.7 61.7 0 0 1-29 24.2A59.8 59.8 0 0 1 83 173a90 90 0 0 1-18 .3 1 1 0 0 1 0-2c5-.4 9.7-.9 14.4-1.8 4.7-1 9.2-2.3 13.5-4.4a56 56 0 0 0 25.8-22.2c4.9-8.2 7-17.7 3.9-27.2-2.5 1-5 1.7-7.6 2.1-5 1-10.1.8-15.5-1-3.7-1.2-8.6-4-11.4-7.4-2.5-3.1-3.5-6.8-1.8-10.7 3.5-7.8 10.5-9.3 18.1-7.2a40.7 40.7 0 0 1 21.3 16.2 154 154 0 0 0 6.8-3.6 45 45 0 0 0 20.3-23.4 52.8 52.8 0 0 0-10.6-54.6A80.5 80.5 0 0 0 120.6 9l.3-.2c3 .3 6.9 1.3 11 3.4a56 56 0 0 1 14 10.4A55.1 55.1 0 0 1 158.4 83a51.4 51.4 0 0 1-23 26.7c-2.4 1.3-4.8 2.6-7.3 3.7Zm-8.3-3.2c-2 .7-4 1.3-6 1.6a23 23 0 0 1-20-5.1c-1.6-1.5-2.9-3.3-2-5.4 2-4.5 6.3-5 10.7-3.7 6.8 2 14 7.6 17.3 12.6Z" /><path d="m65.6 170.8 5.8 2 6.7 2.5c5.6 2.3 11 4.8 16.5 7.3.5.2.8.8.6 1.3a1 1 0 0 1-1.3.7c-5-1-9.8-1.8-14.9-3a92 92 0 0 1-22-7.5 4 4 0 0 1-1.1-2c-.1-.8-.1-1.8.6-2.8.4-.4 1.2-1.3 2.6-2.1 4.7-2.8 16.8-8.2 19.3-9.4l5-2 1.2-.2c.6 0 1.3 0 1.8.2.3.2 0 .6.2.4v.2c-.4-.3 0 .5-.3.4-.6-.1.2.4-.2.6-.2 0 .2.1 0 .2-.2.2.3 0 .2.3-.1.2.2 0 .2.2s.2-.3.2 0v-.2s.1.2.1-.3l-.2-.3.3-.2c.7-1.3.1-.1.6-.5.1-.1 0 .2.2.1.7-.2-.1.5.3.7.2 0-.2.1 0 .3.3.2-.4 0-.2.5 0 .2-.3-.2-.4.4 0 .4.2 0-.3.6-.3.5-1.4.8-1.7 1l-4.6 2.7c-1.9 1-9.9 5-15.1 8Z" /></g>
+        <defs>
+          <clipPath id="a"><path fill="#fff" d="M134.1.6.6 83 72 198.6 205.5 116z" /></clipPath>
+        </defs>
+      </svg>
     </div>
   </div>
-</header>
-
-<section class="section">
-  <div class="wrapper">
-    <div class="grid-2 cols-33-66">
-      <div class="decorative-square">
-        <img src="/assets/images/{{ page.year }}/location/nantes-elephant-vertical.jpg" width="550" height="700" decoding="async" loading="lazy" class="img-rounded">
-      </div>
+</div></header><section class="section">
+<div class="wrapper">
+  <div class="grid-2 cols-33-66">
+    <div class="decorative-square">
+      <img
+        alt="L'Eléphant mécanique géant des Machines de l'île"
+        src="/assets/images/{{ page.year }}/location/nantes-elephant-vertical.jpg"
+        width="550"
+        height="700"
+        decoding="async"
+        loading="lazy"
+        class="img-rounded">
+    </div>
+    <div>
+      <p class="sub-title">{% t La mission de We Love Speed %}</p>
+      <h2>{% t Démocratiser la webperf %}</h2>
       <div>
-        <p class="sub-title">{% t La mission de We Love Speed %}</p>
-        <h2>{% t Démocratiser la webperf %}</h2>
-        <div>
         {% for mission in site.data.content.missions %}
           <div class="grid-2 cols-xs-auto cols-v-split">
             <div>
@@ -104,66 +147,72 @@ hide_banner: true
             </div>
           </div>
         {% endfor %}
-        </div>
       </div>
     </div>
   </div>
-</section>
-
-{% if site.data.speakers[page.year] %}
+</div></section>{% if site.data.speakers[page.year] %}
 {% assign speakers = site.data.speakers[page.year] %}
 {% assign nbSpeakers = speakers.size %}
 {% if nbSpeakers > 0 %}
-<section class="section speakers">
-  <img src="/assets/svg/squares-bg.svg" class="decorative-squares" alt="" decoding="async" loading="lazy">
-  <div class="wrapper">
-    <p class="sub-title light text-center">{% t Les intervenant·e·s %}</p>
-    <h2 class="text-center">{% t Découvrez les speakers de cette édition %}</h2>
-    <div class="grid-4 cols-x48">
-      {% for speaker in speakers %}
-      {% assign speaker_data = speaker[1] %}
-      <div class="cols-avatar">
-        <picture class="avatar">
-          <img src="{{ speaker_data.image }}" width="800" height="800" decoding="async" loading="lazy">
-          <figcaption>
-            <h3>{{ speaker_data.name }}</h3>
-            <p>{{ speaker_data[page.locale].bio_short }}</p>
-            <p class="company">{{ speaker_data.company }}</p>
-            {% include person-links.html urls=speaker_data.urls %}
-          </figcaption>
-        </picture>
-      </div>
-    {% endfor %}
-    <a class="cols-avatar" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="48" height="48"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 10H3m18 2.5V8.8c0-1.7 0-2.5-.3-3.2a3 3 0 0 0-1.3-1.3c-.7-.3-1.5-.3-3.2-.3H7.8c-1.7 0-2.5 0-3.2.3a3 3 0 0 0-1.3 1.3C3 6.3 3 7.1 3 8.8v8.4c0 1.7 0 2.5.3 3.2.3.5.8 1 1.3 1.3.7.3 1.5.3 3.2.3H12m4-20v4M8 2v4m6.5 13 2 2 4.5-4.5"/></svg>
-      <p>Découvrir le programme complet</p>
-    </a>
-    </div>
-  </div>
-</section>
-{% endif %}
-{% endif %}
-
-{%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}
-{% assign nbconf = conferences | size %}
-{% if nbconf > 0 %}
-  {% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}
-{% endif %}
-
-{% if site.nlOnTop %}
-
-  <section class="section">
+  <section class="section speakers">
+    <img
+      src="/assets/svg/squares-bg.svg"
+      class="decorative-squares"
+      alt=""
+      decoding="async"
+      loading="lazy">
     <div class="wrapper">
-      <h2 class="text-center">Ne ratez rien !</h2>
-      <p>
-        Abonnez-vous à notre liste d'envoi pour recevoir des informations sur l'événement par courriel.
-      </p>
-      {% include newsletter-form.html context="main" %}
+      <p class="sub-title light text-center">{% t Les intervenant·e·s %}</p>
+      <h2 class="text-center">{% t Découvrez les speakers de cette édition %}</h2>
+      <div class="grid-4 cols-x48">
+        {% for speaker in speakers %}
+          {% assign speaker_data = speaker[1] %}
+          <div class="cols-avatar">
+            <picture class="avatar">
+              <img
+                src="{{ speaker_data.image }}"
+                width="800"
+                height="800"
+                decoding="async"
+                loading="lazy">
+              <figcaption>
+                <h3>{{ speaker_data.name }}</h3>
+                <p>{{ speaker_data[page.locale].bio_short }}</p>
+                <p class="company">{{ speaker_data.company }}</p>
+                {% include person-links.html urls=speaker_data.urls %}
+              </figcaption>
+            </picture>
+          </div>
+        {% endfor %}
+        <a class="cols-avatar" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            width="48"
+            height="48"><path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 10H3m18 2.5V8.8c0-1.7 0-2.5-.3-3.2a3 3 0 0 0-1.3-1.3c-.7-.3-1.5-.3-3.2-.3H7.8c-1.7 0-2.5 0-3.2.3a3 3 0 0 0-1.3 1.3C3 6.3 3 7.1 3 8.8v8.4c0 1.7 0 2.5.3 3.2.3.5.8 1 1.3 1.3.7.3 1.5.3 3.2.3H12m4-20v4M8 2v4m6.5 13 2 2 4.5-4.5" /></svg>
+          <p>Découvrir le programme complet</p>
+        </a>
+      </div>
     </div>
   </section>
-{% endif %}
+{% endif %}{% endif %}{%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}{% assign nbconf = conferences | size %}{% if nbconf > 0 %}
+{% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}{% endif %}{% if site.nlOnTop %}
 
-{% if site.infos.display %}
+<section class="section">
+  <div class="wrapper">
+    <h2 class="text-center">Ne ratez rien !</h2>
+    <p>
+      Abonnez-vous à notre liste d'envoi pour recevoir des informations sur l'événement par courriel.
+    </p>
+    {% include newsletter-form.html context="main" %}
+  </div>
+</section>{% endif %}{% if site.infos.display %}
 
 <section class="section" id="location">
   <div class="wrapper">
@@ -171,19 +220,19 @@ hide_banner: true
 
     <div class="grid-3">
       <figure aria-labelledby="fig1">
-        <a href="/assets/images/2024/location/1.jpg" target="_blank">{% cloudinary venue_preview /assets/images/2024/location/1.jpg alt="Grand bâtiment vitré entouré de verdure et décoré d'une structure en bois." %}</a>
+        <a href="/assets/images/2024/location/1.jpg" target="_blank">{% cloudinary venue_preview /assets/images/2024/location/1.jpg alt="Grand bâtiment vitré entouré de verdure et décoré d' u ne structure en bois." %}</a>
         <figcaption id="fig1" class="text-xs text-center">
           L'espace Canopée abritant les 2 salles de conférence.
         </figcaption>
       </figure>
       <figure aria-labelledby="fig2">
-        <a href="/assets/images/2024/location/2.jpg" target="_blank">{% cloudinary venue_preview /assets/images/2024/location/2.jpg alt="Salle de conférence organisée pour un tour de table, vue depuis la place des orateurs et oratrices face à des centaines de chaises." %}</a>
+        <a href="/assets/images/2024/location/2.jpg" target="_blank">{% cloudinary venue_preview /assets/images/2024/location/2.jpg alt=" S alle de conférence organisée pour un tour de table, vue depuis la place des orateurs et oratrices face à des centaines de chaises." %}</a>
         <figcaption id="fig2" class="text-xs text-center">
           L'une des 2 salles de conférences qui vous accueillera bientôt.
         </figcaption>
       </figure>
       <figure aria-labelledby="fig3">
-        <a href="/assets/images/2024/location/3.jpg" target="_blank">{% cloudinary venue_preview /assets/images/2024/location/3.jpg alt="Espace de réception généreusement éclairé grâce à la façade vitrée, et agrémenté de nombreuses plantes." %}</a>
+        <a href="/assets/images/2024/location/3.jpg" target="_blank">{% cloudinary venue_preview /assets/images/2024/location/3.jpg alt=" E space de réception généreusement éclairé grâce à la façade vitrée, et agrémenté de nombreuses plantes." %}</a>
         <figcaption id="fig3" class="text-xs text-center">
           La galerie est un espace très clair, idéal pour les réceptions.
         </figcaption>
@@ -191,44 +240,59 @@ hide_banner: true
     </div>
 
     <p class="text-center">
-       Rendez-vous à EXPONANTES, au <strong>nord de Nantes</strong>.
+      Rendez-vous à EXPONANTES, au
+      <strong>nord de Nantes</strong>.
     </p>
     <p class="text-center">
-      <a class="button" data-text="Informations Pratiques" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/{{page.year}}/{{ "infos-pratiques" | t: page.locale }}/"><span class="button-inner">Informations Pratiques</span></a>
+      <a
+        class="button"
+        data-text="Informations Pratiques"
+        target="_blank"
+        href="{{ page.baseurl | default: site.baseurl }}/{{page.year}}/{{ "infos-pratiques" | t: page.locale }}/">
+        <span class="button-inner">Informations Pratiques</span>
+      </a>
     </p>
   </div>
-</section>
-{% endif %}
+</section>{% endif %}<section class="section" id="sponsors">
+<div class="wrapper">
+  <h2 class="text-center">Ils nous soutiennent !</h2>
+  <p>E-commerçants, éditeurs de solutions, prestataires de services, ils nous soutiennent par amour de l'UX et de la performance Web. Sans eux, point d'événement. Merci beaucoup !</p>
 
-<section class="section" id="sponsors">
-  <div class="wrapper">
-    <h2 class="text-center">Ils nous soutiennent !</h2>
-    <p>E-commerçants, éditeurs de solutions, prestataires de services, ils nous soutiennent par amour de l'UX et de la performance Web. Sans eux, point d'événement. Merci beaucoup !</p>
+  <p class="text-center">
+    {% assign goldCount = site.data.sponsors[page.year].gold.size %}
+    {% assign othersCount = site.data.sponsors[page.year].others.size %}
+    {% if goldCount > 0 or othersCount > 0 %}
+      <a
+        class="button"
+        data-text="Voir plus"
+        target="_blank"
+        href="{{ page.baseurl | default: site.baseurl }}/{{page.year}}/{{ "merci" | t: page.locale }}/">
+        <span class="button-inner">Voir plus</span>
+      </a>
+    {% endif %}
 
-    <p class="text-center">
-      {% assign goldCount = site.data.sponsors[page.year].gold.size %}
-      {% assign othersCount = site.data.sponsors[page.year].others.size %}
-      {% if goldCount > 0 or othersCount > 0 %}
-        <a class="button" data-text="Voir plus" target="_blank" href="{{ page.baseurl | default:site.baseurl }}/{{page.year}}/{{ "merci" | t: page.locale }}/"><span class="button-inner">Voir plus</span></a>
+    {% if site.current_edition == year and site.sponsoring.show %}
+      {% if site.sponsoring[page.locale] and site.sponsoring[page.locale].up_to_date %}
+        <a
+          class="button"
+          data-text="Afficher notre dossier sponsor"
+          target="_blank"
+          href="{{ site.sponsoring[page.locale].url }}">
+          <span class="button-inner">Afficher notre dossier sponsor</span>
+        </a>
+      {% else %}
+        <a
+          class="button"
+          data-text="Contactez-nous pour faire partie des sponsors"
+          href="/en/contact/">
+          <span class="button-inner">Contactez-nous pour faire partie des sponsors</span>
+        </a>
       {% endif %}
+    {% endif %}
+  </p>
+</div>
 
-      {% if site.current_edition == year and site.sponsoring.show %}
-        {% if site.sponsoring[page.locale] and site.sponsoring[page.locale].up_to_date %}
-          <a class="button" data-text="Afficher notre dossier sponsor" target="_blank" href="{{ site.sponsoring[page.locale].url }}"><span class="button-inner">Afficher notre dossier sponsor</span></a>
-        {% else %}
-          <a class="button" data-text="Contactez-nous pour faire partie des sponsors" href="/en/contact/"><span class="button-inner">Contactez-nous pour faire partie des sponsors</span></a>
-        {% endif %}
-      {% endif %}
-    </p>
-  </div>
-
-  {% include sponsors.html locale=page.locale shorturl=false year=year %}
-</section>
-
-{% include banners/banner-cocktail.html locale=page.locale %}
-
-<section id="staff" class="section">
-  <div class="wrapper">
-    {% include staff.html year=year %}
-  </div>
-</section>
+{% include sponsors.html locale=page.locale shorturl=false year=year %}</section>{% include banners/banner-cocktail.html locale=page.locale %}<section id="staff" class="section">
+<div class="wrapper">
+  {% include staff.html year=year %}
+</div></section>
