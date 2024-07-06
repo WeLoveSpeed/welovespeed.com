@@ -6,7 +6,12 @@
     {% endif %}
     <div class="grid-4">
       <section>
-        <img src="/assets/svg/wls-inline-light.svg" class="page-footer-logo" alt="{{ site.seo_title }}" width="190" height="44">
+        <img
+          src="/assets/svg/wls-inline-light.svg"
+          class="page-footer-logo"
+          alt="{{ site.seo_title }}"
+          width="190"
+          height="44">
         {% include newsletter-form.html compact=true context="footer" %}
       </section>
       <section>
@@ -46,7 +51,9 @@
     <hr>
     <div class="page-footer-legal">
       <p>&copy; We Love Speed. {% t Contribué sur %} <a href="https://github.com/{{ site.repository }}">github</a> {% t et propulsé par %} <a href="https://www.netlify.com" title="Netlify: All-in-one platform for automating modern web projects">netlify</a>.</p>
-      <p><a href="/{% t mentions-legales %}/">{% t Mentions légales %}</a></p>
+      <p>
+        <a href="/mentions-legales/">{% t Mentions légales %}</a>
+      </p>
     </div>
   </div>
 </footer>

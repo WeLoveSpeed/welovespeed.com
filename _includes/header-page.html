@@ -8,10 +8,15 @@
   <div class="wrapper">
     <div class="page-main-title">
       <a class="page-main-title-link" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ include.link.anchor }}" title="{% t Accueil %}">
-        <img src="/assets/svg/wls-inline
+        <img
+          src="/assets/svg/wls-inline
           {%- if page.year == 2020 -%}
             -lazy-loaded
-          {%- endif -%}.svg" class="page-main-title-logo" alt="{{ site.seo_title }}" width="190" height="44">
+          {%- endif -%}.svg"
+          class="page-main-title-logo"
+          alt="{{ site.seo_title }}"
+          width="190"
+          height="44">
       </a>
       {% include navigation.html year=year %}
       <div class="page-header-buttons">
@@ -21,7 +26,13 @@
           {% t FR %} | <a hreflang="{{ hreflang }}" href="{{ page.translation.url | relative_url }}" title="{% t Switch to EN %}">{{ hreflang }}</a>
         </div>
         {% endif %}
-        <a href="{{ site.baseurl }}/{{ page.year|default: site.current_edition }}/tickets" class="button" data-text="{% t Acheter votre place %}" title="{% t Acheter votre place %}"><span class="button-inner">{% t Acheter votre place %}</span></a>
+        <a
+          href="{{ page.baseurl | default: site.baseurl }}/{{ site.current_edition }}/{% t billetterie %}"
+          class="button"
+          data-text="{% t Acheter votre place %}"
+          title="{% t Acheter votre place %}">
+          <span class="button-inner">{% t Acheter votre place %}</span>
+        </a>
       </div>
     </div>
   </div>

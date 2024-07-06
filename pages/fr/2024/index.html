@@ -8,7 +8,14 @@ hide_banner: true
 ---
 {% assign year = page.year | default: site.current_edition %}
 <header class="top-header">
-  <img src="{{ site.data.editions[page.year].banner.url }}" width="{{ site.data.editions[page.year].banner.width }}" height="{{ site.data.editions[page.year].banner.height }}" decoding="async" loading="eager" fetchpriority="high">
+  <img
+    src="{{ site.data.editions[page.year].banner.url }}"
+    alt=""
+    width="{{ site.data.editions[page.year].banner.width }}"
+    height="{{ site.data.editions[page.year].banner.height }}"
+    decoding="async"
+    loading="eager"
+    fetchpriority="high">
   <div class="header-overlay"></div>
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 541 590" width="541" height="590" class="heart"><g fill="#FFB2B4" opacity=".2"><path d="M467.1 73.8V0H319.4v73.8h-74v73.7h-73.8V73.8h-74V0H-50v73.8h-74V295h73.9v73.7h73.9v73.8h73.9v73.7h73.9V590h73.8v-73.8h74v-73.7h73.8v-73.8h73.9V295H541V73.8h-74 .1Z"/><path d="M23.8 73.8h74v73.7h-74V73.8ZM-50 147.5h74v73.8h-74v-73.8Z"/><path d="M23.8 221.2h74V295h-74v-73.8ZM97.7 295h73.9v73.7h-74l.1-73.7Zm0-221.2h73.9v73.7h-74l.1-73.7Zm73.9 73.7h73.9v73.8h-74v-73.8Z"/><path d="M245.5 147.5h73.9v73.7h-74v-73.7Zm0-73.7h73.9v73.7h-74V73.8Zm73.9 0h73.8v73.7h-73.8V73.8Zm73.8 73.7h74v73.7h-74v-73.7Zm-73.8 73.7h73.8V295h-73.8v-73.8Zm-74 73.8h74v73.8h-74V295Zm-73.8 73.8h73.9v73.7h-74v-73.7ZM23.8 0h74v73.8h-74V0ZM-50 0h73.8v73.8H-50V0Zm443.2 0h74v73.8h-74V0Zm-73.8 0h73.8v73.8h-73.8V0ZM-50.1 221.2h74V295h-74v-73.8Zm-73.9-73.7h74v73.7h-74v-73.7Zm0-73.7h74v73.7h-74V73.8Z"/><path d="M-124 221.2h74V295h-74v-73.8Zm74 73.8h73.8v73.7H-50V295Zm73.8 73.7h74v73.8h-74v-73.8Zm74 73.8h73.8v73.7h-74l.1-73.7Zm73.8 73.7h73.9V590h-74v-73.8Zm73.9-73.7h73.9v73.7h-74v-73.7Zm73.9-73.8h73.8v73.8h-73.8v-73.8Zm73.8-73.7h74v73.7h-74V295Zm74-73.8H541V295h-73.9v-73.8Zm0-73.7H541v73.7h-73.9v-73.7Zm-.1-73.7H541v73.7h-73.9V73.8Zm-73.9 0h74v73.7h-74V73.8Z"/><path d="M393.2 221.2h74V295h-74v-73.8ZM23.8 295h74v73.7h-74V295Zm73.9 73.7h73.9v73.8h-74l.1-73.8Zm147.8 0h73.9v73.8h-74v-73.8Zm73.9-73.7h73.8v73.7h-73.8V295ZM171.6 442.5h73.9v73.7h-74v-73.7Zm0-147.5h73.9v73.7h-74V295Zm147.8-147.5h73.8v73.7h-73.8v-73.7Zm-74 73.7h74V295h-74v-73.8Z"/><path d="M171.6 221.2h73.9V295h-74v-73.8Z"/><path d="M97.7 221.2h73.9V295h-74l.1-73.8Zm0-73.7h73.9v73.7h-74l.1-73.7Z"/><path d="M23.8 147.5h74v73.7h-74v-73.7Z"/></g></svg>
   <div class="wrapper">
