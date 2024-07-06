@@ -50,7 +50,7 @@ infos:
   diversity:
     active: false
     soldout: false
-  interventions: true
+  interventions: false
   schedule: false # pensez à regénérer les bannières de conférence avant mise en prod
 
 # Compression du code HTML en production
