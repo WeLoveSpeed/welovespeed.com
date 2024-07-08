@@ -3,9 +3,9 @@
     <img src="{{ sponsor.logo | relative_url }}" alt="{{sponsor.name}}" width="100" height="100" loading="lazy">
     <figcaption class="sr-only">{{ sponsor.name }}</figcaption>
   </figure>
-  <p class="company-description">
+  <div class="company-description">
     {{ verbatim.description | markdownify }}
-  </p>
+  </div>
   <p class="text-center"><a class="button" data-text="{{ verbatim.cta.text }}" href="{{ verbatim.cta.url }}" target="_blank" rel="sponsored" title="{{ verbatim.cta.text }}">
     <span class="button-inner">{{ verbatim.cta.text }}</span>
   </a></p>
