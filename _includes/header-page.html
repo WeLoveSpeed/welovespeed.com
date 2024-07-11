@@ -1,17 +1,50 @@
+<aside class="pre-header">
+  <div class="wrapper">
+    <div class="pre-header-tagline">{% t Le seul événement français dédié à la Web Performance %}</div>
+    {% include social-links.html year=include.year %}
+  </div>
+</aside>
 <header class="page-header">
   <div class="wrapper">
-    <div class="page-main-title h-like">
-      <a class="page-main-title-link" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ include.link.anchor }}" title="{% t Accueil %}">
-        <img src="/assets/svg/wls-inline
+    <div class="page-main-title">
+      <a
+        class="page-main-title-link"
+        href="{{ page.baseurl | default:site.baseurl }}/{{ page.year|default: site.current_edition }}/{{ include.link.anchor }}"
+        title="{% t Accueil %}">
+        <img
+          src="/assets/svg/wls-inline
           {%- if page.year == 2020 -%}
             -lazy-loaded
-          {%- endif -%}.svg" class="page-main-title-logo" alt="{{ site.seo_title }}" width="950" height="224"/>
+          {%- endif -%}.svg"
+          class="page-main-title-logo"
+          alt="{{ site.seo_title }}"
+          width="190"
+          height="44">
       </a>
-      <p class="page-main-title-baseline">
-          {{ site.data.editions[page.year].tagline[page.locale] }}
-      </p>
+      {% include navigation.html year=year %}
+      <div class="page-header-buttons">
+        {% if page.translation %}
+          {% assign hreflang = page.translation.locale | slice: 0, 2 %}
+          <div class="lang-switch">
+            {% t FR %} |
+            <a
+              hreflang="{{ hreflang }}"
+              href="{{ page.translation.url | relative_url }}"
+              title="{% t Switch to EN %}">{{ hreflang }}</a>
+          </div>
+        {% endif %}
+        <a
+          href="{{ page.baseurl | default: site.baseurl }}/{{ site.current_edition }}/{% t billetterie %}"
+          class="button"
+          data-text="{% t Acheter votre place %}"
+          title="{% t Acheter votre place %}">
+          <span class="button-inner">{% t Acheter votre place %}</span>
+        </a>
+      </div>
     </div>
   </div>
 </header>
 
-{% unless page.hide_banner %}{% include banners/banner-elephant-nantes.html locale=page.locale page_top=true no_lazy=true %}{% endunless %}
+{% unless page.hide_banner %}
+  {% include banners/banner-elephant-nantes.html locale=page.locale page_top=true no_lazy=true %}
+{% endunless %}

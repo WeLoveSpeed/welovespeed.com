@@ -5,27 +5,10 @@
 [class*=" banner-"],
 [class^="banner-"] {
   position: relative;
-  padding: 30% 0;
   background: center / cover no-repeat;
-
-  @include media(">large") {
-    padding: 20% 0;
-  }
-  @include media(">xlarge") {
-    padding: 15% 0;
-    background-attachment: fixed;
-  }
-
-  &.page-top {
-    padding: 20% 0;
-
-    @include media(">medium") {
-      padding: 10% 0;
-    }
-    @include media(">large") {
-      padding: 5% 0;
-    }
-  }
+  height: 40vh;
+  min-height: 20em;
+  background-attachment: fixed;
 }
 
 @each $slug in $banners {

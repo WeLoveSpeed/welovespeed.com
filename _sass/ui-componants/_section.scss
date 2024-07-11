@@ -1,12 +1,37 @@
 @use "../scss/colors" as *;
+@use "../scss/config" as *;
 @use "../vendors/include-media/include-media" as *;
 
 .section {
   position: relative;
   margin: 10% 0;
+  z-index: 0;
 
   @include media(">medium") {
     margin: 5% 0;
+  }
+
+  & > .wrapper {
+    position: relative;
+    z-index: 1;
+  }
+  
+  &.speakers {
+    background-color: $darkred;
+    color: $white;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    overflow: hidden;
+
+    & .grid-4 {
+      margin-top: 80px;
+    }
+
+    & h2 {
+      max-width: $title-max-width;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 

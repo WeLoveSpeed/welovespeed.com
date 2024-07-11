@@ -7,7 +7,7 @@ textarea {
   display: block;
   width: 100%;
   margin: $input-vmargin $input-hmargin;
-  padding: 0 0 $input-vpadding $input-hpadding;
+  padding: $input-hpadding;
   box-sizing: border-box;
   border: 0 solid $input-border-color;
   border-width: 0 0 1px 1px;
@@ -25,9 +25,29 @@ textarea {
   }
 }
 
+.page-footer {
+  & input {
+    background-color: $white;
+    border: none;
+    border-radius: 0.3rem;
+  }
+  & label {
+    display: none;
+  }
+  & fieldset + fieldset {
+    margin-top: 1.6rem;
+  }
+}
+
 label {
   font-size: $label-font-size;
   color: $label-color;
+}
+
+form {
+  & p {
+    font-size: 1.6rem;
+  }
 }
 
 .form-row {
@@ -35,4 +55,8 @@ label {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
+  column-gap: 1.6rem;
+  & button {
+    flex-shrink: 0;
+  }
 }

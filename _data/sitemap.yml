@@ -3,7 +3,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Billetterie
     type: page
@@ -48,13 +48,13 @@
     value: newsletter
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Mentions légales
     type: page
     value: mentions-legales
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Code de Conduite
     type: page
     value: code-de-conduite
@@ -66,7 +66,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Interventions
     type: page
@@ -123,7 +123,7 @@
     value: newsletter
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Mentions légales
     type: page
     value: mentions-legales
@@ -141,7 +141,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Interventions
     type: page
@@ -198,13 +198,13 @@
     value: newsletter
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Mentions légales
     type: page
     value: mentions-legales
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Code de Conduite
     type: page
     value: code-de-conduite
@@ -222,7 +222,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Interventions
     type: page
@@ -279,13 +279,13 @@
     value: newsletter
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Mentions légales
     type: page
     value: mentions-legales
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Code de Conduite
     type: page
     value: code-de-conduite
@@ -297,7 +297,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Interventions
     type: page
@@ -354,13 +354,13 @@
     value: newsletter
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Mentions légales
     type: page
     value: mentions-legales
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Code de Conduite
     type: page
     value: code-de-conduite
@@ -372,7 +372,7 @@
     type: root_anchor
     value: ""
     edition_relative: true
-    in_nav: true
+    in_nav: false
     in_footer: false
   - name: Interventions
     type: page
@@ -429,13 +429,13 @@
     value: newsletter
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Mentions légales
     type: page
     value: mentions-legales
     edition_relative: false
     in_nav: false
-    in_footer: true
+    in_footer: false
   - name: Code de Conduite
     type: page
     value: code-de-conduite

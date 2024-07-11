@@ -6,9 +6,9 @@
 
 // Layout
 
-$wrapper-width: 90%;
-$wrapper-max-width: 96rem;
-$global-gutters: 2rem;
+$wrapper-width: 100%;
+$wrapper-max-width: 144rem;
+$global-gutters: 6.4rem;
 $half-gutters: calc($global-gutters / 2);
 
 // Z-indexes
@@ -41,28 +41,18 @@ $media-expressions: (
 );
 
 // Typo
-
 $default-font-size: 1em;
 $default-line-height: 1.6;
 
-// $font-weight-light          : 100;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 
-$default-font-family: "Spectral", serif;
+$default-font-family: Figtree, Figtree-fallback, system-ui, sans-serif;
 $default-font-weight: $font-weight-normal;
 $default-font-style: normal;
 
-// $logo-font-family           : "Oraqle", cursive;
-// $logo-font-weight           : normal;
-// $logo-font-style            : normal;
-
-// $main-title-font-family     : $default-font-family;
-// $main-title-font-weight     : $font-weight-light;
-// $main-title-font-style      : normal;
-
-$title-font-family: "Rubik", sans-serif;
-$title-font-weight: $font-weight-normal;
+$title-font-family: "Space Grotesk", "Space Grotesk-fallback", serif;
+$title-font-weight: 700;
 $title-font-style: normal;
 $title-line-height: 1.2;
 
@@ -75,8 +65,10 @@ $input-font-weight: $font-weight-normal;
 $input-font-style: italic;
 
 $button-font-family: $title-font-family;
-$button-font-weight: $title-font-weight;
+$button-font-weight: 500;
 $button-font-style: normal;
+
+$title-max-width: 700px;
 
 $font-sizes: (
   (
@@ -105,13 +97,10 @@ $font-sizes: (
 
 $label-font-size: 0.875em;
 
-$input-vmargin: 0.125em;
+$input-vmargin: 0;
 $input-hmargin: 0;
-$input-vpadding: 0.25em;
-$input-hpadding: 0.5em;
-
-$btn-hmargin: 0.5em;
-$btn-hpadding: 1.5em;
+$input-vpadding: 2.4rem;
+$input-hpadding: 1.2rem;
 
 // Transitions
 

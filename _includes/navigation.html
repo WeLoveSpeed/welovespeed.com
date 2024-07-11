@@ -1,33 +1,15 @@
-<a role="button" href="#" class="button-reset nav-trigger" id="navTrigger" title="Navigation"
-  aria-controls="navigation" aria-expanded="false"
-  data-toggle-class="is-active" data-toggle-target-parent="#navigation" data-toggle-escape-key>
-  <span class="nav-trigger-button">
-      <span class="load"></span>
-      <span class="load"></span>
-      <span class="load"></span>
-      <span class="kpi"></span>
-      <span class="kpi"></span>
-      <span class="sr-only">Navigation menu</span>
-  </span>
-</a>
 
-<nav class="page-nav" id="navigation" aria-labelledby="navTrigger">
+
+<nav class="page-nav" id="navigation">
   <ul class="page-nav-inner">
     {% assign nav_links = site.data.sitemap[include.year] | where: 'in_nav', true %}
     {% for link in nav_links %}
       {% unless link.type == "separator" %}
       <li>{% include link.html link=link %}</li>
       {% else %}
-      <li aria-hidden><hr></li>
       {% endunless %}
     {% endfor%}
     {% if nav_links.size > 0 %}
-      <li aria-hidden><hr></li>
-    {% endif %}
-    {% if page.translation %}
-      {% assign hreflang = page.translation.locale | slice: 0,2 %}
-      <li><a hreflang="{{ hreflang }}" href="{{ page.translation.url | relative_url }}"><small>{% t (see in english) %}</small></a></li>
     {% endif %}
   </ul>
-  {% include social-links.html year=include.year %}
 </nav>

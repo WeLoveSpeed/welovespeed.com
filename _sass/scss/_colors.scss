@@ -5,13 +5,14 @@
 // Colors definitions
 
 $black: #000000;
-$softgrey: #abb4be;
+$softgrey: #C4C4C4;
+$hardgrey: #626262;
 $white: #ffffff;
 $darkgreen: #192112;
-$red: #e62827;
-$darkred: darken($red, 20);
-$blackred: darken($red, 40);
-$softred: lighten($red, 40);
+$red: #C4171B;
+$darkred: #961211;
+$blackred: #260C0E;
+$softred: #FFECEC;
 $softwhite: lighten($red, 47);
 
 $green: #6a7c2c;
@@ -45,13 +46,13 @@ $alert: $red;
 
 // Colors applications
 
-$default-color: $darkred;
-$default-bg: $softwhite;
+$default-color: $black;
+$default-bg: $white;
 $focus-color: $red;
 
 $link-color: $focus-color;
 
-$title-color: $default-color;
+$title-color: inherit;
 
 $selection-color: $white;
 $selection-bg: $red;
@@ -82,6 +83,7 @@ $btn-hover-color: $darkred;
 
 // Navigation
 
+/*
 $nav-bg: $white;
 $nav-color: $link-color;
 
@@ -92,3 +94,4 @@ $nav-trigger-btn-hover-color: $focus-color;
 $nav-trigger-btn-active-bg: transparent;
 $nav-trigger-btn-active-color: $nav-trigger-btn-color;
 $nav-trigger-area-bg: rgba($white, 0.9);
+*/

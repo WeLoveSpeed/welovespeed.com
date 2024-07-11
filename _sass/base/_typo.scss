@@ -21,13 +21,7 @@ html {
 }
 
 body {
-  font-size: map-get($media-ratio, "xsmall") * $default-font-size;
-
-  @each $breakpoint, $value in $breakpoints {
-    @include media(">#{$breakpoint}") {
-      font-size: map-get($media-ratio, $breakpoint) * $default-font-size;
-    }
-  }
+  font-size: 1.8 * $default-font-size;
 }
 
 h1,
@@ -35,7 +29,7 @@ h2,
 .h-like {
   font-family: $title-font-family;
   font-style: $title-font-style;
-  font-weight: $title-font-weight;
+  font-weight: 700;
   line-height: $title-line-height;
   text-wrap: balance;
 }
@@ -46,7 +40,7 @@ h5,
 h6 {
   font-family: $default-font-family;
   font-style: $default-font-style;
-  font-weight: $default-font-weight;
+  font-weight: 700;
 }
 
 h1,
@@ -60,24 +54,37 @@ h6,
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 4rem;
+  @include media(">=medium") {
+    font-size: 5.6rem;
+  }
+  @include media(">=large") {
+    font-size: 6.4rem;
+  }
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 3.2rem;
+  @include media(">=medium") {
+    font-size: 4rem;
+  }
+  @include media(">=large") {
+    font-size: 5.6rem;
+  }
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 2.4rem;
   margin-top: 0;
-
-  // .conference > & {
-  //   padding: 60px 0 20px 0;
-  //   @include media('>=xlarge') {
-  //     padding: 20px 0;
-  //   }
-  // }
+  @include media(">=medium") {
+    font-size: 3.2rem;
+  }
+  @include media(">=large") {
+    font-size: 4rem;
+  }
 }
+
+
 
 p,
 .p-like,
@@ -103,7 +110,7 @@ dt {
 a,
 .underlined,
 button.btn--link-like {
-  font-style: italic;
+  font-style: normal;
   color: $link-color;
   text-decoration: none;
   text-decoration: underline solid rgba($link-color, 0.25);
@@ -122,6 +129,14 @@ button.btn--link-like {
   font: inherit;
   color: $default-color;
 }
+
+.h-smallcap {
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 140%;
+  margin-bottom: .8rem;
+}
+
 .h-reset {
   margin: initial;
   padding: 0;
@@ -182,6 +197,10 @@ button.btn--link-like {
   color: $inactive;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
 .line-through {
   text-decoration: line-through;
 }
@@ -198,3 +217,27 @@ li > ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.sub-title {
+  color: $red;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+
+  & + h2 {
+    margin-top: 0;
+    color: $black;
+  }
+
+  &.light {
+    color: $white;
+    & + h2 {
+      color: $white;
+    }
+  }
+
+}
+

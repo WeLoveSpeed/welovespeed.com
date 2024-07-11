@@ -16,18 +16,22 @@
     {% assign seoDescription = page.seo_description | default: page.excerpt | default: page.description | strip_html | truncate: 150, "…" %}
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ socialTitle }}</title>
 
         <link rel="preconnect" href="https://res.cloudinary.com">
         <link rel="preconnect" href="https://analytics.schapira.dev/">
 
+        {% capture css_url %}/assets/css/main.css?{{ site.time|date: "%Y%m%d%H%M%S" }}{% endcapture %}
+        <link rel="stylesheet" href="{{ css_url | relative_url }}">
+        
         <link rel="preload" href="/assets/svg/wls-inline
         {%- if page.year == 2020 -%}
           -lazy-loaded
         {%- endif -%}.svg" as="image">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="{{ page.robots |default: site.robots }}">
-        <title>{{ socialTitle }}</title>
-        <meta name="description" content="{{ seoDescription }}">
+        <link rel="preload" href="/assets/fonts/figtree-variable.woff2" as="font" crossorigin>
+        <link rel="preload" href="/assets/fonts/space-grotesk-variable.woff2" as="font" crossorigin>
+
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
@@ -38,6 +42,8 @@
         <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
         <meta name="theme-color" content="#{{ site.main_color }}">
         <link rel="author" href="{{ site.baseurl }}/humans.txt">
+        <meta name="robots" content="{{ page.robots |default: site.robots }}">
+        <meta name="description" content="{{ seoDescription }}">
         <meta property="og:url" content="{{ page.url | absolute_url }}">
         <meta property="og:type" content="website">
         <meta property="og:title" content="{{ socialTitle }}">
@@ -69,7 +75,5 @@
         {% if page.next_talk %}
           <link rel="next" href="{{ page.next_talk.url }}" />
         {% endif %}
-        {% capture css_url %}/assets/css/main.css?{{ site.time|date: "%Y%m%d%H%M%S" }}{% endcapture %}
-        <link rel="stylesheet" href="{{ css_url | relative_url }}">
 
     </head>

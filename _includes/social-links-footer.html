@@ -1,22 +1,15 @@
 <ul class="social-links">
   {% capture symbols-url %}/assets/svg/symbol-defs.svg?{{site.time | date: '%Y%m%d%H%M%S'}}#{% endcapture %}
   {% for social in site.data.social %}
-    {% unless social.name =="pictures" %}
+    {% if social.name != "pictures" and social.name != "mail" %}
     <li>
       <a href="{{social.url}}" rel="me nofollow noopener" title="{{social.title}}" target="_blank">
         <svg width="1em" role="img" aria-label="{{social.name}}" viewBox="0 0 448 512">
           <use xlink:href="{{ symbols-url | append: social.name | relative_url }}"/>
         </svg>
+        {{social.name}}
       </a>
     </li>
-    {% else %}
-    <li>
-      <a href="{{ site.data.editions[year].pictures.url }}" rel="me nofollow noopener" title="{{ site.data.editions[page.year].pictures.title }}" target="_blank">
-        <svg width="1em" role="img" aria-label="{{social.name}}" viewBox="0 0 448 512">
-          <use xlink:href="{{ symbols-url | append: social.name | relative_url }}"/>
-        </svg>
-      </a>
-    </li>
-    {% endunless %}
+    {% endif %}
   {% endfor%}
 </ul>

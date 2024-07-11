@@ -22,12 +22,11 @@ destination: _site/
 locale: fr_FR
 logo: https://welovespeed.com/assets/images/social/logo.jpg
 matomo: false
-lazyload:
-  placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
 
+# Configuration de l'événement
 
 current_edition: 2024
-cfp_open: true
+cfp_open: false
 sponsoring:
   show: true
   fr_FR:

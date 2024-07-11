@@ -1,0 +1,22 @@
+missions:
+  - title:
+      fr_FR: "Par la transmission et le partage"
+      en_US: "Through transmission and sharing"
+    content:
+      fr_FR: "Depuis 2018, le but de We Love Speed est de partager le plus largement possible les connaissances et expérience en matière de webperf pour les professionnels du web et de l'e-commerce."
+      en_US: "Since 2018, We Love Speed's goal is to share as widely as possible knowledge and experience in webperf for web and e-commerce professionals."
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 40"><path fill="currentColor" d="M14.6 8.1a5.9 5.9 0 1 0-.5-2.3A17.6 17.6 0 0 0 2.4 22.3h2.4c0-6.3 4-12 9.8-14.2ZM20 37.7c-3.5 0-6.9-1.2-9.6-3.4a5.9 5.9 0 1 0-1.9 1.5 17.5 17.5 0 0 0 19 2.5l-1-2.1c-2 1-4.2 1.5-6.5 1.5Zm17.3-12.1A17.7 17.7 0 0 0 30 7.9l-1.3 2A15.3 15.3 0 0 1 35 24.7a5.9 5.9 0 1 0 2.3.8Z"/></svg>'
+  - title:
+      fr_FR: "Par des échanges et des rencontres"
+      en_US: "Through exchanges and meetings"
+    content:
+      fr_FR: "Nous attendons 160 participants, incluant décideurs, développeurs, et experts en performance web. En 2024, nous voulons démocratiser davantage la web performance."
+      en_US: "We expect 160 participants, including decision-makers, developers, and web performance experts. In 2024, we want to further democratize web performance."
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 40"><path fill="currentColor" d="m15.4 31.2.8 3C17.5 38.5 19 40 20 40s2.5-1.5 3.8-5.8l.8-3h-9.2ZM28.1 20c0 3.1-.3 6.1-.7 8.8h10.5A20 20 0 0 0 40 20H28.1ZM26 34.9c-.5 2-1.2 3.5-2 4.7a20 20 0 0 0 12.6-8.4H27l-1 3.7Zm-1-6.1c.5-2.7.7-5.7.8-8.8H14.2c0 3.1.3 6.1.8 8.8h10Zm-12 2.4H3.4A20 20 0 0 0 16 39.6c-.8-1.2-1.5-2.8-2-4.7l-1-3.7ZM11.9 20H0c0 3.2.7 6.2 2 8.8h10.6c-.4-2.7-.7-5.7-.7-8.8Zm26.5-4a6 6 0 0 0-5.2-6 3.5 3.5 0 1 0-1.6 0 6 6 0 0 0-4.6 3.5 7.3 7.3 0 0 0-6.1-5 4.3 4.3 0 1 0-1.8 0 7.3 7.3 0 0 0-6 5A6 6 0 0 0 8.4 10a3.5 3.5 0 1 0-1.6 0 6 6 0 0 0-5.2 6v1.7h36.8v-1.8Z"/></svg>'
+  - title:
+      fr_FR: "En élargissant la communauté"
+      en_US: "By expanding the community"
+    content:
+      fr_FR: "Nous visons un public varié, incluant Chief Digital Officers, e-commerce, marketing et SEO, avec des conférences adaptées à tous."
+      en_US: "We aim for a diverse audience, including Chief Digital Officers, e-commerce, marketing and SEO, with talks adapted to all."
+    icon: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 40"><path fill="currentColor" d="m10.2 10.8-3.5.3a3 3 0 0 0-2.3 1.4l-4 6a2.1 2.1 0 0 0 1.4 3.3l3.2.5a27 27 0 0 1 5.2-11.5ZM17.7 35l.5 3.2a2.1 2.1 0 0 0 3.3 1.4l6-4a3 3 0 0 0 1.4-2.3l.3-3.5A28.4 28.4 0 0 1 17.7 35Zm-1.2-2.2h.3a23 23 0 0 0 4.8-1.4l-13-13a23 23 0 0 0-1.4 4.8 2 2 0 0 0 .6 1.7l7.3 7.3c.4.4.9.6 1.4.6Zm20.3-15.1A31.6 31.6 0 0 0 40 2a2 2 0 0 0-2-2 32.2 32.2 0 0 0-15.7 3.2 31.8 31.8 0 0 0-12.6 13l14 14 .2.2a31.8 31.8 0 0 0 13-12.7ZM23.3 8.5a5.9 5.9 0 1 1 8.2 8.3 5.9 5.9 0 0 1-8.2-8.3Z"/><path fill="currentColor" d="M25 15a3.5 3.5 0 1 0 4.9-4.9 3.5 3.5 0 0 0-5 5ZM1.2 33c.3 0 .6-.2.8-.4l4-3.8A1.2 1.2 0 1 0 4.2 27L.4 31a1.2 1.2 0 0 0 .8 2Zm8.2-2.4c-.5-.4-1.2-.4-1.7 0L.3 38A1.2 1.2 0 1 0 2 39.7l7.4-7.4c.4-.5.4-1.2 0-1.7Zm1.8 3.5L7.4 38A1.2 1.2 0 1 0 9 39.6l3.9-3.8a1.2 1.2 0 0 0-1.7-1.7Z"/></svg>'

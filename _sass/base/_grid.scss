@@ -1,4 +1,5 @@
 @use "../scss/config" as *;
+@use "../scss/colors" as *;
 @use "../vendors/include-media/include-media" as *;
 
 [class*=" grid-"],
@@ -11,7 +12,7 @@
     minmax(var(--grid-item-min-width), 1fr)
   );
   grid-gap: $global-gutters ($global-gutters + 2rem);
-  justify-items: stretch;
+  justify-items: start;
   align-items: center;
 
   & > * {
@@ -63,8 +64,73 @@
   }
 }
 
-.grid-gold-sponsors, .grid-other-sponsors {
+.grid-gold-sponsors,
+.grid-other-sponsors {
   figure {
     margin: 0;
+  }
+}
+
+.cols {
+  &-33-66 {
+    @include media(">=medium") {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+  &-xs-auto {
+    grid-gap: 2.4rem;
+    grid-template-columns: 100%;
+
+    & + & {
+      margin-top: 2.4rem;
+    }
+
+    @include media(">=medium") {
+      grid-template-columns: 100px auto;
+      & + & {
+        margin-top: 3.6rem;
+      }
+    }
+  }
+  &-v-split {
+    padding: 3.2rem 0;
+    border-top: 1px solid $softgrey;
+
+    &:last-child {
+      border-bottom: 1px solid $softgrey;
+    }
+  }
+  &-avatar {
+    aspect-ratio: 292/400;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    &:last-child {
+      box-sizing: border-box;
+      padding: 20px;
+      font-family: $title-font-family;
+      font-weight: 500;
+      font-size: 20px;
+      border: 1px solid currentColor;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      row-gap: 3.2rem;
+      &:hover {
+        color: $softred;
+      }
+      & svg {
+        width: 4.8rem;
+        height: 4.8rem;
+        fill: none;
+      }
+    }
+  }
+  &-x48 {
+    grid-gap: 4.8rem;
   }
 }

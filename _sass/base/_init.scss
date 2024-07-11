@@ -114,6 +114,10 @@ img {
   height: auto;
 }
 
+.img-rounded {
+  border-radius: 1.5rem;
+}
+
 svg {
   display: inline-block;
   width: 1em;
@@ -133,5 +137,32 @@ button svg {
 
   @media (min-width: 50rem) {
     scroll-margin-top: 2rem;
+  }
+}
+
+.decorative {
+  &-square {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      bottom: -33px;
+      left: -70px;
+      display: block;
+      width: 25rem;
+      height: 25rem;
+      background-color: $softred;
+      border-radius: 1.5rem;
+    }
+  }
+  &-squares {
+    position: absolute;
+    width: 1376px;
+    height: 1001px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-position: top center;
   }
 }
