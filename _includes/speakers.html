@@ -10,7 +10,12 @@
   <div id="speakers">
 {% endunless %}
     <h{% if include.h1 %}1{% else %}2{% endif %} class="text-center">
-        <span class="inline-not-large">{% t Intervenant‧es %}</span><span class="inline-large">{% t Intervenants et Intervenantes %}</span>
+      <span class="inline-not-large">{% t Intervenant‧es %}</span><span class="inline-large">{% t Intervenants et Intervenantes %}</span><br>
+      {% if site.current_edition == include.year -%}
+        <span class="text-center text-xs speakers-subtitle">
+          {% t D'autres annonces à venir ! %}
+        </span>
+      {%- endif %}
     </h{% if include.h1 %}1{% else %}2{% endif %}>
     <div class="person-grid text-center randomize">
     {%- for name in visibleSpeakers -%}
