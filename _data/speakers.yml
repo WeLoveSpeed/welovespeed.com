@@ -1,3 +1,156 @@
+2024:
+  lisa_pasqualini:
+    name: Lisa Pasqualini
+    image: /assets/images/speakers/2024/lisa_pasqualini.jpg
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/lisa-pasqualini-9a65561b7/
+    company: Fasterize
+    fr_FR:
+      alt: Portrait de Lisa
+      bio_short: Customer Success Manager
+      bio: >-
+        Ancienne développeuse, Lisa Pasqualini a rejoint Fasterize il y a 2 ans, où elle excelle dans l'onboarding et le suivi de la satisfaction client. Elle a structuré de nombreux tests A/B, aidant les clients à maximiser leur performance web. Grâce à son expertise technique et fonctionnelle, Lisa est une interlocutrice privilégiée pour démontrer comment la webperf peut transformer le business et améliorer les conversions.
+    en_US:
+      alt: Lisa's mugshot
+      bio_short: Customer Success Manager
+      bio: >-
+        Former developer, Lisa Pasqualini joined Fasterize 2 years ago, where she excels in onboarding and tracking customer satisfaction. She has structured numerous A/B tests, helping customers maximize their web performance. Thanks to her technical and functional expertise, Lisa is a privileged interlocutor to demonstrate how webperf can transform business and improve conversions.
+  emilie_wilhelm:
+    name: Émilie Wilhelm
+    image: /assets/images/speakers/2024/emilie_wilhelm.jpg
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/emilie-wilhelm/
+    company: Fasterize
+    fr_FR:
+      alt: Portrait de Émilie
+      bio_short: Head of Marketing
+      bio: >-
+        Depuis plus de 10 ans, je m'engage activement dans la démocratisation de la webperf. J’ai contribué à de nombreuses publications et études, dont le classement webperf du JDN et plusieurs ebooks dédiés à la performance web. Grâce à mes recherches et analyses, j’ai aidé de nombreuses entreprises à comprendre et améliorer leur performance web, démontrant l'impact direct de la vitesse sur les conversions et le succès commercial. J’anime également des webinars et co-organise des événements webperf afin de sensibiliser et éduquer un large public sur l'importance cruciale de la webperf.
+    en_US:
+      alt: Émilie's mugshot
+      bio_short: Head of Marketing
+      bio: >-
+        For over 10 years, I've been actively involved in the democratization of web performance. I've contributed to numerous publications and studies, including the JDN webperf ranking and several ebooks dedicated to web performance. Thanks to my research and analysis, I've helped numerous companies understand and improve their web performance, demonstrating the direct impact of speed on conversions and commercial success. I also host webinars and co-organize webperf events to raise awareness and educate a wide audience on the crucial importance of webperf.
+  andrea_verlicchi:
+    name: Andrea Verlicchi
+    image: /assets/images/speakers/2024/andrea_verlicchi.jpg
+    urls:
+      - name: twitter
+        title: "@verlok (Twitter)"
+        url: https://twitter.com/verlok
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/andreaverlicchi/
+      - name: web
+        title: Blog
+        url: https://www.andreaverlicchi.eu
+    company: Speed Kit
+    en_US:
+      alt: >-
+        Andrea's mugshot
+      bio_short: Web Performance Engineer
+      bio: >-
+        Web developer since the early 2000, I'm in love with front-end development, web speed and user experience optimization.
+        Constantly updated about web standards and technologies, I enjoy sharing my knowledge giving talks at conferences, meet-ups and company knowledge sharing meetings.
+        My specialties are web performance, CSS design, JS optimization, responsive images, accessibility, SEO.
+        Besides my job I like: nature, hiking, cycling, skiing, food, arts, sustainability, cultures, languages.
+    fr_FR:
+      alt: >-
+        Portrait de Andrea
+      bio_short: Web Performance Engineer
+      bio: >-
+        Développeur web depuis le début des années 2000, je suis passionné par le développement front-end, la vitesse du web et l'optimisation de l'expérience utilisateur.
+        Constamment informé sur les standards et technologies du web, j'aime partager mes connaissances lors de conférences, meet-ups et réunions de partage de connaissances au sein de l'entreprise.
+        Mes spécialités sont la performance web, le design CSS, l'optimisation JS, les images réactives, l'accessibilité, le référencement.
+        En dehors de mon travail, j'aime la nature, la randonnée, le vélo, le ski, la nourriture, les arts, le développement durable, les cultures, les langues.
+  jp_vincent:
+    name: Jean-Pierre Vincent
+    image: /assets/images/speakers/2024/jp_vincent.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/jeanpierrevincent/
+    company: BrainCracking
+    en_US:
+      alt: >-
+        Jean-Pierre's mugshot
+      bio_short: Expert Web Performance
+      bio: Independent technical expert and trainer in Web and JavaScript performance. Since 2010, Jean-Pierre has been assisting customers with their web performance strategy and training their teams.
+    fr_FR:
+      alt: >-
+        Portrait de Jean-Pierre
+      bio_short: Expert Web Performance
+      bio: Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis 2010, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes.
+  karlijn_lowik:
+    name: Karlijn Löwik
+    image: /assets/images/speakers/2024/karlijn_lowik.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/karlijn-lowik/
+      - name: web
+        title: "Website"
+        url: https://www.rumvision.com/about-us/
+    company: RUMVision
+    en_US:
+      alt: >-
+        Karlijn's mugshot
+      bio_short: Co-Founder of RUMvision
+      bio: Co-Founder of RUMvision, pagespeed expert
+    fr_FR:
+      alt: >-
+        Portrait de Karlijn
+      bio_short: Co-Founder of RUMvision
+      bio: Co-Founder of RUMvision, pagespeed expert
+  erwin_hofman:
+    name: Erwin Hofman
+    image: /assets/images/speakers/2024/erwin_hofman.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/erwinhofman/
+      - name: twitter
+        title: "@blue2blond (Twitter)"
+        url: https://twitter.com/blue2blond
+      - name: web
+        title: "Website"
+        url: https://www.rumvision.com/about-us/
+    company: RUMVision
+    en_US:
+      alt: >-
+        Erwin's mugshot
+      bio_short: Co-Founder of RUMvision
+      bio: Co-Founder of RUMvision, pagespeed expert
+    fr_FR:
+      alt: >-
+        Portrait de Erwin
+      bio_short: Co-Founder of RUMvision
+      bio: Co-Founder of RUMvision, pagespeed expert
+  anthony_barre:
+    name: Anthony Barré
+    image: /assets/images/speakers/2024/anthony_barre.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/anthony-barr%C3%A9-bbb56268/
+      - name: twitter
+        title: "@AnthoBarre (Twitter)"
+        url: https://x.com/AnthoBarre
+    company: Fasterize
+    en_US:
+      alt: >-
+        Anthony's mugshot
+      bio_short: CTO
+      bio: I've been working on webperf topics at Fasterize since 2012, first as a developer, then since 2021 as CTO.
+    fr_FR:
+      alt: >-
+        Portrait de Anthony
+      bio_short: CTO
+      bio: Je travaille depuis 2012 sur les sujets webperf au sein de Fasterize, d'abord en tant que développeur, puis depuis 2021 en tant que CTO.
 2023:
   andy_davies:
     name: Andy Davies
