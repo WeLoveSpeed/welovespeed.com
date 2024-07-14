@@ -12,7 +12,7 @@
     minmax(var(--grid-item-min-width), 1fr)
   );
   grid-gap: $global-gutters ($global-gutters + 2rem);
-  justify-items: start;
+  justify-content: flex-start;
   align-items: center;
 
   & > * {
@@ -71,6 +71,10 @@
   }
 }
 
+.contents {
+  display: contents;
+}
+
 .cols {
   &-33-66 {
     @include media(">=medium") {
@@ -101,11 +105,12 @@
     }
   }
   &-avatar {
+    position: relative;
     aspect-ratio: 292/400;
     border-radius: 15px;
     overflow: hidden;
     height: 100%;
-    &:last-child {
+    .grid-4 > &:last-child {
       box-sizing: border-box;
       padding: 20px;
       font-family: $title-font-family;
@@ -128,6 +133,13 @@
         height: 4.8rem;
         fill: none;
       }
+    }
+
+    & li {
+      display: inline;
+    }
+
+    a {
     }
   }
   &-x48 {

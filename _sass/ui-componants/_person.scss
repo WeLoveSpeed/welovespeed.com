@@ -6,7 +6,6 @@
   position: relative;
 
   &-grid {
-    $maxNumberOfColumns: 4;
     display: grid;
     grid-template-columns: repeat(
       auto-fill,
@@ -17,11 +16,10 @@
     margin-right: auto;
 
     @media (min-width: 50rem) {
-      $columnMaxWidth: calc(($wrapper-max-width - 3 * $global-gutters) / 4);
       max-width: $wrapper-max-width;
       grid-template-columns: repeat(
         auto-fill,
-        minmax($columnMaxWidth, 1fr)
+        minmax(18rem, 1fr)
       );
     }
   }

@@ -8,10 +8,10 @@
 </section>
 
 {% for conference in include.conferences %}
-  <section class="section talks">
-    <div class="wrapper">
-      {% capture pubDateUnix %}{{ conference.pub_date | date: '%s' }}{% endcapture %}
-      {% if pubDateUnix <= nowUnix %}
+  {% capture pubDateUnix %}{{ conference.pub_date | date: '%s' }}{% endcapture %}
+  {% if pubDateUnix <= nowUnix %}
+    <section class="section talks">
+      <div class="wrapper">
         <span class="sr-only" id="{{ conference.slug }}"></span>
         {% for name in conference.speakers %}<span class="sr-only" id="{{name}}" aria-hidden></span>{% endfor %}
 
@@ -54,10 +54,21 @@
             </p>
           {% endif %}
         {% endif %}
-    {%- endif -%}
-    </div>
-  </section>
-  {% include banners/banner-elephant-nantes.html locale=page.locale %}
+      </div>
+    </section>
+
+    {% if forloop.last %}
+      {% if site.current_edition == include.year -%}
+      <p class="text-center h-like h3 speakers-subtitle">
+        {% t D'autres annonces à venir ! %}
+      </p>
+
+      <hr />
+      {%- endif %}
+    {% endif %}
+
+    {% include banners/banner-elephant-nantes.html locale=page.locale %}
+  {%- endif -%}
 {%- endfor -%}
 
 <hr>

@@ -90,7 +90,7 @@
     font-size: 1.6rem;
     margin: 0;
     padding: 0;
-    
+
     &.company {
       margin-top: 1.6rem;
     }
@@ -118,6 +118,12 @@
       opacity: 1;
     }
   }
+}
+
+.expand-click-area::after {
+  content: '';
+  position: absolute;
+  inset: 0;
 }
 
 @keyframes slide-up {

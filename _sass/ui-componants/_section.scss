@@ -15,12 +15,12 @@
     position: relative;
     z-index: 1;
   }
-  
+
   &.speakers {
-    background-color: $darkred;
-    color: $white;
     padding-top: 112px;
     padding-bottom: 112px;
+    background-color: $darkred;
+    color: $white;
     overflow: hidden;
 
     & .grid-4 {
@@ -33,6 +33,17 @@
       margin-right: auto;
     }
   }
+
+  &.venue {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-color: $darkred;
+    color: $white;
+  }
+}
+
+.speakers-subtitle {
+  display: block;
 }
 
 .illustration {
