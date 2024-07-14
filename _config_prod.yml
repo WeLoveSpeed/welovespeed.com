@@ -50,7 +50,7 @@ infos:
   diversity:
     active: false
     soldout: false
-  interventions: false
+  interventions: true
   schedule: false # pensez à regénérer les bannières de conférence avant mise en prod
 
 # Compression du code HTML en production
@@ -105,6 +105,14 @@ cloudinary:
       fallback_max_width: 220
       steps: 2
       sizes: "110px"
+    speaker:
+      min_width: 324 # for some reason, cloudinary refuses to create 110px images ¯\_(ツ)_/¯
+      max_width: 500
+      fallback_max_width: 324
+      steps: 2
+      aspect_ratio: "292:400"
+      crop: fill
+      sizes: "324px"
     thumbnail:
       min_width: 33
       max_width: 66

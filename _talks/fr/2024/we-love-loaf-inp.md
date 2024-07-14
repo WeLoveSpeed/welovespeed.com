@@ -3,7 +3,7 @@ display-order: 9
 talk_locale: en_US
 i18n-key: 2024-we-love-loaf-inp
 length: 45
-pub_date: "2024-07-15"
+pub_date: "2024-07-13"
 speakers:
   - karlijn_lowik
   - erwin_hofman

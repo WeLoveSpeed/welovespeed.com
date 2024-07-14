@@ -2,6 +2,9 @@
 @use "../helpers/a11y" as a11y;
 
 .conference {
+  max-width: 50em;
+  margin: 0 auto;
+
   @media (min-width: 30rem) {
     padding: 2rem;
     box-shadow: 0 0 0.5em 0 rgba(230, 40, 39, 0.15);
@@ -80,6 +83,7 @@
       justify-content: center;
       margin-bottom: 0;
       position: relative;
+      font-size: 1.5em;
       line-height: 1.25;
 
       sup {

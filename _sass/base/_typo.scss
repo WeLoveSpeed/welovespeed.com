@@ -231,13 +231,13 @@ li > ul {
     margin-top: 0;
     color: $black;
   }
+}
 
-  &.light {
+
+.light {
+  color: $white;
+  & + h2 {
     color: $white;
-    & + h2 {
-      color: $white;
-    }
   }
-
 }
 

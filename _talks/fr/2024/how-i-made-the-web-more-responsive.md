@@ -3,7 +3,7 @@ display-order: 3
 talk_locale: en_US
 i18n-key: 2024-how-i-made-the-web-more-responsive
 length: 45
-pub_date: "2024-07-15"
+pub_date: "2024-07-13"
 speakers:
   - andrea_verlicchi
 title: "Comment j'ai rendu le web plus réactif"

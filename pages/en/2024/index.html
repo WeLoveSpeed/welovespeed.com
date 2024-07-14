@@ -43,7 +43,7 @@ hide_banner: true
       <div class="top-header-buttons">
         {%- if site.cfp_open -%}
           <a
-            class="button invert"
+            class="button"
             target="_blank"
             data-text="{% t Appel à propositions %}"
             href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/cfp"
@@ -90,7 +90,7 @@ hide_banner: true
         {% else %}
           {% if site.tickets.selling %}
             <a
-              class="button"
+              class="button invert"
               data-text="{% t Réserver votre place %}"
               href="{{ page.baseurl | default:site.baseurl }}/{{ site.current_edition }}/{{ "billetterie" | t: page.locale }}"
               title="{% t Réserver votre place %}">
@@ -167,26 +167,23 @@ hide_banner: true
       <p class="sub-title light text-center">{% t Les intervenant·e·s %}</p>
       <h2 class="text-center">{% t Découvrez les speakers de cette édition %}</h2>
       <div class="grid-4 cols-x48">
-        {% for speaker in speakers %}
-          {% assign speaker_data = speaker[1] %}
-          <div class="cols-avatar">
-            <picture class="avatar">
-              <img
-                src="{{ speaker_data.image }}"
-                width="800"
-                height="800"
-                decoding="async"
-                loading="lazy">
-              <figcaption>
-                <h3>{{ speaker_data.name }}</h3>
-                <p>{{ speaker_data[page.locale].bio_short }}</p>
-                <p class="company">{{ speaker_data.company }}</p>
-                {% include person-links.html urls=speaker_data.urls %}
-              </figcaption>
-            </picture>
-          </div>
-        {% endfor %}
-        <a class="cols-avatar" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/">
+        <div class="contents randomize">
+          {% for speaker in speakers %}
+            {% assign speaker_data = speaker[1] %}
+            <div class="cols-avatar">
+              <picture class="avatar">
+                {% cloudinary speaker {{ speaker_data.image | relative_url }} alt="{{speaker_data[page.locale].alt}}" loading="lazy" %}
+                <figcaption>
+                  <h3><a class="light expand-click-area" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/#{{speaker[0]}}">{{ speaker_data.name }}</a></h3>
+                  <p>{{ speaker_data[page.locale].bio_short }}</p>
+                  <p class="company">{{ speaker_data.company }}</p>
+                  {% include person-links.html urls=speaker_data.urls %}
+                </figcaption>
+              </picture>
+            </div>
+          {% endfor %}
+        </div>
+        <a class="cols-avatar" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "interventions" | t: page.locale }}/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -203,8 +200,10 @@ hide_banner: true
       </div>
     </div>
   </section>
-{% endif %}{% endif %}{%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}{% assign nbconf = conferences | size %}{% if nbconf > 0 %}
-{% include speakers.html wrap=true conferences=conferences locale=page.locale year=page.year %}{% endif %}{% if site.nlOnTop %}
+{% endif %}{% endif %}
+{%- assign conferences = site.talks | where: "year", page.year | where: "locale", page.locale | sort: "display-order" -%}
+{%- assign nbconf = conferences | size -%}
+{% if site.nlOnTop %}
 
 <section class="section">
   <div class="wrapper">
@@ -216,7 +215,7 @@ hide_banner: true
   </div>
 </section>{% endif %}{% if site.infos.display %}
 
-<section class="section" id="location">
+<section class="section venue" id="location">
   <div class="wrapper">
     <h2 class="text-center">The venue</h2>
 

@@ -87,7 +87,7 @@
       bio: Expert Technique Indépendant et formateur sur les Performances Web et JavaScript. Depuis 2010, Jean-Pierre accompagne ses clients dans leur stratégie webperf ou forme leurs équipes.
   karlijn_lowik:
     name: Karlijn Löwik
-    image: /assets/images/speakers/2024/karlijn_lowik.jpg
+    image: /assets/images/speakers/2024/karlijn_lowik.png
     urls:
       - name: linkedin
         title: "LinkedIn"
@@ -108,7 +108,7 @@
       bio: Co-Founder of RUMvision, pagespeed expert
   erwin_hofman:
     name: Erwin Hofman
-    image: /assets/images/speakers/2024/erwin_hofman.jpg
+    image: /assets/images/speakers/2024/erwin_hofman.png
     urls:
       - name: linkedin
         title: "LinkedIn"
