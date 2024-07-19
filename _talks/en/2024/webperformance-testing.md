@@ -9,13 +9,19 @@ speakers:
 title: "Web Performance Testing"
 subtitle: ~
 excerpt: >-
-  S'assurer que nos projets offrent une expérience agréable en matière de web performances est clé pour susciter l'intérêt de nos visiteurs et améliorer nos business. C'est en testant les principales métriques de web performance au cours du développement et avant de mettre en production qu'on évite de donner à nos utilisateurs une mauvaise expérience et d'avoir à résoudre les problèmes une fois en ligne. Et c'est là que les tests de performance web entrent en jeu ! Apprenez à mettre en place des tests de performance web dans votre pipeline de développement et améliorez l'expérience de vos utilisateurs et devs !
+  Ensuring that our projects deliver a delightful web performance experience is key to engaging our visitors and improving our business metrics. 
+
+  Testing key web performance metrics during development and before shipping code to production is critical to avoid giving our users a bad experience and having to fix the issues once live (spending more time and resources doing twice the work). 
+
+  And this is where web performance testing comes in! Learn how to implement web performance testing into your development pipeline and improve your user and developer experience!
+
 description: >-
-  S'assurer que nos projets offrent une expérience agréable en matière de web performances est clé pour susciter l'intérêt de nos visiteurs et améliorer nos business.
-  
-  C'est en testant les principales métriques de web performance au cours du développement et avant de mettre en production qu'on évite de donner à nos utilisateurs une mauvaise expérience et d'avoir à résoudre les problèmes une fois en ligne (dépensant alors plus de temps et de ressources en faisant deux fois le travail).
-  
-  Et c'est là que les tests de performance web entrent en jeu ! Apprenez à mettre en place des tests de performance web dans votre pipeline de développement et améliorez l'expérience de vos utilisateurs et devs !
+  Ensuring that our projects deliver a delightful web performance experience is key to engaging our visitors and improving our business metrics. 
+
+  Testing key web performance metrics during development and before shipping code to production is critical to avoid giving our users a bad experience and having to fix the issues once live (spending more time and resources doing twice the work). 
+
+  And this is where web performance testing comes in! Learn how to implement web performance testing into your development pipeline and improve your user and developer experience!
+
 slides:
   name: ~
   url: ~
