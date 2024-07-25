@@ -35,6 +35,51 @@
       bio_short: Head of Marketing
       bio: >-
         For over 10 years, I've been actively involved in the democratization of web performance. I've contributed to numerous publications and studies, including the JDN webperf ranking and several ebooks dedicated to web performance. Thanks to my research and analysis, I've helped numerous companies understand and improve their web performance, demonstrating the direct impact of speed on conversions and commercial success. I also host webinars and co-organize webperf events to raise awareness and educate a wide audience on the crucial importance of webperf.
+  youen_chene:
+    name: Youen Chéné
+    image: /assets/images/speakers/2024/youen_chene.jpg
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/youenchene/
+    company: Webvert
+    fr_FR:
+      alt: Portrait de Youen
+      bio_short: Fondateur
+      bio: >-
+        Entrepreneur, Développeur, Activiste à Boavizta (et ex-orga à Codeurs en Seine)
+    en_US:
+      alt: Youen's mugshot
+      bio_short: Founder
+      bio: >-
+        Entrepreneur, Developer, Activist at Boavizta (and ex-orga at Codeurs en Seine)
+  robin_marx:
+    name: Robin Marx
+    image: /assets/images/speakers/2024/robin_marx.jpg
+    urls:
+      - name: twitter
+        title: "@programmingart (Twitter)"
+        url: https://twitter.com/programmingart
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/rmarx/
+    company: Akamai
+    en_US:
+      alt: >-
+        Robin's mugshot
+      bio_short: Web Protocol & Performance Expert
+      bio: >-
+        Dr. Robin Marx is a Web Performance Expert at Akamai Technologies. He focuses on the performance and workings of modern Web protocols like HTTP/2, HTTP/3 and QUIC and has been a contributor in the IETF QUIC working group for multiple years.
+
+        Robin often talks about web performance at international conferences, making the complex situations more insightful to the wider public. On the weekends, he likes to hit other people with longswords.
+    fr_FR:
+      alt: >-
+        Portrait de Robin
+      bio_short: Web Protocol & Performance Expert
+      bio: >-
+        Dr. Robin Marx est expert en performances web chez Akamai Technologies. Il étudie les performances et le fonctionnement des protocoles web modernes tels que HTTP/2, HTTP/3 et QUIC et contribue depuis plusieurs années au groupe de travail QUIC de l'IETF.
+
+        Robin parle souvent des performances du web lors de conférences internationales, rendant ainsi les situations complexes plus compréhensibles pour le grand public. Le week-end, il aime frapper d'autres personnes avec des épées longues.
   andrea_verlicchi:
     name: Andrea Verlicchi
     image: /assets/images/speakers/2024/andrea_verlicchi.jpg
@@ -67,6 +112,29 @@
         Constamment informé sur les standards et technologies du web, j'aime partager mes connaissances lors de conférences, meet-ups et réunions de partage de connaissances au sein de l'entreprise.
         Mes spécialités sont la performance web, le design CSS, l'optimisation JS, les images réactives, l'accessibilité, le référencement.
         En dehors de mon travail, j'aime la nature, la randonnée, le vélo, le ski, la nourriture, les arts, le développement durable, les cultures, les langues.
+  umar_hansa:
+    name: Umar Hansa
+    image: /assets/images/speakers/2024/umar_hansa.jpg
+    urls:
+      - name: twitter
+        title: "@umaar (Twitter)"
+        url: https://x.com/umaar
+      - name: web
+        title: Website
+        url: https://umaar.com/
+    company: ~
+    en_US:
+      alt: >-
+        Umar's mugshot
+      bio_short: Web Developer
+      bio: >-
+        Umar Hansa is a web developer based in London who focuses on writing tips, tutorials, and documentation for the web platform. He's a web developer at a website performance monitoring company. Using developer tooling, such as the DevTools, for an improved performance debugging workflow is an area which he plans to explore further and share information about with the community.
+    fr_FR:
+      alt: >-
+        Portrait de Umar
+      bio_short: Web Developer
+      bio: >-
+        Umar Hansa est un développeur web basé à Londres qui se consacre à la rédaction d'astuces, de tutoriels et de documentation pour la plateforme web. Il est développeur web dans une société de monitoring de performance web. L'utilisation d'outils de développement, tels que les DevTools, pour améliorer le débogage des performances est un domaine qu'il prévoit d'explorer davantage et d'en partager des informations avec la communauté.
   jp_vincent:
     name: Jean-Pierre Vincent
     image: /assets/images/speakers/2024/jp_vincent.jpg
@@ -100,12 +168,12 @@
       alt: >-
         Karlijn's mugshot
       bio_short: Co-Founder of RUMvision
-      bio: Co-Founder of RUMvision, pagespeed expert
+      bio: Co-Founders of RUMvision, pagespeed expert, husband & wife
     fr_FR:
       alt: >-
         Portrait de Karlijn
       bio_short: Co-Founder of RUMvision
-      bio: Co-Founder of RUMvision, pagespeed expert
+      bio: Co-Founders of RUMvision, pagespeed expert, husband & wife
   erwin_hofman:
     name: Erwin Hofman
     image: /assets/images/speakers/2024/erwin_hofman.png
@@ -151,6 +219,30 @@
         Portrait de Anthony
       bio_short: CTO
       bio: Je travaille depuis 2012 sur les sujets webperf au sein de Fasterize, d'abord en tant que développeur, puis depuis 2021 en tant que CTO.
+  estela_franco:
+    name: Estela Franco
+    image: /assets/images/speakers/2024/estela_franco.jpg
+    urls:
+      - name: twitter
+        title: "@guaca (Twitter)"
+        url: https://x.com/guaca
+    company: Schneider Electric
+    en_US:
+      alt: >-
+        Estela's mugshot
+      bio_short: Web Performance Specialist
+      bio: >-
+        I am Estela Franco, a web performance and technical SEO specialist with over 10 years of experience in the digital space. I am passionate about frontend web development and love to talk and share about web performance optimization, technical SEO, JavaScript and Jamstack.
+
+        I work as a Web Performance Specialist at Schneider Electric. Apart from that, I'm also a Google Developer Expert in Web Technologies and a Storyblok Ambassador.
+    fr_FR:
+      alt: >-
+        Portrait de Estela
+      bio_short: Web Performance Specialist
+      bio: >-
+        Je suis Estela Franco, une spécialiste de la performance web et du SEO avec plus de 10 ans d'expérience dans le numérique. Je suis passionnée par le développement web frontend et j'aime parler et partager sur l'optimisation des performances web, le SEO, JavaScript et Jamstack.
+
+        Je travaille en tant que spécialiste de la performance web chez Schneider Electric. Par ailleurs, je suis également Google Developer Expert en technologies web et ambassadrice de Storyblok.
 2023:
   andy_davies:
     name: Andy Davies
