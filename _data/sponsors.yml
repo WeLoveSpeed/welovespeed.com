@@ -864,3 +864,6 @@
     - name: Agence Web Performance
       logo: /assets/images/thanks/agence-web-performance.svg
       url: https://agencewebperformance.fr/
+    - name: Baleen
+      logo: /assets/images/thanks/baleen.svg
+      url: https://baleen.cloud/
