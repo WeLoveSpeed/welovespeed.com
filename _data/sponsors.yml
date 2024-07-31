@@ -755,13 +755,13 @@
           text: "En savoir plus"
           url: http://braincracking.org/
         description: |+
-          Avec 15 ans d’expérience en audits Webperf indépendants et en formation d’équipes de développeurs, Jean-Pierre Vincent vous aide à démarrer vos projets webperf ou vous accompagne.
+          Avec 15 ans d’expérience en audits Webperf indépendants et en formation d’équipes de développeurs, Jean-Pierre Vincent vous aide à démarrer vos projets webperf ou vous accompagne sur le long terme pour maintenir des performances optimales. Des optimisations de chargement classiques aux performances brutes des frameworks JS Next / Nuxt, son expertise couvre également la conduite des politiques de monitoring et la formation permanente des équipes.
       en_US:
         cta:
           text: "Learn More"
           url: http://braincracking.org/
         description: |+
-          With 15 years of experience in independent webperf audits and in training teams of developers, Jean-Pierre Vincent helps you start your webperf projects or accompanies you along the way.
+          With 15 years of experience of independent webperf audits and in training teams of developers, Jean-Pierre Vincent helps you start your webperf projects or accompanies you along the way. From classical loading problems to pure JavaScript performance, be it classical JS or extended frameworks like Next.
     - name: Scaleflex
       slug: scaleflex
       logo: /assets/images/thanks/scaleflex.png
@@ -789,6 +789,23 @@
           As the global leader in B2B SaaS, we specialize in the development of a unique visual experience platform, comprising Digital Asset Management (DAM), visual AI and media acceleration.
 
           Discover the future of asset management with our Visual Experience Platform. Seamlessly integrated with our DAM and Media Acceleration solutions, this revolutionary platform enhances user engagement and immersion, setting a new standard for digital experiences.
+    - name: Datadog
+      slug: datadog
+      logo: /assets/images/thanks/datadog.png
+      fr_FR:
+        cta:
+          text: "Découvrez Datadog"
+          url: https://www.datadoghq.com
+        description: |+
+          Datadog est la plateforme d‘observabilité et de sécurité pour les applications cloud. Notre plateforme SaaS intègre et automatise la surveillance de l‘infrastructure, la surveillance des performances des applications, la gestion des logs, la surveillance des utilisateurs réels et bien d‘autres fonctionnalités afin de fournir une observabilité et une sécurité unifiées et en temps réel pour l‘ensemble de la pile technologique de nos clients.
+
+          Datadog est utilisé par des organisations de toutes tailles et dans un large éventail de secteurs pour permettre la transformation numérique et la migration vers le cloud, favoriser la collaboration entre les équipes de développement, d‘exploitation, de sécurité et commerciales, accélérer la mise sur le marché des applications, réduire le temps de résolution des problèmes, sécuriser les applications et l‘infrastructure, comprendre le comportement des utilisateurs et suivre les indicateurs clés de l‘entreprise.
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://www.datadoghq.com
+        description: |+
+          The integrated platform for monitoring & security.
   others:
     - name: Globalis Media Systems
       logo: /assets/images/2024/thanks/globalis-ms.png
