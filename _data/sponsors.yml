@@ -824,7 +824,7 @@
       en_US:
         cta:
           text: "See our Website"
-          url: https://www.datadoghq.com
+          url: https://medium.com/leboncoin-engineering-blog
         description: |+
           Founded in 2006 and with 32+ million unique visitors per month, leboncoin is the essential destination in France for buying, selling and connecting everyone.
 
@@ -836,6 +836,21 @@
 
 
           Besides, you can consult our Medium to read our tech stories  https://medium.com/leboncoin-engineering-blog or our X/Linkedin to learn more about our community https://twitter.com/leboncoinEng  // https://www.linkedin.com/showcase/leboncoin-tech/
+    - name: Dynatrace
+      slug: dynatrace
+      logo: /assets/images/thanks/dynatrace.svg
+      fr_FR:
+        cta:
+          text: "Découvrez Dynatrace"
+          url: https://www.dynatrace.com/
+        description: |+
+          Dynatrace (NYSE  DT) existe pour rendre infaillible et optimal votre SI. Notre plateforme unifiée combine observabilité dynamique et sécurité continue des environnements applicatifs. Notre solution automatisée d’AIOps apporte des réponses concrètes et exploitables à très grande échelle. C’est pourquoi, des plus grands groupes mondiaux jusqu’aux start-up, des milliers d’entreprises à travers le monde font confiance à Dynatrace® pour accélérer leur transformation digitale.
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://www.dynatrace.com/
+        description: |+
+          Simplify cloud complexity and innovate faster and more securely with the only analytics and automation platform powered by causal AI.
   others:
     - name: Globalis Media Systems
       logo: /assets/images/2024/thanks/globalis-ms.png
