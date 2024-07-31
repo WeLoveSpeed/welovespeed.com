@@ -755,13 +755,13 @@
           text: "En savoir plus"
           url: http://braincracking.org/
         description: |+
-          Avec 15 ans d’expérience en audits Webperf indépendants et en formation d’équipes de développeurs, Jean-Pierre Vincent vous aide à démarrer vos projets webperf ou vous accompagne.
+          Avec 15 ans d’expérience en audits Webperf indépendants et en formation d’équipes de développeurs, Jean-Pierre Vincent vous aide à démarrer vos projets webperf ou vous accompagne sur le long terme pour maintenir des performances optimales. Des optimisations de chargement classiques aux performances brutes des frameworks JS Next / Nuxt, son expertise couvre également la conduite des politiques de monitoring et la formation permanente des équipes.
       en_US:
         cta:
           text: "Learn More"
           url: http://braincracking.org/
         description: |+
-          With 15 years of experience in independent webperf audits and in training teams of developers, Jean-Pierre Vincent helps you start your webperf projects or accompanies you along the way.
+          With 15 years of experience of independent webperf audits and in training teams of developers, Jean-Pierre Vincent helps you start your webperf projects or accompanies you along the way. From classical loading problems to pure JavaScript performance, be it classical JS or extended frameworks like Next.
     - name: Scaleflex
       slug: scaleflex
       logo: /assets/images/thanks/scaleflex.png
@@ -789,6 +789,68 @@
           As the global leader in B2B SaaS, we specialize in the development of a unique visual experience platform, comprising Digital Asset Management (DAM), visual AI and media acceleration.
 
           Discover the future of asset management with our Visual Experience Platform. Seamlessly integrated with our DAM and Media Acceleration solutions, this revolutionary platform enhances user engagement and immersion, setting a new standard for digital experiences.
+    - name: Datadog
+      slug: datadog
+      logo: /assets/images/thanks/datadog.png
+      fr_FR:
+        cta:
+          text: "Découvrez Datadog"
+          url: https://www.datadoghq.com
+        description: |+
+          Datadog est la plateforme d‘observabilité et de sécurité pour les applications cloud. Notre plateforme SaaS intègre et automatise la surveillance de l‘infrastructure, la surveillance des performances des applications, la gestion des logs, la surveillance des utilisateurs réels et bien d‘autres fonctionnalités afin de fournir une observabilité et une sécurité unifiées et en temps réel pour l‘ensemble de la pile technologique de nos clients.
+
+          Datadog est utilisé par des organisations de toutes tailles et dans un large éventail de secteurs pour permettre la transformation numérique et la migration vers le cloud, favoriser la collaboration entre les équipes de développement, d‘exploitation, de sécurité et commerciales, accélérer la mise sur le marché des applications, réduire le temps de résolution des problèmes, sécuriser les applications et l‘infrastructure, comprendre le comportement des utilisateurs et suivre les indicateurs clés de l‘entreprise.
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://www.datadoghq.com
+        description: |+
+          The integrated platform for monitoring & security.
+    - name: Le Bon Coin
+      slug: leboncoin
+      logo: /assets/images/thanks/lbc.svg
+      fr_FR:
+        cta:
+          text: "Découvrez Le Bon Coin"
+          url: https://medium.com/leboncoin-engineering-blog
+        description: |+
+          Fondée en 2006 et comptant plus de 32 millions de visiteurs uniques par mois, leboncoin est la destination incontournable en France pour acheter, vendre et mettre en relation tout un chacun. Cette année, on viendra même faire un talk sur “Performance monitoring  Quoi et comment mesurer ?” avec Thibaut (Lead frontend engineer) et Jérémie (Frontend architect and evangelist). Vous voulez tout savoir sur comment on interprète la data chez leboncoin ? On vous attend.
+
+          En 2024, c'est plus de +600 collaborateur.ices Product & Tech, entre Paris et Nantes, unis pour faire vivre la communauté leboncoin tech, rassemblant notre identité et nos valeurs: une tech plus responsable, du peer-learning avec des communautés externes et enfin, l’envie d’apprendre et d’avancer ensemble.
+          
+          Organisées en guildes et communautés de pratique, nos équipes Tech n’hésitent pas à partager leurs connaissances en interne… et en externe !
+
+          D’ailleurs, vous pouvez consulter notre Medium pour lire nos histoires tech : https://medium.com/leboncoin-engineering-blog ou notre X/Linkedin pour en savoir plus sur notre communauté https://twitter.com/leboncoinEng // https://www.linkedin.com/showcase/leboncoin-tech/
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://medium.com/leboncoin-engineering-blog
+        description: |+
+          Founded in 2006 and with 32+ million unique visitors per month, leboncoin is the essential destination in France for buying, selling and connecting everyone.
+
+          This year, we will even come and give a talk on “Performance monitoring  What and how to measure?” with Thibaut (Lead frontend engineer) and Jérémie (Frontend architect and evangelist). Do you want to know everything about how we interpret data at LBC? We are waiting for you.
+
+          In 2024, there will be more than 600+ Product & Tech collaborators, between Paris and Nantes, united to bring the leboncoin tech community to life, bringing together our identity and our values  more responsible tech, peer-learning with external communities and finally, the desire to learn and move forward together.
+
+          Organised in guilds and communities of practice, our Tech populations do not hesitate to share their knowledge internally... and externally!
+
+
+          Besides, you can consult our Medium to read our tech stories  https://medium.com/leboncoin-engineering-blog or our X/Linkedin to learn more about our community https://twitter.com/leboncoinEng  // https://www.linkedin.com/showcase/leboncoin-tech/
+    - name: Dynatrace
+      slug: dynatrace
+      logo: /assets/images/thanks/dynatrace.svg
+      fr_FR:
+        cta:
+          text: "Découvrez Dynatrace"
+          url: https://www.dynatrace.com/
+        description: |+
+          Dynatrace (NYSE  DT) existe pour rendre infaillible et optimal votre SI. Notre plateforme unifiée combine observabilité dynamique et sécurité continue des environnements applicatifs. Notre solution automatisée d’AIOps apporte des réponses concrètes et exploitables à très grande échelle. C’est pourquoi, des plus grands groupes mondiaux jusqu’aux start-up, des milliers d’entreprises à travers le monde font confiance à Dynatrace® pour accélérer leur transformation digitale.
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://www.dynatrace.com/
+        description: |+
+          Simplify cloud complexity and innovate faster and more securely with the only analytics and automation platform powered by causal AI.
   others:
     - name: Globalis Media Systems
       logo: /assets/images/2024/thanks/globalis-ms.png
@@ -802,3 +864,6 @@
     - name: Agence Web Performance
       logo: /assets/images/thanks/agence-web-performance.svg
       url: https://agencewebperformance.fr/
+    - name: Baleen
+      logo: /assets/images/thanks/baleen.svg
+      url: https://baleen.cloud/
