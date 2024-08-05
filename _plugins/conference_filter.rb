@@ -62,8 +62,8 @@ module Jekyll
 
       return {
         'id': conference['id'],
-        'title': microtypo(conference['title'], locale),
-        'subtitle': microtypo(conference['subtitle'], locale),
+        'title': microtypo(locale == 'en_US' && conference['translation'] && conference['translation']['title'] ? conference['translation']['title'] : conference['title'], locale),
+        'subtitle': microtypo(locale == 'en_US' && conference['translation'] && conference['translation']['subtitle'] ? conference['translation']['subtitle'] : conference['subtitle'], locale),
         'year': conference['year'],
         'workshop': conference.key?('cta'),
         'speakers': to_speakers_data(conference['speakers'], conference['year'], locale),

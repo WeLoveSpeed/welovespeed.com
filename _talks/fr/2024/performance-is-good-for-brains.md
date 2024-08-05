@@ -6,7 +6,7 @@ length: 45
 pub_date: "2024-07-15"
 speakers:
   - tammy_everts
-title: "Performance Is Good for Brains!"
+title: "La performance, c'est bon pour le cerveau !"
 subtitle: ~
 excerpt: |
   L'expérience utilisateur et les performances web sont parmi les meilleurs indicateurs des résultats des entreprises en ligne. Des sites web plus rapides ont des utilisateurs plus heureux. Ces utilisateurs heureux visitent plus longtemps et dépensent plus. Mais pourquoi cela ?
