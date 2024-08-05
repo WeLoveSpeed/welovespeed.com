@@ -8,9 +8,11 @@ speakers:
   - anthony_barre
 title: "Testez vos connaissances webperf à travers notre quizz interactif !"
 subtitle: ~
-excerpt: >-
-  Prenez vos téléphones et venez répondre à notre questionnaire sur différentes problématiques : réseau, protocole HTTP, API navigateur, optimisation des images, métriques webperf... Vous réviserez / apprendrez en vous amusant autour de la webperf. 
-description: >-
+excerpt: |
+  Prenez vos téléphones et venez répondre à notre questionnaire sur différentes problématiques : réseau, protocole HTTP, API navigateur, optimisation des images, métriques webperf...
+  
+  Vous réviserez / apprendrez en vous amusant autour de la webperf. 
+description: |
   Prenez vos téléphones et venez répondre à notre questionnaire sur différentes problématiques : réseau, protocole HTTP, API navigateur, optimisation des images, métriques webperf...
   
   Vous réviserez / apprendrez en vous amusant autour de la webperf. 

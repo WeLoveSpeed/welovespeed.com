@@ -8,9 +8,9 @@ speakers:
   - anthony_barre
 title: "Test your webperf knowledge with our interactive quiz!"
 subtitle: ~
-excerpt: >-
+excerpt: |
   Grab your phones and take our quiz on a range of issues: network, HTTP protocol, browser API, image optimization, webperf metrics... You'll have fun reviewing and learning about webperf. 
-description: >-
+description: |
   Grab your phones and take our quiz on a range of issues: network, HTTP protocol, browser API, image optimization, webperf metrics...
   
   You'll have fun reviewing and learning about webperf. 

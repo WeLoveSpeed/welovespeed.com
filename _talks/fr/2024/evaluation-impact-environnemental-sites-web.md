@@ -8,11 +8,11 @@ speakers:
   - youen_chene
 title: "Boavizta — Etat de l'art de l'évaluation de l'impact environnemental des sites web de contenus"
 subtitle: ~
-excerpt: >-
+excerpt: |
   Une présentation pour se mettre à jour des méthodes et outils disponible pour évaluer l'impact environnementale des sites web de contenus (et pas forcément mesurer comme on le précise à chaque fois à Boavizta).
 
   Quels sont les outils et méthodes existantes? Quels en sont les limites actuelles? Quels outils pour quels type de service numériques? Ce sont les questions qui seront couverte pendant ces 25mn.
-description: >-
+description: |
   Une présentation pour se mettre à jour des méthodes et outils disponible pour évaluer l'impact environnementale des sites web de contenus (et pas forcément mesurer comme on le précise à chaque fois à Boavizta).
 
   Quels sont les outils et méthodes existantes? Quels en sont les limites actuelles? Quels outils pour quels type de service numériques? Ce sont les questions qui seront couverte pendant ces 25mn.

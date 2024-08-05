@@ -9,9 +9,9 @@ speakers:
   - emilie_wilhelm
 title: "Alors, la vitesse, ça paye ou pas ?"
 subtitle: ~
-excerpt: >-
+excerpt: |
   La performance web ne peut pas se limiter à une question technique. Elle est devenue un levier stratégique essentiel pour les entreprises cherchant à maximiser leurs conversions et à améliorer leur chiffre d'affaires. Venez découvrir lors de cette conférence les vrais impacts chiffrés de la webperf et comment la vitesse de votre site web peut booster vos taux de conversion. Explorez avec nous le lien crucial entre performance et business, comprenez la différence entre corrélation et causalité, et apprenez des méthodes éprouvées pour valider l'impact de la webperf grâce à des tests A/B. Fini les clichés sur Amazon où 100ms = 1% de CA. Apprenez de nos expériences concrètes avec des clients réels et évitez les pièges courants. 
-description: >-
+description: |
   La performance web ne peut pas se limiter à une question technique. Elle est devenue un levier stratégique essentiel pour les entreprises cherchant à maximiser leurs conversions et à améliorer leur chiffre d'affaires. Venez découvrir lors de cette conférence les vrais impacts chiffrés de la webperf et comment la vitesse de votre site web peut booster vos taux de conversion. Explorez avec nous le lien crucial entre performance et business, comprenez la différence entre corrélation et causalité, et apprenez des méthodes éprouvées pour valider l'impact de la webperf grâce à des tests A/B. Fini les clichés sur Amazon où 100ms = 1% de CA. Apprenez de nos expériences concrètes avec des clients réels et évitez les pièges courants. 
 slides:
   name: ~

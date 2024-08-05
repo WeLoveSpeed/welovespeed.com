@@ -8,10 +8,11 @@ speakers:
   - andrea_verlicchi
 title: "How I made the web more responsive"
 subtitle: "— real-world case studies of INP optimizations"
-excerpt: >-
+excerpt: |
   The new Google metric “Interaction to Next Paint (INP)” https://web.dev/articles/inp, which measures how responsive a site is responsive to user inputs, has become effective as a Core Web Vital in March.
+
   By analyzing 3 case studies from my work, we will see how to debug slow interactions as well as the do's/don'ts to make your website responsive.
-description: >-
+description: |
   The new Google metric “Interaction to Next Paint (INP)” https://web.dev/articles/inp, which measures how responsive a site is responsive to user inputs, has become effective as a Core Web Vital in March.
 
   By analyzing some case studies based on my work, you will understand what you should do (or not do) to ensure that your site maintains good responsiveness to user interactions.

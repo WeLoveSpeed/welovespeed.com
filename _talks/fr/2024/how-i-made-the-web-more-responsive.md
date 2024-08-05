@@ -8,9 +8,9 @@ speakers:
   - andrea_verlicchi
 title: "Comment j'ai rendu le web plus réactif"
 subtitle: "— études de cas concrets d'optimisations d'INP"
-excerpt: >-
+excerpt: |
   La nouvelle mesure Google [“Interaction to Next Paint (INP)”](https://web.dev/articles/inp), qui évalue la réactivité d'un site aux interactions des utilisateurs et utilisatrices, est devenue effective en tant que Core Web Vital en mars. En analysant 3 études de cas issues de mon travail, nous verrons comment déboguer des interactions lentes ainsi que les choses à faire/ne pas faire pour que votre site web soit réactif.
-description: >-
+description: |
   La nouvelle mesure Google [“Interaction to Next Paint (INP)”](https://web.dev/articles/inp), qui évalue la réactivité d'un site aux interactions des utilisateurs et utilisatrices, est devenue effective en tant que Core Web Vital en mars.
 
   En analysant quelques études de cas basées sur mon travail, vous comprendrez ce que vous devriez faire (ou ne pas faire) pour vous assurer que votre site maintient une bonne réactivité.

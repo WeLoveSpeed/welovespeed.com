@@ -9,9 +9,9 @@ speakers:
   - erwin_hofman
 title: "We Love LoAF & INP"
 subtitle: ~
-excerpt: >-
+excerpt: |
   Let us show you how much fun it can be to improve INP! With memes, technical deep dives, and revolutionary solutions in RUM + Chrome's new API LoAF, we'll help you tame those first and third parties!
-description: >-
+description: |
   Let us show you how much fun it can be to improve INP! With memes, technical deep dives, and revolutionary solutions in RUM + Chrome's new API LoAF, we'll help you tame those first and third parties!
 slides:
   name: ~

@@ -8,9 +8,11 @@ speakers:
   - tammy_everts
 title: "Performance Is Good for Brains!"
 subtitle: ~
-excerpt: >-
-  L'expérience utilisateur et les performances web sont parmi les meilleurs indicateurs des résultats des entreprises en ligne. Des sites web plus rapides ont des utilisateurs plus heureux. Ces utilisateurs heureux visitent plus longtemps et dépensent plus. Mais pourquoi cela ? En revenant sur l'histoire de l'UX et la recherche sur les performances web, et sur les nouvelles mesures qui sont sur le point d'être mises en place, vous comprendrez pourquoi les sites lents vous énervent et pourquoi vous devriez prioriser la performance sur vos sites et applications.
-description: >-
+excerpt: |
+  L'expérience utilisateur et les performances web sont parmi les meilleurs indicateurs des résultats des entreprises en ligne. Des sites web plus rapides ont des utilisateurs plus heureux. Ces utilisateurs heureux visitent plus longtemps et dépensent plus. Mais pourquoi cela ?
+  
+  En revenant sur l'histoire de l'UX et la recherche sur les performances web, et sur les nouvelles mesures qui sont sur le point d'être mises en place, vous comprendrez pourquoi les sites lents vous énervent et pourquoi vous devriez prioriser la performance sur vos sites et applications.
+description: |
   L'expérience utilisateur et les performances web sont parmi les meilleurs indicateurs des résultats des entreprises en ligne. Des sites web plus rapides ont des utilisateurs plus heureux. Ces utilisateurs heureux visitent plus longtemps et dépensent plus. Mais pourquoi cela ?
 
   Lorsque l'on pense aux performances web, il est facile de tomber dans un abîme de mesures. Temps d'exécution, Start Render, Core Web Vitals, scores Lighthouse… ces mesures sont utiles et nécessaires, mais elles ne sont qu'un moyen d'arriver à une fin : 

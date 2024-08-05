@@ -96,6 +96,10 @@
     }
     &-description {
       grid-area: Description;
+
+      p + p {
+        margin-top: 0.5em;
+      }
     }
 
     .person-links li {
