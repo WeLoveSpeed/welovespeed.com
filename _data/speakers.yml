@@ -135,6 +135,81 @@
       bio_short: Web Developer
       bio: >-
         Umar Hansa est un développeur web basé à Londres qui se consacre à la rédaction d'astuces, de tutoriels et de documentation pour la plateforme web. Il est développeur web dans une société de monitoring de performance web. L'utilisation d'outils de développement, tels que les DevTools, pour améliorer le débogage des performances est un domaine qu'il prévoit d'explorer davantage et d'en partager des informations avec la communauté.
+  tammy_everts:
+    name: Tammy Everts
+    image: /assets/images/speakers/2024/tammy_everts.jpg
+    urls:
+      - name: twitter
+        title: "@tameverts (Twitter)"
+        url: https://twitter.com/tameverts
+      - name: web
+        title: Website
+        url: http://tammyeverts.com/
+    company: SpeedCurve
+    en_US:
+      alt: >-
+        Tammy's mugshot
+      bio_short: UX researcher, writer, and speaker.
+      bio: |
+        Tammy Everts has spent more than two decades studying how people use the web. Over the years, she has worked on groundbreaking UX studies that have involved EEG headsets, facial action coding, and Google's machine-learning system. As Chief Experience Officer at SpeedCurve – a UX monitoring company with a customer list that ranges from Airbnb to Zillow – Tammy's focus over the past 10+ years has been the intersection of user experience, site speed, and business metrics. Her book, Time Is Money: The Business Value of Web Performance (O'Reilly), is a distillation of much of this research.
+
+        Tammy is a sought-after speaker, having spoken at events like Chrome Dev Summit, Shop.org, Smashing Conference, Beyond Tellerrand, and IRCE. She is co-chair of the annual performance.now() conference in Amsterdam. She also co-curates WPO Stats, a collection of web performance case studies.
+    fr_FR:
+      alt: >-
+        Portrait de Tammy
+      bio_short: UX researcher, writer, and speaker.
+      bio: |
+        Tammy Everts a passé plus de vingt ans à étudier la manière dont les gens utilisent le web. Au fil des ans, elle a travaillé sur des études UX révolutionnaires qui ont impliqué des casques EEG, le codage des actions faciales et le système d'apprentissage automatique de Google. En tant que Chief Experience Officer chez SpeedCurve - une société de surveillance UX dont la liste de clients va d'Airbnb à Zillow - Tammy s'est concentrée au cours des dix dernières années sur l'intersection de l'expérience utilisateur, de la vitesse du site et des métriques d'entreprise. Son livre, Time Is Money : The Business Value of Web Performance (O'Reilly), est une distillation d'une grande partie de cette recherche.
+
+        Tammy est une conférencière recherchée, qui s'est exprimée lors d'événements tels que le Chrome Dev Summit, Shop.org, Smashing Conference, Beyond Tellerrand et l'IRCE. Elle est coprésidente de la conférence annuelle performance.now() à Amsterdam. Elle est également co-curatrice de WPO Stats, une collection d'études de cas sur la performance web.
+  thibaut_sabot:
+    name: Thibaut Sabot
+    image: /assets/images/speakers/2024/thibaut_sabot.jpg
+    urls:
+      - name: twitter
+        title: "@thibautsabot (Twitter)"
+        url: https://twitter.com/thibautsabot
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/thibaut-s-2a133788/
+      - name: web
+        title: Website
+        url: https://thibautsabot.fr/
+    company: leboncoin
+    en_US:
+      alt: >-
+        Thibaut's mugshot
+      bio_short: Lead Frontend developer
+      bio: ~
+    fr_FR:
+      alt: >-
+        Portrait de Thibaut
+      bio_short: Lead Frontend developer
+      bio: ~
+  jeremie_pereira:
+    name: Jeremie Pereira
+    image: /assets/images/speakers/2024/jeremie_pereira.jpg
+    urls:
+      - name: twitter
+        title: "@jeremieP (Twitter)"
+        url: https://twitter.com/jeremieP
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/jeremiepereira
+      - name: web
+        title: Website
+        url: https://www.jeremiep.dev
+    company: leboncoinTech
+    en_US:
+      alt: >-
+        Jeremie's mugshot
+      bio_short: Frontend
+      bio: ~
+    fr_FR:
+      alt: >-
+        Portrait de Jeremie
+      bio_short: Frontend
+      bio: ~
   jp_vincent:
     name: Jean-Pierre Vincent
     image: /assets/images/speakers/2024/jp_vincent.jpg
@@ -243,6 +318,30 @@
         Je suis Estela Franco, une spécialiste de la performance web et du SEO avec plus de 10 ans d'expérience dans le numérique. Je suis passionnée par le développement web frontend et j'aime parler et partager sur l'optimisation des performances web, le SEO, JavaScript et Jamstack.
 
         Je travaille en tant que spécialiste de la performance web chez Schneider Electric. Par ailleurs, je suis également Google Developer Expert en technologies web et ambassadrice de Storyblok.
+  tim_vereecke:
+    name: Tim Vereecke
+    image: /assets/images/speakers/2024/tim_vereecke.jpg
+    urls:
+      - name: twitter
+        title: "@TimVereecke (Twitter)"
+        url: https://twitter.com/TimVereecke
+    company: Akamai
+    en_US:
+      alt: >-
+        Tim's mugshot
+      bio_short: Web Performance Architect
+      bio: |
+        Tim Vereecke loves speeding up websites and likes to understand the technical and business aspects of WebPerf since 15+ years.
+
+        He is a Web Performance Architect at Akamai and also runs scalemates.com: the largest (and fastest!) scale modeling website on the planet.
+    fr_FR:
+      alt: >-
+        Portrait de Tim
+      bio_short: Web Performance Architect
+      bio: |
+        Tim Vereecke adore accélérer les sites web et aime comprendre les aspects techniques et commerciaux de la WebPerf depuis plus de 15 ans.
+
+        Il est architecte des performances web chez Akamai et dirige également scalemates.com : le plus grand (et le plus rapide !) site web de modélisation à l'échelle de la planète.
 2023:
   andy_davies:
     name: Andy Davies
