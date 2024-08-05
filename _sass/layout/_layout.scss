@@ -18,6 +18,10 @@
       content: "_";
     }
   }
+
+  &--content {
+    max-width: $wrapper-content-max-width;
+  }
 }
 
 .inline-large {
