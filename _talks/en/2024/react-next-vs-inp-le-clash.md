@@ -6,16 +6,16 @@ length: 45
 pub_date: "2024-07-13"
 speakers:
   - jp_vincent
-title: "React / Next  vs INP : le clash"
+title: "React / Next  vs INP : the clash"
 subtitle: ~
 excerpt: >-
-  Les frameworks JS populaires ne cessent d’afficher leurs benchmarks pour nous prouver qu’ils sont rapides, voire meilleurs que le DOM natif ! Mais l’arrivée de l’INP ainsi que mes 5 dernières années à accélérer ces stacks chez mes clients démontrent que sur des sites normaux, c’est à dire avec plusieurs centaines d’instance de composants par page, il faut une sacré dose d’outillage, d’expertise et même de malice pour ne pas tuer le ressenti utilisateur.
+  Popular JS frameworks are constantly displaying their benchmarks to prove that they are fast, sometimes even better than the native DOM! But the arrival of INP and my 5 years of accelerating these stacks for my clients show that on normal sites, i.e. with several hundred instances of components per page, you need a hell of a lot of tooling, expertise and even cunning to avoid killing the user experience.
 
-  Je vous partage donc mon retour d’expérience sur les différentes versions de Next / React, un peu de Vue / Nuxt et même sur Svelte ou les web components, les astuces qui vont bien et ma méthodologie pour faire en sorte que ça dure.
+  So I'm sharing with you my feedback on the different versions of Next / React, a bit of Vue / Nuxt and even Svelte or web components, the tricks that go well and my methodology for making it last.
 description: >-
-  Les frameworks JS populaires ne cessent d’afficher leurs benchmarks pour nous prouver qu’ils sont rapides, voire meilleurs que le DOM natif ! Mais l’arrivée de l’INP ainsi que mes 5 dernières années à accélérer ces stacks chez mes clients démontrent que sur des sites normaux, c’est à dire avec plusieurs centaines d’instance de composants par page, il faut une sacré dose d’outillage, d’expertise et même de malice pour ne pas tuer le ressenti utilisateur.
+  Popular JS frameworks are constantly displaying their benchmarks to prove that they are fast, sometimes even better than the native DOM! But the arrival of INP and my 5 years of accelerating these stacks for my clients show that on normal sites, i.e. with several hundred instances of components per page, you need a hell of a lot of tooling, expertise and even cunning to avoid killing the user experience.
 
-  Je vous partage donc mon retour d’expérience sur les différentes versions de Next / React, un peu de Vue / Nuxt et même sur Svelte ou les web components, les astuces qui vont bien et ma méthodologie pour faire en sorte que ça dure.
+  So I'm sharing with you my feedback on the different versions of Next / React, a bit of Vue / Nuxt and even Svelte or web components, the tricks that go well and my methodology for making it last.
 slides:
   name: ~
   url: ~

@@ -6,7 +6,7 @@ length: 45
 pub_date: "2024-07-15"
 speakers:
   - robin_marx
-title: "Comment les navigateurs chargent VRAIMENT les pages web"
+title: "How browsers REALLY load Web pages"
 subtitle: ~
 excerpt: >-
   When browsers load a web page, there's a LOT going on under the hood. By examining many different waterfalls, this talk shows how to diagnose them using advanced tools and how to influence their loading. You'll leave with a better understanding of how browsers work, enabling you to fix loading problems and deal with their quirks.
