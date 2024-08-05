@@ -34,26 +34,8 @@
 
           {% include speaker_bios.html conference=conference year=include.year locale=include.locale withAnchors=false appearance="small" %}
 
-          {% include conference_buttons.html verbatim=verbatim other_verbatim=other_verbatim year=include.year locale=include.locale %}
+          {% include conference_buttons.html conference=conference verbatim=verbatim other_verbatim=other_verbatim year=include.year locale=include.locale isExcerpt=true %}
         </article>
-
-        {% if site.current_edition == page.year %}
-          {% if site.tickets.selling or site.infos.schedule %}
-            <p class="text-center">
-              {% if site.current_edition == page.year and site.tickets.selling %}
-                <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t Réserver votre place %}">
-                  <span class="button-inner">{% t Réserver votre place %}</span>
-                </a>
-              {% endif %}
-
-              {% if site.current_edition == page.year and site.infos.schedule %}
-                <a class="button" data-text="{% t Voir sur le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/#{{ conference.slug }}" title="{% t Voir sur le programme %}">
-                  <span class="button-inner">{% t Voir sur le programme %}</span>
-                </a>
-              {% endif %}
-            </p>
-          {% endif %}
-        {% endif %}
       </div>
     </section>
 

@@ -71,7 +71,7 @@ layout: default
       {% endif %}
     {% endif %}
 
-    {% include conference_buttons.html verbatim=verbatim other_verbatim=other_verbatim year=year locale=page.locale %}
+    {% include conference_buttons.html conference=page verbatim=verbatim other_verbatim=other_verbatim year=year locale=page.locale isExcerpt=false %}
 
     {{ verbatim.description | markdownify }}
 
