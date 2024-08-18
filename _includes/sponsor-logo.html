@@ -1,6 +1,6 @@
 {% capture sponsorUrl -%}
   {%- if include.linkAsAnchor -%}
-    {{ site.baseurl }}/{{ include.year|default: site.current_edition }}/{{ "merci" | t: include.locale }}/#{{sponsor.slug}}
+    {{ include.page.baseurl | default:site.baseurl }}/{{ include.year|default: site.current_edition }}/{{ "merci" | t: include.locale }}/#{{sponsor.slug}}
   {%- else -%}
     {{- include.sponsor.url -}}
   {%- endif -%}
