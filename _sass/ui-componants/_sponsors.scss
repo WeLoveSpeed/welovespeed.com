@@ -25,3 +25,56 @@ figure.company {
     margin: 0.5em 0;
   }
 }
+
+.sponsor-grid-gold, .sponsor-grid-others {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--grid-item-min-width), 1fr)
+  );
+  gap: 2rem;
+
+  @include media(">=xxlarge") {
+    gap: 4rem;
+  }
+
+  figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  a {
+    display: block;
+  }
+}
+
+.sponsor-grid-gold {
+  --grid-item-min-width: 100%;
+
+  @include media(">=small") {
+    --grid-item-min-width: 26rem;
+  }
+
+  @include media(">=large") {
+    --grid-item-min-width: 30rem;
+  }
+
+  @include media(">=xlarge") {
+    --grid-item-min-width: 35rem;
+  }
+}
+
+.sponsor-grid-others {
+  --grid-item-min-width: 13rem;
+  margin: 4rem 0;
+  margin: max(4rem, 5%) 0;
+
+  @include media(">=medium") {
+    --grid-item-min-width: 15rem;
+  }
+
+  @include media(">=large") {
+    --grid-item-min-width: 20rem;
+  }
+}

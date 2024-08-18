@@ -7,7 +7,7 @@ permalink: /en/2024/thanks/
 
 {% assign year = page.year | default: site.current_edition %}
 <section class="section">
-  <div class="wrapper">
+  <div class="wrapper wrapper--content">
     <h1 class="text-center">Our sponsors</h1>
     <p>
       E-merchants, solution providers, service providers, they have chosen to
@@ -17,21 +17,11 @@ permalink: /en/2024/thanks/
   </div>
 </section>
 
-{% include sponsors.html locale=page.locale shorturl=true year=year %}
-
-{% if site.current_edition == year and site.sponsoring.show %}
-  <section id="sponsors" class="section">
-    <div class="wrapper">
-      <p class="text-center">
-        {% if site.sponsoring[page.locale] and site.sponsoring[page.locale].up_to_date %}
-          <a class="button" data-text="Open our Sponsorship Kit" href="{{ site.sponsoring[page.locale].url }}"><span class="button-inner">Open our Sponsorship Kit</span></a>
-        {% else %}
-          <a class="button" data-text="Contact us to be among our sponsors" href="/en/contact/"><span class="button-inner">Contact us to be among our sponsors</span></a>
-        {% endif %}
-      </p>
-    </div>
-  </section>
-{% endif %}
+<section class="section">
+  <div class="wrapper">
+    {% include sponsors-preview.html locale=page.locale asSection=false linkAsAnchor=true year=year %}
+  </div>
+</section>
 
 {% if goldCount > 0 and othersCount > 0 %}
   {% include banners/banner-elephant-nantes.html locale=page.locale %}

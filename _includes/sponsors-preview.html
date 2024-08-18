@@ -1,0 +1,85 @@
+{% assign emptyArray = ("" | split: "") %}
+{% assign gold = site.data.sponsors[include.year].gold | default: emptyArray %}
+{% assign goldCount = gold.size %}
+{% assign silver = site.data.sponsors[include.year].silver | default: emptyArray %}
+{% assign silverCount = silver.size %}
+{% assign bronze = site.data.sponsors[include.year].bronze | default: emptyArray %}
+{% assign bronzeCount = bronze.size %}
+{% assign others = site.data.sponsors[include.year].others | default: emptyArray %}
+{% assign othersCount = others.size %}
+{% assign rest = silver | concat: bronze | concat: others %}
+{% assign restCount = rest.size %}
+
+{% capture sponsorLink -%}
+  {%- if site.current_edition == year and site.sponsoring.show -%}
+    <p>
+      <span>{% t Vous souhaitez sponsoriser l’événement ? %}</span>
+      {% if site.sponsoring[include.locale] and site.sponsoring[include.locale].up_to_date %}
+        <a
+          class="button"
+          data-text="{% t Devenir Sponsor %}"
+          target="_blank"
+          href="{{ site.sponsoring[include.locale].url }}">
+          <span class="button-inner">{% t Devenir Sponsor %}</span>
+        </a>
+      {% else %}
+        <a
+          class="button"
+          data-text="Contactez-nous"
+          href="/en/contact/">
+          <span class="button-inner">{% t Contactez-nous %}</span>
+        </a>
+      {% endif %}
+    </p>
+  {%- endif -%}
+{%- endcapture -%}
+
+{% capture mainContent %}
+  {% if goldCount > 0 %}
+    <div class="bordered-section">
+      <h3 class="bordered-section-title">{% t Sponsors Gold %}</h3>
+
+      <div class="text-center sponsor-grid-gold randomize">
+        {%- for sponsor in gold -%}
+          {% include sponsor-logo.html locale=include.locale year=include.year sponsor=sponsor linkAsAnchor=true %}
+        {%- endfor -%}
+      </div>
+
+      <div class="bordered-section-footer">
+        {{ sponsorLink }}
+      </div>
+    </div>
+  {% else %}
+    {{ sponsorLink }}
+  {% endif %}
+
+  {% if restCount > 0 %}
+    {%- assign gridSize = 3 -%}
+    {%- if restCount < gridSize -%}
+      {% assign gridSize = restCount %}
+    {%- endif -%}
+
+    <div class="text-center sponsor-grid-others randomize">
+      {%- for sponsor in rest -%}
+        {% include sponsor-logo.html locale=include.locale year=include.year sponsor=sponsor linkAsAnchor=false %}
+      {%- endfor -%}
+    </div>
+  {% endif %}
+{% endcapture %}
+
+{% if mainContent %}
+  {% if include.asSection %}
+    <section class="section" id="sponsors">
+      <div class="wrapper">
+        <div class="text-center">
+          <p class="sub-title">{% t Nos sponsors %}</p>
+          <h2>{% t Ils nous soutiennent %}</h2>
+        </div>
+
+        {{ mainContent }}
+      </div>
+    </section>
+  {% else %}
+    {{ mainContent }}
+  {% endif %}
+{% endif %}

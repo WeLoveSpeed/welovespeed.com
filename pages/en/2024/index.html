@@ -255,42 +255,8 @@ hide_banner: true
     </p>
   </div>
 </section>{% endif %}<section class="section" id="conferences">
-<div class="wrapper">
-  <h2 class="text-center">They support us!</h2>
-  <p>E-merchants, solution providers, service providers, they support us for the love of UX and Web performance. Without them, there would be no event. Thank you very much!</p>
-
-  <p class="text-center">
-    {% assign goldCount = site.data.sponsors[page.year].gold.size %}
-    {% assign othersCount = site.data.sponsors[page.year].others.size %}
-    {% if goldCount > 0 or othersCount > 0 %}
-      <a
-        class="button"
-        data-text="Read More"
-        target="_blank"
-        href="{{ page.baseurl | default: site.baseurl }}/{{page.year}}/{{ "merci" | t: page.locale }}/">
-        <span class="button-inner">Read More</span>
-      </a>
-    {% endif %}
-
-    {% if site.current_edition == year and site.sponsoring.show %}
-      {% if site.sponsoring[page.locale] and site.sponsoring[page.locale].up_to_date %}
-        <a
-          class="button"
-          data-text="Open our Sponsorship Kit"
-          href="{{ site.sponsoring[page.locale].url }}">
-          <span class="button-inner">Open our Sponsorship Kit</span>
-        </a>
-      {% else %}
-        <a
-          class="button"
-          data-text="Contact us to be among our sponsors"
-          href="/en/contact/">
-          <span class="button-inner">Contact us to be among our sponsors</span>
-        </a>
-      {% endif %}
-    {% endif %}
-  </p>
-</div></section>{% include sponsors.html locale=page.locale shorturl=false year=year hideOthers=false %}{% include banners/banner-cocktail.html locale=page.locale %}<section id="staff" class="section">
+{% include sponsors-preview.html locale=page.locale year=page.year asSection=true linkAsAnchor=false %}
+{% include banners/banner-cocktail.html locale=page.locale %}<section id="staff" class="section">
 <div class="wrapper">
   {% include staff.html year=year %}
 </div></section>
