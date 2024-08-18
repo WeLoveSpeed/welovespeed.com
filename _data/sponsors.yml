@@ -805,7 +805,9 @@
           text: "See our Website"
           url: https://www.datadoghq.com
         description: |+
-          The integrated platform for monitoring & security.
+          Datadog is the observability and security platform for cloud applications. Our SaaS platform integrates and automates infrastructure monitoring, application performance monitoring, log management, real-user monitoring and much more to provide unified, real-time observability and security for our customers' entire technology stack.
+
+          Datadog is used by organizations of all sizes and in a wide range of sectors to enable digital transformation and cloud migration, foster collaboration between development, operations, security and business teams, accelerate application time-to-market, reduce problem resolution time, secure applications and infrastructure, understand user behavior and track key business metrics.
     - name: Le Bon Coin
       slug: leboncoin
       logo: /assets/images/thanks/lbc.svg
@@ -850,7 +852,9 @@
           text: "See our Website"
           url: https://www.dynatrace.com/
         description: |+
-          Simplify cloud complexity and innovate faster and more securely with the only analytics and automation platform powered by causal AI.
+          Built on the technical expertise of Peaksys, the IT subsidiary of Cdiscount, Baleen is a cutting-edge cybersecurity solution designed to protect web applications and APIs against the most sophisticated cyberattacks, while guaranteeing flawless performance and optimum availability.
+
+          Relying on complementary and innovative services (WAAP, WAF browser, CDN, Antibot AI, RUM), Baleen protects the critical online services of more than 30 leading institutional and private players, keen to optimize their user experience and strengthen their resilience in a constantly evolving threat landscape.
   others:
     - name: Globalis Media Systems
       logo: /assets/images/2024/thanks/globalis-ms.png
