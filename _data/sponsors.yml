@@ -817,7 +817,7 @@
           Fondée en 2006 et comptant plus de 32 millions de visiteurs uniques par mois, leboncoin est la destination incontournable en France pour acheter, vendre et mettre en relation tout un chacun. Cette année, on viendra même faire un talk sur “Performance monitoring  Quoi et comment mesurer ?” avec Thibaut (Lead frontend engineer) et Jérémie (Frontend architect and evangelist). Vous voulez tout savoir sur comment on interprète la data chez leboncoin ? On vous attend.
 
           En 2024, c'est plus de +600 collaborateur.ices Product & Tech, entre Paris et Nantes, unis pour faire vivre la communauté leboncoin tech, rassemblant notre identité et nos valeurs: une tech plus responsable, du peer-learning avec des communautés externes et enfin, l’envie d’apprendre et d’avancer ensemble.
-          
+
           Organisées en guildes et communautés de pratique, nos équipes Tech n’hésitent pas à partager leurs connaissances en interne… et en externe !
 
           D’ailleurs, vous pouvez consulter notre Medium pour lire nos histoires tech : https://medium.com/leboncoin-engineering-blog ou notre X/Linkedin pour en savoir plus sur notre communauté https://twitter.com/leboncoinEng // https://www.linkedin.com/showcase/leboncoin-tech/
@@ -867,3 +867,6 @@
     - name: Baleen
       logo: /assets/images/thanks/baleen.svg
       url: https://baleen.cloud/
+    - name: SpeedCurve
+      logo: /assets/images/thanks/speedcurve.svg
+      url: https://www.speedcurve.com/
