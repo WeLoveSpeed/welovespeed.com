@@ -855,6 +855,21 @@
           Built on the technical expertise of Peaksys, the IT subsidiary of Cdiscount, Baleen is a cutting-edge cybersecurity solution designed to protect web applications and APIs against the most sophisticated cyberattacks, while guaranteeing flawless performance and optimum availability.
 
           Relying on complementary and innovative services (WAAP, WAF browser, CDN, Antibot AI, RUM), Baleen protects the critical online services of more than 30 leading institutional and private players, keen to optimize their user experience and strengthen their resilience in a constantly evolving threat landscape.
+    - name: Google
+      slug: google
+      logo: /assets/images/thanks/google.svg
+      fr_FR:
+        cta:
+          text: "Découvrez Google"
+          url: https://web.dev
+        description: |+
+          Google est un acteur clé de l‘écosystème Web en matière de performances Web, innovant en permanence pour optimiser les performances. Nous avons introduit des outils et des cadres tels que Core Web Vitals, les rapports Chrome User Experience, Lighthouse et PageSpeed ​​Insights qui permettent à chacun de créer des sites Web plus rapides, plus réactifs et plus conviviaux. Notre site de contenu https://web.dev propose une multitude d‘informations, de recommandations et de bonnes pratiques pour guider les développeurs dans la création de sites Web rapides, sécurisés et accessibles.
+      en_US:
+        cta:
+          text: "See our Website"
+          url: https://web.dev
+        description: |+
+          Google is a key player in the web ecosystem when it comes to web performance, continuously innovating to optimize performance. We‘ve introduced tools and frameworks such as the Core Web Vitals, Chrome User Experience reports, Lighthouse, and PageSpeed Insights that empower everyone to build faster, more responsive, and user-friendly websites. Our content site https://web.dev offers a wealth of information, recommendations, and best practices to guide developers in creating websites that are fast, secure and accessible.
   others:
     - name: Globalis Media Systems
       logo: /assets/images/2024/thanks/globalis-ms.png
