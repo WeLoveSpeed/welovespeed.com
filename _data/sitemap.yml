@@ -17,6 +17,12 @@
     edition_relative: true
     in_nav: true
     in_footer: true
+  - name: Programme
+    type: page
+    value: programme
+    edition_relative: false
+    in_nav: true
+    in_footer: false
   - name: Infos pratiques
     type: page
     value: infos-pratiques
