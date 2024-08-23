@@ -628,3 +628,151 @@
     values:
       fr_FR: Et voilà, c'est fini ! À l'année prochaine !
       en_US: And that's it! See you next year!
+2024:
+  - type: headers
+    values:
+      - fr_FR: Salle du fond
+        en_US: Last room
+      - fr_FR: Salle de devant
+        en_US: First room
+      - fr_FR: Atelier gauche
+        en_US: Workshop, left
+      - fr_FR: Atelier droite
+        en_US: Workshop, right
+  - type: pause
+    hour: "08:50"
+    values:
+      fr_FR: Accueil des participant·es
+      en_US: Attendees' welcome
+  - type: short
+    hour: "09:30"
+    values:
+      fr_FR: Plénière d'ouverture, salle du fond
+      en_US: Conference Opening, last room
+  - type: talks
+    hour: "09:45"
+    values:
+      - 2023-talk-taming-third-party-speed-impact
+      - 2023-talk-lets-talk-about-value
+  - type: short
+    hour: "10:20"
+    values:
+      fr_FR: Déplacements
+      en_US: Switch
+  - type: talks
+    hour: "10:25"
+    values:
+      - 2023-talk-how-to-prioritize-web-performance-optimizations
+      - 2023-talk-measure-or-die-quick-diagnosis
+  - type: short
+    hour: "11:20"
+    values:
+      fr_FR: Déplacements
+      en_US: Switch
+  - type: pause-talk-talk
+    hour: "11:25"
+    values:
+      - fr_FR: Pause Café et Ateliers 🧰
+        en_US: Coffee Break and Workshops 🧰
+        span: 2
+      - 2023-talk-atelier-1-1-braincracking-debugging-web-performance
+      - 2023-talk-atelier-1-2-dynatrace
+  - type: short
+    hour: "11:50"
+    values:
+      fr_FR: "C'est l'heure de reprendre"
+      en_US: "Time to start again!"
+  - type: talks
+    hour: "11:55"
+    values:
+      - 2023-talk-web-protocols-for-frontend-developers
+      - 2023-talk-understanding-cognitive-biais-in-performance-measurement
+  - type: short
+    hour: "12:50"
+    values:
+      fr_FR: Déplacements
+      en_US: Switch
+  - type: pause-talk-talk
+    hour: "12:55"
+    values:
+      - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
+        en_US: Lunch Break 🍱 and Workshops 🧰
+        span: 2
+      - 2023-talk-atelier-2-1-theodo-coding-your-own-synthetic-monitoring-solution
+      - 2023-talk-atelier-2-2-appyuser-optimize-digital-experience-reduce-environmental-footprint
+  - type: pause-talk-talk
+    hour: "13:20"
+    values:
+      - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
+        en_US: Lunch Break 🍱 and Workshops 🧰
+        span: 2
+      - 2023-talk-atelier-3-1-scaleflex-images-impact-webperf
+      - 2023-talk-atelier-3-2-fasterize-web-performance-clinic
+  - type: short
+    hour: "13:55"
+    values:
+      fr_FR: "C'est l'heure de reprendre"
+      en_US: "Time to start again!"
+  - type: talks
+    hour: "14:05"
+    values:
+      - 2023-talk-how-to-become-web-performance-sherlock-holmes
+      - 2023-talk-noise-canceling-rum
+  - type: short
+    hour: "15:00"
+    values:
+      fr_FR: Déplacements
+      en_US: Switch
+  - type: talks
+    hour: "15:05"
+    values:
+      - 2023-talk-top-cwv-recommandations-2023
+      - 2023-talk-lazy-hydrate-never-hydrate-resumable-js
+  - type: pause-talk-talk
+    hour: "15:35"
+    values:
+      - fr_FR: Pause Café et Ateliers 🧰
+        en_US: Coffee Break and Workshops 🧰
+        span: 2
+      - 2023-talk-atelier-4-1-google-speculation-rules-api
+      - 2023-talk-atelier-4-2-ekino-create-resumable-application-with-qwik
+  - type: short
+    hour: "16:05"
+    values:
+      fr_FR: Déplacements
+      en_US: Switch
+  - type: talks
+    hour: "16:15"
+    values:
+      - 2023-talk-soft-navigations-are-hard
+      - 2023-talk-feedback-turn-a-crisis-into-web-performance-victory
+  - type: short
+    hour: "17:05"
+    values:
+      fr_FR: Déplacements
+      en_US: Switch
+  - type: talks
+    hour: "17:10"
+    values:
+      - 2023-talk-accessibilite-et-webperf
+      - 2023-talk-seo-webperf-impact
+  - type: short
+    hour: "17:40"
+    values:
+      fr_FR: Déplacements
+      en_US: Switch
+  - type: short
+    hour: "17:45"
+    values:
+      fr_FR: Plénière de clôture (salle du fond)
+      en_US: Closing (Last room)
+  - type: pause
+    hour: "17:55"
+    values:
+      fr_FR: Pôt d‘adieu ?
+      en_US: A last drink ?
+  - type: short
+    hour: "19:30"
+    values:
+      fr_FR: Fermeture
+      en_US: Closing
