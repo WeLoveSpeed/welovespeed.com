@@ -1,7 +1,7 @@
 ---
 display-order: 7
 talk_locale: en_US
-i18n-key: 2024-performance-debugging-with-devtools
+i18n-key: 2024-talk-performance-debugging-with-devtools
 length: 45
 pub_date: "2024-07-15"
 speakers:
