@@ -1,7 +1,7 @@
 ---
 display-order: 8
 talk_locale: en_US
-i18n-key: 2024-pushing-webperf-limits
+i18n-key: 2024-talk-pushing-webperf-limits
 length: 45
 pub_date: "2024-07-15"
 speakers:
