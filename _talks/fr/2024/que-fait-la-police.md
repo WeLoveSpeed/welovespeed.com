@@ -1,7 +1,7 @@
 ---
 display-order: 14
 talk_locale: fr_FR
-i18n-key: 2024-police
+i18n-key: 2024-talk-que-fait-la-police
 length: 25
 pub_date: "2024-08-23"
 speakers:
