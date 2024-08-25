@@ -1,7 +1,7 @@
 ---
 display-order: 6
 talk_locale: fr_FR
-i18n-key: 2024-evaluation-impact-environnemental-sites-web
+i18n-key: 2024-talk-evaluation-impact-environnemental-sites-web
 length: 25
 pub_date: "2024-07-15"
 speakers:
