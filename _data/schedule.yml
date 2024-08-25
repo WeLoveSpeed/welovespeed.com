@@ -652,8 +652,8 @@
   - type: talks
     hour: "09:45"
     values:
-      - 2023-talk-alors-la-vitesse-ca-paye
-      - 2023-talk-HTMX-atout-SSR
+      - 2024-talk-alors-la-vitesse-ca-paye
+      - 2024-talk-HTMX-atout-SSR
   - type: short
     hour: "10:20"
     values:
