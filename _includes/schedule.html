@@ -4,7 +4,7 @@
       {% t Programme %}
     </h1>
     <table summary="{{ "Programme heure par heure" | t:include.locale }}" class="schedule-container">
-      <caption class="sr-only">Conférences de We Love Speed {{ include.year }}</caption>
+      <caption class="sr-only">{% t Conférences de We Love Speed %}{{ include.year }}</caption>
       <tbody class="schedule-body">
           {%- for line in site.data.schedule[include.year] -%}
           {% case line.type %}
