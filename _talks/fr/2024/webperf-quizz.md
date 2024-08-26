@@ -1,7 +1,7 @@
 ---
 display-order: 10
 talk_locale: fr_FR
-i18n-key: 2024-webperf-quizz
+i18n-key: 2024-talk-webperf-quizz
 length: 25
 pub_date: "2024-07-13"
 speakers:
