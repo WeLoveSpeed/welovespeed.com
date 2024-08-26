@@ -756,7 +756,7 @@
   - type: talks
     hour: "17:10"
     values:
-      - 2024-talk-webperformance-testing
+      - 2024-talk-HTMX-atout-SSR
       - 2024-talk-que-fait-la-police
   - type: short
     hour: "17:40"
