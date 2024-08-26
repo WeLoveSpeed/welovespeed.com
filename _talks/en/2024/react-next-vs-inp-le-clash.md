@@ -1,7 +1,7 @@
 ---
 display-order: 5
 talk_locale: fr_FR
-i18n-key: 2024-react-next-vs-inp-le-clash
+i18n-key: 2024-talk-react-next-vs-inp-le-clash
 length: 45
 pub_date: "2024-07-13"
 speakers:

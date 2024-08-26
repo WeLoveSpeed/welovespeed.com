@@ -1,7 +1,7 @@
 ---
 display-order: 12
 talk_locale: fr_FR
-i18n-key: 2024-performance-monitoring
+i18n-key: 2024-talk-performance-monitoring
 length: 45
 pub_date: "2024-07-15"
 speakers:

@@ -1,7 +1,7 @@
 ---
 display-order: 1
 talk_locale: en_US
-i18n-key: 2024-how-browsers-really-load-web-pages
+i18n-key: 2024-talk-how-browsers-really-load-web-pages
 length: 45
 pub_date: "2024-07-15"
 speakers:

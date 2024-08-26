@@ -1,7 +1,7 @@
 ---
 display-order: 9
 talk_locale: en_US
-i18n-key: 2024-we-love-loaf-inp
+i18n-key: 2024-talk-we-love-loaf-inp
 length: 45
 pub_date: "2024-07-13"
 speakers:

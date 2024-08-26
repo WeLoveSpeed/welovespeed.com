@@ -1,7 +1,7 @@
 ---
 display-order: 2
 talk_locale: fr_FR
-i18n-key: 2024-alors-la-vitesse-ca-paye
+i18n-key: 2024-talk-alors-la-vitesse-ca-paye
 length: 25
 pub_date: "2024-07-13"
 speakers:

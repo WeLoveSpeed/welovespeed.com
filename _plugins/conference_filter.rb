@@ -25,14 +25,16 @@ module Jekyll
       end
 
       for entry in site.data['schedule'][site['current_edition']]
-        entry['values'].each_with_index do | value, index |
-          if (!value.kind_of?(Hash) && !value.kind_of?(Array))
-            room = site.data['schedule'][site['current_edition']][0]['values'][index]['fr_FR']
-            data["/talks/" + site['current_edition'].to_s + "/" + value] = {
-              'hour': entry['hour'],
-              'index': index,
-              'room': room,
-            }
+        if entry['values']
+          entry['values'].each_with_index do | value, index |
+            if (!value.kind_of?(Hash) && !value.kind_of?(Array))
+              room = site.data['schedule'][site['current_edition']][0]['values'][index]['fr_FR']
+              data["/talks/" + site['current_edition'].to_s + "/" + value] = {
+                'hour': entry['hour'],
+                'index': index,
+                'room': room,
+              }
+            end
           end
         end
       end

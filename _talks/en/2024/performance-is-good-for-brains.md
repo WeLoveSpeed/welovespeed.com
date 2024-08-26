@@ -1,7 +1,7 @@
 ---
 display-order: 4
 talk_locale: en_US
-i18n-key: 2024-how-i-made-the-web-more-responsive
+i18n-key: 2024-talk-performance-is-good-for-brains
 length: 45
 pub_date: "2024-07-15"
 speakers:

@@ -1,7 +1,7 @@
 ---
 display-order: 11
 talk_locale: en_US
-i18n-key: 2024-webperformance-testing
+i18n-key: 2024-talk-webperformance-testing
 length: 25
 pub_date: "2024-07-15"
 speakers:

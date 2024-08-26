@@ -7,4 +7,4 @@ sass:
   style: uncompressed
 
 cloudinary:
-  origin_url: "https://welovespeed.netlify.com"
+  origin_url: "https://www.welovespeed.com"

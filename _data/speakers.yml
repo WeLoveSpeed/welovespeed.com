@@ -1,4 +1,52 @@
 2024:
+  eroan_boyer:
+    name: Eroan	Boyer
+    image: /assets/images/speakers/2024/eroan-boyer.jpg
+    urls:
+      - name: web
+        title: site
+        url: https://www.eboyer.com/
+      - name: twitter
+        title: Twitter
+        url: https://twitter.com/eroan
+      - name: linkedin
+        title: LinkedIn
+        url: https://fr.linkedin.com/in/eroan
+    company: Agence Web Performance
+    fr_FR:
+      alt: Portrait de Eroan
+      bio_short: Expert en Web Performance
+      bio: |
+        Expert en Web Performance au sein de son agence spécialisée, Eroan Boyer est avant tout un passionné des technologies du web. Il accompagne les entreprises dans l‘amélioration de la performance de leurs sites et applications web à travers des audits, optimisations et de la monté en compétences. Avec déjà 24 années d‘expérience, HTML, CSS et JavaScript n‘ont aucun secret pour lui.
+    en_US:
+      alt: Eroan‘s mugshot
+      bio_short: Web Performance Expert
+      bio: |
+        Expert en Web Performance au sein de son agence spécialisée, Eroan Boyer est avant tout un passionné des technologies du web. Il accompagne les entreprises dans l‘amélioration de la performance de leurs sites et applications web à travers des audits, optimisations et de la monté en compétences. Avec déjà 24 années d‘expérience, HTML, CSS et JavaScript n‘ont aucun secret pour lui.
+  ewen_quimerch:
+    name: Ewen Quimerc‘h
+    image: /assets/images/speakers/2024/ewen.jpg
+    urls:
+      - name: linkedin
+        title: LinkedIn
+        url: https://www.linkedin.com/in/ewen-quimerch/
+      - name: github
+        title: GitHub
+        url: https://github.com/EwenQuim
+      - name: web
+        title: Site personnel
+        url: https://ewen.quimerch.com/
+    company: Theodo
+    fr_FR:
+      alt: Portrait de Ewen
+      bio_short: Web Performance Expert & Open-Source Maintainer
+      bio: |
+        I‘m a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.comNice to meet you! From @CentraleSupelec engineering school. Working @Theodo. I'm a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.com 
+    en_US:
+      alt: Ewen‘s mugshot
+      bio_short: Web Performance Expert & Open-Source Maintainer
+      bio: |
+        I‘m a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.comNice to meet you! From @CentraleSupelec engineering school. Working @Theodo. I'm a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.com 
   lisa_pasqualini:
     name: Lisa Pasqualini
     image: /assets/images/speakers/2024/lisa_pasqualini.jpg
