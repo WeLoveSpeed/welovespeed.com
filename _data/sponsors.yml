@@ -890,11 +890,14 @@
       logo: /assets/images/thanks/speedcurve.svg
       url: https://www.speedcurve.com/
     - name: Mozilla
-      logo: /assets/images/thanks/mozilla.svg
-      url: https://www.mozilla.org/fr/
+      logo: /assets/images/thanks/firefox-by-mozilla.png
+      url: https://www.mozilla.org/firefox/new/
     - name: Journal du Net
       logo: /assets/images/thanks/jdn.svg
       url: https://www.journaldunet.com/
     - name: Atanar
       logo: /assets/images/thanks/atanar.png
       url: https://www.atanar.com/
+    - name: Stickermule
+      logo: /assets/images/thanks/stickermule.svg
+      url: https://www.stickermule.com/fr
