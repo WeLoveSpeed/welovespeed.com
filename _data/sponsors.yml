@@ -901,3 +901,6 @@
     - name: Stickermule
       logo: /assets/images/thanks/stickermule.svg
       url: https://www.stickermule.com/fr
+    - name: Fastly
+      logo: /assets/images/thanks/fastly.svg
+      url: https://www.fastly.com/
