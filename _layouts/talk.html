@@ -21,11 +21,9 @@ layout: default
     {%- if forloop.last == false %}|{% endif -%}
   {%- endfor -%}
 {%- endcapture -%}
-
 {%- capture array_to_sentence_word -%}
   {{- "et" | t: page.locale -}}
 {%- endcapture -%}
-
 {%- assign verbatim = page -%}
 {%- assign other_verbatim = page.translation %}
 
@@ -38,34 +36,73 @@ layout: default
     /{{ year }}/
   {%- endif -%}
 {%- endcapture -%}
+{% assign hasCta = false %}
+{% assign hasOtherCta = false %}
+{% if verbatim.cta and page.year == site.current_edition %}
+  {% assign hasCta = true %}
+{% endif %}
+{% if other_verbatim.cta and page.year == site.current_edition %}
+  {% assign hasOtherCta = true %}
+{% endif %}
 
 {% assign seo_title = verbatim.title %}
 
 <section class="section">
   <div class="wrapper wrapper--content">
     <header class="conference-header text-left">
-      <h1>{{ verbatim.title }} {% if verbatim.subtitle %}<br><small>{{ verbatim.subtitle }}</small>{% endif %}</h1>
+      <h1>{{ verbatim.title }}
+        {% if verbatim.subtitle %}<br><small>{{ verbatim.subtitle }}</small>
+        {% endif %}
+      </h1>
       <p>
         {% if page.speakers.size > 0 %}
           par {{ speakers | split: '|' | array_to_sentence_string: array_to_sentence_word }},
         {% endif %}
-        édition <a href="{{ page.baseurl | default:site.baseurl }}{{ interventionsUrl }}#{{ page.slug }}">{{ year }}</a>
+        édition
+        <a href="{{ page.baseurl | default:site.baseurl }}{{ interventionsUrl }}#{{ page.slug }}">{{ year }}</a>
       </p>
     </header>
 
     {% if site.current_edition == year %}
-      {% if site.tickets.selling or site.infos.schedule %}
+      {% if site.tickets.selling or site.infos.schedule or hasCta or hasOtherCta %}
         <p class="text-left actions">
+          {% if hasCta %}
+            <a
+              class="button"
+              data-text="{{ verbatim.cta.name }}"
+              href="{{ verbatim.cta.url }}"
+              title="{{ verbatim.cta.name }}">
+              <span class="button-inner">{{ verbatim.cta.name }}</span>
+            </a>
+          {% elsif hasOtherCta %}
+            {% capture text_button %}{{ other_verbatim.cta.name }} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+            <a
+              class="button"
+              data-text="{{ text_button }}"
+              href="{{ other_verbatim.cta.url }}"
+              title="{{ text_button }}">
+              <span class="button-inner">{{ text_button }}</span>
+            </a>
+          {% endif %}
+
           {% if site.current_edition == page.year and site.tickets.selling %}
-          <a class="button" data-text="{% t Réserver votre place %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/" title="{% t Réserver votre place %}">
-            <span class="button-inner">{% t Réserver votre place %}</span>
-          </a>
+            <a
+              class="button"
+              data-text="{% t Réserver votre place %}"
+              href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "billetterie" | t: page.locale }}/"
+              title="{% t Réserver votre place %}">
+              <span class="button-inner">{% t Réserver votre place %}</span>
+            </a>
           {% endif %}
 
           {% if site.current_edition == page.year and site.infos.schedule %}
-          <a class="button" data-text="{% t Voir sur le programme %}" href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/#{{ page.slug }}" title="{% t Voir sur le programme %}">
-            <span class="button-inner">{% t Voir sur le programme %}</span>
-          </a>
+            <a
+              class="button"
+              data-text="{% t Voir sur le programme %}"
+              href="{{ page.baseurl | default:site.baseurl }}/{{ page.year }}/{{ "programme" | t: page.locale }}/#{{ page.slug }}"
+              title="{% t Voir sur le programme %}">
+              <span class="button-inner">{% t Voir sur le programme %}</span>
+            </a>
           {% endif %}
         </p>
       {% endif %}
@@ -75,7 +112,7 @@ layout: default
 
     {{ verbatim.description | markdownify }}
 
-    <hr />
+    <hr/>
 
     {% include speaker_bios.html conference=page year=year locale=page.locale withAnchors=true appearance="large" %}
 
@@ -84,8 +121,12 @@ layout: default
       <nav class="conference-navigation">
         {% if page.previous_talk %}
           <a href="{{ page.previous_talk.url }}" class="conference-navigation-prev">
-            <svg width="1em" role="img" viewBox="0 0 448 512" aria-hidden="true">
-              <use xlink:href="{{ symbols-url | append: 'arrow-left' | relative_url }}"/>
+            <svg
+              width="1em"
+              role="img"
+              viewBox="0 0 448 512"
+              aria-hidden="true">
+              <use xlink:href="{{ symbols-url | append: 'arrow-left' | relative_url }}" />
             </svg>
             <span class="conference-navigation-name">
               <small>{% t Conférence précédente %}</small>
@@ -99,8 +140,12 @@ layout: default
               <small>{% t Conférence suivante %}</small>
               <span class="conference-navigation-title">{{ page.next_talk.title }}</span>
             </span>
-            <svg width="1em" role="img" viewBox="0 0 448 512" aria-hidden="true">
-              <use xlink:href="{{ symbols-url | append: 'arrow-right' | relative_url }}"/>
+            <svg
+              width="1em"
+              role="img"
+              viewBox="0 0 448 512"
+              aria-hidden="true">
+              <use xlink:href="{{ symbols-url | append: 'arrow-right' | relative_url }}" />
             </svg>
           </a>
         {% endif %}

@@ -41,12 +41,12 @@
       alt: Portrait de Ewen
       bio_short: Web Performance Expert & Open-Source Maintainer
       bio: |
-        I‘m a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.comNice to meet you! From @CentraleSupelec engineering school. Working @Theodo. I'm a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.com 
+        I‘m a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.comNice to meet you! From @CentraleSupelec engineering school. Working @Theodo. I'm a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.com
     en_US:
       alt: Ewen‘s mugshot
       bio_short: Web Performance Expert & Open-Source Maintainer
       bio: |
-        I‘m a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.comNice to meet you! From @CentraleSupelec engineering school. Working @Theodo. I'm a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.com 
+        I‘m a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.comNice to meet you! From @CentraleSupelec engineering school. Working @Theodo. I'm a computer science enthusiast about web technologies & AI. I am beginning to have serious skills in software development (Python, TypeScript, Go) and Unix-based systems. Learn more about my projects at ewen.quimerch.com
   lisa_pasqualini:
     name: Lisa Pasqualini
     image: /assets/images/speakers/2024/lisa_pasqualini.jpg
@@ -390,6 +390,86 @@
         Tim Vereecke adore accélérer les sites web et aime comprendre les aspects techniques et commerciaux de la WebPerf depuis plus de 15 ans.
 
         Il est architecte des performances web chez Akamai et dirige également scalemates.com : le plus grand (et le plus rapide !) site web de modélisation à l'échelle de la planète.
+  barry_pollard:
+    name: Barry Pollard
+    image: /assets/images/speakers/2024/barry_pollard.jpg
+    urls:
+      - name: twitter
+        title: "@tunetheweb (Twitter)"
+        url: https://twitter.com/tunetheweb
+    company: Google
+    en_US:
+      alt: >-
+        Barry's mugshot
+      bio_short: Web Performance Developer Advocate
+      bio: |
+        Web Performance Developer Advocate on the Google Chrome team
+    fr_FR:
+      alt: >-
+        Portrait de Barry
+      bio_short: Web Performance Developer Advocate
+      bio: |
+        Web Performance Developer Advocate pour l'équipe de Google Chrome
+  julian_de_maestri:
+    name: Julian de Maestri
+    image: /assets/images/speakers/2024/julian_de_maestri.png
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/julian-de-maestri-13830040/
+    company: Scaleflex
+    en_US:
+      alt: >-
+        Julian's mugshot
+      bio_short: CTO
+      bio: |
+        CTO
+    fr_FR:
+      alt: >-
+        Portrait de Julian
+      bio_short: CTO
+      bio: |
+        CTO
+  nicolas_hodin:
+    name: Nicolas Hodin
+    image: /assets/images/speakers/2024/nicolas_hodin.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/nicolashodin/
+    company: Fasterize
+    en_US:
+      alt: >-
+        Nicolas's mugshot
+      bio_short: Webperf Expert
+      bio: |
+        Webperf Expert
+    fr_FR:
+      alt: >-
+        Portrait de Nicolas
+      bio_short: Expert Webperf
+      bio: |
+        Expert Webperf
+  mouloud_azzedine:
+    name: Mouloud Azzedine
+    image: /assets/images/speakers/2024/mouloud_azzedine.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/mouloud-azzedine-9b608781/
+    company: Fasterize
+    en_US:
+      alt: >-
+        Mouloud's mugshot
+      bio_short: Customer Success Engineer
+      bio: |
+        Customer Success Engineer
+    fr_FR:
+      alt: >-
+        Portrait de Mouloud
+      bio_short: Customer Success Engineer
+      bio: |
+        Customer Success Engineer
 2023:
   andy_davies:
     name: Andy Davies
@@ -583,13 +663,13 @@
     en_US:
       alt: >-
         Mel's mugshot
-      bio_short: 'Senior Software Engineer II'
+      bio_short: "Senior Software Engineer II"
       bio: |
         Mel co-organizes the NY Web Performance Meetup and recently co-authored <a href="https://almanac.httparchive.org/en/2022/performance"  target="_blank" rel="nofollow">the Web Performance Chapter of Web Almanac 2022</a>. She is currently a Senior Software Engineer II on Etsy’s Web Performance team and a Google Developer Expert in Core Web Vitals.
     fr_FR:
       alt: >-
         Portrait de Mel
-      bio_short: 'Senior Software Engineer II'
+      bio_short: "Senior Software Engineer II"
       bio: |
         Mel co-organise le NY Web Performance Meetup et a récemment co-rédigé <a href="https://almanac.httparchive.org/en/2022/performance" target="_blank" rel="nofollow">le chapitre sur les performances Web de Web Almanac 2022</a>. Elle est actuellement Ingénieure Logiciel Senior II au sein de l'équipe de Performance Web d'Etsy et Experte Développeuse Google sur les Core Web Vitals.
   ludovic_lefebvre:
@@ -1445,11 +1525,11 @@
         url: https://www.linkedin.com/in/matt-r-hobbs/
     company: UK Government Digital Service
     en_US:
-      bio_short: 'Head of Frontend Development'
+      bio_short: "Head of Frontend Development"
       bio: |
         Matt Hobbs is Head of Frontend Development at the Government Digital Service. An experienced frontend developer, he is passionate about using his skills to build accessible and performant user interfaces. Matt makes a point of keeping on top of the latest technology and tools, is interested in all aspects of interface development, and is a keen advocate for best practice.
     fr_FR:
-      bio_short: 'Head of Frontend Development'
+      bio_short: "Head of Frontend Development"
       bio: |
         Matt est Responsable du développement <span lang="en">front-end</span> au Service Numérique Gouvernemental du Royaume-Uni. Développeur Front expérimenté, il est passionné par l'utilisation de ses compétences pour créer des interfaces utilisateur accessibles et performantes. Matt se fait un point d'honneur de rester à la pointe de la technologie et des outils les plus récents, s'intéresse à tous les aspects du développement d'interfaces et est un ardent défenseur des bonnes pratiques Web.
   estelle:

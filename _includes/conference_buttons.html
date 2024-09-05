@@ -12,49 +12,107 @@
 
 {% if include.isExcerpt or hasCta or verbatim.transcript or verbatim.slides.url or verbatim.video.url or hasOtherCta or other_verbatim.transcript or other_verbatim.slides.url or other_verbatim.video.url %}
   <p class="conference-actions actions text-left">
-    {% if hasCta %}
-      <a class="button" data-text="{{ verbatim.cta.name }}" href="{{ verbatim.cta.url }}" title="{{ verbatim.cta.name }}"><span class="button-inner">{{ verbatim.cta.name }}</span></a>
-    {% elsif hasOtherCta %}
-      {% capture text_button %}{{ other_verbatim.cta.name }} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-      <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.cta.url }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
-    {% endif %}
-
     {% if verbatim.transcript %}
-      <a class="button" data-text="{% t Lire la version textuelle %}" href="{{ verbatim.transcript }}" title="{% t Lire la version textuelle %}"><span class="button-inner">{% t Lire la version textuelle %}</span></a>
+      <a
+        class="button"
+        data-text="{% t Lire la version textuelle %}"
+        href="{{ verbatim.transcript }}"
+        title="{% t Lire la version textuelle %}">
+        <span class="button-inner">{% t Lire la version textuelle %}</span>
+      </a>
     {% elsif other_verbatim.transcript %}
       {% capture text_button %}{% t Lire la version textuelle %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
-      <a class="button" data-text="{{ text_button }}" href="{{ other_verbatim.transcript }}" title="{{ text_button }}"><span class="button-inner">{{ text_button }}</span></a>
+      <a
+        class="button"
+        data-text="{{ text_button }}"
+        href="{{ other_verbatim.transcript }}"
+        title="{{ text_button }}">
+        <span class="button-inner">{{ text_button }}</span>
+      </a>
     {% endif %}
 
     {% if verbatim.slides.url %}
       {% capture defaultLabel %}{{ "Consulter le support" | t: include.locale }}{% endcapture %}
       {% assign label = verbatim.slides.name | default: defaultLabel %}
-      <a class="button" data-text="{{ label }}" href="{{ verbatim.slides.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
+      <a
+        class="button"
+        data-text="{{ label }}"
+        href="{{ verbatim.slides.url }}"
+        title="{{ label }}">
+        <span class="button-inner">{{ label }}</span>
+      </a>
     {% elsif other_verbatim.slides.url %}
       {% capture defaultLabel %}{% t Consulter le support %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
       {% capture label %}{{ verbatim.slides.name | default: defaultLabel }}{% endcapture %}
-      <a class="button" data-text="{{ label }}" href="{{ other_verbatim.slides.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
+      <a
+        class="button"
+        data-text="{{ label }}"
+        href="{{ other_verbatim.slides.url }}"
+        title="{{ label }}">
+        <span class="button-inner">{{ label }}</span>
+      </a>
     {% endif %}
 
     {% if verbatim.video.url %}
       {% capture defaultLabel %}{{ "Voir la vidéo" | t: include.locale }}{% endcapture %}
       {% assign label = verbatim.video.name | default: defaultLabel %}
-      <a class="button" data-text="{{ label }}" href="{{ verbatim.video.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
+      <a
+        class="button"
+        data-text="{{ label }}"
+        href="{{ verbatim.video.url }}"
+        title="{{ label }}">
+        <span class="button-inner">{{ label }}</span>
+      </a>
     {% elsif other_verbatim.video.url %}
       {% capture defaultLabel %}{% t Voir la vidéo %} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
       {% capture label %}{{ other_verbatim.video.name | default: defaultLabel }}{% endcapture %}
-      <a class="button" data-text="{{ label }}" href="{{ other_verbatim.video.url }}" title="{{ label }}"><span class="button-inner">{{ label }}</span></a>
+      <a
+        class="button"
+        data-text="{{ label }}"
+        href="{{ other_verbatim.video.url }}"
+        title="{{ label }}">
+        <span class="button-inner">{{ label }}</span>
+      </a>
     {% endif %}
 
     {% if include.isExcerpt %}
-      <a class="button invert" data-text="{% t Voir plus %}" href="{{ include.conference.url }}" title="{{ verbatim.title }}">
-        <span class="button-inner">{% t Voir plus %}</span>
-      </a>
+      {% unless hasCta or hasOtherCta %}
+        <a
+          class="button invert"
+          data-text="{% t Voir plus %}"
+          href="{{ include.conference.url }}"
+          title="{{ verbatim.title }}">
+          <span class="button-inner">{% t Voir plus %}</span>
+        </a>
+      {% endunless %}
 
       {% if site.current_edition == conference.year %}
+        {% if hasCta %}
+          <a
+            class="button"
+            data-text="{{ verbatim.cta.name }}"
+            href="{{ verbatim.cta.url }}"
+            title="{{ verbatim.cta.name }}">
+            <span class="button-inner">{{ verbatim.cta.name }}</span>
+          </a>
+        {% elsif hasOtherCta %}
+          {% capture text_button %}{{ other_verbatim.cta.name }} ({% if include.locale == "en_US" %}fr{% else %}en{% endif %}){% endcapture %}
+          <a
+            class="button"
+            data-text="{{ text_button }}"
+            href="{{ other_verbatim.cta.url }}"
+            title="{{ text_button }}">
+            <span class="button-inner">{{ text_button }}</span>
+          </a>
+        {% endif %}
+
         {% if site.tickets.selling or site.infos.schedule %}
           {% if site.current_edition == conference.year and site.tickets.selling %}
-            <a class="button" data-text="{% t Réserver votre place %}" href="{{ conference.baseurl | default:site.baseurl }}/{{ conference.year }}/{{ "billetterie" | t: conference.locale }}/" title="{% t Réserver votre place %}">
+            <a
+              class="button"
+              data-text="{% t Réserver votre place %}"
+              href="{{ conference.baseurl | default:site.baseurl }}/{{ conference.year }}/{{ "billetterie" | t: conference.locale }}/"
+              title="{% t Réserver votre place %}">
               <span class="button-inner">{% t Réserver votre place %}</span>
             </a>
           {% endif %}

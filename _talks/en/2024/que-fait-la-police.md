@@ -9,14 +9,14 @@ speakers:
 title: "Mais que fait la police ?"
 subtitle: ~
 excerpt: |
-  Les polices d'écritures constituent un pan incontournable du web moderne. Faciles à intégrer, elles contribuent à forger l’identité visuelle d’un site, reflétant ses valeurs et son positionnement, qu’il soit dynamique, contemporain, sérieux ou plus informel. Toutefois, nos très chères webfonts dissimulent une réalité plus douloureuse : elles peuvent considérablement ralentir les performances d'un site, affectant ainsi l'expérience utilisateur (UX).
+  Fonts are an essential part of the modern web. Easy to integrate, they help forge a site's visual identity, reflecting its values and positioning, whether dynamic, contemporary, serious or more informal. However, our beloved webfonts conceal a more painful reality: they can considerably slow down a site's performance, affecting the user experience (UX).
 
 description: |
-  Les polices d'écritures constituent un pan incontournable du web moderne. Faciles à intégrer, elles contribuent à forger l’identité visuelle d’un site, reflétant ses valeurs et son positionnement, qu’il soit dynamique, contemporain, sérieux ou plus informel. Toutefois, nos très chères webfonts dissimulent une réalité plus douloureuse : elles peuvent considérablement ralentir les performances d'un site, affectant ainsi l'expérience utilisateur (UX).
+  Fonts are an essential part of the modern web. Easy to integrate, they help forge a site's visual identity, reflecting its values and positioning, whether dynamic, contemporary, serious or more informal. However, our beloved webfonts conceal a more painful reality: they can considerably slow down a site's performance, affecting the user experience (UX).
 
-  Dans cette conférence, il vous invite à explorer en détail le domaine des polices de caractères. Il exposera les défis spécifiques que posent ces éléments sur les performances des sites et leur effet sur les Core Web Vitals. Il présentera également des stratégies d'optimisation éprouvées pour faire face à ces dégradations.
+  In this talk, he invites you to explore fonts in detail. He will outline the specific challenges these elements pose to site performance and their effect on Core Web Vitals. He will also present proven optimization strategies for dealing with these degradations.
 
-  Vous découvrirez les outils open-source, les APIs navigateurs et les standards HTML/CSS qui permettent d'optimiser l'utilisation des polices web, garantissant une intégration qui ne compromet pas la fluidité ni la rapidité de votre site.
+  You'll discover the open-source tools, browser APIs and HTML/CSS standards that can optimize the use of web fonts, ensuring integration that doesn't compromise your site's fluidity or speed.
   
 slides:
   name: ~

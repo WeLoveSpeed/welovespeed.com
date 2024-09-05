@@ -158,56 +158,58 @@ layout: admin
       </h1>
     </div>
 
-    {% if conference.speakers.size == 1 %}
-      <div class="speakers">
-        {% for speaker in conference.speakers %}
+    {% unless conference.workshop %}
+      {% if conference.speakers.size == 1 %}
+        <div class="speakers">
+          {% for speaker in conference.speakers %}
+            <div class="person">
+              <img class="avatar" alt="speaker" src="{{ speaker.image }}" width="100" height="100" />
+              <p class="person-name">
+                {{ speaker.name }}<br>
+                <small>
+                  {{ speaker.bio_short }}
+                  {%- if speaker.company -%}
+                    , {{ speaker.company }}
+                  {%- endif -%}
+                </small>
+              </p>
+            </div>
+          {% endfor %}
+        </div>
+      {% elsif conference.speakers.size > 1 %}
+        <div class="speakers speakers--multiple" style="--number-of-speakers: {{ conference.speakers.size }}">
           <div class="person">
-            <img class="avatar" alt="speaker" src="{{ speaker.image }}" width="100" height="100" />
-            <p class="person-name">
-              {{ speaker.name }}<br>
-              <small>
-                {{ speaker.bio_short }}
-                {%- if speaker.company -%}
-                  , {{ speaker.company }}
+            <div class="avatar-list">
+              {% for speaker in conference.speakers %}
+                <div class="avatar-list-item">
+                  <img class="avatar" alt="speaker" src="{{ speaker.image }}" width="100" height="100" />
+                </div>
+              {% endfor %}
+            </div>
+            <div class="person-name">
+              {% for speaker in conference.speakers %}
+                {%- if forloop.first == false -%}
+                  {% if forloop.last %}
+                    {% if locale == 'fr_FR' -%}
+                      et
+                    {%- else -%}
+                      and
+                    {%- endif %}
+                  {% else -%}
+                    ,
+                  {% endif -%}
                 {%- endif -%}
-              </small>
-            </p>
-          </div>
-        {% endfor %}
-      </div>
-    {% elsif conference.speakers.size > 1 %}
-      <div class="speakers speakers--multiple" style="--number-of-speakers: {{ conference.speakers.size }}">
-        <div class="person">
-          <div class="avatar-list">
-            {% for speaker in conference.speakers %}
-              <div class="avatar-list-item">
-                <img class="avatar" alt="speaker" src="{{ speaker.image }}" width="100" height="100" />
-              </div>
-            {% endfor %}
-          </div>
-          <div class="person-name">
-            {% for speaker in conference.speakers %}
-              {%- if forloop.first == false -%}
-                {% if forloop.last %}
-                  {% if locale == 'fr_FR' -%}
-                    et
-                  {%- else -%}
-                    and
-                  {%- endif %}
-                {% else -%}
-                  ,
-                {% endif -%}
-              {%- endif -%}
-              {{- speaker.name -}}
-            {% endfor %}
-            {% if conference.speakers.size <= 3 %}
-              <br>
-              <small>{{ conference.speakers | map: "company" | uniq | join: " / " }}</small>
-            {% endif %}
+                {{- speaker.name -}}
+              {% endfor %}
+              {% if conference.speakers.size <= 3 %}
+                <br>
+                <small>{{ conference.speakers | map: "company" | uniq | join: " / " }}</small>
+              {% endif %}
+            </div>
           </div>
         </div>
-      </div>
-    {% endif %}
+      {% endif %}
+    {% endunless %}
 
     <footer class="footer">
       welovespeed.com/{{ conference.year }}/

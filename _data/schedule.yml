@@ -662,8 +662,6 @@
   - type: talks
     hour: "10:25"
     values:
-      #   - 2023-talk-how-to-prioritize-web-performance-optimizations
-      #   - 2023-talk-measure-or-die-quick-diagnosis
       - 2024-talk-performance-is-good-for-brains
       - 2024-talk-react-next-vs-inp-le-clash
   - type: short
@@ -677,8 +675,8 @@
       - fr_FR: Pause Café et Ateliers 🧰
         en_US: Coffee Break and Workshops 🧰
         span: 2
-      # - 2023-talk-atelier-1-1-braincracking-debugging-web-performance
-      # - 2023-talk-atelier-1-2-dynatrace
+      - 2024-talk-atelier-1-1-fasterize
+      - 2024-talk-atelier-2-1-scaleflex
   - type: short
     hour: "11:50"
     values:
@@ -700,16 +698,21 @@
       - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
         en_US: Lunch Break 🍱 and Workshops 🧰
         span: 2
-      # - 2023-talk-atelier-2-1-theodo-coding-your-own-synthetic-monitoring-solution
-      # - 2023-talk-atelier-2-2-appyuser-optimize-digital-experience-reduce-environmental-footprint
-  - type: pause-talk-talk
+      - 2024-talk-atelier-1-2-dynatrace
+      - 2024-talk-atelier-2-2-braincracking
+  - type: short
     hour: "13:20"
+    values:
+      fr_FR: Déplacements
+      en_US: Switch
+  - type: pause-talk-talk
+    hour: "13:25"
     values:
       - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
         en_US: Lunch Break 🍱 and Workshops 🧰
         span: 2
-      # - 2023-talk-atelier-3-1-scaleflex-images-impact-webperf
-      # - 2023-talk-atelier-3-2-fasterize-web-performance-clinic
+      - 2024-talk-atelier-1-3-datadog
+      - 2024-talk-atelier-2-3-google
   - type: short
     hour: "13:55"
     values:
@@ -730,14 +733,19 @@
     values:
       - 2024-talk-evaluation-impact-environnemental-sites-web
       - 2024-talk-webperformance-testing
-  - type: pause-talk-talk
+  - type: short
     hour: "15:35"
+    values:
+      fr_FR: Déplacements
+      en_US: Switch
+  - type: pause-talk-talk
+    hour: "15:45"
     values:
       - fr_FR: Pause Café et Ateliers 🧰
         en_US: Coffee Break and Workshops 🧰
         span: 2
-      # - 2023-talk-atelier-4-1-google-speculation-rules-api
-      # - 2023-talk-atelier-4-2-ekino-create-resumable-application-with-qwik
+      - 2024-talk-atelier-1-4-leboncoin
+      - 2024-talk-atelier-2-4-atanar
   - type: short
     hour: "16:05"
     values:

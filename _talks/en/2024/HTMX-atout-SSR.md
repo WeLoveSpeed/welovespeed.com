@@ -6,12 +6,12 @@ length: 25
 pub_date: "2024-08-23"
 speakers:
   - ewen_quimerch
-title: "HTMX, le nouvel atout pour vos projets SSR"
+title: "HTMX, the new asset for your SSR projects"
 subtitle: ~
 excerpt: |
-  HTMX a fait beaucoup parler en 2024. Découvrez, à travers de vrais exemples, comment cette librairie peut améliorer à la fois l‘expérience utilisateur et la performance d‘un site SSR grâce à des techniques telles que le rendu partiel des pages (composants rendus côté serveur), le lazy loading, le chargement incrémental et le streaming.
+  HTMX was the talk of the town in 2024. Discover, through real examples, how this library can improve both the user experience and the performance of an SSR site, thanks to techniques such as partial page rendering (server-side rendered components), lazy loading, incremental loading and streaming.
 description: |
-  HTMX a fait beaucoup parler en 2024. Découvrez, à travers de vrais exemples, comment cette librairie peut améliorer à la fois l'expérience utilisateur et la performance d'un site SSR grâce à des techniques telles que le rendu partiel des pages (composants rendus côté serveur), le lazy loading, le chargement incrémental et le streaming. 
+  HTMX was the talk of the town in 2024. Discover, through real examples, how this library can improve both the user experience and the performance of an SSR site, thanks to techniques such as partial page rendering (server-side rendered components), lazy loading, incremental loading and streaming.
 slides:
   name: ~
   url: ~
