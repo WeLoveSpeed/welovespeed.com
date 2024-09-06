@@ -739,7 +739,7 @@
       fr_FR: Déplacements
       en_US: Switch
   - type: pause-talk-talk
-    hour: "15:45"
+    hour: "15:40"
     values:
       - fr_FR: Pause Café et Ateliers 🧰
         en_US: Coffee Break and Workshops 🧰
