@@ -6,6 +6,7 @@ length: 25
 pub_date: "2024-07-13"
 speakers:
   - anthony_barre
+  - nicolas_hodin
 title: "Testez vos connaissances webperf à travers notre quizz interactif !"
 subtitle: ~
 excerpt: |
