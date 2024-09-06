@@ -470,6 +470,66 @@
       bio_short: Customer Success Engineer
       bio: |
         Customer Success Engineer
+  nazim_saouli:
+    name: Nazim Saouli
+    image: /assets/images/speakers/2024/nazim_saouli.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/nazimsaouli/
+    company: Datadog
+    en_US:
+      alt: >-
+        Nazim's mugshot
+      bio_short: Staff Frontend Engineer
+      bio: |
+        Staff Frontend Engineer
+    fr_FR:
+      alt: >-
+        Portrait de Nazim
+      bio_short: Staff Frontend Engineer
+      bio: |
+        Staff Frontend Engineer
+  guilherme_thompson:
+    name: Guilherme Thompson
+    image: /assets/images/speakers/2024/guilherme_thompson.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/guilhermethompson/
+    company: Dynatrace
+    en_US:
+      alt: >-
+        Guilherme's mugshot
+      bio_short: Senior Manager en Data Science & Engineering
+      bio: |
+        Senior Manager en Data Science & Engineering
+    fr_FR:
+      alt: >-
+        Portrait de Guilherme
+      bio_short: Senior Manager en Data Science & Engineering
+      bio: |
+        Senior Manager en Data Science & Engineering
+  damien_wetzel:
+    name: Damien Wetzel
+    image: /assets/images/speakers/2024/damien_wetzel.jpg
+    urls:
+      - name: linkedin
+        title: "LinkedIn"
+        url: https://www.linkedin.com/in/damien-wetzel-2050503/
+    company: Atanar Technologies
+    en_US:
+      alt: >-
+        Damien's mugshot
+      bio_short: Owner and Founder
+      bio: |
+        Owner and Founder
+    fr_FR:
+      alt: >-
+        Portrait de Damien
+      bio_short: Owner and Founder
+      bio: |
+        Owner and Founder
 2023:
   andy_davies:
     name: Andy Davies

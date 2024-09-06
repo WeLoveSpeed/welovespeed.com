@@ -6,6 +6,8 @@ length: 25
 pub_date: "2024-09-05"
 title: "[Dynatrace] Optimize the essentials"
 subtitle: "A causal AI approach to prioritize site improvements based on business impacts."
+speakers:
+  - guilherme_thompson
 excerpt: >-
   The Dynatrace Opportunity Insights application introduces a novel approach to improving web performance, with a focus on understanding the impact on sales and user experience of slowness or errors. Using causal AI and real user data (RUM), Opportunity Insights identifies the crucial performance and error metrics affecting site results, and quantifies the potential business impact of targeted optimizations. This enables decision-makers and application managers to make data-driven decisions to maximize results, moving from traditional static recommendations to dynamic strategies contextualized to the application. In this presentation, we'll explore the engine that powers Opportunity Insights.
 description: >-

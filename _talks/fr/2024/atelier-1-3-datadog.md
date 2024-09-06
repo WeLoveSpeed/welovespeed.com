@@ -6,10 +6,10 @@ length: 25
 pub_date: "2024-09-05"
 title: "[Datadog] Améliorez vos applications web, du frontend au backend"
 subtitle: ~
-excerpt: "Améliorez vos applications web, du frontend au backend.
-À mesure que les applications modernes gagnent en complexité avec l'utilisation de microservices, de micro-frontends et de déploiements rapides en CI/CD, garantir des performances optimales et une expérience utilisateur fluide devient un défi. Découvrez comment surveiller, mesurer et optimiser en toute confiance les performances de votre application à travers des systèmes distribués, afin d'offrir une expérience utilisateur exceptionnelle.  "
-description: "Améliorez vos applications web, du frontend au backend.
-À mesure que les applications modernes gagnent en complexité avec l'utilisation de microservices, de micro-frontends et de déploiements rapides en CI/CD, garantir des performances optimales et une expérience utilisateur fluide devient un défi. Découvrez comment surveiller, mesurer et optimiser en toute confiance les performances de votre application à travers des systèmes distribués, afin d'offrir une expérience utilisateur exceptionnelle."
+speakers:
+  - nazim_saouli
+excerpt: "À mesure que les applications modernes gagnent en complexité avec l'utilisation de microservices, de micro-frontends et de déploiements rapides en CI/CD, garantir des performances optimales et une expérience utilisateur fluide devient un défi. Découvrez comment surveiller, mesurer et optimiser en toute confiance les performances de votre application à travers des systèmes distribués, afin d'offrir une expérience utilisateur exceptionnelle.  "
+description: "À mesure que les applications modernes gagnent en complexité avec l'utilisation de microservices, de micro-frontends et de déploiements rapides en CI/CD, garantir des performances optimales et une expérience utilisateur fluide devient un défi. Découvrez comment surveiller, mesurer et optimiser en toute confiance les performances de votre application à travers des systèmes distribués, afin d'offrir une expérience utilisateur exceptionnelle."
 slides:
   name: ~
   url: ~
