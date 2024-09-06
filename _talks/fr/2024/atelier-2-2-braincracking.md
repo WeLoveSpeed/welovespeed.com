@@ -18,5 +18,7 @@ slides:
 video:
   name: ~
   url: ~
-cta: ~
+cta:
+  name: S'inscrire à l'atelier
+  url: https://docs.google.com/forms/d/e/1FAIpQLSd5jNTsRLSNshVEVfXk5r8ZLlUfxqGHP1opJs0-UmrD2gG5Eg/viewform
 ---
