@@ -23,5 +23,5 @@ video:
   url: ~
 cta:
   name: Register for the workshop (fr)
-  url: https://docs.google.com/forms/d/1z6ek95TK0lsGwGX52krSoKXdeHy7R0CD8RsS6yoPtFQ/edit
+  url:  https://docs.google.com/forms/d/e/1FAIpQLSfSYP9Ptgn6t2FwiFaXHds--_PAdlWwNGLu98UUYcyCkwD0JA/viewform?usp=sf_link
 ---
