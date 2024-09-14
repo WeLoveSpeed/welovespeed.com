@@ -35,11 +35,11 @@ layout: page
 
 #### **Tram**
 
-Line 1 direct from the town center towards Beaujoire, get off at Beaujoire or Ranzay terminus Beaujoire station gives access to the main entrance to the exhibition center. The exhibition center is right in front of you as you get off the tram.
+Line 1 direct from the town center towards Beaujoire, get off at Beaujoire station. It gives access to exhibition center's main entrance. It will be right in front of you as you get off the tram.
 
-Ranzay station gives access to entrance 2 of the park. The exhibition center is on your right as you get off the tramway (pedestrian path that crosses over the ring road).
+Avoid Ranzay station because it gives access to entrance 2 which is closed.
 
-[Download the tramway timetable (FR, 3.9 MB)](https://naolib.fr/fr/fiche-horaires-ligne-1) and map: <a href="https://naolib.fr/en">https://naolib.fr/en (EN)</a>
+The app Naolib ([Android](https://play.google.com/store/apps/details?id=com.semitan.tan&hl=en&pli=1) or [iOS](https://apps.apple.com/fr/app/naolib-tram-bus/id502653639)) will allow you to buy and activate tickets. Ideal if you want to buy those in advance and to be all set when you arrive at Nantes. Don't forget to activate the ticket once you get in the tram, not before.
 
 #### **Bus**
 

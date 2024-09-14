@@ -35,11 +35,11 @@ Le 17 septembre 2024.
 
 #### **Tramway**
 
-Ligne 1 directe du centre ville direction Beaujoire, descente terminus Beaujoire ou Ranzay La Station Beaujoire donne accès à l’entrée principale du parc. Le parc des expositions est face à vous à la descente du tramway.
+Ligne 1 directe du centre ville direction Beaujoire, descente terminus Beaujoire. La Station Beaujoire donne accès à l’entrée principale du parc. Le parc des expositions est face à vous à la descente du tramway.
 
-La Station Ranzay donne accès à l’entrée 2 du parc. Le parc des expositions est sur votre droite à la descente du tramway (chemin piéton qui passe au-dessus du périphérique).
+Evitez la Station Ranzay car elle donne sur l'entrée 2 qui est fermée.
 
-Télécharger les horaires et le plan de la ligne de tramway : <a href="https://www.tan.fr">www.tan.fr</a>
+L'application Naolib ([Android](https://play.google.com/store/apps/details?id=com.semitan.tan&hl=fr&pli=1) ou [iOS](https://apps.apple.com/fr/app/naolib-tram-bus/id502653639))permet d'acheter et d'activer ses billets de tram en ligne. Idéal pour acheter vos billets en avance et ne plus avoir à s'en soucier une fois à Nantes. Ne pas oublier d'activer son billet en montant dans le tram, pas avant.
 
 #### **Bus**
 
