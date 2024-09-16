@@ -647,13 +647,13 @@
   - type: short
     hour: "09:30"
     values:
-      fr_FR: Plénière d'ouverture, salle 2
-      en_US: Conference Opening, room 2
+      fr_FR: Plénière d'ouverture, salle 1
+      en_US: Conference Opening, room 1
   - type: talks
     hour: "09:45"
     values:
-      - 2024-talk-HTMX-atout-SSR
       - 2024-talk-alors-la-vitesse-ca-paye
+      - 2024-talk-HTMX-atout-SSR
   - type: short
     hour: "10:20"
     values:
@@ -662,8 +662,8 @@
   - type: talks
     hour: "10:25"
     values:
-      - 2024-talk-react-next-vs-inp-le-clash
       - 2024-talk-performance-is-good-for-brains
+      - 2024-talk-react-next-vs-inp-le-clash
   - type: short
     hour: "11:20"
     values:
@@ -675,8 +675,8 @@
       - fr_FR: Pause Café et Ateliers 🧰
         en_US: Coffee Break and Workshops 🧰
         span: 2
-      - 2024-talk-atelier-2-1-scaleflex
       - 2024-talk-atelier-1-1-fasterize
+      - 2024-talk-atelier-2-1-scaleflex
   - type: short
     hour: "11:50"
     values:
@@ -685,8 +685,8 @@
   - type: talks
     hour: "11:55"
     values:
-      - 2024-talk-performance-debugging-with-devtools
       - 2024-talk-we-love-loaf-inp
+      - 2024-talk-performance-debugging-with-devtools
   - type: short
     hour: "12:50"
     values:
@@ -698,8 +698,8 @@
       - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
         en_US: Lunch Break 🍱 and Workshops 🧰
         span: 2
-      - 2024-talk-atelier-2-2-braincracking
       - 2024-talk-atelier-1-2-dynatrace
+      - 2024-talk-atelier-2-2-braincracking
   - type: short
     hour: "13:20"
     values:
@@ -711,8 +711,8 @@
       - fr_FR: Pause Déjeuner 🍱 et ateliers 🧰
         en_US: Lunch Break 🍱 and Workshops 🧰
         span: 2
-      - 2024-talk-atelier-2-3-google
       - 2024-talk-atelier-1-3-datadog
+      - 2024-talk-atelier-2-3-google
   - type: short
     hour: "13:55"
     values:
@@ -721,8 +721,8 @@
   - type: talks
     hour: "14:05"
     values:
-      - 2024-talk-how-i-made-the-web-more-responsive
       - 2024-talk-performance-monitoring
+      - 2024-talk-how-i-made-the-web-more-responsive
   - type: short
     hour: "15:00"
     values:
@@ -731,8 +731,8 @@
   - type: talks
     hour: "15:05"
     values:
-      - 2024-talk-webperformance-testing
       - 2024-talk-evaluation-impact-environnemental-sites-web
+      - 2024-talk-webperformance-testing
   - type: short
     hour: "15:35"
     values:
@@ -744,8 +744,8 @@
       - fr_FR: Pause Café et Ateliers 🧰
         en_US: Coffee Break and Workshops 🧰
         span: 2
-      - 2024-talk-atelier-2-4-atanar
       - 2024-talk-atelier-1-4-leboncoin
+      - 2024-talk-atelier-2-4-atanar
   - type: short
     hour: "16:05"
     values:
@@ -754,8 +754,8 @@
   - type: talks
     hour: "16:15"
     values:
-      - 2024-talk-how-browsers-really-load-web-pages
       - 2024-talk-pushing-webperf-limits
+      - 2024-talk-how-browsers-really-load-web-pages
   - type: short
     hour: "17:05"
     values:
@@ -764,8 +764,8 @@
   - type: talks
     hour: "17:10"
     values:
-      - 2024-talk-que-fait-la-police
       - 2024-talk-webperf-quizz
+      - 2024-talk-que-fait-la-police
   - type: short
     hour: "17:40"
     values:
@@ -774,8 +774,8 @@
   - type: short
     hour: "17:45"
     values:
-      fr_FR: Plénière de clôture (salle 2)
-      en_US: Closing (Room 2)
+      fr_FR: Plénière de clôture (salle 1)
+      en_US: Closing (Room 1)
   - type: pause
     hour: "17:55"
     values:
