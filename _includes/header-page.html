@@ -43,7 +43,7 @@
           </a>
         {% else %}
           <a
-            href="{{ page.baseurl | default: site.baseurl }}/{{ page.year }}/{% t interventions %}"
+            href="{{ page.baseurl | default: site.baseurl }}/{{ page.year | default: site.current_edition }}/{% t interventions %}"
             class="button"
             data-text="{% t Voir les conférences %}"
             title="{% t Voir les conférences %}">
