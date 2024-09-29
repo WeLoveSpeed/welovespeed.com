@@ -3,10 +3,10 @@
 
 {% assign hasCta = false %}
 {% assign hasOtherCta = false %}
-{% if verbatim.cta and include.year == site.current_edition %}
+{% if verbatim.cta.url and include.year == site.current_edition %}
   {% assign hasCta = true %}
 {% endif %}
-{% if other_verbatim.cta and include.year == site.current_edition %}
+{% if other_verbatim.cta.url and include.year == site.current_edition %}
   {% assign hasOtherCta = true %}
 {% endif %}
 

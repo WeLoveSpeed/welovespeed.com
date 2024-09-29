@@ -20,6 +20,6 @@ video:
   name: ~
   url: ~
 cta:
-  name: Register for the workshop (fr)
-  url: https://docs.google.com/forms/d/e/1FAIpQLScdc_G_NqZr_0b3c8Kl7THQC3CwTk4ulXmCeudFIhxusv1MFQ/viewform?usp=sf_link
+  name: ~
+  url: ~
 ---

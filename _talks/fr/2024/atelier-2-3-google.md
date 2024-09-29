@@ -17,6 +17,6 @@ video:
   name: ~
   url: ~
 cta:
-  name: S'inscrire à l'atelier (en)
-  url: https://docs.google.com/forms/d/e/1FAIpQLSfCY3-A4wrnP5nRguLlwCGav8pw8PBgePYmf7Yv2ryixWgT3Q/viewform?usp=sf_link
+  name: ~
+  url: ~
 ---

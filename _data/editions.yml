@@ -5,8 +5,8 @@
     width: 2400
     height: 1600
   tagline:
-    fr_FR: "L’événement français des mordus de web performance revient... à Nantes !"
-    en_US: "The French event for web performance enthusiasts is back... in Nantes!"
+    fr_FR: "Revivez l’événement français des mordus de web performance !"
+    en_US: "The French event for web performance enthusiasts!"
   date:
     day: 17
     month:

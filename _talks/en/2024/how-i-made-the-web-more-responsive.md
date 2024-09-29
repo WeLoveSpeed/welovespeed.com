@@ -24,7 +24,7 @@ description: |
   - Do's and don'ts to keep your website responsive to user input
 slides:
   name: ~
-  url: ~
+  url: /assets/docs/2024/how-i-made-the-web-more-responsive-andrea-verlicchi-WeLoveSpeed2024.pdf
 video:
   name: ~
   url: ~

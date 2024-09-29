@@ -38,10 +38,10 @@ layout: default
 {%- endcapture -%}
 {% assign hasCta = false %}
 {% assign hasOtherCta = false %}
-{% if verbatim.cta and page.year == site.current_edition %}
+{% if verbatim.cta.url and page.year == site.current_edition %}
   {% assign hasCta = true %}
 {% endif %}
-{% if other_verbatim.cta and page.year == site.current_edition %}
+{% if other_verbatim.cta.url and page.year == site.current_edition %}
   {% assign hasOtherCta = true %}
 {% endif %}
 

@@ -15,7 +15,7 @@ description: |
   Let us show you how much fun it can be to improve INP! With memes, technical deep dives, and revolutionary solutions in RUM + Chrome's new API LoAF, we'll help you tame those first and third parties!
 slides:
   name: ~
-  url: ~
+  url: /assets/docs/2024/we-love-loaf-inp-nantes-karlijn-lowik-erwin-hofman-WeLoveSpeed2024.pdf
 video:
   name: ~
   url: ~

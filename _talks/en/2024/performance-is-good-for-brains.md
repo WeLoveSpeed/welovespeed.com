@@ -10,7 +10,7 @@ title: "Performance Is Good for Brains!"
 subtitle: ~
 excerpt: |
   User experience and web performance are among the best indicators of online business outcomes. Faster websites have happier users. Those happy users visit longer and spend more. But why is that?
-  
+
   By looking back at the history of UX, web performance research, and the new metrics that are just around the corner, you'll understand why slow sites enrage you, and why you prioritize making your sites and apps as fast as possible. We still have so much to learn. But if we stay on course, we’ll get there.
 description: |
   User experience and web performance are among the best indicators of online business outcomes. Faster websites have happier users. Those happy users visit longer and spend more. But why is that?
@@ -26,7 +26,7 @@ description: |
   We still have so much to learn. Some day we’ll laugh at how much we assumed and how little we actually knew. But if we stay on course, we’ll get there.
 slides:
   name: ~
-  url: ~
+  url: https://speakerdeck.com/tammyeverts/performance-is-good-for-brains-we-love-speed-2024
 video:
   name: ~
   url: ~

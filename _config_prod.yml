@@ -28,7 +28,7 @@ matomo: false
 current_edition: 2024
 cfp_open: false
 sponsoring:
-  show: true
+  show: false
   fr_FR:
     up_to_date: true
     url: 'https://docs.google.com/presentation/d/1ZlUBB1bLQdpPg31CIt3E8wrhViNJ9BUkCNKO2v-AeYo/view'
@@ -38,15 +38,15 @@ sponsoring:
     url: 'https://docs.google.com/presentation/d/1uGA8Ru-gvgK7JVF1mn7YYOhBHqGxbowL0RigB3bsgT8/view'
     size: '1.5MB'
 tickets:
-  selling: true # pensez à regénérer les bannières de conférence avant mise en prod
-  weezevent: true
+  selling: false # pensez à regénérer les bannières de conférence avant mise en prod
+  weezevent: false
   coupons-only: false
   waiting-list: false
   price: "200"
   price_currency: "EUR"
 nlOnTop: true
 infos:
-  display: true
+  display: false
   diversity:
     active: false
     soldout: false

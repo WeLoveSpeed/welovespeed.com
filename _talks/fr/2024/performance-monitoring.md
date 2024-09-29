@@ -15,7 +15,7 @@ description: |
   Nous savons qu’un site performant offre de nombreux avantages, mais comment pouvons-nous savoir qu’il l’est ? Nous aborderons les indicateurs de performance à mesurer, comment le faire et qu’est-ce que cela représente concrètement. Grâce à notre expérience sur leboncoin, nous sommes armés pour s’assurer que notre site reste toujours au top !
 slides:
   name: ~
-  url: ~
+  url: /assets/docs/2024/performance-monitoring-jeremie-pereira-thibaut-sabot-WeLoveSpeed2024.pdf
 video:
   name: ~
   url: ~
