@@ -11,10 +11,10 @@ subtitle: ~
 excerpt: |
   HTMX a fait beaucoup parler en 2024. Découvrez, à travers de vrais exemples, comment cette librairie peut améliorer à la fois l‘expérience utilisateur et la performance d‘un site SSR grâce à des techniques telles que le rendu partiel des pages (composants rendus côté serveur), le lazy loading, le chargement incrémental et le streaming.
 description: |
-  HTMX a fait beaucoup parler en 2024. Découvrez, à travers de vrais exemples, comment cette librairie peut améliorer à la fois l'expérience utilisateur et la performance d'un site SSR grâce à des techniques telles que le rendu partiel des pages (composants rendus côté serveur), le lazy loading, le chargement incrémental et le streaming. 
+  HTMX a fait beaucoup parler en 2024. Découvrez, à travers de vrais exemples, comment cette librairie peut améliorer à la fois l'expérience utilisateur et la performance d'un site SSR grâce à des techniques telles que le rendu partiel des pages (composants rendus côté serveur), le lazy loading, le chargement incrémental et le streaming.
 slides:
   name: ~
-  url: ~
+  url: /assets/docs/2024/htmx-le-nouvel-atout-perf-pour-vos-projets-ssr-ewen-quimerc-h-WeLoveSpeed2024.pdf
 video:
   name: ~
   url: ~

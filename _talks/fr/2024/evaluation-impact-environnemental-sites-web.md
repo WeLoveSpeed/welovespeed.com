@@ -18,7 +18,7 @@ description: |
   Quels sont les outils et méthodes existantes? Quels en sont les limites actuelles? Quels outils pour quels type de service numériques? Ce sont les questions qui seront couverte pendant ces 25mn.
 slides:
   name: ~
-  url: ~
+  url: /assets/docs/2024/boavizta-etat-de-l-art-de-l-evaluation-de-l-impact-environnemental-des-sites-web-de-contenus-WeLoveSpeed2024.pdf
 video:
   name: ~
   url: ~
