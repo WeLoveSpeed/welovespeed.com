@@ -18,7 +18,7 @@ description: |
   You will walk away with a deeper understanding of what happens under the hood, which will allow you to better deal with the various gotchas and quirks present in today's browsers and resource loading features.
 slides:
   name: ~
-  url: ~
+  url: /assets/docs/2024/how-browsers-really-load-web-pages-robin-marx-WeLoveSpeed2024.pdf
 video:
   name: ~
   url: ~

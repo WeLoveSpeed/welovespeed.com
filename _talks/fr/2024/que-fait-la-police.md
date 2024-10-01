@@ -20,7 +20,7 @@ description: |
   
 slides:
   name: ~
-  url: ~
+  url: /assets/docs/2024/mais-que-fait-la-police-eroan-boyer-WeLoveSpeed2024.pdf
 video:
   name: ~
   url: ~

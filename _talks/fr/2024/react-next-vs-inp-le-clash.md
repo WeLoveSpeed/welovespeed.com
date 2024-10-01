@@ -18,7 +18,7 @@ description: |
   Je vous partage donc mon retour d’expérience sur les différentes versions de Next / React, un peu de Vue / Nuxt et même sur Svelte ou les web components, les astuces qui vont bien et ma méthodologie pour faire en sorte que ça dure.
 slides:
   name: ~
-  url: ~
+  url: /assets/docs/2024/inp-vs-js-jean-pierre-vincent-WeLoveSpeed2024.pdf
 video:
   name: ~
   url: ~

@@ -22,7 +22,7 @@ description: |
   After this talk you'll leave with actionable suggestions to go the extra mile. Perfect if you agree that only 75% isn't good enough. Perfect if you believe websites should be fast on all browsers, all devices, all connections, everywhere.
 slides:
   name: ~
-  url: ~
+  url: /assets/docs/2024/pushing-webperf-limits-tim-vereeke-WeLoveSpeed2024.pdf
 video:
   name: ~
   url: ~
