@@ -18,5 +18,5 @@ slides:
   url: /assets/docs/2024/performance-monitoring-jeremie-pereira-thibaut-sabot-WeLoveSpeed2024.pdf
 video:
   name: ~
-  url: ~
+  url: https://youtu.be/K2dzPM7-e7A
 ---
