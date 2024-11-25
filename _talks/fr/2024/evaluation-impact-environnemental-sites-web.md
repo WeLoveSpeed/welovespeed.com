@@ -21,5 +21,5 @@ slides:
   url: /assets/docs/2024/boavizta-etat-de-l-art-de-l-evaluation-de-l-impact-environnemental-des-sites-web-de-contenus-WeLoveSpeed2024.pdf
 video:
   name: ~
-  url: https://youtu.be/dscUnLh9Sa4
+  url: https://youtu.be/yWX1qAT01Mg
 ---
