@@ -25,5 +25,5 @@ slides:
   url: /assets/docs/2024/pushing-webperf-limits-tim-vereeke-WeLoveSpeed2024.pdf
 video:
   name: ~
-  url: ~
+  url: https://youtu.be/rjUrSIqiu6s
 ---
