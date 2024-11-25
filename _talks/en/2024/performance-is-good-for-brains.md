@@ -29,5 +29,5 @@ slides:
   url: https://speakerdeck.com/tammyeverts/performance-is-good-for-brains-we-love-speed-2024
 video:
   name: ~
-  url: ~
+  url: https://youtu.be/Wp_XSIqALMk
 ---

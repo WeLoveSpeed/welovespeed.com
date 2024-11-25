@@ -27,5 +27,5 @@ slides:
   url: /assets/docs/2024/web-performance-testing-estela-franco-WeLoveSpeed2024.pdf
 video:
   name: ~
-  url: ~
+  url: https://youtu.be/jaAvBpXJY9k
 ---

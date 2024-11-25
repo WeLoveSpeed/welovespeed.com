@@ -21,5 +21,5 @@ slides:
   url: /assets/docs/2024/how-browsers-really-load-web-pages-robin-marx-WeLoveSpeed2024.pdf
 video:
   name: ~
-  url: ~
+  url: https://youtu.be/p0lFyPuH8Zs
 ---

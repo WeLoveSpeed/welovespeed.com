@@ -18,5 +18,5 @@ slides:
   url: /assets/docs/2024/we-love-loaf-inp-nantes-karlijn-lowik-erwin-hofman-WeLoveSpeed2024.pdf
 video:
   name: ~
-  url: ~
+  url: https://youtu.be/53qtfQg7OLM
 ---

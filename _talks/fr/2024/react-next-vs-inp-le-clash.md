@@ -21,5 +21,5 @@ slides:
   url: /assets/docs/2024/inp-vs-js-jean-pierre-vincent-WeLoveSpeed2024.pdf
 video:
   name: ~
-  url: ~
+  url: https://youtu.be/3mprSJpvFn4
 ---

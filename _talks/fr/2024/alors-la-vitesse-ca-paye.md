@@ -18,5 +18,5 @@ slides:
   url: /assets/docs/2024/alors-la-webperf-ca-paye-fasterize-WeLoveSpeed2024.pdf
 video:
   name: ~
-  url: ~
+  url: https://youtu.be/IIxa97zK7d0
 ---

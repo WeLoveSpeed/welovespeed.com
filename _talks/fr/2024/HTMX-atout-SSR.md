@@ -17,5 +17,5 @@ slides:
   url: /assets/docs/2024/htmx-le-nouvel-atout-perf-pour-vos-projets-ssr-ewen-quimerc-h-WeLoveSpeed2024.pdf
 video:
   name: ~
-  url: ~
+  url: https://youtu.be/Mc9flhn4edQ
 ---
